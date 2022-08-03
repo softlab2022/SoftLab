@@ -1,0 +1,781 @@
+/**---------- products-Hero Area ----------**/
+.integrate-google-drive-hero-area {
+  background: url("../images/google-drive/integrate-hero-bg.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 220px 0 100px 0;
+
+  .hero-content {
+    h1 {
+      font-size: 3rem;
+      color: $h1_color;
+      font-weight: 600;
+      & span {
+          color: #01AA47;
+        }
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: $p_color;
+      line-height: 150%;
+      padding: 3% 18%;
+    }
+  }
+
+
+/**---------- inner-header-bg scss ----------**/
+
+.inner-header-bg {
+  img {
+    padding-bottom: 25%;
+  }
+}
+}
+/**---------- integrate-google-drive-feature-area scss ----------**/
+
+#integrate-feature {
+  padding-top: 25%;
+  .integrate-feature-head {
+      h1 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        color: $h1_color;
+        line-height: 120%;
+        & span {
+          color: #01AA47;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.1rem;
+        color: $p_color;
+        line-height: 150%;
+        padding: 3% 18%;
+        margin-bottom: 5%;
+      }
+      
+  }
+  .multiple {
+    background-color: #F5FCF4;
+    padding: 40px;
+    border-radius: 40px;
+    .featuer-item-img {
+      margin-bottom: 0;
+    }
+  }
+
+  .featuer-item-img {
+    margin-bottom: 100px;
+  }
+  .featuer-item {
+    .file-logo {
+      margin-bottom: 17px;
+    }
+    .file-text {
+      h3 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 120%;
+        color: $h1_color;
+        text-transform: capitalize;
+        padding-top: 20px;
+      }
+      p {
+        font-weight: 400;
+        font-size: .9rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-right: 42%;
+        padding-bottom: 10%;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: .9rem;
+        line-height: 19px;
+        color: #fff;
+        text-transform: capitalize;
+        background-color: #01AA47;
+        padding: 15px 30px;
+        border-radius: 8px;
+        &:hover {
+          box-shadow: $color_primary 0px 2px 8px 0px;
+          border-color: transparent;
+        }
+      }
+    }
+  }
+
+  .page-bulider {
+   .file-text {
+    padding-top: 20%;
+    h3 {
+      padding-right: 25%;
+    }
+    p {
+      padding-bottom: 0;
+    }
+   }
+   .files {
+    display: flex;
+    h5 {
+      font-weight: 500;
+      font-size: .9rem;
+      line-height: 150%;
+      color: $h1_color;
+      text-transform: capitalize;
+    }
+    .fa-check {
+      color: #1FA463;
+      border: 2px solid #1FA463;
+      width: 20px;
+      height: 20px;
+      line-height: 18px;
+      border-radius: 50px;
+      margin: 0 6px;
+      text-align: center;
+      font-size: 12px;
+    }
+   }
+  }
+
+  .from-contact {
+   .file-text {
+    padding-top: 20%;
+    h3 {
+      padding-right: 0%;
+      font-size: 2.9rem;
+      padding-bottom: 3%;
+    }
+    p {
+      padding-bottom: 0;
+    }
+   }
+   .files {
+    display: flex;
+    h5 {
+      font-weight: 500;
+      font-size: .9rem;
+      line-height: 150%;
+      color: $h1_color;
+      text-transform: capitalize;
+    }
+    .fa-check {
+      color: #1FA463;
+      border: 2px solid #1FA463;
+      width: 20px;
+      height: 20px;
+      line-height: 18px;
+      border-radius: 50px;
+      margin: 0 6px;
+      text-align: center;
+      font-size: 12px;
+    }
+   }
+  }
+
+
+}
+
+/**---------- full-woo scss ----------**/
+#full-woo {
+  background-color: #F5FCF4;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .full-woo-head {
+    h1 {
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 120%;
+      color: $h1_color;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      padding: 0 16%;
+    }
+  }
+}
+
+/**---------- ex-feature scss ----------**/
+#ex-feature {
+  background-color: #F5FCF4;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  .ex-feature-head {
+    h1 {
+      font-weight: 700;
+      font-size: 3.2rem;
+      line-height: 120%;
+      color: $h1_color;
+      span {
+        color: #01AA47;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: .9rem;
+      line-height: 150%;
+      color: $p_color;
+      padding-bottom: 20px;
+    }
+  }
+
+  .ex-feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 290px;
+    margin-bottom: 25px;
+    .ex-logo {
+      img {
+        padding-bottom: 20px;
+      }
+    }
+   .ex-text {
+    h4 {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: $h1_color;
+      line-height: 120%;
+      text-transform: capitalize;
+  }
+  p {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 150%;
+    color: $p_color;
+    padding: 0 18%;
+  }
+   }
+  }
+  .ex-feature-item2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 290px;
+    margin-bottom: 25px;
+    border: 2px dotted #000;
+
+   .ex-text {
+    h4 {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: $h1_color;
+      line-height: 120%;
+      text-transform: capitalize;
+      padding: 0 29%;
+      margin-top: 10%;
+  }
+  p {
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 150%;
+    color: $p_color;
+    padding: 0 18%;
+    margin-bottom: 12%;
+  }
+  a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #fff;
+    background-color: #01AA47;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-transform: capitalize;
+  }
+  }
+
+  }
+
+}
+
+/**---------- how to use scss ----------**/
+#how-to-use{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  .how-to-use-head {
+    h1 {
+      font-weight: 700;
+      font-size: 3.5rem;
+      line-height: 120%;
+      color: $h1_color;
+      span {
+        color: #01AA47;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      padding: 2% 15%;
+    }
+  }
+
+  .use-item {
+    background-color: #F5FFF9;
+    border-radius: 20px;
+    padding: 15px;
+     height: 150px;
+     margin-bottom: 20px;
+     .use-img {
+      img {
+        width: 75px;
+      }
+     }
+      .use-text {
+        padding-left: 20px;
+        h4 {
+          font-weight: 700;
+          font-size: 1.2rem;
+          line-height: 120%;
+          color: $h1_color;
+          text-transform: capitalize;
+        }
+        p {
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 150%;
+          color: $p_color;
+        }
+      }
+
+  }
+
+  .use-item2 {
+    background-color: #F7F9FF;
+  }
+  .use-item3 {
+    background-color: #FFF4F1;
+  }
+  .use-item4 {
+    background-color: #EFF9FF;
+  }
+
+}
+/**---------- people think scss ----------**/
+#people-think {
+  .people-think-head {
+    h1 {
+      font-weight: 700;
+      font-size: 3.5rem;
+      line-height: 120%;
+      color: $h1_color;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      padding: 0 20%;
+      margin-bottom: 3%;
+    }
+  }
+  .slick-dots {
+   text-align: center;
+   margin-top: 20px;
+    li {
+      list-style-type: none;
+      
+      background-color: #E9F6F0;
+      margin: 0 8px;
+      width: 20px;
+      height: 20px;
+      line-height: 23px;
+      display: inline-block;
+      border-radius: 50%;
+      color: transparent;
+      cursor: pointer;
+    }
+    button {
+      width: 10px;
+      height: 10px;
+      background-color: #01AA47;
+      color: transparent;
+      border-radius: 50%;
+      line-height: 10px;
+      border: 0;
+      opacity: 0;
+    }
+
+  }
+
+  .slick-dots {
+    li.slick-active {
+      button {
+        opacity: 1;
+      }
+    }
+  }
+
+
+  .think-main-items {
+    
+    .think-item {
+      background-color: #fff;
+      // box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.04);
+      border-radius: 20px;
+      padding: 20px;
+      margin: 0 10px;
+    }
+    .icon {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+      border-radius: 50px;
+      color: #fff;
+    }
+    .icon3 {
+      background: linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
+    }
+    .icon4 {
+      background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
+    }
+    .icon5 {
+      background: linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
+    }
+    p {
+      font-size: 1rem;
+      color: $p_color;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 150%;
+      margin-top: 10px;
+    }
+    .name {
+      .fa-user {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: #8F94FF;
+        background-color: #F6F7FB;
+        text-align: center;
+        border-radius: 50px;
+      }
+      h5 {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 120%;
+        color:$h1_color;
+        padding-left: 10px;
+        padding-top: 5px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**-----newslatter area------**/
+.integrate-google-drive .newslatter {
+    position: relative;
+    top: 68px;
+    padding-bottom: 0;
+    .newslatter {
+      background: url("../images/google-drive/inner-page-cta.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      border-radius: 20px;
+    }
+  
+    .newslatter-contatn {
+      h4 {
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 120%;
+        padding-right: 35%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+      }
+      p {
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        padding-right: 8rem;
+      }
+  }
+  
+  .newslatter-from {
+    padding-top: 0;
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 19px;
+      text-transform: capitalize;
+    }
+    .butt1 {
+      margin: 0 15px;
+      background-color: #01AA47;
+      padding: 15px 36px;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .butt2 {
+      margin: 0 15px;
+      background-color: #fff;
+      padding: 15px 36px;
+      color: #01AA47;
+      border-radius: 8px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    //Extra large
+  }
+  
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+        .newslatter-contatn {
+          h4 {
+            padding-right: 1%;
+            font-size: 1rem;
+          }
+          p {
+            font-size: .785rem;
+          }
+        }
+    }
+  
+  @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+    .newslatter {
+      padding: 25px;
+    }
+    .newslatter-contatn {
+      h4 {
+        padding-right: 0;
+        font-size: 1rem;
+      }
+      p {
+        font-size: .785rem;
+      }
+    }
+  }
+  
+  @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+    top: 60px;
+    .newslatter {
+      padding: 25px;
+    }
+  
+    .newslatter-contatn {
+      h4 {
+        padding-right: 0;
+        font-size: 1rem;
+      }
+      p {
+        font-size: .785rem;
+      }
+    }
+  }
+  
+  }
+  
+  /**----- footer area -----**/
+  
+  .integrate-google-drive .footer {
+    background: url("../images/google-drive/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    .footer-contant {
+      p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 150%;
+         color: $p_color;
+         padding-top: 5%;
+         padding-right: 20%;
+      }
+    }
+  
+    .footer-menu-head {
+      h4{
+        color: $h1_color;
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 120%;
+      }
+    }
+  
+    .footer-menu {
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-top: 7%;
+      }
+    }
+    .footer-menu-help {
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-top: 7%;
+      }
+    }
+    .footer-menu-products {
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-top: 7%;
+      }
+      img {
+        padding-right: 3%;
+      }
+    }
+  
+    .footer-social {
+      padding-top: 20px;
+      a {
+        text-decoration: none;
+      }
+      i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-right: 15px;
+        &:hover{
+          box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
+        }
+      }
+      .fa-facebook-f {
+        color: #007BFF;
+      }
+      .fa-twitter {
+        color: #00ADEE;
+      }
+      .fa-pinterest-p {
+        color: #E60023;
+      }
+      .fa-linkedin-in {
+        color: #0072B1;
+      }
+    }
+    .footer-last {
+      margin-top: 3%;
+      border-top: 0.5px solid rgba(186, 186, 186, 0.3);
+      h5 {
+        padding-top: 2%;
+        color: $p_color;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+      }
+    }
+  
+    @media (min-width: 1200px) {
+      //Extra large
+    }
+    
+      @media (min-width: 992px) and (max-width: 1199px) {
+          //Laptop
+      }
+    
+    @media (min-width: 768px) and (max-width: 991px)  {
+      //Tablet
+      padding-top: 20%;
+      .footer-contant {
+        p {
+          font-size: .785rem;
+        }
+      }
+      .pro {
+        h4 {
+          padding-top: 25px;
+        }
+      }
+      .footer-menu {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-help {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-products {
+        a {
+          padding-top: 4%;
+        }
+      }
+    }
+    
+    @media (min-width: 420px) and (max-width: 767px) {
+      //Mobile
+      padding-top: 20%;
+  
+      .footer-contant {
+        p {
+          font-size: 1.1rem;
+        }
+      }
+      .footer-menu-head {
+        h4 {
+          padding-top: 25px;
+        }
+      }
+      .footer-menu {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-help {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-products {
+        a {
+          padding-top: 4%;
+        }
+      }
+  
+    }
+  
+  }

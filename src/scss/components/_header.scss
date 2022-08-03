@@ -1,0 +1,140 @@
+/**---------- Header ----------**/
+.site-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  background: transparent;
+  backdrop-filter: inherit;
+  z-index: 99;
+
+  .primary-nav {
+    padding-top: 1rem;
+
+    .navbar-brand {
+    }
+
+    .navbar-nav {
+      .nav-item {
+        margin: 0 1rem;
+
+        a {
+          color: #5C637E;
+
+          &:hover {
+            color: #3D3D3D;
+          }
+        }
+
+        .dropdown-menu {
+          display: none;
+        }
+
+        &:hover .dropdown-menu {
+          display: block;
+        }
+
+        .arrow {
+          width: 15px;
+          height: 15px;
+          background-color: #fff;
+          transform: rotate(45deg);
+          position: absolute;
+          top: -7px;
+          left: 32%;
+        }
+      }
+    }
+
+    .megamenu {
+      padding: 30px;
+      width: 500px;
+      left: -100px;
+      border-radius: 10px;
+      border: none;
+
+      .mega-item {
+        padding: 20px;
+        margin-bottom: 5px;
+        text-decoration: none;
+
+        .mega-text {
+          padding-left: 20px;
+
+          &-title {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            line-height: 120%;
+            color: #5C637E;
+            text-transform: capitalize;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: .9rem;
+            line-height: 150%;
+
+          }
+        }
+
+        &:hover {
+          background-color: #F9FAFF;
+        }
+      }
+    }
+
+    .view-products {
+      margin-left: 3rem;
+
+      a {
+        background: $button_bg_color;
+        padding: .5rem 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .primary-nav {
+      padding-top: 1rem;
+
+      .navbar-brand {
+        img {
+          width: 124px;
+        }
+      }
+
+      .navbar-collapse {
+        background: #fff;
+        border-radius: .5rem;
+        padding: 1rem;
+      }
+
+      .megamenu {
+        padding: 0;
+        width: 100%;
+
+        .mega-item {
+          padding: .5rem 0;
+          border-bottom: 1px solid #eee;
+
+          img {
+            width: 40px;
+          }
+
+          .mega-text-title {
+            font-size: 1rem;
+          }
+
+        }
+      }
+
+      .view-products {
+        margin-top: .5rem;
+        margin-left: 0;
+      }
+
+    }
+  }
+
+}

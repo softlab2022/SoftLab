@@ -1,0 +1,539 @@
+
+/**---------- Hero Area ----------**/
+.about-hero-area {
+    background: url("../images/about/about-bg-1.png");
+    height: 89vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 100px 0;
+  
+    .about-hero-content {
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+        $h1_color:#151826;
+        span {
+          color: #6E6DFF;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        $p_color:#5C637E;
+        margin-right: 38%;
+      }
+
+    }
+
+    @media (min-width: 1200px) {
+      //Extra large
+      
+    }
+    
+      @media (min-width: 992px) and (max-width: 1199px) {
+          //Laptop
+          .about-hero-content {
+            h1 {
+              font-size: 2.5rem;
+              
+            }
+            p {
+              margin-right: 0;
+              font-size: .785rem;
+              padding-right: 14px;
+              
+            }
+           }
+      }
+  
+    @media (min-width: 768px) and (max-width: 991px)  {
+      //Tablet
+      height: 64vh;
+      .about-hero-content {
+        h1 {
+          font-size: 2rem;
+          text-align: center;
+        }
+        p {
+          margin-right: 0;
+          font-size: .785rem;
+          padding: 0 28px;
+          text-align: center;
+        }
+       }
+     
+    }
+    
+    @media (min-width: 420px) and (max-width: 767px) {
+      //Mobile
+     .about-hero-content {
+      h1 {
+        font-size: 1.8rem;
+        text-align: center;
+      }
+      p {
+        margin-right: 0;
+        font-size: .785rem;
+        padding: 0 21px;
+        text-align: center;
+      }
+     }
+
+    }
+
+  
+  }
+
+  #journey {
+    background: url("../images/journey-bg.png");
+// background-color: #fdfbf9;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 190px 0 100px 0;
+
+    .journey-head {
+      h2 {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 120%;
+        color: $h1_color;
+        padding-right: 18%;
+        span {
+          color: #6E6DFF;
+        }
+      }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: $p_color;
+          margin-right: 4%;
+          padding-top: 5%;
+        }
+    }
+
+ .about-products-item{
+  position: relative;
+  .group-line {
+    width: 21px;
+    height: 502px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 40.82%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 10px;
+    
+  }
+    //wp-radio scss
+
+  .journey-items {
+    position: absolute;
+    top: 5%;
+    .journey-text-main {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border-radius: 35px;
+      position: absolute;
+      // width: max-content;
+      left: 50%;
+      width: 500px;
+
+      .journey-text-img {
+        img {
+          border-left: 4px solid #738CF6;
+          padding-left: 15px;
+          border-radius: 1px;
+        }
+      }
+
+      .journey-text-item {
+        padding-left: 5%;
+        .text-item {
+          padding-bottom: 2%;
+          a {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            color: $h1_color;
+            text-transform: capitalize;
+            margin-bottom: 1%;
+          }
+          h5 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120%;
+            color: $h1_color;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: $p_color;
+          margin-bottom:0;
+        }
+      }
+    }
+  }
+
+  .journey-img {
+    position: relative;
+    right: 6px;
+  }
+
+  //radio-player scss
+    
+  .journey-items2 {
+    position: absolute;
+    top: 43%;
+
+    .journey-text-main {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border-radius: 35px;
+      position: absolute;
+      // 
+      width: 500px;
+      left: 50%;
+      .journey-text-img {
+        img {
+          border-left: 4px solid #2DCA74;
+          padding-left: 15px;
+          border-radius: 1px;
+        }
+      }
+      .journey-text-item {
+        padding-left: 5%;
+        .text-item {
+          padding-bottom: 2%;
+          a {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            color: $h1_color;
+            text-transform: capitalize;
+            margin-bottom: 1%;
+          }
+          h5 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120%;
+            color: $h1_color;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: $p_color;
+          margin-bottom:0;
+        }
+      }
+    }
+  }
+  //Integrate Google Drive scss
+    
+  .journey-items3 {
+    position: absolute;
+    bottom: 12%;
+
+    .journey-text-main {
+      background-color: #FFFFFF;
+      padding: 20px;
+      border-radius: 35px;
+      position: absolute;
+      // width: max-content;
+      width: 500px;
+      left: 50%;
+      .journey-text-img {
+        img {
+          border-left: 4px solid #FD6C87;
+          padding-left: 15px;
+          border-radius: 1px;
+        }
+      }
+      .journey-text-item {
+        padding-left: 5%;
+        .text-item {
+          padding-bottom: 2%;
+          a {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            color: $h1_color;
+            text-transform: capitalize;
+            margin-bottom: 1%;
+          }
+          h5 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120%;
+            color: $h1_color;
+          }
+        }
+  
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: $p_color;
+          margin-bottom:0;
+        }
+      }
+    }
+  }
+
+
+ }
+
+ @media (min-width: 1200px) {
+  //Extra large
+  
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .journey-head {
+        
+        h2 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: .9rem;
+          padding-top: 1%;
+        }
+      }
+      .about-products-item {
+        .journey-items {
+          .journey-text-main {
+            .journey-text-item {
+              .text-item {
+                a {
+                  font-size: 1rem;
+                }
+                h5 {
+                  font-size: .785rem;
+                }
+              }
+              p {
+                font-size: .785rem;
+              }
+            }
+            width: 500px;
+            left: 30%;
+          }
+        }
+        .journey-items2 {
+          .journey-text-main {
+            .journey-text-item {
+              .text-item {
+                a {
+                  font-size: 1rem;
+                }
+                h5 {
+                  font-size: .785rem;
+                }
+              }
+              p {
+              font-size: .785rem;
+            }
+      
+            }
+            width: 500px;
+            left: 30%;
+          }
+        }
+        .journey-items3 {
+          .journey-text-main {
+            .journey-text-item {
+              .text-item {
+                a {
+                  font-size: 1rem;
+                }
+                h5 {
+                  font-size: .785rem;
+                }
+              }
+              p {
+              font-size: .785rem;
+            }
+      
+            }
+            width: 500px;
+            left: 30%;
+          }
+        }
+       }
+  }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  padding: 110px 0 50px 0;
+  .journey-head {
+    text-align: center;
+    h2 {
+      font-size: 2rem;
+      padding-right: 0;
+    }
+    p {
+      font-size: .785rem;
+      padding-bottom: 20px;
+      padding-top: 1%;
+    }
+  }
+
+ .about-products-item {
+  .group-line {
+    height: 344px;
+  }
+  .journey-items {
+    .journey-text-main {
+      width: 389px;
+      .journey-text-item {
+       
+        .text-item {
+          a {
+            font-size: 1rem;
+          }
+          h5 {
+            font-size: .785rem;
+          }
+        }
+        p {
+          font-size: .785rem;
+        }
+      }
+    }
+  }
+  .journey-items2 {
+    .journey-text-main {
+      width: 389px;
+      .journey-text-item {
+        .text-item {
+          a {
+            font-size: 1rem;
+          }
+          h5 {
+            font-size: .785rem;
+          }
+        }
+        p {
+        font-size: .785rem;
+      }
+
+      }
+    }
+  }
+  .journey-items3 {
+    .journey-text-main {
+      width: 389px;
+      .journey-text-item {
+        .text-item {
+          a {
+            font-size: 1rem;
+          }
+          h5 {
+            font-size: .785rem;
+          }
+        }
+        p {
+        font-size: .785rem;
+      }
+
+      }
+    }
+  }
+ }
+ 
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  padding: 110px 0 70px 0;
+  .journey-head {
+    text-align: center;
+    h2 {
+      font-size: 1.8rem;
+      padding-right: 0;
+    }
+    p {
+      font-size: .785rem;
+      padding-bottom: 20px;
+    }
+  }
+
+ .about-products-item {
+  .group-line {
+    height: 313px;
+  }
+  .journey-items {
+    .journey-text-main {
+      .journey-text-item {
+        .text-item {
+          a {
+            font-size: 1rem;
+          }
+          h5 {
+            font-size: .785rem;
+          }
+        }
+        p {
+          font-size: .785rem;
+        }
+      }
+      width: 350px;
+      left: 30%;
+    }
+  }
+  .journey-items2 {
+    top: 47%;
+    .journey-text-main {
+      .journey-text-item {
+        .text-item {
+          a {
+            font-size: 1rem;
+          }
+          h5 {
+            font-size: .785rem;
+          }
+        }
+        p {
+        font-size: .785rem;
+      }
+
+      }
+      width: 350px;
+      left: 30%;
+    }
+  }
+  .journey-items3 {
+    bottom: 0%;
+    .journey-text-main {
+      .journey-text-item {
+        .text-item {
+          a {
+            font-size: 1rem;
+          }
+          h5 {
+            font-size: .785rem;
+          }
+        }
+        p {
+        font-size: .785rem;
+      }
+
+      }
+      width: 350px;
+      left: 30%;
+    }
+  }
+ }
+
+}
+
+
+  }

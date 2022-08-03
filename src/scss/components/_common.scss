@@ -1,0 +1,31 @@
+body {
+  --bs-body-font-size: 16px;
+  --bs-body-bg: #F9FAFF;
+  color: #5C637E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.btn {
+  color: #fff;
+  padding: .7rem 1.2rem;
+  background: $button_bg_color;
+  transition: all .2s ease-in-out;
+  box-shadow: none;
+  outline: none;
+  border-color: lighten($color_primary, 10%);
+  border-radius: .5rem;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:hover {
+    box-shadow: $color_primary 0px 2px 8px 0px;
+    border-color: transparent;
+  }
+}
