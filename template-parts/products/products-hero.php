@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 m-auto">
                         <div class="integrate-google-drive-img text-center">
-                            <img class="img-fluid" src="assets/images/products/google-drive-1.png" alt="wp-icon">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/products/google-drive-1.png" alt="wp-icon">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
