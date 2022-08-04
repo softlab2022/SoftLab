@@ -461,6 +461,7 @@ if ( function_exists( 'register_nav_menus' ) ) {
 		array(
 			'main-menu'   => 'Main Navigation Menu',
 			'footer-menu' => 'Footer Menu',
+			'integrate-google-drive-menu' => 'Integrate Google Drive Menu',
 		)
 	);
 }

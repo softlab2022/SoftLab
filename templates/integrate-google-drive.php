@@ -6,7 +6,7 @@
  *
  */
 
-get_header();
+get_header('integrate-google-drive');
 
 
 get_template_part( 'template-parts/integrate-google-drive/home/hero-area' );
@@ -20,6 +20,6 @@ get_template_part( 'template-parts/integrate-google-drive/home/people-think' );
 
 
 <?php
-get_footer();
+get_footer('integrate-google-drive');
 
 

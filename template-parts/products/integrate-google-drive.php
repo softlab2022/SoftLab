@@ -117,7 +117,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="radio-player-content m-auto">
                             <div class="radio-player-content-head d-flex justify-content-start align-items-center">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player-head-icon.png" alt="radio-head-logo">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/products/radio-player-head-icon.png" alt="radio-head-logo">
                                 <h5><span>Radio Player</span></h5>
                             </div>
         
