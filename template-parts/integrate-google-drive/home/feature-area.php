@@ -13,13 +13,13 @@
              <!---=== file browser====-->
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="assets/images/google-drive/file-browser-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-browser-img.png" alt="file-browser-img">
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="featuer-item">
                     <div class="file-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/file-logo.png" alt="file-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-logo.png" alt="file-logo">
                     </div>
                     <div class="file-text">
                         <h3>file browser</h3>
@@ -34,7 +34,7 @@
             <div class="col-lg-5">
                 <div class="featuer-item">
                     <div class="file-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/uploder-logo.png" alt="uploder-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-logo.png" alt="uploder-logo">
                     </div>
                     <div class="file-text">
                         <h3>File Uploader</h3>
@@ -46,21 +46,21 @@
 
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="assets/images/google-drive/file-uploder-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-uploder-img.png" alt="file-browser-img">
                 </div>
             </div>
 
             <!---=== Photo Gallery====-->
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="assets/images/google-drive/photo-gallery-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-gallery-img.png" alt="file-browser-img">
                 </div>
             </div>
 
             <div class="col-lg-5">
                 <div class="featuer-item">
                     <div class="file-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/gallery-logo.png" alt="gallery-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/gallery-logo.png" alt="gallery-logo">
                     </div>
                     <div class="file-text">
                         <h3>Photo Gallery</h3>
@@ -75,7 +75,7 @@
             <div class="col-lg-5">
                 <div class="featuer-item">
                     <div class="file-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/bulider-logo.png" alt="gallery-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/bulider-logo.png" alt="gallery-logo">
                     </div>
                     <div class="file-text">
                         <h3>Shortcode Builder</h3>
@@ -87,7 +87,7 @@
 
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="assets/images/google-drive/shortcode-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/shortcode-img.png" alt="file-browser-img">
                 </div>
             </div>
 
@@ -95,14 +95,14 @@
            
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="assets/images/google-drive/media player-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/media player-img.png" alt="file-browser-img">
                 </div>
             </div>
 
             <div class="col-lg-5">
                 <div class="featuer-item">
                     <div class="file-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/media-logo.png" alt="gallery-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/media-logo.png" alt="gallery-logo">
                     </div>
                     <div class="file-text">
                         <h3>Media player</h3>
@@ -119,7 +119,7 @@
                         <div class="col-lg-5">
                             <div class="featuer-item">
                                 <div class="file-logo">
-                                    <img class="img-fluid" src="assets/images/google-drive/account-logo.png" alt="gallery-logo">
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/account-logo.png" alt="gallery-logo">
                                 </div>
                                 <div class="file-text">
                                     <h3>Multiple Google Accounts</h3>
@@ -131,7 +131,7 @@
                        
                         <div class="col-lg-7">
                             <div class="featuer-item-img">
-                                <img class="img-fluid" src="assets/images/google-drive/multiple-img.png" alt="file-browser-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/multiple-img.png" alt="file-browser-img">
                             </div>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
            
            <div class="col-lg-7">
             <div class="featuer-item-img">
-                <img class="img-fluid" src="assets/images/google-drive/page-bulider-img.png" alt="file-browser-img">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/page-bulider-img.png" alt="file-browser-img">
             </div>
         </div>
 
@@ -177,7 +177,7 @@
    
         <div class="col-lg-7">
             <div class="featuer-item-img">
-                <img class="img-fluid" src="assets/images/google-drive/form-contact-img.png" alt="file-browser-img">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/form-contact-img.png" alt="file-browser-img">
             </div>
         </div>
 

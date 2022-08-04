@@ -14,7 +14,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon1.png" alt="icon1">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon1.png" alt="icon1">
                     </div>
                     <div class="ex-text">
                         <h4>Easy Setup</h4>
@@ -27,7 +27,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon2.png" alt="icon2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon2.png" alt="icon2">
                     </div>
                     <div class="ex-text">
                         <h4>Private Folders</h4>
@@ -40,7 +40,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon3.png" alt="icon3">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon3.png" alt="icon3">
                     </div>
                     <div class="ex-text">
                         <h4>Audio & Video Player </h4>
@@ -53,7 +53,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon4.png" alt="icon4">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon4.png" alt="icon4">
                     </div>
                     <div class="ex-text">
                         <h4>Embed Document</h4>
@@ -66,7 +66,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon5.png" alt="icon5">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon5.png" alt="icon5">
                     </div>
                     <div class="ex-text">
                         <h4>Easy SetupFile View Links</h4>
@@ -79,7 +79,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon6.png" alt="icon6">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon6.png" alt="icon6">
                     </div>
                     <div class="ex-text">
                         <h4>File Download Links </h4>
@@ -92,7 +92,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon7.png" alt="icon7">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon7.png" alt="icon7">
                     </div>
                     <div class="ex-text">
                         <h4>Use Own Google App</h4>
@@ -105,7 +105,7 @@
             <div class="col-lg-4 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="assets/images/google-drive/icon8.png" alt="icon8">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon8.png" alt="icon8">
                     </div>
                     <div class="ex-text">
                         <h4>Statistics</h4>

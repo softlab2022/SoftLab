@@ -12,7 +12,7 @@
             <div class="col-lg-3 col-6 col-sm-6 m-auto">
                 <div class="amazing-item d-flex justify-content-start align-items-center">
                     <div class="amazing-item-logo">
-                        <img class="img-fluid" src="assets/images/about/products.png" alt="easy">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/products.png" alt="easy">
                     </div>
                     <div class="amazing-item-content">
                         <h5>03+</h5>
@@ -24,7 +24,7 @@
             <div class="col-lg-3 col-6 col-sm-6 m-auto">
                 <div class="amazing-item d-flex justify-content-start align-items-center">
                     <div class="amazing-item-logo">
-                        <img class="img-fluid" src="assets/images/about/downloads.png" alt="easy">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/downloads.png" alt="easy">
                     </div>
                     <div class="amazing-item-content">
                         <h5>8.5k+</h5>
@@ -36,7 +36,7 @@
             <div class="col-lg-3 col-6 col-sm-6 m-auto">
                 <div class="amazing-item d-flex justify-content-start align-items-center">
                     <div class="amazing-item-logo">
-                        <img class="img-fluid" src="assets/images/about/happy.png" alt="easy">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/happy.png" alt="easy">
                     </div>
                     <div class="amazing-item-content">
                         <h5>4.5k+</h5>
@@ -48,7 +48,7 @@
             <div class="col-lg-3 col-6 col-sm-6 m-auto">
                 <div class="amazing-item d-flex justify-content-start align-items-center">
                     <div class="amazing-item-logo">
-                        <img class="img-fluid" src="assets/images/about/countries.png" alt="easy">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/countries.png" alt="easy">
                     </div>
                     <div class="amazing-item-content">
                         <h5>165+</h5>

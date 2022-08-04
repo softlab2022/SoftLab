@@ -15,11 +15,11 @@
     
                     <div class="journey-items d-flex justify-content-start align-items-center">
                         <div class="journey-img">
-                            <a href="#"><img class="img-fluid" src="assets/images/about/line1.png" alt="line1"></a>
+                            <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line1.png" alt="line1"></a>
                         </div>
                         <div class="journey-text-main d-flex justify-content-start align-items-center">
                             <div class="journey-text-img">
-                                <a href="#"><img class="img-fluid" src="assets/images/about/j-icon1.png" alt="j-icon1"></a>
+                                <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon1.png" alt="j-icon1"></a>
                             </div>
                             <div class="journey-text-item">
                                 <div class="text-item d-flex justify-content-between">
@@ -34,11 +34,11 @@
 
                     <div class="journey-items2 d-flex justify-content-start align-items-center">
                         <div class="journey-img">
-                            <a href="#"><img class="img-fluid" src="assets/images/about/line2.png" alt="line2"></a>
+                            <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line2.png" alt="line2"></a>
                         </div>
                         <div class="journey-text-main d-flex justify-content-start align-items-center">
                             <div class="journey-text-img">
-                                <a href="#"><img class="img-fluid" src="assets/images/about/j-icon2.png" alt="j-icon2"></a>
+                                <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon2.png" alt="j-icon2"></a>
                             </div>
                             <div class="journey-text-item">
                                 
@@ -54,11 +54,11 @@
 
                     <div class="journey-items3 d-flex justify-content-start align-items-center">
                         <div class="journey-img">
-                            <a href="#"><img class="img-fluid" src="assets/images/about/line3.png" alt="line3"></a>
+                            <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line3.png" alt="line3"></a>
                         </div>
                         <div class="journey-text-main d-flex justify-content-start align-items-center">
                             <div class="journey-text-img">
-                                <a href="#"><img class="img-fluid" src="assets/images/about/j-icon3.png" alt="j-icon3"></a>
+                                <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon3.png" alt="j-icon3"></a>
                             </div>
                             <div class="journey-text-item">
                                 <div class="text-item d-flex justify-content-between">

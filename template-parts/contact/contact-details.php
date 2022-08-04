@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7 col-sm-6 f-img2 m-auto">
                 <div class="contact-frame-img">
-                    <img class="img-fluid" src="assets/images/contact/contact-frame.png" alt="contact-frame">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="contact-frame">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 m-auto">
@@ -44,7 +44,7 @@
 
             <div class="col-lg-7 col-sm-6 f-img1 m-auto">
                 <div class="contact-frame-img">
-                    <img class="img-fluid" src="assets/images/contact/contact-frame.png" alt="contact-frame">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="contact-frame">
                 </div>
             </div>
 

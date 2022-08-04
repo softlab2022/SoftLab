@@ -23,6 +23,15 @@
       line-height: 150%;
       padding: 3% 18%;
     }
+    a {
+      text-decoration: none;
+      margin: 0 10px;
+      .get {
+        color: #fff;
+        background-color: #01AA47;
+        padding: 15px 35px;
+      }
+    }
   }
 
 

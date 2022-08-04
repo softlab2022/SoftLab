@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="about-hero-image text-end">
-                    <img src="assets/images/about/about-head-img.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/about-head-img.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>

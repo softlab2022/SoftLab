@@ -25,7 +25,7 @@
                     <div class="blog-main">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img class="img-fluid" src="assets/images/blog/blog-detalis/blog-main-img.png" alt="blog-main-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/blog-main-img.png" alt="blog-main-img">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-cnt-text d-flex justify-content-between">
@@ -51,7 +51,7 @@
                     
                                 <div class="most-popular-item d-flex justify-content-start align-items-center">
                                     <div class="most-img">
-                                        <img class="img-fluid" src="assets/images/blog/blog-detalis/m-img1.png" alt="m-img1">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/m-img1.png" alt="m-img1">
                                     </div>
                                     <div class="most-text">
                                         <h6>Planning Your Online Business Goals With A Specialist</h6>
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="most-popular-item d-flex justify-content-start align-items-center">
                                     <div class="most-img">
-                                        <img class="img-fluid" src="assets/images/blog/blog-detalis/m-img2.png" alt="m-img2">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/m-img2.png" alt="m-img2">
                                     </div>
                                     <div class="most-text">
                                         <h6>Cloud Feature: Get to Quote Your Best Price this Plugin</h6>
@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="most-popular-item d-flex justify-content-start align-items-center">
                                     <div class="most-img">
-                                        <img class="img-fluid" src="assets/images/blog/blog-detalis/m-img3.png" alt="m-img3">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/m-img3.png" alt="m-img3">
                                     </div>
                                     <div class="most-text">
                                         <h6>Be Yourself,Everyone Else Is Already Taken.this product</h6>
@@ -110,7 +110,7 @@
                     <div class="blog-main your-drive">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img class="img-fluid" src="assets/images/blog/blog-detalis/blog-main-img2.png" alt="blog-main-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/blog-main-img2.png" alt="blog-main-img">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-cnt-text d-flex justify-content-between">
@@ -135,7 +135,7 @@
                     <div class="blog-main">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img class="img-fluid" src="assets/images/blog/blog-detalis/blog-main-img2.png" alt="blog-main-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/blog-main-img2.png" alt="blog-main-img">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-cnt-text d-flex justify-content-between">
@@ -161,7 +161,7 @@
                     
                                 <div class="most-popular-item d-flex justify-content-start align-items-center">
                                     <div class="most-img">
-                                        <img class="img-fluid" src="assets/images/blog/blog-detalis/m-img1.png" alt="m-img1">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/m-img1.png" alt="m-img1">
                                     </div>
                                     <div class="most-text">
                                         <h6>Planning Your Online Business Goals With A Specialist</h6>
@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="most-popular-item d-flex justify-content-start align-items-center">
                                     <div class="most-img">
-                                        <img class="img-fluid" src="assets/images/blog/blog-detalis/m-img2.png" alt="m-img2">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/m-img2.png" alt="m-img2">
                                     </div>
                                     <div class="most-text">
                                         <h6>Cloud Feature: Get to Quote Your Best Price this Plugin</h6>
@@ -177,7 +177,7 @@
                                 </div>
                                 <div class="most-popular-item d-flex justify-content-start align-items-center">
                                     <div class="most-img">
-                                        <img class="img-fluid" src="assets/images/blog/blog-detalis/m-img3.png" alt="m-img3">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/m-img3.png" alt="m-img3">
                                     </div>
                                     <div class="most-text">
                                         <h6>Be Yourself,Everyone Else Is Already Taken.this product</h6>
@@ -220,7 +220,7 @@
                     <div class="blog-main your-drive">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img class="img-fluid" src="assets/images/blog/blog-detalis/blog-main-img.png" alt="blog-main-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-detalis/blog-main-img.png" alt="blog-main-img">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-cnt-text d-flex justify-content-between">
