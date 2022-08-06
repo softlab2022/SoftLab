@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: integrate-pricing Page
+ * Template Name: integrate-google-drive-pricing
  *
  */
 
