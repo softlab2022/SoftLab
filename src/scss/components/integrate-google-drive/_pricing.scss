@@ -1,9 +1,305 @@
-#pricing-hero {
-        background: url("../images/google-drive/pricing/price-head-bg.png");
-        background-color: teal;
+/**---------- Price Hero Area ----------**/
+
+#price-hero {
+        background: url("../images/google-drive/pc-hero-bg.png");
+        // background-color: aliceblue;
         background-position: 0 0;
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
         padding: 160px 0 100px 0;
+        .hero-content {
+                h1 {
+                        font-weight: 700;
+                        font-size: 3.5rem;
+                        line-height: 120%;
+                        color: $h1_color;
+                }
+                p {
+                        font-weight: 400;
+                        font-size: 1rem;
+                        color: $p_color;
+                        line-height: 150%;
+                        padding-bottom: 120px;
+                }
+        }
+
+        .price-main {
+                background-color: #fff;
+                padding: 20px;
+                border-top: 5px solid #00BB45;
+                .p-head {
+                        .free {
+                                display: block;
+                                color: #151826;
+                                font-size: 2.6rem;
+                                font-weight: 700;
+                                line-height: 120%;
+                                padding-bottom: 15px;
+                        }
+                        .basics {
+                                color: #5C637E;
+                                font-size: 1rem;
+                                font-weight: 500;
+                                line-height: 150%;
+                                
+                        }
+                        h5 {
+                               color: #00BB45;
+                               font-size: 3rem;
+                               font-weight: 700;
+                               line-height: 120%; 
+                               span {
+                                color: #5C637E;
+                                font-size: 1.1rem;
+                                font-weight: 500;
+                                line-height: 120%;
+                               }
+                               padding-top: 20px;
+                               border-bottom:  1px solid #EAEEFF;
+                        }
+                        .supp {
+                                color: #5C637E;
+                                font-weight: 700;
+                                font-size: .9rem;
+                                line-height: 120%; 
+                                text-transform: capitalize;
+                               
+                        }
+                }
+
+                .price-fe {
+                        border-top:  1px solid #EAEEFF;
+                        margin-top: 20px;
+                        .price-item { 
+                                margin-top: 20px;
+                                
+                                span {
+                                        color: #5C637E;
+                                        font-weight: 500;
+                                        font-size: 1rem;
+                                        line-height: 120%;
+
+                                        .fa-check {
+                                                width: 20px;
+                                                height: 20px;
+                                                line-height: 20px;
+                                                background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                                                font-size: .8rem;
+                                                color: #fff;
+                                                border-radius: 5px;
+                                                margin-right: 5px;
+                                                text-align: center;
+                                        }
+                                }
+                        }
+                }
+                .price-but {
+                        margin-top: 200px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                        a {
+                                text-decoration: none;
+                                color: #fff;
+                                font-weight: 600;
+                                font-size: .9rem;
+                                line-height: 19px;
+                                padding: 20px 35px; 
+                                border-radius: 8px;
+                                background-color: #00BB45;
+                        }
+                }
+        }
+
+        .main2 {
+                border-top: 5px solid #3D6EC9;
+                .price-but2 {
+                        margin-top: 50px;
+                        margin-bottom: 20px;
+                        text-align: center;
+                        a {
+                                text-decoration: none;
+                                color: #fff;
+                                font-weight: 600;
+                                font-size: .9rem;
+                                line-height: 19px;
+                                padding: 20px 35px; 
+                                border-radius: 8px;
+                                background-color: #00BB45;
+                        }
+                }
+                .site {
+                        margin-top: 20px;
+                        .dropdown {
+                                .btn-pr {
+                                        background-color: #00BB45;
+                                        border: none;
+                                        padding: 15px 15px;
+                                        border-radius: 8px;
+                                        color: #fff;
+                                        &:hover {
+                                                box-shadow: #7788FF 0px 2px 8px 0px;
+                                        }
+                                }
+                                .btn-check:focus + .btn-secondary, .btn-secondary:focus {
+                                        border: none;
+                                        box-shadow: none;
+                                }
+                        }
+                }
+        }
+
+
+}
+
+/**---------- industry Area ----------**/
+#industry {
+
+        background: url("../images/google-drive/14-day money.png");
+        // background-color: aliceblue;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 60px 0 60px 0;
+        margin-top: 600px;
+        .industry-head {
+                h2 {
+                        font-size: 3rem;
+                        font-weight: 700;
+                        line-height: 120%;
+                        color: #fff;
+                        margin-bottom: 40px;
+                }
+        }
+        .indu-item {
+                background-color: #153F26;
+                border-radius: 20px;
+                padding: 28px;
+                height: 175px;
+
+                span {
+                        font-size: 1.6rem;
+                        font-weight: 700;
+                        line-height: 120%;
+                        color: #fff;   
+                        display: block;
+                }
+                img {
+                        padding-top: 28px;
+                }
+        }
+}
+
+/**---------- list-feature Area ----------**/
+#list-feature {
+        padding: 60px 0 60px 0;
+.list-feat-head {
+        h1 {
+                font-weight: 700;
+                font-size: 3rem;
+                color: #151826;
+                line-height: 120%;
+                margin-bottom: 20px;
+                padding: 0 20px;
+        }
+        .deliver {
+                font-weight: 400;
+                font-size: .9rem;
+                line-height: 150%;
+                color: #5C637E;
+                padding: 0 20px;
+        }
+}
+
+.list-feat-main {
+        padding-top: 50px;
+        .list-feat-item {
+                border-bottom: 1px solid #BCE4D1;
+                
+                .text-left {
+                        margin-bottom: 20px;
+                        h5 {
+                                font-weight: 700;
+                                font-size: 2.7rem;
+                                line-height: 120%;
+                                color: #151826;
+                                margin-bottom: 0;
+                        }
+                }
+                span {
+                        margin-right: 20px;
+                        font-weight: 700;
+                        font-size: 2.7rem;
+                        line-height: 120%;
+                        color: #151826;
+                }
+                .s-free {
+                        margin-right: 60px;
+                        font-weight: 700;
+                        font-size: 2.7rem;
+                        line-height: 120%;
+                        color: #5C637E;
+                }
+        }
+
+
+        .list-feat-item2 {
+                background-color: #E9F6F0;
+                padding: 20px;
+                margin-top: 30px;
+                .text-left {
+                       
+                        h5 {
+                                font-weight: 600;
+                                font-size: 1rem;
+                                line-height: 120%;
+                                color: #151826;
+                                margin-bottom: 0;
+                                i {
+                                        width: 30px;
+                                        height: 30px;
+                                        line-height: 30px;
+                                        background-color: #5C637E;
+                                        color: #fff;
+                                        font-size: 15px;
+                                        text-align: center;
+                                        margin-right: 15px;
+                                        border-radius: 50%;
+                                }
+                        }
+                }
+                .text-right {
+                        .s-free {
+                                margin-right: 105px;
+                        }
+                        i {
+                                width: 20px;
+                                height: 20px;
+                                line-height: 20px;
+                                background-color: #00BB45;
+                                color: #fff;
+                                font-size: 15px;
+                                text-align: center;
+                                margin-right: 20px;
+                                border-radius: 5px;
+                        }
+                }
+
+        }
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#people-think {
+        padding-top: 100px;
 }
