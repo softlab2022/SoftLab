@@ -382,7 +382,7 @@
                 }
 
                 .accordion-body {
-                        border-top: 1px solid #000;
+                        border-top: 1px solid #00BB45;
                 }
         }
         
@@ -459,6 +459,8 @@
                        
                                 span {
                                         color: #151826;
+                                        padding: 0.7rem 1.2rem;
+                                       
                                         transition: all 0.2s ease-in-out;
                                         box-shadow: none;
                                         outline: none;
@@ -469,7 +471,7 @@
                                 }
                         }
                         .list2 {
-                                i {
+                                         i {
                                         width: 30px;
                                         height: 30px;
                                         line-height: 30px;
@@ -484,7 +486,7 @@
                         }
         
                         .accordion-body {
-                                border-top: 1px solid #000;
+                                border-top: 1px solid #00BB45;
                         }
                 }
         }

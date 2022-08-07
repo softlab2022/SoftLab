@@ -24,7 +24,7 @@
                     <div class="file-text">
                         <h3>file browser</h3>
                         <p>Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.</p>
-                        <a href="#">view demo</a>
+                        <a href="http://softlab.local/integrate-google-drive-file-browser-demo/">view demo</a>
                     </div>
                 </div>
             </div>
