@@ -363,6 +363,11 @@
                         .list-free {
                                 margin-right: 105px;
                         }
+                        .free-black {
+                                i {
+                                        background-color: #5C637E;
+                                }
+                        }
                         i {
                                 width: 20px;
                                 height: 20px;
@@ -392,7 +397,98 @@
 
 }
 
+#aske {
+        background-color: #BBE897;
+        padding: 60px 0 60px 0;
+        
+        .price-ask-head {
+                h1 {
+                        font-weight: 700;
+                        font-size: 3rem;
+                        line-height: 120%;
+                        color: #151826;
+                }
+        }
 
+        .aske-item {
+                .accordion {
+                        padding-top: 30px;
+                        .accordion-button:not(.collapsed)::after {
+                                display: none;
+                        }
+                        .accordion-button::after {
+                                display: none;
+                                // transition: transform .2s ease-in-out;
+                        }
+                        .accordion-button {
+                                display: block;
+                                background-color: #E9F6F0;
+                                transition: transform .2s ease-in-out;
+                                
+                        }
+        
+                        .accordion-item {
+                                border: none;
+                                margin-top: 30px;
+                        }
+        
+                        .accordion-button:focus {
+                                z-index: 3;
+                                border-color: transparent;
+                                outline: 0;
+                                box-shadow: none;
+                        }
+                        .accordion-item:last-of-type {
+                                border-bottom-right-radius: .25rem;
+                                border-bottom-left-radius: .25rem;
+                                background-color: #E9F6F0;
+                        }
+                        .accordion-collapse {
+                                background-color: #E9F6F0;
+                        }
+                        
+                        .accordion-button:not(.collapsed) {
+                                .fa-chevron-down{
+                                        transform: rotate(180deg);
+                                        background-color: #00BB45;
+                                        color: #fff;
+                                }
+                        }
+        
+                        .list1 {
+                       
+                                span {
+                                        color: #151826;
+                                        transition: all 0.2s ease-in-out;
+                                        box-shadow: none;
+                                        outline: none;
+                                        border: none;
+                                        width: 100%;
+                                        font-weight: 600;
+                                        text-transform: capitalize;    
+                                }
+                        }
+                        .list2 {
+                                i {
+                                        width: 30px;
+                                        height: 30px;
+                                        line-height: 30px;
+                                        background-color: #5C637E;
+                                        color: #fff;
+                                        font-size: 15px;
+                                        text-align: center;
+                                        
+                                        border-radius: 50%;
+                                        transition: transform .2s ease-in-out;
+                                }
+                        }
+        
+                        .accordion-body {
+                                border-top: 1px solid #000;
+                        }
+                }
+        }
+}
 
 
 
