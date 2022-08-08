@@ -1,0 +1,27 @@
+#uploader-demo {
+    background: url("../images/google-drive/uploder-demo/file-uploder-demo-head-bg.png");
+    // background-color: aliceblue;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding: 160px 0 100px 0;
+
+    .uploader-demo-head {
+        h1 {
+            font-weight: 700;
+            font-size: 3.4rem;
+            line-height: 120%;
+            color: #151826;
+            padding-bottom: 20px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: #5c637e;
+            padding: 0 94px;
+            margin-bottom: 60px;
+        }
+    }
+}

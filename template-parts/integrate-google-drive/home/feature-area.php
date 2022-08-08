@@ -39,7 +39,7 @@
                     <div class="file-text">
                         <h3>File Uploader</h3>
                         <p>You and also your users can upload files directly to your Google Drive account from your site.</p>
-                        <a href="#">view demo</a>
+                        <a href="http://softlab.local/integrate-google-drive-file-uploader-demo/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                     <div class="file-text">
                         <h3>Photo Gallery</h3>
                         <p>You can add a grid lightbox popup photo gallery in your page/ post using the photo gallery options of the plugin. The gallery will be generated based on the folders that you select.</p>
-                        <a href="#">view demo</a>
+                        <a href="http://softlab.local/integrate-google-drive-photo-gallery-demo/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="file-text">
                         <h3>Media player</h3>
                         <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
-                        <a href="#">Get Started</a>
+                        <a href="http://softlab.local/intergate-google-drive-media-player-demo/">View Demo</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                                 <div class="file-text">
                                     <h3>Multiple Google Accounts</h3>
                                     <p>You can link multiple Google accounts and can use files from the multiple accounts.</p>
-                                    <a href="#">View Demo</a>
+                                    <a href="#">Get Started</a>
                                 </div>
                             </div>
                         </div>
