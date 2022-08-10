@@ -10,7 +10,7 @@ get_header();
 
 get_template_part( 'template-parts/about/about-hero' );
 get_template_part( 'template-parts/about/journey' );
-get_template_part( 'template-parts/about/amazing' );
+get_template_part( 'template-parts/home/fun-fact' );
 ?>
 
 
