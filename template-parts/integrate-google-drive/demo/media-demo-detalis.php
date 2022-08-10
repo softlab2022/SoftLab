@@ -3,7 +3,7 @@
         <div class="row  align-items-center">
                        <!---====Easy to maneage your media player====-->
         
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item">
                 <div class="file-text">
                     <h3>Easy to maneage your media player </h3>
@@ -18,7 +18,7 @@
             </div>
         </div>
    
-        <div class="col-lg-7 m-auto">
+        <div class="col-lg-7 col-md-6 m-auto">
             <div class="featuer-item-img text-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/media-demo/media-player.png" alt="file-browser-img">
             </div>

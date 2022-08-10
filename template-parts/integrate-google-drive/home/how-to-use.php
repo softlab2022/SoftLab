@@ -1,7 +1,7 @@
 <section id="how-to-use">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-7 m-auto">
                 <div class="how-to-use-head text-center">
                     <h1>Let's know how to use Integrate <span>Google Drive</span></h1>
                     <p>Now that you can install, enable and disable plugins.The Google Drive Services plugin is a simple and easy to use plugin</p>
@@ -11,7 +11,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="use-item d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img1.png" alt="img1">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="use-item use-item2 d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img2.png" alt="img2">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="use-item use-item3 d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img3.png" alt="img3">
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="use-item use-item4 d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img4.png" alt="img4">

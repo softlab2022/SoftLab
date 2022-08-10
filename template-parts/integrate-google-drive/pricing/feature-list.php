@@ -44,12 +44,12 @@
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -77,12 +77,12 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -109,12 +109,12 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                             <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -143,12 +143,12 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -177,12 +177,12 @@
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -211,12 +211,12 @@
                             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -245,12 +245,12 @@
                             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -279,12 +279,12 @@
                             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -313,12 +313,12 @@
                             <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -347,12 +347,12 @@
                             <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -381,12 +381,12 @@
                             <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -415,12 +415,12 @@
                             <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span> You can create various types of module (File browser, Photo Gallery etc.) with different configurations with the <strong>shortcode builder</strong> and can use them anywhere using the shortcode.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -449,12 +449,12 @@
                             <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -483,12 +483,12 @@
                             <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -517,12 +517,12 @@
                             <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
@@ -551,12 +551,12 @@
                             <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
                                                     <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                             <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>

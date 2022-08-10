@@ -11,12 +11,12 @@
 
         <div class="row">
              <!---=== file browser====-->
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-browser-img.png" alt="file-browser-img">
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5">
                 <div class="featuer-item">
                     <div class="file-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-logo.png" alt="file-logo">
@@ -31,7 +31,7 @@
 
             <!---=== file uploder====-->
             
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5">
                 <div class="featuer-item">
                     <div class="file-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-logo.png" alt="uploder-logo">
@@ -44,20 +44,20 @@
                 </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-uploder-img.png" alt="file-browser-img">
                 </div>
             </div>
 
             <!---=== Photo Gallery====-->
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-gallery-img.png" alt="file-browser-img">
                 </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5">
                 <div class="featuer-item">
                     <div class="file-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/gallery-logo.png" alt="gallery-logo">
@@ -72,7 +72,7 @@
 
             <!---====Shortcode Builder====-->
            
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5">
                 <div class="featuer-item">
                     <div class="file-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/bulider-logo.png" alt="gallery-logo">
@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/shortcode-img.png" alt="file-browser-img">
                 </div>
@@ -93,13 +93,13 @@
 
             <!---====Media player====-->
            
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/media player-img.png" alt="file-browser-img">
                 </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5">
                 <div class="featuer-item">
                     <div class="file-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/media-logo.png" alt="gallery-logo">
@@ -116,7 +116,7 @@
 
                 <div class="multiple">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 col-md-5">
                             <div class="featuer-item">
                                 <div class="file-logo">
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/account-logo.png" alt="gallery-logo">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                        
-                        <div class="col-lg-7">
+                        <div class="col-lg-7 col-md-7">
                             <div class="featuer-item-img">
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/multiple-img.png" alt="file-browser-img">
                             </div>
@@ -140,13 +140,13 @@
 
            <!---====Popular Page Builder support====-->
            
-           <div class="col-lg-7">
+           <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/page-bulider-img.png" alt="file-browser-img">
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="featuer-item page-bulider">
                 <div class="file-text">
                     <h3>Popular Page Builder support</h3>
@@ -161,7 +161,7 @@
         </div>
            <!---====Popular Forms Connect & Easy to use====-->
         
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="featuer-item from-contact">
                 <div class="file-text">
                     <h3>Popular Forms Connect & Easy to use</h3>
@@ -175,7 +175,7 @@
             </div>
         </div>
    
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/form-contact-img.png" alt="file-browser-img">
             </div>

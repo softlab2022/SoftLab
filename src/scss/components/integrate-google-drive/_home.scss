@@ -62,6 +62,53 @@
     padding-bottom: 25%;
   }
 }
+/**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      padding: 115px 0 0px 0;
+      .hero-content {
+        h1 {
+          font-size: 2.6rem;
+        }
+        p {
+          font-size: .9rem;
+          padding: 3% 12%;
+        }
+      }
+    
+  }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .hero-content {
+    h1 {
+      font-size: 2.6rem;
+    }
+    p {
+      font-size: .9rem;
+      padding: 3% 12%;
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .hero-content {
+    h1 {
+      font-size: 1.9rem;
+    }
+    p {
+      font-size: .9rem;
+      padding: 3% 10px;
+    }
+  }
+}
+/**---------- responsive-area scss end ----------**/
+
 }
 /**---------- integrate-google-drive-feature-area scss ----------**/
 
@@ -206,6 +253,118 @@
    }
   }
 
+/**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .integrate-feature-head {
+        h1 {
+          font-size: 2.4rem;
+        }
+        p {
+          padding: 0;
+          font-size: .9rem;
+        }
+      }
+  }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .integrate-feature-head {
+    h1 {
+      font-size: 2.4rem;
+    }
+    p {
+      padding: 0;
+      font-size: .9rem;
+    }
+  }
+  .featuer-item {
+    .file-text {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 1.8rem;
+
+      }
+      p {
+        padding: 0;
+        margin-bottom: 30px;
+        font-size: .785rem;
+      }
+  
+    }
+  }
+  .from-contact {
+    .file-text {
+      h5 {
+        font-size: .8rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .integrate-feature-head {
+    h1 {
+      font-size: 1.8rem;
+    }
+    p {
+      padding: 0;
+      font-size: .785rem;
+    }
+  }
+  .featuer-item-img {
+    margin-bottom: 20px;
+  }
+  .featuer-item {
+    text-align: center;
+    .file-text {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 1.8rem;
+
+      }
+      p {
+        padding: 0;
+        margin-bottom: 30px;
+        font-size: .785rem;
+      }
+  
+    }
+  }
+  .page-bulider {
+    padding-top: 0;
+   .file-text {
+    padding-top: 0;
+    h3 {
+      padding-right: 0;
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+   }
+   .files {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  }
+  .from-contact {
+    .file-text {
+      padding-top: 0;
+    }
+    .files {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+  }
+}
+/**---------- responsive-area scss end ----------**/
+
 
 }
 
@@ -229,6 +388,55 @@
       padding: 0 16%;
     }
   }
+  /**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .full-woo-head {
+        h1 {
+          font-size: 2.2rem;
+          padding-bottom: 10px;
+        }
+        p {
+          padding: 0 50px;
+          font-size: .785rem;
+        }
+      }
+    
+  }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .full-woo-head {
+    h1 {
+      font-size: 2.2rem;
+      padding-bottom: 10px;
+    }
+    p {
+      padding: 0 85px;
+      font-size: .785rem;
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .full-woo-head {
+    h1 {
+      font-size: 1.8rem;
+      padding-bottom: 10px;
+    }
+    p {
+      padding: 0;
+      font-size: .785rem;
+    }
+  }
+}
+/**---------- responsive-area scss end ----------**/
+
 }
 
 /**---------- ex-feature scss ----------**/
@@ -321,6 +529,99 @@
   }
 
   }
+/**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .ex-feature-item2 {
+    
+        .ex-text {
+          h4 {
+            padding: 0;
+          }
+          p {
+            padding: 0 9%;
+    
+          }
+        }
+      }
+      .ex-feature-item {
+        .ex-text {
+          p {
+            padding: 0 9%;
+            
+          }
+        }
+      }
+      .ex-feature-head {
+        h1 {
+          font-size: 2.8rem;
+        }
+        p {
+          padding: 0;
+          font-size: .785rem;
+          padding-bottom: 30px;
+        }
+      }
+  }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .ex-feature-head {
+    h1 {
+      font-size: 2.2rem;
+    }
+    p {
+      padding: 0 85px;
+      font-size: .785rem;
+      padding-bottom: 30px;
+    }
+  }
+  .ex-feature-item {
+    .ex-text {
+      p {
+        padding: 0 9%;
+        
+      }
+    }
+  }
+  .ex-feature-item2 {
+    
+    .ex-text {
+      h4 {
+        padding: 0;
+      }
+      p {
+        padding: 0 9%;
+
+      }
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .ex-feature-head {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: .785rem;
+    }
+  }
+ .ex-feature-item2 {
+  .ex-text {
+   h4 {
+    padding: 0;
+   }
+  }
+ }
+}
+/**---------- responsive-area scss end ----------**/
 
 }
 
@@ -386,6 +687,77 @@
   .use-item4 {
     background-color: #EFF9FF;
   }
+/**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+}
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .how-to-use-head {
+        h1 {
+          font-size: 3rem;
+          padding-bottom: 10px;
+        }
+        p {
+          padding: 0 50px;
+          font-size: .785rem;
+          margin-bottom: 30px;
+        }
+      }
+      .use-item {
+        .use-text {
+          p {
+            font-size: .9rem;
+          }
+        }
+      }
+  }
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .how-to-use-head {
+    h1 {
+      font-size: 2rem;
+      padding-bottom: 10px;
+    }
+    p {
+      padding: 0 50px;
+      font-size: .785rem;
+      margin-bottom: 30px;
+    }
+  }
+  .use-item {
+    .use-text {
+      p {
+        font-size: .7rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .how-to-use-head {
+    h1 {
+      font-size: 1.9rem;
+      padding-bottom: 10px;
+    }
+    p {
+      padding: 0;
+      font-size: .785rem;
+      margin-bottom: 30px;
+    }
+  }
+  .use-item {
+    .use-text {
+      p {
+        font-size: .785rem;
+      }
+    }
+  }
+}
+/**---------- responsive-area scss end ----------**/
 
 }
 /**---------- people think scss ----------**/
@@ -499,20 +871,63 @@
       }
     }
   }
+  /**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
 }
 
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .people-think-head {
+        h1 {
+          font-size: 3rem;
+          padding-bottom: 10px;
+        }
+        p {
+          padding: 0;
+          margin-bottom: 30px;
+        }
+      }
+  }
 
+@media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .people-think-head {
+    h1 {
+      font-size: 2.2rem;
+      padding-bottom: 10px;
+    }
+    p {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .think-main-items {
+    .think-item {
+      padding: 8px;
+    }
+    p {
+      font-size: .785rem;
+    }
+  }
+}
 
+@media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .people-think-head {
+    h1 {
+      font-size: 1.9rem;
+      padding-bottom: 10px;
+    }
+    p {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+/**---------- responsive-area scss end ----------**/
 
-
-
-
-
-
-
-
-
-
+}
 
 
 /**-----newslatter area------**/
@@ -582,6 +997,7 @@
   
     @media (min-width: 992px) and (max-width: 1199px) {
         //Laptop
+        top: 53px;
         .newslatter-contatn {
           h4 {
             padding-right: 1%;
@@ -589,6 +1005,7 @@
           }
           p {
             font-size: .785rem;
+            padding-right: 0;
           }
         }
     }
@@ -605,24 +1022,36 @@
       }
       p {
         font-size: .785rem;
+        padding-right: 0;
+      }
+    }
+    .newslatter-from {
+      .butt1 {
+        padding: 10px 22px;
+      }
+      .butt2 {
+        padding: 10px 22px;
       }
     }
   }
   
   @media (min-width: 420px) and (max-width: 767px) {
     //Mobile
-    top: 60px;
+    top: 25px;
     .newslatter {
       padding: 25px;
     }
   
     .newslatter-contatn {
+      text-align: center;
       h4 {
         padding-right: 0;
-        font-size: 1rem;
+        font-size: .9rem;
       }
       p {
         font-size: .785rem;
+        padding-right: 0;
+        padding-bottom: 20px;
       }
     }
   }

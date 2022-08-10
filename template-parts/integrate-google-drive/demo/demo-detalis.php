@@ -3,7 +3,7 @@
         <div class="row  align-items-center">
                        <!---====Manage your documents easily====-->
         
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item">
                 <div class="file-text">
                     <h3>Manage your documents easily</h3>
@@ -18,7 +18,7 @@
             </div>
         </div>
    
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-bowser-demo/documents.png" alt="file-browser-img">
             </div>
@@ -27,13 +27,13 @@
                                <!---====Use your own multiple accounts====-->
         
                                   
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-bowser-demo/multiple.png" alt="file-browser-img">
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item ">
                 <div class="file-text">
                     <h3>Use your own multiple accounts</h3>
@@ -50,7 +50,7 @@
 
                        <!---====Manage your documents easily====-->
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item ">
                 <div class="file-text">
                     <h3>Customize using by appearance</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
            
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-bowser-demo/appearance.png" alt="file-browser-img">
             </div>

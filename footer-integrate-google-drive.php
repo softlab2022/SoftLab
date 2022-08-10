@@ -11,7 +11,7 @@
                     <p>Best Google Drive plugin for WordPress to integrate, embed, download, browse, search, share your Google Drive </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 m-auto">
+            <div class="col-lg-5 col-md-6 m-auto">
                 <div class="newslatter-from">
                     <a href="#" class="butt1">view demo</a>
                     <a href="#" class="butt2">view demo</a>

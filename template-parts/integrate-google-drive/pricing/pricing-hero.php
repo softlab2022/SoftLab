@@ -15,7 +15,7 @@
                 <!--=== free area ===--->
    
         <div class="row align-items-center">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-6 m-auto">
                 <div class="price-main">
 
                     <div class="p-head text-center">
@@ -65,7 +65,7 @@
 
             </div>
             <!--=== pro area ===--->
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-6 m-auto">
             <div class="price-main main2">
                 <div class="p-head text-center">
                         <span class="free">

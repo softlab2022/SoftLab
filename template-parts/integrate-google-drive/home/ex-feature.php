@@ -1,7 +1,7 @@
 <section id="ex-feature">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-6 m-auto">
                 <div class="ex-feature-head text-center">
                     <h1>Never miss valuable Extra <span>Features</span>.</h1>
                     <p>Let's explore which features are absolute must-haves for any banking app and which ones you can add to stand out and give even more value</p>
@@ -11,7 +11,7 @@
 
         <div class="row">
             
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon1.png" alt="icon1">
@@ -24,7 +24,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon2.png" alt="icon2">
@@ -37,7 +37,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon3.png" alt="icon3">
@@ -50,7 +50,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon4.png" alt="icon4">
@@ -63,7 +63,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon5.png" alt="icon5">
@@ -76,7 +76,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon6.png" alt="icon6">
@@ -89,7 +89,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon7.png" alt="icon7">
@@ -102,7 +102,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon8.png" alt="icon8">
@@ -115,7 +115,7 @@
             </div>
 
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item2 text-center">
                     <div class="ex-text">
                         <h4>Checkout more features</h4>

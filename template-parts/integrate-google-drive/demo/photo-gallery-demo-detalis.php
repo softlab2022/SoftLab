@@ -4,7 +4,7 @@
 
             <!---====Optimized your photo gallery====-->
         
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item">
                 <div class="file-text">
                     <h3>Optimized your photo gallery</h3>
@@ -19,7 +19,7 @@
             </div>
         </div>
    
-        <div class="col-lg-7 m-auto">
+        <div class="col-lg-7 col-md-6 m-auto">
             <div class="featuer-item-img text-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-demo/optimized.png" alt="file-browser-img">
             </div>
@@ -28,13 +28,13 @@
             <!---====Awesome looking masonry Grid====-->
         
                                   
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-demo/masonry-grid.png" alt="file-browser-img">
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item ">
                 <div class="file-text">
                     <h3>Awesome looking masonry Grid</h3>
@@ -51,7 +51,7 @@
 
             <!---====Inline Lightbox file Preview====-->
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item ">
                 <div class="file-text">
                     <h3>Inline Lightbox file Preview</h3>
@@ -66,7 +66,7 @@
             </div>
         </div>
            
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-demo/lightbox.png" alt="file-browser-img">
             </div>

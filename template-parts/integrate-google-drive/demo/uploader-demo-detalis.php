@@ -3,7 +3,7 @@
         <div class="row  align-items-center">
                        <!---====One click file uploader====-->
         
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item">
                 <div class="file-text">
                     <h3>One click file uploader</h3>
@@ -18,7 +18,7 @@
             </div>
         </div>
    
-        <div class="col-lg-7 m-auto">
+        <div class="col-lg-7 col-md-6 m-auto">
             <div class="featuer-item-img text-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-demo/one-click.png" alt="file-browser-img">
             </div>
@@ -27,13 +27,13 @@
                                <!---====Swicth to change uploader style====-->
         
                                   
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-demo/uploader-style.png" alt="file-browser-img">
             </div>
         </div>
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item ">
                 <div class="file-text">
                     <h3>Swicth to change uploader style</h3>
@@ -50,7 +50,7 @@
 
                        <!---====Popular Forms Connect & Easy to use====-->
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-6">
             <div class="demo-featuer-item ">
                 <div class="file-text">
                     <h3>Popular Forms Connect & Easy to use</h3>
@@ -64,7 +64,7 @@
             </div>
         </div>
            
-        <div class="col-lg-7">
+        <div class="col-lg-7 col-md-6">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-demo/form-contact.png" alt="file-browser-img">
             </div>
