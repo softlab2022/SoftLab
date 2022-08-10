@@ -461,6 +461,7 @@ if ( function_exists( 'register_nav_menus' ) ) {
 		array(
 			'main-menu'   => 'Main Navigation Menu',
 			'footer-menu' => 'Footer Menu',
+			'integrate-google-drive-menu' => 'Integrate Google Drive Menu',
 		)
 	);
 }
@@ -492,7 +493,21 @@ function softlab_scripts_loader() {
     wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3', 'all' ); // main.scss: Compiled Framework source + custom styles.
     wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
 
+	if(in_array(get_page_template_slug(), [
+		'templates/integrate-google-drive.php',
+		'templates/integrate-google-drive-pricing.php',
+		'templates/integrate-google-drive-file-browser-demo.php',
+		'templates/integrate-google-drive-file-uploader-demo.php',
+		'templates/integrate-google-drive-photo-gallery-demo.php',
+		'templates/intergate-google-drive-media-player-demo.php',
+	
+		])){
+		wp_enqueue_style( 'integrate-google-drive', get_theme_file_uri( 'assets/css/integrate-google-drive.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
+	
+	}else{
+
     wp_enqueue_style( 'main', get_theme_file_uri( 'assets/css/main.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
+	}
 
 	if ( is_rtl() ) {
 		wp_enqueue_style( 'rtl', get_theme_file_uri( 'assets/css/rtl.css' ), array(), $theme_version, 'all' );

@@ -54,7 +54,7 @@
                         <a href="#">Integrate Google Drive</a>
                         <p>Integrate Google Drive – is the best and easy-to-use Google Drive cloud solution.</p>
                         <div class="products-butt">
-                        <a href="integrate-google-drive.html" >Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="http://softlab.local/inergate-google-drive/" >Explore <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

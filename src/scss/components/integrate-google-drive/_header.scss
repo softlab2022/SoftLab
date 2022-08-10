@@ -1,6 +1,6 @@
 /**---------- Header ----------**/
 
-.integrate-google-drive .site-header {
+ .site-header {
     position: absolute;
     left: 0;
     right: 0;
@@ -14,8 +14,25 @@
         height: 80px;
         line-height: 80px;
       }
-  
+      .buy-now {
+        a {
+          text-decoration: none;
+          color: #00BB45;
+          background-color: #fff;
+          border-radius: 10px;
+          padding: 15px 30px;
+          &:hover {
+            box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
+            border-color: transparent;
+          }
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+   
       .navbar-nav {
+      
         .nav-item {
           margin: 0 1rem;
   
@@ -23,7 +40,7 @@
             color: #5C637E;
   
             &:hover {
-              color: #3D3D3D;
+              color: #00BB45;
             }
           }
   
