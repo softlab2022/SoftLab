@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: integrate-google-drive-file-browser-demo
+ * Template Name: integrate-google-drive-file-browser
  *
  */
 
