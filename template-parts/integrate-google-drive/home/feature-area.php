@@ -80,7 +80,7 @@
                     <div class="file-text">
                         <h3>Shortcode Builder</h3>
                         <p>You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.</p>
-                        <a href="#">Get Started</a>
+                        <a href="https://softlabbd.com/media-player-demo/">Get Started</a>
                     </div>
                 </div>
             </div>
