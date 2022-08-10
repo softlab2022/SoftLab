@@ -496,10 +496,10 @@ function softlab_scripts_loader() {
 	if(in_array(get_page_template_slug(), [
 		'templates/integrate-google-drive.php',
 		'templates/integrate-google-drive-pricing.php',
-		'templates/integrate-google-drive-file-browser-demo.php',
-		'templates/integrate-google-drive-file-uploader-demo.php',
-		'templates/integrate-google-drive-photo-gallery-demo.php',
-		'templates/intergate-google-drive-media-player-demo.php',
+		'templates/integrate-google-drive-file-browser.php',
+		'templates/integrate-google-drive-file-uploader.php',
+		'templates/integrate-google-drive-photo-gallery.php',
+		'templates/integrate-google-drive-media-player.php',
 	
 		])){
 		wp_enqueue_style( 'integrate-google-drive', get_theme_file_uri( 'assets/css/integrate-google-drive.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
