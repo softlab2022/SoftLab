@@ -80,7 +80,7 @@
                     <div class="file-text">
                         <h3>Shortcode Builder</h3>
                         <p>You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-media-player/">Get Started</a>
+                        <a href="#">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="file-text">
                         <h3>Media player</h3>
                         <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
-                        <a href="/media-player-demo/">View Demo</a>
+                        <a href="https://softlabbd.com/integrate-google-drive-media-player/">View Demo</a>
                     </div>
                 </div>
             </div>
