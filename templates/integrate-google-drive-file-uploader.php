@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: integrate-google-drive-file-uploader-demo
+ * Template Name: integrate-google-drive-file-uploader
  *
  */
 

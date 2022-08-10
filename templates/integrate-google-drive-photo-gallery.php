@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: integrate-google-drive-photo-gallery-demo
+ * Template Name: integrate-google-drive-photo-gallery
  *
  */
 
