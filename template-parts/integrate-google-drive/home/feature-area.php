@@ -24,7 +24,7 @@
                     <div class="file-text">
                         <h3>file browser</h3>
                         <p>Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.</p>
-                        <a href="https://softlabbd.com/file-browser-demo/">view demo</a>
+                        <a href="/file-browser-demo/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <div class="file-text">
                         <h3>File Uploader</h3>
                         <p>You and also your users can upload files directly to your Google Drive account from your site.</p>
-                        <a href="https://softlabbd.com/file-uploader-demo/">view demo</a>
+                        <a href="/file-uploader-demo/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <div class="file-text">
                         <h3>Shortcode Builder</h3>
                         <p>You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.</p>
-                        <a href="https://softlabbd.com/media-player-demo/">Get Started</a>
+                        <a href="/media-player-demo/">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="file-text">
                         <h3>Media player</h3>
                         <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
-                        <a href="https://softlabbd.com/media-player-demo/">View Demo</a>
+                        <a href="/media-player-demo/">View Demo</a>
                     </div>
                 </div>
             </div>
