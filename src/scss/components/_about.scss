@@ -1,12 +1,14 @@
 
 /**---------- Hero Area ----------**/
+.page-template {
+  background-color: #EEF2FE;
+}
 .about-hero-area {
     background: url("../images/about/about-bg-1.png");
-    height: 89vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 160px 0 100px 0;
+    padding: 100px 0;
   
     .about-hero-content {
       h1 {
