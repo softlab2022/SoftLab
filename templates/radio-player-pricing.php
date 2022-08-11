@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: integrate-google-drive-pricing
+ * Template Name: radio-player-pricing
  *
  */
 
