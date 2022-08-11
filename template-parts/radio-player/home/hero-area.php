@@ -1,5 +1,5 @@
 
-<section class="integrate-google-drive-hero-area">
+<section class="radio-player-hero-area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 m-auto">
