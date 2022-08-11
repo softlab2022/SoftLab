@@ -1,6 +1,6 @@
 /**---------- products-Hero Area ----------**/
 .radio-player-hero-area {
-    background: url("../images/google-drive/integrate-hero-bg.png");
+    background: url("../images/google-drive/hero-bg-shapes.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,13 +8,16 @@
     padding: 160px 0 100px 0;
   
     .hero-content {
+      span {
+        font-size: 2rem;
+        color: #01AA47;
+        font-weight: 600;
+      }
       h1 {
         font-size: 3rem;
         color: $h1_color;
         font-weight: 600;
-        & span {
-            color: #01AA47;
-          }
+        
       }
       p {
         font-weight: 400;
