@@ -40,7 +40,7 @@
                         <a href="#">radio player</a>
                         <p>A simple, easy to use, user-friendly and fully customizable web radio player.</p>
                         <div class="products-butt">
-                        <a href="#" >Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://softlabbd.com/radio-player/" >Explore <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

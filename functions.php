@@ -479,6 +479,7 @@ if (function_exists('register_nav_menus')) {
 			'main-menu'   => 'Main Navigation Menu',
 			'footer-menu' => 'Footer Menu',
 			'integrate-google-drive-menu' => 'Integrate Google Drive Menu',
+			'radio-player-menu' => 'Radio Player menu',
 		)
 	);
 }
@@ -525,6 +526,7 @@ function softlab_scripts_loader()
 
 	} elseif (in_array(get_page_template_slug(), [
 		'templates/radio-player.php',
+		'templates/radio-player-pricing.php',
 	])) {
 		wp_enqueue_style('radio-player', get_theme_file_uri('assets/css/radio-player.css'), array(), $theme_version, 'all');
 	} else {

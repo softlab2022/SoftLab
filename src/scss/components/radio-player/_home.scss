@@ -110,3 +110,311 @@
   /**---------- responsive-area scss end ----------**/
   
   }
+
+  /**-----newslatter area------**/
+.page-template .newslatter {
+    position: relative;
+    top: 68px;
+    padding-bottom: 0;
+    .newslatter {
+      background: url("../images/google-drive/inner-page-cta.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      border-radius: 20px;
+    }
+  
+    .newslatter-contatn {
+      h4 {
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 120%;
+        padding-right: 35%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+      }
+      p {
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        padding-right: 8rem;
+      }
+  }
+  
+  .newslatter-from {
+    padding-top: 0;
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 19px;
+      text-transform: capitalize;
+    }
+    .butt1 {
+      margin: 0 15px;
+      background-color: #01AA47;
+      padding: 15px 36px;
+      color: #fff;
+      border-radius: 8px;
+    }
+    .butt2 {
+      margin: 0 15px;
+      background-color: #fff;
+      padding: 15px 36px;
+      color: #01AA47;
+      border-radius: 8px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    //Extra large
+  }
+  
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+        top: 53px;
+        .newslatter-contatn {
+          h4 {
+            padding-right: 1%;
+            font-size: 1rem;
+          }
+          p {
+            font-size: .785rem;
+            padding-right: 0;
+          }
+        }
+    }
+  
+  @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+    .newslatter {
+      padding: 25px;
+    }
+    .newslatter-contatn {
+      h4 {
+        padding-right: 0;
+        font-size: 1rem;
+      }
+      p {
+        font-size: .785rem;
+        padding-right: 0;
+      }
+    }
+    .newslatter-from {
+      .butt1 {
+        padding: 10px 22px;
+      }
+      .butt2 {
+        padding: 10px 22px;
+      }
+    }
+  }
+  
+  @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+    top: 25px;
+    .newslatter {
+      padding: 25px;
+    }
+  
+    .newslatter-contatn {
+      text-align: center;
+      h4 {
+        padding-right: 0;
+        font-size: .9rem;
+      }
+      p {
+        font-size: .785rem;
+        padding-right: 0;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  
+  }
+  
+  /**----- footer area -----**/
+  
+  .page-template .footer {
+    background: url("../images/google-drive/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    .footer-contant {
+      p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 150%;
+         color: $p_color;
+         padding-top: 5%;
+         padding-right: 20%;
+      }
+    }
+  
+    .footer-menu-head {
+      h4{
+        color: $h1_color;
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 120%;
+      }
+    }
+  
+    .footer-menu {
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-top: 7%;
+      }
+    }
+    .footer-menu-help {
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-top: 7%;
+      }
+    }
+    .footer-menu-products {
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: $p_color;
+        padding-top: 7%;
+      }
+      img {
+        padding-right: 3%;
+      }
+    }
+  
+    .footer-social {
+      padding-top: 20px;
+      a {
+        text-decoration: none;
+      }
+      i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-right: 15px;
+        &:hover{
+          box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
+        }
+      }
+      .fa-facebook-f {
+        color: #007BFF;
+      }
+      .fa-twitter {
+        color: #00ADEE;
+      }
+      .fa-pinterest-p {
+        color: #E60023;
+      }
+      .fa-linkedin-in {
+        color: #0072B1;
+      }
+    }
+    .footer-last {
+      margin-top: 3%;
+      border-top: 0.5px solid rgba(186, 186, 186, 0.3);
+      h5 {
+        padding-top: 2%;
+        color: $p_color;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+      }
+    }
+  
+    @media (min-width: 1200px) {
+      //Extra large
+    }
+    
+      @media (min-width: 992px) and (max-width: 1199px) {
+          //Laptop
+      }
+    
+    @media (min-width: 768px) and (max-width: 991px)  {
+      //Tablet
+      padding-top: 20%;
+      .footer-contant {
+        p {
+          font-size: .785rem;
+        }
+      }
+      .pro {
+        h4 {
+          padding-top: 25px;
+        }
+      }
+      .footer-menu {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-help {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-products {
+        a {
+          padding-top: 4%;
+        }
+      }
+    }
+    
+    @media (min-width: 420px) and (max-width: 767px) {
+      //Mobile
+      padding-top: 20%;
+  
+      .footer-contant {
+        p {
+          font-size: 1.1rem;
+        }
+      }
+      .footer-menu-head {
+        h4 {
+          padding-top: 25px;
+        }
+      }
+      .footer-menu {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-help {
+        a {
+          padding-top: 4%;
+        }
+      }
+      .footer-menu-products {
+        a {
+          padding-top: 4%;
+        }
+      }
+  
+    }
+  
+  }
