@@ -1,6 +1,7 @@
 <section id="multi-sikn">
     <div class="container">
         <div class="row">
+            
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -22,6 +23,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -32,6 +34,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -42,6 +45,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -52,6 +56,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -62,6 +67,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -72,6 +78,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6 m-auto">
                 <div class="skin-item text-center">
                     <div class="skin-head">
@@ -82,6 +89,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-6">
                 <div class="skin-item text-center">
                     <div class="skin-head">
