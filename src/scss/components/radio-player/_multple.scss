@@ -1,0 +1,53 @@
+/**---------- http-area scss ----------**/
+#multiple {
+    background: url("../images/radio-player/http-demo-bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 100px 0;
+    .multiple-head {
+        h1 {
+            font-weight: 700;
+            color: #151826;
+            line-height: 120%;
+            font-size: 3.1rem;
+            padding-bottom: 20px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: #5c637e;
+            padding: 0 30px;
+        }
+    }
+}
+
+.page-id-100 {
+    background-color: #fff;
+}
+
+#multi-sikn {
+    padding: 60px 0 60px 0;
+    .skin-item {
+        background-color: #F9FAFF;
+        padding: 20px;
+        border-radius: 40px;
+        margin-bottom: 30px;
+        .skin-head {
+            span {
+                font-weight: 600;
+                font-size: 2rem;
+                line-height: 120%;
+                color: #151826;
+                text-transform: capitalize;
+            }
+           
+        }
+        .skin-img {
+            img {
+                margin-top: 30px;
+            }
+        }
+    }
+}

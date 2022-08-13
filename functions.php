@@ -528,6 +528,7 @@ function softlab_scripts_loader()
 		'templates/radio-player.php',
 		'templates/radio-player-pricing.php',
 		'templates/http-streaming.php',
+		'templates/multiple.php',
 	])) {
 		wp_enqueue_style('radio-player', get_theme_file_uri('assets/css/radio-player.css'), array(), $theme_version, 'all');
 	} else {
