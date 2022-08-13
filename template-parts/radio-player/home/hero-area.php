@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-6">
             <div class="radio-header-bg text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="drive-head-icon1">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
                     </div>
             </div>
         </div>

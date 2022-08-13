@@ -34,7 +34,7 @@
             <div class="col-lg-5">
                 <div class="featuer-item">
                     <div class="file-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-logo.png" alt="uploder-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/uploder-logo.png" alt="uploder-logo">
                     </div>
                     <div class="file-text">
                         <h3>File Uploader</h3>
