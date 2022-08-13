@@ -1,5 +1,5 @@
 <section id="price-hero">
-<div class="container">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 m-auto">
                 <div class="hero-content text-center">

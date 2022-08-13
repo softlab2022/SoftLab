@@ -1,6 +1,6 @@
 /**---------- products-Hero Area ----------**/
 .radio-player-hero-area {
-    background: url("../images/google-drive/hero-bg-shapes.png");
+    background: url("../images/radio-player/hero-bg-shapes.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,12 +11,12 @@
       span {
         font-size: 2rem;
         color: #01AA47;
-        font-weight: 600;
+        font-weight: 700;
       }
       h1 {
         font-size: 3rem;
         color: $h1_color;
-        font-weight: 600;
+        font-weight: 700;
         
       }
       p {
@@ -24,7 +24,8 @@
         font-size: 1.1rem;
         color: $p_color;
         line-height: 150%;
-        padding: 3% 18%;
+        padding-right: 20%;
+        padding-bottom: 30px;
       }
       a {
         text-decoration: none;
@@ -40,6 +41,7 @@
         border-radius: 8px;
         &:hover {
           background-color: #fff;
+          border: 1px solid #01AA47;
           color: #01AA47;
           transition: linear .4s;
         }
@@ -115,46 +117,26 @@
   }
 
   /**---------- integrate-google-drive-feature-area scss ----------**/
-
+.page-template {
+  background-color: #F9FAFF;
+}
 #integrate-feature {
-    padding-top: 25%;
-    .integrate-feature-head {
-        h1 {
-          font-weight: 700;
-          font-size: 3.5rem;
-          color: $h1_color;
-          line-height: 120%;
-          & span {
-            color: #01AA47;
-          }
-        }
-        p {
-          font-weight: 400;
-          font-size: 1.1rem;
-          color: $p_color;
-          line-height: 150%;
-          padding: 3% 18%;
-          margin-bottom: 5%;
-        }
-        
-    }
-    .multiple {
-      background-color: #F5FCF4;
-      padding: 40px;
-      border-radius: 40px;
-      .featuer-item-img {
-        margin-bottom: 0;
-      }
-    }
+    padding-top: 3%;
   
     .featuer-item-img {
       margin-bottom: 100px;
+      text-align: center;
     }
     .featuer-item {
       .file-logo {
         margin-bottom: 17px;
       }
       .file-text {
+        span {
+          font-size: 2rem;
+          color: #01AA47;
+          font-weight: 700;
+        }
         h3 {
           font-weight: 700;
           font-size: 3rem;
@@ -162,6 +144,7 @@
           color: $h1_color;
           text-transform: capitalize;
           padding-top: 20px;
+          padding-bottom: 10px;
         }
         p {
           font-weight: 400;
@@ -372,6 +355,78 @@
   
 }
 
+  /**-----preview area------**/
+#preview {
+  padding: 60px 0 60px 0;
+  .preview-head {
+    span {
+      font-size: 2rem;
+      color: #01AA47;
+      font-weight: 700;
+      
+    }
+    h1 {
+      font-size: 3rem;
+      color: $h1_color;
+      font-weight: 700;
+      padding-bottom: 25px;
+      padding-top: 25px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: $p_color;
+      line-height: 150%;
+      padding: 0 95px;
+      padding-bottom: 30px;
+    }
+  }
+  .featuer-item-img {
+    padding-top: 40px;
+  }
+  .featuer-item {
+    padding-top: 180px;
+    .file-text {
+      h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 120%;
+        color: #151826;
+        padding-bottom: 30px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #5c637e;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+/**-----ex-feature area------**/
+#ex-feature{
+  padding: 60px 0 60px 0;
+  .ex-head {
+    h1 {
+      font-weight: 700;
+      line-height: 120%;
+      color: #151826;
+      font-size: 2.8rem;
+      padding-bottom: 20px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: #5c637e;
+      padding: 0 150px;
+    }
+  }
+}
+
+
+
   /**-----newslatter area------**/
 .page-template .newslatter {
     position: relative;
@@ -419,7 +474,7 @@
     }
     .butt1 {
       margin: 0 15px;
-      background-color: #01AA47;
+      border: 1px solid #fff;
       padding: 15px 36px;
       color: #fff;
       border-radius: 8px;

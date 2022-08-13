@@ -29,10 +29,11 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                 <nav class="navbar navbar-expand-md primary-nav <?php echo esc_attr( $navbar_scheme );
 				if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' fixed-top';
                 elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' fixed-bottom'; endif;
+
 				if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
                     <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"
                        title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-logo.png" alt="radio-logo">
+                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-logo.png" alt="radio-player">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -46,7 +47,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						// Loading WordPress Custom Menu (theme_location).
 						wp_nav_menu(
 							array(
-								'theme_location' => 'main-menu',
+								'theme_location' => 'radio-player-menu',
 								'container'      => '',
 								'menu_class'     => 'navbar-nav ms-auto',
 								'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
@@ -55,7 +56,11 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						);
 						?>
 
-                        <a class="nav-link btn text-white view-products" href="/products/">View Products</a>
+                        
+                        <div class="buy-now">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i> buy now</a>
+                        </div>
+                        
 
                     </div><!-- /.navbar-collapse -->
                 </nav><!-- /#header -->

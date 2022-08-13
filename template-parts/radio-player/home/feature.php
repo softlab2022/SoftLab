@@ -1,186 +1,98 @@
 <section id="integrate-feature">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 m-auto">
-                <div class="integrate-feature-head text-center">
-                    <h1>Amazing Drive Integration <span>Features</span>.</h1>
-                    <p>Best and most productive integrations for Google Drive. Learn how to connect with us.</p>
-                </div>
-            </div>
-        </div>
 
         <div class="row">
-             <!---=== file browser====-->
+             <!---=== HTTP Stream Player====-->
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/file-browser-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="featuer-item">
-                    <div class="file-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/file-logo.png" alt="file-logo">
-                    </div>
                     <div class="file-text">
-                        <h3>file browser</h3>
-                        <p>Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-file-browser/">view demo</a>
+                        <span>HTTP Stream Player</span>
+                        <h3>Live stream player for HTTP streaming server</h3>
+                        <p>You can play any live mp3, iceCast and Shoutcast stream in your WordPress website. Radio Player can play HTTP streams on an HTTPS website.</p>
+                        <a href="#">Check demo</a>
                     </div>
                 </div>
             </div>
 
-            <!---=== file uploder====-->
+            <!---=== Full Sticky Player====-->
             
             <div class="col-lg-5">
                 <div class="featuer-item">
-                    <div class="file-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-logo.png" alt="uploder-logo">
-                    </div>
                     <div class="file-text">
-                        <h3>File Uploader</h3>
-                        <p>You and also your users can upload files directly to your Google Drive account from your site.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-file-uploader/">view demo</a>
+                        <span>Full Sticky Player</span>
+                        <h3>Custom sticky radio player for website</h3>
+                        <p>Full-width sticky player is available to play a radio station in all page.</p>
+                        <a href="#">Check demo</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/file-uploder-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="sticky-img">
                 </div>
             </div>
 
-            <!---=== Photo Gallery====-->
+            <!---=== Popup Player====-->
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/photo-gallery-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="popup-img">
                 </div>
             </div>
 
             <div class="col-lg-5">
                 <div class="featuer-item">
-                    <div class="file-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/gallery-logo.png" alt="gallery-logo">
-                    </div>
                     <div class="file-text">
-                        <h3>Photo Gallery</h3>
-                        <p>You can add a grid lightbox popup photo gallery in your page/ post using the photo gallery options of the plugin. The gallery will be generated based on the folders that you select.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-photo-gallery/">view demo</a>
+                        <span>Popup Player</span>
+                        <h3>Playing an audio file in a popup</h3>
+                        <p>Popup radio player is available to play the radio in a new popup window for a better listening experience for the user.</p>
+                        <a href="#">Check demo</a>
                     </div>
                 </div>
             </div>
 
-            <!---====Shortcode Builder====-->
+            <!---====Stations Playlist====-->
            
             <div class="col-lg-5">
                 <div class="featuer-item">
-                    <div class="file-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/bulider-logo.png" alt="gallery-logo">
-                    </div>
                     <div class="file-text">
-                        <h3>Shortcode Builder</h3>
-                        <p>You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.</p>
-                        <a href="#">Get Started</a>
+                        <span>Stations Playlist</span>
+                        <h3>Station from the radio stations playlist</h3>
+                        <p>Users can choose and play any station from the radio stations playlist of the player.</p>
+                        <a href="#">Check Demo</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/shortcode-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="station-img">
                 </div>
             </div>
 
-            <!---====Media player====-->
+            <!---====Multiple Player Skins====-->
            
             <div class="col-lg-7">
                 <div class="featuer-item-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/media player-img.png" alt="file-browser-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="multipule-img">
                 </div>
             </div>
 
             <div class="col-lg-5">
                 <div class="featuer-item">
-                    <div class="file-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/media-logo.png" alt="gallery-logo">
-                    </div>
                     <div class="file-text">
-                        <h3>Media player</h3>
-                        <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-media-player/">View Demo</a>
+                        <span>Multiple Player Skins</span>
+                        <h3>Use our available multiple player skins. </h3>
+                        <p>Custom skins will be available to have them in our multiplayer just need to customize by yourself.</p>
+                        <a href="#">Check Demo</a>
                     </div>
                 </div>
             </div>
-
-            <!---====Multiple Google Accounts====--->
-
-                <div class="multiple">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="featuer-item">
-                                <div class="file-logo">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/account-logo.png" alt="gallery-logo">
-                                </div>
-                                <div class="file-text">
-                                    <h3>Multiple Google Accounts</h3>
-                                    <p>You can link multiple Google accounts and can use files from the multiple accounts.</p>
-                                    <a href="#">Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div class="col-lg-7">
-                            <div class="featuer-item-img">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/multiple-img.png" alt="file-browser-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                </div>
-
-           <!---====Popular Page Builder support====-->
-           
-           <div class="col-lg-7">
-            <div class="featuer-item-img">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/page-bulider-img.png" alt="file-browser-img">
-            </div>
-        </div>
-
-        <div class="col-lg-5">
-            <div class="featuer-item page-bulider">
-                <div class="file-text">
-                    <h3>Popular Page Builder support</h3>
-                    <p>Compare the Best Website Builders and Choose Yours. Create a Free Website Today. It's Easy and Free. Compare the Best Website Builders. </p>
-                    <div class="files">
-                        <h5><i class="fa-solid fa-check"></i> Classic Editor</h5>
-                    <h5><i class="fa-solid fa-check"></i> Gutenberg</h5>
-                    <h5><i class="fa-solid fa-check"></i> Elementor</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-           <!---====Popular Forms Connect & Easy to use====-->
-        
-        <div class="col-lg-5">
-            <div class="featuer-item from-contact">
-                <div class="file-text">
-                    <h3>Popular Forms Connect & Easy to use</h3>
-                    <p>Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.</p>
-                    <div class="files">
-                        <h5><i class="fa-solid fa-check"></i> Contact Form 7</h5>
-                    <h5><i class="fa-solid fa-check"></i> WpForms</h5>
-                    <h5><i class="fa-solid fa-check"></i> Gravityforms</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-   
-        <div class="col-lg-7">
-            <div class="featuer-item-img">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/form-contact-img.png" alt="file-browser-img">
-            </div>
-        </div>
-
 
         </div>
 
