@@ -10,6 +10,7 @@
         </div>
 
         <div class="row">
+            
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
