@@ -3,13 +3,13 @@
 
         <div class="row">
              <!---=== HTTP Stream Player====-->
-            <div class="col-lg-7">
-                <div class="featuer-item-img">
+            <div class="col-lg-7 col-md-6 feat1">
+                <div class="featuer-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="featuer-item">
+            <div class="col-lg-5 col-md-6">
+                <div class="featuer-item f-items">
                     <div class="file-text">
                         <span>HTTP Stream Player</span>
                         <h3>Live stream player for HTTP streaming server</h3>
@@ -18,10 +18,14 @@
                     </div>
                 </div>
             </div>
-
+            <div class="col-lg-7 feat2">
+                <div class="featuer-item-img ">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
+                </div>
+            </div>
             <!---=== Full Sticky Player====-->
             
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-6">
                 <div class="featuer-item">
                     <div class="file-text">
                         <span>Full Sticky Player</span>
@@ -32,20 +36,20 @@
                 </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-6">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="sticky-img">
                 </div>
             </div>
 
             <!---=== Popup Player====-->
-            <div class="col-lg-7">
-                <div class="featuer-item-img">
+            <div class="col-lg-7 col-md-6 feat1">
+                <div class="featuer-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="popup-img">
                 </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-6">
                 <div class="featuer-item">
                     <div class="file-text">
                         <span>Popup Player</span>
@@ -56,9 +60,14 @@
                 </div>
             </div>
 
+            <div class="col-lg-7 feat2">
+                <div class="featuer-item-img ">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="popup-img">
+                </div>
+            </div>
             <!---====Stations Playlist====-->
            
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-6">
                 <div class="featuer-item">
                     <div class="file-text">
                         <span>Stations Playlist</span>
@@ -69,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-6">
                 <div class="featuer-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="station-img">
                 </div>
@@ -77,13 +86,13 @@
 
             <!---====Multiple Player Skins====-->
            
-            <div class="col-lg-7">
-                <div class="featuer-item-img">
+            <div class="col-lg-7 col-md-6 feat1">
+                <div class="featuer-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="multipule-img">
                 </div>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-6">
                 <div class="featuer-item">
                     <div class="file-text">
                         <span>Multiple Player Skins</span>
@@ -93,8 +102,12 @@
                     </div>
                 </div>
             </div>
-
-        </div>
+            <div class="col-lg-7 feat2">
+                            <div class="featuer-item-img ">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="multipule-img">
+                            </div>
+                        </div>
+            </div>
 
     </div>
 </section>

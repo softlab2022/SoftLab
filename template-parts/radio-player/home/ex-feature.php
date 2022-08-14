@@ -10,7 +10,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/shortcode.png" alt="shortcode">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/play-statistics.png" alt="play-statistics">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/mp3.png" alt="mp3">
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/customize.png" alt="customize">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/player-duplicator.png" alt="player-duplicator">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/multiple-lnstance.png" alt="multiple-lnstance">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/station-metadata.png" alt="station-metadata">
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/notification.png" alt="notification">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/unlimited-players.png" alt="unlimited-players">
@@ -109,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/widget.png" alt="widget">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/color-custom.png" alt="color-custom">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="item-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/ex-feature/block.png" alt="block">

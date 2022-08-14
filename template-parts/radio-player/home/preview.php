@@ -11,12 +11,26 @@
         </div>
             <div class="row">
                       <!---=== HTTP Stream Player====-->
-                <div class="col-lg-7 m-auto">
+                <div class="col-lg-7 col-md-6 prev1 m-auto">
                     <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="player-color">
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-6">
+                    <div class="featuer-item">
+                        <div class="file-text">
+                            <h3>Live stream player for HTTP streaming server</h3>
+                            <p>You can play any live mp3, iceCast and Shoutcast stream in your WordPress website. Radio Player can play HTTP streams on an HTTPS website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 prev2 m-auto">
+                    <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="player-color">
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-6">
                     <div class="featuer-item">
                         <div class="file-text">
                             <h3>Live stream player for HTTP streaming server</h3>
@@ -25,17 +39,7 @@
                     </div>
                 </div>
 
-
-                <div class="col-lg-5">
-                    <div class="featuer-item">
-                        <div class="file-text">
-                            <h3>Live stream player for HTTP streaming server</h3>
-                            <p>You can play any live mp3, iceCast and Shoutcast stream in your WordPress website. Radio Player can play HTTP streams on an HTTPS website.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-7 m-auto">
+                <div class="col-lg-7 col-md-6 m-auto">
                     <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
                     </div>

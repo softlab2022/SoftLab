@@ -21,6 +21,43 @@
             padding: 0 30px;
         }
     }
+    /**---------- responsive-area scss start ----------**/
+  @media (min-width: 1200px) {
+    //Extra large
+  }
+  
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+        .http-head {
+            h1 {
+                font-size: 2.6rem;
+            }
+        }
+        
+    }
+  
+  @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+    .http-head {
+        h1 {
+            font-size: 2.3rem;
+        }
+    }
+    
+  }
+  
+  @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+    .http-head {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: .785rem;
+        }
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 .page-id-93 {
     background-color: #fff;
@@ -41,13 +78,13 @@
     form {
         .btn {
             margin-top: 30px;
-            padding: 15px 35px;
+            padding: 12px 35px;
             border-radius: 8px;
             background-color: #00BB45;
             border: 1px solid #00BB45;
         }
         .form-control {
-            padding: 25px 35px;
+            padding: 15px 35px;
             border: 1px solid #ECF1FA;
             background-color: #F9FAFF;
             border-radius: 20px;
@@ -65,4 +102,28 @@
     .image {
         padding-top: 80px;
     }
+     /**---------- responsive-area scss start ----------**/
+  @media (min-width: 1200px) {
+    //Extra large
+  }
+  
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+        
+    }
+  
+  @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+    
+  }
+  
+  @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+    .head {
+        span {
+            font-size: 1.8rem;
+        }
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
 }

@@ -10,7 +10,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="test-item">
                     <div class="tests d-flex justify-content-between">
                         <h6>“Best Radio Player Available</h6>
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="test-item">
                     <div class="tests d-flex justify-content-between">
                         <h6>“Best Radio Player Available</h6>
@@ -42,7 +42,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="test-item">
                     <div class="tests d-flex justify-content-between">
                         <h6>“Best Radio Player Available</h6>
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="test-item">
                     <div class="tests d-flex justify-content-between">
                         <h6>“Best Radio Player Available</h6>
