@@ -479,7 +479,8 @@ if (function_exists('register_nav_menus')) {
 			'main-menu'   => 'Main Navigation Menu',
 			'footer-menu' => 'Footer Menu',
 			'integrate-google-drive-menu' => 'Integrate Google Drive Menu',
-			'radio-player-menu' => 'Radio Player menu',
+			'radio-player-menu' => 'Radio Player Menu',
+			'wp-radio-menu' => 'WP Radio Menu',
 		)
 	);
 }
@@ -531,6 +532,14 @@ function softlab_scripts_loader()
 		'templates/multiple.php',
 	])) {
 		wp_enqueue_style('radio-player', get_theme_file_uri('assets/css/radio-player.css'), array(), $theme_version, 'all');
+
+	} elseif (in_array(get_page_template_slug(), [
+		'templates/wp-radio.php',
+		'templates/wp-pricing.php',
+		'templates/user-frontend.php',
+	])) {
+		wp_enqueue_style('wp-radio', get_theme_file_uri('assets/css/wp-radio.css'), array(), $theme_version, 'all');
+
 	} else {
 
 		wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all'); // main.scss: Compiled Framework source + custom styles.

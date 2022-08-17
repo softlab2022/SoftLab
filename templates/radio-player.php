@@ -20,4 +20,4 @@ get_template_part( 'template-parts/radio-player/home/funfact' );
 
 
 <?php
-get_footer('radio-player');
+get_footer();

@@ -26,7 +26,7 @@
                        <a href="#">WP Radio</a>
                         <p>WP Radio – Worldwide Online Radio Stations Directory for WordPress.</p>
                         <div class="products-butt">
-                        <a href="#" >Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="http://softlab.local/wp-radio/" >Explore <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

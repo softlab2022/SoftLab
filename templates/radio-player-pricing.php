@@ -19,4 +19,4 @@ get_template_part( 'template-parts/radio-player/home/testmonial' );
 
 
 <?php
-get_footer('radio-player');
+get_footer();

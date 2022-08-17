@@ -1,0 +1,115 @@
+/**---------- Header ----------**/
+
+.site-header1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    background: transparent;
+    backdrop-filter: inherit;
+    z-index: 99;
+  
+    .primary-nav {
+      .navbar-brand {
+        height: 80px;
+        line-height: 80px;
+      }
+      .buy-now {
+        a {
+          text-decoration: none;
+          color: #fff;
+          background-color: #F3AD2E;
+          border-radius: 50px;
+          padding: 15px 30px;
+          &:hover {
+            box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
+            border-color: transparent;
+          }
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+   
+      .navbar-nav {
+      
+        .nav-item {
+          margin: 0 1rem;
+  
+          a {
+            color: #5C637E;
+  
+            &:hover {
+              color: #000;
+            }
+          }
+  
+          &.view-products {
+            margin-left: 3rem;
+  
+            a {
+              background: $button_bg_color;
+              padding: .5rem 1rem;
+            }
+          }
+  
+          .dropdown-menu {
+            display: none;
+          }
+  
+          &:hover .dropdown-menu {
+            display: block;
+          }
+  
+          .arrow {
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            transform: rotate(45deg);
+            position: absolute;
+            top: -15px;
+            left: 32%;
+          }
+          .dropdown-menu {
+            background-color: #F3AD2E;
+          }
+          .megamenu {
+            margin-top: 19px;
+            padding: 30px;
+            width: 500px;
+            left: -100px;
+            border-radius: 10px;
+            border: none;
+            .mega-item {
+              border-radius: 20px;
+              padding:20px;
+              margin-bottom: 5px;
+              .mega-text {
+                padding-left: 20px;
+                a {
+                  text-decoration: none;
+                  font-weight: 700;
+                  font-size: 1.1rem;
+                  line-height: 120%;
+                  color: #5C637E;
+                  text-transform: capitalize;
+                }
+                p {
+                  font-weight: 400;
+                  font-size: .9rem;
+                  line-height: 150%;
+  
+                }
+              }
+              &:hover {
+                background-color: #F9FAFF;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  
+  }
+  
