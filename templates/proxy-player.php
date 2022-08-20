@@ -8,7 +8,6 @@
 
 get_header('wp-radio-demo');
 
-
 get_template_part( 'template-parts/wp-radio/proxy-player/proxy-player-hero' );
 get_template_part( 'template-parts/wp-radio/proxy-player/proxy-feature' );
 get_template_part( 'template-parts/wp-radio/proxy-player/proxy-usage' );

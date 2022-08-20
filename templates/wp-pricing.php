@@ -8,7 +8,6 @@
 
 get_header('wp-radio');
 
-
 get_template_part( 'template-parts/wp-radio/pricing/pricing-hero' );
 get_template_part( 'template-parts/wp-radio/pricing/industry' );
 get_template_part( 'template-parts/wp-radio/pricing/feature-list' );
