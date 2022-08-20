@@ -107,7 +107,7 @@
                     <div class="file-text">
                         <h3>Media player</h3>
                         <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
-                        <a href="/intergate-google-drive-media-player/">View Demo</a>
+                        <a href="/integrate-google-drive-media-player/">View Demo</a>
                     </div>
                 </div>
             </div>
