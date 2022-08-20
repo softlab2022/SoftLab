@@ -18,7 +18,7 @@
                 <div class="add">
                 <span>WP Radio User Frontend</span>
                 <p>Let engage your user to your website by adding powerful features...</p>
-                <a href="/wp-radio-user-frontend/">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="/user-frontend/">View Details <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 </div>
             </div>
