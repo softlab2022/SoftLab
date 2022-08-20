@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: intergate-google-drive-media-player
+ * Template Name: integrate-google-drive-media-player
  *
  */
 
