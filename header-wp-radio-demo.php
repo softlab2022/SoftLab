@@ -47,7 +47,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						// Loading WordPress Custom Menu (theme_location).
 						wp_nav_menu(
 							array(
-								'theme_location' => 'radio-player-menu',
+								'theme_location' => 'wp-radio-menu',
 								'container'      => '',
 								'menu_class'     => 'navbar-nav ms-auto',
 								'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',

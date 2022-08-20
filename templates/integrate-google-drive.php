@@ -15,11 +15,12 @@ get_template_part( 'template-parts/integrate-google-drive/home/full-woocommerce'
 get_template_part( 'template-parts/integrate-google-drive/home/ex-feature' );
 get_template_part( 'template-parts/integrate-google-drive/home/how-to-use' );
 get_template_part( 'template-parts/integrate-google-drive/home/people-think' );
+get_template_part( 'template-parts/integrate-google-drive/home/integrate' );
 ?>
 
 
 
 <?php
-get_footer('integrate-google-drive');
+get_footer();
 
 

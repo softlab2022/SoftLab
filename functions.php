@@ -537,6 +537,9 @@ function softlab_scripts_loader()
 		'templates/wp-radio.php',
 		'templates/wp-pricing.php',
 		'templates/user-frontend.php',
+		'templates/wp-radio-station.php',
+		'templates/proxy-player.php',
+		'templates/image-importer.php',
 	])) {
 		wp_enqueue_style('wp-radio', get_theme_file_uri('assets/css/wp-radio.css'), array(), $theme_version, 'all');
 

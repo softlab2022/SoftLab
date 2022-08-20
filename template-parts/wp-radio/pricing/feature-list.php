@@ -4,6 +4,7 @@
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="list-feat-head text-center">
+                    <p>features</p>
                     <h1>Choose the best plan that fits your needs</h1>
                     <span class="deliver">we’ve created several packages with different features in them. These are priced according to the value they deliver.</span>
                 </div>
@@ -32,7 +33,7 @@
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>esay setup</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Radio Stations Listing</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -64,7 +65,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>File Browser</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Radio Stations Importer</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -97,7 +98,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Embed Document</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Add Unlimited Radio Stations</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -130,7 +131,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Private Folders</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Sticky Player</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -145,11 +146,10 @@
                                  <div class="row">
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
-                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                    <span>WP Radio has a full-width sticky player that will be displayed on the bottom of every page of your website.</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
-                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                         </div>
                                         
@@ -164,7 +164,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Media Importer</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Stations Search</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -198,7 +198,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>File Uploader</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>State/ City Region List</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -232,7 +232,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Photo Gallery</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Current Song Title</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -266,7 +266,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Audio & Video Player</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Mobile Media Notification</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -300,7 +300,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>File Search</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>m3u8 Extension Supported</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -334,7 +334,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>File View Links</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Gutenberg Blocks</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -368,7 +368,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>File Download Links</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Elementor Widgets</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free" ><i class="fa-solid fa-check"></i></span>
@@ -402,7 +402,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Shortcode Builder</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Import All Stations</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
@@ -417,7 +417,7 @@
                                  <div class="row">
                                             <div class="col-lg-6 col-md-6">
                                                 <div class="ac-text">
-                                                    <span> You can create various types of module (File browser, Photo Gallery etc.) with different configurations with the <strong>shortcode builder</strong> and can use them anywhere using the shortcode.</span>
+                                                    <span>In the PRO version you can import all the included radio stations (52000+) from around 190+ countries all over the world..</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
@@ -436,7 +436,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Multiple Accounts</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Country Based Listing</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
@@ -470,7 +470,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Use Own Google App</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Shortcode Player</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
@@ -504,7 +504,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Statistics</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Popup Player</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
@@ -538,7 +538,7 @@
 
                             <div class="accordion-list d-flex justify-content-between">
                                             <div class="list1">
-                                            <i class="fa-solid fa-chevron-down"></i> <span>Email Notification</span>
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Multiple Listing Layouts</span>
                                             </div>
                                             <div class="list2">
                                             <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
@@ -549,6 +549,303 @@
                             </button>
                             </h2>
                             <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Recently Played Tracks Playlist</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Stations Play Statistics</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Admin Dashboard Chart Widget</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Statistics Email Reporting</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading11">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Country List</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading12">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Color Customizations</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading13">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Trending Stations</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading14">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>Featured Stations</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                 <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="ac-text">
+                                                    <span><strong>Using Private Folders</strong> you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                            <iframe width="300" height="auto" src="https://www.youtube.com/embed/eHyl9KG9RWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading15">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+
+                            <div class="accordion-list d-flex justify-content-between">
+                                            <div class="list1">
+                                            <i class="fa-solid fa-chevron-down"></i> <span>AJAX Loading</span>
+                                            </div>
+                                            <div class="list2">
+                                            <span class="list-free free-black" ><i class="fa-solid fa-check"></i></span>
+                                            <span><i class="fa-solid fa-check"></i></span>
+
+                            </div>
+
+                            </button>
+                            </h2>
+                            <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                  <div class="row">
                                             <div class="col-lg-6 col-md-6">

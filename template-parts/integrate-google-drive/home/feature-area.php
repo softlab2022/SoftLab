@@ -24,7 +24,7 @@
                     <div class="file-text">
                         <h3>file browser</h3>
                         <p>Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-file-browser/">view demo</a>
+                        <a href="/integrate-google-drive-file-browser/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <div class="file-text">
                         <h3>File Uploader</h3>
                         <p>You and also your users can upload files directly to your Google Drive account from your site.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-file-uploader/">view demo</a>
+                        <a href="/integrate-google-drive-file-uploader/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                     <div class="file-text">
                         <h3>Photo Gallery</h3>
                         <p>You can add a grid lightbox popup photo gallery in your page/ post using the photo gallery options of the plugin. The gallery will be generated based on the folders that you select.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-photo-gallery/">view demo</a>
+                        <a href="/integrate-google-drive-photo-gallery/">view demo</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="file-text">
                         <h3>Media player</h3>
                         <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
-                        <a href="https://softlabbd.com/integrate-google-drive-media-player/">View Demo</a>
+                        <a href="/intergate-google-drive-media-player/">View Demo</a>
                     </div>
                 </div>
             </div>

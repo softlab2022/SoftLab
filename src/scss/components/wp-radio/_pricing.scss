@@ -1,7 +1,7 @@
 /**---------- Price Hero Area ----------**/
 
 #price-hero {
-        background: url("../images/radio-player/price/price-hero-shapes.png");
+        background: url("../images/wp-radio/price/price-hero-shapes.png");
         // background-color: aliceblue;
         background-position: 0 0;
         background-repeat: no-repeat;
@@ -13,12 +13,12 @@
                         font-weight: 700;
                         font-size: 3.5rem;
                         line-height: 120%;
-                        color: $h1_color;
+                        color: #fff;
                 }
                 p {
                         font-weight: 400;
                         font-size: 1rem;
-                        color: $p_color;
+                        color: #fff;
                         line-height: 150%;
                         padding-bottom: 120px;
                 }
@@ -45,7 +45,7 @@
                                 
                         }
                         h5 {
-                               color: #00BB45;
+                               color: #4353FF;
                                font-size: 3rem;
                                font-weight: 700;
                                line-height: 120%; 
@@ -84,7 +84,7 @@
                                                 width: 20px;
                                                 height: 20px;
                                                 line-height: 20px;
-                                                background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                                                background: #4353FF;
                                                 font-size: .8rem;
                                                 color: #fff;
                                                 border-radius: 5px;
@@ -106,7 +106,7 @@
                                 line-height: 19px;
                                 padding: 20px 35px; 
                                 border-radius: 8px;
-                                background-color: #00BB45;
+                                background-color: #4353FF;
                                 &:hover {
                                         box-shadow: #7788FF 0px 2px 8px 0px;
                                 }
@@ -115,7 +115,7 @@
         }
 
         .main2 {
-                border-top: 5px solid #3D6EC9;
+                border-top: 5px solid #FFB97E;
                 .price-but2 {
                         margin-top: 50px;
                         margin-bottom: 20px;
@@ -128,7 +128,7 @@
                                 line-height: 19px;
                                 padding: 20px 35px; 
                                 border-radius: 8px;
-                                background-color: #00BB45;
+                                background-color: #4353FF;
                                 &:hover {
                                         box-shadow: #7788FF 0px 2px 8px 0px;
                                 }
@@ -138,7 +138,7 @@
                         margin-top: 20px;
                         .dropdown {
                                 .btn-pr {
-                                        background-color: #00BB45;
+                                        background-color: #4353FF;
                                         border: none;
                                         padding: 15px 15px;
                                         border-radius: 8px;
@@ -206,7 +206,7 @@
 /**---------- industry Area ----------**/
 #industry {
 
-        background: url("../images/radio-player/price/14-day money.png");
+        background: url("../images/wp-radio/price/price-group.png"), #4353FF;
         // background-color: aliceblue;
         background-position: 0 0;
         background-repeat: no-repeat;
@@ -223,7 +223,7 @@
                 }
         }
         .indu-item {
-                background-color: #153F26;
+                background-color: #fff;
                 border-radius: 20px;
                 padding: 28px;
                 height: 175px;
@@ -232,7 +232,7 @@
                         font-size: 1.6rem;
                         font-weight: 700;
                         line-height: 120%;
-                        color: #fff;   
+                        color: #5C637E;   
                         display: block;
                 }
                 img {
@@ -280,8 +280,16 @@
 
 /**---------- list-feature Area ----------**/
 #list-feature {
-        padding: 60px 0 60px 0;
+        background: #fff;
+        padding: 90px 0 90px 0;
         .list-feat-head {
+                p {
+                        font-weight: 700;
+                        font-size: 1.5rem;
+                        line-height: 120%;
+                        color: #4353FF;
+                        text-transform: capitalize;
+                }
         h1 {
                 font-weight: 700;
                 font-size: 3rem;
@@ -289,6 +297,9 @@
                 line-height: 120%;
                 margin-bottom: 20px;
                 padding: 0 20px;
+                margin-bottom: 0;
+                margin-top: 25px;
+                padding-bottom: 30px;
         }
         .deliver {
                 font-weight: 400;
@@ -364,7 +375,7 @@
                                 width: 20px;
                                 height: 20px;
                                 line-height: 20px;
-                                background-color: #00BB45;
+                                background-color: #4353FF;
                                 color: #fff;
                                 font-size: 15px;
                                 text-align: center;
@@ -387,7 +398,7 @@
                 }
                 .accordion-button {
                         display: block;
-                        background-color: #E9F6F0;
+                        background-color: #f9faff;
                         transition: transform .2s ease-in-out;
                         
                 }
@@ -406,16 +417,16 @@
                 .accordion-item:last-of-type {
                         border-bottom-right-radius: .25rem;
                         border-bottom-left-radius: .25rem;
-                        background-color: #E9F6F0;
+                        background-color: #f9faff;
                 }
                 .accordion-collapse {
-                        background-color: #E9F6F0;
+                        background-color: #f9faff;
                 }
                 
                 .accordion-button:not(.collapsed) {
                         .fa-chevron-down{
                                 transform: rotate(180deg);
-                                background-color: #00BB45;
+                                background-color: #4353FF;
                                 color: #fff;
                         }
                 }
@@ -460,7 +471,7 @@
                                 width: 20px;
                                 height: 20px;
                                 line-height: 20px;
-                                background-color: #00BB45;
+                                background-color: #4353FF;
                                 color: #fff;
                                 font-size: 15px;
                                 text-align: center;
@@ -470,7 +481,14 @@
                 }
 
                 .accordion-body {
-                        border-top: 1px solid #00BB45;
+                        border-top: 1px solid #4353FF;
+                        .ac-text {
+                                span {
+                                        font-size: 1rem;
+                                        font-weight: 400;
+                                        color: #5C637E;
+                                }
+                        }
                 }
         }
         
@@ -604,80 +622,53 @@
 /* ====== people ask area start=====*/
 
 #aske {
-        background-color: #BBE897;
-        padding: 60px 0 60px 0;
+        padding: 60px 0 90px 0;
         
         .price-ask-head {
+                span {
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                        line-height: 120%;
+                        color: #4353FF;
+                }
                 h1 {
                         font-weight: 700;
                         font-size: 3rem;
                         line-height: 120%;
                         color: #151826;
+                        margin-bottom: 0;
+                        padding-bottom: 40px;
+                        margin-top: 24px;
                 }
         }
 
-        .aske-item {
-                .accordion {
-                        padding-top: 30px;
-                        .accordion-button:not(.collapsed)::after {
-                                display: none;
-                        }
-                        .accordion-button::after {
-                                display: none;
-                                // transition: transform .2s ease-in-out;
-                        }
-                        .accordion-button {
-                                display: block;
-                                background-color: #E9F6F0;
-                                transition: transform .2s ease-in-out;
-                                
-                        }
-        
-                        .accordion-item {
-                                border: none;
-                                margin-top: 30px;
-                        }
-        
-                        .accordion-button:focus {
-                                z-index: 3;
-                                border-color: transparent;
-                                outline: 0;
-                                box-shadow: none;
-                        }
-                        .accordion-item:last-of-type {
-                                border-bottom-right-radius: .25rem;
-                                border-bottom-left-radius: .25rem;
-                                background-color: #E9F6F0;
-                        }
-                        .accordion-collapse {
-                                background-color: #E9F6F0;
-                        }
-                        
-                        .accordion-button:not(.collapsed) {
-                                .fa-chevron-down{
-                                        transform: rotate(180deg);
-                                        background-color: #00BB45;
-                                        color: #fff;
-                                }
-                        }
-        
-                        .list1 {
-                       
-                                span {
-                                        color: #151826;
-                                        padding: 0.7rem 1.2rem;
-                                       
-                                        transition: all 0.2s ease-in-out;
-                                        box-shadow: none;
-                                        outline: none;
-                                        border: none;
-                                        width: 100%;
-                                        font-weight: 600;
-                                        text-transform: capitalize;    
-                                }
-                        }
+        .accordion-button:not(.collapsed)::after {
+                display: none;
+
+        }
+
+        .accordion-button::after {
+                display: none;
+        }
+
+        .accordion-button {
+                display: block;
+                background-color: #E9F6F0;
+                transition: transform .2s ease-in-out;
+                
+        }
+
+        .accordion-button:not(.collapsed) {
+                .fa-chevron-down{
+                        transform: rotate(180deg);
+                        background-color: #4353FF;
+                        color: #fff;
+                }
+        }
+
+                .accordion-list {
                         .list2 {
-                                         i {
+                                i {
                                         width: 30px;
                                         height: 30px;
                                         line-height: 30px;
@@ -688,16 +679,31 @@
                                         
                                         border-radius: 50%;
                                         transition: transform .2s ease-in-out;
-                                }
-                        }
-        
-                        .accordion-body {
-                                border-top: 1px solid #00BB45;
+                                }  
                         }
                 }
+
+                
+
+        .accordion-item {
+                margin-bottom: 30px;
         }
+        .accordion-button {
+                background-color: #E4EFFF;
+                
+        }
+        .accordion-button:focus {
+                z-index: 3;
+                border-color: #86b7fe;
+                outline: 0;
+                box-shadow: none;
+        }
+        .accordion-body {
+                border-top: 1px solid #4353FF;
+        }
+      
         /* ====== responsive area start =====*/
-@media (min-width: 1200px) {
+        @media (min-width: 1200px) {
         //Extra large
       }
       

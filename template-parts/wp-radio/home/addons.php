@@ -29,7 +29,7 @@
                 <div class="add">
                 <span>WP Radio Proxy Player</span>
                 <p>As of Google Chrome browser updates with some restriction...</p>
-                <a href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="/proxy-player/">View Details <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="add">
                 <span>WP Radio Ads Player</span>
                 <p>Monetize your radio directory website by playing custom ..</p>
-                <a href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="/wp-radio-station/">View Details <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="add">
                 <span>WP Radio Image Import</span>
                 <p>By default, all the imported station's images are loaded from ...</p>
-                <a href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="/image-importer/">View Details <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 </div>
             </div>
