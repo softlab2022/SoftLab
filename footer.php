@@ -2,6 +2,7 @@
 		</main><!-- /#main -->
 
         <!----==== footer area ====----->
+        
 <section class="footer">
     <div class="container">
         <div class="row">
