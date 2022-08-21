@@ -8,7 +8,7 @@
 
             <div class="col-lg-4 col-md-6">
                 <div class="footer-logo">
-                    <a href="https://wp-radio.com/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt="footer-logo"></a>
+                    <a href="https://softlabbd.com/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt="footer-logo"></a>
                 </div>
                 <div class="footer-contant">
                     <p>Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.</p>
@@ -42,9 +42,9 @@
                     <h4>Our Products</h4>
                 </div>
                 <div class="footer-menu-products">
-                    <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-integrate-google-drive.png" alt="f-integrate-google-drive">Integrate Google Drive</a>
-                    <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-wp-radio.png" alt="f-wp-radio">WP Radio</a>
-                    <a href="#"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-radio-player.png" alt="f-radio-player">Radio Player</a>
+                    <a href="/inergate-google-drive/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-integrate-google-drive.png" alt="f-integrate-google-drive">Integrate Google Drive</a>
+                    <a href="/wp-radio/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-wp-radio.png" alt="f-wp-radio">WP Radio</a>
+                    <a href="/radio-player/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-radio.png" alt="footer-radio">Radio Player</a>
                 </div>
             </div>
 

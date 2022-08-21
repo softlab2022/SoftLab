@@ -99,7 +99,7 @@
 
  /**----- footer area -----**/
     
-  .footer {
+.footer {
       background: url("../images/google-drive/footer.png");
       background-position: center;
       background-repeat: no-repeat;
@@ -318,8 +318,8 @@
     
       }
     
-    }
-    .page-template-templatesintegrate-google-drive-php,
+}
+.page-template-templatesintegrate-google-drive-php,
     .page-template-templatesintegrate-google-drive-pricing-php,
     .page-template-templatesintegrate-google-drive-file-browser-php,
     .page-template-templatesintegrate-google-drive-file-uploader-php,
@@ -334,8 +334,8 @@
           }
         }
       }
-    }
-    .page-template-templatesradio-player-php,
+  }
+.page-template-templatesradio-player-php,
     .page-template-templatesradio-player-pricing-php,
     .page-template-templateshttp-streaming-php,
     .page-template-templatesmultiple-php {
@@ -349,3 +349,39 @@
         }
       }
     }
+
+.page-template-templatesuser-frontend-php {
+  .footer {
+    .newslatter-from {
+      .input-group-append {
+        a {
+          background: #F3AD2E;
+        }
+      }
+    }
+  }
+}
+.page-template-templatesproxy-player-php,
+.page-template-templateswp-radio-station-php,
+.page-template-templatesimage-importer-php {
+  .footer {
+    .newslatter-from {
+      .input-group-append {
+        a {
+          background: #00D1E1;
+        }
+      }
+    }
+  }
+}
+// .page-template-templateswp-pricing-php {
+//   .footer {
+//     .newslatter-from {
+//       .input-group-append {
+//         a { 
+//           background: #00D1E1;
+//         }
+//       }
+//     }
+//   }
+// }
