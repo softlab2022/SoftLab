@@ -1,101 +1,4 @@
-/**-----newslatter area------**/
-#newslatter {
 
-    .newslatter-from {
-  
-      .input-group {
-        .form-control {
-          padding: 15px 20px;
-          border-radius: 8px;
-        }
-  
-        position: relative;
-      }
-  
-      .input-group-append {
-        a {
-          background: #4353FF;
-          text-decoration: none;
-          color: #fff;
-          padding: 10px 20px;
-          border-radius: 5px;
-        }
-  
-        position: absolute;
-        right: 2%;
-        top: 50%;
-        transform: translateY(-50%);
-  
-      }
-    }
-  
-    .form-control:focus {
-      color: #212529;
-      background-color: #fff;
-      border: none;
-      outline: 0;
-      box-shadow: none;
-    }
-  
-    .input-group > .form-control:focus, .input-group > .form-select:focus {
-      z-index: 0;
-    }
-  
-  
-    @media (min-width: 992px) and (max-width: 1199px) {
-      .newslatter-content {
-        .newslatter-title {
-          padding-right: 1%;
-          font-size: 1rem;
-        }
-  
-        p {
-          font-size: .875rem;
-        }
-      }
-    }
-  
-    @media (min-width: 768px) and (max-width: 991px) {
-      .newslatter {
-        padding: 25px;
-      }
-  
-      .newslatter-content {
-        .newslatter-title {
-          padding-right: 0;
-          font-size: 1rem;
-        }
-  
-        p {
-          font-size: .785rem;
-        }
-      }
-    }
-  
-    @media (min-width: 420px) and (max-width: 767px) {
-      top: 60px;
-  
-      .newslatter {
-        padding: 25px;
-        margin: 15px;
-        width: auto;
-      }
-  
-      .newslatter-content {
-        text-align: center;
-  
-        .newslatter-title {
-          padding-right: 0;
-          font-size: 1rem;
-        }
-  
-        p {
-          font-size: .875rem;
-        }
-      }
-    }
-  
-  }
 
  /**----- footer area -----**/
     
@@ -254,11 +157,29 @@
       
         @media (min-width: 992px) and (max-width: 1199px) {
             //Laptop
-        }
+            
+              .newslatter-from {
+                .input-group {
+                  .form-control {
+                    padding: 15px 12px;
+                  }
+                  ::placeholder {
+                    font-size: .785rem;
+                  }
+                }
+                .input-group-append {
+                  a {
+                    padding: 10px 14px;
+                    font-size: .8rem;
+                  }
+                }
+              }
+            }
+        
       
       @media (min-width: 768px) and (max-width: 991px)  {
         //Tablet
-        padding-top: 20%;
+        padding-top: 5%;
         .footer-contant {
           p {
             font-size: .785rem;
@@ -288,7 +209,7 @@
       
       @media (min-width: 420px) and (max-width: 767px) {
         //Mobile
-        padding-top: 20%;
+        padding-top: 10%;
     
         .footer-contant {
           p {
