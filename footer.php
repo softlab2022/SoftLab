@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-6 col-md-6">
                 <div class="footer-menu-head pro">
                     <h4>Our Products</h4>
                 </div>
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 col-md-6">
+            <div class="col-lg-3 col-8 col-md-6">
                 <div class="footer-menu-head pro">
                     <h4>Subscribe to Our Newsletter</h4>
                 </div>
