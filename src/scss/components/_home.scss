@@ -98,7 +98,9 @@
     padding-top: 2rem;
     padding-bottom: .8rem;
   }
-
+  a {
+    text-decoration: none;
+  }
   .products-item {
     background-color: #fff;
     padding: 20px;
@@ -113,9 +115,9 @@
       border-radius: 20px;
     }
 
-    a {
+    h5 {
       font-size: 1.5rem;
-
+      
       font-weight: 700;
       color: $h1_color;
       text-decoration: none;
@@ -152,20 +154,20 @@
   .products-butt {
     padding-bottom: 2rem;
 
-    a {
+    span {
       text-decoration: none;
       color: $h1_color;
       font-size: 1rem;
       font-weight: 600;
       margin-bottom: .8rem;
 
-      &:hover {
-        border: 1px solid linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
-        padding: 10px 35px;
-        border-radius: 8px;
-        background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
-        color: #fff;
-      }
+      // &:hover {
+      //   border: 1px solid linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+      //   padding: 10px 35px;
+      //   border-radius: 8px;
+      //   background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+      //   color: #fff;
+      // }
     }
   }
 
@@ -629,11 +631,13 @@
 /**------- Testimonial -------**/
 #testimonial {
   background: url("../images/home/testimonial/think-bg-shape.png");
-  background-position: 0 0;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   bottom: 0;
-  top: 60px;
+  top: 100px;
+  margin-bottom: 60px;
   .testimonial-head {
     h2 {
       font-weight: 700;
