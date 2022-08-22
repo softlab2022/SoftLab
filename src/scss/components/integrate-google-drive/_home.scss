@@ -57,11 +57,6 @@
 
 /**---------- inner-header-bg scss ----------**/
 
-.inner-header-bg {
-  img {
-    padding-bottom: 25%;
-  }
-}
 /**---------- responsive-area scss start ----------**/
 @media (min-width: 1200px) {
   //Extra large
@@ -113,7 +108,7 @@
 /**---------- integrate-google-drive-feature-area scss ----------**/
 
 #integrate-feature {
-  padding-top: 25%;
+  padding-top: 330px;
   .integrate-feature-head {
       h1 {
         font-weight: 700;
@@ -371,8 +366,7 @@
 /**---------- full-woo scss ----------**/
 #full-woo {
   background-color: #F5FCF4;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 90px 0 0 0;
   .full-woo-head {
     h1 {
       font-weight: 700;
@@ -442,8 +436,7 @@
 /**---------- ex-feature scss ----------**/
 #ex-feature {
   background-color: #F5FCF4;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 0 0 90px 0;
   .ex-feature-head {
     h1 {
       font-weight: 700;
@@ -762,6 +755,7 @@
 }
 /**---------- people think scss ----------**/
 #people-think {
+  background-color: rgba(0, 0, 0, 0.01);
   .people-think-head {
     h1 {
       font-weight: 700;
@@ -824,6 +818,7 @@
       border-radius: 20px;
       padding: 20px;
       margin: 0 10px;
+      
     }
     .icon {
       width: 40px;
@@ -934,7 +929,7 @@
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px 0 30px 0;
+  padding: 50px 0 50px 0;
   margin-top: 60px;
   .inte-item {
     h3 {
