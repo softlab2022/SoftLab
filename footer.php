@@ -43,7 +43,7 @@
                     <h4>Our Products</h4>
                 </div>
                 <div class="footer-menu-products">
-                    <a href="/inergate-google-drive/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-integrate-google-drive.png" alt="f-integrate-google-drive">Integrate Google Drive</a>
+                    <a href="/intergate-google-drive/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-integrate-google-drive.png" alt="f-integrate-google-drive">Integrate Google Drive</a>
                     <a href="/wp-radio/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/f-wp-radio.png" alt="f-wp-radio">WP Radio</a>
                     <a href="/radio-player/"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-radio.png" alt="footer-radio">Radio Player</a>
                 </div>
