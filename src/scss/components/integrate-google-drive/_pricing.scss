@@ -8,6 +8,7 @@
         background-size: cover;
         height: 100vh;
         padding: 160px 0 100px 0;
+        background-color: #F9FAFF;
         .hero-content {
                 h1 {
                         font-weight: 700;
@@ -24,10 +25,65 @@
                 }
         }
 
+     
+/* ====== responsive area start =====*/
+@media (min-width: 1200px) {
+        //Extra large
+      }
+      
+        @media (min-width: 992px) and (max-width: 1199px) {
+            //Laptop
+            .hero-content {
+                h1 {
+                        font-size: 2.2rem;
+                }
+                p {
+                        font-size: .785rem;
+                        padding-bottom: 20px;
+                }
+        }
+        }
+    
+      @media (min-width: 768px) and (max-width: 991px)  {
+        //Tablet
+        .hero-content {
+                h1 {
+                        font-size: 2.2rem;
+                }
+                p {
+                        font-size: .785rem;
+                        padding-bottom: 20px;
+                }
+        }
+      }
+      
+      @media (min-width: 420px) and (max-width: 767px) {
+        //Mobile
+        .hero-content {
+                h1 {
+                        font-size: 2.2rem;
+                }
+                p {
+                        font-size: .785rem;
+                        padding-bottom: 20px;
+                }
+        }
+      }
+    
+    
+/* ====== responsive area end=====*/
+
+}
+
+/**---------- price Area ----------**/
+#pric {
+        background-color: #F9FAFF;
         .price-main {
                 background-color: #fff;
                 padding: 20px;
                 border-top: 5px solid #00BB45;
+                position: relative;
+                top: -260px;
                 .p-head {
                         .free {
                                 display: block;
@@ -154,55 +210,7 @@
                         }
                 }
         }
-/* ====== responsive area start =====*/
-@media (min-width: 1200px) {
-        //Extra large
-      }
-      
-        @media (min-width: 992px) and (max-width: 1199px) {
-            //Laptop
-            .hero-content {
-                h1 {
-                        font-size: 2.2rem;
-                }
-                p {
-                        font-size: .785rem;
-                        padding-bottom: 20px;
-                }
-        }
-        }
-    
-      @media (min-width: 768px) and (max-width: 991px)  {
-        //Tablet
-        .hero-content {
-                h1 {
-                        font-size: 2.2rem;
-                }
-                p {
-                        font-size: .785rem;
-                        padding-bottom: 20px;
-                }
-        }
-      }
-      
-      @media (min-width: 420px) and (max-width: 767px) {
-        //Mobile
-        .hero-content {
-                h1 {
-                        font-size: 2.2rem;
-                }
-                p {
-                        font-size: .785rem;
-                        padding-bottom: 20px;
-                }
-        }
-      }
-    
-    
-/* ====== responsive area end=====*/
-
 }
-
 /**---------- industry Area ----------**/
 #industry {
 
@@ -212,7 +220,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 60px 0 60px 0;
-        margin-top: 600px;
+        
         .industry-head {
                 h2 {
                         font-size: 3rem;
@@ -246,12 +254,12 @@
       
         @media (min-width: 992px) and (max-width: 1199px) {
             //Laptop
-            margin-top: 580px;
+            
         }
     
       @media (min-width: 768px) and (max-width: 991px)  {
         //Tablet
-        margin-top: 580px;
+       
         .industry-head {
                 h2 {
                         font-size: 2rem;
@@ -265,7 +273,7 @@
       
       @media (min-width: 420px) and (max-width: 767px) {
         //Mobile
-        margin-top: 1440px;
+        
         .industry-head {
                 h2 {
                         font-size: 2rem;

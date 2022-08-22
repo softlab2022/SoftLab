@@ -13,7 +13,7 @@
         });
 
         $('.think-main-items').slick({
-            centerMode: true,
+            centerMode: false,
             centerPadding: '60px',
             slidesToShow: 3,
             dots: true,

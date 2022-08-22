@@ -139,47 +139,51 @@
                 </div>
 
            <!---====Popular Page Builder support====-->
-           
-           <div class="col-lg-7">
-            <div class="featuer-item-img">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/page-bulider-img.png" alt="file-browser-img">
-            </div>
-        </div>
-
-        <div class="col-lg-5">
-            <div class="featuer-item page-bulider">
-                <div class="file-text">
-                    <h3>Popular Page Builder support</h3>
-                    <p>Compare the Best Website Builders and Choose Yours. Create a Free Website Today. It's Easy and Free. Compare the Best Website Builders. </p>
-                    <div class="files">
-                        <h5><i class="fa-solid fa-check"></i> Classic Editor</h5>
-                    <h5><i class="fa-solid fa-check"></i> Gutenberg</h5>
-                    <h5><i class="fa-solid fa-check"></i> Elementor</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-           <!---====Popular Forms Connect & Easy to use====-->
-        
-        <div class="col-lg-5">
-            <div class="featuer-item from-contact">
-                <div class="file-text">
-                    <h3>Popular Forms Connect & Easy to use</h3>
-                    <p>Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.</p>
-                    <div class="files">
-                        <h5><i class="fa-solid fa-check"></i> Contact Form 7</h5>
-                    <h5><i class="fa-solid fa-check"></i> WpForms</h5>
-                    <h5><i class="fa-solid fa-check"></i> Gravityforms</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
    
-        <div class="col-lg-7">
-            <div class="featuer-item-img">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/form-contact-img.png" alt="file-browser-img">
+
+            <div class="col-lg-5">
+                <div class="featuer-item page-bulider">
+                    <div class="file-text">
+                        <h3>Popular Page Builder support</h3>
+                        <p>Compare the Best Website Builders and Choose Yours. Create a Free Website Today. It's Easy and Free. Compare the Best Website Builders. </p>
+                        <div class="files">
+                            <h5><i class="fa-solid fa-check"></i> Classic Editor</h5>
+                        <h5><i class="fa-solid fa-check"></i> Gutenberg</h5>
+                        <h5><i class="fa-solid fa-check"></i> Elementor</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+                    
+            <div class="col-lg-7">
+                <div class="featuer-item-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/page-bulider-img.png" alt="file-browser-img">
+                </div>
+            </div>
+
+           <!---====Popular Forms Connect & Easy to use====-->
+
+           
+            <div class="col-lg-7">
+                <div class="featuer-item-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/feature/form-contact-img.png" alt="file-browser-img">
+                </div>
+            </div>
+            
+            <div class="col-lg-5">
+                <div class="featuer-item from-contact">
+                    <div class="file-text">
+                        <h3>Popular Forms Connect & Easy to use</h3>
+                        <p>Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.</p>
+                        <div class="files">
+                            <h5><i class="fa-solid fa-check"></i> Contact Form 7</h5>
+                        <h5><i class="fa-solid fa-check"></i> WpForms</h5>
+                        <h5><i class="fa-solid fa-check"></i> Gravityforms</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   
 
 
         </div>

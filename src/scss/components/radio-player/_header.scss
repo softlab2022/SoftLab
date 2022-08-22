@@ -11,8 +11,12 @@
   
     .primary-nav {
       .navbar-brand {
-        height: 80px;
         line-height: 80px;
+      }
+      .brand {
+        border-right: 0.5px solid #5C637E;
+        height: 40px;
+        line-height: 29px;
       }
       .buy-now {
         a {
