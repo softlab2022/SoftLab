@@ -64,7 +64,6 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						);
 						?>
 
-                        
                         <div class="buy-now">
                         <a href="#"><i class="fa-solid fa-cart-shopping"></i> buy now</a>
                         </div>
