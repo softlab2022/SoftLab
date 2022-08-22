@@ -53,7 +53,7 @@
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/icon4.png" alt="icon4">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/icon4.png" alt="icon4">
                     </div>
                     <div class="ex-text">
                         <h4>Embed Document</h4>
