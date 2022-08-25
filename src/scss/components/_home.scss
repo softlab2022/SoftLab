@@ -113,6 +113,11 @@
       // background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
       box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.04);
       border-radius: 20px;
+      .porducts-icon {
+
+          transform: translateY(-8px);
+        
+      }
     }
 
     h5 {
@@ -498,7 +503,9 @@
       // background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
       box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
       border-radius: 20px;
-
+      .feat-icon {
+        transform: translateY(-8px);
+      }
     }
 
     .feat-content {
