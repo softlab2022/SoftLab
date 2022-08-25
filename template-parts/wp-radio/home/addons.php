@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-8 m-auto">
                 <div class="addons-head text-center">
                     <span>our addons</span>
                     <h1>Addons for WP Radio</h1>
@@ -12,7 +12,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-3 m-auto">
+            <div class="col-lg-3 col-md-6 m-auto">
                 <a href="/user-frontend/">
                     <div class="addon-item text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/user.png" alt="user">
@@ -25,7 +25,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-3 m-auto">
+            <div class="col-lg-3 col-md-6 m-auto">
                 <a href="/proxy-player/">
                     <div class="addon-item add-item1 text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/proxy.png" alt="proxy">
@@ -38,7 +38,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-3 m-auto">
+            <div class="col-lg-3 col-md-6 m-auto">
                 <a href="/wp-radio-station/">
                     <div class="addon-item add-item2 text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/ads-player.png" alt="ads-player">
@@ -51,7 +51,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-3 m-auto">
+            <div class="col-lg-3 col-md-6 m-auto">
                 <a href="/image-importer/">
                     <div class="addon-item add-item1 text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/import.png" alt="import">

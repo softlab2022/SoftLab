@@ -1,14 +1,14 @@
 <section id="usage">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage">
                     <span>usage</span>
                     <h5>Easy way to run radio ads on WordPress Usage.</h5>
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/publish.png" alt="publish">
                     <div class="text">
@@ -18,7 +18,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/active.png" alt="active">
                     <div class="text">
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/status.png" alt="status">
                     <div class="text">
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/new-ad.png" alt="new-ad">
                     <div class="text">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/ads.png" alt="ads">
                     <div class="text">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/ad-confi.png" alt="ad-confi">
                     <div class="text">
@@ -68,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/usage/ads-exp.png" alt="ads-exp">
                     <div class="text">

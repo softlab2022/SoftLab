@@ -24,10 +24,63 @@
                 }
         }
 
+        
+/* ====== responsive area start =====*/
+@media (min-width: 1200px) {
+        //Extra large
+      }
+      
+        @media (min-width: 992px) and (max-width: 1199px) {
+            //Laptop
+            .hero-content {
+                h1 {
+                        font-size: 2.2rem;
+                }
+                p {
+                        font-size: .785rem;
+                        padding-bottom: 20px;
+                }
+        }
+        }
+    
+      @media (min-width: 768px) and (max-width: 991px)  {
+        //Tablet
+        .hero-content {
+                h1 {
+                        font-size: 2.2rem;
+                }
+                p {
+                        font-size: .785rem;
+                        padding-bottom: 20px;
+                }
+        }
+      }
+      
+      @media (min-width: 420px) and (max-width: 767px) {
+        //Mobile
+        .hero-content {
+                h1 {
+                        font-size: 2.2rem;
+                }
+                p {
+                        font-size: .785rem;
+                        padding-bottom: 20px;
+                }
+        }
+      }
+/* ====== responsive area end=====*/
+
+/**---------- price Area ----------**/
+}
+#pric {
+       
         .price-main {
                 background-color: #fff;
                 padding: 20px;
                 border-top: 5px solid #00BB45;
+                position: relative;
+                top: -260px;
+
                 .p-head {
                         .free {
                                 display: block;
@@ -95,7 +148,7 @@
                         }
                 }
                 .price-but {
-                        margin-top: 200px;
+                        margin-top: 212px;
                         margin-bottom: 20px;
                         text-align: center;
                         a {
@@ -116,6 +169,7 @@
 
         .main2 {
                 border-top: 5px solid #3D6EC9;
+
                 .price-but2 {
                         margin-top: 50px;
                         margin-bottom: 20px;
@@ -154,53 +208,6 @@
                         }
                 }
         }
-/* ====== responsive area start =====*/
-@media (min-width: 1200px) {
-        //Extra large
-      }
-      
-        @media (min-width: 992px) and (max-width: 1199px) {
-            //Laptop
-            .hero-content {
-                h1 {
-                        font-size: 2.2rem;
-                }
-                p {
-                        font-size: .785rem;
-                        padding-bottom: 20px;
-                }
-        }
-        }
-    
-      @media (min-width: 768px) and (max-width: 991px)  {
-        //Tablet
-        .hero-content {
-                h1 {
-                        font-size: 2.2rem;
-                }
-                p {
-                        font-size: .785rem;
-                        padding-bottom: 20px;
-                }
-        }
-      }
-      
-      @media (min-width: 420px) and (max-width: 767px) {
-        //Mobile
-        .hero-content {
-                h1 {
-                        font-size: 2.2rem;
-                }
-                p {
-                        font-size: .785rem;
-                        padding-bottom: 20px;
-                }
-        }
-      }
-    
-    
-/* ====== responsive area end=====*/
-
 }
 
 /**---------- industry Area ----------**/
@@ -212,7 +219,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 60px 0 60px 0;
-        margin-top: 600px;
+
         .industry-head {
                 h2 {
                         font-size: 3rem;

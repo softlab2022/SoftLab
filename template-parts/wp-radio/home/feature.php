@@ -4,21 +4,26 @@
             <!-- == Radio Stations Listing == -->
             <div class="wp-feat-item">
                <div class="row">
-               <div class="col-lg-6 ma-uto">
-                    <div class="featuer-item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/listing.png" alt="listing">
+                    <div class="col-lg-6 col-md-6 feat-item-img m-auto">
+                        <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/listing.png" alt="listing">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="wp-feat-content">
-                    <div class="file-text">
-                        <span>Radio Stations Listing</span>
-                        <h3>The Radio enables you to select from many country radio stations</h3>
-                        <p>All the radio stations can be listed on any page/post using the [wp_radio_listing] shortcode.</p>
-                        <a href="#">Check demo</a>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wp-feat-content">
+                        <div class="file-text">
+                            <span>Radio Stations Listing</span>
+                            <h3>The Radio enables you to select from many country radio stations</h3>
+                            <p>All the radio stations can be listed on any page/post using the [wp_radio_listing] shortcode.</p>
+                            <a href="#">Check demo</a>
+                        </div>
+                        </div>
                     </div>
+                    <div class="col-lg-6 feat-item-img1 m-auto">
+                        <div class="featuer-item-img feat-item-img1 text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/listing.png" alt="listing">
+                        </div>
                     </div>
-                </div>
                </div>
             </div>
 
@@ -26,7 +31,7 @@
             <div class="wp-feat-item">
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Radio Stations Importer</span>
@@ -36,7 +41,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 ma-uto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/impoter.png" alt="impoter">
                         </div>
@@ -50,13 +55,13 @@
             <div class="wp-feat-item unlimited">
 
                 <div class="row">
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 feat-item-img m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/unlimited.png" alt="unlimited">
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Add unlimited new station</span>
@@ -66,7 +71,11 @@
                         </div>
                         </div>
                     </div>
-                   
+                    <div class="col-lg-6 feat-item-img1 m-auto">
+                        <div class="featuer-item-img  text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/unlimited.png" alt="unlimited">
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -76,7 +85,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Sticky radio player</span>
@@ -87,7 +96,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/stiky.png" alt="stiky">
                         </div>
@@ -103,13 +112,13 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 feat-item-img m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/advanced.png" alt="advanced">
                         </div>
                     </div>
                    
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Advanced search & filtering</span>
@@ -119,7 +128,12 @@
                         </div>
                         </div>
                     </div>
-
+                    <div class="col-lg-6 feat-item-img1 m-auto">
+                        <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/advanced.png" alt="advanced">
+                        </div>
+                    </div>
+                   
                 </div>
 
             </div>
@@ -130,7 +144,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Browse stations by states & cities</span>
@@ -142,7 +156,7 @@
                     </div>
                     
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/browser.png" alt="browser">
                         </div>
@@ -158,13 +172,13 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 feat-item-img m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/shortcode.png" alt="shortcode">
                         </div>
                     </div>
                    
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Shortcode Player</span>
@@ -174,7 +188,11 @@
                         </div>
                         </div>
                     </div>
-                    
+                    <div class="col-lg-6 feat-item-img1 m-auto">
+                        <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/shortcode.png" alt="shortcode">
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -184,7 +202,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Popup player</span>
@@ -195,7 +213,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/popup.png" alt="popup">
                         </div>
@@ -211,12 +229,12 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 feat-item-img m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/country.png" alt="country">
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Country List</span>
@@ -226,7 +244,11 @@
                         </div>
                         </div>
                     </div>
-                    
+                    <div class="col-lg-6 feat-item-img1 m-auto">
+                        <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/country.png" alt="country">
+                        </div>
+                    </div>
                    
                 </div>
 

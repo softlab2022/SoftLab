@@ -11,8 +11,8 @@
 
         <div class="row">
 
-            <div class="col-lg-6 m-auto">
-                <div class="usage-item d-flex align-items-center">
+            <div class="col-lg-6 col-md-6 m-auto">
+                <div class="usage-item3 d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/install.png" alt="install">
                     <div class="text">
                         <span>Install & Activate</span>
@@ -21,8 +21,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
-                <div class="usage-item d-flex align-items-center">
+            <div class="col-lg-6 col-md-6 m-auto">
+                <div class="usage-item3 d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/url.png" alt="url">
                     <div class="text">
                         <span>User Proxy URL</span>
@@ -31,8 +31,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
-                <div class="usage-item d-flex align-items-center">
+            <div class="col-lg-6 col-md-6 m-auto">
+                <div class="usage-item3 d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/enable.png" alt="enable">
                     <div class="text">
                         <span>Enable Proxy Player</span>
@@ -43,8 +43,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
-                <div class="usage-item d-flex align-items-center">
+            <div class="col-lg-6 col-md-6 m-auto">
+                <div class="usage-item3 d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/title.png" alt="title">
                     <div class="text">
                         <span>Fix Current Song Title</span>

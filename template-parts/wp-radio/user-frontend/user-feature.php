@@ -4,21 +4,26 @@
             <!-- == User Account Page == -->
             <div class="wp-feat-item">
                <div class="row">
-               <div class="col-lg-6 ma-uto">
-                    <div class="featuer-item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/login.png" alt="login">
+                    <div class="col-lg-6 col-md-6 user-feats m-auto">
+                        <div class="featuer-item-img text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/login.png" alt="login">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="wp-feat-content">
-                    <div class="file-text">
-                        <span>User Account Page</span>
-                        <h3>Let the users to register, login, and customize their profile</h3>
-                        <p>Create your own extra/custom user fields and add them to the registration/edit profile forms. Let users upload their own avatars.</p>
-                        <a href="#">Check demo</a>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="wp-feat-content">
+                        <div class="file-text">
+                            <span>User Account Page</span>
+                            <h3>Let the users to register, login, and customize their profile</h3>
+                            <p>Create your own extra/custom user fields and add them to the registration/edit profile forms. Let users upload their own avatars.</p>
+                            <a href="#">Check demo</a>
+                        </div>
+                        </div>
                     </div>
+                    <div class="col-lg-6 user-feats1 m-auto">
+                        <div class="featuer-item-img text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/login.png" alt="login">
+                        </div>
                     </div>
-                </div>
                </div>
             </div>
 
@@ -26,7 +31,7 @@
             <div class="wp-feat-item">
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Station Sharing</span>
@@ -36,7 +41,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/explore.png" alt="explore">
                         </div>
@@ -50,13 +55,13 @@
             <div class="wp-feat-item unlimited">
 
                 <div class="row">
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 user-feats m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/rating.png" alt="rating">
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Rating and Reviews</span>
@@ -66,7 +71,11 @@
                         </div>
                         </div>
                     </div>
-                   
+                    <div class="col-lg-6 col-md-6 user-feats1 m-auto">
+                        <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/rating.png" alt="rating">
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -76,7 +85,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Favorite Stations</span>
@@ -87,7 +96,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/favorite.png" alt="favorite">
                         </div>
@@ -103,13 +112,13 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 user-feats m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/submission.png" alt="submission">
                         </div>
                     </div>
                    
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Station Submission</span>
@@ -119,7 +128,11 @@
                         </div>
                         </div>
                     </div>
-
+                    <div class="col-lg-6 user-feats1 m-auto">
+                        <div class="featuer-item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/submission.png" alt="submission">
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -130,7 +143,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Report Submission</span>
@@ -142,7 +155,7 @@
                     </div>
                     
 
-                    <div class="col-lg-6 ma-uto">
+                    <div class="col-lg-6 col-md-6 m-auto">
                         <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/user-frontend/feature/report.png" alt="report">
                         </div>

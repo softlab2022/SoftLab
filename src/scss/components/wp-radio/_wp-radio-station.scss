@@ -70,6 +70,7 @@
             font-size: .9rem;
             padding: 3% 12%;
             padding-left: 0;
+            margin-bottom: 40px;
           }
         }
       
@@ -171,6 +172,97 @@
             }
         }
     }
+    /**---------- responsive-area scss start ----------**/
+    @media (min-width: 1200px) {
+      //Extra large
+      }
+
+      @media (min-width: 992px) and (max-width: 1199px) {
+          //Laptop
+          .station {
+            
+            h5 {
+              font-size: 2rem;
+            }
+          }
+          .station-item {
+            .text {
+              span {
+                font-size: 1rem;
+              }
+              p {
+                padding-right: 0; 
+                font-size: .9rem;
+              }
+            }
+          }
+          .station-item1 {
+            .text {
+              p {
+                padding-right: 0; 
+              }
+            }
+          }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px)  {
+      //Tablet
+      .station {
+        
+        h5 {
+          font-size: 2rem;
+        }
+      }
+      .station-item {
+        .text {
+          span {
+            font-size: 1rem;
+          }
+          p {
+            padding-right: 0; 
+            font-size: .7rem;
+          }
+        }
+      }
+      .station-item1 {
+        .text {
+          p {
+            padding-right: 0; 
+          }
+        }
+      }
+
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .station {
+    text-align: center;
+    h5 {
+      font-size: 2rem;
+    }
+  }
+  .station-item {
+    .text {
+      span {
+        font-size: 1rem;
+      }
+      p {
+        padding-right: 0; 
+      }
+    }
+  }
+  .station-item1 {
+    .text {
+      p {
+        padding-right: 0; 
+      }
+    }
+  }
+
+  }
+  /**---------- responsive-area scss end ----------**/
+    
 }
 /**---------- radio-station-usage-area scss ----------**/
 #usage {
@@ -218,6 +310,76 @@
             }
         }
     }
+    /**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .usage {
+    
+        h5 {
+          font-size: 2rem;
+        }
+      }
+      .usage-item {
+        .text {
+          span {
+            font-size: 1rem;
+          }
+          p {
+            padding-right: 0; 
+            font-size: .9rem;
+          }
+        }
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .usage {
+    
+    h5 {
+      font-size: 2rem;
+    }
+  }
+  .usage-item {
+    .text {
+      span {
+        font-size: 1rem;
+      }
+      p {
+        padding-right: 0; 
+        font-size: .7rem;
+      }
+    }
+  }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  padding: 0;
+  .usage {
+    text-align: center;
+    h5 {
+      font-size: 2rem;
+    }
+  }
+  .usage-item {
+    .text {
+      span {
+        font-size: 1rem;
+      }
+      p {
+        padding-right: 0; 
+      }
+    }
+  }
+  
+
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 /**---------- radio-station-usage-area scss ----------**/
 #how-use {
@@ -258,6 +420,43 @@
       font-size: 25px;
     }
   }
+  /**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+    .plan-head {
+      h1 {
+        margin: 0;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .use-head {
+    h5 {
+      font-size: 2rem;
+    }
+  }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .use-head {
+    h5 {
+      font-size: 2rem;
+    }
+  }
+  .how-butt {
+    position: absolute;
+    top: 27%;
+    left: 38%;
+  }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 /**-----testmonial area------**/
 #wp-testmonial {
@@ -350,6 +549,67 @@
       }
     }
   }
+  /**---------- responsive-area scss start ----------**/
+ @media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .test-rating {
+        .star {
+          .fa-star {
+            font-size: 1.2rem;
+        }
+      }
+        .quote {
+          .fa-quote-right {
+             font-size: 1.4rem;
+            
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            
+          }
+
+        }
+        
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+   
+    .item2 {
+      margin-top: -72px;
+    }
+    .item3 {
+      margin-top: -140px;
+    }
+    .items {
+      margin-top: 0;
+    }
+    .test-rating {
+      .star {
+        .fa-star {
+          font-size: 1.4rem;
+      }
+      }
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+    .testmonial-head {
+      p {
+        padding: 0;
+      }
+    }
+    .items {
+      margin-top: 0;
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----option area------**/
@@ -396,6 +656,52 @@
       }
     }
   }
+  /**---------- responsive-area scss start ----------**/
+  @media (min-width: 1200px) {
+    //Extra large
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+      
+    }
+
+    @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+      .option {
+        .add-text {
+          span {
+            font-size: 1rem;
+          }
+          p {
+            font-size: .785rem;
+          }
+        }
+        .add-but {
+          a {
+            padding: 10px 23px;
+            font-size: .785rem;
+          }
+        }
+      }
+    }
+
+    @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+      .option {
+        text-align: center;
+        .add-text {
+          margin-top: 20px;
+          p {
+            padding-bottom: 40px;
+          }
+        }
+        .add-but {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  /**---------- responsive-area scss end ----------**/
 }
 
 .page-template {
@@ -609,5 +915,30 @@
   }
 
   }
+/**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+  }
 
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+    .plan-head {
+      h1 {
+        margin: 0;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .annually {
+    margin-bottom: 40px;
+  }
+  }
+  /**---------- responsive-area scss end ----------**/
 }

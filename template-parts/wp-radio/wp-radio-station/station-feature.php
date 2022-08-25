@@ -1,14 +1,14 @@
 <section id="station">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station">
                     <span>features</span>
                     <h5>Let’s Explore our Valuable Awesome Features</h5>
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/audio.png" alt="audio">
                     <div class="text">
@@ -18,7 +18,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/pre-roll.png" alt="pre-roll">
                     <div class="text">
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/countries.png" alt="countries">
                     <div class="text">
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/custom.png" alt="custom">
                     <div class="text">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/email.png" alt="email">
                     <div class="text">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/filter.png" alt="filter">
                     <div class="text">
@@ -68,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="station-item station-item1 d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/feature/rules.png" alt="rules">
                     <div class="text">

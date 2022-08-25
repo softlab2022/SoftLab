@@ -107,7 +107,7 @@
         padding: 10px 25px;
       }
       .get1 {
-        padding: 10px 25px;
+        padding: 0;
       }
     }
   }
@@ -118,6 +118,7 @@
     text-align: center;
     .hero-content {
       h1 {
+        padding-top: 30px;
         font-size: 1.9rem;
       }
       p {
@@ -127,8 +128,9 @@
     }
     .radio-header-bg {
       padding-top: 35px;
+      padding-bottom: 60px;
     }
-    
+   
   }
   /**---------- responsive-area scss end ----------**/
   
@@ -188,6 +190,70 @@
       }
     }
   }
+  .feat-item-img {
+    display: block;
+  }
+  .feat-item-img1 {
+    display: none;
+  }
+  /**---------- responsive-area scss start ----------**/
+ @media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+    .wp-feat-item {
+      .wp-feat-content {
+        padding-top: 60px;
+        .file-text {
+          span {
+            font-size: 1.2rem;
+          }
+          h3 {
+            font-size: 1.5rem;
+            padding-bottom: 5px;
+          }
+          p {
+            padding-right: 0px;
+            font-size: .785rem;
+          }
+          margin-bottom: 35px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .feat-item-img {
+    display: none;
+  }
+  .feat-item-img1 {
+    display: block;
+  }
+  
+  .wp-feat-item {
+    .featuer-item-img {
+      padding-bottom: 0;
+    }
+    .wp-feat-content {
+      .file-text {
+        margin-bottom: 60px;
+        text-align: center;
+        p {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----ex-feature area------**/
@@ -229,22 +295,58 @@
   .ex-logo {
     padding-bottom: 25px;
   }
-  .ex-text {
-    span {
-      font-weight: 700;
-      font-size: 1.5rem;
-      line-height: 120%;
-      color: #151826;
-    }
-    p {
-      font-weight: 400;
-      font-size: 1rem;
-      line-height: 150%;
-      color: #5c637e;
-      margin-top: 20px;
+    .ex-text {
+      span {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 120%;
+        color: #151826;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: #5c637e;
+        margin-top: 20px;
+      }
     }
   }
-}
+  /**---------- responsive-area scss start ----------**/
+ @media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+    .ex-item {
+      .ex-text {
+        span {
+          font-size: 1.2rem;
+        }
+        p {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+    .ex-head {
+      h1 {
+        margin: 0;
+      }
+      p {
+        padding: 0 10px;
+      }
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----testmonial area------**/
@@ -338,7 +440,71 @@
       }
     }
   }
+
+  /**---------- responsive-area scss start ----------**/
+ @media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .test-rating {
+        .star {
+          .fa-star {
+            font-size: 1.2rem;
+        }
+      }
+        .quote {
+          .fa-quote-right {
+             font-size: 1.4rem;
+            
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            
+          }
+
+        }
+        
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+   
+    .item2 {
+      margin-top: -72px;
+    }
+    .item3 {
+      margin-top: -140px;
+    }
+    .items {
+      margin-top: 0;
+    }
+    .test-rating {
+      .star {
+        .fa-star {
+          font-size: 1.4rem;
+      }
+      }
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+    .testmonial-head {
+      p {
+        padding: 0;
+      }
+    }
+    .items {
+      margin-top: 0;
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
+
 }
+
 /**-----funfact area------**/
 #fun {
   padding: 60px 0 60px 0;
@@ -364,6 +530,37 @@
       }
     }
   }
+  /**---------- responsive-area scss start ----------**/
+  @media (min-width: 1200px) {
+    //Extra large
+  }
+  
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+      
+    }
+  
+  @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+    .fun-item {
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+    .fun-item {
+      .text {
+        span {
+          font-size: 1.2rem;
+        }
+        h6 {
+          font-size: .7rem;
+        }
+      }
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----solution area------**/
@@ -436,6 +633,38 @@
   .add-item2 {
     background-color: #FFE8E7;
   }
+
+  /**---------- responsive-area scss start ----------**/
+ @media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  .addon-item {
+    margin-bottom: 25px;
+  }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+    .addons-head {
+      p {
+        padding: 0;
+        margin-bottom: 30px;
+      }
+    }
+    .addon-item {
+      margin-bottom: 25px;
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
+
 }
 
 /**-----solution area------**/
@@ -539,7 +768,7 @@
 
 @media (min-width: 420px) and (max-width: 767px) {
   //Mobile
-  top: 25px;
+  padding: 25px;
   .newslatter {
     padding: 25px;
   }
@@ -556,6 +785,17 @@
       padding-bottom: 20px;
     }
   }
+  .newslatter-from {
+    margin-bottom: 15px;
+    .butt2 {
+      padding: 12px 25px;
+    }
+    .butt1 {
+      padding: 12px 25px;
+    }
+  }
 }
 }
+
+
 
