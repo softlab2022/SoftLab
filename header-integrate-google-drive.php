@@ -41,7 +41,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                     
                     <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"
                        title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive">
+                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive" style="width: 75%">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
