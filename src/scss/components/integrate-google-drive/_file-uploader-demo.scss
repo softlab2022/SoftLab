@@ -3,10 +3,11 @@
     // background-color: aliceblue;
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
+    background-size: contain;
     padding: 160px 0 100px 0;
-
+    .igd-file-uploader {
+        background: #fff;
+    }
     .uploader-demo-head {
         h1 {
             font-weight: 700;

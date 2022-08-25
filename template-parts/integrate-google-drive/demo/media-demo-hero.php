@@ -12,7 +12,7 @@
             <div class="row">
             <div class="col-lg-8 m-auto">
                     <div class="demo-header-bg text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-bowser-demo/demo-bg.png" alt="drive-head-icon1">
+                    <?php echo do_shortcode('[integrate_google_drive id="4"]'); ?>
                     </div>
                 </div>
             </div>
