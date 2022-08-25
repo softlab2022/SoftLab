@@ -21,7 +21,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="integrate-google-drive-content m-auto">
                             <div class="integrate-google-drive-content-head d-flex  align-items-center">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/products/drive-head-icon1.png" alt="drive-head-icon1">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/products/f-integrate-google-drive.png" alt="f-integrate-google-drive">
                                 <h5><span>Integrate</span> Google Drive</h5>
                             </div>
         
