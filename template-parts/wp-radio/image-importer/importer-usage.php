@@ -3,14 +3,14 @@
 
         <div class="row">
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-usage-head ">
                     <span>usage</span>
                     <h5>Easy way to run WP Radio Image Importer on your site.</h5>
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="usage-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/images.png" alt="images">
                     <div class="text">
@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="usage-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/active.png" alt="active">
                     <div class="text">
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="usage-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/wait.png" alt="wait">
                     <div class="text">

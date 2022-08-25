@@ -1,7 +1,7 @@
 <section id="importer-feat">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-6 m-auto">
                 <div class="importer-feat-head text-center">
                     <span>Features</span>
                     <h5>Let’s Explore our Valuable Awesome Features</h5>
@@ -11,7 +11,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/importer.png" alt="importer">
                     <div class="text">
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/seo.png" alt="seo">
                     <div class="text">
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/perf.png" alt="perf">
                     <div class="text">
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/importer/no.png" alt="no">
                     <div class="text">

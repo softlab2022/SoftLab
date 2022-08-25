@@ -11,7 +11,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="proxy-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/fix.png" alt="fix">
                     <div class="text">
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="proxy-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/show.png" alt="show">
                     <div class="text">
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="proxy-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/http.png" alt="http">
                     <div class="text">
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="proxy-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/proxy-player/more.png" alt="more">
                     <div class="text">

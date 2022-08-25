@@ -99,7 +99,7 @@
       .get {
         padding: 10px 25px;
       }
-      .get1 {
+      .get2 {
         padding: 10px 25px;
       }
     }
@@ -181,6 +181,73 @@
       }
     }
   }
+  .user-feats1 {
+    display: none;
+  }
+  .user-feats {
+    display: block;
+  }
+  /**---------- responsive-area scss start ----------**/
+@media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+    padding: 60px 0 0 0;
+    .wp-feat-item {
+      .featuer-item-img {
+        padding-bottom: 60px;
+      }
+      .wp-feat-content{
+        padding-top: 30px;
+        .file-text {
+          h3 {
+            font-size: 1.5rem;
+            padding-bottom: 15px;
+          }
+          p {
+            font-size: .785rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  .user-feats {
+    display: none;
+  }
+  .user-feats1 {
+    display: block;
+  }
+  .wp-feat-item {
+    .featuer-item-img {
+      padding-bottom: 40px;
+    }
+    .wp-feat-content {
+      padding-top: 0;
+      .file-text {
+        margin-bottom: 40px;
+        text-align: center;
+        h3 {
+          font-size: 1.8rem;
+        }
+        p {
+          padding-right: 0;
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----testmonial area------**/
@@ -274,6 +341,76 @@
       }
     }
   }
+  /**---------- responsive-area scss start ----------**/
+ @media (min-width: 1200px) {
+  //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+      //Laptop
+      .testmonial-head {
+        h1 {
+          margin: 0;
+        }
+        p {
+          padding: 0;
+        }
+      }
+      .test-rating {
+        .star {
+          .fa-star {
+            font-size: 1.2rem;
+        }
+      }
+        .quote {
+          .fa-quote-right {
+             font-size: 1.4rem;
+            
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            
+          }
+
+        }
+        
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+   
+    .item2 {
+      margin-top: -72px;
+    }
+    .item3 {
+      margin-top: -140px;
+    }
+    .items {
+      margin-top: 0;
+    }
+    .test-rating {
+      .star {
+        .fa-star {
+          font-size: 1.4rem;
+      }
+      }
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+  //Mobile
+  padding: 0 0 60px 0;
+    .testmonial-head {
+      p {
+        padding: 0;
+      }
+    }
+    .items {
+      margin-top: 0;
+    }
+  }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----option area------**/
@@ -320,6 +457,52 @@
       }
     }
   }
+  /**---------- responsive-area scss start ----------**/
+  @media (min-width: 1200px) {
+    //Extra large
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        //Laptop
+      
+    }
+
+    @media (min-width: 768px) and (max-width: 991px)  {
+    //Tablet
+      .option {
+        .add-text {
+          span {
+            font-size: 1rem;
+          }
+          p {
+            font-size: .785rem;
+          }
+        }
+        .add-but {
+          a {
+            padding: 10px 23px;
+            font-size: .785rem;
+          }
+        }
+      }
+    }
+
+    @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+      .option {
+        text-align: center;
+        .add-text {
+          margin-top: 20px;
+          p {
+            padding-bottom: 40px;
+          }
+        }
+        .add-but {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  /**---------- responsive-area scss end ----------**/
 }
 
 /**-----price-plan area------**/
@@ -529,7 +712,32 @@
   }
 
   }
+  /**---------- responsive-area scss start ----------**/
+    @media (min-width: 1200px) {
+      //Extra large
+      }
 
+      @media (min-width: 992px) and (max-width: 1199px) {
+          //Laptop
+        .plan-head {
+          h1 {
+            margin: 0;
+          }
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px)  {
+      //Tablet
+
+      }
+
+      @media (min-width: 420px) and (max-width: 767px) {
+      //Mobile
+      .annually {
+        margin-bottom: 40px;
+      }
+      }
+      /**---------- responsive-area scss end ----------**/
 }
 
 

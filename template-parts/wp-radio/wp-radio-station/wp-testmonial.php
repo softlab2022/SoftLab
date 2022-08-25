@@ -11,7 +11,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item items">
                     <div class="test-rating d-flex justify-content-between  align-items-center">
                         <div class="star">
@@ -103,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
@@ -126,7 +126,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item items ">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">

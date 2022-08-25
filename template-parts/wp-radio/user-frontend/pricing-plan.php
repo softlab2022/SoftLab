@@ -12,7 +12,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-6 m-auto">
                 <div class="annually">
                     <div class="annl-item text-center">
                         <h3>Annually</h3>
@@ -36,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-6 m-auto">
                 <div class="lifetime">
                     <div class="annl-item text-center">
                         <h3>Lifetime</h3>

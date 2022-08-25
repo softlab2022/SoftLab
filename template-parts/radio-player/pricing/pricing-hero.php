@@ -11,11 +11,16 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
 
-                <!--=== free area ===--->
+<section id="pric">
+    <div class="container">
+             
    
         <div class="row align-items-center">
-            <div class="col-lg-5 col-md-6 m-auto">
+             <!--=== free area ===--->
+            <div class="col-lg-5 col-md-6 ms-auto">
                 <div class="price-main">
 
                     <div class="p-head text-center">
@@ -65,9 +70,9 @@
 
             </div>
             <!--=== pro area ===--->
-            <div class="col-lg-5 col-md-6 m-auto">
-            <div class="price-main main2">
-                <div class="p-head text-center">
+            <div class="col-lg-5 col-md-6 me-auto">
+                <div class="price-main main2">
+                    <div class="p-head text-center">
                         <span class="free">
                             PRO
                         </span>
@@ -130,6 +135,6 @@
 
                 </div>
             </div>
-            </div>
         </div>
+    </div>
 </section>

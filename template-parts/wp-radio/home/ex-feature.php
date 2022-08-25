@@ -1,7 +1,7 @@
 <section id="ex-feat">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-8 m-auto">
                 <div class="ex-head text-center">
                     <span>More Features</span>
                     <h1>Never miss more valuable Extra Features.</h1>
@@ -12,7 +12,7 @@
 
         <div class="row">
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/current.png" alt="current">
@@ -25,7 +25,7 @@
             </div>
             
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/notification.png" alt="notification">
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/m3u8.png" alt="m3u8">
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/blocks.png" alt="blocks">
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/widget.png" alt="widget">
@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/import.png" alt="import">
@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/layout.png" alt="layout">
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/playlist.png" alt="playlist">
@@ -109,7 +109,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/station.png" alt="station">
@@ -121,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/chart.png" alt="chart">
@@ -133,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/email.png" alt="email">
@@ -145,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/custom.png" alt="custom">
@@ -157,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 ">
+            <div class="col-lg-4 col-md-6 ">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/trending.png" alt="trending">
@@ -169,7 +169,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 ">
+            <div class="col-lg-4 col-md-6 ">
                 <div class="ex-item text-center">
                     <div class="ex-logo">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/feats.png" alt="feats">

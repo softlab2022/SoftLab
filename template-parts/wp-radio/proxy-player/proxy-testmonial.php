@@ -1,7 +1,7 @@
 <section id="proxy-testmonial">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-5 col-md-9 m-auto">
                 <div class="testmonial-head text-center">
                     <span>Recent Feedback</span>
                     <h1>What People Think About Our Products</h1>
@@ -11,7 +11,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
@@ -57,8 +57,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="test-item">
+            <div class="col-lg-4 col-md-6">
+                <div class="test-item item2">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
@@ -80,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item items">
                     <div class="test-rating d-flex justify-content-between  align-items-center">
                         <div class="star">
@@ -103,8 +103,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="test-item">
+            <div class="col-lg-4 col-md-6">
+                <div class="test-item item3">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
@@ -126,7 +126,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <div class="test-item items ">
                     <div class="test-rating d-flex justify-content-between align-items-center">
                         <div class="star">
