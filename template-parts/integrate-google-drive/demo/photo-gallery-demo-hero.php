@@ -12,7 +12,9 @@
             <div class="row">
             <div class="col-lg-8 m-auto">
                     <div class="demo-header-bg text-center">
+
                     <?php echo do_shortcode('[integrate_google_drive id="3"]'); ?>
+                    
                     </div>
                 </div>
             </div>
