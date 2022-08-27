@@ -8,7 +8,9 @@
                         <p>skin1</p>
                     </div>
                     <div class="skin-img">
-                    <?php echo do_shortcode('[radio_player id="138"]'); ?>
+
+                    <?php echo do_shortcode('[radio_player id=124]'); ?>
+
                     </div>
                 </div>
             </div>
@@ -19,7 +21,9 @@
                         <p>skin2</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin2.png" alt="skin2">
+
+                    <?php echo do_shortcode('[radio_player id=134]'); ?>
+
                     </div>
                 </div>
             </div>
@@ -30,7 +34,9 @@
                         <p>skin3</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin3.png" alt="skin3">
+
+                        <?php echo do_shortcode('[radio_player id=135]');?>
+                    
                     </div>
                 </div>
             </div>
@@ -41,7 +47,9 @@
                         <p>skin4</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin4.png" alt="skin4">
+
+                    <?php echo do_shortcode('[radio_player id=136]');?>
+
                     </div>
                 </div>
             </div>
@@ -52,7 +60,9 @@
                         <p>skin5</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin5.png" alt="skin5">
+
+                    <?php echo do_shortcode('[radio_player id=137]');?>
+
                     </div>
                 </div>
             </div>
@@ -63,7 +73,9 @@
                         <p>skin6</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin6.png" alt="skin6">
+
+                    <?php echo do_shortcode('[radio_player id=138]');?>
+
                     </div>
                 </div>
             </div>
@@ -74,7 +86,9 @@
                         <p>skin7</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin7.png" alt="skin7">
+
+                    <?php echo do_shortcode('[radio_player id=139]');?>
+
                     </div>
                 </div>
             </div>
@@ -85,7 +99,9 @@
                         <p>skin8</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin8.png" alt="skin8">
+
+                    <?php echo do_shortcode('[radio_player id=140]');?>
+                    
                     </div>
                 </div>
             </div>
@@ -96,7 +112,7 @@
                         <p>skin9</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin9.png" alt="skin9">
+                    <?php echo do_shortcode('[radio_player id=141]');?>
                     </div>
                 </div>
             </div>
