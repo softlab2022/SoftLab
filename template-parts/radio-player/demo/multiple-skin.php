@@ -8,7 +8,9 @@
                         <p>skin1</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=124]'); ?>
+
                     </div>
                 </div>
             </div>
@@ -19,7 +21,9 @@
                         <p>skin2</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=134]'); ?>
+
                     </div>
                 </div>
             </div>
@@ -30,6 +34,7 @@
                         <p>skin3</p>
                     </div>
                     <div class="skin-img">
+                        
                         <?php echo do_shortcode('[radio_player id=135]');?>
                     
                     </div>
