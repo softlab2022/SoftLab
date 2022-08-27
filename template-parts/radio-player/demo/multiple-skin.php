@@ -107,6 +107,7 @@
             </div>
 
             <div class="col-lg-6 col-md-6">
+                
                 <div class="skin-item text-center">
                     <div class="skin-head">
                         <p>skin9</p>
@@ -115,6 +116,7 @@
                     <?php echo do_shortcode('[radio_player id=141]');?>
                     </div>
                 </div>
+
             </div>
 
         </div>
