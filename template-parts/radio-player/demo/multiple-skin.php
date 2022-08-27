@@ -34,7 +34,7 @@
                         <p>skin3</p>
                     </div>
                     <div class="skin-img">
-                        
+
                         <?php echo do_shortcode('[radio_player id=135]');?>
                     
                     </div>
@@ -47,7 +47,9 @@
                         <p>skin4</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=136]');?>
+
                     </div>
                 </div>
             </div>
@@ -58,7 +60,9 @@
                         <p>skin5</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=137]');?>
+
                     </div>
                 </div>
             </div>
@@ -69,7 +73,9 @@
                         <p>skin6</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=138]');?>
+
                     </div>
                 </div>
             </div>
@@ -80,7 +86,9 @@
                         <p>skin7</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=139]');?>
+
                     </div>
                 </div>
             </div>
@@ -91,7 +99,9 @@
                         <p>skin8</p>
                     </div>
                     <div class="skin-img">
+
                     <?php echo do_shortcode('[radio_player id=140]');?>
+                    
                     </div>
                 </div>
             </div>
