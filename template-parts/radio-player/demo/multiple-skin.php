@@ -8,7 +8,7 @@
                         <p>skin1</p>
                     </div>
                     <div class="skin-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/multi-demo/skin1.png" alt="skin1">
+                    <?php echo do_shortcode('[radio_player id="138"]'); ?>
                     </div>
                 </div>
             </div>
