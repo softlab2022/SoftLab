@@ -506,6 +506,7 @@ function softlab_scripts_loader()
 {
 	$theme_version = wp_get_theme()->get('Version');
 
+
 	// 1. Styles.
 	wp_enqueue_style('style', get_theme_file_uri('style.css'), array(), $theme_version, 'all');
 
@@ -531,7 +532,8 @@ function softlab_scripts_loader()
 		'templates/http-streaming.php',
 		'templates/multiple.php',
 	])) {
-		wp_enqueue_style('radio-player', get_theme_file_uri('assets/css/radio-player-main.css'), array(), $theme_version, 'all');
+
+		wp_enqueue_style('radio-player-main', get_theme_file_uri('assets/css/radio-player-main.css'));
 
 	} else if (in_array(get_page_template_slug(), [
 		'templates/wp-radio.php',
@@ -541,7 +543,7 @@ function softlab_scripts_loader()
 		'templates/proxy-player.php',
 		'templates/image-importer.php',
 	])) {
-		wp_enqueue_style('wp-radio', get_theme_file_uri('assets/css/wp-radio-main.css'), array(), $theme_version, 'all');
+		wp_enqueue_style('wp-radio-main', get_theme_file_uri('assets/css/wp-radio-main.css'), array(), $theme_version, 'all');
 
 	} else {
 
