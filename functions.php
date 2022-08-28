@@ -525,15 +525,15 @@ function softlab_scripts_loader()
 
 		wp_enqueue_style('integrate-google-drive', get_theme_file_uri('assets/css/integrate-google-drive.css'), array(), $theme_version, 'all'); // main.scss: Compiled Framework source + custom styles.
 
-	} elseif (in_array(get_page_template_slug(), [
+	} else if (in_array(get_page_template_slug(), [
 		'templates/radio-player.php',
 		'templates/radio-player-pricing.php',
 		'templates/http-streaming.php',
 		'templates/multiple.php',
 	])) {
-		wp_enqueue_style('radio-player', get_theme_file_uri('assets/css/radio-player.css'), array(), $theme_version, 'all');
+		wp_enqueue_style('radio-player', get_theme_file_uri('assets/css/radio-player-main.css'), array(), $theme_version, 'all');
 
-	} elseif (in_array(get_page_template_slug(), [
+	} else if (in_array(get_page_template_slug(), [
 		'templates/wp-radio.php',
 		'templates/wp-pricing.php',
 		'templates/user-frontend.php',
@@ -541,7 +541,7 @@ function softlab_scripts_loader()
 		'templates/proxy-player.php',
 		'templates/image-importer.php',
 	])) {
-		wp_enqueue_style('wp-radio', get_theme_file_uri('assets/css/wp-radio.css'), array(), $theme_version, 'all');
+		wp_enqueue_style('wp-radio', get_theme_file_uri('assets/css/wp-radio-main.css'), array(), $theme_version, 'all');
 
 	} else {
 
