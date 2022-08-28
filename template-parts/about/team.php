@@ -47,7 +47,7 @@
                     <div class="member-info">
                         <h3>Ashikur Rahaman</h3>
                         <div class="position">
-                            <h5>Creative UI/UX Designer</h5>
+                            <h5>Lead Product Designer</h5>
                         </div>
                     </div>
                 </div>
