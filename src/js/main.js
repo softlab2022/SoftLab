@@ -41,8 +41,8 @@
             ]  });
 
         $('.counter').counterUp({
-            delay: 10,
-            time: 1000
+            delay: 16,
+            time: 1500
         });
     });
 

@@ -32,7 +32,7 @@
 
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <div class="wp-feat-content">
+                        <div class="wp-feat-content w-f-con">
                         <div class="file-text">
                             <span>Radio Stations Importer</span>
                             <h3>Radio stations easily from the Import Stations page by WR Radio.</h3>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-6">
-                        <div class="wp-feat-content">
+                        <div class="wp-feat-content w-f-con">
                         <div class="file-text">
                             <span>Add unlimited new station</span>
                             <h3>Unlimited number of stations in one place in our solution.</h3>
@@ -86,7 +86,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-6">
-                        <div class="wp-feat-content">
+                        <div class="wp-feat-content w-f-con">
                         <div class="file-text">
                             <span>Sticky radio player</span>
                             <h3>Sticky Radio Player has support for ShoutCast and IceCast radio streams</h3>
@@ -119,7 +119,7 @@
                     </div>
                    
                     <div class="col-lg-6 col-md-6">
-                        <div class="wp-feat-content">
+                        <div class="wp-feat-content w-f-con">
                         <div class="file-text">
                             <span>Advanced search & filtering</span>
                             <h3>Easily search & filter the radio stations that you are looking for.</h3>
@@ -145,7 +145,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-6">
-                        <div class="wp-feat-content">
+                        <div class="wp-feat-content w-f-con">
                         <div class="file-text">
                             <span>Browse stations by states & cities</span>
                             <h3>Find out radio stations by states & cities for example Lists of radio stations in the United States.</h3>
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <div class="wp-feat-content">
+                        <div class="wp-feat-content w-f-con">
                         <div class="file-text">
                             <span>Country List</span>
                             <h3>Listen live to your favourite music and presenters at Absolute Radio Country.</h3>
