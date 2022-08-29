@@ -846,10 +846,20 @@
 
     .amazing-item-content {
 
-      .fact-item-title {
-        font-weight: 700;
-        font-size: 1.5rem;
-        line-height: 120%;
+      .te-count {
+        span {
+          font-weight: 700;
+          font-size: 1.7rem;
+          line-height: 120%;
+          color: #000;
+        }
+        h5 {
+          font-weight: 700;
+          font-size: 1.7rem;
+          line-height: 120%;
+          color: #000;
+          margin-bottom: 0;
+        }
       }
 
       .fact-item-desc {

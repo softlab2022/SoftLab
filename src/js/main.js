@@ -1,4 +1,5 @@
 (function ($) {
+
     $(document).ready(function () {
         //Testimonial Slider
         $('.testimonial-item').slick({
@@ -37,7 +38,14 @@
                         slidesToShow: 1
                     }
                 }
-            ]
+            ]  });
+
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
         });
     });
+
+  
+
 })(jQuery);

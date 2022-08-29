@@ -17,7 +17,10 @@
                     </div>
 
                     <div class="amazing-item-content d-flex flex-column align-items-center align-items-md-start">
-                        <span class="fact-item-title">03+</span>
+                        <div class="te-count d-flex align-items-center">
+                            <span class="counter" >3</span> <h5>+</h5>
+                        </div>
+                        
                         <span class="fact-item-desc">Amazing products</span>
                     </div>
                 </div>
@@ -30,7 +33,9 @@
                     </div>
 
                     <div class="amazing-item-content d-flex flex-column align-items-center align-items-md-start">
-                        <span class="fact-item-title">20k+</span>
+                        <div class="te-count d-flex align-items-center">
+                            <span class="counter" >20</span> <h5>k+</h5>
+                        </div>
                         <span class="fact-item-desc">Free Downloads</span>
                     </div>
                 </div>
@@ -43,7 +48,9 @@
                     </div>
 
                     <div class="amazing-item-content d-flex flex-column align-items-center align-items-md-start">
-                        <span class="fact-item-title">5k+</span>
+                        <div class="te-count d-flex align-items-center">
+                            <span class="counter" >5</span> <h5>k+</h5>
+                        </div>
                         <span class="fact-item-desc">Happy Customers</span>
                     </div>
                 </div>
@@ -56,7 +63,9 @@
                     </div>
 
                     <div class="amazing-item-content d-flex flex-column align-items-center align-items-md-start">
-                        <span class="fact-item-title">165+</span>
+                        <div class="te-count d-flex align-items-center">
+                            <span class="counter" >165</span> <h5>+</h5>
+                        </div>
                         <span class="fact-item-desc">Countries Worldwide</span>
                     </div>
                 </div>
