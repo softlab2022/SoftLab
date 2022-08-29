@@ -22,6 +22,7 @@
                         </div>
                         
                         <span class="fact-item-desc">Amazing products</span>
+
                     </div>
                 </div>
             </div>
@@ -34,9 +35,13 @@
 
                     <div class="amazing-item-content d-flex flex-column align-items-center align-items-md-start">
                         <div class="te-count d-flex align-items-center">
+
                             <span class="counter" >20</span> <h5>k+</h5>
+
                         </div>
+
                         <span class="fact-item-desc">Free Downloads</span>
+                        
                     </div>
                 </div>
             </div>
