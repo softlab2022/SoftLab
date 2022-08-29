@@ -773,14 +773,23 @@ background-color: #fff;
   }
   .contant {
   
-    h5 {
-      font-weight: 700;
-      font-size: 1.7rem;
-      line-height: 120%;
-      color: #151826;
-      padding: 0;
+    .te-count {
+      span {
+        font-weight: 700;
+        font-size: 1.7rem;
+        line-height: 120%;
+        color: #000;
+      }
+      h5 {
+        font-weight: 700;
+        font-size: 1.7rem;
+        line-height: 120%;
+        color: #000;
+        margin-bottom: 0;
+      }
     }
-    span {
+    
+    h6 {
       font-weight: 400;
       font-size: .9rem;
       line-height: 150%;
@@ -802,10 +811,10 @@ background-color: #fff;
       }
       .fun-item {
         .contant {
-          h5 {
+          span {
             font-size: 1.5rem;
           }
-          span {
+          h6 {
             font-size: .78rem;
           }
         }
@@ -835,10 +844,10 @@ background-color: #fff;
   }
   .fun-item {
     .contant {
-      h5 {
+      span {
         font-size: 1rem;
       }
-      span {
+      h6 {
         font-size: .6rem;
       }
     }
