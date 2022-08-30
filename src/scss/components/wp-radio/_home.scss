@@ -112,7 +112,7 @@
     }
   }
   
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
     padding: 90px 0 60px 0;
     text-align: center;
@@ -206,14 +206,9 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
-    
-  }
-
-  @media (min-width: 768px) and (max-width: 991px)  {
-  //Tablet
     .wp-feat-item {
       .wp-feat-content {
-        padding-top: 60px;
+        padding-top: 80px;
         .file-text {
           span {
             font-size: 1.2rem;
@@ -229,10 +224,46 @@
           margin-bottom: 35px;
         }
       }
+      .w-f-con {
+        padding-top: 60px!important;
+      }
+    }
+    .feat-item-img {
+      img {
+        padding-top: 30px;
+      }
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 768px) and (max-width: 991px)  {
+  //Tablet
+  padding: 60px 0 0 0;
+    .wp-feat-item {
+      .wp-feat-content {
+        padding-top: 0px;
+        .file-text {
+          span {
+            font-size: 1.2rem;
+          }
+          h3 {
+            font-size: 1.5rem;
+            padding-bottom: 5px;
+          }
+          p {
+            padding-right: 0px;
+            font-size: .785rem;
+          }
+          margin-bottom: 35px;
+        }
+      }
+      .w-f-con {
+        padding-top: 0px!important;
+      }
+    }
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
   .feat-item-img {
     display: none;
@@ -321,11 +352,34 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
-    
+      padding: 0;
+      .ex-head {
+        h1 {
+          margin: 0;
+        }
+        p {
+          padding: 0;
+        }
+      }
+        .ex-item {
+          .ex-text {
+            span {
+              font-size: 1.2rem;
+            }
+            p {
+              font-size: .8rem;
+            }
+          }
+        }
   }
 
   @media (min-width: 768px) and (max-width: 991px)  {
   //Tablet
+  .ex-head {
+    p {
+      padding: 0;
+    }
+  }
     .ex-item {
       .ex-text {
         span {
@@ -338,7 +392,7 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
     .ex-head {
       h1 {
@@ -451,6 +505,11 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
+      .testmonial-head {
+        p {
+          padding: 0 58px;
+        }
+      }
       .test-rating {
         .star {
           .fa-star {
@@ -493,7 +552,7 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
     .testmonial-head {
       p {
@@ -550,7 +609,21 @@
   
     @media (min-width: 992px) and (max-width: 1199px) {
         //Laptop
-      
+        .fun-item {
+          .text {
+           .te-count {
+            span {
+              font-size: 1.5rem;
+            }
+            h5 {
+              font-size: 1.5rem;
+            }
+           }
+            h6 {
+              font-size: .950rem;
+            }
+          }
+        }
     }
   
   @media (min-width: 768px) and (max-width: 991px)  {
@@ -560,13 +633,18 @@
     }
   }
   
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
     .fun-item {
       .text {
-        span {
-          font-size: 1.2rem;
-        }
+        .te-count {
+          span {
+            font-size: 1.2rem;
+          }
+          h5 {
+            font-size: 1.2rem;
+          }
+         }
         h6 {
           font-size: .7rem;
         }
@@ -654,7 +732,21 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
-    
+      .addons-head {
+        p {
+          padding: 0;
+        }
+      }
+      .addon-item {
+        .add {
+          span {
+            font-size: 1.2rem;
+          }
+          p {
+            font-size: .9rem;
+          }
+        }
+      }
   }
 
   @media (min-width: 768px) and (max-width: 991px)  {
@@ -662,9 +754,14 @@
   .addon-item {
     margin-bottom: 25px;
   }
+  .addons-head {
+    p {
+      padding: 0;
+    }
+  }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
     .addons-head {
       p {
@@ -686,8 +783,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   .newslatter-contatn {
     h4 {
@@ -741,7 +838,6 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
-      top: 53px;
       .newslatter-contatn {
         h4 {
           padding-right: 1%;
@@ -779,7 +875,7 @@
   }
 }
 
-@media (min-width: 420px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   //Mobile
   padding: 25px;
   .newslatter {

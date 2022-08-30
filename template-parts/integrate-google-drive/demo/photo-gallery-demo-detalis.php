@@ -28,7 +28,7 @@
             <!---====Awesome looking masonry Grid====-->
         
                                   
-        <div class="col-lg-7 col-md-6">
+        <div class="col-lg-7 col-md-6 up-de-1">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-demo/masonry-grid.png" alt="file-browser-img">
             </div>
@@ -48,6 +48,13 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-lg-7 col-md-6 up-de-2">
+            <div class="featuer-item-img documents">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/photo-demo/masonry-grid.png" alt="file-browser-img">
+            </div>
+        </div>
+
 
             <!---====Inline Lightbox file Preview====-->
 

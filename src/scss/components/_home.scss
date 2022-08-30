@@ -322,6 +322,9 @@
   .business-top {
     display: none;
   }
+  .business-bottom {
+    display: block;
+  }
 
   .vector-business {
     position: absolute;
@@ -400,8 +403,7 @@
         width: 75%;
       }
     }
-    .business-head1 {
-      text-align: center;
+    .business-head {
 
       h2 {
         padding-top: 20px;
@@ -410,20 +412,18 @@
 
       p {
         font-size: .885rem;
-        padding-bottom: 0;
-        padding-right: 0;
-        padding: 0 122px;
+        padding: 0;
       }
     }
     .business-top {
-      display: block;
-    }
-    .business-head {
       display: none;
+    }
+    .business-bottom {
+      display: block;
     }
   }
 
-  @media (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     background: none;
 
     .business-img {
@@ -461,7 +461,7 @@
     .business-top {
       display: block;
     }
-    .business-head {
+    .business-bottom {
       display: none;
     }
   }

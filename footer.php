@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-8 col-md-6">
+            <div class="col-lg-3 col-10 col-md-6">
                 <div class="footer-menu-head pro">
                     <h4>Subscribe to Our Newsletter</h4>
                 </div>

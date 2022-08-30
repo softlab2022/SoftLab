@@ -56,7 +56,7 @@
         }
       }
       
-      @media (min-width: 420px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         //Mobile
         .hero-content {
                 h1 {
@@ -210,6 +210,31 @@
                         }
                 }
         }
+
+ /* ====== responsive area start =====*/
+ @media (min-width: 1200px) {
+        //Extra large
+      }
+      
+        @media (min-width: 992px) and (max-width: 1199px) {
+            //Laptop
+            
+        }
+    
+      @media (min-width: 768px) and (max-width: 991px)  {
+        //Tablet
+      
+      
+      }
+      
+      @media (min-width: 320px) and (max-width: 767px) {
+        //Mobile
+        .main2 {
+                margin-top: 60px;
+        }
+      }
+        /* ====== responsive area end=====*/
+
 }
 
 /**---------- industry Area ----------**/
@@ -255,12 +280,12 @@
       
         @media (min-width: 992px) and (max-width: 1199px) {
             //Laptop
-            margin-top: 580px;
+            margin-top: -125px;
         }
     
       @media (min-width: 768px) and (max-width: 991px)  {
         //Tablet
-        margin-top: 580px;
+        margin-top: -125px;
         .industry-head {
                 h2 {
                         font-size: 2rem;
@@ -272,9 +297,9 @@
       
       }
       
-      @media (min-width: 420px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         //Mobile
-        margin-top: 1440px;
+        margin-top: -100px;
         .industry-head {
                 h2 {
                         font-size: 2rem;
