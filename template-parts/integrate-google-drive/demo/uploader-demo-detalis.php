@@ -27,7 +27,7 @@
                                <!---====Swicth to change uploader style====-->
         
                                   
-        <div class="col-lg-7 col-md-6">
+        <div class="col-lg-7 col-md-6 up-de-1">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-demo/uploader-style.png" alt="file-browser-img">
             </div>
@@ -45,6 +45,12 @@
                     <h5><i class="fa-solid fa-check"></i> Skip uploaded files</h5>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="col-lg-7 col-md-6 up-de-2">
+            <div class="featuer-item-img documents">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/uploder-demo/uploader-style.png" alt="file-browser-img">
             </div>
         </div>
 

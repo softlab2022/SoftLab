@@ -16,13 +16,13 @@
                 </div>
             </div>
 
-            <div class="col-lg-7 m-auto">
+            <div class="col-lg-7 col-md-7 m-auto">
                 <div class="business-img text-center text-md-start">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/business/business-illustration.png"
                          alt="business-illustration">
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5 business-bottom">
                 <div class="business-head">
 
                     <div class="vector-business">

@@ -22,7 +22,51 @@
             padding: 0 20px;
             margin-bottom: 60px;
         }
-    }
+    }  
+
+    @media (min-width: 1200px) {
+        //Extra large
+      }
+      
+        @media (min-width: 992px) and (max-width: 1199px) {
+            //Laptop
+            padding: 100px 0;
+        .browser-demo-head {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: .9rem;
+            }
+        }
+        }
+    
+      @media (min-width: 768px) and (max-width: 991px)  {
+        padding: 100px 0;
+        .browser-demo-head {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: .9rem;
+                padding: 0 90px;
+            }
+        }
+      }
+    
+    @media (min-width: 320px) and (max-width: 767px) {
+        //Mobile
+        padding: 100px 0;
+        .browser-demo-head {
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {
+                font-size: .75rem;
+            }
+        }
+      }
+
 }
 
 
@@ -70,6 +114,12 @@
             }
         }
     }
+    .up-de-1 {
+        display: block;
+    }
+    .up-de-2 {
+        display: none;
+    }
     .documents {
         padding-top: 100px;
     }
@@ -79,13 +129,71 @@
       
         @media (min-width: 992px) and (max-width: 1199px) {
             //Laptop
+            .demo-featuer-item {
+                padding-top: 30px;
+                .file-text {
+                    h3 {
+                        font-size: 1.7rem;
+                    }
+                    p {
+                        font-size: .8rem;
+                    }
+                }
+                .files {
+                    h5 {
+                        font-size: .7rem;
+                    }
+                }
+            }
         }
     
       @media (min-width: 768px) and (max-width: 991px)  {
         //Tablet
+        .demo-featuer-item {
+            padding-top: 30px;
+            .file-text {
+                h3 {
+                    font-size: 1.7rem;
+                }
+                p {
+                    font-size: .8rem;
+                }
+            }
+            .files {
+                h5 {
+                    font-size: .7rem;
+                }
+            }
+        }
       }
       
-      @media (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         //Mobile
+        .demo-featuer-item {
+            padding-top: 30px;
+            .file-text {
+                text-align: center;
+                h3 {
+                    font-size: 1.7rem;
+                }
+                p {
+                    font-size: .8rem;
+                }
+            }
+            .files {
+                h5 {
+                    font-size: .7rem;
+                }
+            }
+        }
+        .documents {
+            padding-top: 50px;
+        }
+        .up-de-2 {
+            display: block;
+        }
+        .up-de-1 {
+            display: none;
+        }
       }
 }

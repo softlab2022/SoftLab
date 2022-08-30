@@ -18,6 +18,11 @@
         height: 40px;
         line-height: 29px;
       }
+      .navbar-brand {
+        img {
+          width: 75%;
+        }
+      }
       .buy-now {
         a {
           text-decoration: none;
@@ -111,7 +116,134 @@
         }
       }
     }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .navbar-expand-md {
+        .navbar-nav {
+          .nav-link {
+            padding-right: 0.3rem;
+            padding-left: 0.3rem;
+            font-size: 1rem;
+          }
+        }
+      }
+      .primary-nav {
+        .navbar-nav {
+          .nav-item {
+            margin: 0 .5rem;
+          }
+        }
+        .navbar-brand {
+          img {
+            width: 144px;
+          }
+        }
+        .buy-now {
+          margin-left: 0;
+          font-size: .7rem;
+          a {
+            padding: 10px 12px;
+          }
+        }
+        
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+      .navbar-expand-md {
+        .navbar-nav {
+          .nav-link {
+            padding-right: 0;
+            padding-left: 0;
+            font-size: .8rem;
+          }
+        }
+      }
+      .primary-nav {
+        .navbar-nav {
+          .nav-item {
+            margin: 0 .3rem;
+          }
+        }
+        .navbar-brand {
+          img {
+            width: 144px;
+          }
+        }
+        .buy-now {
+          margin-left: 0;
+          font-size: .7rem;
+          a {
+            padding: 10px 12px;
+          }
+        }
+        
+      }
+    }
   
+    @media (min-width: 420px) and (max-width: 767px) {
+      .primary-nav {
+        padding-top: 1rem;
+        .navbar-nav {
+          .nav-item {
+            a {
+              text-align: center;
+            }
+          }
+        }
+        .navbar-brand {
+          img {
+            width: 214px;
+          }
+        }
+  
+        .navbar-collapse {
+          background: #F9FAFF;
+          border-radius: .5rem;
+          padding: 1rem;
+        }
+  
+        .megamenu {
+          padding: 0;
+          width: 100%;
+  
+          .mega-item {
+            padding: .5rem 0;
+            border-bottom: 1px solid #eee;
+  
+            img {
+              width: 40px;
+            }
+  
+            .mega-text-title {
+              font-size: 1rem;
+            }
+  
+          }
+        }
+  
+        .buy-now {
+          margin-top: 1.3rem;
+          margin-bottom: .9rem;
+          text-align: center;
+          a {
+            border: 1px solid #111;
+          }
+        }
+  
+        button:focus:not(:focus-visible) {
+          outline: 0;
+          box-shadow: none;
+        }
+      }
+      
+      .navbar-light {
+        .navbar-toggler{
+          border: none;
+       
+        }
+      }
+    }
   
   }
   

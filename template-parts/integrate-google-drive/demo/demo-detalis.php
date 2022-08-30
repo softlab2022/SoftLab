@@ -27,7 +27,7 @@
                                <!---====Use your own multiple accounts====-->
         
                                   
-        <div class="col-lg-7 col-md-6">
+        <div class="col-lg-7 col-md-6 up-de-1">
             <div class="featuer-item-img documents">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-bowser-demo/multiple.png" alt="file-browser-img">
             </div>
@@ -48,6 +48,11 @@
             </div>
         </div>
 
+        <div class="col-lg-7 col-md-6 up-de-2">
+            <div class="featuer-item-img documents">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/file-bowser-demo/multiple.png" alt="file-browser-img">
+            </div>
+        </div>
                        <!---====Manage your documents easily====-->
 
         <div class="col-lg-5 col-md-6">

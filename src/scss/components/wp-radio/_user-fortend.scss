@@ -105,7 +105,7 @@
     }
   }
   
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
     padding: 90px 0 60px 0;
     text-align: center;
@@ -115,7 +115,8 @@
       }
       p {
         font-size: .9rem;
-        padding: 3% 10px;
+        padding:0 10px;
+        margin-bottom: 45px;
       }
     }
     .radio-header-bg {
@@ -219,7 +220,7 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
   .user-feats {
     display: none;
@@ -398,7 +399,7 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
   padding: 0 0 60px 0;
     .testmonial-head {
@@ -487,7 +488,7 @@
       }
     }
 
-    @media (min-width: 420px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
       .option {
         text-align: center;
@@ -731,7 +732,7 @@
 
       }
 
-      @media (min-width: 420px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
       //Mobile
       .annually {
         margin-bottom: 40px;

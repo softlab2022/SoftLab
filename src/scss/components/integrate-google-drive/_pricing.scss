@@ -210,6 +210,12 @@
                         }
                 }
         }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+                .main2 {
+                        margin-top: 60px;
+                }
+        }
 }
 /**---------- industry Area ----------**/
 #industry {
@@ -248,7 +254,7 @@
                 }
         }
         /* ====== responsive area start =====*/
-@media (min-width: 1200px) {
+     @media (min-width: 1200px) {
         //Extra large
       }
       
@@ -271,9 +277,8 @@
       
       }
       
-      @media (min-width: 420px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 767px) {
         //Mobile
-        
         .industry-head {
                 h2 {
                         font-size: 2rem;
