@@ -144,10 +144,35 @@
 /**-----feature area------**/
 #wp-feat {
   padding: 90px 0 60px 0;
+    .unlimited {
+      background: #fff;
+      padding-top: 50px;
+    }
+
+    .sticky-player {
+      background: #F9FAFF;
+      padding-top: 50px;
+    }
+
+    .advanced {
+      background: #EAFAFF;
+      padding-top: 50px;
+      .featuer-item-img {
+        padding-right: 40px;
+      }
+    }
+
+    .browser-st {
+      padding-top: 50px;
+    }
+
+    .cun-list {
+      padding-top: 50px;
+    }
 
   .wp-feat-item {
     .featuer-item-img {
-      padding-bottom: 120px;
+      padding-bottom: 60px;
     }
     .w-f-con {
       padding-top: 45px!important;
@@ -271,7 +296,12 @@
   .feat-item-img1 {
     display: block;
   }
-  
+  .advanced {
+    
+    .featuer-item-img {
+      padding-right: 0px;
+    }
+  }
   .wp-feat-item {
     .featuer-item-img {
       padding-bottom: 0;
