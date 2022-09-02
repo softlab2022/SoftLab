@@ -2,8 +2,7 @@
 .hero-area {
   background: url("../images/home/hero-bg.png") #EEF2FE no-repeat left center;
   background-size: contain;
-  height: 100vh;
-  padding: 220px 0 100px 0;
+  padding: 150px 0 100px 0;
 
   .hero-content {
     h1 {
@@ -20,7 +19,6 @@
   @media (min-width: 992px) and (max-width: 1199px) {
     //Laptop
     padding: 120px 0 0px 0;
-    height: 90vh;
     .hero-content {
 
       h1 {
@@ -37,7 +35,6 @@
   @media (min-width: 768px) and (max-width: 991px) {
     //Tablet
     padding: 120px 0 0px 0;
-    height: 75vh;
     .hero-content {
 
       h1 {
@@ -53,7 +50,6 @@
 
   @media (max-width: 767px) {
     padding: 120px 0 0px 0;
-
     background-position: top;
 
     .hero-content {
@@ -78,6 +74,8 @@
   padding-bottom: 5%;
 
   .products-head {
+    position: relative;
+
     h1 {
       font-size: 3rem;
       margin-bottom: .5rem;
@@ -94,54 +92,86 @@
     }
   }
 
-  .porducts-icon {
+  .products-icon {
     padding-top: 2rem;
     padding-bottom: .8rem;
+    transition: all .3s ease-in-out;
   }
-  a {
-    text-decoration: none;
-  }
+
   .products-item {
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.04);
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
 
-    &:hover {
-      // // box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.06);
-      // box-shadow: $color_primary 0px 2px 8px 0px;
-      // background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
-      box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.04);
-      border-radius: 20px;
-      .porducts-icon {
-
-          transform: translateY(-8px);
-        
-      }
-    }
-
-    h5 {
+    .product-title {
       font-size: 1.5rem;
-      
       font-weight: 700;
       color: $h1_color;
       text-decoration: none;
       text-transform: capitalize;
     }
 
-    p {
+    .product-description {
       font-size: 1rem;
       font-weight: 400;
       margin-top: 0.8rem;
       margin-bottom: .5rem;
-      padding: 0 17%;
       color: $p_color;
-      padding-bottom: 5%;
+      padding: 1rem 2rem;
     }
-  }
 
-  .products-head {
-    position: relative;
+    &.product-wp-radio {
+      .product-title {
+        color: #3C4FF4;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #3C4FF4;
+        }
+      }
+
+    }
+
+    &.product-radio-player {
+      .product-title {
+        color: #42D68C;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #42D68C;
+        }
+      }
+
+    }
+
+    &.product-integrate-google-drive {
+      .product-title {
+        color: #2FB34B;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #2FB34B;
+        }
+      }
+
+    }
+
+    &:hover {
+      box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.06);
+
+      .products-icon {
+        transform: translateY(-8px);
+      }
+    }
   }
 
   .products-vector {
@@ -152,27 +182,20 @@
 
   .products-vector2 {
     position: absolute;
-    top: 0%;
+    top: 0;
     left: -70%;
   }
 
   .products-butt {
     padding-bottom: 2rem;
+    color: #555;
+    transition: all .3s ease-in-out;
 
     span {
       text-decoration: none;
-      color: $h1_color;
       font-size: 1rem;
       font-weight: 600;
       margin-bottom: .8rem;
-
-      // &:hover {
-      //   border: 1px solid linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
-      //   padding: 10px 35px;
-      //   border-radius: 8px;
-      //   background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
-      //   color: #fff;
-      // }
     }
   }
 
@@ -208,11 +231,6 @@
         font-size: 1.3rem;
       }
     }
-    .products-butt {
-      a {
-        font-size: 1rem;
-      }
-    }
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
@@ -228,13 +246,11 @@
       }
     }
     .products-item {
+      margin-bottom: 40px;
+
       p {
         padding: 0;
       }
-    }
-    .products-item {
-
-      margin-bottom: 40px;
     }
 
     .products-vector {
@@ -322,6 +338,7 @@
   .business-top {
     display: none;
   }
+
   .business-bottom {
     display: block;
   }
@@ -476,19 +493,19 @@
   position: relative;
 
   .feature-head {
-    h1 {
+    margin-bottom: 3rem;
+
+    .feature-title {
       color: $h1_color;
       font-weight: 700;
-      font-size: 3rem;
+      font-size: 2.5rem;
       line-height: 120%;
     }
 
-    p {
+    .feature-description {
       font-weight: 400;
       font-size: 1rem;
       line-height: 150%;
-      padding: 0 9%;
-      padding-bottom: 2.8rem;
       color: $p_color;
     }
   }
@@ -498,11 +515,16 @@
     border-radius: 1.1rem;
     padding: 1.7rem;
     margin-bottom: 1.4rem;
+    transition: all 0.3s ease-in-out;
+
+    .feat-icon {
+      transition: all 0.3s ease-in-out;
+    }
 
     &:hover {
-      // background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
       box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
       border-radius: 20px;
+
       .feat-icon {
         transform: translateY(-8px);
       }
@@ -637,127 +659,119 @@
 
 /**------- Testimonial -------**/
 #testimonial {
-  background: url("../images/home/testimonial/think-bg-shape.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
-  bottom: 0;
-  top: 100px;
-  margin-bottom: 60px;
+  background: url("../images/home/testimonial/think-bg-shape.png") no-repeat bottom / contain;
+  padding: 100px 0;
+
   .testimonial-head {
+    margin-bottom: 3rem;
+
     h2 {
       font-weight: 700;
-      font-size: 3rem;
+      font-size: 2.5rem;
       line-height: 120%;
       color: $h1_color;
       text-transform: capitalize;
-      padding-bottom: 2rem;
-
     }
   }
 
-  .testimonial-support-main {
-    margin-bottom: 140px;
-    position: relative;
 
-    .testimonial-item {
+  .testimonial-item {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+  }
+
+  .testimonial-support-item {
+    i {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      font-size: 1rem;
       background-color: #fff;
-      padding: 40px;
-      box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
-      border-radius: 20px;
+      border-radius: 50px;
+      text-align: center;
+      color: #000;
+      z-index: 1;
+      box-shadow: 16px 26px 68px rgba(142, 170, 249, 0.3);
+      cursor: pointer;
     }
 
-    .testimonial-support-item {
+    .left {
+      position: absolute;
+      left: -25px;
+      top: 50%;
+    }
+
+    .right {
+      position: absolute;
+      right: -25px;
+      top: 50%;
+    }
+  }
+
+  .people-think-item {
+    .people-think-icon {
       i {
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
-        font-size: 1rem;
-        background-color: #fff;
-        border-radius: 50px;
-        text-align: center;
-        color: #000;
-        z-index: 1;
-        box-shadow: 16px 26px 68px rgba(142, 170, 249, 0.3);
-        cursor: pointer;
-      }
-
-      .left {
-        position: absolute;
-        left: -25px;
-        top: 50%;
-      }
-
-      .right {
-        position: absolute;
-        right: -25px;
-        top: 50%;
+        color: #FF8F1E;
+        font-size: 1.5rem;
+        margin-bottom: 4%;
       }
     }
 
-    .people-think-item {
-      .people-think-icon {
-        i {
-          color: #FF8F1E;
-          font-size: 1.5rem;
-          margin-bottom: 4%;
+    .people-think-content {
+      h4 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 120%;
+        color: $h1_color;
+      }
+
+      p {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 120%;
+        color: $p_color;
+        margin-top: 3%;
+        padding: 0 15%;
+        margin-bottom: 6%;
+      }
+    }
+
+    .people-think-info {
+      border-top: 1px solid rgba(92, 99, 126, 0.1);
+
+      .people-img {
+        img {
+          padding-top: 16%;
         }
       }
 
-      .people-think-content {
+      .people-text {
+        margin-left: 2%;
+        margin-top: 5%;
+
         h4 {
-          font-style: italic;
-          font-weight: 400;
-          font-size: 1.5rem;
-          line-height: 120%;
+
           color: $h1_color;
+          font-weight: 600;
+          font-size: 1.2rem;
+          line-height: 120%;
         }
 
         p {
-          font-style: italic;
-          font-weight: 400;
-          font-size: 1.2rem;
-          line-height: 120%;
           color: $p_color;
-          margin-top: 3%;
-          padding: 0 15%;
-          margin-bottom: 6%;
-        }
-      }
-
-      .people-think-info {
-        border-top: 1px solid rgba(92, 99, 126, 0.1);
-
-        .people-img {
-          img {
-            padding-top: 16%;
-          }
-        }
-
-        .people-text {
-          margin-left: 2%;
-          margin-top: 5%;
-
-          h4 {
-
-            color: $h1_color;
-            font-weight: 600;
-            font-size: 1.2rem;
-            line-height: 120%;
-          }
-
-          p {
-            color: $p_color;
-            font-weight: 500;
-            font-size: .9rem;
-            line-height: 120%;
-          }
+          font-weight: 500;
+          font-size: .9rem;
+          line-height: 120%;
         }
       }
     }
-
   }
+
 
   @media (min-width: 1200px) {
     //Extra large
@@ -789,28 +803,26 @@
         font-size: 2rem;
       }
     }
-    .testimonial-support-main {
-      .people-think-item {
-        .people-think-content {
+    .people-think-item {
+      .people-think-content {
+        h4 {
+          font-size: 1.1rem;
+          padding: 0 20px;
+        }
+
+        p {
+          font-size: .785rem;
+        }
+      }
+
+      .people-think-info {
+        .people-text {
           h4 {
-            font-size: 1.1rem;
-            padding: 0 20px;
+            font-size: 1rem;
           }
 
           p {
-            font-size: .785rem;
-          }
-        }
-
-        .people-think-info {
-          .people-text {
-            h4 {
-              font-size: 1rem;
-            }
-
-            p {
-              font-size: .8rem;
-            }
+            font-size: .8rem;
           }
         }
       }
@@ -822,9 +834,8 @@
 
 /**------- Fun-fact-------**/
 #amazing {
-  background-color: #EEF2FE;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  background-color: rgba(249, 250, 255, 0.44);
+  padding: 100px 0;
 
   .amazing-head {
 
@@ -853,6 +864,7 @@
           line-height: 120%;
           color: #000;
         }
+
         h5 {
           font-weight: 700;
           font-size: 1.7rem;
@@ -963,7 +975,7 @@
 
 /**-------solution Area -----**/
 #solution {
-  background: url("../images/home/cta.png"),linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+  background: url("../images/home/cta.png"), linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;

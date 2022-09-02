@@ -1,7 +1,6 @@
 <?php
 /**
  * Template Name: Home
- * Description: The template for displaying the Blog index /blog.
  *
  */
 
