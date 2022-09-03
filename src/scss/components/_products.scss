@@ -1,646 +1,571 @@
 /**---------- products-Hero Area ----------**/
-.products-hero-area {
-    background: url("../images/products/products-bg-shapes.png"), linear-gradient(180.71deg, #6C9EFF -78.75%, rgba(249, 250, 255, 0) 113.71%);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    padding: 220px 0 100px 0;
-  
-    .hero-content {
-      h1 {
-        font-size: 3rem;
-       
-        font-weight: 600;
-      }
-      p {
-        font-weight: 400;
-        font-size: 1rem;
-        color: $p_color;
-        line-height: 150%;
-        padding: 3% 18%;
-      }
+.products-banner {
+  background: url("../images/products/products-bg-shapes.png"), linear-gradient(180.71deg, #6C9EFF -78.75%, rgba(249, 250, 255, 0) 113.71%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 220px 0 100px 0;
+
+  .hero-content {
+    h2 {
+      font-size: 3rem;
+      font-weight: 600;
     }
 
-
-/**---------- integrate-google-drive scss ----------**/
-
-    .integrate-google-drive-img {
-        padding-top: 15%;
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      color: $p_color;
+      padding: 1rem 5rem;
     }
-    .integrate-google-drive-content {
-            padding-top: 10%;
-
-    .integrate-google-drive-content-head {
-        background-color: #fff;
-       width: 69%;
-        padding: 0px 15px;
-        border-radius: 50px;
-        img {
-            padding-right: 10px;
-            
-        }
-        h5 {
-            align-items: center;
-            color: #2E2B73;
-            font-weight: 600;
-            font-size: 2rem;
-            line-height: 120%;
-            padding-top: 2%;
-            span {
-                color: pink;
-            }
-        }
-    }
-
-    .integrate-google-drive-head {
-        h1 {
-            color: $h1_color;
-            font-weight: 700;
-            font-size: 2.5rem;
-            line-height: 120%;
-            padding-right: 20%;
-            padding-top: 7%;
-            span {
-                color: #6E6DFF;
-            }
-        }
-        p {
-            color: $p_color;
-            font-weight: 400;
-            font-size: 1rem;
-            line-height: 150%;
-            padding-right: 22%;
-            padding-top: 1%;
-        }
-    }
+  }
 }
 
-.drive-feature {
+.product-item {
+  padding: 5rem 0;
+
+  .product-content {
+
+    .product-name {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 50px;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      width: max-content;
+
+      img {
+        padding-right: 10px;
+
+      }
+
+      h3 {
+        color: #2E2B73;
+        font-weight: 600;
+        font-size: 2rem;
+        margin: 0 10px 0 0;
+        line-height: 1;
+
+        span {
+          color: #08CD87;
+        }
+      }
+    }
+
+    .product-subtitle {
+      color: $h1_color;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 120%;
+
+      span {
+        color: #08CD87;
+      }
+    }
+
+    .product-description {
+      color: $p_color;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+    }
+
+  }
+
+  .feature-item {
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &.multiplegoogleaccounts,
+    &.popupwindowplayer,
+    &.mobilemedianotification,
+    &.easystationssearch {
+      padding: 20px 10px;
+    }
+
+    .feature-title {
+      color: $h1_color;
+      font-weight: 600;
+      font-size: .8rem;
+      line-height: 150%;
+      padding-top: .7rem;
+    }
+
+    .product-image {
+      text-align: left;
+    }
+
+  }
+
+  .product-explore-btn {
+    margin-top: 2rem;
+    padding: .7rem 1.5rem;
+  }
+
+  &:nth-child(odd) {
+    & > .container > .row {
+      flex-flow: row-reverse;
+
+      .product-image {
+        text-align: right;
+      }
+
+    }
+  }
+
+}
+
+
+/**---------- wp-radio scss ----------**/
+
+#wp-radio {
+  background: url("../images/products/wp-radio-bg.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5%;
+
+
+  //wp-radio scss
+
+  .integrate-google-drive-img {
+    padding-top: 25%;
+  }
+
+  .wp-radio-content {
+    padding-top: 10%;
+
+    .wp-radio-content-head {
+      background-color: #fff;
+      width: 39%;
+      padding: 0px 15px;
+      border-radius: 50px;
+
+      img {
+        padding-right: 10px;
+
+      }
+
+      h5 {
+        align-items: center;
+        color: pink;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 120%;
+        padding-top: 5%;
+
+      }
+    }
+
+    .wp-radio-head {
+      h1 {
+        color: $h1_color;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 120%;
+        padding-right: 20%;
+        padding-top: 7%;
+
+        span {
+          color: #6E6DFF;
+        }
+      }
+
+      p {
+        color: $p_color;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        padding-right: 22%;
+        padding-top: 1%;
+      }
+    }
+  }
+
+  .radio-feature {
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 10px;
+
+    .radio-feat-text {
+      h4 {
+        color: $h1_color;
+        font-weight: 600;
+        font-size: .8rem;
+        line-height: 150%;
+        padding-top: .7rem;
+      }
+    }
+  }
+
+  .multi-acctount {
+    padding-bottom: 10px;
+  }
+
+  .drive-butt {
+    margin-top: 7%;
+  }
+
+  @media (min-width: 1200px) {
+    //Extra large
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    //Laptop
+
+    .radio-feature {
+      height: 125px;
+      padding: 14px 5px;
+
+      .radio-feat-text {
+        h4 {
+          font-size: .7rem;
+        }
+      }
+    }
+    .wp-radio-content {
+      .wp-radio-content-head {
+
+        h5 {
+          font-size: 1.2rem;
+        }
+      }
+
+      .wp-radio-head {
+        h1 {
+          font-size: 1.8rem;
+          padding-right: 0;
+        }
+
+        p {
+          font-size: .785rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    //Tablet
+    .wp-radio-content {
+      .wp-radio-content-head {
+        width: 59%;
+
+        h5 {
+          font-size: 1.3rem;
+        }
+      }
+
+      .wp-radio-head {
+        h1 {
+          font-size: 1.8rem;
+          padding-right: 0;
+        }
+
+        p {
+          font-size: .785rem;
+          padding-right: 0;
+        }
+      }
+    }
+    .radio-feature {
+      padding: 30px 30px;
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 767px) {
+    //Mobile
+    .wp-radio-content {
+      .wp-radio-content-head {
+        h5 {
+          font-size: .9rem;
+        }
+      }
+
+      .wp-radio-head {
+        text-align: center;
+
+        h1 {
+          font-size: 1.8rem;
+          padding-right: 0;
+        }
+
+        p {
+          font-size: .785rem;
+          padding-right: 0;
+          padding: 0 12px;
+        }
+      }
+    }
+    .radio-feature {
+      padding: 30px 4px;
+
+      .radio-feat-text {
+        h4 {
+          font-size: .7rem;
+
+        }
+      }
+    }
+    .integrate-google-drive-img {
+      text-align: center !important;
+
+      img {
+
+        width: 85%;
+      }
+    }
+  }
+
+}
+
+/**---------- radio-player scss ----------**/
+#radio-player {
+  //radio-player
+  .integrate-google-drive-img {
+    padding-top: 25%;
+  }
+
+  .radio-player-content {
+    padding-top: 10%;
+
+    .radio-player-content-head {
+      background-color: #fff;
+      width: 46%;
+      padding: 5px 15px;
+      border-radius: 50px;
+      padding-top: 1%;
+
+      img {
+        padding-right: 10px;
+
+      }
+
+      h5 {
+        align-items: center;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 120%;
+        margin-bottom: 0;
+
+        span {
+          color: #2DCA74;
+        }
+      }
+    }
+
+    .radio-player-head {
+      h1 {
+        color: $h1_color;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 120%;
+        padding-right: 20%;
+        padding-top: 7%;
+
+        span {
+          color: #FF346B;
+        }
+      }
+
+      p {
+        color: $p_color;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        padding-right: 22%;
+        padding-top: 1%;
+      }
+    }
+  }
+
+  .radio-feature {
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 10px;
+
+    .radio-feat-text {
+      h4 {
+        color: $h1_color;
+        font-weight: 600;
+        font-size: .8rem;
+        line-height: 150%;
+        padding-top: .7rem;
+      }
+    }
+  }
+
+  .multi-acctount {
+    padding-bottom: 10px;
+  }
+
+  .drive-butt {
+    margin-top: 7%;
+  }
+
+  .drive-feature {
     margin-top: 1.5rem;
     background-color: #fff;
     border-radius: 10px;
     padding: 30px 10px;
 
     .drive-feat-text {
-        h4 {
-            color: $h1_color;
-            font-weight: 600;
-            font-size: .8rem;
-            line-height: 150%;
-            padding-top: .7rem;
-        }
+      h4 {
+        color: $h1_color;
+        font-weight: 600;
+        font-size: .8rem;
+        line-height: 150%;
+        padding-top: .7rem;
+      }
     }
-}
-.multi-acctount {
+  }
+
+  .multi-acctount {
     padding-bottom: 10px;
-}
-.drive-butt {
+  }
+
+  .drive-butt {
     margin-top: 7%;
-}
+  }
 
-@media (min-width: 1200px) {
+  @media (min-width: 1200px) {
     //Extra large
-    
-  }
-  
-    @media (min-width: 992px) and (max-width: 1199px) {
-        //Laptop
-        .hero-content {
-            text-align: center;
-            h1 {
-                font-size: 1.9rem;
-            }
-            p {
-                font-size: .785rem;
-                padding: 0;
-            }
-        }
-        .integrate-google-drive-content {
-            .integrate-google-drive-content-head {
-                h5 {
-                    font-size: 1.3rem;
-                }
-    
-            }
-            .integrate-google-drive-head {
-    
-                h1 {
-                    font-size: 1.8rem;
-                    padding-right: 0;
-                }
-                p {
-                    font-size: .785rem;
-                }
-            }
-        }
-        .drive-feature {
-            height: 123px;
-            padding: 14px 5px;
-            .drive-feat-text {
-                h4 {
-                    font-size: .7rem;
-                }
-            }
-        }
-    }
 
-  @media (min-width: 768px) and (max-width: 991px)  {
-    //Tablet
-    .hero-content {
-        text-align: center;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    //Laptop
+    .radio-feature {
+      height: 115px;
+      padding-top: 0px;
+      padding: 14px 5px;
+
+      .radio-feat-text {
+        h4 {
+          font-size: .750rem;
+        }
+      }
+    }
+    .radio-player-content {
+      .radio-player-content-head {
+
+        h5 {
+          font-size: 1.2rem;
+        }
+      }
+
+      .radio-player-head {
         h1 {
-            font-size: 1.9rem;
+          font-size: 1.8rem;
+          padding-right: 0;
         }
+
         p {
-            font-size: .785rem;
-            padding: 0;
+          font-size: .785rem;
         }
+      }
     }
-    .integrate-google-drive-content {
-        .integrate-google-drive-content-head {
-            width: 92%;
-            h5 {
-                font-size: 1.3rem;
-            }
-
-        }
-        .integrate-google-drive-head {
-
-            h1 {
-                font-size: 1.8rem;
-                padding-right: 0;
-            }
-            p {
-                font-size: .785rem;
-                padding-right: 0;
-            }
-        }
-    }
-
   }
-  
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    //Tablet
+    .radio-player-content {
+      .radio-player-content-head {
+        width: 66%;
+
+        h5 {
+          font-size: 1.3rem;
+        }
+      }
+
+      .radio-player-head {
+        h1 {
+          font-size: 1.8rem;
+          padding-right: 0;
+        }
+
+        p {
+          font-size: .785rem;
+          padding-right: 0;
+        }
+      }
+    }
+    .radio-player-head {
+      .radio-feat-text {
+        h4 {
+          padding: 20px;
+        }
+      }
+    }
+    .radio-feature {
+      padding: 30px 0;
+    }
+
+    .stat {
+      padding-bottom: 13px;
+    }
+  }
+
   @media (min-width: 420px) and (max-width: 767px) {
     //Mobile
-    padding: 100px 0 100px 0;
-        .hero-content {
-            text-align: center;
-            h1 {
-                font-size: 1.9rem;
-            }
-            p {
-                font-size: .785rem;
-                padding: 0;
-            }
-        }
-
     .integrate-google-drive-img {
-        text-align: center!important;
-        img {
-            width: 75%;
-        }
+      text-align: center !important;
+
+      img {
+        width: 85%;
+      }
     }
+    .radio-player-content {
+      .radio-player-content-head {
 
-    .integrate-google-drive-content {
-        align-items: center!important;
-        justify-content: center!important;
-        .integrate-google-drive-content-head {
-            width: 65%;
-            h5 {
-                font-size: 1rem;
-            }
+        justify-content: center !important;
 
-        }
-        .integrate-google-drive-head {
-            text-align: center;
-            h1 {
-                font-size: 1.8rem;
-                padding-right: 0;
-            }
-            p {
-                font-size: .785rem;
-                padding-right: 0;
-                padding: 0 12px;
-            }
-        }
-        
-    }
-    .drive-feature {
-        padding: 30px 4px;
-        .drive-feat-text {
-            h4 {
-                font-size: .7rem;
-            }
-        }
-    }
-
-  }
-
-  }
-
-/**---------- wp-radio scss ----------**/
-
-#wp-radio {
-    background: url("../images/products/wp-radio-bg.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-        padding-bottom: 5%;
-
-
-    //wp-radio scss
-
-    .integrate-google-drive-img {
-        padding-top: 25%;
-    }
-    .wp-radio-content {
-            padding-top: 10%;
-
-    .wp-radio-content-head {
-        background-color: #fff;
-       width: 39%;
-        padding: 0px 15px;
-        border-radius: 50px;
-        img {
-            padding-right: 10px;
-            
-        }
         h5 {
-            align-items: center;
-            color: pink;
-            font-weight: 600;
-            font-size: 2rem;
-            line-height: 120%;
-            padding-top: 5%;
-           
+          font-size: .9rem;
         }
-    }
+      }
 
-    .wp-radio-head {
+      .radio-player-head {
+        text-align: center;
+
         h1 {
-            color: $h1_color;
-            font-weight: 700;
-            font-size: 2.5rem;
-            line-height: 120%;
-            padding-right: 20%;
-            padding-top: 7%;
-            span {
-                color: #6E6DFF;
-            }
+          font-size: 1.8rem;
+          padding-right: 0;
         }
+
         p {
-            color: $p_color;
-            font-weight: 400;
-            font-size: 1rem;
-            line-height: 150%;
-            padding-right: 22%;
-            padding-top: 1%;
-        }
-    }
-}
-        .radio-feature {
-            margin-top: 1.5rem;
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 30px 10px;
-
-            .radio-feat-text {
-                h4 {
-                    color: $h1_color;
-                    font-weight: 600;
-                    font-size: .8rem;
-                    line-height: 150%;
-                    padding-top: .7rem;
-                }
-            }
-        }
-        .multi-acctount {
-            padding-bottom: 10px;
-        }
-        .drive-butt {
-            margin-top: 7%;
-        }
-
-        @media (min-width: 1200px) {
-            //Extra large
-            
-          }
-          
-            @media (min-width: 992px) and (max-width: 1199px) {
-                //Laptop
-             
-                .radio-feature {
-                    height: 125px;
-                    padding: 14px 5px;
-                    .radio-feat-text {
-                        h4 {
-                            font-size: .7rem;
-                        }
-                    }
-                }
-                .wp-radio-content {
-                    .wp-radio-content-head {
-                        
-                        h5 {
-                            font-size: 1.2rem;
-                        }
-                    }
-                    .wp-radio-head {
-                        h1 {
-                            font-size: 1.8rem;
-                            padding-right: 0;
-                        }
-                        p {
-                            font-size: .785rem;
-                        }
-                    }
-                }
-            }
-        
-          @media (min-width: 768px) and (max-width: 991px)  {
-            //Tablet
-            .wp-radio-content {
-                .wp-radio-content-head {
-                    width: 59%;
-                    h5 {
-                        font-size: 1.3rem;
-                    }
-                }
-                .wp-radio-head {
-                    h1 {
-                        font-size: 1.8rem;
-                        padding-right: 0;
-                    }
-                    p {
-                        font-size: .785rem;
-                        padding-right: 0;
-                    }
-                }
-            }
-            .radio-feature {
-                padding: 30px 30px;
-            }
-          }
-          
-          @media (min-width: 420px) and (max-width: 767px) {
-            //Mobile
-            .wp-radio-content {
-                .wp-radio-content-head {
-                    h5 {
-                        font-size: .9rem;
-                    }
-                }
-                .wp-radio-head {
-                    text-align: center;
-                    h1 {
-                        font-size: 1.8rem;
-                        padding-right: 0;
-                    }
-                    p {
-                        font-size: .785rem;
-                        padding-right: 0;
-                        padding: 0 12px;
-                    }
-                }
-            }
-            .radio-feature {
-                padding: 30px 4px;
-                .radio-feat-text {
-                    h4 {
-                        font-size: .7rem;
-                        
-                    }
-                }
-            }
-            .integrate-google-drive-img {
-                text-align: center!important;
-                img {
-                    
-                    width: 85%;
-                }
-            }
-          }
-
-}
-/**---------- radio-player scss ----------**/
-
-#radio-player {
-        //radio-player
-        .integrate-google-drive-img {
-            padding-top: 25%;
-        }
-        .radio-player-content {
-                padding-top: 10%;
-    
-        .radio-player-content-head {
-                    background-color: #fff;
-                    width: 46%;
-                    padding: 5px 15px;
-                    border-radius: 50px;
-                    padding-top: 1%;
-                img {
-                padding-right: 10px;
-                
-            }
-            h5 {
-                align-items: center;
-                font-weight: 600;
-                font-size: 2rem;
-                line-height: 120%;
-                margin-bottom: 0;
-                span {
-                    color: #2DCA74 ;
-                }
-            }
-        }
-    
-        .radio-player-head {
-            h1 {
-                color: $h1_color;
-                font-weight: 700;
-                font-size: 2.5rem;
-                line-height: 120%;
-                padding-right: 20%;
-                padding-top: 7%;
-                span {
-                    color: #FF346B;
-                }
-            }
-            p {
-                color: $p_color;
-                font-weight: 400;
-                font-size: 1rem;
-                line-height: 150%;
-                padding-right: 22%;
-                padding-top: 1%;
-            }
-        }
-    }
-            .radio-feature {
-                margin-top: 1.5rem;
-                background-color: #fff;
-                border-radius: 10px;
-                padding: 30px 10px;
-    
-                .radio-feat-text {
-                    h4 {
-                        color: $h1_color;
-                        font-weight: 600;
-                        font-size: .8rem;
-                        line-height: 150%;
-                        padding-top: .7rem;
-                    }
-                }
-            }
-            .multi-acctount {
-                padding-bottom: 10px;
-            }
-            .drive-butt {
-                margin-top: 7%;
-            }
-
-        .drive-feature {
-                margin-top: 1.5rem;
-                background-color: #fff;
-                border-radius: 10px;
-                padding: 30px 10px;
-        
-        .drive-feat-text {
-                h4 {
-                color: $h1_color;
-                font-weight: 600;
-                font-size: .8rem;
-                line-height: 150%;
-                padding-top: .7rem;
-                    }
-                }
-            }
-    .multi-acctount {
-        padding-bottom: 10px;
-    }
-    .drive-butt {
-        margin-top: 7%;
-    }
-
-    @media (min-width: 1200px) {
-        //Extra large
-        
-      }
-      
-        @media (min-width: 992px) and (max-width: 1199px) {
-            //Laptop
-            .radio-feature {
-                height: 115px;
-                padding-top: 0px;
-                padding: 14px 5px;
-                .radio-feat-text {
-                    h4 {
-                        font-size: .750rem;
-                    }
-                }
-            }
-            .radio-player-content {
-                .radio-player-content-head {
-                    
-                    h5 {
-                        font-size: 1.2rem;
-                    }
-                }
-                .radio-player-head {
-                    h1 {
-                        font-size: 1.8rem;
-                        padding-right: 0;
-                    }
-                    p {
-                        font-size: .785rem;
-                    }
-                }
-            }
-        }
-    
-      @media (min-width: 768px) and (max-width: 991px)  {
-        //Tablet
-        .radio-player-content {
-            .radio-player-content-head {
-                width: 66%;
-                h5 {
-                    font-size: 1.3rem;
-                }
-            }
-            .radio-player-head {
-                h1 {
-                    font-size: 1.8rem;
-                    padding-right: 0;
-                }
-                p {
-                    font-size: .785rem;
-                    padding-right: 0;
-                }
-            }
-        }
-        .radio-player-head {
-            .radio-feat-text {
-                h4 {
-                    padding: 20px;
-                }
-            }
-        }
-        .radio-feature {
-            padding: 30px 0;
-        }
-    
-        .stat {
-            padding-bottom: 13px;
+          font-size: .785rem;
+          padding-right: 0;
+          padding: 0 12px;
         }
       }
-      
-      @media (min-width: 420px) and (max-width: 767px) {
-        //Mobile
-        .integrate-google-drive-img {
-            text-align: center!important;
-            img {
-                width: 85%;
-            }
-        }
-        .radio-player-content {
-            .radio-player-content-head {
-               
-                justify-content: center!important;
-                h5 {
-                    font-size: .9rem;
-                }
-            }
-            .radio-player-head {
-                text-align: center;
-                h1 {
-                    font-size: 1.8rem;
-                    padding-right: 0;
-                }
-                p {
-                    font-size: .785rem;
-                    padding-right: 0;
-                    padding: 0 12px;
-                }
-            }
-        }
-        
-        .radio-feature {
-            padding: 30px 4px;
-            .radio-feat-text {
-                h4 {
-                    font-size: .7rem;
-                }
-            }
-            
-        }
-        .radio-player-head {
-            .radio-feat-text {
-                h4 {
-                    padding: 12px;
-                }
-            }
-        }
+    }
 
+    .radio-feature {
+      padding: 30px 4px;
+
+      .radio-feat-text {
+        h4 {
+          font-size: .7rem;
+        }
       }
+
+    }
+    .radio-player-head {
+      .radio-feat-text {
+        h4 {
+          padding: 12px;
+        }
+      }
+    }
+
+  }
 
 }

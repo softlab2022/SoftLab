@@ -27,7 +27,7 @@ $products = [
             <div class="col-lg-5 m-auto">
                 <div class="products-head text-center">
                     <h1>Our Solutions</h1>
-                    <p>Empower your business with our next level solutions</p>
+                    <p>Empower your business with our next level solutions.</p>
 
                     <div class="products-vector">
                         <img class="img-fluid"
