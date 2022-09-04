@@ -1,51 +1,25 @@
 /******/ (() => { // webpackBootstrap
-var __webpack_exports__ = {};
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-(function ($) {
-  $(document).ready(function () {
-    //Testimonial Slider
-    $('.testimonial-items').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: true,
-      autoplaySpeed: 3000,
-      speed: 2000,
-      nextArrow: '.right',
-      prevArrow: '.left'
-    });
-    $('.think-main-items').slick({
-      centerMode: false,
-      centerPadding: '60px',
-      slidesToShow: 3,
-      dots: true,
-      arrows: false,
-      responsive: [{
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      }, {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }]
-    });
-    $('.counter').counterUp({
-      delay: 16,
-      time: 1500
-    });
-  });
-})(jQuery);
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\src\\js\\main.js: Unexpected token, expected \",\" (85:1)\n\n\u001b[0m \u001b[90m 83 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 84 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 85 |\u001b[39m }})(jQuery)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.ts:62:21)\n    at toParseError (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parse-error.ts:60:12)\n    at Parser.raise (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts:1469:19)\n    at Parser.unexpected (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\tokenizer\\index.ts:1515:16)\n    at Parser.expect (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parser\\util.ts:153:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parser\\expression.ts:1062:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parser\\expression.ts:928:29)\n    at Parser.parseSubscript (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parser\\expression.ts:804:19)\n    at Parser.parseSubscripts (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parser\\expression.ts:759:19)\n    at Parser.parseExprSubscripts (C:\\Users\\Akash\\Local Sites\\softlab\\app\\public\\wp-content\\themes\\SoftLab\\node_modules\\@babel\\parser\\src\\parser\\expression.ts:743:17)");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/js/main.js"]();
+/******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBLENBQUMsVUFBVUEsQ0FBVixFQUFhO0VBRVZBLENBQUMsQ0FBQ0MsUUFBRCxDQUFELENBQVlDLEtBQVosQ0FBa0IsWUFBWTtJQUMxQjtJQUNBRixDQUFDLENBQUMsb0JBQUQsQ0FBRCxDQUF3QkcsS0FBeEIsQ0FBOEI7TUFDMUJDLFlBQVksRUFBRSxDQURZO01BRTFCQyxjQUFjLEVBQUUsQ0FGVTtNQUcxQkMsUUFBUSxFQUFFLElBSGdCO01BSTFCQyxNQUFNLEVBQUUsSUFKa0I7TUFLMUJDLGFBQWEsRUFBRSxJQUxXO01BTTFCQyxLQUFLLEVBQUUsSUFObUI7TUFPMUJDLFNBQVMsRUFBRSxRQVBlO01BUTFCQyxTQUFTLEVBQUU7SUFSZSxDQUE5QjtJQVdBWCxDQUFDLENBQUMsbUJBQUQsQ0FBRCxDQUF1QkcsS0FBdkIsQ0FBNkI7TUFDekJTLFVBQVUsRUFBRSxLQURhO01BRXpCQyxhQUFhLEVBQUUsTUFGVTtNQUd6QlQsWUFBWSxFQUFFLENBSFc7TUFJekJVLElBQUksRUFBRSxJQUptQjtNQUt6QlAsTUFBTSxFQUFFLEtBTGlCO01BTXpCUSxVQUFVLEVBQUUsQ0FDUjtRQUNJQyxVQUFVLEVBQUUsR0FEaEI7UUFFSUMsUUFBUSxFQUFFO1VBQ05WLE1BQU0sRUFBRSxLQURGO1VBRU5LLFVBQVUsRUFBRSxJQUZOO1VBR05DLGFBQWEsRUFBRSxNQUhUO1VBSU5ULFlBQVksRUFBRTtRQUpSO01BRmQsQ0FEUSxFQVVSO1FBQ0lZLFVBQVUsRUFBRSxHQURoQjtRQUVJQyxRQUFRLEVBQUU7VUFDTlYsTUFBTSxFQUFFLEtBREY7VUFFTkssVUFBVSxFQUFFLElBRk47VUFHTkMsYUFBYSxFQUFFLE1BSFQ7VUFJTlQsWUFBWSxFQUFFO1FBSlI7TUFGZCxDQVZRO0lBTmEsQ0FBN0I7SUEyQkFKLENBQUMsQ0FBQyxVQUFELENBQUQsQ0FBY2tCLFNBQWQsQ0FBd0I7TUFDcEJDLEtBQUssRUFBRSxFQURhO01BRXBCQyxJQUFJLEVBQUU7SUFGYyxDQUF4QjtFQUlILENBNUNEO0FBZ0RILENBbERELEVBa0RHQyxNQWxESCxFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29mdGxhYi8uL3NyYy9qcy9tYWluLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIihmdW5jdGlvbiAoJCkge1xyXG5cclxuICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uICgpIHtcclxuICAgICAgICAvL1Rlc3RpbW9uaWFsIFNsaWRlclxyXG4gICAgICAgICQoJy50ZXN0aW1vbmlhbC1pdGVtcycpLnNsaWNrKHtcclxuICAgICAgICAgICAgc2xpZGVzVG9TaG93OiAxLFxyXG4gICAgICAgICAgICBzbGlkZXNUb1Njcm9sbDogMSxcclxuICAgICAgICAgICAgYXV0b3BsYXk6IHRydWUsXHJcbiAgICAgICAgICAgIGFycm93czogdHJ1ZSxcclxuICAgICAgICAgICAgYXV0b3BsYXlTcGVlZDogMzAwMCxcclxuICAgICAgICAgICAgc3BlZWQ6IDIwMDAsXHJcbiAgICAgICAgICAgIG5leHRBcnJvdzogJy5yaWdodCcsXHJcbiAgICAgICAgICAgIHByZXZBcnJvdzogJy5sZWZ0JyxcclxuICAgICAgICB9KTtcclxuXHJcbiAgICAgICAgJCgnLnRoaW5rLW1haW4taXRlbXMnKS5zbGljayh7XHJcbiAgICAgICAgICAgIGNlbnRlck1vZGU6IGZhbHNlLFxyXG4gICAgICAgICAgICBjZW50ZXJQYWRkaW5nOiAnNjBweCcsXHJcbiAgICAgICAgICAgIHNsaWRlc1RvU2hvdzogMyxcclxuICAgICAgICAgICAgZG90czogdHJ1ZSxcclxuICAgICAgICAgICAgYXJyb3dzOiBmYWxzZSxcclxuICAgICAgICAgICAgcmVzcG9uc2l2ZTogW1xyXG4gICAgICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgICAgIGJyZWFrcG9pbnQ6IDc2OCxcclxuICAgICAgICAgICAgICAgICAgICBzZXR0aW5nczoge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBhcnJvd3M6IGZhbHNlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjZW50ZXJNb2RlOiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjZW50ZXJQYWRkaW5nOiAnNDBweCcsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHNsaWRlc1RvU2hvdzogM1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgIH0sXHJcbiAgICAgICAgICAgICAgICB7XHJcbiAgICAgICAgICAgICAgICAgICAgYnJlYWtwb2ludDogNDgwLFxyXG4gICAgICAgICAgICAgICAgICAgIHNldHRpbmdzOiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGFycm93czogZmFsc2UsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNlbnRlck1vZGU6IHRydWUsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNlbnRlclBhZGRpbmc6ICc0MHB4JyxcclxuICAgICAgICAgICAgICAgICAgICAgICAgc2xpZGVzVG9TaG93OiAxXHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBdICB9KTtcclxuXHJcbiAgICAgICAgJCgnLmNvdW50ZXInKS5jb3VudGVyVXAoe1xyXG4gICAgICAgICAgICBkZWxheTogMTYsXHJcbiAgICAgICAgICAgIHRpbWU6IDE1MDBcclxuICAgICAgICB9KTtcclxuICAgIH0pO1xyXG5cclxuICBcclxuXHJcbn0pKGpRdWVyeSk7Il0sIm5hbWVzIjpbIiQiLCJkb2N1bWVudCIsInJlYWR5Iiwic2xpY2siLCJzbGlkZXNUb1Nob3ciLCJzbGlkZXNUb1Njcm9sbCIsImF1dG9wbGF5IiwiYXJyb3dzIiwiYXV0b3BsYXlTcGVlZCIsInNwZWVkIiwibmV4dEFycm93IiwicHJldkFycm93IiwiY2VudGVyTW9kZSIsImNlbnRlclBhZGRpbmciLCJkb3RzIiwicmVzcG9uc2l2ZSIsImJyZWFrcG9pbnQiLCJzZXR0aW5ncyIsImNvdW50ZXJVcCIsImRlbGF5IiwidGltZSIsImpRdWVyeSJdLCJzb3VyY2VSb290IjoiIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O1VDQUE7VUFDQTtVQUNBO1VBQ0E7VUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3NvZnRsYWIvd2VicGFjay9iZWZvcmUtc3RhcnR1cCIsIndlYnBhY2s6Ly9zb2Z0bGFiL3dlYnBhY2svc3RhcnR1cCIsIndlYnBhY2s6Ly9zb2Z0bGFiL3dlYnBhY2svYWZ0ZXItc3RhcnR1cCJdLCJzb3VyY2VzQ29udGVudCI6WyIiLCIvLyBzdGFydHVwXG4vLyBMb2FkIGVudHJ5IG1vZHVsZSBhbmQgcmV0dXJuIGV4cG9ydHNcbi8vIFRoaXMgZW50cnkgbW9kdWxlIGRvZXNuJ3QgdGVsbCBhYm91dCBpdCdzIHRvcC1sZXZlbCBkZWNsYXJhdGlvbnMgc28gaXQgY2FuJ3QgYmUgaW5saW5lZFxudmFyIF9fd2VicGFja19leHBvcnRzX18gPSB7fTtcbl9fd2VicGFja19tb2R1bGVzX19bXCIuL3NyYy9qcy9tYWluLmpzXCJdKCk7XG4iLCIiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=
