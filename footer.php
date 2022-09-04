@@ -104,19 +104,13 @@
                     <h4>Subscribe to Our Newsletter</h4>
                 </div>
 
-                <div class="news-letter">
-                <p>Stay up to date with all the recent news, updates and great discounts.</p>
+                <div class="news-letter-form">
+                    <p>Stay up to date with all the recent news, updates and great discounts.</p>
 
 
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control" placeholder="Enter Your Email"
-                               aria-label="Enter Your Email" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <a href="#">Send <i class="fa-solid fa-paper-plane"></i></a>
-                        </div>
-                    </div>
+					<?php echo do_shortcode( '[fluentform id="2"]' ); ?>
 
-                <p>We promise we will never spam you</p>
+                    <p>We promise we will never spam you</p>
                 </div>
 
             </div>
