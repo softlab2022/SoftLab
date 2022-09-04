@@ -13,6 +13,7 @@ class SoftLaB_Nav {
 				array(
 					'main-menu'                   => 'Main Navigation Menu',
 					'footer-menu'                 => 'Footer Menu',
+					'footer-menu-bottom'          => 'Footer Menu Bottom',
 					'integrate-google-drive-menu' => 'Integrate Google Drive Menu',
 					'radio-player-menu'           => 'Radio Player Menu',
 					'wp-radio-menu'               => 'WP Radio Menu',
@@ -28,14 +29,6 @@ class SoftLaB_Nav {
 
 
 	}
-
-	public function add_product_mega_menu( $item_output, $item, $depth, $args ) {
-
-		$item_output .= '<span>test</span>';
-
-		return $item_output;
-	}
-
 
 	public static function instance() {
 		if ( null === self::$instance ) {

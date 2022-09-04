@@ -107,7 +107,7 @@ $products = [
 		]
 	],
 	'wp-radio'               => [
-		'name'        => 'WP Radio',
+		'name'        => '<span>WP Radio</span>',
 		'title'       => '<span>Worldwide</span> Online Radio Stations Directory for WordPress',
 		'description' => 'WP Radio is a worldwide online radio stations directory plugin for WordPress. You can easily create a full-featured online radio directory website.',
 		'image'       => get_template_directory_uri() . '/assets/images/products/wp-radio-illustration.png',
