@@ -6,7 +6,7 @@
  *
  */
 
-get_header('wp-radio-demo');
+get_header('wp-radio-station-demo');
 
 
 get_template_part( 'template-parts/wp-radio/wp-radio-station/radio-station-hero' );

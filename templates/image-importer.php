@@ -6,7 +6,7 @@
  *
  */
 
-get_header('wp-radio-demo');
+get_header('image-importer-demo');
 
 
 get_template_part( 'template-parts/wp-radio/image-importer/importer-hero' );

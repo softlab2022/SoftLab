@@ -222,13 +222,12 @@
       right: -50%;
     }
     .products-item {
-      p {
+      .product-title {
+        font-size: 1rem;
+      }
+      .product-description {
         padding: 0 7%;
         margin-bottom: 20px;
-      }
-
-      a {
-        font-size: 1.3rem;
       }
     }
   }
@@ -248,7 +247,7 @@
     .products-item {
       margin-bottom: 40px;
 
-      p {
+      .product-description {
         padding: 0;
       }
     }
@@ -545,7 +544,7 @@
         font-weight: 400;
         font-size: .9rem;
         line-height: 150%;
-        padding: 1% 10%;
+        padding: 1% 16%;
       }
     }
   }
@@ -659,7 +658,7 @@
 
 /**------- Testimonial -------**/
 #testimonial {
-  position: relative;
+  
   background: url("../images/home/testimonial/think-bg-shape.png") no-repeat bottom / contain;
   padding: 100px 0;
 
@@ -674,15 +673,6 @@
       text-transform: capitalize;
     }
   }
-
-
-  .testimonial-item {
-    background-color: #fff;
-    padding: 40px;
-    box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
-    border-radius: 20px;
-  }
-
   .testimonial-support-item {
     i {
       width: 60px;
@@ -693,24 +683,34 @@
       border-radius: 50px;
       text-align: center;
       color: #000;
-      z-index: 1;
+      z-index: 9999;
       box-shadow: 16px 26px 68px rgba(142, 170, 249, 0.3);
       cursor: pointer;
     }
 
     .left {
       position: absolute;
+      top: 40%;
       left: -25px;
-      top: 50%;
     }
 
     .right {
       position: absolute;
+      top: 40%;
       right: -25px;
-      top: 50%;
     }
   }
+  
+  .slider-item {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    position: relative; 
+  }
 
+  .testimonial-items {
+  
   .people-think-item {
     .people-think-icon {
       i {
@@ -755,7 +755,7 @@
         margin-top: 5%;
 
         h4 {
-
+          text-transform: capitalize;
           color: $h1_color;
           font-weight: 600;
           font-size: 1.2rem;
@@ -771,6 +771,7 @@
       }
     }
   }
+  }
 
 
   @media (min-width: 1200px) {
@@ -779,7 +780,7 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
     //Laptop
-    .akash-head {
+    .testimonial-head {
       h2 {
         font-size: 2rem;
         padding: 20px 35px;
@@ -789,10 +790,23 @@
 
   @media (min-width: 768px) and (max-width: 991px) {
     //Tablet
-    .akash-head {
+    .testimonial-head {
       h2 {
         font-size: 2rem;
         padding: 20px 35px;
+      }
+    }
+    .testimonial-items{
+      .people-think-item {
+        .people-think-content {
+          h4 {
+            font-size: 1.3rem;
+          }
+  
+          p {
+            font-size: 1rem;
+          }
+        }
       }
     }
   }
@@ -803,26 +817,25 @@
         font-size: 2rem;
       }
     }
-    .people-think-item {
-      .people-think-content {
-        h4 {
-          font-size: 1.1rem;
-          padding: 0 20px;
-        }
-
-        p {
-          font-size: .785rem;
-        }
-      }
-
-      .people-think-info {
-        .people-text {
+    .testimonial-items{
+      .people-think-item {
+        .people-think-content {
           h4 {
-            font-size: 1rem;
+            font-size: 1.1rem;
+            padding: 0 20px;
           }
-
+  
           p {
-            font-size: .8rem;
+            font-size: .785rem;
+            padding: 0;
+          }
+        }
+  
+        .people-think-info {
+          .people-text {
+            h4 {
+              font-size: .9rem;
+            }
           }
         }
       }
