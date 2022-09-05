@@ -7,8 +7,6 @@
 get_header();
 
 
-get_template_part( 'template-parts/contact/contact-hero' );
-
 $tabs = [
 	'pre-sales'         => [
 		'title' => 'Pre-Sales',
@@ -25,6 +23,19 @@ $tabs = [
 ];
 
 ?>
+
+    <section class="title-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 m-auto">
+                    <div class="header-content text-center">
+                        <h2>Contact Us</h2>
+                        <p>Whether you have a question about features, trials, pricing, or anything else, our team is ready to answer all of them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="contact-form">
         <div class="container">

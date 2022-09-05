@@ -53,7 +53,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img4.png" alt="img4">
                     </div>
                     <div class="use-text">
-                        <h4>Link A Google Account</h4>
+                        <h4>Shortcode Builder</h4>
                         <p>You can create various types of module (File browser, Photo Gallery, Media player etc.) with different configurations with the shortcode builder and can use them anywhere using the shortcode.</p>
                     </div>
                 </div>

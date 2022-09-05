@@ -158,15 +158,14 @@ $products = [
 ];
 
 ?>
-    <section class="products-banner">
+    <section class="title-header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 m-auto">
-                    <div class="hero-content text-center">
+                    <div class="header-content text-center">
                         <h2>Empower your business with our next level solutions.</h2>
                         <p>Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Big Thing in
-                            Your
-                            Website.</p>
+                            Your Website.</p>
                     </div>
                 </div>
             </div>
