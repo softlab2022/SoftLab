@@ -73,150 +73,149 @@
     
 /* ====== responsive area end=====*/
 
+/**---------- price Area ----------**/
+.price-main {
+        background-color: #fff;
+        padding: 20px;
+        border-top: 5px solid #00BB45;
+        position: relative;
+        top: 0px;
+        .p-head {
+                .free {
+                        display: block;
+                        color: #151826;
+                        font-size: 2.6rem;
+                        font-weight: 700;
+                        line-height: 120%;
+                        padding-bottom: 15px;
+                }
+                .basics {
+                        color: #5C637E;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        line-height: 150%;
+                        
+                }
+                h5 {
+                       color: #00BB45;
+                       font-size: 3rem;
+                       font-weight: 700;
+                       line-height: 120%; 
+                       span {
+                        color: #5C637E;
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                        line-height: 120%;
+                       }
+                       padding-top: 20px;
+                       border-bottom:  1px solid #EAEEFF;
+                }
+                .supp {
+                        color: #5C637E;
+                        font-weight: 700;
+                        font-size: .9rem;
+                        line-height: 120%; 
+                        text-transform: capitalize;
+                       
+                }
+        }
+
+        .price-fe {
+                border-top:  1px solid #EAEEFF;
+                margin-top: 20px;
+                .price-item { 
+                        margin-top: 20px;
+                        
+                        span {
+                                color: #5C637E;
+                                font-weight: 500;
+                                font-size: 1rem;
+                                line-height: 120%;
+
+                                .fa-check {
+                                        width: 20px;
+                                        height: 20px;
+                                        line-height: 20px;
+                                        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                                        font-size: .8rem;
+                                        color: #fff;
+                                        border-radius: 5px;
+                                        margin-right: 5px;
+                                        text-align: center;
+                                }
+                        }
+                }
+        }
+        .price-but {
+                margin-top: 212px;
+                margin-bottom: 20px;
+                text-align: center;
+                a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-weight: 600;
+                        font-size: .9rem;
+                        line-height: 19px;
+                        padding: 20px 35px; 
+                        border-radius: 8px;
+                        background-color: #00BB45;
+                        &:hover {
+                                box-shadow: #7788FF 0px 2px 8px 0px;
+                        }
+                }
+        }
 }
 
-/**---------- price Area ----------**/
-#pric {
-        background-color: #F9FAFF;
-        .price-main {
-                background-color: #fff;
-                padding: 20px;
-                border-top: 5px solid #00BB45;
-                position: relative;
-                top: -260px;
-                .p-head {
-                        .free {
-                                display: block;
-                                color: #151826;
-                                font-size: 2.6rem;
-                                font-weight: 700;
-                                line-height: 120%;
-                                padding-bottom: 15px;
-                        }
-                        .basics {
-                                color: #5C637E;
-                                font-size: 1rem;
-                                font-weight: 500;
-                                line-height: 150%;
-                                
-                        }
-                        h5 {
-                               color: #00BB45;
-                               font-size: 3rem;
-                               font-weight: 700;
-                               line-height: 120%; 
-                               span {
-                                color: #5C637E;
-                                font-size: 1.1rem;
-                                font-weight: 500;
-                                line-height: 120%;
-                               }
-                               padding-top: 20px;
-                               border-bottom:  1px solid #EAEEFF;
-                        }
-                        .supp {
-                                color: #5C637E;
-                                font-weight: 700;
-                                font-size: .9rem;
-                                line-height: 120%; 
-                                text-transform: capitalize;
-                               
+.main2 {
+        border-top: 5px solid #3D6EC9;
+        .price-but2 {
+                margin-top: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-weight: 600;
+                        font-size: .9rem;
+                        line-height: 19px;
+                        padding: 20px 35px; 
+                        border-radius: 8px;
+                        background-color: #00BB45;
+                        &:hover {
+                                box-shadow: #7788FF 0px 2px 8px 0px;
                         }
                 }
-
-                .price-fe {
-                        border-top:  1px solid #EAEEFF;
-                        margin-top: 20px;
-                        .price-item { 
-                                margin-top: 20px;
-                                
-                                span {
-                                        color: #5C637E;
-                                        font-weight: 500;
-                                        font-size: 1rem;
-                                        line-height: 120%;
-
-                                        .fa-check {
-                                                width: 20px;
-                                                height: 20px;
-                                                line-height: 20px;
-                                                background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
-                                                font-size: .8rem;
-                                                color: #fff;
-                                                border-radius: 5px;
-                                                margin-right: 5px;
-                                                text-align: center;
-                                        }
-                                }
-                        }
-                }
-                .price-but {
-                        margin-top: 212px;
-                        margin-bottom: 20px;
-                        text-align: center;
-                        a {
-                                text-decoration: none;
-                                color: #fff;
-                                font-weight: 600;
-                                font-size: .9rem;
-                                line-height: 19px;
-                                padding: 20px 35px; 
-                                border-radius: 8px;
+        }
+        .site {
+                margin-top: 20px;
+                .dropdown {
+                        .btn-pr {
                                 background-color: #00BB45;
+                                border: none;
+                                padding: 15px 15px;
+                                border-radius: 8px;
+                                color: #fff;
                                 &:hover {
                                         box-shadow: #7788FF 0px 2px 8px 0px;
                                 }
                         }
-                }
-        }
-
-        .main2 {
-                border-top: 5px solid #3D6EC9;
-                .price-but2 {
-                        margin-top: 50px;
-                        margin-bottom: 20px;
-                        text-align: center;
-                        a {
-                                text-decoration: none;
-                                color: #fff;
-                                font-weight: 600;
-                                font-size: .9rem;
-                                line-height: 19px;
-                                padding: 20px 35px; 
-                                border-radius: 8px;
-                                background-color: #00BB45;
-                                &:hover {
-                                        box-shadow: #7788FF 0px 2px 8px 0px;
-                                }
-                        }
-                }
-                .site {
-                        margin-top: 20px;
-                        .dropdown {
-                                .btn-pr {
-                                        background-color: #00BB45;
-                                        border: none;
-                                        padding: 15px 15px;
-                                        border-radius: 8px;
-                                        color: #fff;
-                                        &:hover {
-                                                box-shadow: #7788FF 0px 2px 8px 0px;
-                                        }
-                                }
-                                .btn-check:focus + .btn-secondary, .btn-secondary:focus {
-                                        border: none;
-                                        box-shadow: none;
-                                }
+                        .btn-check:focus + .btn-secondary, .btn-secondary:focus {
+                                border: none;
+                                box-shadow: none;
                         }
                 }
         }
+}
 
         @media (min-width: 320px) and (max-width: 767px) {
                 .main2 {
                         margin-top: 60px;
                 }
         }
+
 }
+
+
 /**---------- industry Area ----------**/
 #industry {
 
@@ -226,7 +225,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 60px 0 60px 0;
-        
+        margin-top: 580px;
         .industry-head {
                 h2 {
                         font-size: 3rem;
@@ -788,4 +787,8 @@
 
 #people-think {
         padding-top: 100px;
+}
+.page-template-templatesintegrate-google-drive-pricing-php {
+
+        background-color: #F9FAFF;
 }

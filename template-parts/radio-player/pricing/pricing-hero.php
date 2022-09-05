@@ -68,7 +68,7 @@
             <div class="col-lg-5 col-md-6 me-auto">
             <div class="price-main main2">
                 <div class="p-head text-center">
-                        <span class="free">
+                        <span class="pro">
                             PRO
                         </span>
                         <span class="basics">

@@ -31,7 +31,7 @@
                 .p-head {
                         .free {
                                 display: block;
-                                color: #151826;
+                                color: $h1_color;
                                 font-size: 2.6rem;
                                 font-weight: 700;
                                 line-height: 120%;
@@ -84,7 +84,7 @@
                                                 width: 20px;
                                                 height: 20px;
                                                 line-height: 20px;
-                                                background: #4353FF;
+                                                background: #00BB45;
                                                 font-size: .8rem;
                                                 color: #fff;
                                                 border-radius: 5px;
@@ -106,7 +106,7 @@
                                 line-height: 19px;
                                 padding: 20px 35px; 
                                 border-radius: 8px;
-                                background-color: #4353FF;
+                                background-color: #00BB45;
                                 &:hover {
                                         box-shadow: #7788FF 0px 2px 8px 0px;
                                 }
@@ -115,7 +115,15 @@
         }
 
         .main2 {
-                border-top: 5px solid #FFB97E;
+                border-top: 5px solid #4353FF;
+                .pro {
+                        display: block;
+                        color: #4353FF;
+                        font-size: 2.6rem;
+                        font-weight: 700;
+                        line-height: 120%;
+                        padding-bottom: 15px;
+                }
                 .price-but2 {
                         margin-top: 50px;
                         margin-bottom: 20px;
@@ -128,7 +136,7 @@
                                 line-height: 19px;
                                 padding: 20px 35px; 
                                 border-radius: 8px;
-                                background-color: #4353FF;
+                                background-color: #00BB45;
                                 &:hover {
                                         box-shadow: #7788FF 0px 2px 8px 0px;
                                 }
@@ -138,7 +146,7 @@
                         margin-top: 20px;
                         .dropdown {
                                 .btn-pr {
-                                        background-color: #4353FF;
+                                        background-color: #00BB45;
                                         border: none;
                                         padding: 15px 15px;
                                         border-radius: 8px;
@@ -215,7 +223,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 60px 0 60px 0;
-
+        margin-top: 580px;
         .industry-head {
                 h2 {
                         font-size: 3rem;
@@ -379,7 +387,7 @@
         }
 
 
-.accordion {
+        .accordion {
                 padding-top: 30px;
                 .accordion-button:not(.collapsed)::after {
                         display: none;
@@ -406,13 +414,13 @@
                         outline: 0;
                         box-shadow: none;
                 }
-                .accordion-item:last-of-type {
-                        border-bottom-right-radius: .25rem;
-                        border-bottom-left-radius: .25rem;
+                .accordion-item {
                         background-color: #E9F6F0;
                 }
                 .accordion-collapse {
                         background-color: #E9F6F0;
+                        border-bottom-left-radius: 20px!important;
+                        border-bottom-right-radius: 20px!important;
                 }
                 
                 .accordion-button:not(.collapsed) {
@@ -647,20 +655,22 @@
                                 outline: 0;
                                 box-shadow: none;
                         }
-                        .accordion-item:last-of-type {
-                                border-bottom-right-radius: .25rem;
-                                border-bottom-left-radius: .25rem;
+                        .accordion-item {
+                                
                                 background-color: #E9F6F0;
                         }
                         .accordion-collapse {
-                                background-color: #E9F6F0;
+                                background-color: #fff;
                                 border-bottom-left-radius: 20px;
                                 border-bottom-right-radius: 20px;
+                                box-shadow: 20px 24px 60px rgba(165, 165, 165, 0.15);
                         }
                         
                         .accordion-button:not(.collapsed) {
-                                
-                                background-color: transparent;
+                                border-top-left-radius: 20px!important;
+                                border-top-right-radius: 20px!important;
+                                border-radius: 0 !important;
+                                background-color: #D4F4E5;
                                 box-shadow: none;
                                 .fa-chevron-down{
                                         transform: rotate(180deg);
