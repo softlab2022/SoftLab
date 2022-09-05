@@ -10,16 +10,19 @@
         },
 
         initTestimonialSlider: function () {
-            // $('.testimonial-item').slick({
-            //     slidesToShow: 1,
-            //     slidesToScroll: 1,
-            //     autoplay: true,
-            //     arrows: true,
-            //     autoplaySpeed: 3000,
-            //     speed: 2000,
-            //     nextArrow: '.right',
-            //     prevArrow: '.left',
-            // });
+
+            // Home testimonial slider
+            $('.single-testimonial-items').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: true,
+                autoplaySpeed: 3000,
+                speed: 2000,
+                contentPadding: '30px',
+                nextArrow: '.right',
+                prevArrow: '.left',
+            });
 
             $('.testimonial-items').slick({
                 centerMode: false,

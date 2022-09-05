@@ -225,6 +225,7 @@
       .product-title {
         font-size: 1rem;
       }
+
       .product-description {
         padding: 0 7%;
         margin-bottom: 20px;
@@ -657,12 +658,11 @@
 }
 
 /**------- Testimonial -------**/
-#testimonial {
-  
-  background: url("../images/home/testimonial/think-bg-shape.png") no-repeat bottom / contain;
+.testimonial {
+  background: url("../images/home/testimonial/think-bg-shape.png") no-repeat 0 20rem / contain;
   padding: 100px 0;
 
-  .testimonial-head {
+  .section-head {
     margin-bottom: 3rem;
 
     h2 {
@@ -673,6 +673,7 @@
       text-transform: capitalize;
     }
   }
+
   .testimonial-support-item {
     i {
       width: 60px;
@@ -700,66 +701,63 @@
       right: -25px;
     }
   }
-  
+
   .slider-item {
     background-color: #fff;
     padding: 40px;
     box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
     border-radius: 20px;
-    position: relative; 
+    position: relative;
   }
 
-  .testimonial-items {
-  
-  .people-think-item {
-    .people-think-icon {
-      i {
-        color: #FF8F1E;
-        font-size: 1.5rem;
-        margin-bottom: 4%;
-      }
-    }
+  .single-testimonial-items {
 
-    .people-think-content {
-      h4 {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 1.5rem;
-        line-height: 120%;
-        color: $h1_color;
-      }
+    .testimonial-item {
 
-      p {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 1.2rem;
-        line-height: 120%;
-        color: $p_color;
-        margin-top: 3%;
-        padding: 0 15%;
-        margin-bottom: 6%;
-      }
-    }
-
-    .people-think-info {
-      border-top: 1px solid rgba(92, 99, 126, 0.1);
-
-      .people-img {
-        img {
-          padding-top: 16%;
+      .testimonial-rating {
+        i {
+          color: #FF8F1E;
+          font-size: 1.5rem;
+          margin-bottom: 4%;
         }
       }
 
-      .people-text {
-        margin-left: 2%;
-        margin-top: 5%;
-
+      .testimonial-content {
         h4 {
+          font-style: italic;
+          font-weight: 400;
+          font-size: 1.5rem;
+          color: $h1_color;
+        }
+
+        p {
+          font-style: italic;
+          font-weight: 400;
+          font-size: 1.2rem;
+          color: $p_color;
+          padding: 3rem;
+        }
+      }
+
+      .testimonial-user {
+        border-top: 1px solid rgba(92, 99, 126, 0.1);
+        margin-top: 1rem;
+        padding-top: 1rem;
+
+        img {
+          margin-right: 7px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 1px solid #eee;
+        }
+
+
+        span {
           text-transform: capitalize;
           color: $h1_color;
           font-weight: 600;
           font-size: 1.2rem;
-          line-height: 120%;
         }
 
         p {
@@ -771,77 +769,6 @@
       }
     }
   }
-  }
-
-
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-    .testimonial-head {
-      h2 {
-        font-size: 2rem;
-        padding: 20px 35px;
-      }
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .testimonial-head {
-      h2 {
-        font-size: 2rem;
-        padding: 20px 35px;
-      }
-    }
-    .testimonial-items{
-      .people-think-item {
-        .people-think-content {
-          h4 {
-            font-size: 1.3rem;
-          }
-  
-          p {
-            font-size: 1rem;
-          }
-        }
-      }
-    }
-  }
-
-  @media(max-width: 767px) {
-    .testimonial-head {
-      h2 {
-        font-size: 2rem;
-      }
-    }
-    .testimonial-items{
-      .people-think-item {
-        .people-think-content {
-          h4 {
-            font-size: 1.1rem;
-            padding: 0 20px;
-          }
-  
-          p {
-            font-size: .785rem;
-            padding: 0;
-          }
-        }
-  
-        .people-think-info {
-          .people-text {
-            h4 {
-              font-size: .9rem;
-            }
-          }
-        }
-      }
-    }
-  }
-
 
 }
 
