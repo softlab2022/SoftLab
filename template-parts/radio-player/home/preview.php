@@ -3,13 +3,14 @@
         <div class="row">
            <div class="col-lg-6 m-auto">
            <div class="preview-head text-center">
+                 <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png" alt="elements">
                 <span>Live Player Editing Preview</span>
                 <h1>Feel that you can live do player editing preview</h1>
                 <p>Realtime player preview in the player editing screen. Real-time previewing is live when you are editing.</p>
             </div>
            </div>
         </div>
-            <div class="row">
+            <div class="row align-items-center">
                       <!---=== HTTP Stream Player====-->
                 <div class="col-lg-7 col-md-6 prev1 m-auto">
                     <div class="featuer-item-img text-center">

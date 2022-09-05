@@ -1,19 +1,5 @@
 (function ($) {
 
-
-    $(document).ready(function () {
-        //Testimonial Slider
-        $('.testimonial-items').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            arrows: true,
-            autoplaySpeed: 3000,
-            speed: 2000,
-            nextArrow: '.right',
-            prevArrow: '.left',
-        });
-
     const app = {
         init: function () {
             app.initSlider();
@@ -23,7 +9,7 @@
         },
 
         initSlider: function () {
-            $('.testimonial-item').slick({
+            $('.testimonial-items').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: true,
@@ -82,4 +68,4 @@
     $(document).ready(app.init);
 
 
-}})(jQuery);
+})(jQuery);

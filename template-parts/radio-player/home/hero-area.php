@@ -4,6 +4,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 m-auto">
                 <div class="hero-content">
+                    <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png" alt="elements">
                     <span>Radio Player</span> 
                     <h1>Live Shoutcast, Icecast and Audio Stream Player for WordPress</h1>
                     <p>
