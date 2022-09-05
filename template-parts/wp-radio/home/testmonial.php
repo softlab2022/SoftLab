@@ -1,3 +1,54 @@
+<?php
+
+$testimonials = [
+	[
+		'title'       => '“Best Radio Player Available',
+		'description' => 'It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code and dropping <strong>paywalls and tracking</strong> scripts of course we have been tracking',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar12.png',
+		'name'        => 'Kroffi Media',
+		'designation' => 'Owner, CvsRadio1 Directory',
+    ],
+
+	[
+		'title'       => 'IT iS A BEST OF THE BEST',
+		'description' => 'Этот плагин супер. Я искал везде такойи немог найти. Спасибо разработчику. И только не останавливайтесь и развивайте это плагин дальше.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar13.png',
+		'name'        => 'Aleksandr',
+		'designation' => 'Owner, Radiomix',
+    ],
+	
+	[
+		'title'       => 'SUPER!!',
+		'description' => 'Thanks to this plugin my website with radio stations was created! Huge number of radio stations, frequent updates. I heartily recommend!',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar14.png',
+		'name'        => 'Mariusz Bednarz',
+		'designation' => 'owner, Moje Radio Gra!',
+    ],
+	[
+		'title'       => 'Best of the Best Radio plugin on WordPress',
+		'description' => 'WP Radio plugin met all my expectations. Everything works perfectly. I also want to say a special thank you to the support service. They solve the problems that have arisen very quickly and professionally (even on a weekend).',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar3.png',
+		'name'        => 'venetiou',
+		'designation' => 'Web Developer',
+    ],
+	[
+		'title'       => 'Great plugin and support',
+		'description' => 'Great plugin and support Great plugin does the job even the free version of the plug-in.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar10.png',
+		'name'        => 'WIMASURINAME',
+		'designation' => 'Web Developer',
+    ],
+	[
+		'title'       => 'WP-Radio Premium – Highly Recommended!!',
+		'description' => 'WP-Radio Premium – Highly Recommended!! I bought all their plugins and they work. Excellent Service & Support!!',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar11.png',
+		'name'        => 'rjganda',
+		'designation' => 'Web Developer',
+    ],
+    
+];
+
+?>
 <section id="testmonial">
     <div class="container">
         <div class="row">
@@ -11,6 +62,7 @@
         </div>
 
         <div class="row">
+        <?php foreach ( $testimonials as $testimonial ) { ?>
             <div class="col-lg-4 col-md-6">
                 <div class="test-item">
                     <div class="test-rating d-flex justify-content-between align-items-center">
@@ -22,133 +74,18 @@
                         </div>
                     </div>
                     <div class="content">
-                        <p>It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code and dropping <strong>paywalls and tracking</strong> scripts of course we have been tracking</p>
+                        <p><?php echo $testimonial['description']; ?></p>
                     </div>
                     <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/testmonial/man1.png" alt="man1">
+                    <img class="img-fluid" src="<?php echo $testimonial['image']; ?>" alt="man1" style="width: 29%;">
                     <div class="text">
-                        <span>Richard Susan</span>
-                        <h6>CTO at Monaksmart</h6>
+                        <span><?php echo $testimonial['name']; ?></span>
+                        <h6><?php echo $testimonial['designation']; ?></h6>
                     </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="test-item">
-                    <div class="test-rating d-flex justify-content-between align-items-center">
-                        <div class="star">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="quote">
-                        <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p>It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code and dropping paywalls and tracking scripts of course we have been tracking.There are <strong> many variations of passages</strong> of available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    </div>
-                    <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/testmonial/man2.png" alt="man2">
-                    <div class="text">
-                        <span>Richard Susan</span>
-                        <h6>CTO at Monaksmart</h6>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="test-item item2">
-                    <div class="test-rating d-flex justify-content-between align-items-center">
-                        <div class="star">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="quote">
-                        <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p>It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code the majority have suffered alteration in some form, by injected humour.</p>
-                    </div>
-                    <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/testmonial/man3.png" alt="man3">
-                    <div class="text">
-                        <span>Richard Susan</span>
-                        <h6>CTO at Monaksmart</h6>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="test-item items">
-                    <div class="test-rating d-flex justify-content-between  align-items-center">
-                        <div class="star">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="quote">
-                        <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p>It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code and dropping paywalls and tracking scripts of course we have been tracking.There are <strong> many variations of passages</strong> of available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    </div>
-                    <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/testmonial/man4.png" alt="man4">
-                    <div class="text">
-                        <span>Richard Susan</span>
-                        <h6>CTO at Monaksmart</h6>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="test-item item3">
-                    <div class="test-rating d-flex justify-content-between align-items-center">
-                        <div class="star">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="quote">
-                        <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p>It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code and dropping <strong>paywalls and tracking</strong> scripts of course we have been tracking</p>
-                    </div>
-                    <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/testmonial/man5.png" alt="man5">
-                    <div class="text">
-                        <span>Richard Susan</span>
-                        <h6>CTO at Monaksmart</h6>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="test-item items ">
-                    <div class="test-rating d-flex justify-content-between align-items-center">
-                        <div class="star">
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="quote">
-                        <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                    </div>
-                    <div class="content">
-                        <p>It works but only if you buy all of the plugins. <strong>It would be better</strong> if people stopped using open source code and dropping paywalls and tracking scripts of course we have been tracking.There are <strong> many variations of passages</strong> of available, but the majority have suffered alteration in some form, by injected humour</p>
-                    </div>
-                    <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/testmonial/man6.png" alt="man6">
-                    <div class="text">
-                        <span>Richard Susan</span>
-                        <h6>CTO at Monaksmart</h6>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
+            <?php } ?>
 
         </div>
 

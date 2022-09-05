@@ -11,14 +11,11 @@
                 </div>
             </div>
         </div>
-</section>
-<section id="pric">
-            <!--=== free area ===--->
-        <div class="container">
-            <div class="row align-items-center">
+
+        <div class="row align-items-center">
                 <div class="col-lg-5 col-md-6 ms-auto">
                 <div class="price-main">
-
+                    <!--=== free area ===--->
                     <div class="p-head text-center">
                         <span class="free">
                             Free
@@ -134,5 +131,5 @@
                 </div>
 
             </div>
-        </div>
+
 </section>
