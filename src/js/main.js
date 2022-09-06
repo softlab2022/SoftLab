@@ -32,7 +32,7 @@
                 arrows: false,
                 responsive: [
                     {
-                        breakpoint: 768,
+                        breakpoint: 992,
                         settings: {
                             arrows: false,
                             centerMode: true,
@@ -41,7 +41,16 @@
                         }
                     },
                     {
-                        breakpoint: 480,
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 767,
                         settings: {
                             arrows: false,
                             centerMode: true,
