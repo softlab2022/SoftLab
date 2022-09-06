@@ -1,117 +1,125 @@
-
-
 /**---------- products-Hero Area ----------**/
 .wp-radio-hero-area {
-    background: url("../images/wp-radio/home/head-bg-shapes.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding: 160px 0 100px 0;
-  
-    .hero-content {
-      h1 {
-        font-size: 3rem;
-        color: #fff;
-        font-weight: 700;
-        
-      }
-      p {
-        font-weight: 400;
-        font-size: 1.1rem;
-        color: rgba(255, 255, 255, 0.8);
-        line-height: 150%;
-        padding-right: 20%;
-        padding-bottom: 30px;
-      }
-      a {
-        text-decoration: none;
-       margin-right: 10px;
-       font-size: .9rem;
-       font-weight: 600;
-       line-height: 150%;
-      }
-      .get {
-        color: #4353FF;
-        background-color: #fff;
-        border: 1px solid #fff;
-        padding: 15px 35px;
-        border-radius: 50px;
-        &:hover {
-          
-          transition: linear .4s;
-        }
-      }
-      .get1 {
-        color: rgba(255, 255, 255, 0.8);
-        font-weight: 700;
-        font-size: 1.1rem;
-        line-height: 120%;
+  background: url("../images/wp-radio/home/head-bg-shapes.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 160px 0 100px 0;
 
-        .fa-play {
-          width: 50px;
-          height: 50px;
-          line-height: 50px;
-          text-align: center;
-          background-color: #fff;
-          color: #4353FF;
-          border-radius: 50%;
-          margin-right: 10px;
-        }
-      }
-      
+  .hero-content {
+    h1 {
+      font-size: 3rem;
+      color: #fff;
+      font-weight: 700;
+
     }
-  
-  
+
+    p {
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 150%;
+      padding-right: 20%;
+      padding-bottom: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      margin-right: 10px;
+      font-size: .9rem;
+      font-weight: 600;
+      line-height: 150%;
+    }
+
+    .get {
+      color: #4353FF;
+      background-color: #fff;
+      border: 1px solid #fff;
+      padding: 15px 35px;
+      border-radius: 50px;
+
+      &:hover {
+
+        transition: linear .4s;
+      }
+    }
+
+    .get1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 120%;
+
+      .fa-play {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #fff;
+        color: #4353FF;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+    }
+
+  }
+
+
   /**---------- inner-header-bg scss ----------**/
-  
+
   .inner-header-bg {
     img {
       padding-bottom: 25%;
     }
   }
+
   /**---------- responsive-area scss start ----------**/
   @media (min-width: 1200px) {
     //Extra large
   }
-  
-    @media (min-width: 992px) and (max-width: 1199px) {
-        //Laptop
-        padding: 115px 0 0px 0;
-        .hero-content {
-          h1 {
-            font-size: 2.6rem;
-          }
-          p {
-            font-size: .9rem;
-            padding: 3% 12%;
-            padding-left: 0;
-          }
-        }
-      
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    //Laptop
+    padding: 115px 0 0px 0;
+    .hero-content {
+      h1 {
+        font-size: 2.6rem;
+      }
+
+      p {
+        font-size: .9rem;
+        padding: 3% 12%;
+        padding-left: 0;
+      }
     }
-  
-  @media (min-width: 768px) and (max-width: 991px)  {
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
     //Tablet
     .hero-content {
       h1 {
         font-size: 2rem;
       }
+
       p {
         font-size: .9rem;
         padding: 0;
         margin-top: 15px;
         margin-bottom: 25px;
       }
+
       .get {
         padding: 10px 25px;
       }
+
       .get1 {
         padding: 0;
       }
     }
   }
-  
+
   @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
     padding: 90px 0 60px 0;
@@ -121,6 +129,7 @@
         padding-top: 30px;
         font-size: 1.9rem;
       }
+
       p {
         font-size: .9rem;
         padding: 3% 10px;
@@ -130,11 +139,11 @@
       padding-top: 35px;
       padding-bottom: 60px;
     }
-   
+
   }
   /**---------- responsive-area scss end ----------**/
-  
-  }
+
+}
 
 /**---------- radio-olayer-feature-area scss ----------**/
 .page-template {
@@ -144,41 +153,46 @@
 /**-----feature area------**/
 #wp-feat {
   padding: 90px 0 60px 0;
-    .unlimited {
-      background: #fff;
-      padding-top: 50px;
-    }
 
-    .sticky-player {
-      background: #F9FAFF;
-      padding-top: 50px;
-    }
+  .unlimited {
+    background: #fff;
+    padding-top: 50px;
+  }
 
-    .advanced {
-      background: #EAFAFF;
-      padding-top: 50px;
-      .featuer-item-img {
-        padding-right: 40px;
-      }
-    }
+  .sticky-player {
+    background: #F9FAFF;
+    padding-top: 50px;
+  }
 
-    .browser-st {
-      padding-top: 50px;
-    }
+  .advanced {
+    background: #EAFAFF;
+    padding-top: 50px;
 
-    .cun-list {
-      padding-top: 50px;
+    .featuer-item-img {
+      padding-right: 40px;
     }
+  }
+
+  .browser-st {
+    padding-top: 50px;
+  }
+
+  .cun-list {
+    padding-top: 50px;
+  }
 
   .wp-feat-item {
     .featuer-item-img {
       padding-bottom: 60px;
     }
+
     .w-f-con {
-      padding-top: 45px!important;
+      padding-top: 45px !important;
     }
+
     .wp-feat-content {
       padding-top: 120px;
+
       .file-text {
         span {
           font-weight: 700;
@@ -186,6 +200,7 @@
           color: #4353FF;
           line-height: 120%;
         }
+
         h3 {
           font-weight: 700;
           font-size: 2rem;
@@ -194,6 +209,7 @@
           padding-top: 15px;
           padding-bottom: 25px;
         }
+
         p {
           font-weight: 400;
           font-size: 1rem;
@@ -202,6 +218,7 @@
           padding-bottom: 28px;
           padding-right: 72px;
         }
+
         a {
           text-decoration: none;
           padding: 15px 35px;
@@ -210,6 +227,7 @@
           border-radius: 50px;
           font-weight: 600;
           font-size: 1rem;
+
           &:hover {
             box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
             border-color: transparent;
@@ -218,39 +236,47 @@
       }
     }
   }
+
   .feat-item-img {
     display: block;
   }
+
   .feat-item-img1 {
     display: none;
   }
+
   /**---------- responsive-area scss start ----------**/
- @media (min-width: 1200px) {
-  //Extra large
+  @media (min-width: 1200px) {
+    //Extra large
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
-      //Laptop
+    //Laptop
     .wp-feat-item {
       .wp-feat-content {
         padding-top: 80px;
+
         .file-text {
           span {
             font-size: 1.2rem;
           }
+
           h3 {
             font-size: 1.5rem;
             padding-bottom: 5px;
           }
+
           p {
             padding-right: 0px;
             font-size: .785rem;
           }
+
           margin-bottom: 35px;
         }
       }
+
       .w-f-con {
-        padding-top: 60px!important;
+        padding-top: 60px !important;
       }
     }
     .feat-item-img {
@@ -260,62 +286,69 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px)  {
-  //Tablet
-  padding: 60px 0 0 0;
+  @media (min-width: 768px) and (max-width: 991px) {
+    //Tablet
+    padding: 60px 0 0 0;
     .wp-feat-item {
       .wp-feat-content {
         padding-top: 0px;
+
         .file-text {
           span {
             font-size: 1.2rem;
           }
+
           h3 {
             font-size: 1.5rem;
             padding-bottom: 5px;
           }
+
           p {
             padding-right: 0px;
             font-size: .785rem;
           }
+
           margin-bottom: 35px;
         }
       }
+
       .w-f-con {
-        padding-top: 0px!important;
+        padding-top: 0px !important;
       }
     }
-    
+
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-  //Mobile
-  .feat-item-img {
-    display: none;
-  }
-  .feat-item-img1 {
-    display: block;
-  }
-  .advanced {
-    
-    .featuer-item-img {
-      padding-right: 0px;
+    //Mobile
+    .feat-item-img {
+      display: none;
     }
-  }
-  .wp-feat-item {
-    .featuer-item-img {
-      padding-bottom: 0;
+    .feat-item-img1 {
+      display: block;
     }
-    .wp-feat-content {
-      .file-text {
-        margin-bottom: 60px;
-        text-align: center;
-        p {
-          padding-right: 0;
+    .advanced {
+
+      .featuer-item-img {
+        padding-right: 0px;
+      }
+    }
+    .wp-feat-item {
+      .featuer-item-img {
+        padding-bottom: 0;
+      }
+
+      .wp-feat-content {
+        .file-text {
+          margin-bottom: 60px;
+          text-align: center;
+
+          p {
+            padding-right: 0;
+          }
         }
       }
     }
-  }
   }
   /**---------- responsive-area scss end ----------**/
 }
@@ -324,6 +357,7 @@
 #ex-feat {
   background-color: #F9FAFF;
   padding: 90px 0 60px 0;
+
   .ex-head {
     span {
       font-weight: 700;
@@ -331,6 +365,7 @@
       color: #4353FF;
       line-height: 120%;
     }
+
     h1 {
       font-weight: 700;
       font-size: 2rem;
@@ -340,6 +375,7 @@
       padding-bottom: 25px;
       margin: 0 30px;
     }
+
     p {
       font-weight: 400;
       font-size: 1rem;
@@ -350,15 +386,18 @@
       margin-bottom: 60px;
     }
   }
-.ex-item {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  margin-bottom: 25px;
-  height: 310px;
-  .ex-logo {
-    padding-bottom: 25px;
-  }
+
+  .ex-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    height: 310px;
+
+    .ex-logo {
+      padding-bottom: 25px;
+    }
+
     .ex-text {
       span {
         font-weight: 700;
@@ -366,6 +405,7 @@
         line-height: 120%;
         color: #151826;
       }
+
       p {
         font-weight: 400;
         font-size: 1rem;
@@ -375,46 +415,50 @@
       }
     }
   }
+
   /**---------- responsive-area scss start ----------**/
- @media (min-width: 1200px) {
-  //Extra large
+  @media (min-width: 1200px) {
+    //Extra large
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
-      //Laptop
-      padding: 0;
-      .ex-head {
-        h1 {
-          margin: 0;
-        }
-        p {
-          padding: 0;
-        }
+    //Laptop
+    padding: 0;
+    .ex-head {
+      h1 {
+        margin: 0;
       }
-        .ex-item {
-          .ex-text {
-            span {
-              font-size: 1.2rem;
-            }
-            p {
-              font-size: .8rem;
-            }
-          }
-        }
-  }
 
-  @media (min-width: 768px) and (max-width: 991px)  {
-  //Tablet
-  .ex-head {
-    p {
-      padding: 0;
+      p {
+        padding: 0;
+      }
     }
-  }
     .ex-item {
       .ex-text {
         span {
           font-size: 1.2rem;
         }
+
+        p {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    //Tablet
+    .ex-head {
+      p {
+        padding: 0;
+      }
+    }
+    .ex-item {
+      .ex-text {
+        span {
+          font-size: 1.2rem;
+        }
+
         p {
           font-size: .8rem;
         }
@@ -423,11 +467,12 @@
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-  //Mobile
+    //Mobile
     .ex-head {
       h1 {
         margin: 0;
       }
+
       p {
         padding: 0 10px;
       }
@@ -440,6 +485,7 @@
 #testmonial {
   padding: 60px 0 60px 0;
   background-color: #fff;
+
   .testmonial-head {
     span {
       font-weight: 700;
@@ -447,6 +493,7 @@
       color: #4353FF;
       line-height: 120%;
     }
+
     h1 {
       font-weight: 700;
       font-size: 2rem;
@@ -456,6 +503,7 @@
       padding-bottom: 25px;
       margin: 0 40px;
     }
+
     p {
       font-weight: 400;
       font-size: 1rem;
@@ -466,6 +514,7 @@
       margin-bottom: 60px;
     }
   }
+
   .test-rating {
     .star {
       .fa-star {
@@ -474,6 +523,7 @@
         margin-right: 20px;
       }
     }
+
     .quote {
       .fa-quote-right {
         color: #6861FF;
@@ -487,14 +537,17 @@
       }
     }
   }
+
   .items {
     margin-top: -70px;
   }
+
   .test-item {
     background-color: #F9FAFF;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 25px;
+
     .content {
       p {
         font-weight: 400;
@@ -506,10 +559,12 @@
       }
     }
   }
+
   .test-peo {
     img {
       margin-right: 15px;
     }
+
     .text {
       span {
         font-weight: 700;
@@ -517,6 +572,7 @@
         line-height: 150%;
         color: 150%;
       }
+
       h6 {
         margin-top: 8px;
         margin-bottom: 0;
@@ -529,41 +585,42 @@
   }
 
   /**---------- responsive-area scss start ----------**/
- @media (min-width: 1200px) {
-  //Extra large
+  @media (min-width: 1200px) {
+    //Extra large
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
-      //Laptop
-      .testmonial-head {
-        p {
-          padding: 0 58px;
+    //Laptop
+    .testmonial-head {
+      p {
+        padding: 0 58px;
+      }
+    }
+    .test-rating {
+      .star {
+        .fa-star {
+          font-size: 1.2rem;
         }
       }
-      .test-rating {
-        .star {
-          .fa-star {
-            font-size: 1.2rem;
-        }
-      }
-        .quote {
-          .fa-quote-right {
-             font-size: 1.4rem;
-            
-            width: 48px;
-            height: 48px;
-            line-height: 48px;
-            
-          }
+
+      .quote {
+        .fa-quote-right {
+          font-size: 1.4rem;
+
+          width: 48px;
+          height: 48px;
+          line-height: 48px;
 
         }
-        
+
       }
+
+    }
   }
 
-  @media (min-width: 768px) and (max-width: 991px)  {
-  //Tablet
-   
+  @media (min-width: 768px) and (max-width: 991px) {
+    //Tablet
+
     .item2 {
       margin-top: -72px;
     }
@@ -577,13 +634,13 @@
       .star {
         .fa-star {
           font-size: 1.4rem;
-      }
+        }
       }
     }
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-  //Mobile
+    //Mobile
     .testmonial-head {
       p {
         padding: 0;
@@ -600,13 +657,15 @@
 /**-----funfact area------**/
 #fun {
   padding: 60px 0 60px 0;
+
   .fun-item {
     background-color: #fff;
     padding: 20px;
     border-radius: 20px;
-    
+
     .text {
       margin-left: 15px;
+
       .te-count {
         span {
           font-weight: 700;
@@ -614,6 +673,7 @@
           line-height: 120%;
           color: #000;
         }
+
         h5 {
           font-weight: 700;
           font-size: 1.7rem;
@@ -622,7 +682,7 @@
           margin-bottom: 0;
         }
       }
-      
+
       h6 {
         margin-bottom: 0;
         font-weight: 400;
@@ -632,37 +692,40 @@
       }
     }
   }
+
   /**---------- responsive-area scss start ----------**/
   @media (min-width: 1200px) {
     //Extra large
   }
-  
-    @media (min-width: 992px) and (max-width: 1199px) {
-        //Laptop
-        .fun-item {
-          .text {
-           .te-count {
-            span {
-              font-size: 1.5rem;
-            }
-            h5 {
-              font-size: 1.5rem;
-            }
-           }
-            h6 {
-              font-size: .950rem;
-            }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    //Laptop
+    .fun-item {
+      .text {
+        .te-count {
+          span {
+            font-size: 1.5rem;
+          }
+
+          h5 {
+            font-size: 1.5rem;
           }
         }
+
+        h6 {
+          font-size: .950rem;
+        }
+      }
     }
-  
-  @media (min-width: 768px) and (max-width: 991px)  {
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
     //Tablet
     .fun-item {
       margin-bottom: 25px;
     }
   }
-  
+
   @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
     .fun-item {
@@ -671,10 +734,12 @@
           span {
             font-size: 1.2rem;
           }
+
           h5 {
             font-size: 1.2rem;
           }
-         }
+        }
+
         h6 {
           font-size: .7rem;
         }
@@ -687,6 +752,7 @@
 /**-----solution area------**/
 #addons {
   padding: 60px 0 60px 0;
+
   .addons-head {
     span {
       font-weight: 700;
@@ -694,6 +760,7 @@
       color: #4353FF;
       line-height: 120%;
     }
+
     h1 {
       font-weight: 700;
       font-size: 2rem;
@@ -702,6 +769,7 @@
       padding-top: 15px;
       padding-bottom: 25px;
     }
+
     p {
       font-weight: 400;
       font-size: 1rem;
@@ -712,16 +780,20 @@
       margin-bottom: 60px;
     }
   }
+
   a {
     text-decoration: none;
   }
+
   .addon-item {
     background-color: #FFF3DD;
     padding: 20px;
     border-radius: 20px;
+
     img {
       margin-bottom: 20px;
     }
+
     .add {
       span {
         font-size: 1.1rem;
@@ -730,6 +802,7 @@
         color: #151826;
         text-transform: capitalize;
       }
+
       p {
         font-weight: 400;
         font-size: 1rem;
@@ -738,61 +811,65 @@
         padding: 20px 0;
         margin-bottom: 0;
       }
+
       h5 {
-        
+
         font-weight: 600;
         font-size: 1rem;
         line-height: 150%;
         color: #4353FF;
       }
     }
-   
+
   }
+
   .add-item1 {
     background-color: #E1F6FE;
   }
+
   .add-item2 {
     background-color: #FFE8E7;
   }
 
   /**---------- responsive-area scss start ----------**/
- @media (min-width: 1200px) {
-  //Extra large
+  @media (min-width: 1200px) {
+    //Extra large
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
-      //Laptop
-      .addons-head {
-        p {
-          padding: 0;
-        }
+    //Laptop
+    .addons-head {
+      p {
+        padding: 0;
       }
-      .addon-item {
-        .add {
-          span {
-            font-size: 1.2rem;
-          }
-          p {
-            font-size: .9rem;
-          }
+    }
+    .addon-item {
+      .add {
+        span {
+          font-size: 1.2rem;
         }
-      }
-  }
 
-  @media (min-width: 768px) and (max-width: 991px)  {
-  //Tablet
-  .addon-item {
-    margin-bottom: 25px;
-  }
-  .addons-head {
-    p {
-      padding: 0;
+        p {
+          font-size: .9rem;
+        }
+      }
     }
   }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    //Tablet
+    .addon-item {
+      margin-bottom: 25px;
+    }
+    .addons-head {
+      p {
+        padding: 0;
+      }
+    }
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-  //Mobile
+    //Mobile
     .addons-head {
       p {
         padding: 0;
@@ -807,133 +884,47 @@
 
 }
 
-/**-----solution area------**/
-#solution {
-  background: url("../images/wp-radio/solution-shape.png"), #4353FF;
-  background-position: center;
-  background-repeat: no-repeat;
+/**----- CTA ------**/
+.wp-radio-cta {
+  background: url("../images/wp-radio/cta-bg.png") no-repeat center, #4353FF;
   background-size: cover;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 80px 0;
 
-  .newslatter-contatn {
-    h4 {
+  .cta-content {
+    h3 {
       color: #fff;
-      text-transform: capitalize;
-      font-weight: 700;
-      font-size: 1.5rem;
-      line-height: 120%;
-      padding-right: 35%;
-      padding-top: 1%;
-      padding-bottom: 2%;
+      font-weight: bold;
+      font-size: 2.5rem;
     }
-    p {
+  }
+
+  .cta-actions {
+    padding-top: 0;
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 19px;
+      text-transform: capitalize;
+    }
+
+    .butt1 {
+      margin: 0 15px;
+      border: 1px solid #fff;
+      padding: 15px 36px;
       color: #fff;
-      text-transform: capitalize;
-      font-weight: 400;
-      font-size: 1rem;
-      line-height: 150%;
-      padding-right: 8rem;
+      border-radius: 8px;
     }
-}
 
-.newslatter-from {
-  padding-top: 0;
-  a {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 19px;
-    text-transform: capitalize;
-  }
-  .butt1 {
-    margin: 0 15px;
-    border: 1px solid #fff;
-    padding: 15px 36px;
-    color: #fff;
-    border-radius: 8px;
-  }
-  .butt2 {
-    margin: 0 15px;
-    background-color: #fff;
-    padding: 15px 36px;
-    color: #4353FF;
-    border-radius: 8px;
-  }
-}
-
-@media (min-width: 1200px) {
-  //Extra large
-}
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-      //Laptop
-      .newslatter-contatn {
-        h4 {
-          padding-right: 1%;
-          font-size: 1rem;
-        }
-        p {
-          font-size: .785rem;
-          padding-right: 0;
-        }
-      }
-  }
-
-@media (min-width: 768px) and (max-width: 991px)  {
-  //Tablet
-  .newslatter {
-    padding: 25px;
-  }
-  .newslatter-contatn {
-    h4 {
-      padding-right: 0;
-      font-size: 1rem;
-    }
-    p {
-      font-size: .785rem;
-      padding-right: 0;
-    }
-  }
-  .newslatter-from {
-    .butt1 {
-      padding: 10px 22px;
-    }
     .butt2 {
-      padding: 10px 22px;
+      margin: 0 15px;
+      background-color: #fff;
+      padding: 15px 36px;
+      color: #4353FF;
+      border-radius: 8px;
     }
   }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  //Mobile
-  padding: 25px;
-  .newslatter {
-    padding: 25px;
-  }
-
-  .newslatter-contatn {
-    text-align: center;
-    h4 {
-      padding-right: 0;
-      font-size: .9rem;
-    }
-    p {
-      font-size: .785rem;
-      padding-right: 0;
-      padding-bottom: 20px;
-    }
-  }
-  .newslatter-from {
-    margin-bottom: 15px;
-    .butt2 {
-      padding: 12px 25px;
-    }
-    .butt1 {
-      padding: 12px 25px;
-    }
-  }
-}
 }
 
 

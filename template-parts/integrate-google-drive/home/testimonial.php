@@ -5,15 +5,18 @@ $testimonials = [
 		'name'        => 'Patricia',
 	]
 ];
+
+$icons = [ 'icon-green', 'icon-pink', 'icon-purple' ];
+
 ?>
 
 <section id="testimonial" class="testimonial">
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-6 m-auto">
+            <div class="col-md-8 m-auto text-center">
                 <div class="section-head text-center">
-                    <h1>What People Think About Our Products</h1>
+                    <h2>What People Think About <br> <span>Integrate Google Drive</span></h2>
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                 </div>
             </div>
@@ -24,7 +27,7 @@ $testimonials = [
 				<?php foreach ( $testimonials as $testimonial ) { ?>
                     <div class="col-md-3 m-auto">
                         <div class="testimonial-item">
-                            <div class="icon">
+                            <div class="icon <?php echo $icons[ array_rand( $icons ) ]; ?>">
                                 <i class="fa-solid fa-quote-left"></i>
                             </div>
                             <p><?php echo $testimonial['description']; ?></p>

@@ -311,7 +311,7 @@
       font-size: 1rem;
       line-height: 150%;
       color: $p_color;
-      padding: 0 16%;
+      padding: 0 5rem;
     }
   }
 }
@@ -322,10 +322,11 @@
   padding: 0 0 90px 0;
 
   .ex-feature-head {
+    margin-bottom: 5rem;
+
     h1 {
-      font-weight: 700;
-      font-size: 3.2rem;
-      line-height: 120%;
+      font-weight: bold;
+      font-size: 3.5rem;
       color: $h1_color;
 
       span {
@@ -334,11 +335,10 @@
     }
 
     p {
+      margin: 2rem 0;
       font-weight: 400;
-      font-size: .9rem;
-      line-height: 150%;
+      font-size: 1rem;
       color: $p_color;
-      padding-bottom: 20px;
     }
   }
 
@@ -668,22 +668,25 @@
 /**---------- people think scss ----------**/
 .testimonial {
   background-color: rgba(0, 0, 0, 0.01);
+  padding: 5rem 0;
 
   .section-head {
-    h1 {
+    h2 {
       font-weight: 700;
       font-size: 3.5rem;
       line-height: 120%;
       color: $h1_color;
+
+      span {
+        color: $igd_color;
+      }
     }
 
     p {
+      margin: 2rem 0;
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
       color: $p_color;
-      padding: 0 20%;
-      margin-bottom: 3%;
     }
   }
 
@@ -741,22 +744,23 @@
       height: 40px;
       line-height: 40px;
       text-align: center;
-      background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
       border-radius: 50px;
       color: #fff;
+
+
+      &.icon-green {
+        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+      }
+
+      &.icon-pink {
+        background: linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
+      }
+
+      &.icon-purple {
+        background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
+      }
     }
 
-    .icon3 {
-      background: linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
-    }
-
-    .icon4 {
-      background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
-    }
-
-    .icon5 {
-      background: linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
-    }
 
     p {
       font-size: 1rem;
@@ -789,82 +793,19 @@
     }
   }
 
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-    .people-think-head {
-      h1 {
-        font-size: 3rem;
-        padding-bottom: 10px;
-      }
-
-      p {
-        padding: 0;
-        margin-bottom: 30px;
-      }
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .people-think-head {
-      h1 {
-        font-size: 2.2rem;
-        padding-bottom: 10px;
-      }
-
-      p {
-        padding: 0;
-        margin-bottom: 30px;
-      }
-    }
-    .think-main-items {
-      .think-item {
-        padding: 8px;
-      }
-
-      p {
-        font-size: .785rem;
-      }
-    }
-  }
-
-  @media (min-width: 420px) and (max-width: 767px) {
-    //Mobile
-    .people-think-head {
-      h1 {
-        font-size: 1.9rem;
-        padding-bottom: 10px;
-      }
-
-      p {
-        padding: 0;
-        margin-bottom: 20px;
-      }
-    }
-  }
-  /**---------- responsive-area scss end ----------**/
-
 }
 
 /**---------- cta area scss ----------**/
-#inte {
-  background: url("../images/google-drive/inner-page-cta.png"), #0E3C1B;
-  background-position: 0 0;
-  background-repeat: no-repeat;
+.google-drive-cta {
+  background: #0E3C1B url("../images/google-drive/inner-page-cta.png") no-repeat 0 0;
   background-size: cover;
   padding: 80px 0;
-  margin-top: 60px;
 
-  .inte-item {
+  .cta-content {
     h3 {
-      margin-bottom: 0;
+      margin-bottom: 1rem;
       font-weight: 700;
-      font-size: 2.2rem;
+      font-size: 2.5rem;
       color: #fff;
       line-height: 120%;
     }
@@ -873,13 +814,12 @@
       margin-bottom: 0;
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
       color: #F9FAFF;
-      padding-top: 25px;
+      padding-right: 5rem;
     }
   }
 
-  .inte-butt {
+  .cta-actions {
     a {
       text-decoration: none;
       padding: 15px 36px;
@@ -900,22 +840,6 @@
       background-color: #fff;
       color: #00BB45;
       margin-left: 40px;
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .inte-item {
-      text-align: center;
-
-      h3 {
-        font-size: 1.8rem;
-      }
-
-      p {
-        font-size: .8rem;
-        margin-bottom: 45px;
-      }
     }
   }
 

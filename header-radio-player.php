@@ -32,15 +32,19 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 
 				if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
 
-                    <a class="navbar-brand brand" href="<?php echo esc_url( home_url() ); ?>"
+                    <a class="navbar-brand brand-softlab" href="<?php echo esc_url( home_url() ); ?>"
                        title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                       
-                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo" style="width: 70%;">
+
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png"
+                             alt="site-logo">
                     </a>
-                    
-                    <a class="navbar-brand" href="/radio-player"
-                       title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-logo.png" alt="radio-player">
+
+                    <a class="navbar-brand brand-radio-player" href="/radio-player"
+                       title="Radio Player" rel="home">
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-player-logo.png"
+                             alt="Radio Player">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -51,23 +55,22 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 
                     <div id="navbar" class="collapse navbar-collapse">
 						<?php
-						// Loading WordPress Custom Menu (theme_location).
 						wp_nav_menu(
 							array(
 								'theme_location' => 'radio-player-menu',
 								'container'      => '',
-								'menu_class'     => 'navbar-nav ms-auto',
+								'menu_class'     => 'navbar-nav ms-auto radio-player-nav',
 								'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
 								'walker'         => new WP_Bootstrap_Navwalker(),
 							)
 						);
 						?>
 
-                        
-                        <div class="buy-now">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i> buy now</a>
+
+                        <div class="buy-now-btn buy-now-btn-radio-player">
+                            <a href="/radio-player-pricing"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                         </div>
-                        
+
 
                     </div><!-- /.navbar-collapse -->
                 </nav><!-- /#header -->

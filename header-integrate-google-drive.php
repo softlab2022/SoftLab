@@ -29,19 +29,21 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                 <nav class="navbar navbar-expand-md primary-nav <?php echo esc_attr( $navbar_scheme );
 				if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' fixed-top';
                 elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' fixed-bottom'; endif;
+                if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
 
-				if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
-
-                    <a class="navbar-brand brand" href="<?php echo esc_url( home_url() ); ?>"
+                    <a class="navbar-brand brand-softlab" href="<?php echo esc_url( home_url() ); ?>"
                        title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                       
-                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo" style="width: 70%">
-                       
+
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png"
+                             alt="site-logo">
                     </a>
-                    
-                    <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"
-                       title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                       <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive" >
+
+                    <a class="navbar-brand brand-integrate-google-drive" href="/integrate-google-drive"
+                       title="Integrate Google Drive" rel="home">
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png"
+                             alt="Integrate Google Drive">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -52,22 +54,21 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 
                     <div id="navbar" class="collapse navbar-collapse">
 						<?php
-						// Loading WordPress Custom Menu (theme_location).
 						wp_nav_menu(
 							array(
 								'theme_location' => 'integrate-google-drive-menu',
 								'container'      => '',
-								'menu_class'     => 'navbar-nav ms-auto',
+								'menu_class'     => 'navbar-nav ms-auto integrate-google-drive-nav',
 								'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
 								'walker'         => new WP_Bootstrap_Navwalker(),
 							)
 						);
 						?>
 
-                        <div class="buy-now">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i> buy now</a>
+                        <div class="buy-now-btn buy-now-btn-integrate-google-drive">
+                            <a href="/integrate-google-drive-pricing"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                         </div>
-                        
+
 
                     </div><!-- /.navbar-collapse -->
                 </nav><!-- /#header -->

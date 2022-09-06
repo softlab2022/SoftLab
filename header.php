@@ -31,20 +31,13 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 
                 elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' fixed-bottom'; endif;
 				if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
-                    <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"
-                       title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						<?php
-						$header_logo = get_theme_mod( 'header_logo' ); // Get custom meta-value.
 
-						if ( ! empty( $header_logo ) ) :
-							?>
-                            <img src="<?php echo esc_url( $header_logo ); ?>"
-                                 alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"/>
-						<?php
-						else :
-							echo esc_attr( get_bloginfo( 'name', 'display' ) );
-						endif;
-						?>
+                    <a class="navbar-brand brand-website" href="<?php echo esc_url( home_url() ); ?>"
+                       title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/softlab-logo.png"
+                             alt="site-logo">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"

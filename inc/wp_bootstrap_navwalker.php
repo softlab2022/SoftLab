@@ -164,13 +164,13 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					$image_url   = '';
 					$description = '';
 
-					if ( 'Integrate Google Drive' == $title ) {
+					if ( 'integrate google drive' == strtolower($title) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png';
 						$description = 'Complete Google Drive Cloud Solution For WordPress.';
-					} elseif ( 'Radio Player' == $title ) {
+					} elseif ( 'radio player' == strtolower($title) ) {
 						$image_url = get_template_directory_uri() . '/assets/images/home/products/radio-icon.png';
 						$description = 'Live Shoutcast, Icecast and Audio Stream Player for WordPress.';
-					} elseif ( 'WP Radio' == $title ) {
+					} elseif ( 'wp radio' == strtolower($title) ) {
 						$image_url = get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png';
 						$description = 'Worldwide Online Radio Stations Directory for WordPress.';
 					}

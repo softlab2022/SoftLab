@@ -127,8 +127,8 @@ $features = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="feature-head text-center">
-                    <h1>Full WooCommerce Support</h1>
-                    <p>It’s can add a refreshing, different flavor to your WooCommerce shop and can even boost engagement and conversion.</p>
+                    <h1>WooCommerce Supports</h1>
+                    <p>You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve your Digital Downloads directly from Google Drive.</p>
                 </div>
             </div>
         </div>

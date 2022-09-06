@@ -7,10 +7,9 @@
   background: transparent;
   backdrop-filter: inherit;
   z-index: 99;
+  padding: 1rem 0;
 
   .primary-nav {
-    padding-top: 1rem;
-
     .navbar-nav {
       .nav-item {
         margin: 0 1rem;
@@ -47,6 +46,83 @@
           }
         }
 
+      }
+
+      &.wp-radio-nav {
+        .nav-item {
+
+          a {
+            color: #fff;
+
+            &:hover {
+              color: $wp_radio_color;
+            }
+          }
+
+          &.current-menu-item {
+            a {
+              color: $wp_radio_color;
+            }
+          }
+        }
+      }
+
+      &.integrate-google-drive-nav {
+        .nav-item {
+          a {
+            &:hover {
+              color: $igd_color;
+            }
+          }
+
+          &.current-menu-item {
+            a {
+              color: $igd_color;
+            }
+          }
+
+        }
+      }
+
+      &.radio-player-nav {
+        .nav-item {
+          a {
+            &:hover {
+              color: $radio_player_color;
+            }
+          }
+
+          &.current-menu-item {
+            a {
+              color: $radio_player_color;
+            }
+          }
+        }
+      }
+
+
+    }
+
+    .navbar-brand {
+      padding: 0;
+
+      img {
+        height: 40px;
+      }
+
+      &.brand-website {
+        img {
+          height: 30px;
+        }
+      }
+
+      &.brand-softlab {
+        img {
+          height: 38px;
+        }
+
+        border-right: 1px solid #5c637eb0;
+        padding-right: 15px;
       }
     }
 
@@ -118,20 +194,84 @@
         .link-description {
           font-weight: 400;
           font-size: .875rem;
+          color: #5C637E;
+        }
+
+        &.active, &:active, {
+          background-color: #e9ecef;
         }
 
       }
     }
 
-
-    .view-products {
+    .view-products-btn {
       margin-left: 3rem;
+      transition: all .3s ease;
 
       a {
         background: $button_bg_color;
         padding: .5rem 1rem;
       }
     }
+
+    .buy-now-btn {
+
+      a {
+        text-decoration: none;
+        background: #fff;
+        border-radius: 10px;
+        padding: 15px 30px;
+        transition: all .3s ease;
+
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
+          border-color: transparent;
+        }
+
+        i {
+          margin-right: 5px;
+        }
+      }
+
+      &-integrate-google-drive {
+        a {
+          color: $igd_color;
+
+          &:hover {
+            color: #fff;
+            background-color: $igd_color;
+          }
+        }
+      }
+
+      &-radio-player {
+        a {
+          background: $radio_player_color;
+          color: #fff;
+
+          &:hover {
+            background: #fff;
+            color: $radio_player_color;
+          }
+
+        }
+      }
+
+      &-wp-radio {
+        a {
+          background: #fff;
+          color: $wp_radio_color;
+
+          &:hover {
+            background: $wp_radio_color;
+            color: #fff;
+          }
+
+        }
+      }
+
+    }
+
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
