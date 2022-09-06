@@ -77,7 +77,7 @@ $testimonials = [
                         <p><?php echo $testimonial['description']; ?></p>
                     </div>
                     <div class="test-peo d-flex align-items-center">
-                    <img class="img-fluid" src="<?php echo $testimonial['image']; ?>" alt="man1" style="width: 29%;">
+                    <img class="img-fluid" src="<?php echo $testimonial['image']; ?>" alt="man1" style="width: 12%;">
                     <div class="text">
                         <span><?php echo $testimonial['name']; ?></span>
                         <h6><?php echo $testimonial['designation']; ?></h6>

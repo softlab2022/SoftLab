@@ -61,7 +61,7 @@ $testimonials = [
                         </div>
                         <div class="contant">
                             <p> <?php echo $testimonial['description']; ?></p>
-                            <h5> <img class="img-fluid" src="<?php echo $testimonial['image']; ?>" alt="test-img" style="width: 15%;" ><?php echo $testimonial['name']; ?></h5>
+                            <h5> <img class="img-fluid" src="<?php echo $testimonial['image']; ?>" alt="test-img" style="width: 7%;" ><?php echo $testimonial['name']; ?></h5>
                         </div>
                     </div>
                 </div>

@@ -615,7 +615,7 @@
 /* ====== people ask area start=====*/
 
 #aske {
-        background: opacify($color: #bce89720, $amount: 0.1);
+        background: linear-gradient(153.63deg, #f8fdf5 3.43%, #e6faf3 90.47%);
         padding: 60px 0 60px 0;
         
         .price-ask-head {
@@ -656,7 +656,8 @@
                                 box-shadow: none;
                         }
                         .accordion-item {
-                                
+                                border-radius: 20px;
+                                overflow: hidden;
                                 background-color: #E9F6F0;
                         }
                         .accordion-collapse {
@@ -710,7 +711,7 @@
                         }
         
                         .accordion-body {
-                                border-top: 1px solid #00BB45;
+                                border:none;
                         }
                 }
         }

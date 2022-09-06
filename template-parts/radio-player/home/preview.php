@@ -10,9 +10,9 @@
             </div>
            </div>
         </div>
-            <div class="row align-items-center">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
                       <!---=== HTTP Stream Player====-->
-                <div class="col-lg-7 col-md-6 prev1 m-auto">
+                <div class="col-lg-7 col-md-6 m-auto">
                     <div class="featuer-item-img text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="player-color">
                     </div>
@@ -25,12 +25,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7 prev2 m-auto">
-                    <div class="featuer-item-img text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="player-color">
-                    </div>
-                </div>
 
+            </div>
+            <div class="row row align-items-center">
                 <div class="col-lg-5 col-md-6">
                     <div class="featuer-item">
                         <div class="file-text">
@@ -45,7 +42,6 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
                     </div>
                 </div>
-
             </div>
     </div>
 </section>
