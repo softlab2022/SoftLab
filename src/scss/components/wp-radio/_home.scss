@@ -218,12 +218,7 @@
       }
     }
   }
-  .feat-item-img {
-    display: block;
-  }
-  .feat-item-img1 {
-    display: none;
-  }
+ 
   /**---------- responsive-area scss start ----------**/
  @media (min-width: 1200px) {
   //Extra large
@@ -290,12 +285,7 @@
 
   @media (min-width: 320px) and (max-width: 767px) {
   //Mobile
-  .feat-item-img {
-    display: none;
-  }
-  .feat-item-img1 {
-    display: block;
-  }
+ 
   .advanced {
     
     .featuer-item-img {
@@ -356,9 +346,10 @@
   border-radius: 20px;
   margin-bottom: 25px;
   height: 310px;
-  .ex-logo {
-    padding-bottom: 25px;
+  .item-logo {
+      padding-bottom: 25px;
   }
+  
     .ex-text {
       span {
         font-weight: 700;
@@ -495,7 +486,9 @@
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 25px;
+    height: 335px;
     .content {
+     
       p {
         font-weight: 400;
         font-size: 1rem;
@@ -509,6 +502,7 @@
   .test-peo {
     img {
       margin-right: 15px;
+      border-radius: 50px;
     }
     .text {
       span {

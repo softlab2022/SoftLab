@@ -1,3 +1,81 @@
+<?php
+
+    $features = [
+	[
+		'title'       => 'Current song title',
+		'description' => 'The radio station player can display the currently playing song title.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/current.png',
+	],
+	[
+		'title'       => 'Mobile Media Notification',
+		'description' => 'While playing a radio station, users can see currently playing station information and can play/ pause the radio player from the mobile notification bar.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/notification.png',
+	],
+	[
+		'title'       => 'm3u8 Extension Supported',
+		'description' => 'WP Radio can play the .m3u8 stream links.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/m3u8.png',
+	],
+	[
+		'title'       => 'Gutenberg Blocks',
+		'description' => 'WP Radio provides 3 Gutenberg blocks: Radio Player, Radio Station, and Country List.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/blocks.png',
+	],
+	[
+		'title'       => 'Elementor Widgets',
+		'description' => 'WP Radio also provides 3 Elementor widgets: Radio Player, Radio Station, and Country List.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/widget.png',
+	],
+	[
+		'title'       => 'Import All Stations',
+		'description' => 'In the PRO version you can import all the included radio stations (52000+) from around 190+ countries all over the world.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/import.png',
+	],
+	[
+		'title'       => 'Multiple Listing Layouts',
+		'description' => 'You can display the stations in list view and grid view.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/layout.png',
+	],
+	[
+		'title'       => 'Recently Played Tracks Playlist',
+		'description' => 'On the single radio station page recently played tracks playlist will be displayed.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/playlist.png',
+	],
+	[
+		'title'       => 'Stations Play Statistics',
+		'description' => 'On the statistics page you will get an overview of the stations play counts per day and the number total listeners who played the stations and also the most played stations list.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/station.png',
+	],
+	[
+		'title'       => 'Admin Dashboard Chart Widget',
+		'description' => 'There is also an admin dashboard widget available for the stations play statistics, to get a quick overview of the stations play statistics.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/chart.png',
+	],
+	[
+		'title'       => 'Statistics Email Reporting',
+		'description' => 'You can receive a daily/weekly/monthly email report with the stations play statistics and the list of the top played stations.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/email.png',
+	],
+	[
+		'title'       => 'Color Customizations',
+		'description' => 'You can customize the radio stations listing and player background and text colors from the color settings of the plugin. You also can use gradient color for the station listing and player.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/custom.png',
+	],
+	[
+		'title'       => 'Trending Stations',
+		'description' => 'You can display the trending stations listing in any page/ post use the code [wp_radio_trending] shortcode.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/trending.png',
+	],
+	[
+		'title'       => 'Featured Stations',
+		'description' => 'You can display the featured stations listing in any page/ post use the code [wp_radio_featured] shortcode.',
+		'image'       => get_template_directory_uri() . '/assets/images/wp-radio/home/ex-feature/feats.png',
+	],
+
+];
+
+?>
+
 <section id="ex-feat">
     <div class="container">
         <div class="row">
@@ -11,175 +89,19 @@
         </div>
 
         <div class="row">
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/current.png" alt="current">
-                    </div>
-                    <div class="ex-text">
-                        <span>Current song title</span>
-                        <p>The radio station player can display the currently playing song title.</p>
-                    </div>
-                </div>
-            </div>
-            
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/notification.png" alt="notification">
-                    </div>
-                    <div class="ex-text">
-                        <span>Mobile Media Notification</span>
-                        <p>While playing a radio station, users can see currently playing station information and can play/ pause the radio player from the mobile notification bar.</p>
+            <?php foreach ( $features as $feature ) { ?>
+                <div class="col-lg-4 col-md-6">
+                    <div class="ex-item text-center">
+                        <div class="item-logo">
+                        <img class="img-fluid" src="<?php echo $feature['image']; ?>" alt="<?php echo $feature['title']; ?>">
+                        </div>
+                        <div class="ex-text">
+                            <span><?php echo $feature['title']; ?></span>
+                            <p><?php echo $feature['description']; ?></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/m3u8.png" alt="m3u8">
-                    </div>
-                    <div class="ex-text">
-                        <span>m3u8 Extension Supported</span>
-                        <p>WP Radio can play the .m3u8 stream links.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/blocks.png" alt="blocks">
-                    </div>
-                    <div class="ex-text">
-                        <span>Gutenberg Blocks</span>
-                        <p>WP Radio provides 3 Gutenberg blocks: Radio Player, Radio Station, and Country List.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/widget.png" alt="widget">
-                    </div>
-                    <div class="ex-text">
-                        <span>Elementor Widgets</span>
-                        <p> WP Radio also provides 3 Elementor widgets: Radio Player, Radio Station, and Country List.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/import.png" alt="import">
-                    </div>
-                    <div class="ex-text">
-                        <span>Import All Stations</span>
-                        <p> In the PRO version you can import all the included radio stations (52000+) from around 190+ countries all over the world.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/layout.png" alt="layout">
-                    </div>
-                    <div class="ex-text">
-                        <span>Multiple Listing Layouts</span>
-                        <p>You can display the stations in list view and grid view.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/playlist.png" alt="playlist">
-                    </div>
-                    <div class="ex-text">
-                        <span>Recently Played Tracks Playlist</span>
-                        <p>On the single radio station page recently played tracks playlist will be displayed.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/station.png" alt="station">
-                    </div>
-                    <div class="ex-text">
-                        <span>Stations Play Statistics</span>
-                        <p>On the statistics page you will get an overview of the stations play counts per day and the number total listeners who played the stations and also the most played stations list.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/chart.png" alt="chart">
-                    </div>
-                    <div class="ex-text">
-                        <span>Admin Dashboard Chart Widget</span>
-                        <p>There is also an admin dashboard widget available for the stations play statistics, to get a quick overview of the stations play statistics.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/email.png" alt="email">
-                    </div>
-                    <div class="ex-text">
-                        <span>Statistics Email Reporting</span>
-                        <p>You can receive a daily/weekly/monthly email report with the stations play statistics and the list of the top played stations.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/custom.png" alt="custom">
-                    </div>
-                    <div class="ex-text">
-                        <span>Color Customizations</span>
-                        <p>You can customize the radio stations listing and player background and text colors from the color settings of the plugin. You also can use gradient color for the station listing and player.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 ">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/trending.png" alt="trending">
-                    </div>
-                    <div class="ex-text">
-                        <span>Trending Stations</span>
-                        <p>You can display the trending stations listing in any page/ post use the code [wp_radio_trending] shortcode.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 ">
-                <div class="ex-item text-center">
-                    <div class="ex-logo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/ex-feature/feats.png" alt="feats">
-                    </div>
-                    <div class="ex-text">
-                        <span>Featured Stations</span>
-                        <p>You can display the featured stations listing in any page/ post use the code [wp_radio_featured] shortcode.</p>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
 
         </div>
 

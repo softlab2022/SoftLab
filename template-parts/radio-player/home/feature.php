@@ -2,8 +2,8 @@
     <div class="container">
 
         <!---=== HTTP Stream Player====-->
-        <div class="row align-items-center">
-            <div class="col-lg-7 col-md-6 feat1">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+            <div class="col-lg-7 col-md-6">
                 <div class="featuer-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
                 </div>
@@ -19,11 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 feat2">
-                <div class="featuer-item-img ">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
-                </div>
-            </div>
+            
         </div>    
         
         <!---=== Full Sticky Player====-->
@@ -49,8 +45,8 @@
         </div>
 
         <!---=== Popup Player====-->
-        <div class="row align-items-center">
-                    <div class="col-lg-7 col-md-6 feat1">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+                    <div class="col-lg-7 col-md-6">
                         <div class="featuer-item-img ">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="popup-img">
                         </div>
@@ -68,11 +64,6 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7 feat2">
-                        <div class="featuer-item-img ">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="popup-img">
-                        </div>
-                    </div>
         </div>
             
         <!---====Stations Playlist====-->
@@ -99,8 +90,8 @@
 
         <!---====Multiple Player Skins====-->
            
-        <div class="row align-items-center">
-                <div class="col-lg-7 col-md-6 feat1">
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-lg-7 col-md-6 ">
                         <div class="featuer-item-img ">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="multipule-img">
                         </div>
@@ -117,11 +108,7 @@
                             </div>
                         </div>
                 </div>
-                <div class="col-lg-7 feat2">
-                        <div class="featuer-item-img ">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="multipule-img">
-                        </div>
-                </div> 
+                
         </div>
         
 

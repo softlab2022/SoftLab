@@ -3,8 +3,8 @@
             <!-- == Radio Stations Listing == -->
             <div class="wp-feat-item">
                <div class="container">
-                    <div class="row">
-                            <div class="col-lg-6 col-md-6 feat-item-img m-auto">
+                    <div class="row flex-column-reverse flex-md-row">
+                            <div class="col-lg-6 col-md-6 m-auto">
                                 <div class="featuer-item-img text-center">
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/listing.png" alt="listing">
                                 </div>
@@ -17,11 +17,6 @@
                                     <p>All the radio stations can be listed on any page/post using the [wp_radio_listing] shortcode.</p>
                                     <a href="#">Check demo</a>
                                 </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 feat-item-img1 m-auto">
-                                <div class="featuer-item-img feat-item-img1 text-center">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/listing.png" alt="listing">
                                 </div>
                             </div>
                     </div>
@@ -58,8 +53,8 @@
             <div class="wp-feat-item unlimited">
 
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 feat-item-img m-auto">
+                    <div class="row flex-column-reverse flex-md-row">
+                        <div class="col-lg-6 col-md-6 m-auto">
                             <div class="featuer-item-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/unlimited.png" alt="unlimited">
                             </div>
@@ -73,11 +68,6 @@
                                 <p> You can add unlimited radio stations with radio station logo, genres, description, contacts, and other additional information.</p>
                                 <a href="#">Check demo</a>
                             </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 feat-item-img1 m-auto">
-                            <div class="featuer-item-img  text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/unlimited.png" alt="unlimited">
                             </div>
                         </div>
                     </div>
@@ -118,9 +108,9 @@
             <div class="wp-feat-item advanced">
 
                 <div class="container">
-                    <div class="row">
+                    <div class="row flex-column-reverse flex-md-row">
 
-                        <div class="col-lg-6 col-md-6 feat-item-img m-auto">
+                        <div class="col-lg-6 col-md-6 m-auto">
                             <div class="featuer-item-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/advanced.png" alt="advanced">
                             </div>
@@ -134,11 +124,6 @@
                                 <p>WP Radio has advanced stations search & filtering options. Users can easily search & filter the radio stations that they looking for.</p>
                                 <a href="#">Check demo</a>
                             </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 feat-item-img1 m-auto">
-                            <div class="featuer-item-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/advanced.png" alt="advanced">
                             </div>
                         </div>
 
@@ -182,9 +167,9 @@
             <div class="wp-feat-item">
 
                 <div class="container">
-                    <div class="row">
+                    <div class="row flex-column-reverse flex-md-row">
 
-                        <div class="col-lg-6 col-md-6 feat-item-img m-auto">
+                        <div class="col-lg-6 col-md-6 m-auto">
                             <div class="featuer-item-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/shortcode.png" alt="shortcode">
                             </div>
@@ -198,11 +183,6 @@
                                 <p>The radio station player can be placed anywhere using the [wp_radio_player]shortcode. You can also display the player on any post/ page using the gutenberg block & elementor widget.</p>
                                 <a href="#">Check demo</a>
                             </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 feat-item-img1 m-auto">
-                            <div class="featuer-item-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/shortcode.png" alt="shortcode">
                             </div>
                         </div>
                     </div>
@@ -243,9 +223,9 @@
             <div class="wp-feat-item cun-list">
 
                 <div class="container">
-                    <div class="row">
+                    <div class="row flex-column-reverse flex-md-row">
 
-                        <div class="col-lg-6 col-md-6 feat-item-img m-auto">
+                        <div class="col-lg-6 col-md-6 m-auto">
                             <div class="featuer-item-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/country.png" alt="country">
                             </div>
@@ -260,12 +240,6 @@
                             </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 feat-item-img1 m-auto">
-                            <div class="featuer-item-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/feature/country.png" alt="country">
-                            </div>
-                        </div>
-
                         
                     </div>
                 </div>

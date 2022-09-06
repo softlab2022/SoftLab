@@ -644,7 +644,7 @@
 
         .accordion-button:not(.collapsed)::after {
                 display: none;
-
+                
         }
 
         .accordion-button::after {
@@ -684,9 +684,13 @@
                 }
 
                 
-
+        .accordion-item {
+                border: none;
+        }
         .accordion-item {
                 margin-bottom: 30px;
+                border-radius: 20px;
+                overflow: hidden;
         }
         .accordion-button {
                 background-color: #E4EFFF;
@@ -699,8 +703,11 @@
                 box-shadow: none;
         }
         .accordion-body {
-                border-top: 1px solid #4353FF;
+                border:none;
         }
+        .accordion-flush .accordion-collapse {
+                box-shadow: 20px 24px 60px rgba(165, 165, 165, 0.15);
+            }
       
         /* ====== responsive area start =====*/
         @media (min-width: 1200px) {
