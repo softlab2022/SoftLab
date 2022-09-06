@@ -56,13 +56,13 @@ $tabs = [
                             <div class="col-md-10 ps-5">
 
                                 <div class="contact-form-wrap form-pre-sales active">
-									<?php echo do_shortcode( '[fluentform id="1"]' ); ?>
-                                </div>
-                                <div class="contact-form-wrap form-technical-support">
 									<?php echo do_shortcode( '[fluentform id="3"]' ); ?>
                                 </div>
+                                <div class="contact-form-wrap form-technical-support">
+									<?php echo do_shortcode( '[fluentform id="5"]' ); ?>
+                                </div>
                                 <div class="contact-form-wrap form-others">
-									<?php echo do_shortcode( '[fluentform id="4"]' ); ?>
+									<?php echo do_shortcode( '[fluentform id="6"]' ); ?>
                                 </div>
                             </div>
 
