@@ -108,7 +108,7 @@
                     <p>Stay up to date with all the recent news, updates and great discounts.</p>
 
 
-					<?php echo do_shortcode( '[fluentform id="2"]' ); ?>
+					<?php echo do_shortcode( '[fluentform id="4"]' ); ?>
 
                     <p>We promise we will never spam you</p>
                 </div>

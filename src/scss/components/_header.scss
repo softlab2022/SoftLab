@@ -19,7 +19,7 @@
           color: #5C637E;
 
           &:hover {
-            color: #3D3D3D;
+            color: $color_primary
           }
         }
 
@@ -40,6 +40,13 @@
           top: -7px;
           left: 32%;
         }
+
+        &.current-menu-item {
+          a {
+            color: $color_primary;
+          }
+        }
+
       }
     }
 

@@ -7,8 +7,6 @@
 get_header();
 
 
-get_template_part( 'template-parts/contact/contact-hero' );
-
 $tabs = [
 	'pre-sales'         => [
 		'title' => 'Pre-Sales',
@@ -25,6 +23,19 @@ $tabs = [
 ];
 
 ?>
+
+    <section class="title-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 m-auto">
+                    <div class="header-content text-center">
+                        <h2>Contact Us</h2>
+                        <p>Whether you have a question about features, trials, pricing, or anything else, our team is ready to answer all of them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="contact-form">
         <div class="container">
@@ -45,13 +56,13 @@ $tabs = [
                             <div class="col-md-10 ps-5">
 
                                 <div class="contact-form-wrap form-pre-sales active">
-									<?php echo do_shortcode( '[fluentform id="1"]' ); ?>
-                                </div>
-                                <div class="contact-form-wrap form-technical-support">
 									<?php echo do_shortcode( '[fluentform id="3"]' ); ?>
                                 </div>
+                                <div class="contact-form-wrap form-technical-support">
+									<?php echo do_shortcode( '[fluentform id="5"]' ); ?>
+                                </div>
                                 <div class="contact-form-wrap form-others">
-									<?php echo do_shortcode( '[fluentform id="4"]' ); ?>
+									<?php echo do_shortcode( '[fluentform id="6"]' ); ?>
                                 </div>
                             </div>
 
