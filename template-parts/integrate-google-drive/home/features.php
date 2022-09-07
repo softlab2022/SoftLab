@@ -16,18 +16,18 @@ $features = [
 		'description' => 'You can add a grid lightbox popup photo gallery in your page/ post using the photo gallery options of the plugin. The gallery will be generated based on the folders that you select.',
 	],
 
-	'shortcode-builder' => [
-		'title'       => 'Shortcode Builder',
-		'description' => 'You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.',
-	],
-
 	'media-player' => [
 		'title'       => 'Media Player',
 		'description' => 'Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.',
 	],
 
+	'shortcode-builder' => [
+		'title'       => 'Shortcode Builder',
+		'description' => 'You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.',
+	],
+
 	'multiple-accounts' => [
-		'title'       => 'Multiple Google Accounts',
+		'title'       => 'Multiple <br> Google Accounts',
 		'description' => 'You can link multiple Google accounts and can use files from the multiple accounts.',
 	],
 
@@ -108,8 +108,8 @@ $features = [
                             </div>
 						<?php } ?>
 
-						<?php if ( ! $is_integration ) { ?>
-                            <a href="<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
+						<?php if ( ! $is_integration && !in_array($key, ['multiple-accounts', 'shortcode-builder' ] ) ) { ?>
+                            <a href="/integrate-google-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
 						<?php } ?>
 
                     </div>
@@ -128,7 +128,8 @@ $features = [
             <div class="col-lg-7 m-auto">
                 <div class="feature-head text-center">
                     <h1>WooCommerce Supports</h1>
-                    <p>You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve your Digital Downloads directly from Google Drive.</p>
+                    <p>You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve
+                        your Digital Downloads directly from Google Drive.</p>
                 </div>
             </div>
         </div>
@@ -136,7 +137,9 @@ $features = [
         <div class="row">
             <div class="col-lg-9 m-auto">
                 <div class="woocommerce-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/support-img.png" alt="support-img">
+                    <img class="img-fluid"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/support-img.png"
+                         alt="support-img">
                 </div>
             </div>
         </div>

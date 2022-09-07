@@ -162,11 +162,7 @@
   }
 
   .feature-item {
-    margin: 100px 0;
-
-    .feature-icon {
-      margin-bottom: 15px;
-    }
+    padding: 100px 0;
 
     .feature-title {
       font-weight: 700;
@@ -286,6 +282,7 @@
 
     &.feature-form {
       margin: 0;
+      padding: 0;
     }
 
   }

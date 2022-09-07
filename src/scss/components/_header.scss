@@ -55,13 +55,13 @@
             color: #fff;
 
             &:hover {
-              color: $wp_radio_color;
+              color: #333;
             }
           }
 
           &.current-menu-item {
             a {
-              color: $wp_radio_color;
+              color: #333;
             }
           }
         }
