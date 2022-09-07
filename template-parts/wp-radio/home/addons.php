@@ -1,68 +1,56 @@
-<section id="addons">
+<?php
+
+$addons = [
+	'wp-radio-user-frontend' => [
+		'title'       => 'WP Radio User Frontend',
+		'description' => 'Let engage your visitors to your website by adding powerful features for the users such as adding a login/ registration form, review submission, favorite stations, station submission, report submission etc.',
+	],
+	'wp-radio-proxy-player'  => [
+		'title'       => 'WP Radio Proxy Player',
+		'description' => 'Using the Proxy Player addon most of the HTTP radio stream links can be played even your site is loaded with HTTPS.',
+	],
+	'wp-radio-ads-player'    => [
+		'title'       => 'WP Radio Ads Player',
+		'description' => 'Monetize your radio directory website by playing custom mic-drops, stringers and audio advertisements. You can set custom audio ads for your radio stations by filtering specific radio stations and countries.',
+	],
+	'wp-radio-image-import'  => [
+		'title'       => 'WP Radio Image Import',
+		'description' => 'Using the WP Radio Image Importer addon, you can import all the imported station\'s images to your own server from the 3rd party server.',
+	],
+];
+
+?>
+
+<section class="wp-radio-addons">
     <div class="container">
 
         <div class="row">
             <div class="col-lg-5 col-md-8 m-auto">
                 <div class="addons-head text-center">
-                    <span>our addons</span>
-                    <h1>Addons for WP Radio</h1>
-                    <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
+                    <h2>Addons for WP Radio</h2>
+                    <p>WP Radio has powerful extensions to enrich your radio stations directory website.</p>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-3 col-md-6 m-auto">
-                <a href="/user-frontend/">
-                    <div class="addon-item text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/user.png" alt="user">
-                    <div class="add">
-                    <span>WP Radio User Frontend</span>
-                    <p>Let engage your user to your website by adding powerful features...</p>
-                    <h5>View Details <i class="fa-solid fa-arrow-right"></i></h5>
-                    </div>
-                    </div>
-                </a>
-            </div>
 
-            <div class="col-lg-3 col-md-6 m-auto">
-                <a href="/proxy-player/">
-                    <div class="addon-item add-item1 text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/proxy.png" alt="proxy">
-                    <div class="add">
-                    <span>WP Radio Proxy Player</span>
-                    <p>As of Google Chrome browser updates with some restriction...</p>
-                    <h5>View Details <i class="fa-solid fa-arrow-right"></i></h5>
-                    </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-6 m-auto">
-                <a href="/wp-radio-station/">
-                    <div class="addon-item add-item2 text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/ads-player.png" alt="ads-player">
-                    <div class="add">
-                    <span>WP Radio Ads Player</span>
-                    <p>Monetize your radio directory website by playing custom ..</p>
-                    <h5>View Details <i class="fa-solid fa-arrow-right"></i></h5>
-                    </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-6 m-auto">
-                <a href="/image-importer/">
-                    <div class="addon-item add-item1 text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/import.png" alt="import">
-                    <div class="add">
-                    <span>WP Radio Image Import</span>
-                    <p>By default, all the imported station's images are loaded from ...</p>
-                    <h5>View Details <i class="fa-solid fa-arrow-right"></i></h5>
-                    </div>
-                    </div>
-                </a>
-            </div>
+			<?php foreach ( $addons as $key => $addon ) { ?>
+                <div class="col-lg-3 col-md-6 m-auto">
+                    <a href="/<?php echo $key; ?>">
+                        <div class="addon-item text-center addon-<?php echo $key; ?>">
+                            <img class="img-fluid"
+                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/<?php echo $key; ?>.png"
+                                 alt="<?php echo $addon['title']; ?>">
+                            <div class="addon-content">
+                                <span class="addon-title"><?php echo $addon['title']; ?></span>
+                                <p><?php echo $addon['description']; ?></p>
+                                <span class="addon-view-details">View Details <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+			<?php } ?>
 
         </div>
 

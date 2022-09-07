@@ -48,6 +48,7 @@
 
       }
 
+      // WP Radio Header
       &.wp-radio-nav {
         .nav-item {
 
@@ -62,6 +63,25 @@
           &.current-menu-item {
             a {
               color: #333;
+            }
+          }
+        }
+      }
+
+      // WP Radio User Frontend Header
+      &.wp-radio-user-frontend-nav {
+        .nav-item {
+
+          a {
+
+            &:hover {
+              color: $wp_radio_user_frontend_color;
+            }
+          }
+
+          &.current-menu-item {
+            a {
+              color: $wp_radio_user_frontend_color;
             }
           }
         }
@@ -265,6 +285,20 @@
           &:hover {
             background: $wp_radio_color;
             color: #fff;
+          }
+
+        }
+      }
+
+      &-wp-radio-user-frontend {
+        a {
+          background: $wp_radio_user_frontend_color;
+          color: #fff;
+          border-radius: 100px;
+
+          &:hover {
+            background: #fff;
+            color: $wp_radio_user_frontend_color;
           }
 
         }

@@ -17,34 +17,38 @@ class SoftLa {
 	function enqueue_scripts() {
 		$theme_version = wp_get_theme()->get( 'Version' );
 
-		if ( in_array( get_page_template_slug(), [
-			'templates/integrate-google-drive.php',
-			'templates/integrate-google-drive-pricing.php',
-			'templates/integrate-google-drive-file-browser.php',
-			'templates/integrate-google-drive-file-uploader.php',
-			'templates/integrate-google-drive-photo-gallery.php',
-			'templates/integrate-google-drive-media-player.php',
+		$page_template = get_page_template_slug();
+		$file_name     = basename( $page_template, '.php' );
+
+
+		if ( in_array( $file_name, [
+			'integrate-google-drive',
+			'integrate-google-drive-pricing',
+			'integrate-google-drive-file-browser',
+			'integrate-google-drive-file-uploader',
+			'integrate-google-drive-photo-gallery',
+			'integrate-google-drive-media-player',
 
 		] ) ) {
 
 			wp_enqueue_style( 'integrate-google-drive', get_theme_file_uri( 'assets/css/integrate-google-drive.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
 
-		} else if ( in_array( get_page_template_slug(), [
-			'templates/radio-player.php',
-			'templates/radio-player-pricing.php',
-			'templates/http-streaming.php',
-			'templates/multiple.php',
-		] ) ) {
+		} else if ( in_array( $file_name, [
+				'radio-player',
+				'radio-player-pricing',
+				'http-streaming',
+				'multiple',
+			] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
 
-		} else if ( in_array( get_page_template_slug(), [
-			'templates/wp-radio.php',
-			'templates/wp-pricing.php',
-			'templates/user-frontend.php',
-			'templates/wp-radio-station.php',
-			'templates/proxy-player.php',
-			'templates/image-importer.php',
+		} else if ( in_array( $file_name, [
+			'wp-radio',
+			'wp-pricing',
+			'wp-radio-user-frontend',
+			'wp-radio-ads-player',
+			'wp-radio-proxy-player',
+			'wp-radio-image-import',
 		] ) ) {
 			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
 
@@ -73,6 +77,21 @@ class SoftLa {
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
+		}
+
+		//If pricing page enqueue the freemius script
+		$is_pricing_page = in_array( $file_name, [
+			'integrate-google-drive-pricing',
+			'radio-player-pricing',
+			'wp-radio-pricing',
+			'wp-radio-user-frontend',
+			'wp-radio-proxy-player',
+			'wp-radio-image-import',
+			'wp-radio-ads-player'
+		] );
+
+		if ( $is_pricing_page ) {
+			wp_enqueue_script( 'freemius-checkout', 'https://checkout.freemius.com/checkout.min.js', [ 'jquery' ], false, true );
 		}
 	}
 
