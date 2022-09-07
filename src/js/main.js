@@ -7,6 +7,9 @@
 
             $('.contact-form .tab-item').on('click', app.handleContactForm);
             $('.to-top').on('click', app.handleToTop);
+
+            //handle pricing item click
+            $('.item-price').on('click', app.handlePricingItem)
         },
 
         initTestimonialSlider: function () {
@@ -80,6 +83,11 @@
         handleToTop: function () {
             $('html, body').animate({scrollTop: 0}, 'fast');
         },
+
+        handlePricingItem: function () {
+            $('.item-price').removeClass('active');
+            $(this).addClass('active');
+        }
     }
 
     $(document).ready(app.init);

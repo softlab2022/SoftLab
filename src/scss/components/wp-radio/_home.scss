@@ -38,6 +38,7 @@
       border: 1px solid #fff;
       padding: 15px 35px;
       border-radius: 50px;
+
       &:hover {
         background-color: #4353FF;
         border-color: #4353FF;
@@ -63,6 +64,7 @@
         color: #4353FF;
         border-radius: 50%;
         margin-right: 10px;
+
         &:hover {
           background-color: #4353FF;
           border-color: #4353FF;
@@ -232,6 +234,7 @@
           border-radius: 50px;
           font-weight: 600;
           font-size: 1rem;
+
           &:hover {
             background-color: #fff;
             color: #4353FF;
@@ -751,8 +754,8 @@
   /**---------- responsive-area scss end ----------**/
 }
 
-/**-----solution area------**/
-#addons {
+/**----- Addons ------**/
+.wp-radio-addons {
   padding: 60px 0 60px 0;
 
   .addons-head {
@@ -788,16 +791,15 @@
   }
 
   .addon-item {
-    background-color: #FFF3DD;
-    padding: 20px;
+    padding: 30px 20px;
     border-radius: 20px;
 
     img {
       margin-bottom: 20px;
     }
 
-    .add {
-      span {
+    .addon-content {
+      .addon-title {
         font-size: 1.1rem;
         font-weight: 700;
         line-height: 120%;
@@ -806,83 +808,39 @@
       }
 
       p {
+        margin: 20px 0;
         font-weight: 400;
         font-size: 1rem;
         color: #5c637e;
         line-height: 150%;
-        padding: 20px 0;
-        margin-bottom: 0;
+
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
-      h5 {
-
+      .addon-link {
         font-weight: 600;
         font-size: 1rem;
-        line-height: 150%;
         color: #4353FF;
       }
     }
 
   }
 
-  .add-item1 {
+  .addon-wp-radio-user-frontend {
+    background-color: #FFF3DD;
+  }
+
+  .addon-wp-radio-proxy-player, .addon-wp-radio-image-import {
     background-color: #E1F6FE;
   }
 
-  .add-item2 {
+  .addon-wp-radio-ads-player {
     background-color: #FFE8E7;
   }
-
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-    .addons-head {
-      p {
-        padding: 0;
-      }
-    }
-    .addon-item {
-      .add {
-        span {
-          font-size: 1.2rem;
-        }
-
-        p {
-          font-size: .9rem;
-        }
-      }
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .addon-item {
-      margin-bottom: 25px;
-    }
-    .addons-head {
-      p {
-        padding: 0;
-      }
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .addons-head {
-      p {
-        padding: 0;
-        margin-bottom: 30px;
-      }
-    }
-    .addon-item {
-      margin-bottom: 25px;
-    }
-  }
-  /**---------- responsive-area scss end ----------**/
 
 }
 
@@ -917,6 +875,7 @@
       padding: 15px 36px;
       color: #fff;
       border-radius: 8px;
+
       &:hover {
         background-color: #fff;
         color: #4353FF;
@@ -931,6 +890,7 @@
       padding: 15px 36px;
       color: #4353FF;
       border-radius: 8px;
+
       &:hover {
         background-color: #4353FF;
         color: #fff;
