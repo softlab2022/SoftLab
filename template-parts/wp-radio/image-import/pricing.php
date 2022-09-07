@@ -1,4 +1,4 @@
-<section id="pricing" class="wp-radio-addon-pricing user-frontend-pricing">
+<section id="pricing" class="wp-radio-addon-pricing ads-player-pricing">
     <div class="container">
 
         <div class="row">
@@ -19,17 +19,19 @@
                     <p>BILLED ANNUALLY</p>
                 </div>
 
-                <div class="item-price active">
+                <div class="item-price active" data-license="1">
                     <div class="dot"></div>
-                    <span>Single Site License - $29.99/ Year</span>
+                    <span>Single Site License - $19.99/ Year</span>
                 </div>
-                <div class="item-price">
+
+                <div class="item-price" data-license="5">
                     <div class="dot"></div>
-                    <span>Up to 5 Site Licenses - $59.99/ Year</span>
+                    <span>Up to 5 Site Licenses - $39.99/ Year</span>
                 </div>
-                <div class="item-price ">
+
+                <div class="item-price" data-license="100">
                     <div class="dot"></div>
-                    <span>Up to 100 Site Licenses - $129.99/ Year</span>
+                    <span>Up to 100 Site Licenses - $99.99/ Year</span>
                 </div>
 
                 <div class="buy-btn text-center">
@@ -43,17 +45,17 @@
                     <p>BILLED ONCE</p>
                 </div>
 
-                <div class="item-price">
+                <div class="item-price" data-license="1">
                     <div class="dot"></div>
-                    <span>Single Site License - $59.99/ Year</span>
+                    <span>Single Site License - $39.99/ Year</span>
                 </div>
-                <div class="item-price">
+                <div class="item-price" data-license="5">
                     <div class="dot"></div>
-                    <span>Up to 5 Site Licenses - $129.99/ Year</span>
+                    <span>Up to 5 Site Licenses - $99.99/ Year</span>
                 </div>
-                <div class="item-price ">
+                <div class="item-price " data-license="100">
                     <div class="dot"></div>
-                    <span>Up to 100 Site Licenses - $229.99/ Year</span>
+                    <span>Up to 100 Site Licenses - $129.99/ Year</span>
                 </div>
 
                 <div class="buy-btn text-center">
@@ -68,23 +70,22 @@
 </section>
 
 
-
 <script>
     ;(function ($) {
         $(document).on('ready', function () {
             var handler = FS.Checkout.configure({
-                plugin_id: '4907',
-                plan_id: '8106',
-                public_key: 'pk_bef0527f73d6c3a11a9bd4f5cd644',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/wp-radio-user-frontend.png"
+                plugin_id: '6807',
+                plan_id: '11092',
+                public_key: 'pk_8d52e9135152d127d126e63866b27',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/addons/wp-radio-image-import.png"
             });
 
             $('.buy-btn').on('click', function (e) {
                 e.preventDefault();
 
                 handler.open({
-                    name: 'WP Radio User Frontend',
-                    licenses: 1,
+                    name: 'WP Radio Image Import',
+                    licenses: $('.item-price.active').data('license'),
                     // You can consume the response for after purchase logic.
                     purchaseCompleted: function (response) {
                         // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);

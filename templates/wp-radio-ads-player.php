@@ -1,21 +1,21 @@
-
-
 <?php
 /**
- * Template Name: wp-radio-station
+ * Template Name: WP Radio Ads Player
  *
  */
 
-get_header('wp-radio-station-demo');
+get_header('wp-radio');
 
 
-get_template_part( 'template-parts/wp-radio/wp-radio-station/radio-station-hero' );
-get_template_part( 'template-parts/wp-radio/wp-radio-station/station-feature' );
-get_template_part( 'template-parts/wp-radio/wp-radio-station/usage-feature' );
-get_template_part( 'template-parts/wp-radio/wp-radio-station/how-use' );
-get_template_part( 'template-parts/wp-radio/home/testmonial' );
-get_template_part( 'template-parts/wp-radio/wp-radio-station/wp-option' );
-get_template_part( 'template-parts/wp-radio/wp-radio-station/pricing-plan' );
+get_template_part( 'template-parts/wp-radio/ads-player/hero' );
+get_template_part( 'template-parts/wp-radio/ads-player/features' );
+get_template_part( 'template-parts/wp-radio/ads-player/usage' );
+get_template_part( 'template-parts/wp-radio/ads-player/how-to-use' );
+
+get_template_part( 'template-parts/wp-radio/home/testimonial' );
+
+get_template_part( 'template-parts/wp-radio/ads-player/cta' );
+get_template_part( 'template-parts/wp-radio/ads-player/pricing' );
 
 ?>
 

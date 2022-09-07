@@ -239,13 +239,13 @@
       a {
         text-decoration: none;
         background: #fff;
-        border-radius: 10px;
         padding: 15px 30px;
         transition: all .3s ease;
+        border-radius: 100px;
+        border: 1px solid transparent;
 
         &:hover {
           box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
-          border-color: transparent;
         }
 
         i {
@@ -260,6 +260,7 @@
           &:hover {
             color: #fff;
             background-color: $igd_color;
+            border-color: $igd_color;
           }
         }
       }
@@ -272,6 +273,7 @@
           &:hover {
             background: #fff;
             color: $radio_player_color;
+            border-color: $radio_player_color;
           }
 
         }
@@ -285,6 +287,7 @@
           &:hover {
             background: $wp_radio_color;
             color: #fff;
+            border-color: $wp_radio_color;
           }
 
         }
@@ -294,11 +297,28 @@
         a {
           background: $wp_radio_user_frontend_color;
           color: #fff;
-          border-radius: 100px;
 
           &:hover {
             background: #fff;
             color: $wp_radio_user_frontend_color;
+            border-color: $wp_radio_user_frontend_color;
+          }
+
+        }
+      }
+
+
+      &-wp-radio-proxy-player,
+      &-wp-radio-ads-player,
+      &-wp-radio-image-import {
+        a {
+          background: $proxy_player_color;
+          color: #fff;
+
+          &:hover {
+            background: #fff;
+            color: $proxy_player_color;
+            border-color: $proxy_player_color;
           }
 
         }

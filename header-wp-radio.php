@@ -3,19 +3,19 @@
 $addons = [
 	'wp-radio-user-frontend' => [
 		'title'       => 'WP Radio User Frontend',
-		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-user-frontend.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-user-frontend-logo.png',
 	],
 	'wp-radio-proxy-player'  => [
 		'title'       => 'WP Radio Proxy Player',
-		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-proxy-player.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-proxy-player-logo.png',
 	],
 	'wp-radio-ads-player'    => [
 		'title'       => 'WP Radio Ads Player',
-		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-ads-player.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-ads-player-logo.png',
 	],
 	'wp-radio-image-import'  => [
 		'title'       => 'WP Radio Image Import',
-		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-image-import.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-image-import-logo.png',
 	],
 ];
 
