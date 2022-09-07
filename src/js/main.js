@@ -32,19 +32,19 @@
                 arrows: false,
                 responsive: [
                     {
-                        breakpoint: 992,
+                        breakpoint: 1199,
                         settings: {
                             arrows: false,
-                            centerMode: true,
+                            centerMode: false,
                             centerPadding: '40px',
                             slidesToShow: 3
                         }
                     },
                     {
-                        breakpoint: 768,
+                        breakpoint: 991,
                         settings: {
                             arrows: false,
-                            centerMode: true,
+                            centerMode: false,
                             centerPadding: '40px',
                             slidesToShow: 2
                         }
