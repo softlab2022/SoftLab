@@ -8,8 +8,8 @@
             </div>
             <div class="col-md-5 m-auto text-end">
                 <div class="cta-actions">
-                    <a href="/" class="butt2">View Demo</a>
-                    <a href="/wp-radio-pricing" class="butt1">View Pricing</a>
+                    <a href="/" class="btn butt2">View Demo</a>
+                    <a href="/wp-radio-pricing" class="btn butt1">View Pricing</a>
                 </div>
 
             </div>

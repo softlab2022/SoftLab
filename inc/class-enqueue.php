@@ -54,7 +54,7 @@ class SoftLa {
 
 		} else {
 
-			wp_enqueue_style( 'main', get_theme_file_uri( 'assets/css/main.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
+			wp_enqueue_style( 'main', get_theme_file_uri( 'assets/css/main.css' ), array(), $theme_version, 'all' );
 		}
 
 		if ( is_rtl() ) {
@@ -62,16 +62,16 @@ class SoftLa {
 		}
 
 		// Common Styles
-		wp_enqueue_style( 'style', get_theme_file_uri( 'style.css' ), array(), $theme_version, 'all' );
-		wp_enqueue_style( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
-		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3', 'all' ); // main.scss: Compiled Framework source + custom styles.
-		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
+		wp_enqueue_style( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.css' ), array(), $theme_version, 'all' );
+		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3', 'all' );
+		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version, 'all' );
+		wp_enqueue_style( 'style', get_theme_file_uri( 'style.css' ), array('bootstrap'), $theme_version );
 
 
 		// Common Scripts.
 		wp_enqueue_script( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.bundle.min.js' ), array(), '5.1.3', true );
-		wp_enqueue_script( 'cunter', get_theme_file_uri( 'assets/vendor/cunter/jquery.counterup.min.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'counter', get_theme_file_uri( 'assets/vendor/cunter/jquery.counterup.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'waypoint', get_theme_file_uri( 'assets/vendor/cunter/waypoints.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'main', get_theme_file_uri( 'assets/js/main.js' ), array( 'jquery' ), $theme_version, true );
 
@@ -79,7 +79,7 @@ class SoftLa {
 			wp_enqueue_script( 'comment-reply' );
 		}
 
-		//If pricing page enqueue the freemius script
+		//If pricing page, enqueue the freemius script
 		$is_pricing_page = in_array( $file_name, [
 			'integrate-google-drive-pricing',
 			'radio-player-pricing',

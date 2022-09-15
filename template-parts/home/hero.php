@@ -9,7 +9,7 @@
                         We aim to make WordPress way better and empower your
                         business by providing top-notch WordPress products and services.
                     </p>
-                    <a href="/products" class="btn btn-primary">View Products</a>
+                    <a href="/products" class="btn btn-primary view-products-btn">View Products</a>
                 </div>
             </div>
 

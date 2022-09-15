@@ -10,14 +10,22 @@
       margin-bottom: 1.5rem;
       font-weight: 600;
     }
+
     h2 {
       font-size: 2rem;
       margin-bottom: 1.5rem;
       font-weight: 600;
     }
 
-    .btn {
+    .view-products-btn {
       margin-top: 1.5rem;
+      padding: 15px 30px;
+
+      &:hover {
+        background: #fff;
+        color: $color_primary;
+        border-color: $color_primary;
+      }
     }
   }
 
@@ -947,12 +955,11 @@
 
   .solution-butt {
     a {
-      background-color: #fff;
+      background: #fff;
       text-decoration: none;
       text-transform: capitalize;
       font-size: 1.1rem;
       padding: 15px 40px;
-      border-radius: 10px;
       color: #6E6DFF;
       font-weight: 700;
     }

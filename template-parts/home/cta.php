@@ -6,7 +6,7 @@
                     <h3>You will love our solutions</h3>
                     <p>Take a look at our highly rated 03+ premium and free plugins.</p>
                     <div class="solution-butt">
-                        <a href="/products">View Products </a>
+                        <a href="/products" class="btn">View Products </a>
                     </div>
                     
                 </div>

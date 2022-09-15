@@ -225,13 +225,10 @@
     }
 
     .view-products-btn {
-      margin-left: 3rem;
+      margin-left: 2rem;
       transition: all .3s ease;
-
-      a {
-        background: $button_bg_color;
-        padding: .5rem 1rem;
-      }
+      background: $button_bg_color;
+      padding: .5rem 1rem;
     }
 
     .buy-now-btn {
