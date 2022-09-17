@@ -1,21 +1,24 @@
 <?php
 
 $products = [
-	'wp-radio'               => [
-		'title'       => 'WP Radio',
-		'description' => 'WP Radio is a WordPress plugin that allows you to create a radio station with a custom player.',
-		'image'       => get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png',
+	'integrate-google-drive' => [
+		'title'       => 'Integrate Google Drive',
+		'description' => 'Integrate Google Drive is a WordPress plugin that allows you to integrate Google Drive with your WordPress site.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png',
 	],
+
 	'radio-player'           => [
 		'title'       => 'Radio Player',
 		'description' => 'Radio Player is a WordPress plugin that allows you to create a radio station with a custom player.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/radio-icon.png',
 	],
-	'integrate-google-drive' => [
-		'title'       => 'Integrate Google Drive',
-		'description' => 'Integrate Google Drive is a WordPress plugin that allows you to integrate Google Drive with your WordPress site.',
-		'image'       => get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png',
-	]
+
+	'wp-radio'               => [
+		'title'       => 'WP Radio',
+		'description' => 'WP Radio is a WordPress plugin that allows you to create a radio station with a custom player.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png',
+	],
+
 ];
 
 ?>

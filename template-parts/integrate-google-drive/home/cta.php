@@ -10,8 +10,8 @@
 
             <div class="col-md-5 text-end">
                 <div class="cta-actions">
-                    <a href="#" class="bt">View Demo</a>
-                    <a href="#" class="bt1">Buy Now</a>
+                    <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="bt">Try Live Demo</a>
+                    <a href="/integrate-google-drive-pricing" class="bt1">Buy Now</a>
                 </div>
             </div>
         </div>

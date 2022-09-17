@@ -1,4 +1,6 @@
-(function ($) {
+import './components/pricing';
+
+;(function ($) {
 
     const app = {
         init: function () {

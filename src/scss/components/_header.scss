@@ -136,6 +136,13 @@
         }
       }
 
+
+      &.brand-integrate-google-drive {
+        img {
+          height: 45px;
+        }
+      }
+
       &.brand-softlab {
         img {
           height: 38px;
@@ -252,12 +259,13 @@
 
       &-integrate-google-drive {
         a {
-          color: $igd_color;
+          color: #fff;
+          background-color: $igd_color;
+          border-color: $igd_color;
 
           &:hover {
-            color: #fff;
-            background-color: $igd_color;
-            border-color: $igd_color;
+            color: $igd_color;
+            background: #fff;
           }
         }
       }

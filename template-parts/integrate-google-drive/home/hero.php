@@ -10,8 +10,8 @@
                         Website.
                     </p>
 
-                    <a href="#" class="get">Get Started</a>
-                    <a href="#" class="get1">Check Demo</a>
+                    <a href="/integrate-google-drive-pricing" class="get">Get Started</a>
+                    <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="get1">Try Live Demo</a>
                 </div>
             </div>
         </div>

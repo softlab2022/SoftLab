@@ -194,6 +194,7 @@
       display: block;
       width: max-content;
       transition: all .3s ease-in-out;
+
       &:hover {
         background-color: #fff;
         color: #01AA47;
@@ -201,7 +202,7 @@
         box-shadow: $color_primary 0px 2px 8px 0px;
         border-color: transparent;
       }
-      
+
     }
 
     .feature-integrations {
@@ -286,6 +287,13 @@
     &.feature-form {
       margin: 0;
       padding: 0;
+    }
+
+    &.flex-row-reverse {
+      .feature-item-content {
+        padding-left: 0;
+        padding-right: 20%;
+      }
     }
 
   }
@@ -724,6 +732,7 @@
   .slick-dots {
     li.slick-active {
       border: 1px solid #01AA47;
+
       button {
         opacity: 1;
       }
@@ -835,6 +844,7 @@
     .bt {
       background-color: #00BB45;
       color: #fff;
+
       &:hover {
         background-color: #fff;
         color: #01AA47;
@@ -848,6 +858,7 @@
       background-color: #fff;
       color: #00BB45;
       margin-left: 40px;
+
       &:hover {
         background-color: #01AA47;
         color: #fff;
