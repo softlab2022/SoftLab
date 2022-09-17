@@ -54,10 +54,10 @@ $pro_features = [
                 <div class="price-table">
 
                     <div class="pricing-head text-center">
-                        <span class="free">Free</span>
-                        <span class="basics">Started with Basics</span>
+                        <span class="pricing-head-title">FREE</span>
+                        <span class="pricing-head-description">Started with Basics</span>
                         <div class="price-text">
-                            <span class="price-value active">00</span>
+                            <span class="price-value free">00</span>
                         </div>
                         <span class="support-text">No Support</span>
                     </div>
@@ -79,8 +79,8 @@ $pro_features = [
             <div class="col-lg-5 col-md-6 me-auto">
                 <div class="price-table table-pro">
                     <div class="pricing-head text-center">
-                        <span class="free">PRO</span>
-                        <span class="basics">Most Popular Package</span>
+                        <span class="pricing-head-title">PRO</span>
+                        <span class="pricing-head-description">Most Popular Package</span>
 
                         <div class="site">
                             <div class="dropdown license-dropdown">
