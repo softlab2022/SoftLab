@@ -49,12 +49,15 @@ $testimonials = [
 ];
 
 ?>
-<section id="testmonial">
+<section id="user-testmonial">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-9 m-auto">
                 <div class="testmonial-head text-center">
                     <span>Recent Feedback</span>
+                    <div class="imgs2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
+                    </div>
                     <h1>What People Think About Our Products</h1>
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                 </div>

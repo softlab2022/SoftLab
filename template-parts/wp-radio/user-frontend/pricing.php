@@ -4,7 +4,11 @@
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="plan-head text-center">
-                    <span>Pricing plan</span>
+                <span>Pricing plan</span>
+                    <div class="imgs">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
+                    </div>
+                    
                     <h2>Simple Pricing, Unbeatable Value</h2>
                     <p>Join 1000+ User's Happy Community</p>
                 </div>
@@ -15,7 +19,11 @@
             <div class="pricing-box annual">
 
                 <div class="pricing-header text-center">
-                    <h3>ANNUALLY</h3>
+                    
+                    <h3 class="plan-pric">ANNUALLY</h3>
+                    <div class="imgs2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
+                    </div>
                     <p>BILLED ANNUALLY</p>
                 </div>
 
@@ -39,7 +47,11 @@
             <div class="pricing-box lifetime">
 
                 <div class="pricing-header text-center">
-                    <h3>Lifetime</h3>
+                    <h3 class="plan-pric">Lifetime</h3>
+                    <div class="imgs2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
+                    </div>
+                    
                     <p>BILLED ONCE</p>
                 </div>
 

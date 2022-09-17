@@ -548,15 +548,12 @@
     }
   }
 
-  .items {
-    margin-top: -70px;
-  }
-
   .test-item {
     background-color: #F9FAFF;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 25px;
+    height: 350px;
 
     .content {
       p {
@@ -573,6 +570,7 @@
   .test-peo {
     img {
       margin-right: 15px;
+      border-radius: 50px;
     }
 
     .text {

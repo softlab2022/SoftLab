@@ -47,7 +47,9 @@
 
     .pricing-header {
       margin-bottom: 2rem;
-
+      .imgs2 {
+        padding-bottom: 40px;
+      }
       h3 {
         font-weight: 600;
         font-size: 1.8rem;
@@ -55,6 +57,10 @@
         color: $proxy_player_color;
         margin-bottom: 0;
         padding-bottom: 40px;
+        text-transform: capitalize;
+      }
+      .plan-pric {
+        padding-bottom: 0!important;
       }
 
       p {
@@ -195,6 +201,7 @@
       .pricing-header {
         h3 {
           color: $wp_radio_user_frontend_color;
+          text-transform: capitalize;
         }
 
         p {

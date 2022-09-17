@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="proxy-feat-head text-center">
-                    <span>Features</span>
+                    <span><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> Features</span>
                     <h5>Let’s Explore our Valuable Awesome Features</h5>
                 </div>
             </div>
