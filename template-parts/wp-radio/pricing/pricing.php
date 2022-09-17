@@ -102,11 +102,11 @@ $pro_features = [
                         </div>
 
                         <div class="price-text annual license-1">
-                            <span class="price-value annual single">29.99</span>
-                            <span class="price-value annual five">59.99</span>
+                            <span class="price-value annual single">39.99</span>
+                            <span class="price-value annual five">89.99</span>
 
-                            <span class="price-value lifetime single">79.99</span>
-                            <span class="price-value lifetime five">149.99</span>
+                            <span class="price-value lifetime single">99.99</span>
+                            <span class="price-value lifetime five">199.99</span>
 
                             <span class="price-suffix annual">/ Per year</span>
                             <span class="price-suffix lifetime">/ Billed once</span>
@@ -136,10 +136,10 @@ $pro_features = [
     ;(function ($) {
         $(document).on('ready', function () {
             var handler = FS.Checkout.configure({
-                plugin_id: '9618',
-                plan_id: '16186',
-                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive.png",
+                plugin_id: '4227',
+                plan_id: '6865',
+                public_key: 'pk_6acab182f004d200ec631d063d6c4',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/wp-radio.png",
             });
 
             $('.buy-btn-pro').on('click', function (e) {

@@ -1,4 +1,4 @@
-<section class="wp-radio-cta">
+<section id="wp-radio-cta">
     <div class="container">
         <div class="row">
             <div class="col-md-7 m-auto">
@@ -8,7 +8,7 @@
             </div>
             <div class="col-md-5 m-auto text-end">
                 <div class="cta-actions">
-                    <a href="/" class="btn butt2">View Demo</a>
+                    <a href="https://demo.softlabbd.com/?product=wp-radio" class="btn butt2">Try Live Demo</a>
                     <a href="/wp-radio-pricing" class="btn butt1">View Pricing</a>
                 </div>
 

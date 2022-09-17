@@ -1,10 +1,7 @@
-.page-template-integrate-google-drive-pricing {
-  background-color: #F9FAFF;
-}
-
-#price-hero {
+#pricing-hero {
   background: url("../images/google-drive/pc-hero-bg.png") no-repeat bottom / cover;
-  padding: 160px 0 250px 0;
+  padding: 160px 0 300px 0;
+
 
   .hero-content {
     h2 {
@@ -25,7 +22,7 @@
 }
 
 #pricing {
-  margin-top: -300px;
+  margin-top: -350px;
   margin-bottom: 100px;
 
   .pricing-switcher {
@@ -294,8 +291,6 @@
 
 }
 
-
-/**---------- industry Area ----------**/
 #industry {
   background: url("../images/google-drive/14-day money.png") no-repeat;
   background-size: cover;
@@ -330,45 +325,8 @@
     }
   }
 
-  /* ====== responsive area start =====*/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-
-    .industry-head {
-      h2 {
-        font-size: 2rem;
-      }
-    }
-    .indu-item {
-      margin-bottom: 20px;
-    }
-
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .industry-head {
-      h2 {
-        font-size: 2rem;
-      }
-    }
-    .indu-item {
-      margin-bottom: 20px;
-    }
-  }
-
 }
 
-/**---------- list-feature Area ----------**/
 #features {
   padding: 100px 0;
 
@@ -496,7 +454,6 @@
   }
 }
 
-
 #faq {
   background: linear-gradient(153.63deg, #F8FDF5 3.43%, #E6FAF4 90.47%);
   padding: 100px 0;
@@ -527,6 +484,84 @@
       color: $p_color;
     }
 
+  }
+
+}
+
+.page-template-integrate-google-drive-pricing {
+  background-color: #F9FAFF;
+}
+
+.page-template-radio-player-pricing {
+  #pricing-hero {
+    background: url("../images/radio-player/price/price-hero-shapes.png") no-repeat bottom / cover;
+  }
+
+  #pricing {
+    .price-table {
+      .buy-btn {
+        color: $radio_player_color;
+        border: 1px solid $radio_player_color;
+        background: #fff;
+
+        &:hover {
+          color: #fff;
+          background: $radio_player_color;
+        }
+
+        &-pro {
+          color: #fff;
+          background: $radio_player_color;
+
+          &:hover {
+            color: $radio_player_color;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  #industry {
+    background: url("../images/radio-player/price/industry-bg.png") no-repeat;
+    background-size: cover;
+  }
+
+}
+
+.page-template-wp-radio-pricing {
+  #pricing-hero {
+    background: url("../images/wp-radio/price/price-hero-shapes.png") no-repeat bottom / cover;
+  }
+
+  #pricing {
+    .price-table {
+      .buy-btn {
+        color: $wp_radio_color;
+        border: 1px solid $wp_radio_color;
+        background: #fff;
+
+        &:hover {
+          color: #fff;
+          background: $wp_radio_color;
+        }
+
+        &-pro {
+          color: #fff;
+          background: $wp_radio_color;
+
+          &:hover {
+            color: $wp_radio_color;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  #industry {
+    background: url("../images/wp-radio/price/price-group.png") no-repeat, #4353FF;
+    background-size: cover;
   }
 
 }

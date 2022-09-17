@@ -64,6 +64,7 @@
       border: 1px solid #01AA47;
       border-radius: 8px;
       padding: 15px 35px;
+      background: #fff;
 
       &:hover {
         background: #01AA47;
@@ -81,73 +82,6 @@
       padding-bottom: 25%;
     }
   }
-
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-    padding: 115px 0 0px 0;
-    .hero-content {
-      h1 {
-        font-size: 2.6rem;
-      }
-
-      p {
-        font-size: .9rem;
-        padding: 3% 12%;
-        padding-left: 0;
-      }
-    }
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .hero-content {
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: .9rem;
-        padding: 0;
-        margin-top: 15px;
-        margin-bottom: 25px;
-      }
-
-      .get {
-        padding: 10px 25px;
-      }
-
-      .get1 {
-        padding: 10px 25px;
-      }
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    padding: 90px 0 60px 0;
-    text-align: center;
-    .hero-content {
-      h1 {
-        font-size: 1.9rem;
-      }
-
-      p {
-        font-size: .9rem;
-        padding: 3% 10px;
-      }
-    }
-    .radio-header-bg {
-      padding-top: 35px;
-    }
-
-  }
-  /**---------- responsive-area scss end ----------**/
 
 }
 
@@ -964,7 +898,7 @@
 }
 
 /**---------- cta area scss ----------**/
-#radio-cta {
+#cta {
   background: url("../images/radio-player/r-bg-shapes.png"), linear-gradient(153.63deg, #98FF96 3.43%, #08CD87 90.47%) no-repeat;
   background-size: cover;
   padding: 60px 0;
