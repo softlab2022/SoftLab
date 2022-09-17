@@ -55,6 +55,7 @@
         color: $proxy_player_color;
         margin-bottom: 0;
         padding-bottom: 40px;
+        text-transform: capitalize;
       }
 
       p {
@@ -195,6 +196,7 @@
       .pricing-header {
         h3 {
           color: $wp_radio_user_frontend_color;
+          text-transform: capitalize;
         }
 
         p {
