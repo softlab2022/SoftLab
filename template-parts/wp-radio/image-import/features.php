@@ -3,6 +3,9 @@
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="importer-feat-head text-center">
+                    <div class="imgs">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-4.png" alt="image-4">
+                    </div>
                     <span>Features</span>
                     <h5>Let’s Explore our Valuable Awesome Features</h5>
                 </div>

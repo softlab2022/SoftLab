@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="proxy-usage-head text-center">
-                    <span>usage</span>
+                    <span><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> usage</span>
                     <h5>Easy way to run radio Proxy player on your site.</h5>
                 </div>
             </div>

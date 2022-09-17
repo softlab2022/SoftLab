@@ -5,6 +5,9 @@
 
             <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-usage-head ">
+                    <div class="imgs">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-4.png" alt="image-4">
+                    </div>
                     <span>usage</span>
                     <h5>Easy way to run WP Radio Image Importer on your site.</h5>
                 </div>

@@ -4,6 +4,9 @@
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 m-auto">
                 <div class="importer-content">
+                    <div class="imgs">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-4.png" alt="image-4">
+                    </div>
                      <span>Addon</span>
                     <h1>WP Radio allows you to import uploaded image from own server.</h1>
                     <p>

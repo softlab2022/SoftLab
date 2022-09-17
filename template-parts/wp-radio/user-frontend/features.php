@@ -60,6 +60,9 @@ $features = [
                 <div class="col-md-6">
                     <div class="feature-item-content">
                         <span><?php echo $feature['intro']; ?></span>
+						<div class="imgs2">
+                        	<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
+                    	</div>
                         <h3><?php echo $feature['title']; ?></h3>
                         <p><?php echo $feature['description']; ?></p>
                     </div>

@@ -1,10 +1,10 @@
 <section id="pricing" class="wp-radio-addon-pricing proxy-player-pricing">
     <div class="container">
 
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-lg-5 m-auto">
                 <div class="plan-head text-center">
-                    <span>Pricing plan</span>
+                    <span><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> Pricing plan</span>
                     <h2>Simple Pricing, Unbeatable Value</h2>
                     <p>Join 1000+ User's Happy Community</p>
                 </div>
@@ -15,7 +15,7 @@
             <div class="pricing-box annual">
 
                 <div class="pricing-header text-center">
-                    <h3>ANNUALLY</h3>
+                    <h3><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> ANNUALLY</h3>
                     <p>BILLED ANNUALLY</p>
                 </div>
 
@@ -41,7 +41,8 @@
             <div class="pricing-box lifetime">
 
                 <div class="pricing-header text-center">
-                    <h3>Lifetime</h3>
+                
+                    <h3><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> Lifetime</h3>
                     <p>BILLED ONCE</p>
                 </div>
 
