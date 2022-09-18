@@ -401,12 +401,12 @@
       justify-content: space-between;
 
       &:after {
-        position: absolute;
-        left: 20px;
+        display: none;
       }
 
       .feature-title {
         width: 60%;
+        color: #000;
       }
 
       .fas {
@@ -419,6 +419,16 @@
 
       .fa-times-square {
         color: #5C637E;
+      }
+      .fa-chevron-down {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        background-color: #5C637E;
+        text-align: center;
+        border-radius: 50px;
+        color: #fff;
+        transition: all linear .4s;
       }
 
     }
@@ -445,6 +455,7 @@
         transform: rotate(180deg);
         background-color: #00BB45;
         color: #fff;
+        transition: all linear .4s;
       }
     }
 
@@ -478,12 +489,38 @@
     &-button {
       padding: 1.5rem;
       font-size: 1.1rem;
+      background-color: #E4EFFF;
+      &:after {
+        display: none;
+      }
     }
 
     &-body {
       color: $p_color;
     }
+    i {
+      right: 25px;
+      position: absolute;
+    }
+    .fa-chevron-down {
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      background-color: #5C637E;
+      text-align: center;
+      border-radius: 50px;
+      color: #fff;
+      transition: all linear .4s;
+    }
 
+  }
+  .accordion-button:not(.collapsed) {
+    .fa-chevron-down {
+      transform: rotate(180deg);
+      background-color: #00BB45;
+      color: #fff;
+      transition: all linear .4s;
+    }
   }
 
 }
@@ -520,6 +557,13 @@
         }
       }
     }
+    .table-pro {
+      .pricing-head {
+       .pricing-head-title {
+         color: #4353FF;
+       }
+      }
+     }
   }
 
   #industry {
@@ -527,15 +571,69 @@
     background-size: cover;
   }
 
+  #features {
+    .accordion-button {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
 }
 
 .page-template-wp-radio-pricing {
   #pricing-hero {
     background: url("../images/wp-radio/price/price-hero-shapes.png") no-repeat bottom / cover;
+    .hero-content {
+      h2 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        line-height: 120%;
+        color: #fff;
+      }
+  
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #fff;
+        line-height: 150%;
+        padding-bottom: 120px;
+      }
+    }
   }
 
   #pricing {
+    .pricing-switcher {
+      .switch-text {
+  
+        &.annual {
+          color: #fff;
+        }
+        &.lifetime {
+          color: #C8DCFC;
+        }
+      }
+      .switch {
+        background-color: #0014EF;
+      }
+      &.active {
+        .switch-text {
+  
+          &.annual {
+            color: #C8DCFC;
+          }
+          &.lifetime {
+            color: #fff;
+          }
+        }
+      }
+    }
     .price-table {
+      .pricing-head {
+        .price-text {
+          color: #4353FF;
+        }
+      }
       .buy-btn {
         color: $wp_radio_color;
         border: 1px solid $wp_radio_color;
@@ -557,11 +655,75 @@
         }
       }
     }
+    .table-pro {
+      .pricing-head-title {
+        color: #4353FF;
+      }
+      .site {
+        .dropdown {
+          .dropdown-item {
+            &.active {
+              background-color: $wp_radio_color;
+            }
+          }
+          .btn-pr{
+            background-color: #4353FF;
+          }
+        }
+      }
+    }
+    .price-features {
+      .feature-item {
+        i {
+          background: #4353FF;
+        }
+      }
+    }
   }
 
   #industry {
     background: url("../images/wp-radio/price/price-group.png") no-repeat, #4353FF;
     background-size: cover;
+    .indu-item {
+      background-color: #fff;
+      span {
+        color: #5C637E;
+      }
+    }
   }
+  #features {
+    .accordion-button {
+      background-color: #ecf0ff;
+      .fa-check-square {
+        color: #4353FF;
+      }
+      &:after {
+        display: none;
+      }
+    }
+    .accordion-collapse {
+      background-color: #ecf0ff;
+    }
+    .accordion-body {
+      border-top: 1px solid rgba(67, 83, 255, 0.2);
+    }
+    .accordion-button:not(.collapsed) {
+      .fa-chevron-down {
+        transform: rotate(180deg);
+        background-color: #4353FF;
+        color: #fff;
+      }
+    }
+  }
+
+  #faq { 
+    .accordion-button:not(.collapsed) {
+      .fa-chevron-down {
+        transform: rotate(180deg);
+        background-color: #4353FF;
+        color: #fff;
+      }
+    }
+}
 
 }

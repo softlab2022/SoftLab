@@ -53,6 +53,7 @@ $faqs = [
                             <h2 class="accordion-header" id="heading-<?php echo $key; ?>">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $key; ?>" aria-controls="collapse-<?php echo $key; ?>" aria-expanded="false">
 									<?php echo $faq['question']; ?>
+									<i class="fa-solid fa-chevron-down"></i>
                                 </button>
                             </h2>
 

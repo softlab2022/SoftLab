@@ -2,20 +2,21 @@
 
 $faqs = [
 	[
-		'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
-		'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link a Google Drive folder to a user when they are registering on your site. You can also link a Google Drive folder to a user when they are registering on your site.',
+		'question' => 'How Can I add Multiple Radio Stations?',
+		'answer'   => 'You can add multiple radio stations for a single player in the PRO version. Users can play them by using the next/ previous buttons.',
 	],
 	[
-		'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
-		'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link a Google Drive folder to a user when they are registering on your site. You can also link a Google Drive folder to a user when they are registering on your site.',
+		'question' => 'When I clicked play, there is no sound?',
+		'answer'   => 'Most of the radio station stream links are HTTP (Unsecured) that can’t be played on HTTPS (Secured) website because of browser mixed-content restrictions.
+        Modern browsers no longer accepts mixed requests.
+        Please check this link:
+        https://web.dev/what-is-mixed-content
+        
+        To play the HTTP streams in an HTTPS website, you need to upgrade to PRO.',
 	],
 	[
-		'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
-		'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link a Google Drive folder to a user when they are registering on your site. You can also link a Google Drive folder to a user when they are registering on your site.',
-	],
-	[
-		'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
-		'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link a Google Drive folder to a user when they are registering on your site. You can also link a Google Drive folder to a user when they are registering on your site.',
+		'question' => 'How can I use the footer full-width sticky player?',
+		'answer'   => 'To set the radio player fixed to the footer as a full-width sticky player, you need to check the use as sticky player checkbox in player editing screen.',
 	],
 ];
 
@@ -42,6 +43,7 @@ $faqs = [
                             <h2 class="accordion-header" id="heading-<?php echo $key; ?>">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $key; ?>" aria-controls="collapse-<?php echo $key; ?>" aria-expanded="false">
 									<?php echo $faq['question']; ?>
+                                    <i class="fa-solid fa-chevron-down"></i>
                                 </button>
                             </h2>
 
