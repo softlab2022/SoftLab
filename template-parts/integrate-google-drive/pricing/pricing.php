@@ -102,11 +102,11 @@ $pro_features = [
                         </div>
 
                         <div class="price-text annual license-1">
-                            <span class="price-value annual single">29.99</span>
-                            <span class="price-value annual five">59.99</span>
+                            <span class="price-value annual single">29<span class="cent">.99</span></span>
+                            <span class="price-value annual five">59<span class="cent">.99</span></span>
 
-                            <span class="price-value lifetime single">79.99</span>
-                            <span class="price-value lifetime five">149.99</span>
+                            <span class="price-value lifetime single">79<span class="cent">.99</span></span>
+                            <span class="price-value lifetime five">149<span class="cent">.99</span></span>
 
                             <span class="price-suffix annual">/ Per year</span>
                             <span class="price-suffix lifetime">/ Billed once</span>

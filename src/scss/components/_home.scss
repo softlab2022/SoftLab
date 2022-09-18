@@ -675,6 +675,7 @@
 .testimonial {
   background: url("../images/home/testimonial/think-bg-shape.png") no-repeat 0 20rem / contain;
   padding: 100px 0;
+  min-height: 800px;
 
   .section-head {
     margin-bottom: 3rem;
@@ -749,13 +750,13 @@
           font-weight: 400;
           font-size: 1.2rem;
           color: $p_color;
-          padding: 3rem;
+          padding: 2rem;
+          margin: 0;
         }
       }
 
       .testimonial-user {
         border-top: 1px solid rgba(92, 99, 126, 0.1);
-        margin-top: 1rem;
         padding-top: 1rem;
 
         img {
