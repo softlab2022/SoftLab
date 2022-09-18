@@ -34,12 +34,12 @@
       border: 1px solid #fff;
       padding: 15px 35px;
       border-radius: 50px;
-
+      transition: all linear .4s;
       &:hover {
         background-color: #4353FF;
         border-color: #4353FF;
         color: #fff;
-        transition: all 0.3s ease-in-out;
+        transition: all linear .4s;
         border-color: transparent;
         box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
       }
@@ -60,12 +60,12 @@
         color: #4353FF;
         border-radius: 50%;
         margin-right: 10px;
-
+        transition: all linear .4s;
         &:hover {
           background-color: #4353FF;
           border-color: #4353FF;
           color: #fff;
-          transition: all 0.3s ease-in-out;
+          transition: all linear .4s;
           border-color: transparent;
           box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
         }
@@ -473,8 +473,8 @@
     background-color: #F9FAFF;
     border-radius: 20px;
     padding: 20px;
-    margin-bottom: 25px;
-
+    margin-bottom: 25px!important;
+    height: 350px;
     .content {
       p {
         font-weight: 400;
@@ -729,11 +729,11 @@
       padding: 15px 36px;
       color: #fff;
       border-radius: 8px;
-
+      transition: all linear .4s;
       &:hover {
         background-color: #fff;
         color: #4353FF;
-        transition: all 0.3s ease-in-out;
+        transition: all linear .4s;
         border-color: transparent;
       }
     }
@@ -744,11 +744,11 @@
       padding: 15px 36px;
       color: #4353FF;
       border-radius: 8px;
-
+      transition: all linear .4s;
       &:hover {
         background-color: #4353FF;
         color: #fff;
-        transition: all 0.3s ease-in-out;
+        transition: all linear .4s;
         border-color: transparent;
       }
     }

@@ -48,10 +48,11 @@
       border: 1px solid #16ADE1;
       padding: 15px 35px;
       border-radius: 50px;
-
-      &:hover {
-
-        transition: linear .4s;
+      transition: all linear .4s;
+      &:hover{
+        background-color: #fff;
+        color: #00D1E1;
+        transition: all linear .4s;
       }
     }
 
@@ -576,12 +577,24 @@
       .bt {
         color: #16ADE1;
         border: 1px solid #16ADE1;
+        transition: all linear .4s;
+        &:hover{
+          background-color: #00D1E1;
+          color: #fff;
+          transition: all linear .4s;
+        }
       }
 
       .bt1 {
         background-color: #16ADE1;
         color: #fff;
         margin-left: 25px;
+        transition: all linear .4s;
+        &:hover{
+          background-color: #fff;
+          color: #00D1E1;
+          transition: all linear .4s;
+        }
       }
     }
   }

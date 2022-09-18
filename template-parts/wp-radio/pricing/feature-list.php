@@ -182,9 +182,10 @@ $features = [
                                         data-bs-target="#collapse-<?php echo $key; ?>" aria-expanded="false"
                                         aria-controls="collapse-<?php echo $key; ?>">
 
-										<i class="fa-solid fa-chevron-down"></i>
-
-                                    <span class="feature-title"><?php echo $feature['title']; ?></span>
+										<div class="title">
+											<i class="fa-solid fa-chevron-down"></i>
+											<span class="feature-title"><?php echo $feature['title']; ?></span>
+										</div>
 
                                     <i class="fas <?php echo !empty($feature['pro']) ? 'fa-check-square' : 'fa-times-square'; ?>"></i>
                                     <i class="fas fa-check-square"></i>

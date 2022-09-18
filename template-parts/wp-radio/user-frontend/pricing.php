@@ -1,4 +1,4 @@
-<section id="pricing" class="wp-radio-addon-pricing user-frontend-pricing">
+<section class="wp-radio-addon-pricing user-frontend-pricing">
     <div class="container">
 
         <div class="row">

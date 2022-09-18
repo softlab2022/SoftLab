@@ -500,7 +500,6 @@
 
 /**---------- feature Area ----------**/
 #feature {
-  background-color: #EEF2FE;
   padding-top: 8%;
   padding-bottom: 8%;
   position: relative;
@@ -522,9 +521,8 @@
       color: $p_color;
     }
   }
-
+  
   .feature-item {
-    background-color: #fff;
     border-radius: 1.1rem;
     padding: 1.7rem;
     margin-bottom: 1.4rem;
@@ -550,18 +548,54 @@
         font-weight: 700;
         font-size: 1.5rem;
         line-height: 120%;
-        color: $h1_color;
+        color: #fff;
         padding-top: 10%;
       }
 
       p {
-        color: $p_color;
+        color: #fff;
         font-weight: 400;
         font-size: .9rem;
         line-height: 150%;
         padding: 1% 16%;
       }
     }
+  }
+  .feature-easy-to-customize {
+    background: url("../images/home/features/easy-customize.png,");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .feature-details-documentation {
+  background: url("../images/home/features/details.png,");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  }
+  .feature-money-back-guarantee {
+  background: url("../images/home/features/money-back.png,");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  }
+  .feature-highly-rated-support {
+  background: url("../images/home/features/highly-rated.png,");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  }
+  .feature-regular-updates {
+  background: url("../images/home/features/regular-update.png,");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  }
+  .feature-top-nothch-security {
+  background: url("../images/home/features/top-notch-security.png,");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
   }
 
   .feature-head {
