@@ -1,13 +1,11 @@
 @import "components/variables";
 @import "components/header";
 @import "components/footer";
-
-@import "components/wp-radio/addon-pricing";
+@import "components/pricing";
 
 @import "components/wp-radio/home";
-
-@import "components/wp-radio/pricing";
 @import "components/wp-radio/user-fortend";
 @import "components/wp-radio/proxy-player";
 @import "components/wp-radio/image-importer";
-@import "components/wp-radio/wp-radio-station";
+@import "components/wp-radio/ads-player";
+@import "components/wp-radio/addon-pricing";

@@ -44,7 +44,7 @@ class SoftLa {
 
 		} else if ( in_array( $file_name, [
 			'wp-radio',
-			'wp-pricing',
+			'wp-radio-pricing',
 			'wp-radio-user-frontend',
 			'wp-radio-ads-player',
 			'wp-radio-proxy-player',
@@ -71,8 +71,10 @@ class SoftLa {
 		// Common Scripts.
 		wp_enqueue_script( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.bundle.min.js' ), array(), '5.1.3', true );
-		wp_enqueue_script( 'counter', get_theme_file_uri( 'assets/vendor/cunter/jquery.counterup.min.js' ), array(), $theme_version, true );
-		wp_enqueue_script( 'waypoint', get_theme_file_uri( 'assets/vendor/cunter/waypoints.min.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'counter', get_theme_file_uri( 'assets/vendor/counter/jquery.counterup.min.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'waypoint', get_theme_file_uri( 'assets/vendor/counter/waypoints.min.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'masonary', get_theme_file_uri( 'assets/vendor/masonary.js' ), array(), '4.2.2', true );
+
 		wp_enqueue_script( 'main', get_theme_file_uri( 'assets/js/main.js' ), array( 'jquery' ), $theme_version, true );
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

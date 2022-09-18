@@ -13,24 +13,23 @@
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Processed by Freemius</span>
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/price/freemius.png" alt="freemius">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/freemius.png" alt="freemius">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Trusted payment gateway</span>
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/price/card.png" alt="card">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/card.png" alt="card">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Secure payment</span>
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/price/payment.png" alt="payment">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/payment.png" alt="payment">
                 </div>
             </div>
 
         </div>
 
     </div>
-    
 </section>
