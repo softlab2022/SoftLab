@@ -1,30 +1,24 @@
-<!---=== blog-hero-area ===-->
-
-<section class="blog-hero-area">
+<section class="blog-header">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-4 col-sm-6 ">
-                <div class="about-hero-content">
-                    <h1>Read Our Latest blog & News</h1>
-                    <p>
-                        Join 150,000+ Subscribers
-                    </p>
-                    <div class="newslatter-from">
-                      
-                        <div class="input-group mb-3">
-                          <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Enter Your Email" aria-describedby="basic-addon2">
-                          <div class="input-group-append">
-                           <a href="#">Subscribe <i class="fa-solid fa-paper-plane"></i></a>
-                          </div>
-                        </div>
-                        
-                  </div>
+            <div class="col-lg-5 col-sm-6 ">
+                <div class="section-header">
+                    <h2>Read Our Latest Blog & News</h2>
+
+                    <div class="news-letter-form">
+                        <p>Stay up to date with all the recent news, updates and great discounts.</p>
+
+		                <?php echo do_shortcode( '[fluentform id="4"]' ); ?>
+
+                        <p>We promise we will never spam you</p>
+                    </div>
 
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-6 m-auto">
+            <div class="col-lg-7 col-sm-6 m-auto">
                 <div class="about-hero-image text-end">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-img.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/blog-img.png" alt=""
+                         class="img-fluid">
                 </div>
             </div>
         </div>

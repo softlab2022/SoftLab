@@ -53,7 +53,6 @@ class SoftLa {
 			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
 
 		} else {
-
 			wp_enqueue_style( 'main', get_theme_file_uri( 'assets/css/main.css' ), array(), $theme_version, 'all' );
 		}
 
@@ -65,7 +64,7 @@ class SoftLa {
 		wp_enqueue_style( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.css' ), array(), $theme_version, 'all' );
 		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3', 'all' );
 		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version, 'all' );
-		wp_enqueue_style( 'style', get_theme_file_uri( 'style.css' ), array('bootstrap'), $theme_version );
+		wp_enqueue_style( 'style', get_stylesheet_uri(), array('bootstrap'), $theme_version );
 
 
 		// Common Scripts.
