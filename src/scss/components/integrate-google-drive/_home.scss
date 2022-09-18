@@ -709,7 +709,7 @@
       margin: 0 8px;
       width: 20px;
       height: 20px;
-      line-height: 23px;
+      line-height: 18px;
       display: inline-block;
       border-radius: 50%;
       color: transparent;
@@ -725,6 +725,9 @@
       line-height: 16px;
       border: 0;
       opacity: 0;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
     }
 
   }
@@ -738,7 +741,36 @@
       }
     }
   }
-
+  .testimonial {
+    position: relative;
+  }
+  .left {
+    position: absolute;
+    top: 40%;
+    left: -15px;
+    z-index: 999;
+  }
+  .right {
+    position: absolute;
+    top: 40%;
+    right: -15px;
+    z-index: 999;
+  }
+  .arrows {
+    i {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #00BB45;
+      color: #fff;
+      text-align: center;
+      border-radius: 50px;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
+      }
+    }
+  }
   .testimonial-items {
 
     .testimonial-item {

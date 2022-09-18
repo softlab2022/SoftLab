@@ -35,7 +35,9 @@ import './components/pricing';
                 centerPadding: '60px',
                 slidesToShow: 3,
                 dots: true,
-                arrows: false,
+                arrows: true,
+                nextArrow: '.right',
+                prevArrow: '.left',
                 responsive: [
                     {
                         breakpoint: 1199,
