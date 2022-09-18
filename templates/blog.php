@@ -1,8 +1,6 @@
-
-
 <?php
 /**
- * Template Name: blog page
+ * Template Name: Blog  Page
  *
  */
 
