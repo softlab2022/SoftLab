@@ -27,6 +27,7 @@ import './components/pricing';
                 contentPadding: '30px',
                 nextArrow: '.right',
                 prevArrow: '.left',
+                adaptiveHeight: true,
             });
 
             $('.testimonial-items').slick({
