@@ -19,13 +19,17 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   border: 1px solid transparent;
   border-radius: 100px;
+  transition: all linear .4s;
 
   &:focus {
     box-shadow: none;
   }
 
   &:hover {
-    border-color: transparent;
+    background: #fff;
+    color: #3C4FF4;
+    border-color: #3C4FF4;
+    transition: all linear .4s;
   }
 }
 

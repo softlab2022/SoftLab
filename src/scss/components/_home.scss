@@ -20,11 +20,12 @@
     .view-products-btn {
       margin-top: 1.5rem;
       padding: 15px 30px;
-
+      transition: all linear .4s;
       &:hover {
         background: #fff;
         color: $color_primary;
         border-color: $color_primary;
+        transition: all linear .4s;
       }
     }
   }
@@ -997,11 +998,16 @@
       padding: 15px 40px;
       color: #6E6DFF;
       font-weight: 700;
+      transition: all linear .4s;
+      &:hover {
+        box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
+        background: #3C4FF4;
+        color: #fff;
+        transition: all linear .4s;
+      }
     }
 
-    &:hover {
-      box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
-    }
+    
   }
 
   @media (min-width: 1200px) {
