@@ -32,10 +32,10 @@
                 <div class="docs-details-item">
                     <div class="docs-products">
                         <div class="docs-head">
-                            <span>Home <i class="fa-solid fa-chevron-right"></i> </span>
-                            <span>Docs <i class="fa-solid fa-chevron-right"></i> </span>
-                            <span>Wp Radio <i class="fa-solid fa-chevron-right"></i> </span>
-                            <span>What is WP Radio?</span>
+                        <a href="/"> Home <i class="fa-solid fa-chevron-right"></i> </a>
+                            <a href="/docs/"> Docs <i class="fa-solid fa-chevron-right"></i> </a>
+                            <a href="/docs-details-wp-radio/"> Wp Radio <i class="fa-solid fa-chevron-right"></i> </a>
+                            <a href="#"> What is WP Radio?</a>
                             <h5>What is WP Radio?</h5>
                             <p>WP Radio is a worldwide online radio stations directory plugin for WordPress. You can easily create a full-featured online radio directory website with the WP Radio plugin. WP Radio has pre-included 52000+ online radio stations from around 190+ countries all over the world.</p>
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/docs/image.png"><br/>

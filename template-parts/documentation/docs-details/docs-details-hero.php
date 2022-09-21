@@ -33,9 +33,9 @@
                 <div class="docs-details-item">
                     <div class="docs-products">
                         <div class="docs-head">
-                            <span>Home <i class="fa-solid fa-chevron-right"></i> </span>
-                            <span>Docs <i class="fa-solid fa-chevron-right"></i> </span>
-                            <span>Wp Radio</span>
+                            <a href="/"> Home <i class="fa-solid fa-chevron-right"></i> </a>
+                            <a href="/docs/"> Docs <i class="fa-solid fa-chevron-right"></i> </a>
+                            <a href="#"> Wp Radio</a>
                             <h5>WP Radio Documentation</h5>
                             <p>How to Use Different Features of WP Dark Mode</p>
                         </div>
