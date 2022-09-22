@@ -7,9 +7,29 @@
                     <h1>What are you looking for?</h1>
                 </div>
             </div>
-            <div class="col-lg-9 m-auto">
+            <div class="col-lg-7 m-auto">
                 <div class="topic text-center">
-                    <h2>{Shortcode}</h2>
+                    <form class="row g-3 needs-validation" novalidate>
+                        
+                            <input type="text" class="form-control" id="validationCustom01" value="Search for topic or question...." required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        
+                            <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">All Categories</option>
+                            <option>Wp Radio</option>
+                            <option>Radio Player</option>
+                            <option>Integrate Google Drive</option>
+                            </select>
+                            <div class="invalid-feedback">
+                            Please select a valid state.
+                            </div>
+                        
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

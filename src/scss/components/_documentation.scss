@@ -13,6 +13,72 @@
         color: $h1_color;
       }
     }
+
+  .topic {
+    form {
+            position: relative;
+            .form-control {
+              display: block;
+              width: 100%;
+              padding: 1.5rem 1rem;
+              font-size: 1rem;
+              color: #212529;
+              border: none;
+              border-radius: 10px;
+              font-size: 1.1rem;
+              font-weight: 400;
+              color: #979797;
+          }
+          .form-control:focus {
+            box-shadow: none;
+        }
+            .form-select {
+              width: max-content;
+              padding: 0;
+              font-size: 1.1rem;
+              font-weight: 500;
+              color: $p_color;
+              line-height: 1.5;
+              background-color: transparent;
+              background-position: right 50px center;
+              border: none;
+              position: absolute;
+              top: 25%;
+              right: 130px;
+              cursor: pointer;
+              transition: all linear .4s;
+              &:hover {
+                color: #4353FF;
+                transition: all linear .4s;
+              }
+          }
+          .form-select:focus {
+            box-shadow: none;
+        }
+          .btn-primary {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #fff;
+            background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+            border-color: transparent;
+            border-radius: 10px;
+            position: absolute;
+            top: 20%;
+            right: 7px;
+            padding: 18px 34px;
+            transition: all linear .4s;
+            &:hover {
+              background: #fff;
+              color: #4353FF;
+              border-color: #4353FF;
+              transition: all linear .4s;
+            }
+        }
+        .btn-check:focus+.btn-primary, .btn-primary:focus {
+          box-shadow: none;
+      }
+      }
+    }
   
     @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
@@ -153,6 +219,71 @@
         color: $h1_color;
       }
     }
+    .topic {
+      form {
+              position: relative;
+              .form-control {
+                display: block;
+                width: 100%;
+                padding: 1.5rem 1rem;
+                font-size: 1rem;
+                color: #212529;
+                border: none;
+                border-radius: 10px;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: #979797;
+            }
+            .form-control:focus {
+              box-shadow: none;
+          }
+              .form-select {
+                width: max-content;
+                padding: 0;
+                font-size: 1.1rem;
+                font-weight: 500;
+                color: $p_color;
+                line-height: 1.5;
+                background-color: transparent;
+                background-position: right 50px center;
+                border: none;
+                position: absolute;
+                top: 25%;
+                right: 130px;
+                cursor: pointer;
+                transition: all linear .4s;
+                &:hover {
+                  color: #4353FF;
+                  transition: all linear .4s;
+                }
+            }
+            .form-select:focus {
+              box-shadow: none;
+          }
+            .btn-primary {
+              font-size: 1.1rem;
+              font-weight: 500;
+              color: #fff;
+              background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+              border-color: transparent;
+              border-radius: 10px;
+              position: absolute;
+              top: 20%;
+              right: 7px;
+              padding: 18px 34px;
+              transition: all linear .4s;
+              &:hover {
+                background: #fff;
+                color: #4353FF;
+                border-color: #4353FF;
+                transition: all linear .4s;
+              }
+          }
+          .btn-check:focus+.btn-primary, .btn-primary:focus {
+            box-shadow: none;
+        }
+        }
+      }
   
     @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
@@ -317,6 +448,72 @@
         color: $h1_color;
       }
     }
+
+    .topic {
+      form {
+              position: relative;
+              .form-control {
+                display: block;
+                width: 100%;
+                padding: 1.5rem 1rem;
+                font-size: 1rem;
+                color: #212529;
+                border: none;
+                border-radius: 10px;
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: #979797;
+            }
+            .form-control:focus {
+              box-shadow: none;
+          }
+              .form-select {
+                width: max-content;
+                padding: 0;
+                font-size: 1.1rem;
+                font-weight: 500;
+                color: $p_color;
+                line-height: 1.5;
+                background-color: transparent;
+                background-position: right 50px center;
+                border: none;
+                position: absolute;
+                top: 25%;
+                right: 130px;
+                cursor: pointer;
+                transition: all linear .4s;
+                &:hover {
+                  color: #4353FF;
+                  transition: all linear .4s;
+                }
+            }
+            .form-select:focus {
+              box-shadow: none;
+          }
+            .btn-primary {
+              font-size: 1.1rem;
+              font-weight: 500;
+              color: #fff;
+              background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+              border-color: transparent;
+              border-radius: 10px;
+              position: absolute;
+              top: 20%;
+              right: 7px;
+              padding: 18px 34px;
+              transition: all linear .4s;
+              &:hover {
+                background: #fff;
+                color: #4353FF;
+                border-color: #4353FF;
+                transition: all linear .4s;
+              }
+          }
+          .btn-check:focus+.btn-primary, .btn-primary:focus {
+            box-shadow: none;
+        }
+        }
+      }
   
     @media (min-width: 992px) and (max-width: 1199px) {
       //Laptop
