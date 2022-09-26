@@ -130,7 +130,11 @@ $features = [
                     <h1>WooCommerce Supports</h1>
                     <p>You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve
                         your Digital Downloads directly from Google Drive.</p>
+                        <div class="vector4">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ellipse-2.png" alt="ellipse-2">
+                        </div>
                 </div>
+                
             </div>
         </div>
 
@@ -143,6 +147,11 @@ $features = [
                 </div>
             </div>
         </div>
-
+        <div class="vector2">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/vector6.png" alt="vector6">
+        </div>
+        <div class="vector3">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/vector5.png" alt="vector5">
+        </div>
     </div>
 </section>

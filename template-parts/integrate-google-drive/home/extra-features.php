@@ -3,6 +3,9 @@
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="ex-feature-head text-center">
+                        <div class="vector5">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ellipse-1.png" alt="ellipse-1">
+                        </div>
                     <h1>Never miss valuable Extra <span>Features</span>.</h1>
                     <p>Let's explore which features are absolute must-haves for any banking app and which ones you can add to stand out and give even more value</p>
                 </div>
@@ -23,7 +26,6 @@
                 </div>
             </div>
 
-
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
@@ -35,7 +37,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
@@ -49,7 +50,6 @@
                 </div>
             </div>
 
-
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
@@ -61,7 +61,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
@@ -75,7 +74,6 @@
                 </div>
             </div>
 
-
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
@@ -87,7 +85,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
@@ -101,7 +98,6 @@
                 </div>
             </div>
 
-
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="ex-feature-item text-center">
                     <div class="ex-logo">
@@ -114,18 +110,26 @@
                 </div>
             </div>
 
-
             <div class="col-lg-4 col-md-6 m-auto">
-                <div class="ex-feature-item2 text-center">
+                <div class="ex-feature-item text-center">
+                    <div class="ex-logo">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/icon9.png" alt="icon8">
+                    </div>
                     <div class="ex-text">
-                        <h4>Checkout more features</h4>
-                        <p>Enjoy our free plan as you get started.We love people who are changing the world</p>
-                        <a href="#">more features <i class="fa-solid fa-arrow-right"></i></a>
+                        <h4> Easy Digital Downloads support</h4>
+                        <p>View all the files downloads, uploads, streams and previews events logs in the statistics page.</p>
                     </div>
                 </div>
             </div>
 
-
         </div>
+        <div class="vector">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ex-vector2.png" alt="ex-vector2">
+        </div>
+
+        <div class="vector1">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ex-vector3.png" alt="ex-vector3">
+        </div>
+        
     </div>
 </section>

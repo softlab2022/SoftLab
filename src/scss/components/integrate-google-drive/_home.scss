@@ -301,9 +301,20 @@
 /**---------- WooCommerce Support ----------**/
 .woocommerce-support {
   background-color: #F5FCF4;
-  padding: 90px 0 0 0;
-
+  padding: 90px 0;
+  position: relative;
+  .vector2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .vector3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .feature-head {
+    position: relative;
     h1 {
       font-weight: 700;
       font-size: 3rem;
@@ -319,16 +330,34 @@
       padding: 0 5rem;
     }
   }
+  .vector4 {
+    position: absolute;
+    top: 15%;
+    right: 0;
+  }
 }
 
 /**---------- ex-feature scss ----------**/
 #ex-feature {
   background-color: #F5FCF4;
   padding: 0 0 90px 0;
+  position: relative;
+
+  .vector {
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+
+  .vector1 {
+    position: absolute;
+    top: 40%;
+    right: 0;
+  }
 
   .ex-feature-head {
     margin-bottom: 5rem;
-
+    position: relative;
     h1 {
       font-weight: bold;
       font-size: 3.5rem;
@@ -346,17 +375,34 @@
       color: $p_color;
     }
   }
+  .vector5 {
+    position: absolute;
+    top: 50%;
+    left: -25%;
+  }
 
   .ex-feature-item {
+    position: relative;
+    z-index: 99;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     height: 290px;
     margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+      border-radius: 20px;
 
+      .ex-logo {
+        transform: translateY(-8px);
+      }
+    }
     .ex-logo {
+      transition: all 0.3s ease-in-out;
       img {
         padding-bottom: 20px;
+        transition: all 0.3s ease-in-out;
       }
     }
 
@@ -379,46 +425,6 @@
     }
   }
 
-  .ex-feature-item2 {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    height: 290px;
-    margin-bottom: 25px;
-    border: 2px dotted #000;
-
-    .ex-text {
-      h4 {
-        font-weight: 700;
-        font-size: 1.4rem;
-        color: $h1_color;
-        line-height: 120%;
-        text-transform: capitalize;
-        padding: 0 29%;
-        margin-top: 10%;
-      }
-
-      p {
-        font-weight: 400;
-        font-size: .8rem;
-        line-height: 150%;
-        color: $p_color;
-        padding: 0 18%;
-        margin-bottom: 12%;
-      }
-
-      a {
-        text-decoration: none;
-        font-size: .8rem;
-        color: #fff;
-        background-color: #01AA47;
-        padding: 15px 35px;
-        border-radius: 8px;
-        text-transform: capitalize;
-      }
-    }
-
-  }
 
   /**---------- responsive-area scss start ----------**/
   @media (min-width: 1200px) {
@@ -428,19 +434,6 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
     //Laptop
-    .ex-feature-item2 {
-
-      .ex-text {
-        h4 {
-          padding: 0;
-        }
-
-        p {
-          padding: 0 9%;
-
-        }
-      }
-    }
     .ex-feature-item {
       .ex-text {
         p {
@@ -483,19 +476,6 @@
         }
       }
     }
-    .ex-feature-item2 {
-
-      .ex-text {
-        h4 {
-          padding: 0;
-        }
-
-        p {
-          padding: 0 9%;
-
-        }
-      }
-    }
   }
 
   @media (min-width: 420px) and (max-width: 767px) {
@@ -507,13 +487,6 @@
 
       p {
         font-size: .785rem;
-      }
-    }
-    .ex-feature-item2 {
-      .ex-text {
-        h4 {
-          padding: 0;
-        }
       }
     }
   }
