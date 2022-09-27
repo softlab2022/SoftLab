@@ -15,7 +15,7 @@
                         <span class="section-head" >HTTP Stream Player</span>
                         <h3>Live stream player for HTTP streaming server</h3>
                         <p>You can play any live mp3, iceCast and Shoutcast stream in your WordPress website. Radio Player can play HTTP streams on an HTTPS website.</p>
-                        <a href="/http-streaming/">Check demo</a>
+                        <a href="/radio-player-http-streaming/">Check demo</a>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                                 <span>Multiple Player Skins</span>
                                 <h3>Use our available multiple player skins. </h3>
                                 <p>Custom skins will be available to have them in our multiplayer just need to customize by yourself.</p>
-                                <a href="/multiple/">Check Demo</a>
+                                <a href="/radio-player-multiple-skins/">Check Demo</a>
                             </div>
                         </div>
                 </div>

@@ -11,7 +11,7 @@
                 <div class="topic text-center">
                     <form class="row g-3 needs-validation" novalidate>
                         
-                            <input type="text" class="form-control" id="validationCustom01" value="Search for topic or question...." required>
+                            <input type="text" class="form-control" id="validationCustom01" required placeholder="Search for topic or question...." >
                             <div class="valid-feedback">
                             Looks good!
                             </div>

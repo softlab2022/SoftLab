@@ -30,13 +30,13 @@
                         Please provide a valid zip.
                         </div>
                             <div class="col-12 text-center">
-                                <button class="btn btn-primary" type="submit">Submit form</button>
+                                <button class="btn btn-primary" type="submit">Cheek URL</button>
                             </div>
                     </form>
             </div>
                 <div class="col-lg-8 m-auto">
                      <div class="image text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/http.png" alt="http">
+                        <?php echo do_shortcode('[radio_player id=138]');?>
                      </div>   
                 </div>
         </div>

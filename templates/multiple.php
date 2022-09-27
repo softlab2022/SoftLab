@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: multiple
+ * Template Name: Radio Player Multiple Skins
  *
  */
 

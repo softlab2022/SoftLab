@@ -81,6 +81,7 @@
         padding: 20px;
         border-radius: 40px;
         margin-bottom: 30px;
+        height: 350px;
         .skin-head {
             p {
                 font-weight: 600;
@@ -93,8 +94,8 @@
            
         }
         .skin-img {
-            background-color: #fff;
-            border-radius: 35px;
+            padding: 30px;
+            text-align: center;
         }
     }
 }
