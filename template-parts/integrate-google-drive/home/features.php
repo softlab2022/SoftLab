@@ -147,11 +147,5 @@ $features = [
                 </div>
             </div>
         </div>
-        <div class="vector2">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/vector6.png" alt="vector6">
-        </div>
-        <div class="vector3">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/vector5.png" alt="vector5">
-        </div>
     </div>
 </section>

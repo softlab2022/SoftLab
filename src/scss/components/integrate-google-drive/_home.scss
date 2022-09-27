@@ -303,15 +303,11 @@
   background-color: #F5FCF4;
   padding: 90px 0;
   position: relative;
-  .vector2 {
+   
+  .vector4 {
     position: absolute;
-    top: 0;
+    top: 15%;
     right: 0;
-  }
-  .vector3 {
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   .feature-head {
     position: relative;
@@ -330,11 +326,33 @@
       padding: 0 5rem;
     }
   }
-  .vector4 {
-    position: absolute;
-    top: 15%;
-    right: 0;
-  }
+
+      &:before {
+        content: "";
+        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        border-radius: 90px;
+        top: 40%;
+        left: 0;
+        box-shadow: inset 0px 0px 40px 20px white;
+        opacity: .08;
+      }
+      &:after {
+        content: "";
+        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        border-radius: 90px;
+        top: 40%;
+        right: 0;
+        box-shadow: inset 0px 0px 40px 20px white;
+        opacity: .08;
+      }
+    
+ 
 }
 
 /**---------- ex-feature scss ----------**/
