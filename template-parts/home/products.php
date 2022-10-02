@@ -18,6 +18,12 @@ $products = [
 		'description' => 'WP Radio is a WordPress plugin that allows you to create a radio station with a custom player.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png',
 	],
+	'reader-mode'               => [
+		'title'       => 'Reader Mode',
+		'description' => 'Reader Mode is a wordpress based pugin that includes Reading Time, Translation
+        Text to Speech,Multiple Buttons & Styles, Multiple Display Positions, Light/ Dark Mode Theme generator and many other features all in one plugin.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/products/reader-mode.png',
+	],
 
 ];
 

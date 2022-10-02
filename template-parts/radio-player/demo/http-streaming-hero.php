@@ -25,12 +25,12 @@
                     <form action="">
                     
                         <label for="validationCustom05" class="form-label"></label>
-                        <input type="text" class="form-control" id="validationCustom05" required placeholder="Enter your Stream URL" >
+                        <input type="url" class="form-control" id="validationCustom05" required placeholder="Enter your Stream URL" >
                         <div class="invalid-feedback">
                         Please provide a valid zip.
                         </div>
                             <div class="col-12 text-center">
-                                <button class="btn btn-primary" type="submit">Cheek URL</button>
+                                <button class="btn btn-primary check-btn" type="submit">Cheek URL</button>
                             </div>
                     </form>
             </div>
