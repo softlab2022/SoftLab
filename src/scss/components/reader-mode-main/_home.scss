@@ -61,26 +61,26 @@
   .demo {
     position: relative;
     top: -60px;
-//     .twentytwenty-left-arrow {
-//       border-right: 6px solid rgba(37, 35, 35, 0.69);
-//   }
-//   .twentytwenty-right-arrow {
-//     border-left: 6px solid rgba(37, 35, 35, 0.69);
-// }
-// .twentytwenty-handle {
-//   color: black;
-//   border: 3px solid rgba(37, 35, 35, 0.69);
-//   &:after, &:before {
-//     background: rgba(37, 35, 35, 0.69);
-//   }
-//   }
-//   .twentytwenty-horizontal {
-//     .twentytwenty-handle {
-//       &:after, &:before {
-//         background: rgba(37, 35, 35, 0.69);
-//       }
-//     }
-//   }
+//      .twentytwenty-left-arrow {
+//        border-right: 6px solid rgba(37, 35, 35, 0.69);
+//    }
+//    .twentytwenty-right-arrow {
+//      border-left: 6px solid rgba(37, 35, 35, 0.69);
+//  }
+//  .twentytwenty-handle {
+//    color: black;
+//    border: 3px solid rgba(37, 35, 35, 0.69);
+//    &:after, &:before {
+//      background: rgba(37, 35, 35, 0.69);
+//    }
+//    }
+//    .twentytwenty-horizontal {
+//      .twentytwenty-handle {
+//        &:after, &:before {
+//          background: rgba(37, 35, 35, 0.69);
+//        }
+//      }
+//    }
 }
 
 /**-----feature area------**/
@@ -536,8 +536,8 @@
         margin-left: 40px;
         transition: all linear .4s;
         &:hover {
-          background: #675ED5;
-          color: #fff;
+          background: #fff;
+          color: #675ED5;
           transition: all linear .4s;
           border-color: #675ED5;
         }

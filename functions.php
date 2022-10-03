@@ -420,11 +420,11 @@ if ( ! function_exists( 'softlab_comment' ) ) :
 		$aria_req = ( $req ? " aria-required='true' required" : '' );
 		$consent  = ( empty( $commenter['comment_author_email'] ) ? '' : ' checked="checked"' );
 		$fields   = array(
-			'author'  => '<div class="form-floating mb-3">
+			'author'  => '<div class="form-floating folat-name mb-3">
 							<input type="text" id="author" name="author" class="form-control" value="' . esc_attr( $commenter['comment_author'] ) . '" placeholder="' . esc_html__( 'Name', 'softlab' ) . ( $req ? '*' : '' ) . '"' . $aria_req . ' />
 							<label for="author">' . esc_html__( 'Name', 'softlab' ) . ( $req ? '*' : '' ) . '</label>
 						</div>',
-			'email'   => '<div class="form-floating mb-3">
+			'email'   => '<div class="form-floating emails mb-3">
 							<input type="email" id="email" name="email" class="form-control" value="' . esc_attr( $commenter['comment_author_email'] ) . '" placeholder="' . esc_html__( 'Email', 'softlab' ) . ( $req ? '*' : '' ) . '"' . $aria_req . ' />
 							<label for="email">' . esc_html__( 'Email', 'softlab' ) . ( $req ? '*' : '' ) . '</label>
 						</div>',
@@ -437,7 +437,7 @@ if ( ! function_exists( 'softlab_comment' ) ) :
 
 		$defaults = array(
 			'fields'               => apply_filters( 'comment_form_default_fields', $fields ),
-			'comment_field'        => '<div class="form-floating mb-3">
+			'comment_field'        => '<div class="form-floating comments mb-3">
 											<textarea id="comment" name="comment" class="form-control" aria-required="true" required placeholder="' . esc_attr__( 'Comment', 'softlab' ) . ( $req ? '*' : '' ) . '"></textarea>
 											<label for="comment">' . esc_html__( 'Comment', 'softlab' ) . '</label>
 										</div>',

@@ -19,11 +19,11 @@
 
 <section>
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg m-auto">
                 <div class="demo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/image.png" alt="light-dark-mode">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/image.png" alt="reading-time">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/feature/reading-time.png" alt="reading-time">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/feature/text-speech.png" alt="text-speech">
                 </div>
             </div>
         </div>
