@@ -17,6 +17,7 @@ class SoftLaB_Nav {
 					'integrate-google-drive-menu' => 'Integrate Google Drive Menu',
 					'radio-player-menu'           => 'Radio Player Menu',
 					'wp-radio-menu'               => 'WP Radio Menu',
+					'reader-mode-menu'            => 'Reader Mode Menu',
 				)
 			);
 		}

@@ -122,6 +122,7 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    margin-bottom: 30px;
 
     .product-title {
       font-size: 1.5rem;
@@ -174,6 +175,19 @@
       &:hover {
         .products-butt {
           color: #2FB34B;
+        }
+      }
+
+    }
+    &.product-reader-mode {
+      
+      .product-title {
+        color: #675ED5;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #675ED5;
         }
       }
 
@@ -501,6 +515,7 @@
 
 /**---------- feature Area ----------**/
 #feature {
+  background-color: #EEF2FE;
   padding-top: 8%;
   padding-bottom: 8%;
   position: relative;
@@ -558,7 +573,7 @@
         font-weight: 400;
         font-size: .9rem;
         line-height: 150%;
-        padding: 1% 16%;
+        padding: 0 1rem;
       }
     }
   }

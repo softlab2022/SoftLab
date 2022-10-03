@@ -2,7 +2,7 @@
 
 <?php
 /**
- * Template Name: http-streaming
+ * Template Name: Radio Player Http Streaming
  *
  */
 

@@ -224,9 +224,9 @@
           color: #5C637E;
         }
 
-        &.active, &:active, {
-          background-color: #e9ecef;
-        }
+        // &.active, &:active, {
+        //   background-color: #e9ecef;
+        // }
 
       }
     }
@@ -292,6 +292,19 @@
           &:hover {
             background: $wp_radio_color;
             color: #fff;
+            border-color: $wp_radio_color;
+          }
+
+        }
+      }
+      &-reader-mode {
+        a {
+          background: $wp_radio_color;
+          color: #fff;
+
+          &:hover {
+            background: #fff;
+            color: $wp_radio_color;
             border-color: $wp_radio_color;
           }
 
