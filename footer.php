@@ -12,22 +12,22 @@
 				'facebook'  => [
 					'title' => 'Facebook',
 					'icon'  => 'fa-brands fa-facebook-f',
-					'url'   => 'https://www.facebook.com/softlabwp/',
+					'url'   => 'https://www.facebook.com/softlabbd',
 				],
 				'twitter'   => [
 					'title' => 'Twitter',
 					'icon'  => 'fa-brands fa-twitter',
-					'url'   => 'https://twitter.com/softlabwp',
+					'url'   => 'https://twitter.com/softlab_',
 				],
 				'youtube'   => [
 					'title' => 'Youtube',
 					'icon'  => 'fa-brands fa-youtube',
-					'url'   => 'https://www.youtube.com/channel/UC0ZVrjY8QX5Z7K9QXqQXj9w',
+					'url'   => 'https://www.youtube.com/channel/UCtDcr4ignMbaryNP-4RC-rw',
 				],
 				'wordpress' => [
 					'title' => 'WordPress',
 					'icon'  => 'fa-brands fa-wordpress',
-					'url'   => 'https://wordpress.org/themes/softlab/',
+					'url'   => 'https://profiles.wordpress.org/softlab/',
 				],
 			];
 			?>
