@@ -315,6 +315,7 @@
     transform: translateX(-50%);
     width: 85%;
   }
+
   .compat-head {
     span {
       font-weight: 800;
@@ -322,6 +323,7 @@
       line-height: 120%;
       color: #25252C;
     }
+
     p {
       font-size: 1rem;
       font-weight: 400;
@@ -329,9 +331,11 @@
       color: #3D3D3D;
       padding: 20px 50px;
     }
+
     img {
       padding-bottom: 100px;
     }
+
     a {
       padding: 19px 28px;
       background: #675ED5;
@@ -350,9 +354,10 @@
         box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
       }
     }
-  }
 
+  }
 }
+
 /**-----testmonial area------**/
 .testimonial {
   background-color: #EFEEF8;
