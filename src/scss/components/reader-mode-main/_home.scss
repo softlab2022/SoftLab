@@ -141,7 +141,7 @@
             padding: 15px 35px;
             background-color: #675ED5;
             color: #fff;
-            border-radius: 50px;
+            border-radius: 10px;
             font-weight: 600;
             font-size: 1rem;
             transition: all linear .3s;
@@ -190,9 +190,21 @@
     border-radius: 20px;
     margin-bottom: 25px;
     height: 350px;
+    transition: all linear .3s;
+      &:hover {
+        background: #D9D7F4;
+        box-shadow: 9px 10px 3px rgba(159, 153, 227, 0.14);
+        transition: all linear .3s;
+        .item-logo {
+          transform: translateY(-8px);
+          transition: all linear .3s;
+        }
+      }
+    
 
     .item-logo {
       padding-bottom: 25px;
+      transition: all linear .3s;
     }
 
     .ex-text {
@@ -280,14 +292,28 @@
   
 /**-----wide compatibility area------**/
 .compatibility {
-  background: url("../images/reader-mode/home/compat/bg-shape.png") no-repeat 0 20rem / contain #E8E7F8;
+  background: url("../images/reader-mode/home/compat/bg-shape.png"), #E8E7F8;
   padding: 160px 0 350px 0;
-  position: relative;
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 48%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(181.37deg, rgba(21, 27, 47, 0.35) 24.1%, rgba(92, 94, 123, 0.04) 66.62%, rgba(255, 255, 255, 0) 104.85%);
+    transform: rotate(-180deg);
+}
   .img {
     position: absolute;
     bottom: 30px;
-    left: 29px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
   }
   .compat-head {
     span {
@@ -304,7 +330,7 @@
       padding: 20px 50px;
     }
     img {
-      padding-bottom: 50px;
+      padding-bottom: 100px;
     }
     a {
       padding: 19px 28px;
@@ -325,6 +351,7 @@
       }
     }
   }
+
 }
 /**-----testmonial area------**/
 .testimonial {

@@ -77,8 +77,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-8 m-auto">
                 <div class="ex-head text-center">
-                    <h1>Never miss more valuable  Features.</h1>
-                    <p>Let's explore which features are absolute you can add to stand out and give even more value</p>
+                    <h1>Never miss more <br> valuable  Features.</h1>
+                    <p>Let's explore which features are absolute you can <br> add to stand out and give even more value</p>
                 </div>
             </div>
         </div>
