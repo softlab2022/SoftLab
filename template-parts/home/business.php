@@ -19,8 +19,7 @@
                     </div>
 
                     <h2>Grow Your Business Using Our Products</h2>
-                    <p>Web page editors of the printing and typesetting has been the industry's standard dummy
-                        text.Ever, when an unknown.</p>
+                    <p>We aim to drive your business growth way better than before. Use our professionally developed WordPress solutions to increase conversions, ROI, and business image</p>
                     <a href="/products" class="btn btn-primary">Discover More</a>
 
                 </div>

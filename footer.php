@@ -33,14 +33,13 @@
 			?>
             <div class="col-lg-4 col-md-6">
                 <div class="footer-logo">
-                    <a href="https://softlabbd.com/"><img class="img-fluid"
-                                                          src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png"
-                                                          alt="footer-logo"></a>
+                    <a href="https://softlabbd.com/">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt="footer-logo">
+                        </a>
                 </div>
 
                 <div class="footer-contant">
-                    <p>Experience remarkable WordPress products with a new level of power, beauty, and human-centered
-                        designs.</p>
+                    <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth.</p>
                 </div>
 
                 <div class="footer-social">
@@ -79,7 +78,7 @@
 				'integrate-google-drive' => 'Integrate Google Drive',
 				'radio-player'           => 'Radio Player',
 				'wp-radio'               => 'WP Radio',
-				'reader-mode'               => 'Reader Mode',
+				// 'reader-mode'               => 'Reader Mode',
 			];
 			?>
             <div class="col-lg-3 col-6 col-md-6">

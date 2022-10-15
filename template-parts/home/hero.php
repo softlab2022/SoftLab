@@ -6,8 +6,7 @@
                 <div class="hero-content">
                     <h1>We Build Awesome Solutions for WordPress</h1>
                     <p>
-                        We aim to make WordPress way better and empower your
-                        business by providing top-notch WordPress products and services.
+                        We Develop Identical & Creative Products to Make WordPress Better, Faster, and Easier. Over 10K+ Happy Customers Who Exhibited Business to Next-Level from Our Products.
                     </p>
                     <a href="/products" class="btn btn-primary view-products-btn">View Products</a>
                 </div>
