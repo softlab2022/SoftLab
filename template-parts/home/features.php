@@ -54,8 +54,7 @@ $features = [
             <div class="col-lg-6 m-auto">
                 <div class="feature-head text-center">
                     <h2 class="feature-title">What's so special about SofLab?</h2>
-                    <p class="feature-description">We help small businesses around the world with amazing products that
-                        solve their business and web problems.</p>
+                    <p class="feature-description">We help growing and solving small businesses around the world with our unique products and solutions</p>
                 </div>
             </div>
         </div>

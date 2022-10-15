@@ -34,7 +34,7 @@
                     <div class="wp-feat-content">
                         <div class="file-text">
                             <span>Reading Time</span>
-                            <p>Reader Mode adds a reading time for the users to know how much time they need to read the post/ article.</p>
+                            <p>Reader Mode adds a reading time for the users to know how <br> much time they need to read the post/ article.</p>
                             <a href="#">Get Started</a>
                         </div>
                     </div>
