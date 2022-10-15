@@ -60,7 +60,7 @@ $features = [
 
 	],
 	[
-		'title'       => 'Audio & Video Player',
+		'title'       => 'Media Player',
 		'description' => 'Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.',
 		'pro'         => false,
 

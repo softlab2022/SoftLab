@@ -1,7 +1,7 @@
 <?php
 
 $features = [
-	'easy-to-customize' => [
+	'easy-to-customize'     => [
 		'title'       => 'Easy to Customize',
 		'description' => 'Change the design through a range of options in t he WordPress Customizer. No coding knowledge necessary!',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/easy.png',
@@ -11,23 +11,23 @@ $features = [
 		'description' => 'Check out our detailed online documentation and video tutorials to find out more about what you can do.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/documentation.png',
 	],
-    'money-back-guarantee' => [
+	'money-back-guarantee'  => [
 		'title'       => 'Money-Back Guarantee',
 		'description' => 'User-centric product creation is our prime concern. Our products are based on maintaining the most user-friendly',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/money.png',
 	],
-    'highly-rated-support' => [
+	'highly-rated-support'  => [
 		'title'       => 'Highly-Rated Support',
-		'description' => 'Best Buy and well-known by consumers everywhere, We focused one of the most helpful wordpress plugin',
+		'description' => 'We have dedicated support team to provide you fast, friendly & top-notch customer support.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/support.png',
 	],
-	'regular-updates' => [
+	'regular-updates'       => [
 		'title'       => 'Regular Updates',
 		'description' => 'Plugins and themes require regular maintenance. Plugin and theme authors routinely release updates for bug fixes',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/updates.png',
 	],
-	
-    'top-nothch-security' => [
+
+	'top-nothch-security' => [
 		'title'       => 'Top Notch Security',
 		'description' => 'Change the design through a range of options in the WordPress Customizer. No coding knowledge necessary!',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/security.png',
@@ -80,6 +80,7 @@ $features = [
     </div>
 
     <div class="feature-vector1">
-        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/features/vector3.png">
+        <img class="img-fluid"
+             src="<?php echo get_template_directory_uri(); ?>/assets/images/home/features/vector3.png">
     </div>
 </section>
