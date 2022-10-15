@@ -105,6 +105,9 @@ $features = [
                                 <span><i class="fa-solid fa-check"></i> Contact Form 7</span>
                                 <span><i class="fa-solid fa-check"></i> WPForms</span>
                                 <span><i class="fa-solid fa-check"></i> GravityForms</span>
+                                <span><i class="fa-solid fa-check"></i> NinjaForms</span>
+                                <span><i class="fa-solid fa-check"></i> FluentForms</span>
+                                <span><i class="fa-solid fa-check"></i> FormidableForms</span>
                             </div>
 						<?php } ?>
 

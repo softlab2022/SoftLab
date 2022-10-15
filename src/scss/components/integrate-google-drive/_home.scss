@@ -36,18 +36,21 @@
       padding: 15px 35px;
       border-radius: 8px;
       transition: all linear .4s;
+
       &:hover {
         background-color: #fff;
         color: #01AA47;
         transition: all linear .4s;
       }
     }
+
     .get1 {
       color: #01AA47;
       border: 1px solid #01AA47;
       border-radius: 8px;
       padding: 15px 35px;
       transition: all linear .4s;
+
       &:hover {
         background-color: #01AA47;
         color: #fff;
@@ -55,6 +58,7 @@
       }
     }
   }
+
   /**---------- inner-header-bg scss ----------**/
 
   /**---------- responsive-area scss start ----------**/
@@ -204,6 +208,7 @@
 
     .feature-integrations {
       display: flex;
+      flex-wrap: wrap;
 
       span {
         font-weight: 500;
@@ -212,6 +217,7 @@
         color: $h1_color;
         text-transform: capitalize;
         margin-right: 1rem;
+        margin-bottom: 15px;
       }
 
       .fa-check {
@@ -284,6 +290,11 @@
     &.feature-form {
       margin: 0;
       padding: 0;
+
+      .feature-item-img {
+        text-align: center;
+      }
+
     }
 
     &.flex-row-reverse {
@@ -303,14 +314,16 @@
   background-color: #F5FCF4;
   padding: 90px 0;
   position: relative;
-   
+
   .vector4 {
     position: absolute;
     top: 15%;
     right: 0;
   }
+
   .feature-head {
     position: relative;
+
     h1 {
       font-weight: 700;
       font-size: 3rem;
@@ -327,32 +340,33 @@
     }
   }
 
-      &:before {
-        content: "";
-        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        border-radius: 90px;
-        top: 40%;
-        left: 0;
-        box-shadow: inset 0px 0px 40px 20px white;
-        opacity: .08;
-      }
-      &:after {
-        content: "";
-        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        border-radius: 90px;
-        top: 40%;
-        right: 0;
-        box-shadow: inset 0px 0px 40px 20px white;
-        opacity: .08;
-      }
-    
- 
+  &:before {
+    content: "";
+    background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 90px;
+    top: 40%;
+    left: 0;
+    box-shadow: inset 0px 0px 40px 20px white;
+    opacity: .08;
+  }
+
+  &:after {
+    content: "";
+    background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 90px;
+    top: 40%;
+    right: 0;
+    box-shadow: inset 0px 0px 40px 20px white;
+    opacity: .08;
+  }
+
+
 }
 
 /**---------- ex-feature scss ----------**/
@@ -376,6 +390,7 @@
   .ex-feature-head {
     margin-bottom: 5rem;
     position: relative;
+
     h1 {
       font-weight: bold;
       font-size: 3.5rem;
@@ -393,6 +408,7 @@
       color: $p_color;
     }
   }
+
   .vector5 {
     position: absolute;
     top: 50%;
@@ -408,6 +424,7 @@
     height: 290px;
     margin-bottom: 25px;
     transition: all 0.3s ease-in-out;
+
     &:hover {
       box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
       border-radius: 20px;
@@ -416,8 +433,10 @@
         transform: translateY(-8px);
       }
     }
+
     .ex-logo {
       transition: all 0.3s ease-in-out;
+
       img {
         padding-bottom: 20px;
         transition: all 0.3s ease-in-out;
@@ -729,21 +748,25 @@
       }
     }
   }
+
   .testimonial {
     position: relative;
   }
+
   .left {
     position: absolute;
     top: 40%;
     left: -15px;
     z-index: 999;
   }
+
   .right {
     position: absolute;
     top: 40%;
     right: -15px;
     z-index: 999;
   }
+
   .arrows {
     i {
       width: 40px;
@@ -754,11 +777,13 @@
       text-align: center;
       border-radius: 50px;
       cursor: pointer;
+
       &:hover {
         box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
       }
     }
   }
+
   .testimonial-items {
 
     .testimonial-item {
@@ -865,6 +890,7 @@
       background-color: #00BB45;
       color: #fff;
       transition: all linear .4s;
+
       &:hover {
         background-color: #fff;
         color: #01AA47;
@@ -879,6 +905,7 @@
       color: #00BB45;
       margin-left: 40px;
       transition: all linear .4s;
+
       &:hover {
         background-color: #01AA47;
         color: #fff;
