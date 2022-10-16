@@ -2,9 +2,9 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-8 m-auto">
+            <div class="col-lg-10 m-auto">
                 <div class="industry-head text-center">
-                    <h2>14-day money back guarantee with industry leading 24/7 support</h2>
+                    <h2>We offer 7-days money-back guarantee</h2>
                 </div>
             </div>
         </div>

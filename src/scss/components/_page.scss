@@ -1,4 +1,8 @@
-body.page, body.single, {
+body.page,
+body.single,
+body.archive,
+body.search,
+{
   background: linear-gradient(180.71deg, #6C9EFF -150px, rgba(249, 250, 255, 0) 400px) no-repeat center top;
 
   .title-header {
@@ -53,3 +57,13 @@ figure {
   }
 }
 
+
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1.2rem;
+
+  li {
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+  }
+}

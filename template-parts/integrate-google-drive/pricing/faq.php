@@ -2,8 +2,8 @@
 
 $faqs = [
 	[
-		'question' => 'I couldn’t upload large files to Google Drive?',
-		'answer'   => 'You can upload a file maximum size of the upload_max_filesize setting that is configured on your server. If your server upload_max_filesize is set to 50Mb then you can upload a file maximum size of 50Mb.',
+		'question' => 'Is there any upload size limit for the File Uploader module?',
+		'answer'   => 'No, there is no upload size limit for the File Uploader module. You can upload any file size.',
 	],
 	[
 		'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
@@ -51,13 +51,16 @@ $faqs = [
 					<?php foreach ( $faqs as $key => $faq ) { ?>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="heading-<?php echo $key; ?>">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $key; ?>" aria-controls="collapse-<?php echo $key; ?>" aria-expanded="false">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-<?php echo $key; ?>"
+                                        aria-controls="collapse-<?php echo $key; ?>" aria-expanded="false">
 									<?php echo $faq['question']; ?>
-									<i class="fa-solid fa-chevron-down"></i>
+                                    <i class="fa-solid fa-chevron-down"></i>
                                 </button>
                             </h2>
 
-                            <div id="collapse-<?php echo $key; ?>" class="accordion-collapse collapse" aria-labelledby="collapse-<?php echo $key; ?>" data-bs-parent="#faq-accordion">
+                            <div id="collapse-<?php echo $key; ?>" class="accordion-collapse collapse"
+                                 aria-labelledby="collapse-<?php echo $key; ?>" data-bs-parent="#faq-accordion">
                                 <div class="accordion-body">
 									<?php echo $faq['answer']; ?>
                                 </div>
