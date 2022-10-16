@@ -31,11 +31,13 @@
 				],
 			];
 			?>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
                 <div class="footer-logo">
                     <a href="https://softlabbd.com/">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png" alt="footer-logo">
-                        </a>
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png"
+                             alt="footer-logo">
+                    </a>
                 </div>
 
                 <div class="footer-contant">
@@ -53,7 +55,7 @@
             </div>
 
             <!-- Resources Menu -->
-            <div class="col-lg-2 col-6 col-md-6">
+            <div class="col-lg-2 col-6 col-md-6 mb-md-5">
                 <div class="footer-menu-head">
                     <h4>Resources</h4>
                 </div>
@@ -124,7 +126,7 @@
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
 
-            <div class="col-md-12 d-flex align-items-center justify-content-between">
+            <div class="col-md-12 d-flex align-items-center justify-content-between flex-column flex-md-row">
                 <p>© <?php echo date( 'Y' ); ?> SoftLab. All rights reserved.</p>
 
                 <div class="footer-menu-bottom">

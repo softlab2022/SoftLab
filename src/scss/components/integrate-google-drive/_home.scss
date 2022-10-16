@@ -59,57 +59,17 @@
     }
   }
 
-  /**---------- inner-header-bg scss ----------**/
-
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-    padding: 115px 0 0px 0;
+  @media (max-width: 991px) {
     .hero-content {
       h1 {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
       }
 
       p {
-        font-size: .9rem;
-        padding: 3% 12%;
-      }
-    }
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .hero-content {
-      h1 {
-        font-size: 2.6rem;
-      }
-
-      p {
-        font-size: .9rem;
-        padding: 3% 12%;
+        padding: 2rem 0;
       }
     }
   }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .hero-content {
-      h1 {
-        font-size: 1.9rem;
-      }
-
-      p {
-        font-size: .9rem;
-        padding: 3% 10px;
-      }
-    }
-  }
-  /**---------- responsive-area scss end ----------**/
 
 }
 
@@ -131,6 +91,18 @@
       left: 0;
       box-shadow: inset 0px 0px 40px 20px white;
       opacity: .08;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .hero-image {
+      margin-left: -50px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hero-image {
+      margin-left: 0;
     }
   }
 
@@ -306,6 +278,42 @@
 
   }
 
+  @media (min-width:  1400px) {
+    .feature-item {
+      &.flex-row-reverse {
+        .feature-item-content {
+          padding-left: 60px;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 767px) {
+
+    .section-head {
+      p {
+        padding: 2rem 0;
+      }
+    }
+
+    .feature-item {
+      padding: 50px 0;
+
+      .feature-integrations {
+        justify-content: center;
+      }
+
+      .feature-demo-btn {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .feature-item-content {
+        padding: 0 !important;
+      }
+    }
+
+  }
 
 }
 
@@ -366,6 +374,14 @@
     opacity: .08;
   }
 
+
+  @media (max-width: 767px) {
+    .feature-head {
+      p {
+        padding: 0;
+      }
+    }
+  }
 
 }
 
@@ -462,72 +478,26 @@
     }
   }
 
+  @media (max-width: 767px) {
+    .ex-feature-head {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
 
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
     .ex-feature-item {
+      height: auto;
+      padding: 20px 0;
+      text-align: center;
+
       .ex-text {
         p {
-          padding: 0 9%;
-
+          padding: 0 5%;
         }
       }
     }
-    .ex-feature-head {
-      h1 {
-        font-size: 2.8rem;
-      }
 
-      p {
-        padding: 0;
-        font-size: .785rem;
-        padding-bottom: 30px;
-      }
-    }
   }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .ex-feature-head {
-      h1 {
-        font-size: 2.2rem;
-      }
-
-      p {
-        padding: 0 85px;
-        font-size: .785rem;
-        padding-bottom: 30px;
-      }
-    }
-    .ex-feature-item {
-      .ex-text {
-        p {
-          padding: 0 9%;
-
-        }
-      }
-    }
-  }
-
-  @media (min-width: 420px) and (max-width: 767px) {
-    //Mobile
-    .ex-feature-head {
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: .785rem;
-      }
-    }
-  }
-  /**---------- responsive-area scss end ----------**/
 
 }
 
@@ -603,80 +573,21 @@
     background-color: #EFF9FF;
   }
 
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
+  @media (max-width: 767px) {
     .how-to-use-head {
       h1 {
-        font-size: 3rem;
-        padding-bottom: 10px;
+        font-size: 2.5rem;
       }
 
       p {
-        padding: 0 50px;
-        font-size: .785rem;
-        margin-bottom: 30px;
+        padding: 2% 5%;
       }
     }
+
     .use-item {
-      .use-text {
-        p {
-          font-size: .9rem;
-        }
-      }
+      height: auto;
     }
   }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .how-to-use-head {
-      h1 {
-        font-size: 2rem;
-        padding-bottom: 10px;
-      }
-
-      p {
-        padding: 0 50px;
-        font-size: .785rem;
-        margin-bottom: 30px;
-      }
-    }
-    .use-item {
-      .use-text {
-        p {
-          font-size: .7rem;
-        }
-      }
-    }
-  }
-
-  @media (min-width: 420px) and (max-width: 767px) {
-    //Mobile
-    .how-to-use-head {
-      h1 {
-        font-size: 1.9rem;
-        padding-bottom: 10px;
-      }
-
-      p {
-        padding: 0;
-        font-size: .785rem;
-        margin-bottom: 30px;
-      }
-    }
-    .use-item {
-      .use-text {
-        p {
-          font-size: .785rem;
-        }
-      }
-    }
-  }
-  /**---------- responsive-area scss end ----------**/
 
 }
 
@@ -845,6 +756,31 @@
         color: $h1_color;
         padding-left: 10px;
         padding-top: 5px;
+      }
+    }
+  }
+
+
+  @media (max-width: 991px) {
+    .left {
+      left: -15px;
+    }
+
+    .right {
+      right: -15px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .section-head {
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .testimonial-items {
+      .testimonial-item {
+        height: auto;
       }
     }
   }

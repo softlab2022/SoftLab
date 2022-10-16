@@ -49,7 +49,7 @@ $features = [
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6 m-auto">
+            <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
                     <h1>Amazing Drive Integration <span>Features</span>.</h1>
                     <p>Best and most productive integrations for Google Drive. Learn how to connect with us.</p>
@@ -83,7 +83,7 @@ $features = [
                 </div>
 
                 <div class="<?php echo $content_class; ?>">
-                    <div class="feature-item-content">
+                    <div class="feature-item-content text-center text-md-start">
 
 						<?php if ( ! $is_integration ) { ?>
                             <img class="img-fluid feature-icon"
@@ -111,7 +111,10 @@ $features = [
                             </div>
 						<?php } ?>
 
-						<?php if ( ! $is_integration && !in_array($key, ['multiple-accounts', 'shortcode-builder' ] ) ) { ?>
+						<?php if ( ! $is_integration && ! in_array( $key, [
+								'multiple-accounts',
+								'shortcode-builder'
+							] ) ) { ?>
                             <a href="/integrate-google-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
 						<?php } ?>
 
@@ -133,11 +136,13 @@ $features = [
                     <h1>WooCommerce Supports</h1>
                     <p>You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve
                         your Digital Downloads directly from Google Drive.</p>
-                        <div class="vector4">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ellipse-2.png" alt="ellipse-2">
-                        </div>
+                    <div class="vector4">
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ellipse-2.png"
+                             alt="ellipse-2">
+                    </div>
                 </div>
-                
+
             </div>
         </div>
 

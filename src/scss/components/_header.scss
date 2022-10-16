@@ -29,9 +29,11 @@
         &:hover .dropdown-menu {
           display: block;
         }
+
         .dropdown-item.active {
           background: #e9ecef;
         }
+
         .arrow {
           width: 15px;
           height: 15px;
@@ -104,7 +106,7 @@
           }
 
         }
-       
+
       }
 
       &.radio-player-nav {
@@ -129,8 +131,9 @@
     .navbar-brand {
       padding: 0;
 
-
       &.brand-integrate-google-drive {
+        margin-right: auto;
+
         img {
           height: 45px;
         }
@@ -290,6 +293,7 @@
 
         }
       }
+
       &-reader-mode {
         a {
           background: $wp_radio_color;
@@ -337,138 +341,22 @@
 
     }
 
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .navbar-expand-md {
-      .navbar-nav {
-        .nav-link {
-          padding-right: 0.5rem;
-          padding-left: 0.5rem;
-          font-size: 1rem;
-        }
-      }
-    }
-    .primary-nav {
-      .navbar-nav {
-        .nav-item {
-          margin: 0 1rem;
-        }
-      }
-
-      .navbar-brand {
-        img {
-          width: 124px;
-        }
-      }
-
-      .view-products {
-        margin-left: 0;
-        font-size: .9rem;
-
-      }
-
-      .btn {
-        padding: .5rem .7rem;
-      }
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    .navbar-expand-md {
-      .navbar-nav {
-        .nav-link {
-          padding-right: 0;
-          padding-left: 0;
-          font-size: 1rem;
-        }
-      }
-    }
-    .primary-nav {
-      .navbar-nav {
-        .nav-item {
-          margin: 0 .5rem;
-        }
-      }
-
-      .navbar-brand {
-        img {
-          width: 124px;
-        }
-      }
-
-      .view-products {
-        margin-left: 0;
-        font-size: .9rem;
-
-      }
-
-      .btn {
-        padding: .5rem .7rem;
-      }
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    .primary-nav {
-      padding-top: 1rem;
-
-      .navbar-nav {
-        .nav-item {
-          a {
-            text-align: center;
-          }
-        }
-      }
-
-      .navbar-brand {
-        img {
-          width: 124px;
-        }
-      }
-
+    @media (max-width: 1199px) {
       .navbar-collapse {
-        background: #fff;
-        border-radius: .5rem;
-        padding: 1rem;
+        background: #FFF;
+        margin-top: 20px;
+        padding: 30px;
       }
 
-      .megamenu {
-        padding: 0;
-        width: 100%;
+      .buy-now-btn {
+        margin: 20px 10px;
 
-        .mega-item {
-          padding: .5rem 0;
-          border-bottom: 1px solid #eee;
-
-          img {
-            width: 40px;
-          }
-
-          .mega-text-title {
-            font-size: 1rem;
-          }
-
+        a{
+          padding: 10px;
         }
       }
-
-      .view-products {
-        margin-top: .5rem;
-        margin-left: 0;
-      }
-
-
-      button:focus:not(:focus-visible) {
-        outline: 0;
-        box-shadow: none;
-      }
     }
-    .navbar-light {
-      .navbar-toggler {
-        border: none;
 
-      }
-    }
   }
 
 }

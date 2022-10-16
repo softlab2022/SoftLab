@@ -11,7 +11,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img1.png" alt="img1">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item use-item2 d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img2.png" alt="img2">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item use-item3 d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img3.png" alt="img3">
@@ -46,8 +46,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item use-item4 d-flex justify-content-start align-items-center">
                     <div class="use-img">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img4.png" alt="img4">

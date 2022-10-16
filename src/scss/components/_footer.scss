@@ -45,6 +45,7 @@
 
   .footer-menu-products {
     margin-bottom: 50px;
+
     a {
       display: block;
       text-decoration: none;
@@ -64,6 +65,7 @@
       &.product-wp-radio:hover {
         color: $wp_radio_color;
       }
+
       &.product-reader-mode:hover {
         color: #574DCC;
       }
@@ -278,6 +280,13 @@
     }
   }
 
+  @media (max-width: 767px) {
+    .footer-contant {
+      p {
+        padding-right: 0;
+      }
+    }
+  }
 
 }
 

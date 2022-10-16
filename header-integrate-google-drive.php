@@ -26,7 +26,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
     <header class="site-header">
         <div class="container">
             <div class="row">
-                <nav class="navbar navbar-expand-md primary-nav <?php echo esc_attr( $navbar_scheme );
+                <nav class="navbar navbar-expand-xl primary-nav <?php echo esc_attr( $navbar_scheme );
 				if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' fixed-top';
                 elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' fixed-bottom'; endif;
                 if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
