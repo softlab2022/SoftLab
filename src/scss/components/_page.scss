@@ -55,15 +55,14 @@ figure {
     font-weight: 700;
     margin-top: 1.2em;
   }
-}
 
+  ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.2rem;
 
-ul, ol {
-  margin-left: 1.5rem;
-  margin-bottom: 1.2rem;
-
-  li {
-    margin-bottom: 0.5rem;
-    font-size: 20px;
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 20px;
+    }
   }
 }

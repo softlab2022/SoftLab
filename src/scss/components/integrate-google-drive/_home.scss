@@ -278,7 +278,7 @@
 
   }
 
-  @media (min-width:  1400px) {
+  @media (min-width: 1400px) {
     .feature-item {
       &.flex-row-reverse {
         .feature-item-content {
@@ -291,6 +291,10 @@
   @media(max-width: 767px) {
 
     .section-head {
+      h1{
+        font-size: 2.5rem;
+      }
+
       p {
         padding: 2rem 0;
       }
@@ -576,7 +580,7 @@
   @media (max-width: 767px) {
     .how-to-use-head {
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
 
       p {
@@ -586,6 +590,14 @@
 
     .use-item {
       height: auto;
+
+      .use-text {
+        p {
+          font-weight: 300;
+          font-size: .875rem;
+        }
+      }
+
     }
   }
 
@@ -774,7 +786,11 @@
   @media (max-width: 767px) {
     .section-head {
       h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+      }
+
+      p {
+        padding: 0 30px;
       }
     }
 
@@ -847,6 +863,19 @@
         color: #fff;
         transition: all linear .4s;
         box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 50px 0;
+    .cta-content {
+      h3 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding: 0 30px;
       }
     }
   }

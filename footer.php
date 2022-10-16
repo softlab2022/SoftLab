@@ -101,7 +101,7 @@
             </div>
 
             <!-- Newsletter -->
-            <div class="col-lg-3 col-10 col-md-6">
+            <div class="col-lg-3 col-10 col-md-6 m-auto">
                 <div class="footer-menu-head">
                     <h4>Subscribe to Our Newsletter</h4>
                 </div>
