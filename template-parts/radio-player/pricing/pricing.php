@@ -27,7 +27,7 @@ $pro_features = [
 <section id="pricing-hero">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
                     <h2>Simple Pricing, Unbeatable Value</h2>
                     <p>Join 2000+ User's Happy Community</p>

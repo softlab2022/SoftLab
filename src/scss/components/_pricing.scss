@@ -19,6 +19,21 @@
       padding-bottom: 120px;
     }
   }
+  @media (max-width: 1199.98px) {
+    .hero-content {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  }
+  @media(max-width: 767px) {
+    .hero-content {
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  
 }
 
 #pricing {
@@ -290,6 +305,52 @@
       }
     }
   }
+  @media (max-width: 1199.98px) {
+    .price-table {
+      .price-features {
+        .feature-item {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          span {
+            font-size: .9rem;
+          }
+        }
+      }
+     }
+  }
+
+  @media (max-width: 991.98px) {
+    .price-table {
+      .price-features {
+        .feature-item {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          span {
+            font-size: .8rem;
+          }
+        }
+      }
+     }
+  }
+
+  @media(max-width: 767px) {
+   .price-table {
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+    .price-features {
+      .feature-item {
+        span {
+          font-size: .8rem;
+        }
+      }
+    }
+   }
+   .table-pro {
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+   }
+  }
 }
 
 #industry {
@@ -325,7 +386,23 @@
       padding-top: 28px;
     }
   }
+  @media (max-width: 991.98px) {
+    .indu-item {
+      margin-bottom: 25px;
+    }
+  }
 
+  @media(max-width: 767px) {
+    .industry-head {
+      h2 {
+        font-size: 2.2rem;
+      }
+    }
+    .indu-item {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+  }
 }
 
 #features {
@@ -469,6 +546,38 @@
       border-top: 1px solid #00BB45;
     }
   }
+  @media(max-width: 767px) {
+    .section-header {
+      h2 {
+        font-size: 2.2rem;
+      }
+    }
+    .features-header {
+      h5 {
+        font-size: 1.7rem;
+      }
+      .feature-type.type-free {
+        font-size: 1.7rem;
+      }
+      .feature-type{
+        font-size: 1.7rem;
+      }
+      
+    }
+    .accordion-button {
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+      }
+      .feature-title {
+        font-size: .8rem;
+      }
+      .fa-chevron-down {
+        margin-right: 6px;
+      }
+    }
+   }
 }
 
 #faq {
@@ -532,7 +641,23 @@
       transition: all linear .4s;
     }
   }
-
+  @media (max-width: 1399.98px) { 
+    .accordion-button {
+      padding-right: 3.5rem;
+  }
+   }
+  @media(max-width: 767px) {
+    .section-header {
+      h2 {
+        font-size: 2.2rem;
+      }
+    }
+    .accordion-button {
+      padding: 1rem;
+      font-size: .9rem;
+      padding-right: 3.5rem;
+  }
+  }
 }
 
 .page-template-integrate-google-drive-pricing {

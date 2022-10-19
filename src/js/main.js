@@ -49,7 +49,7 @@ import './components/pricing';
                         }
                     },
                     {
-                        breakpoint: 991,
+                        breakpoint: 991.98,
                         settings: {
                             arrows: false,
                             centerMode: false,
@@ -61,7 +61,7 @@ import './components/pricing';
                         breakpoint: 767,
                         settings: {
                             arrows: false,
-                            centerMode: true,
+                            centerMode: false,
                             centerPadding: '40px',
                             slidesToShow: 1
                         }
