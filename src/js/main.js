@@ -40,7 +40,7 @@ import './components/pricing';
                 prevArrow: '.left',
                 responsive: [
                     {
-                        breakpoint: 1199,
+                        breakpoint: 1199.98,
                         settings: {
                             arrows: false,
                             centerMode: false,
@@ -58,7 +58,7 @@ import './components/pricing';
                         }
                     },
                     {
-                        breakpoint: 767,
+                        breakpoint: 767.98,
                         settings: {
                             arrows: false,
                             centerMode: false,
