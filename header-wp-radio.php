@@ -98,4 +98,4 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
         </div>
     </header>
 
-    <main id="main" class="">
+    <main id="main" class="site-main">

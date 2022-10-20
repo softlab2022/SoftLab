@@ -78,5 +78,4 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
         </div>
     </header>
 
-    <main id="main"
-          class=""<?php if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' style="padding-top: 100px;"'; elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' style="padding-bottom: 100px;"'; endif; ?>>
+    <main id="main" class="site-main">
