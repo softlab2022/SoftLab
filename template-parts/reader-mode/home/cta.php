@@ -3,10 +3,13 @@
         <div class="row">
             <div class="col-lg-9 m-auto">
                 <div class="cta-content text-center">
-                    <span>Ready to include better reading experience by reader mode wordpress solution</span>
-                    <p>Reading experience for the users by adding some useful features, such as: Simple Reader Mode layout, Reading time, Translation, Text to Speech, Reading Progress, and more.</p>
-                    <a href="#" class="bt">Download Free</a>
-                    <a href="#" class="bt1">View Pricing</a>
+                    <h3>Get Started and Boost Your Conversion.</h3>
+                    <p>Get started with the Reader Mode plugin to enhance your website readability and accessibility to
+                        give your audience the pleasant experience they deserved. </p>
+
+                    <a href="https://demo.softlabbd.com/?product=reader-mode" class="btn-demo">Try Live Demo</a>
+                    <a href="/reader-mode-pricing" class="btn-buy">Buy Now</a>
+
                 </div>
             </div>
         </div>

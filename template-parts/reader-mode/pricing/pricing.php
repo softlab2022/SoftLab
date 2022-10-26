@@ -1,25 +1,28 @@
 <?php
 
 $free_features = [
-	'Documents Embed',
-	'File Browser',
-	'Preview, Copy, Move, Delete',
-	'Search Files',
-	'Shortcode Builder',
-	'Insert/ Generate Direct View Links',
-	'Links Download Files',
+	'Reader Mode layout',
+	'Estimated Reading Time',
+	'Reading Progress Bar',
+	'Specific Posts Types',
+	'Multiple Display Positions',
+	'Print Optimized',
+	'Auto Scroll',
+	'Light/Dark Mode Theme',
+	'Full Screen Mode',
+	'Table of Contents',
 ];
 
 $pro_features = [
 	'All Free Features',
-	'Fill Browser Module',
-	'File Uploader Module',
-	'Photo Gallery Module',
-	'Audio and Video Player Module',
-	'File Search Module',
-	'Add Multiple Google Drive Accounts',
-	'WooCommerce Integration',
-	'Easy Digital Downloads Integration',
+	'Text-to-Speech (TTS)',
+	'Translation',
+	'Multiple Display options',
+	'Multiple Button Layouts',
+	'Custom Button Text',
+	'Custom Button Colors',
+	'Custom Button Image Icon',
+	'Custom CSS',
 ];
 
 ?>
@@ -71,7 +74,7 @@ $pro_features = [
 						<?php } ?>
                     </div>
 
-                    <a href="https://wordpress.org/plugins/integrate-google-drive" class="btn buy-btn">Download Free</a>
+                    <a href="https://wordpress.org/plugins/reader-mode" class="btn buy-btn">Download Free</a>
 
                 </div>
             </div>
@@ -102,11 +105,11 @@ $pro_features = [
                         </div>
 
                         <div class="price-text annual license-1">
-                            <span class="price-value annual single">39<span class="cent">.99</span></span>
-                            <span class="price-value annual five">99<span class="cent">.99</span></span>
+                            <span class="price-value annual single">29<span class="cent"></span></span>
+                            <span class="price-value annual five">99<span class="cent"></span></span>
 
-                            <span class="price-value lifetime single">89<span class="cent">.99</span></span>
-                            <span class="price-value lifetime five">199<span class="cent">.99</span></span>
+                            <span class="price-value lifetime single">79<span class="cent"></span></span>
+                            <span class="price-value lifetime five">199<span class="cent"></span></span>
 
                             <span class="price-suffix annual">/ Per year</span>
                             <span class="price-suffix lifetime">/ Billed once</span>
@@ -136,17 +139,17 @@ $pro_features = [
     ;(function ($) {
         $(document).on('ready', function () {
             var handler = FS.Checkout.configure({
-                plugin_id: '9618',
-                plan_id: '16186',
-                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive.png",
+                plugin_id: '11298',
+                plan_id: '19191',
+                public_key: 'pk_80967cef60b446d3ea06c0210771f',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/reader-mode.png",
             });
 
             $('.buy-btn-pro').on('click', function (e) {
                 e.preventDefault();
 
                 handler.open({
-                    name: 'Integrate Google Drive',
+                    name: 'Reader Mode',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
                     // You can consume the response for after purchase logic.

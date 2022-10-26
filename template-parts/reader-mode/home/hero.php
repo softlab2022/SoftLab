@@ -6,9 +6,10 @@
                     <h1>Adds a distraction free reading layout for a better readability for the users</h1>
                     <p>
                         Reader Mode is a wordpress based pugin that includes Reading Time, Translation
-                        Text to Speech,Multiple Buttons & Styles, Multiple Display Positions, Light/ Dark Mode Theme generator and many other features all in one plugin.
+                        Text to Speech,Multiple Buttons & Styles, Multiple Display Positions, Light/ Dark Mode Theme
+                        generator and many other features all in one plugin.
                     </p>
-                    <a href="/radio-player-pricing" class="get">Get Started</a>
+                    <a href="/reader-mode-pricing" class="get">Get Started</a>
                     <a href="#" class="get1"><i class="fa-solid fa-play"></i> How it works</a>
                 </div>
             </div>
@@ -21,9 +22,13 @@
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col-lg m-auto">
-                <div class="demo">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/feature/reading-time.png" alt="reading-time">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/feature/text-speech.png" alt="text-speech">
+                <div class="reader-mode-image-compare-wrap">
+                    <img class="img-fluid browser-mockup" src="<?php echo get_theme_file_uri('/assets/images/reader-mode/browser-mockup.png') ?>" >
+                    <div class="reader-mode-image-compare">
+                        <img class="img-fluid" src="https://readermode.io/static/images/main/before.png" alt="General View">
+                        <img class="img-fluid" src="https://readermode.io/static/images/main/after.png"
+                             alt="Reader Mode">
+                    </div>
                 </div>
             </div>
         </div>
