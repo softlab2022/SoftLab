@@ -3,7 +3,7 @@
 $features = [
 	'custom-button-text'       => [
 		'title'       => __( 'Custom Button Text & Size', 'reader-mode' ),
-		'description' => __( 'You can change the button text and size to match your theme.', 'reader-mode' ),
+		'description' => __( 'The Reader Mode button, Text-to-Speech button, Translation button, and Reading time button can be customized with custom label text and small, medium, and large sizes.', 'reader-mode' ),
 	],
 	'multiple-display-options' => [
 		'title'       => __( 'Multiple Display Options', 'reader-mode' ),
@@ -13,7 +13,7 @@ $features = [
 
 	'post-types'      => [
 		'title'       => __( 'Specific Post Types', 'reader-mode' ),
-		'description' => __( 'Reader mode can be enabled for only specific posts types.', 'reader-mode' ),
+		'description' => __( 'The Reader Mode Layout, Text-to-Speech, Translation, Reading Time, and Reading Progress Bar can be enabled for only specific post types of your website.', 'reader-mode' ),
 	],
 	'custom-fonts'    => [
 		'title'       => __( 'Custom Fonts', 'reader-mode' ),
@@ -36,8 +36,7 @@ $features = [
 	],
 	'fullscreen'      => [
 		'title'       => __( 'Fullscreen Mode', 'reader-mode' ),
-		'description' => __( 'Fullscreen reading mode is available in the reader mode for the users to read the post/ article in fullscreen
-        mode.', 'reader-mode' ),
+		'description' => __( 'Fullscreen reading mode is available in the reader mode for the users to read the post/ article in fullscreen. As the full-screen mode is readers friendly with fewer distractions, that\'s the reason Fullscreen mode is such useful.', 'reader-mode' ),
 	],
 	'auto-scroll'     => [
 		'title'       => __( 'Auto-scroll', 'reader-mode' ),

@@ -13,22 +13,26 @@
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Processed by Freemius</span>
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/freemius.png" alt="freemius">
+                    <img class="img-fluid"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/freemius.png"
+                         style="width: 160px;"
+                         alt="freemius">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Trusted payment gateway</span>
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/card.png" alt="card">
+                    <img class="img-fluid"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/card.png"
+                         alt="card">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Secure payment</span>
-
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/mcafee.svg" alt="payment">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/paypal.svg" alt="payment">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/comodo.svg" alt="payment">
+                    <img class="img-fluid"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/secure-payment.png"
+                         alt="payment">
                 </div>
             </div>
 

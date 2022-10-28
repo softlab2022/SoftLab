@@ -80,7 +80,7 @@
 				'integrate-google-drive' => 'Integrate Google Drive',
 				'radio-player'           => 'Radio Player',
 				'wp-radio'               => 'WP Radio',
-				// 'reader-mode'               => 'Reader Mode',
+				'reader-mode'            => 'Reader Mode',
 			];
 			?>
             <div class="col-lg-3 col-6 col-md-6">

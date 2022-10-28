@@ -3,35 +3,54 @@
 $features = [
 	'reader-mode'                => [
 		'title'       => 'Reader Mode Layout',
-		'description' => 'Reader Mode adds a simple and clean layout for a better readability for the users on every post/ article by strips away clutter and unnecessary elements from the post/ article.',
+		'description' => '
+		Reader Mode adds a simple and clean content layout that is user-friendly, comfortable, more readable, more accessible, and easy to use for readers. Your website articles & posts can be turned into simple & interactive by using the Reader Mode layout.
+<br />
+<br />
+Reader Mode\'s simple layout represents easy customizations of buttons style and text, translating over 100+ languages, multiple accents, and genders Text-to-Speech capability, reading time estimator, reading progress bar, and many other powerful features that improve your websites readability and accessibility better among users.
+		',
 	],
 	'translation'                => [
 		'title'       => 'Translation',
-		'description' => 'Reader Mode adds a translation button both in the general mode and reader mode layout for the users to translate the post/ article to their language',
+		'description' => '
+		Reader Mode adds a translation button both in the general mode and reader mode layout. This function translates the whole post/ article into user preferred language. The translation function has the ability to translate the post content into over 100+ languages.
+		',
 	],
 	'text-to-speech'             => [
 		'title'       => 'Text to Speech',
-		'description' => 'Reader Mode adds a text to speech button both in the general mode and reader mode for the users to listen to the post/ article.',
+		'description' => '
+		Reader Mode adds a Text-to-Speech button both in the general mode and reader mode for the users to listen to the post/ article. With multiple accents & voice diversity, this feature takes users into a new era while they will play with the Text-to-Speech feature of the Reader Mode plugin. The Text-to-Speech function has the ability to listen to the post content in over 100+ accents & voices.
+		',
 	],
 	'reading-time'               => [
 		'title'       => 'Reading Time',
-		'description' => 'Reader Mode adds a reading time for the users to know how much time they need to read the post/ article.',
+		'description' => '
+		Reader Mode adds a reading time estimation for the users to know how much time they need to read the post/ article. Reading time specified in minutes motivates users to read the post. It works great to give visitors a quick idea about the time needed to read a post and encourages them to go on till the end.
+		',
 	],
 	'progress-bar'               => [
 		'title'       => 'Progress Bar',
-		'description' => 'Reader Mode adds a customizable reading progress bar for the users to know how much they read from the post/ article.',
+		'description' => '
+		Reader Mode adds a handy reading progress bar that works as an identifier for the users to know how much they read the post/ article. This lets readers know how far they have reached and how much more they have to go on.
+		',
 	],
 	'multiple-buttons-styles'    => [
 		'title'       => 'Multiple Buttons & Styles',
-		'description' => 'Multiple highly customizable buttons and styles are available for the Reader Mode, Translation, Text to speech and Reading time.',
+		'description' => '
+		Highly customizable multiple buttons and styles are available to enable the Reader Mode, Translation, Text to speech, and Reading time features. As an admin, you have multiple eye catchy buttons to use depending on your website theme, color, and style.
+		',
 	],
 	'multiple-display-positions' => [
 		'title'       => 'Multiple Display Positions',
-		'description' => 'The Reader mode button, reading time, translation button, text to speech button, reading progressbar can be displayed in multiple positions. such as: Above the post title, Below the post title and Above the post content.',
+		'description' => '
+		The Reader mode button, reading time, translation button, text-to-speech button, and reading progress bar can be displayed in multiple positions. such as: Above the post title, Below the post title, and Above the post content.
+		',
 	],
 	'dark-mode'                  => [
 		'title'       => 'Light/ Dark Mode Theme',
-		'description' => 'Reader Mode has a light/ dark mode theme for the users to choose the best one for their reading preference. Reader mode theme also can be changed based on the user\'s device light/dark theme.',
+		'description' => '
+		Reader Mode has a light/ dark mode theme for the users to choose the best one for their reading preference. Reader mode theme also can be changed based on the user\'s device light/dark theme.
+		',
 	],
 ];
 
