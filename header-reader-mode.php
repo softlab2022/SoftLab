@@ -43,8 +43,8 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                     <a class="navbar-brand brand-reader-mode" href="/reader-mode"
                        title="Reader Mode" rel="home">
                         <img class="img-fluid"
-                             src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/reader-mode-logo.png"
-                             alt="Radio Player">
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/reader-mode-logo-white.png"
+                             alt="Reader Mode">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -68,7 +68,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 
 
                         <div class="buy-now-btn buy-now-btn-reader-mode">
-                            <a href="/radio-player-pricing"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                            <a href="/reader-mode-pricing"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                         </div>
 
 

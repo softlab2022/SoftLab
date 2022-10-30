@@ -12,6 +12,8 @@ import './components/pricing';
 
             //handle pricing item click
             $('.item-price').on('click', app.handlePricingItem)
+
+            app.initImageCompare();
         },
 
         initTestimonialSlider: function () {
@@ -92,33 +94,26 @@ import './components/pricing';
         handlePricingItem: function () {
             $('.item-price').removeClass('active');
             $(this).addClass('active');
+        },
+
+        initImageCompare: function () {
+            $(".reader-mode-image-compare").twentytwenty({
+
+                //  How much of the before image is visible when the page loads
+                default_offset_pct: 0.5,
+
+                // label text
+                before_label: 'General View',
+                after_label: 'Reader Mode View',
+
+                //overlay
+                no_overlay: true,
+
+            });
         }
     }
 
     $(document).ready(app.init);
 
-    $(".demo").twentytwenty({
-
-        //  How much of the before image is visible when the page loads
-        default_offset_pct: 0.5,
-      
-        // or vertical
-        orientation: 'horizontal',
-      
-        // label text
-        before_label: 'Before',
-        after_label: 'After',
-      
-        // enable/disable overlay
-        no_overlay: false,
-      
-        // move with handle
-        move_with_handle_only: true,
-      
-        // click to move
-        click_to_move: false
-        
-      });  
-        
 
 })(jQuery);

@@ -34,17 +34,18 @@ class SoftLa {
 			wp_enqueue_style( 'integrate-google-drive', get_theme_file_uri( 'assets/css/integrate-google-drive.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
 
 		} else if ( in_array( $file_name, [
-				'radio-player',
-				'radio-player-pricing',
-				'http-streaming',
-				'multiple',
-			] ) ) {
+			'radio-player',
+			'radio-player-pricing',
+			'http-streaming',
+			'multiple',
+		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
 
 		} else if ( in_array( $file_name, [
-				'reader-mode',
-			] ) ) {
+			'reader-mode',
+			'reader-mode-pricing',
+		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
 
@@ -67,12 +68,11 @@ class SoftLa {
 		}
 
 		// Common Styles
-		wp_enqueue_style( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.css' ), array(), $theme_version, 'all' );
-		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3', 'all' );
-		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version, 'all' );
-		wp_enqueue_style( 'twentytwentys', get_theme_file_uri( 'assets/vendor/twenty/twentytwenty.css' ), array(), $theme_version, 'all' );
-		wp_enqueue_style( 'twentytwenty', get_theme_file_uri( 'assets/vendor/twenty/twentytwenty-no-compass.css' ), array(), $theme_version, 'all' );
-		wp_enqueue_style( 'style', get_stylesheet_uri(), array('bootstrap'), $theme_version );
+		wp_enqueue_style( 'slick', get_theme_file_uri( 'assets/vendor/slick/slick.css' ), array(), $theme_version );
+		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3' );
+		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version );
+		wp_enqueue_style( 'twenty-twenty', get_theme_file_uri( 'assets/vendor/twenty/twentytwenty.css' ), array(), $theme_version );
+		wp_enqueue_style( 'style', get_stylesheet_uri(), array( 'bootstrap' ), $theme_version );
 
 
 		// Common Scripts.
@@ -81,7 +81,7 @@ class SoftLa {
 		wp_enqueue_script( 'counter', get_theme_file_uri( 'assets/vendor/counter/jquery.counterup.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'waypoint', get_theme_file_uri( 'assets/vendor/counter/waypoints.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'event', get_theme_file_uri( 'assets/vendor/twenty/jquery.event.move.js' ), array(), $theme_version, true );
-		wp_enqueue_script( 'twenty', get_theme_file_uri( 'assets/vendor/twenty/jquery.twentytwenty.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'twenty-twenty', get_theme_file_uri( 'assets/vendor/twenty/jquery.twentytwenty.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'masonary', get_theme_file_uri( 'assets/vendor/masonary.js' ), array(), '4.2.2', true );
 
 		wp_enqueue_script( 'main', get_theme_file_uri( 'assets/js/main.js' ), array( 'jquery' ), $theme_version, true );
@@ -94,6 +94,7 @@ class SoftLa {
 		$is_pricing_page = in_array( $file_name, [
 			'integrate-google-drive-pricing',
 			'radio-player-pricing',
+			'reader-mode-pricing',
 			'wp-radio-pricing',
 			'wp-radio-user-frontend',
 			'wp-radio-proxy-player',

@@ -43,7 +43,7 @@ $icons = [ 'icon-green', 'icon-pink', 'icon-purple' ];
 
         <div class="row">
             <div class=" col-lg-12 col-md-8 m-auto text-center">
-                <div class="section-head text-center">
+                <div class="section-title">
                     <h2>Our happy customers Feedback</h2>
                     <p>Check out the testimonials from users who are already using Read mode plugin</p>
                 </div>

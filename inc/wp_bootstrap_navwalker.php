@@ -164,15 +164,18 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					$image_url   = '';
 					$description = '';
 
-					if ( 'integrate google drive' == strtolower($title) ) {
+					if ( 'integrate google drive' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png';
 						$description = 'Complete Google Drive Cloud Solution For WordPress.';
-					} elseif ( 'radio player' == strtolower($title) ) {
-						$image_url = get_template_directory_uri() . '/assets/images/home/products/radio-icon.png';
+					} elseif ( 'radio player' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/home/products/radio-icon.png';
 						$description = 'Live Shoutcast, Icecast and Audio Stream Player for WordPress.';
-					} elseif ( 'wp radio' == strtolower($title) ) {
-						$image_url = get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png';
+					} elseif ( 'wp radio' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png';
 						$description = 'Worldwide Online Radio Stations Directory for WordPress.';
+					} elseif ( 'reader mode' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/home/products/reader-mode.png';
+						$description = 'Distraction-free Content Reader for WordPress.';
 					}
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );
