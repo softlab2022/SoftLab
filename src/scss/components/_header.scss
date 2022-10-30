@@ -108,6 +108,24 @@
         }
 
       }
+      &.reader-mode-nav {
+        .nav-item {
+          a {
+            color: #fff;
+            &:hover {
+              color: #000;
+            }
+          }
+
+          &.current-menu-item {
+            a {
+              color: $igd_color;
+            }
+          }
+
+        }
+
+      }
 
       &.radio-player-nav {
         .nav-item {

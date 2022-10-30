@@ -224,13 +224,13 @@ body {
 
   .feature-reader-mode,
   .feature-reading-time,
-  .feature-multiple-buttons-styles, {
+  .feature-multiple-buttons-styles {
     background: #F7F7FD;
   }
 
   .feature-translation,
   .feature-progress-bar,
-  .feature-dark-mode, {
+  .feature-dark-mode {
     background: #FFFAF7;
   }
 
@@ -535,11 +535,11 @@ body {
       display: inline-block;
 
       &.icon-green {
-        background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+        background: linear-gradient(153.63deg, #D3C7FF 3.43%, #6861FF 90.47%);
       }
 
       &.icon-pink {
-        background: linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
+        background: linear-gradient(143.38deg, #D3C7FF 3.43%, #6861FF 90.47%);
       }
 
       &.icon-purple {
