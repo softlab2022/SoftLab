@@ -8,6 +8,55 @@ get_header();
 
 
 $products = [
+	'reader-mode' => [
+		'name'        => 'Reader Mode',
+		'title'       => 'Adds a distraction free reading layout for a better readability for the users',
+		'description' => 'Reader Mode adds a distraction free reading layout for a better readability for the users on every post/ article by strips away clutter and unnecessary elements from the post/ article.',
+		'image'       => get_template_directory_uri() . '/assets/images/products//reader-mode/reader-mode.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/products//reader-mode/logo.png',
+		'features'    => [
+			[
+				'title' => 'Reader Mode layout',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/layout.png',
+			],
+
+			[
+				'title' => 'Reading Time',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/time.png',
+			],
+
+			[
+				'title' => 'Translation',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/transiation.png',
+			],
+
+
+			[
+				'title' => 'Text to Speech',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/speech.png',
+			],
+
+			[
+				'title' => 'Multiple Buttons & Styles',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/multiple.png',
+			],
+
+			[
+				'title' => 'Multiple Display Positions',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/display.png',
+			],
+
+			[
+				'title' => 'Light/ Dark Mode Theme',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/light-dark.png',
+			],
+
+			[
+				'title' => 'Reading Progress Bar',
+				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/reading.png',
+			],
+		]
+	],
 	'integrate-google-drive' => [
 		'name'        => '<span>Integrate</span> Google Drive',
 		'title'       => 'Complete <span>Google Drive</span> Cloud Solution For WordPress',
