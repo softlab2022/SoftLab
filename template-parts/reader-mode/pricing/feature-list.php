@@ -2,7 +2,7 @@
 
 $features = [
 	[
-		'title'       => 'Reader Mode View',
+		'title'       => 'Reader Mode Layout',
 		'description' => 'Reader Mode adds a simple and clean content layout that is user-friendly, comfortable, more readable, more accessible, and easy to use for readers. Your website articles & posts can be turned into simple & interactive by using the Reader Mode layout.<br>Reader Mode\'s simple layout represents easy customizations of buttons style and text, translating over 100+ languages, multiple accents, and genders Text-to-Speech capability, reading time estimator, reading progress bar, and many other powerful features that improve your websites readability and accessibility better among users.',
 		'pro'         => true,
 	],
@@ -21,7 +21,7 @@ $features = [
 	[
 		'title'       => 'Specific Posts Types',
 		'pro'         => true,
-		'description' => 'The Reader Mode Layout, Text-to-Speech, Translation, Reading Time, and Reading Progress Bar can be enabled for only specific post types of your website. ',
+		'description' => 'The Reader Mode Layout, Text-to-Speech, Translation, Reading Time, and Reading Progress Bar can be enabled for only specific post types of your website.',
 
 	],
 	[
@@ -43,7 +43,7 @@ $features = [
 
 	],
 	[
-		'title'       => 'Light/Dark Mode Reader Theme',
+		'title'       => 'Light/Dark Mode Theme',
 		'pro'         => true,
 		'description' => 'Reader Mode has a light/ dark mode theme for the users to choose the best one for their reading preference. Reader mode theme also can be changed based on the user\'s device light/dark theme.',
 

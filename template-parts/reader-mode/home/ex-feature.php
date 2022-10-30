@@ -2,60 +2,60 @@
 
 $features = [
 	'custom-button-text'       => [
-		'title'       => __( 'Custom Button Text & Size', 'reader-mode' ),
-		'description' => __( 'The Reader Mode button, Text-to-Speech button, Translation button, and Reading time button can be customized with custom label text and small, medium, and large sizes.', 'reader-mode' ),
+		'title'       => __( 'Custom Button Text & Size', 'softlab' ),
+		'description' => __( 'The Reader Mode button, Text-to-Speech button, Translation button, and Reading time button can be customized with custom label text and small, medium, and large sizes.', 'softlab' ),
 	],
 	'multiple-display-options' => [
-		'title'       => __( 'Multiple Display Options', 'reader-mode' ),
+		'title'       => __( 'Multiple Display Options', 'softlab' ),
 		'description' => __( 'The Reader mode button, Reading time, Translation button, Text to speech button, Reading progressbar can be
-        displayed both in the General mode and Reader mode layout.', 'reader-mode' ),
+        displayed both in the General mode and Reader mode layout.', 'softlab' ),
 	],
 
 	'post-types'      => [
-		'title'       => __( 'Specific Post Types', 'reader-mode' ),
-		'description' => __( 'The Reader Mode Layout, Text-to-Speech, Translation, Reading Time, and Reading Progress Bar can be enabled for only specific post types of your website.', 'reader-mode' ),
+		'title'       => __( 'Specific Post Types', 'softlab' ),
+		'description' => __( 'The Reader Mode Layout, Text-to-Speech, Translation, Reading Time, and Reading Progress Bar can be enabled for only specific post types of your website.', 'softlab' ),
 	],
 	'custom-fonts'    => [
-		'title'       => __( 'Custom Fonts', 'reader-mode' ),
+		'title'       => __( 'Custom Fonts', 'softlab' ),
 		'description' => __( 'You can set any custom Google Fonts for the Reader Mode view. Users also can set their own custom fonts for the
-        Reader Mode view.', 'reader-mode' ),
+        Reader Mode view.', 'softlab' ),
 	],
 	'font-size'       => [
-		'title'       => __( 'Custom Font Size', 'reader-mode' ),
+		'title'       => __( 'Custom Font Size', 'softlab' ),
 		'description' => __( 'You can set any custom font size for the Reader Mode view. Users also customized the font size in the Reader
-        Mode view.', 'reader-mode' ),
+        Mode view.', 'softlab' ),
 	],
 	'print-optimized' => [
-		'title'       => __( 'Print Optimized', 'reader-mode' ),
-		'description' => __( 'Reader Mode is print optimized for the users to print the post/ article.', 'reader-mode' ),
+		'title'       => __( 'Print Optimized', 'softlab' ),
+		'description' => __( 'Reader Mode is print optimized for the users to print the post/ article.', 'softlab' ),
 	],
 	'customizable'    => [
-		'title'       => __( 'Fully customizable', 'reader-mode' ),
+		'title'       => __( 'Fully customizable', 'softlab' ),
 		'description' => __( 'Reader Mode is fully customizable for both the admins & users. Admin can easily customize the various buttons
-        with different layout and colors and also customize the Reader Mode layout. ', 'reader-mode' ),
+        with different layout and colors and also customize the Reader Mode layout. ', 'softlab' ),
 	],
 	'fullscreen'      => [
-		'title'       => __( 'Fullscreen Mode', 'reader-mode' ),
-		'description' => __( 'Fullscreen reading mode is available in the reader mode for the users to read the post/ article in fullscreen. As the full-screen mode is readers friendly with fewer distractions, that\'s the reason Fullscreen mode is such useful.', 'reader-mode' ),
+		'title'       => __( 'Fullscreen Mode', 'softlab' ),
+		'description' => __( 'Fullscreen reading mode is available in the reader mode for the users to read the post/ article in fullscreen. As the full-screen mode is readers friendly with fewer distractions, that\'s the reason Fullscreen mode is such useful.', 'softlab' ),
 	],
 	'auto-scroll'     => [
-		'title'       => __( 'Auto-scroll', 'reader-mode' ),
+		'title'       => __( 'Auto-scroll', 'softlab' ),
 		'description' => __( 'Auto scroll feature is available in the reader mode for the users to scroll the post/ article automatically while they
-        are reading the post/ article.', 'reader-mode' ),
+        are reading the post/ article.', 'softlab' ),
 	],
 	'toc'             => [
-		'title'       => __( 'Table of contents', 'reader-mode' ),
+		'title'       => __( 'Table of contents', 'softlab' ),
 		'description' => __( 'Table of contents feature is available in the reader mode for the users to navigate to the specific section of
-        the post/ article.', 'reader-mode' ),
+        the post/ article.', 'softlab' ),
 	],
 	'link-list'       => [
-		'title'       => __( 'Link List', 'reader-mode' ),
+		'title'       => __( 'Link List', 'softlab' ),
 		'description' => __( 'All the links in the post/ article will be listed in the reader mode for the users to navigate to the specific
-        link in the post/ article.', 'reader-mode' ),
+        link in the post/ article.', 'softlab' ),
 	],
 	'custom-css'      => [
-		'title'       => __( 'Custom CSS', 'reader-mode' ),
-		'description' => __( 'Reader mode layout can be customized by using the custom CSS.', 'reader-mode' ),
+		'title'       => __( 'Custom CSS', 'softlab' ),
+		'description' => __( 'Reader mode layout can be customized by using the custom CSS.', 'softlab' ),
 	],
 
 ];

@@ -23,7 +23,7 @@
   @media (max-width: 1199.98px) {
     .hero-content {
       h2 {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
   }
@@ -403,7 +403,7 @@
   @media(max-width: 767px) {
     .industry-head {
       h2 {
-        font-size: 2.2rem;
+        font-size: 2rem;
       }
     }
     .indu-item {
@@ -915,6 +915,16 @@
         color: #fff;
         line-height: 150%;
         padding-bottom: 120px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      padding-top: 120px;
+      padding-bottom: 250px;
+      .hero-content {
+        h2 {
+          font-size: 2rem;
+        }
       }
     }
 
