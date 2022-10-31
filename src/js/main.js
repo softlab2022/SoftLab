@@ -70,6 +70,19 @@ import './components/pricing';
                     }
                 ]
             });
+
+            $('.slider-main').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows:true,
+                nextArrow:'.up',
+                prevArrow:'.down',
+                vertical:true,
+                centerMode:true,
+                centerPadding:false,
+                autoplaySpeed: 2000,
+            });
         },
 
         initFunFactCounter: function () {

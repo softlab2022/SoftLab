@@ -137,7 +137,16 @@
     }
 
   }
-
+  @media (max-width: 767px) {
+  .frm-fluent-form  {
+    
+      .ff-t-cell {
+        .ff_submit_btn_wrapper_custom button {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
 
   //************* Footer Socials *************//
   .footer-social {
