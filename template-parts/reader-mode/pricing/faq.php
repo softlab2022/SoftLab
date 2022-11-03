@@ -2,21 +2,13 @@
 
 $faqs = [
 	[
-		'question' => 'How Can I add Multiple Radio Stations?',
-		'answer'   => 'You can add multiple radio stations for a single player in the PRO version. Users can play them by using the next/ previous buttons.',
+		'question' => 'What is the Reader Mode?',
+		'answer'   => 'Reader Mode is a WordPress plugin that allows the users to read the post/ article in a reader friendly layout. The Reader Mode plugin has multiple features such as: Reader Mode Layout, Text-to-Speech, Translation, Estimated Reading Time, and Reading Progress Bar.',
 	],
 	[
-		'question' => 'When I clicked play, there is no sound?',
-		'answer'   => 'Most of the radio station stream links are HTTP (Unsecured) that can’t be played on HTTPS (Secured) website because of browser mixed-content restrictions.
-        Modern browsers no longer accepts mixed requests.
-        Please check this link:
-        https://web.dev/what-is-mixed-content
-        
-        To play the HTTP streams in an HTTPS website, you need to upgrade to PRO.',
-	],
-	[
-		'question' => 'How can I use the footer full-width sticky player?',
-		'answer'   => 'To set the radio player fixed to the footer as a full-width sticky player, you need to check the use as sticky player checkbox in player editing screen.',
+		'question' => 'Can I use the Reader Mode for specific post types?',
+		'answer'   => 'Yes, you can use the Reader Mode for specific post types.
+        You can select the post types where you want to display the Reader Mode button from the Reader Mode > Settings > Display Settings page.',
 	],
 ];
 
