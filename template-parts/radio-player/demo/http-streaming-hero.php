@@ -12,6 +12,7 @@
 
     </div>
 </section>
+
 <!--=== stream area ===-->
 <section id="stream">
     <div class="container">
