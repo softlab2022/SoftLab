@@ -531,6 +531,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: all linear .4s;
+
+    &:hover {
+      box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+      border-radius: 20px;
+
+      > > > > > > > c2d7b491b89b71e4f434fb1779a3c9491441cecd
+      img {
+        transform: translateY(-8px);
+      }
+    }
+
+    .item-logo {
+      img {
+        transition: all linear .4s;
+      }
+    }
 
     .item-text {
       h5 {
