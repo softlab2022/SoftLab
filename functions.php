@@ -468,9 +468,6 @@ if ( ! function_exists( 'softlab_comment' ) ) :
 endif;
 
 
-
-
-
 /**
  * Auto Complete all WooCommerce orders.
  */
@@ -483,3 +480,6 @@ function custom_woocommerce_auto_complete_order( $order_id ) {
 	$order = wc_get_order( $order_id );
 	$order->update_status( 'completed' );
 }
+
+
+
