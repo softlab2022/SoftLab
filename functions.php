@@ -2,9 +2,6 @@
 
 include_once get_theme_file_path( 'inc/class-enqueue.php' );
 include_once get_theme_file_path( 'inc/class-nav.php' );
-// shortcode regiser
-include_once get_theme_file_path('inc/shortcode.php');
-include_once get_theme_file_path('inc/default.php');
 
 /**
  * Include Theme Customizer.

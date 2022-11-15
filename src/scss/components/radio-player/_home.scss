@@ -632,6 +632,43 @@
 
 }
 
+/**-----compatibility area------**/
+#compat {
+  background: url("../images/radio-player/compatibility.png"), #E9F6F0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+
+  .section-head {
+    h1 {
+      font-weight: 700;
+      font-size: 2.9rem;
+      line-height: 120%;
+      color: $h1_color;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      color: $p_color;
+      line-height: 150%;
+      margin-bottom: 60px;
+    }
+  }
+
+  .item-img {
+      background: #fff;
+      width: 200px;
+      height: 60px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+}
+
+
 /**-----testmonial area------**/
 #testmonial {
   background: #fff;
