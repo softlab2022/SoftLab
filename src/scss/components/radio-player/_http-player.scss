@@ -86,19 +86,22 @@
   }
 
   form {
+    margin-top: 30px;
+
     .btn {
-      margin-top: 30px;
-      padding: 12px 35px;
-      border-radius: 8px;
+      margin-left: 30px;
+      padding: 15px 35px;
+      border-radius: 7px;
       background-color: #0d6efd;
       border: 1px solid #0d6efd;
+      white-space: nowrap;
     }
 
     .form-control {
-      padding: 20px;
+      padding: 15px 20px;
       border: 1px solid #ECF1FA;
       background-color: #F9FAFF;
-      border-radius: 20px;
+      border-radius: 7px;
     }
 
     ::placeholder {

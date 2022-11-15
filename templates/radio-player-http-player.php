@@ -14,7 +14,7 @@ get_header( 'radio-player' );
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="http-head text-center">
-                        <h1>Play HTTP Streams On HTTPS Website</h1>
+                        <h1>Play HTTP Streams on HTTPS Website</h1>
 
                         <p>Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP
                             stream link, you can't play it on an HTTPS (Secured) website because of browser
@@ -47,7 +47,17 @@ get_header( 'radio-player' );
                 </div>
                 <div class="col-lg-8 m-auto">
                     <div class="image text-center">
-						<?php echo do_shortcode( '[radio_player id=138]' ); ?>
+
+                        <?php
+
+                        if(function_exists('get_field')) {
+                            $http_player_shortcode = get_field('http_player_shortcode', 'options');
+                            
+                            echo do_shortcode($http_player_shortcode);
+                        }
+
+                        ?>
+
                     </div>
                 </div>
             </div>

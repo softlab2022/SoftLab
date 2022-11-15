@@ -37,7 +37,7 @@ class SoftLa {
 			'radio-player',
 			'radio-player-pricing',
 			'radio-player-http-player',
-			'multiple',
+			'radio-player-multiple-player-skins',
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );

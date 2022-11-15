@@ -58,7 +58,7 @@
                                 Radio Player also provide the ability to display the Sticky Player on specific pages.
                             </p>
                         </div>
-                        <a href="/radio-player-multiple-skins">Check demo</a>
+                        <a href="/radio-player-multiple-player-skins/">Check demo</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                             </p>
                         </div>
 
-                        <a href="/radio-player-multiple-skins/">Check demo</a>
+                        <a href="/radio-player-multiple-player-skins/">Check demo</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                                 in the player.</p>
                             <p>Users can choose and play any station from the stations playlist in the player.</p>
                         </div>
-                        <a href="/radio-player-multiple-skins/">Check Demo</a>
+                        <a href="/radio-player-multiple-player-skins/">Check Demo</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                                 You can choose any player skin from the skins library and display it anywhere on your website using the shortcode.
                             </p>
                         </div>
-                        <a href="/radio-player-multiple-skins/">Check Demo</a>
+                        <a href="/radio-player-multiple-player-skins/">Check Demo</a>
                     </div>
                 </div>
             </div>
