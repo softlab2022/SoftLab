@@ -471,9 +471,6 @@ if ( ! function_exists( 'softlab_comment' ) ) :
 endif;
 
 
-
-
-
 /**
  * Auto Complete all WooCommerce orders.
  */
@@ -486,3 +483,19 @@ function custom_woocommerce_auto_complete_order( $order_id ) {
 	$order = wc_get_order( $order_id );
 	$order->update_status( 'completed' );
 }
+
+/**
+ * Add ACF Options Page.
+ */
+if ( function_exists( 'acf_add_options_page' ) ) {
+	acf_add_options_page( array(
+		'page_title' => 'Theme Options',
+		'menu_title' => 'Theme Options',
+		'menu_slug'  => 'softlab-theme-options',
+		'capability' => 'edit_posts',
+		'redirect'   => false,
+	) );
+}
+
+
+

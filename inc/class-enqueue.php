@@ -36,8 +36,8 @@ class SoftLa {
 		} else if ( in_array( $file_name, [
 			'radio-player',
 			'radio-player-pricing',
-			'http-streaming',
-			'multiple',
+			'radio-player-http-player',
+			'radio-player-multiple-player-skins',
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );

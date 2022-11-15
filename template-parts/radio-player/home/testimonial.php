@@ -39,10 +39,10 @@ $testimonials = [
     <div class="container">
         
         <div class="row">
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-10 m-auto">
                 <div class="test-head text-center">
-                    <h1>What People Think About Our Products</h1>
-                    <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
+                    <h1>Our Customers Say about Radio Player</h1>
+                    <p>We asked our customers for feedback about the Radio Player and they say</p>
                 </div>
             </div>
         </div>

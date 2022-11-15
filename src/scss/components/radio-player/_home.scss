@@ -51,6 +51,7 @@
       padding: 15px 35px;
       border-radius: 8px;
       transition: all linear .4s;
+
       &:hover {
         background: #fff;
 
@@ -66,6 +67,7 @@
       padding: 15px 35px;
       background: #fff;
       transition: all linear .4s;
+
       &:hover {
         background: #01AA47;
         color: #fff;
@@ -145,13 +147,15 @@
         padding-bottom: 10px;
       }
 
+      .feature-description {
+        margin-bottom: 40px;
+      }
+
       p {
         font-weight: 400;
         font-size: .9rem;
-        line-height: 150%;
+        line-height: 1.5;
         color: $p_color;
-        padding-right: 42%;
-        padding-bottom: 25px;
       }
 
       a {
@@ -165,6 +169,7 @@
         padding: 15px 30px;
         border-radius: 8px;
         transition: all linear .4s;
+
         &:hover {
           background: #fff;
           color: #01AA47;
@@ -372,7 +377,7 @@
 
     }
 
-    h1 {
+    h2 {
       font-size: 3rem;
       color: $h1_color;
       font-weight: 700;
@@ -522,7 +527,12 @@
     margin-bottom: 20px;
     border-radius: 8px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     transition: all linear .4s;
+
     &:hover {
       box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
       border-radius: 20px;
@@ -531,11 +541,13 @@
         transform: translateY(-8px);
       }
     }
+
     .item-logo {
       img {
         transition: all linear .4s;
       }
-  }
+    }
+
     .item-text {
       h5 {
         font-weight: 700;
@@ -914,7 +926,7 @@
 #cta {
   background: url("../images/radio-player/r-bg-shapes.png"), linear-gradient(153.63deg, #98FF96 3.43%, #08CD87 90.47%) no-repeat;
   background-size: cover;
-  padding: 60px 0;
+  padding: 100px 0;
 
   .cta-content {
     h3 {
@@ -947,6 +959,7 @@
       background: #00BB45;
       color: #fff;
       transition: all linear .4s;
+
       &:hover {
         background: #fff;
         color: #01AA47;
@@ -960,6 +973,7 @@
       color: #00BB45;
       margin-left: 40px;
       transition: all linear .4s;
+
       &:hover {
         background: #01AA47;
         color: #fff;

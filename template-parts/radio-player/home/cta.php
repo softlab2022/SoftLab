@@ -3,8 +3,8 @@
         <div class="row align-items-center">
             <div class="col-md-7 m-auto">
                 <div class="cta-content">
-                    <h3>Start playing your online radio station now on your website.</h3>
-                    <p>You can play any live mp3, iceCast and Shoutcast stream in your WordPress website</p>
+                    <h3>Start Playing Your Online Radio Station Now</h3>
+                    <p>Try out the best Radio Player plugin in the market for unstoppable radio streaming.</p>
                 </div>
             </div>
 
