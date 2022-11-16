@@ -33,7 +33,7 @@ if ( function_exists( 'get_field' ) ) {
 
     <!----===  Player Skin 1 - Card Player ===----->
     <section id="skin-1" class="skin-wrap skin-1">
-        <div class="container">
+        <div class="container card-player">
             <div class="row">
                 <div class="col-lg-12 m-auto">
                     <div class="section-head text-center">
@@ -70,7 +70,7 @@ if ( function_exists( 'get_field' ) ) {
 
     <!----===  Player skin 2 ===----->
     <section id="skin-2" class="skin-wrap skin-2">
-        <div class="container player-skin-2">
+        <div class="container card-player">
             <div class="row">
                 <div class="col-lg-12 m-auto">
                     <div class="section-head text-center">
