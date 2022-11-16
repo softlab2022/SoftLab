@@ -10,8 +10,8 @@
 
             <div class="col-md-5 ms-auto">
                 <div class="cta-actions text-center">
-                    <a href="/radio-player-pricing" class="btn bt" >Get Started</a>
-                    <a href="https://demo.softlabbd.com/?product=radio-player" class="btn bt1" >Try Live Demo</a>
+                    <a href="https://demo.softlabbd.com/?product=radio-player" class="btn bt" >Try Live Demo</a>
+                    <a href="/radio-player-pricing" class="btn bt1" >Get Started</a>
                 </div>
             </div>
         </div>

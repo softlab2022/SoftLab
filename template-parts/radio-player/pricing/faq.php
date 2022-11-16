@@ -2,21 +2,25 @@
 
 $faqs = [
 	[
-		'question' => 'How Can I add Multiple Radio Stations?',
-		'answer'   => 'You can add multiple radio stations for a single player in the PRO version. Users can play them by using the next/ previous buttons.',
+		'question' => __( 'Can I play HTTP stream URL on my HTTPS website?', 'radio-player' ),
+		'answer'   => __( 'Browsers no longer accepts mixed requests. That means you can\'t play an HTTP stream to an HTTPS
+                    website. But, this plugin use a proxy system to play most of the HTTP streams in your HTTPS website.', 'radio-player' ),
 	],
 	[
-		'question' => 'When I clicked play, there is no sound?',
-		'answer'   => 'Most of the radio station stream links are HTTP (Unsecured) that can’t be played on HTTPS (Secured) website because of browser mixed-content restrictions.
-        Modern browsers no longer accepts mixed requests.
-        Please check this link:
-        https://web.dev/what-is-mixed-content
-        
-        To play the HTTP streams in an HTTPS website, you need to upgrade to PRO.',
+		'question' => 'Can I add multiple radio stations in the same player?',
+		'answer'   => 'Yes, you can add multiple radio stations in the same player. While you create a new player, you can add multiple radio stations with Title, Stream URL and Image from the stations tab. They will display as stations playlist in the player.',
 	],
 	[
-		'question' => 'How can I use the footer full-width sticky player?',
-		'answer'   => 'To set the radio player fixed to the footer as a full-width sticky player, you need to check the use as sticky player checkbox in player editing screen.',
+		'question' => 'How Can I display the full-width sticky player?',
+		'answer'   => 'While you are in the player edit screen, you have to enable the Use as Full-width Sticky Player option to display the player in full-width.',
+	],
+	[
+		'question' => 'How Can I display the full-width sticky player only on specific pages?',
+		'answer'   => 'By default the sticky player will be displayed on all pages. But, You can also display the sticky player only on the specific pages by excluding the pages from the settings page. You can find the settings page under the Radio Player > Settings menu.',
+	],
+	[
+		'question' => 'Can I embed a radio player on another website?',
+		'answer'   => __('Yes, you can embed a radio player on another website. You can find the embed code from the player listing page. Just click on the Embed button and copy the embed code. Then paste the embed code on your website.', 'radio-player'),
 	],
 ];
 

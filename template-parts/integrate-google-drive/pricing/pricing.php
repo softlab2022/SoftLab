@@ -12,7 +12,7 @@ $free_features = [
 
 $pro_features = [
 	'All Free Features',
-	'Fill Browser Module',
+	'File Browser Module',
 	'File Uploader Module',
 	'Photo Gallery Module',
 	'Audio and Video Player Module',

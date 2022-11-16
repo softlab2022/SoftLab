@@ -40,7 +40,9 @@ get_header( 'radio-player' );
 
                     <form id="http-stream-from" class="d-flex align-items-center">
                         <input type="url" class="form-control" id="http-stream" required
-                               placeholder="Enter your HTTP stream URL">
+                               placeholder="Enter your HTTP stream URL"
+                               value="http://sc.hot108.com:4000/;"
+                        >
 
                         <button type="submit" class="btn btn-primary check-btn">Play Now</button>
                     </form>
@@ -48,15 +50,15 @@ get_header( 'radio-player' );
                 <div class="col-lg-8 m-auto">
                     <div class="image text-center">
 
-                        <?php
+						<?php
 
-                        if(function_exists('get_field')) {
-                            $http_player_shortcode = get_field('http_player_shortcode', 'options');
-                            
-                            echo do_shortcode($http_player_shortcode);
-                        }
+						if ( function_exists( 'get_field' ) ) {
+							$http_player_shortcode = get_field( 'http_player_shortcode', 'options' );
 
-                        ?>
+							echo do_shortcode( $http_player_shortcode );
+						}
+
+						?>
 
                     </div>
                 </div>
@@ -65,7 +67,44 @@ get_header( 'radio-player' );
         </div>
     </section>
 
+    <script>
+        (function ($) {
+            $(document).on('ready', function () {
+
+                function playStream(stream) {
+                    var playerElement = $('.radio_player_media audio');
+
+                    const playBtn = $('.radio-play-pause');
+
+                    if (playBtn.hasClass('active')) {
+                        playerElement.attr('src', stream);
+                        playerElement[0].load();
+                        playerElement[0].play();
+                    } else {
+                        playerElement.attr('src', stream);
+                        playBtn.trigger('click');
+                    }
+                }
+
+                $('#http-stream-from').on('submit', function (e) {
+                    e.preventDefault();
+                    var stream = $('#http-stream').val();
+
+                    const proxyUrl = 'https://crs.webdesign-flash.ro/?q=';
+
+                    if (stream.includes('http://')) {
+                        stream = proxyUrl + stream;
+                    }
+
+                    playStream(stream);
+                });
+
+            });
+        })(jQuery);
+    </script>
+
 <?php
+
 get_template_part( 'template-parts/radio-player/home/radio-cta' );
 
 ?>
