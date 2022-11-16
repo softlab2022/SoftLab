@@ -170,6 +170,34 @@
 
         </div>
 
+        <!---====Embed Code====-->
+        <div class="row align-items-center flex-column-reverse flex-md-row">
+           <div class="col-lg-5 col-md-6">
+                <div class="featuer-item">
+                    <div class="file-text">
+                        <img class="img-fluid element"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png"
+                             alt="elements">
+                        <span>Embed Code</span>
+                        <h3>Build a web radio player with this code.</h3>
+
+                        <div class="feature-description">
+                            <p>Embed Code Widget. In this area you can grab and embed your radio station's player. </p>
+                        </div>
+                        <a href="/radio-player-multiple-player-skins/">Check Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-6 ">
+                <div class="featuer-item-img ">
+                    <img class="img-fluid"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png"
+                         alt="Embed Code">
+                </div>
+            </div>
+
+        </div>
 
     </div>
 </section>

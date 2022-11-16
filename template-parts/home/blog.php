@@ -93,7 +93,14 @@
                     </div>
                 </div>
             </div>
-
+            <div class="col-lg-12">
+                <div id="page_nav">
+                    <?php if ('soft_pagenav') {soft_pagenav(); } else{ ?>
+                        <?php next_posts_link(); ?>
+                        <?php previous_posts_link(); ?>
+                    <?php}?>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -83,6 +83,13 @@ import './components/pricing';
                 centerPadding:false,
                 autoplaySpeed: 2000,
             });
+            $('.compat-slider').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows:false,
+                autoplaySpeed: 2000,
+            });
         },
 
         initFunFactCounter: function () {
