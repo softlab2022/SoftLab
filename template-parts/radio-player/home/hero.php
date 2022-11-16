@@ -12,8 +12,9 @@
                         A simple, easy to use, user-friendly and fully customizable web radio player for WordPress. You
                         can play any live mp3, iceCast and Shoutcast stream in your WordPress website.
                     </p>
-                    <a href="/radio-player-pricing" class="btn get">Get Started</a>
+
                     <a href="https://demo.softlabbd.com/?product=radio-player" class="btn get1">Try Live Demo</a>
+                    <a href="/radio-player-pricing" class="btn get">Get Started</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">

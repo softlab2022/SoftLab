@@ -1,25 +1,31 @@
 <?php
 
 $free_features = [
-	'Documents Embed',
-	'File Browser',
-	'Preview, Copy, Move, Delete',
-	'Search Files',
-	'Shortcode Builder',
-	'Insert/ Generate Direct View Links',
-	'Links Download Files',
+	'Shortcode Player',
+	'Current Song Title',
+	'MP3 + AAC + M3U8 Compatibility',
+	'Add Unlimited Players',
+	'Realtime Player Editing Preview',
+	'Player Duplicator',
+	'Multiple Player Instance',
+	'Mobile Media Notification',
+	'Gutenberg Editor Block',
+	'Elementor Page Builder Widget',
+	'Custom CSS',
 ];
 
 $pro_features = [
-	'All Free Features',
-	'Fill Browser Module',
-	'File Uploader Module',
-	'Photo Gallery Module',
-	'Audio and Video Player Module',
-	'File Search Module',
-	'Add Multiple Google Drive Accounts',
-	'WooCommerce Integration',
-	'Easy Digital Downloads Integration',
+	'HTTP Stream Player',
+	'Full-width Sticky Player',
+	'Sticky Player on Specific Pages',
+	'Multiple Stations in a Player',
+	'Multiple Player Skins',
+	'Stations Playlist',
+	'Play Statistics',
+	'Popup Player',
+	'Player Embed',
+	'Size Customizations',
+	'Color Customizations',
 ];
 
 ?>

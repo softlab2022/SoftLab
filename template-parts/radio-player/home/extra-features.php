@@ -32,7 +32,7 @@ $features = [
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/multiple-lnstance.png',
 	],
 	[
-		'title'       => 'Station Metadata',
+		'title'       => 'Current Song Title',
 		'description' => 'Radio player can grab and display the currently playing track title.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/station-metadata.png',
 	],
@@ -43,7 +43,7 @@ $features = [
 	],
 	[
 		'title'       => 'Add Unlimited Players',
-		'description' => 'You can add unlimited radio players as you want.',
+		'description' => 'You can add and play unlimited radio players as you want.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/unlimited-players.png',
 	],
 	[

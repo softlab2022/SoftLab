@@ -25,7 +25,7 @@
             <div class="col-lg-4 col-md-6 m-auto">
                 <div class="indu-item ">
                     <span>Secure payment</span>
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/payment.png" alt="payment">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/industry/secure-payment.png" alt="Secure Payment">
                 </div>
             </div>
 
