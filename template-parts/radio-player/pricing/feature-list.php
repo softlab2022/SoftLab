@@ -116,6 +116,11 @@ $features = [
 Users can listen to your radio stream while browsing your website or doing other tasks without interrupting their work.',
 		'pro'         => true,
 	],
+	[
+		'title'       => 'Player Embed',
+		'description' => 'Radio Player provides embed html codes to display the player in any website or blog using the embed code.',
+		'pro'         => true,
+	],
 
 	[
 		'title'       => 'Customize Popup Player Size',
