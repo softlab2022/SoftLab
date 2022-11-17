@@ -2,9 +2,9 @@
 
 $faqs = [
 	[
-		'question' => __( 'Can I play HTTP stream URL on my HTTPS website?', 'radio-player' ),
+		'question' => __( 'Can I play HTTP stream URL on my HTTPS website?', 'softlab' ),
 		'answer'   => __( 'Browsers no longer accepts mixed requests. That means you can\'t play an HTTP stream to an HTTPS
-                    website. But, this plugin use a proxy system to play most of the HTTP streams in your HTTPS website.', 'radio-player' ),
+                    website. But, this plugin use a proxy system to play most of the HTTP streams in your HTTPS website.', 'softlab' ),
 	],
 	[
 		'question' => 'Can I add multiple radio stations in the same player?',
@@ -20,7 +20,7 @@ $faqs = [
 	],
 	[
 		'question' => 'Can I embed a radio player on another website?',
-		'answer'   => __('Yes, you can embed a radio player on another website. You can find the embed code from the player listing page. Just click on the Embed button and copy the embed code. Then paste the embed code on your website.', 'radio-player'),
+		'answer'   => __('Yes, you can embed a radio player on another website. You can find the embed code from the player listing page. Just click on the Embed button and copy the embed code. Then paste the embed code on your website.', 'softlab'),
 	],
 ];
 

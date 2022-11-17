@@ -32,7 +32,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 1 - Card Player ===----->
-    <section id="skin-1" class="skin-wrap skin-1">
+    <section id="skin1" class="skin-wrap skin-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -75,7 +75,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player skin 2 ===----->
-    <section id="skin-2" class="skin-wrap skin-2">
+    <section id="skin2" class="skin-wrap skin-2">
         <div class="container audio-visua">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -114,7 +114,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 3- Bar Player Style ===----->
-    <section id="skin-3" class="skin-wrap skin-3">
+    <section id="skin3" class="skin-wrap skin-3">
         <div class="container bar-player-style">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -154,7 +154,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 4 ===----->
-    <section id="skin-4" class="skin-wrap skin-4">
+    <section id="skin4" class="skin-wrap skin-4">
         <div class="container player-skin-4">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -196,7 +196,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 5 - Radio Player Style ===----->
-    <section id="skin-5" class="skin-wrap skin-5">
+    <section id="skin5" class="skin-wrap skin-5">
         <div class="container bar-player-style ">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -238,7 +238,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 6 - Audio Visualizer ===----->
-    <section id="skin-6" class="skin-wrap skin-6">
+    <section id="skin6" class="skin-wrap skin-6">
         <div class="container audio-visua">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -280,7 +280,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 7 ===----->
-    <section id="skin-7" class="skin-wrap skin-7">
+    <section id="skin7" class="skin-wrap skin-7">
         <div class="container player-skin-7">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -322,7 +322,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 8 - No Station Title ===----->
-    <section id="skin-8" class="skin-wrap skin-8">
+    <section id="skin8" class="skin-wrap skin-8">
         <div class="container audio-visua">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -364,7 +364,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 9 - Open Popup Player Button ===----->
-    <section id="skin-9" class="skin-wrap skin-9">
+    <section id="skin9" class="skin-wrap skin-9">
         <div class="container player-skin-7">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -406,7 +406,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 10 ===----->
-    <section id="skin-10" class="skin-wrap skin-10">
+    <section id="skin10" class="skin-wrap skin-10">
         <div class="container audio-visua">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -448,7 +448,7 @@ if ( function_exists( 'get_field' ) ) {
     </section>
 
     <!----===  Player Skin 11 ===----->
-    <section id="skin-11" class="skin-wrap skin-11">
+    <section id="skin11" class="skin-wrap skin-11">
         <div class="container bar-player-style">
             <div class="row">
                 <div class="col-lg-12 m-auto">
