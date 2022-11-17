@@ -37,70 +37,78 @@ if ( function_exists( 'get_field' ) ) {
             <div class="row">
                 <div class="col-lg-12 m-auto">
                     <div class="section-head text-center">
-                        <img class="img-fluid"
+                    <img class="img-fluid"
                              src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         <h1>Player Skin 1 - Card Player</h1>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
+
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Default Style</p>
                         </div>
                         <div class="skin-img">
-							<?php echo do_shortcode( $skins['skin_1']['style_1'] ); ?>
+                        <?php echo do_shortcode( $skins['skin_1']['style_1'] ); ?>
+                        
                         </div>
                     </div>
+
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
+
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Multiple Stations with playlist</p>
                         </div>
                         <div class="skin-img">
-							<?php echo do_shortcode( $skins['skin_1']['style_2'] ); ?>
+                        <?php echo do_shortcode( $skins['skin_1']['style_2'] ); ?>
                         </div>
                     </div>
+
                 </div>
+
             </div>
         </div>
     </section>
 
     <!----===  Player skin 2 ===----->
     <section id="skin-2" class="skin-wrap skin-2">
-        <div class="container player-skin-2">
+        <div class="container audio-visua">
             <div class="row">
                 <div class="col-lg-12 m-auto">
                     <div class="section-head text-center">
                         <img class="img-fluid"
                              src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
-                        <h1>Player Skin 2</h1>
+                             <h1>Player Skin 2</h1>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Default Style</p>
                         </div>
                         <div class="skin-img">
-							<?php echo do_shortcode( $skins['skin_2']['style_1'] ); ?>
+                        <?php echo do_shortcode( $skins['skin_2']['style_1'] ); ?>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Multiple Stations with playlist</p>
                         </div>
                         <div class="skin-img">
-							<?php echo do_shortcode( $skins['skin_2']['style_2'] ); ?>
+                        <?php echo do_shortcode( $skins['skin_2']['style_2'] ); ?>
                         </div>
                     </div>
+
                 </div>
+
             </div>
         </div>
     </section>
@@ -117,26 +125,28 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Default Style</p>
                         </div>
                         <div class="skin-img">
-							<?php echo do_shortcode( $skins['skin_3']['style_1'] ); ?>
+                        <?php echo do_shortcode( $skins['skin_3']['style_1'] ); ?>
                         </div>
                     </div>
+
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Multiple Stations with playlist</p>
                         </div>
                         <div class="skin-img">
-							<?php echo do_shortcode( $skins['skin_3']['style_2'] ); ?>
+                        <?php echo do_shortcode( $skins['skin_3']['style_2'] ); ?>
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -151,34 +161,34 @@ if ( function_exists( 'get_field' ) ) {
                     <div class="section-head text-center">
                         <img class="img-fluid"
                              src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
-                        <h1>Player Skin 4</h1>
+                             <h1>Player Skin 4</h1>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
+
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Default Style</p>
                         </div>
                         <div class="skin-img">
-
                         <?php echo do_shortcode( $skins['skin_4']['style_1'] ); ?>
-
                         </div>
                     </div>
+
                 </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
+                <div class="col-lg-6 col-md-6">
+
                     <div class="skin-item text-center">
                         <div class="skin-head">
                             <p>Multiple Stations with playlist</p>
                         </div>
                         <div class="skin-img">
-
                         <?php echo do_shortcode( $skins['skin_4']['style_2'] ); ?>
-
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -439,7 +449,7 @@ if ( function_exists( 'get_field' ) ) {
 
     <!----===  Player Skin 11 ===----->
     <section id="skin-11" class="skin-wrap skin-11">
-        <div class="container audio-visua">
+        <div class="container bar-player-style">
             <div class="row">
                 <div class="col-lg-12 m-auto">
                     <div class="section-head text-center">
