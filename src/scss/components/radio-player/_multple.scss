@@ -25,7 +25,8 @@
   }
 
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (max-width: 1199px) {
+    padding-bottom: 60px;
     .multiple-head {
       h1 {
         font-size: 2.2rem;
@@ -67,7 +68,12 @@
 
 
 .skin-wrap {
-  padding: 60px 0 60px 0;
+  padding: 60px 0;
+
+  .container {
+    padding: 60px;
+    border-radius: 40px;
+  }
 
   .section-head {
     h1 {
@@ -81,10 +87,10 @@
 
   .skin-item {
     background-color: #F6F6FC;
-
     border-radius: 20px;
     margin-bottom: 30px;
     height: max-content;
+    border: 1px solid #EAEAEA;
 
     .skin-head {
       background: #2E2B73;
@@ -108,14 +114,13 @@
       text-align: center;
     }
   }
+
   .card-player {
     padding: 60px;
   }
- 
+
   .player-skin-4 {
     background: #EDF7FF;
-    padding: 60px;
-    border-radius: 40px;
 
     .skin-item {
       background: #fff;
@@ -128,8 +133,6 @@
 
   .bar-player-style {
     background: #FCF5F1;
-    padding: 60px;
-    border-radius: 40px;
 
     .skin-item {
       background: #fff;
@@ -142,8 +145,6 @@
 
   .audio-visua {
     background: #E8F8F5;
-    padding: 60px;
-    border-radius: 40px;
 
     .skin-item {
       background: #fff;
@@ -156,8 +157,6 @@
 
   .player-skin-7 {
     background: #F4F8FF;
-    padding: 60px;
-    border-radius: 40px;
 
     .skin-item {
       background: #fff;
@@ -168,11 +167,13 @@
     }
   }
 
-  /*==== responsive area ====*/
   @media (min-width: 1200px) {
   }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
+  @media (max-width: 1199px) {
+    .container {
+      padding: 30px;
+    }
+
     .section-head {
       h1 {
         font-size: 2.3rem;
@@ -181,14 +182,17 @@
     .skin-item {
       .skin-head {
         p {
-          font-size: 1.7rem;
-          padding: 13px;
+          font-size: 1.5rem;
         }
       }
+
+      .skin-img {
+        padding: 20px;
+      }
+
     }
   }
   @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
     .section-head {
       h1 {
         font-size: 1.9rem;
@@ -203,21 +207,20 @@
       }
     }
   }
-
   @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .section-head {
-      h1 {
-        font-size: 1.9rem;
-      }
+    padding: 20px 0;
+
+    .container {
+      border-radius: 0;
+      padding: 20px;
     }
+
     .skin-item {
-      .skin-head {
-        p {
-          font-size: 1.2rem;
-        }
+      .skin-img {
+        padding: 15px;
       }
     }
+
   }
 }
-  /*==== responsive area end ====*/
+
