@@ -89,6 +89,44 @@ import './components/pricing';
                 autoplay: true,
                 arrows:false,
                 autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 1399.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 5
+                        }
+                    },
+                    {
+                        breakpoint: 1199.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 991.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 767.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 2
+                        }
+                    }
+                ]
             });
         },
 
