@@ -5,12 +5,15 @@
   padding: 160px 0 100px 0;
 
   .hero-content {
-    position: relative;
+    .hero-header {
+      position: relative;
+      display: inline-block;
 
-    .element {
-      position: absolute;
-      top: -50px;
-      left: 60px;
+      .element {
+        position: absolute;
+        top: -50px;
+        left: 60px;
+      }
     }
 
     span {
@@ -19,7 +22,7 @@
       font-weight: 700;
     }
 
-    h1 {
+    h2 {
       font-size: 3rem;
       color: $h1_color;
       font-weight: 700;
@@ -76,54 +79,67 @@
     }
   }
 
-
-  /**---------- inner-header-bg scss ----------**/
-
   .inner-header-bg {
     img {
       padding-bottom: 25%;
     }
   }
 
+  @media (max-width: 991px) {
+    padding-bottom: 0px;
+
+    .hero-content {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding-right: 0;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+  }
+
 }
 
-.page-template {
-  background: #F9FAFF;
-}
 
+/**--------- radio-player-feature-area scss ---------**/
 
-/**--------- radio-olayer-feature-area scss ---------**/
+#radio-player-features {
 
-#integrate-feature {
-  padding-top: 3%;
-
-  .featuer-item-img {
-    margin-bottom: 100px;
-    text-align: center;
+  .feature-item-img {
+    text-align: right;
   }
 
-  .feat2 {
-    display: none;
+  .feature-wrap {
+    margin: 60px 0;
+
+    &.flex-column-reverse {
+      .feature-item-img {
+        text-align: left;
+      }
+    }
   }
 
-  .feat1 {
-    display: block;
+  .feature-header {
+    position: relative;
+    display: inline-block;
+
+    .element {
+      position: absolute;
+      top: -50px;
+      left: 100px;
+    }
   }
 
-  .featuer-item {
+  .feature-item {
     .file-logo {
       margin-bottom: 17px;
     }
 
     .file-text {
-      position: relative;
-      top: -40px;
-
-      .element {
-        position: absolute;
-        top: -50px;
-        left: 100px;
-      }
 
       .section-head {
         font-size: 2rem;
@@ -181,186 +197,6 @@
     }
   }
 
-
-  .from-contact {
-    .file-text {
-      padding-top: 20%;
-
-      h3 {
-        padding-right: 0%;
-        font-size: 2.9rem;
-        padding-bottom: 3%;
-      }
-
-      p {
-        padding-bottom: 0;
-      }
-    }
-
-    .files {
-      display: flex;
-
-      h5 {
-        font-weight: 500;
-        font-size: .9rem;
-        line-height: 150%;
-        color: $h1_color;
-        text-transform: capitalize;
-      }
-
-      .fa-check {
-        color: #1FA463;
-        border: 2px solid #1FA463;
-        width: 20px;
-        height: 20px;
-        line-height: 18px;
-        border-radius: 50px;
-        margin: 0 6px;
-        text-align: center;
-        font-size: 12px;
-      }
-    }
-  }
-
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
-    .integrate-feature-head {
-      h1 {
-        font-size: 2.4rem;
-      }
-
-      p {
-        padding: 0;
-        font-size: .9rem;
-      }
-    }
-    .featuer-item {
-      .file-text {
-        margin-bottom: 50px;
-
-        h3 {
-          font-size: 2rem;
-
-        }
-
-        p {
-          padding: 0;
-          margin-bottom: 30px;
-          font-size: .9rem;
-        }
-
-      }
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .integrate-feature-head {
-      h1 {
-        font-size: 2.4rem;
-      }
-
-      p {
-        padding: 0;
-        font-size: .9rem;
-      }
-    }
-    .featuer-item {
-      .file-text {
-        margin-bottom: 50px;
-
-        h3 {
-          font-size: 1.8rem;
-
-        }
-
-        p {
-          padding: 0;
-          margin-bottom: 30px;
-          font-size: .785rem;
-        }
-
-      }
-    }
-    .from-contact {
-      .file-text {
-        h5 {
-          font-size: .8rem;
-        }
-      }
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .integrate-feature-head {
-      h1 {
-        font-size: 1.8rem;
-      }
-
-      p {
-        padding: 0;
-        font-size: .785rem;
-      }
-    }
-    .featuer-item-img {
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .f-items {
-      padding-top: 250px;
-    }
-    .featuer-item {
-      text-align: center;
-
-      .file-text {
-        margin-bottom: 50px;
-
-        span {
-          font-size: 1.5rem;
-        }
-
-        h3 {
-          font-size: 1.8rem;
-
-        }
-
-        p {
-          padding: 0;
-          margin-bottom: 30px;
-          font-size: .785rem;
-        }
-
-      }
-    }
-
-    .from-contact {
-      .file-text {
-        padding-top: 0;
-      }
-
-      .files {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
-  }
-  /**---------- responsive-area scss end ----------**/
-
-
-}
-
-/**-----preview area------**/
-#preview {
-  padding: 60px 0 60px 0;
-
   .preview-head {
     position: relative;
 
@@ -395,36 +231,26 @@
     }
   }
 
-  .featuer-item-img {
-    padding-top: 40px;
-  }
-
-  .featuer-item {
-    .file-text {
-      h3 {
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 120%;
-        color: #151826;
-        padding-bottom: 30px;
-      }
-
-      p {
-        font-weight: 400;
-        font-size: 1rem;
-        color: #5c637e;
-        line-height: 150%;
-      }
-    }
-  }
-
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
 
   @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
+    .feature-item {
+      .file-text {
+        margin-bottom: 50px;
+
+        h3 {
+          font-size: 2rem;
+
+        }
+
+        p {
+          padding: 0;
+          margin-bottom: 30px;
+          font-size: .9rem;
+        }
+
+      }
+    }
+
     .preview-head {
       span {
         font-size: 1.5rem;
@@ -441,33 +267,40 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
+  @media (max-width: 991px) {
+    .flex-column-reverse {
+      flex-direction: column-reverse !important;
+    }
+
+    .feature-item-img {
+      text-align: center !important;
+    }
+
+    .feature-item {
+      .file-text {
+        margin: 50px auto;
+        text-align: center;
+
+        h3 {
+          font-size: 1.8rem;
+
+        }
+
+        p {
+          padding: 0;
+          margin-bottom: 30px;
+          font-size: .785rem;
+        }
+
+      }
+    }
+
     .preview-head {
       span {
         font-size: 1.3rem;
       }
 
-      h1 {
-        font-size: 2.5rem;
-      }
-
-      p {
-        padding: 0;
-        font-size: .785rem;
-      }
-    }
-
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .preview-head {
-      span {
-        font-size: 1.2rem;
-      }
-
-      h1 {
+      h2 {
         font-size: 2rem;
       }
 
@@ -476,28 +309,57 @@
         font-size: .785rem;
       }
     }
+  }
 
-    .featuer-item {
-      padding-top: 80px;
+  @media (max-width: 767px) {
+    .feature-item-img {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .feature-item {
       text-align: center;
 
       .file-text {
-        h3 {
+        margin-bottom: 50px;
+
+        span {
           font-size: 1.5rem;
+        }
+
+        h3 {
+          font-size: 1.8rem;
 
         }
 
         p {
+          padding: 0;
+          margin-bottom: 30px;
           font-size: .785rem;
         }
+
       }
     }
 
+    .preview-head {
+      span {
+        font-size: 1.2rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        padding: 0;
+        font-size: .785rem;
+      }
+    }
   }
-  /**---------- responsive-area scss end ----------**/
+
+
 }
 
-/**-----ex-feature area------**/
 
 #ex-feature {
   padding: 60px 0 60px 0;
@@ -647,6 +509,7 @@
       line-height: 120%;
       color: $h1_color;
     }
+
     p {
       font-weight: 400;
       font-size: 1rem;
@@ -657,25 +520,25 @@
   }
 
   .item-img {
-      background: #fff;
-      width: 200px;
-      height: 60px;
-      border-radius: 8px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    background: #fff;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
 
 
 /**-----testmonial area------**/
-#testmonial {
+#testimonial {
   background: #fff;
   padding: 60px 0 60px 0;
 
   .test-head {
-    h1 {
+    h2 {
       font-weight: 700;
       font-size: 2.9rem;
       color: #151826;
@@ -698,7 +561,7 @@
     margin-top: 30px;
     height: 330px;
 
-    .tests {
+    .testimonial-header {
       margin-bottom: 10px;
 
       h6 {
@@ -717,7 +580,7 @@
       }
     }
 
-    .ratting {
+    .rating {
       .fa-star {
         font-size: 2rem;
         color: #FF8F1E;
@@ -732,7 +595,7 @@
 
     }
 
-    .contant {
+    .testimonial-content {
       img {
         border-radius: 50px;
       }
@@ -757,92 +620,51 @@
     }
   }
 
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
+  @media (max-width: 991px) {
     .test-head {
-      h1 {
-        font-size: 2.5rem;
-      }
-
-      p {
-
-        font-size: .785rem;
-      }
-    }
-    .test-item {
-      .contant {
-        p {
-          padding: 0;
-        }
-      }
-    }
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .test-head {
-      h1 {
-        font-size: 2.5rem;
-      }
-
-      p {
-
-        font-size: .785rem;
-      }
-    }
-    .test-item {
-      text-align: center;
-
-      .contant {
-        p {
-          padding: 0;
-          font-size: .785rem;
-        }
-      }
-
-      .ratting {
-        .fa-star {
-          font-size: 1.7rem;
-        }
-
-        .fa-star-half-stroke {
-          font-size: 1.7rem;
-        }
-      }
-    }
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .test-head {
-      h1 {
+      h2 {
         font-size: 2rem;
       }
 
       p {
         padding: 0;
-        font-size: .785rem;
       }
     }
-    .test-item {
-      text-align: center;
 
-      .contant {
-        p {
-          padding: 0;
-          font-size: .785rem;
+    .test-item {
+      height: auto;
+
+      .testimonial-header {
+        h6 {
+          font-size: 1.2rem;
         }
       }
+
+      .rating {
+        .fa-star {
+          font-size: 1.5rem;
+        }
+
+        .fa-star-half-stroke {
+          font-size: 1.5rem;
+        }
+      }
+
+      .testimonial-content {
+        p {
+          padding-right: 0;
+        }
+
+        h5 {
+          font-size: 1rem;
+        }
+      }
+
+
     }
 
   }
-  /**---------- responsive-area scss end ----------**/
+
 }
 
 /**-----funfact area------**/
@@ -851,7 +673,7 @@
   background: #fff;
 
   .funfact-head {
-    h1 {
+    h2 {
       font-weight: 700;
       font-size: 2.8rem;
       line-height: 120%;
@@ -898,65 +720,36 @@
     }
   }
 
-  /**---------- responsive-area scss start ----------**/
-  @media (min-width: 1200px) {
-    //Extra large
-  }
+  @media (max-width: 991px) {
+    padding: 50px 0;
 
-  @media (min-width: 992px) and (max-width: 1199px) {
-    //Laptop
     .funfact-head {
-      h1 {
+      h2 {
         font-size: 2rem;
+        margin-bottom: 30px;
       }
     }
+
     .fun-item {
+      margin-bottom: 15px;
+
       .contant {
-        span {
-          font-size: 1.5rem;
+        .te-count {
+          span {
+            font-size: 1.5rem;
+          }
+
+          h5 {
+            font-size: 1.5rem;
+          }
         }
 
         h6 {
-          font-size: .78rem;
-        }
-      }
-    }
-
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    //Tablet
-    .funfact-head {
-      h1 {
-        font-size: 2rem;
-      }
-    }
-    .fun-item {
-      margin-bottom: 20px;
-    }
-
-  }
-
-  @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-    .funfact-head {
-      h1 {
-        font-size: 2rem;
-      }
-    }
-    .fun-item {
-      .contant {
-        span {
-          font-size: 1rem;
-        }
-
-        h6 {
-          font-size: .6rem;
+          font-size: .8rem;
         }
       }
     }
   }
-  /**---------- responsive-area scss end ----------**/
 }
 
 /**---------- cta area scss ----------**/
@@ -980,7 +773,6 @@
       font-size: 1rem;
       line-height: 150%;
       color: #F9FAFF;
-      padding-top: 25px;
     }
   }
 
@@ -1018,6 +810,17 @@
         border-color: #fff;
       }
     }
+  }
+
+  @media (max-width: 991px) {
+    padding: 50px 0;
+
+    .cta-content {
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+
   }
 
 }
