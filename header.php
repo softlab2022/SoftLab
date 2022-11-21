@@ -59,7 +59,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						);
 						?>
 
-                        <a class="nav-link btn text-white view-products-btn" href="/products/">View Products</a>
+                        <a class="nav-link btn text-white view-products-btn" href="/account/"><i class="fa-sharp fa-solid fa-user"></i> My account</a>
 
                     </div><!-- /.navbar-collapse -->
                 </nav><!-- /#header -->
