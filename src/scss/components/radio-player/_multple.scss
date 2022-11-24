@@ -230,7 +230,7 @@
     position: relative;
     &::after {
       position: absolute;
-      top: 153px;
+      top: 242px;
       left: 50%;
       transform: translateX(-50%);
       content: '';
@@ -253,17 +253,6 @@
       left: -34px;
       z-index: -1;
     }
-  }
-  .skin-item {
-    background: #FFF8E7;
-    border-radius: 20px;
-    padding: 40px 92px;
-  }
-  .items-skin {
-    background: #E8F8F5;
-  }
-  .skin-wrap {
-    padding: 50px 0!important;
   }
 }
 
