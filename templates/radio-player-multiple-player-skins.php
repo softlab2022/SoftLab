@@ -74,7 +74,7 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="skin-item items-skin">
+                    <div class="skin-item bar-player-style ">
                         <div class="skin-img  text-center">
                             <?php echo do_shortcode( $skins['skin_2']['style_2'] ); ?>
                         </div>
@@ -84,7 +84,7 @@ if ( function_exists( 'get_field' ) ) {
                 <!------=== player skin 3 ===-------->
             <div class="row align-items-center skin-wrap skin-3" id="skin3">
                 <div class="col-lg-5">
-                    <div class="skin-item">
+                    <div class="skin-item audio-visua">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_3']['style_2'] ); ?>
                         </div>
@@ -120,7 +120,7 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="skin-item items-skin">
+                    <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_4']['style_2'] ); ?>
                         </div>
@@ -167,7 +167,7 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="skin-item items-skin">
+                    <div class="skin-item bar-player-style ">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_6']['style_2'] ); ?>
                         </div>
@@ -177,7 +177,7 @@ if ( function_exists( 'get_field' ) ) {
             <!------=== player skin 7 ===-------->
             <div class="row align-items-center skin-wrap skin-7" id="skin7">
                 <div class="col-lg-5">
-                    <div class="skin-item">
+                    <div class="skin-item player-skin-7">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_7']['style_2'] ); ?>
                         </div>
@@ -214,7 +214,7 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="skin-item items-skin">
+                    <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_8']['style_2'] ); ?>
                         </div>
@@ -224,7 +224,7 @@ if ( function_exists( 'get_field' ) ) {
             <!------=== player skin 9 ===-------->
             <div class="row align-items-center skin-wrap skin-9" id="skin9">
                 <div class="col-lg-5">
-                    <div class="skin-item">
+                    <div class="skin-item audio-visua">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_9']['style_2'] ); ?>
                         </div>
@@ -260,7 +260,7 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="skin-item items-skin">
+                    <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_10']['style_2'] ); ?>
                         </div>
@@ -270,7 +270,7 @@ if ( function_exists( 'get_field' ) ) {
             <!------=== player skin 11 ===-------->
             <div class="row align-items-center skin-wrap skin-11" id="skin11">
                 <div class="col-lg-5">
-                    <div class="skin-item">
+                    <div class="skin-item player-skin-7">
                         <div class="skin-img text-center">
                             <?php echo do_shortcode( $skins['skin_11']['style_2'] ); ?>
                         </div>
