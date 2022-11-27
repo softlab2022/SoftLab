@@ -11,26 +11,29 @@ $free_features = [
 ];
 
 $pro_features = [
-	'All Free Features',
 	'File Browser Module',
 	'File Uploader Module',
 	'Photo Gallery Module',
 	'Audio and Video Player Module',
 	'File Search Module',
-	'Add Multiple Google Drive Accounts',
+	'Add Multiple Google Accounts',
 	'WooCommerce Integration',
 	'Easy Digital Downloads Integration',
 ];
 
 ?>
 
-<section id="pricing-hero">
+<section id="pricing-hero" class="black-friday">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-7 m-auto">
+
                 <div class="hero-content text-center">
-                    <h2>Simple Pricing, Unbeatable Value</h2>
-                    <p>Join 2000+ User's Happy Community</p>
+                    <img class="img-fluid black-friday-img"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/pricing/black-friday.png"
+                         alt="Black Friday Offer">
+                    <h2>We Offer Numerous Pocket-Friendly Price Distribution</h2>
+                    <p>Join Our 1,000+ Happy Users Community</p>
                 </div>
             </div>
         </div>
@@ -41,93 +44,212 @@ $pro_features = [
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+
                 <div class="pricing-switcher">
+
+                    <img class="switch-offer annual"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/pricing/50-off-bf.png"
+                         alt="50% OFF">
+
                     <span class="switch-text annual">Annual</span>
                     <span class="switch"></span>
                     <span class="switch-text lifetime">Lifetime</span>
+
+                    <img class="switch-offer lifetime"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/pricing/60-off-bf.png"
+                         alt="60% OFF">
                 </div>
+
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-5 col-md-6 ms-auto">
-                <div class="price-table">
+            <div class="col-lg-12">
+                <div class="price-tables annual">
 
-                    <div class="pricing-head text-center">
-                        <span class="pricing-head-title">FREE</span>
-                        <span class="pricing-head-description">Started with Basics</span>
-                        <div class="price-text">
-                            <span class="price-value free">00</span>
+                    <!-- FREE -->
+                    <div class="price-table price-table__free">
+                        <div class="pricing-head text-center">
+                            <span class="pricing-head-title">FREE</span>
+
+                            <div class="price-text free">
+                                <span class="price-value annual">Always Free</span>
+                                <span class="price-value lifetime">Always Free</span>
+                            </div>
+
+                            <span class="plan-desc">Most Basic Plan to Integrate Google Drive</span>
                         </div>
-                        <span class="support-text">No Support</span>
+
+                        <div class="price-features align-items-center">
+							<?php foreach ( $free_features as $feature ) { ?>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span><?php echo $feature; ?></span>
+                                </div>
+							<?php } ?>
+                        </div>
+
+                        <a href="https://wordpress.org/plugins/integrate-google-drive" class="btn buy-btn buy-btn-free">Download
+                            Free</a>
                     </div>
 
-                    <div class="price-features align-items-center">
-						<?php foreach ( $free_features as $feature ) { ?>
+
+                    <!-- PERSONAL -->
+                    <div class="price-table price-table__personal">
+                        <div class="pricing-head text-center">
+                            <div class="offer-badge personal">
+                                <div class="offer-value annual">30% OFF</div>
+                                <div class="offer-value lifetime">35% OFF</div>
+                            </div>
+
+                            <span class="pricing-head-title">PERSONAL</span>
+
+                            <div class="price-text personal">
+
+                                <div class="regular-price">
+                                    <span class="price-value annual">$45</span>
+                                    <span class="price-value lifetime">$129</span>
+                                </div>
+
+                                <div class="offer-price">
+                                    <span class="price-value annual">$35</span>
+                                    <span class="price-value lifetime">$99</span>
+
+                                    <span class="price-suffix annual">/ Year</span>
+                                    <span class="price-suffix lifetime">/ Billed once
+                                </div>
+                            </div>
+
+                            <span class="plan-desc">Gear up from the basic plan, discover pro features</span>
+                        </div>
+
+                        <div class="price-features align-items-center">
                             <div class="feature-item">
                                 <i class="fa-solid fa-check"></i>
-                                <span><?php echo $feature; ?></span>
+                                <span>Everything in Free</span>
                             </div>
-						<?php } ?>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span>1 Site License</span>
+                            </div>
+
+							<?php foreach ( $pro_features as $feature ) { ?>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span><?php echo $feature; ?></span>
+                                </div>
+							<?php } ?>
+                        </div>
+
+                        <a href="#" class="btn buy-btn buy-btn-personal">Buy Now</a>
                     </div>
 
-                    <a href="https://wordpress.org/plugins/integrate-google-drive" class="btn buy-btn">Download Free</a>
+                    <!-- PROFESSIONAL -->
+                    <div class="price-table price-table__professional">
+                        <div class="pricing-head text-center">
+                            <div class="offer-badge professional">
+                                <div class="offer-value annual">40% OFF</div>
+                                <div class="offer-value lifetime">45% OFF</div>
+                            </div>
+
+                            <span class="pricing-head-title">PROFESSIONAL</span>
+
+                            <div class="price-text professional">
+
+                                <div class="regular-price">
+                                    <span class="price-value annual">$129</span>
+                                    <span class="price-value lifetime">$259</span>
+                                </div>
+
+                                <div class="offer-price">
+                                    <span class="price-value annual">$99</span>
+                                    <span class="price-value lifetime">$199</span>
+
+                                    <span class="price-suffix annual">/ Year</span>
+                                    <span class="price-suffix lifetime">/ Billed once
+                                </div>
+                            </div>
+
+                            <span class="plan-desc">Unlock more premium & unique features <strong>(smart choice)</strong></span>
+                        </div>
+
+                        <div class="price-features align-items-center">
+
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Everything in Personal</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span>5 Sites License</span>
+                            </div>
+
+							<?php foreach ( $pro_features as $feature ) { ?>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span><?php echo $feature; ?></span>
+                                </div>
+							<?php } ?>
+                        </div>
+
+                        <a href="#" class="btn buy-btn buy-btn-professional">Buy Now</a>
+                    </div>
+
+                    <!-- BUSINESS -->
+                    <div class="price-table price-table__business">
+                        <div class="pricing-head text-center">
+                            <div class="offer-badge personal">
+                                <div class="offer-value annual">50% OFF</div>
+                                <div class="offer-value lifetime">60% OFF</div>
+                            </div>
+
+                            <span class="pricing-head-title">BUSINESS</span>
+
+                            <div class="price-text personal">
+
+                                <div class="regular-price">
+                                    <span class="price-value annual">$336</span>
+                                    <span class="price-value lifetime">$1012</span>
+                                </div>
+
+                                <div class="offer-price">
+                                    <span class="price-value annual">$259</span>
+                                    <span class="price-value lifetime">$779</span>
+
+                                    <span class="price-suffix annual">/ Year</span>
+                                    <span class="price-suffix lifetime">/ Billed once
+                                </div>
+                            </div>
+
+                            <span class="plan-desc">Discover our ultimate features without any limitations</span>
+                        </div>
+
+                        <div class="price-features align-items-center">
+
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Everything in Professional</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span>Unlimited Sites License</span>
+                            </div>
+
+							<?php foreach ( $pro_features as $feature ) { ?>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span><?php echo $feature; ?></span>
+                                </div>
+							<?php } ?>
+                        </div>
+
+                        <a href="#" class="btn buy-btn buy-btn-business">Buy Now</a>
+                    </div>
+
 
                 </div>
             </div>
 
-            <div class="col-lg-5 col-md-6 me-auto">
-                <div class="price-table table-pro">
-                    <div class="pricing-head text-center">
-                        <span class="pricing-head-title">PRO</span>
-                        <span class="pricing-head-description">Most Popular Package</span>
-
-                        <div class="site">
-                            <div class="dropdown license-dropdown">
-                                <button class="btn-pr dropdown-toggle" type="button" id="license-dropdown"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                    Single Site License
-                                </button>
-
-                                <ul class="dropdown-menu" aria-labelledby="license-dropdown">
-                                    <li>
-                                        <a class="dropdown-item active" href="#" data-license="1">Single Site
-                                            License</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="price-text annual license-1">
-                            <span class="price-value annual single">29<span class="cent">.99</span></span>
-                            <span class="price-value annual five">99<span class="cent">.99</span></span>
-
-                            <span class="price-value lifetime single">69<span class="cent">.99</span></span>
-                            <span class="price-value lifetime five">199<span class="cent">.99</span></span>
-
-                            <span class="price-suffix annual">/ Per year</span>
-                            <span class="price-suffix lifetime">/ Billed once</span>
-                        </div>
-
-                        <span class="support-text">Priority Email Support</span>
-                    </div>
-
-                    <div class="price-features align-items-center">
-						<?php foreach ( $pro_features as $feature ) { ?>
-                            <div class="feature-item">
-                                <i class="fa-solid fa-check"></i>
-                                <span><?php echo $feature; ?></span>
-                            </div>
-						<?php } ?>
-                    </div>
-
-                    <a href="#" class="btn buy-btn buy-btn-pro">Buy Now</a>
-
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -142,12 +264,22 @@ $pro_features = [
                 image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive.png",
             });
 
-            $('.buy-btn-pro').on('click', function (e) {
+            $('.buy-btn:not(.buy-btn-free)').on('click', function (e) {
                 e.preventDefault();
+
+                var license = 1;
+
+                if ($(this).hasClass('buy-btn-personal')) {
+                    license = 1;
+                } else if ($(this).hasClass('buy-btn-professional')) {
+                    license = 5;
+                } else if ($(this).hasClass('buy-btn-business')) {
+                    license = 'unlimited';
+                }
 
                 handler.open({
                     name: 'Integrate Google Drive',
-                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+                    licenses: license,
 
                     // You can consume the response for after purchase logic.
                     purchaseCompleted: function (response) {
