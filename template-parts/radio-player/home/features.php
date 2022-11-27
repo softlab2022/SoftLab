@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="col-lg-6 ">
-                <div class="feature-item-img ">
+                <div class="feature-item-img embed-code">
                     <img class="img-fluid"
                          src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png"
                          alt="Embed Code">

@@ -2,24 +2,20 @@
 
 $features = [
 	[
+		'title'       => 'MP3 + AAC + M3U8 Compatibility',
+		'description' => 'You can play the live .m3u8 streams using the radio player.',
+		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/mp3-aac.png',
+	],
+	[
 		'title'       => 'Shortcode Player',
 		'description' => 'Display the Radio Players anywhere in your website using the <code>[radio_player]</code> shortcode.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/shortcode.png',
 	],
+	
 	[
-		'title'       => 'Play Statistics',
-		'description' => 'You can view the statistics of how many visitors how many times playing the players in each day.',
-		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/play-statistics.png',
-	],
-	[
-		'title'       => 'MP3 + AAC + M3U8 Compatibility',
-		'description' => 'Radio Player plugin can play any audio source including .mp3, .aac, .m3u8, .pls and more.',
-		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/mp3.png',
-	],
-	[
-		'title'       => 'Customize Popup Player Size',
-		'description' => 'The popup player is fully customizable. You can change the width and height of the popup player window.',
-		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/customize.png',
+		'title'       => 'Current Song Title',
+		'description' => 'Radio player can grap and play the current playing station metadata title.',
+		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/current-title.png',
 	],
 	[
 		'title'       => 'Player Duplicator',
@@ -27,24 +23,25 @@ $features = [
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/player-duplicator.png',
 	],
 	[
-		'title'       => 'Multiple Instance',
-		'description' => 'Multiple players can be displayed and played at the same time on the same page.',
-		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/multiple-lnstance.png',
-	],
-	[
-		'title'       => 'Current Song Title',
-		'description' => 'Radio player can grab and display the currently playing track title.',
-		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/station-metadata.png',
-	],
-	[
 		'title'       => 'Mobile Media Notification',
 		'description' => 'While playing a the player, users can see currently playing station information and can play/ pause the player from the mobile notification bar.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/notification.png',
 	],
 	[
+		'title'       => 'Multiple Instance',
+		'description' => 'Multiple players can be displayed and played at the same time on the same page.',
+		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/multiple-lnstance.png',
+	],
+	
+	[
 		'title'       => 'Add Unlimited Players',
 		'description' => 'You can add and play unlimited radio players as you want.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/unlimited-players.png',
+	],
+	[
+		'title'       => 'Custom CSS',
+		'description' => 'You customize the popup player width & height.',
+		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/custom-css.png',
 	],
 	[
 		'title'       => 'Color Customizations',
@@ -52,15 +49,21 @@ $features = [
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/color-custom.png',
 	],
 	[
-		'title'       => 'Elementor Widget',
-		'description' => 'Display and play the radio player in any page/ post using the Radio Player Elementor widget.',
-		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/widget.png',
+		'title'       => 'Play Statistics',
+		'description' => 'You can view the statistics how many user how many times the radio player.',
+		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/play-statistics.png',
 	],
 	[
 		'title'       => 'Gutenberg Block',
 		'description' => 'Display the player in any page/ post using the Radio Player Gutenberg editor block.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/block.png',
 	],
+	[
+		'title'       => 'Elementor Widget',
+		'description' => 'Display and play the radio player in any page/ post using the Radio Player Elementor widget.',
+		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/widget.png',
+	],
+	
 
 ];
 
