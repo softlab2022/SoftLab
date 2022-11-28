@@ -792,42 +792,46 @@
 }
 
 .page-template-radio-player-pricing {
-  #pricing-hero {
-    background: url("../images/radio-player/price/price-hero-shapes.png") no-repeat bottom / cover;
-  }
 
-  #pricing {
-    .price-table {
-      .buy-btn {
-        color: $radio_player_color;
-        border: 1px solid $radio_player_color;
-        background: #fff;
+    .site-header .primary-nav {
+      .navbar-nav .nav-item a {
+        color: #fff;
 
-        &:hover {
-          color: #fff;
-          background: $radio_player_color;
+        &.active {
+          color: $igd_color;
         }
+      }
 
-        &-pro {
-          color: #fff;
-          background: $radio_player_color;
+      .navbar-brand {
+        &.brand-radio-player {
+          background: url("../images/radio-player/radio-player-white-logo.png") no-repeat bottom;
 
-          &:hover {
-            color: $radio_player_color;
-            background: #fff;
+          img {
+            visibility: hidden;
           }
         }
       }
+
     }
 
-    .table-pro {
-      .pricing-head {
-        .pricing-head-title {
-          color: #4353FF;
+    #pricing-hero {
+      background: url("../images/google-drive/pricing/hero-bg-bf.png") no-repeat bottom / cover;
+      .hero-content {
+        img {
+          margin-bottom: 30px;
+        }
+
+        h2 {
+          color: #FFF;
+        }
+
+        p {
+          color: #FFF;
         }
       }
+
     }
-  }
+    
 
   #industry {
     background: url("../images/radio-player/price/industry-bg.png") no-repeat;
@@ -849,114 +853,156 @@
 }
 
 .page-template-wp-radio-pricing {
-  #pricing-hero {
-    background: url("../images/wp-radio/price/price-hero-shapes.png") no-repeat bottom / cover;
+  // #pricing-hero {
+  //   background: url("../images/wp-radio/price/price-hero-shapes.png") no-repeat bottom / cover;
 
+  //   .hero-content {
+  //     h2 {
+  //       font-weight: 700;
+  //       font-size: 3.5rem;
+  //       line-height: 120%;
+  //       color: #fff;
+  //     }
+
+  //     p {
+  //       font-weight: 400;
+  //       font-size: 1rem;
+  //       color: #fff;
+  //       line-height: 150%;
+  //       padding-bottom: 120px;
+  //     }
+  //   }
+  // }
+
+  // #pricing {
+  //   .pricing-switcher {
+  //     .switch-text {
+
+  //       &.annual {
+  //         color: #fff;
+  //       }
+
+  //       &.lifetime {
+  //         color: #C8DCFC;
+  //       }
+  //     }
+
+  //     .switch {
+  //       background-color: #0014EF;
+  //     }
+
+  //     &.active {
+  //       .switch-text {
+
+  //         &.annual {
+  //           color: #C8DCFC;
+  //         }
+
+  //         &.lifetime {
+  //           color: #fff;
+  //         }
+  //       }
+  //     }
+  //   }
+
+  //   .price-table {
+  //     .pricing-head {
+  //       .price-text {
+  //         color: #4353FF;
+  //       }
+  //     }
+
+  //     .buy-btn {
+  //       color: $wp_radio_color;
+  //       border: 1px solid $wp_radio_color;
+  //       background: #fff;
+
+  //       &:hover {
+  //         color: #fff;
+  //         background: $wp_radio_color;
+  //       }
+
+  //       &-pro {
+  //         color: #fff;
+  //         background: $wp_radio_color;
+
+  //         &:hover {
+  //           color: $wp_radio_color;
+  //           background: #fff;
+  //         }
+  //       }
+  //     }
+  //   }
+
+  //   .table-pro {
+  //     .pricing-head-title {
+  //       color: #4353FF;
+  //     }
+
+  //     .site {
+  //       .dropdown {
+  //         .dropdown-item {
+  //           &.active {
+  //             background-color: $wp_radio_color;
+  //           }
+  //         }
+
+  //         .btn-pr {
+  //           background-color: #4353FF;
+  //         }
+  //       }
+  //     }
+  //   }
+
+  //   .price-features {
+  //     .feature-item {
+  //       i {
+  //         background: #4353FF;
+  //       }
+  //     }
+  //   }
+  // }
+
+  .site-header .primary-nav {
+    .navbar-nav .nav-item a {
+      color: #fff;
+
+      &.active {
+        color: $igd_color;
+      }
+      &:hover {
+        color: $igd_color;
+      }
+    }
+
+    .navbar-brand {
+      &.brand-radio-player {
+        background: url("../images/radio-player/radio-player-white-logo.png") no-repeat bottom;
+
+        img {
+          visibility: hidden;
+        }
+      }
+    }
+
+  }
+
+  #pricing-hero {
+    background: url("../images/google-drive/pricing/hero-bg-bf.png") no-repeat bottom / cover;
     .hero-content {
+      img {
+        margin-bottom: 30px;
+      }
+
       h2 {
-        font-weight: 700;
-        font-size: 3.5rem;
-        line-height: 120%;
-        color: #fff;
+        color: #FFF;
       }
 
       p {
-        font-weight: 400;
-        font-size: 1rem;
-        color: #fff;
-        line-height: 150%;
-        padding-bottom: 120px;
-      }
-    }
-  }
-
-  #pricing {
-    .pricing-switcher {
-      .switch-text {
-
-        &.annual {
-          color: #fff;
-        }
-
-        &.lifetime {
-          color: #C8DCFC;
-        }
-      }
-
-      .switch {
-        background-color: #0014EF;
-      }
-
-      &.active {
-        .switch-text {
-
-          &.annual {
-            color: #C8DCFC;
-          }
-
-          &.lifetime {
-            color: #fff;
-          }
-        }
+        color: #FFF;
       }
     }
 
-    .price-table {
-      .pricing-head {
-        .price-text {
-          color: #4353FF;
-        }
-      }
-
-      .buy-btn {
-        color: $wp_radio_color;
-        border: 1px solid $wp_radio_color;
-        background: #fff;
-
-        &:hover {
-          color: #fff;
-          background: $wp_radio_color;
-        }
-
-        &-pro {
-          color: #fff;
-          background: $wp_radio_color;
-
-          &:hover {
-            color: $wp_radio_color;
-            background: #fff;
-          }
-        }
-      }
-    }
-
-    .table-pro {
-      .pricing-head-title {
-        color: #4353FF;
-      }
-
-      .site {
-        .dropdown {
-          .dropdown-item {
-            &.active {
-              background-color: $wp_radio_color;
-            }
-          }
-
-          .btn-pr {
-            background-color: #4353FF;
-          }
-        }
-      }
-    }
-
-    .price-features {
-      .feature-item {
-        i {
-          background: #4353FF;
-        }
-      }
-    }
   }
 
   #industry {
