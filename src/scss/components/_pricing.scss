@@ -853,116 +853,102 @@
 }
 
 .page-template-wp-radio-pricing {
-  // #pricing-hero {
-  //   background: url("../images/wp-radio/price/price-hero-shapes.png") no-repeat bottom / cover;
 
-  //   .hero-content {
-  //     h2 {
-  //       font-weight: 700;
-  //       font-size: 3.5rem;
-  //       line-height: 120%;
-  //       color: #fff;
-  //     }
+  #pricing {
+    .pricing-switcher {
+      .switch-text {
 
-  //     p {
-  //       font-weight: 400;
-  //       font-size: 1rem;
-  //       color: #fff;
-  //       line-height: 150%;
-  //       padding-bottom: 120px;
-  //     }
-  //   }
-  // }
+        &.annual {
+          color: #fff;
+        }
 
-  // #pricing {
-  //   .pricing-switcher {
-  //     .switch-text {
+        &.lifetime {
+          color: #C8DCFC;
+        }
+      }
 
-  //       &.annual {
-  //         color: #fff;
-  //       }
+      .switch {
+        background-color: $reader_mode_color;
+      }
 
-  //       &.lifetime {
-  //         color: #C8DCFC;
-  //       }
-  //     }
+      &.active {
+        .switch-text {
 
-  //     .switch {
-  //       background-color: #0014EF;
-  //     }
+          &.annual {
+            color: #C8DCFC;
+          }
 
-  //     &.active {
-  //       .switch-text {
+          &.lifetime {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .price-table {
+      .buy-btn-free {
+        color: $reader_mode_color!important;
+        border: 1px solid $reader_mode_color!important;
+        background: #fff!important;
 
-  //         &.annual {
-  //           color: #C8DCFC;
-  //         }
+        &:hover {
+          color: #fff!important;
+          background: $reader_mode_color!important;
+          border-color: $reader_mode_color!important;
+        }
+      }
+      .buy-btn {
+        color: #fff;
+        border: 1px solid $reader_mode_color;
+        background: $reader_mode_color;
 
-  //         &.lifetime {
-  //           color: #fff;
-  //         }
-  //       }
-  //     }
-  //   }
+        &:hover {
+          color: $reader_mode_color;
+          background: #fff;
+          border-color: $reader_mode_color;
+        }
 
-  //   .price-table {
-  //     .pricing-head {
-  //       .price-text {
-  //         color: #4353FF;
-  //       }
-  //     }
+        &-pro {
+          color: #fff;
+          background: $reader_mode_color;
 
-  //     .buy-btn {
-  //       color: $wp_radio_color;
-  //       border: 1px solid $wp_radio_color;
-  //       background: #fff;
+          &:hover {
+            color: $reader_mode_color;
+            background: #fff;
+          }
+        }
+      }
 
-  //       &:hover {
-  //         color: #fff;
-  //         background: $wp_radio_color;
-  //       }
+      .buy-btn-professional {
+        background: linear-gradient(0deg, #FFC107 0%, #FFC107 100%)!important;
+        border: 1px solid #FFC107!important;
+        transition: all linear .4s;
+        &:hover {
+          color: #FFC107;
+          background: #fff!important;
+          border-color:#FFC107;
+        }
+      }
 
-  //       &-pro {
-  //         color: #fff;
-  //         background: $wp_radio_color;
+      .pricing-head {
+        .price-value {
+          color: $reader_mode_color;
+        }
+      }
 
-  //         &:hover {
-  //           color: $wp_radio_color;
-  //           background: #fff;
-  //         }
-  //       }
-  //     }
-  //   }
-
-  //   .table-pro {
-  //     .pricing-head-title {
-  //       color: #4353FF;
-  //     }
-
-  //     .site {
-  //       .dropdown {
-  //         .dropdown-item {
-  //           &.active {
-  //             background-color: $wp_radio_color;
-  //           }
-  //         }
-
-  //         .btn-pr {
-  //           background-color: #4353FF;
-  //         }
-  //       }
-  //     }
-  //   }
-
-  //   .price-features {
-  //     .feature-item {
-  //       i {
-  //         background: #4353FF;
-  //       }
-  //     }
-  //   }
-  // }
-
+      .offer-badge.personal{
+        background: $reader_mode_color!important;
+        border-bottom: 3px solid #a07800!important;
+      }
+    }
+    .price-features {
+      .feature-item {
+        i {
+          background: $reader_mode_color!important;
+        }
+      }
+    }
+  }
+  
   .site-header .primary-nav {
     .navbar-nav .nav-item a {
       color: #fff;
@@ -1126,19 +1112,26 @@
     }
 
     .price-table {
-      border: 1px solid rgba(#7788FF, 0.3);
-      border-top-width: 7px;
-      border-top-color: $reader_mode_color;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-
-      .buy-btn {
-        color: $reader_mode_color;
-        border: 1px solid $reader_mode_color;
-        background: #fff;
+      .buy-btn-free {
+        color: $reader_mode_color!important;
+        border: 1px solid $reader_mode_color!important;
+        background: #fff!important;
 
         &:hover {
-          color: #fff;
-          background: $reader_mode_color;
+          color: #fff!important;
+          background: $reader_mode_color!important;
+          border-color: $reader_mode_color!important;
+        }
+      }
+      .buy-btn {
+        color: #fff;
+        border: 1px solid $reader_mode_color;
+        background: $reader_mode_color;
+
+        &:hover {
+          color: $reader_mode_color;
+          background: #fff;
+          border-color: $reader_mode_color;
         }
 
         &-pro {
@@ -1152,49 +1145,33 @@
         }
       }
 
+      .buy-btn-professional {
+        background: linear-gradient(0deg, #FFC107 0%, #FFC107 100%)!important;
+        border: 1px solid #FFC107!important;
+        transition: all linear .4s;
+        &:hover {
+          color: #FFC107;
+          background: #fff!important;
+          border-color:#FFC107;
+        }
+      }
+
       .pricing-head {
         .price-value {
           color: $reader_mode_color;
         }
       }
 
-    }
-
-    .table-pro {
-      border-top-color: darken(#7788FF, 10%);
-
-      .pricing-head {
-        .pricing-head-title {
-          color: darken(#7788FF, 10%);
-        }
-
-        .price-value {
-          color: darken(#7788FF, 10%);
-        }
-
-        .site {
-          .dropdown {
-            button {
-              background-color: $reader_mode_color;
-            }
-
-            .dropdown-item {
-              &.active {
-                background-color: $reader_mode_color;
-              }
-            }
-          }
-        }
-
+      .offer-badge.personal{
+        background: $reader_mode_color!important;
+        border-bottom: 3px solid #a07800!important;
       }
-
     }
-
 
     .price-features {
       .feature-item {
         i {
-          background: $reader_mode_color;
+          background: $reader_mode_color!important;
         }
       }
     }
