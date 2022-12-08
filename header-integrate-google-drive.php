@@ -7,6 +7,7 @@
 	<?php wp_head(); ?>
 </head>
 
+
 <?php
 $navbar_scheme   = get_theme_mod( 'navbar_scheme', 'navbar-light' ); // Get custom meta-value.
 $navbar_position = get_theme_mod( 'navbar_position', 'static' ); // Get custom meta-value.
