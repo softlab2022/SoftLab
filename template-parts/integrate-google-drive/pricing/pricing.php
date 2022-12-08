@@ -15,11 +15,14 @@ $pro_features = [
 	'File Browser Module',
 	'File Uploader Module',
 	'Photo Gallery Module',
-	'Audio and Video Player Module',
+	'Media Player Module',
 	'File Search Module',
+    'User Private Files and Folders',
+    'File Importer to Media Library',
 	'Add Multiple Google Drive Accounts',
 	'WooCommerce Integration',
 	'Easy Digital Downloads Integration',
+    'WPForms, Ninja Forms, Gravity Forms, Fluent Forms, Formidable Forms, Contact Form 7 Integrations',
 ];
 
 ?>
@@ -97,16 +100,21 @@ $pro_features = [
                                     <li>
                                         <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
                                     </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="price-text annual license-1">
-                            <span class="price-value annual single">29<span class="cent">.99</span></span>
-                            <span class="price-value annual five">99<span class="cent">.99</span></span>
+                            <span class="price-value annual single">29</span>
+                            <span class="price-value annual five">89</span>
+                            <span class="price-value annual hundred">199</span>
 
-                            <span class="price-value lifetime single">69<span class="cent">.99</span></span>
-                            <span class="price-value lifetime five">199<span class="cent">.99</span></span>
+                            <span class="price-value lifetime single">79</span>
+                            <span class="price-value lifetime five">199</span>
+                            <span class="price-value lifetime hundred">499</span>
 
                             <span class="price-suffix annual">/ Per year</span>
                             <span class="price-suffix lifetime">/ Billed once</span>

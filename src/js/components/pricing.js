@@ -23,7 +23,7 @@
             $(this).addClass('active');
 
             const license = $(this).data('license');
-            $('.price-text').removeClass('license-1 license-5')
+            $('.price-text').removeClass('license-1 license-5 license-100')
                 .addClass(`license-${license}`);
 
         },

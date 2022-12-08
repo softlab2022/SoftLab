@@ -171,6 +171,12 @@
             }
           }
 
+          &.license-100 {
+            .price-value.hundred.annual {
+              display: inline-block;
+            }
+          }
+
           .price-suffix.annual {
             display: inline-block;
           }
@@ -186,6 +192,12 @@
 
           &.license-5 {
             .price-value.five.lifetime {
+              display: inline-block;
+            }
+          }
+
+          &.license-100 {
+            .price-value.hundred.lifetime {
               display: inline-block;
             }
           }
@@ -679,46 +691,42 @@
 }
 
 .page-template-radio-player-pricing {
+  #pricing-hero {
+    background: url("../images/radio-player/price/price-hero-shapes.png") no-repeat bottom / cover;
+  }
 
-    .site-header .primary-nav {
-      .navbar-nav .nav-item a {
-        color: #fff;
+  #pricing {
+    .price-table {
+      .buy-btn {
+        color: $radio_player_color;
+        border: 1px solid $radio_player_color;
+        background: #fff;
 
-        &.active {
-          color: $igd_color;
+        &:hover {
+          color: #fff;
+          background: $radio_player_color;
         }
-      }
 
-      .navbar-brand {
-        &.brand-radio-player {
-          background: url("../images/radio-player/radio-player-white-logo.png") no-repeat bottom;
+        &-pro {
+          color: #fff;
+          background: $radio_player_color;
 
-          img {
-            visibility: hidden;
+          &:hover {
+            color: $radio_player_color;
+            background: #fff;
           }
         }
       }
-
     }
 
-    #pricing-hero {
-      background: url("../images/google-drive/pricing/hero-bg-bf.png") no-repeat bottom / cover;
-      .hero-content {
-        img {
-          margin-bottom: 30px;
-        }
-
-        h2 {
-          color: #FFF;
-        }
-
-        p {
-          color: #FFF;
+    .table-pro {
+      .pricing-head {
+        .pricing-head-title {
+          color: #4353FF;
         }
       }
-
     }
-    
+  }
 
   #industry {
     background: url("../images/radio-player/price/industry-bg.png") no-repeat;
@@ -740,6 +748,26 @@
 }
 
 .page-template-wp-radio-pricing {
+  #pricing-hero {
+    background: url("../images/wp-radio/price/price-hero-shapes.png") no-repeat bottom / cover;
+
+    .hero-content {
+      h2 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        line-height: 120%;
+        color: #fff;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #fff;
+        line-height: 150%;
+        padding-bottom: 120px;
+      }
+    }
+  }
 
   #pricing {
     .pricing-switcher {
@@ -755,7 +783,7 @@
       }
 
       .switch {
-        background-color: $reader_mode_color;
+        background-color: #0014EF;
       }
 
       &.active {
@@ -771,111 +799,63 @@
         }
       }
     }
-    .price-table {
-      .buy-btn-free {
-        color: $reader_mode_color!important;
-        border: 1px solid $reader_mode_color!important;
-        background: #fff!important;
 
-        &:hover {
-          color: #fff!important;
-          background: $reader_mode_color!important;
-          border-color: $reader_mode_color!important;
+    .price-table {
+      .pricing-head {
+        .price-text {
+          color: #4353FF;
         }
       }
+
       .buy-btn {
-        color: #fff;
-        border: 1px solid $reader_mode_color;
-        background: $reader_mode_color;
+        color: $wp_radio_color;
+        border: 1px solid $wp_radio_color;
+        background: #fff;
 
         &:hover {
-          color: $reader_mode_color;
-          background: #fff;
-          border-color: $reader_mode_color;
+          color: #fff;
+          background: $wp_radio_color;
         }
 
         &-pro {
           color: #fff;
-          background: $reader_mode_color;
+          background: $wp_radio_color;
 
           &:hover {
-            color: $reader_mode_color;
+            color: $wp_radio_color;
             background: #fff;
           }
         }
       }
+    }
 
-      .buy-btn-professional {
-        background: linear-gradient(0deg, #FFC107 0%, #FFC107 100%)!important;
-        border: 1px solid #FFC107!important;
-        transition: all linear .4s;
-        &:hover {
-          color: #FFC107;
-          background: #fff!important;
-          border-color:#FFC107;
-        }
+    .table-pro {
+      .pricing-head-title {
+        color: #4353FF;
       }
 
-      .pricing-head {
-        .price-value {
-          color: $reader_mode_color;
-        }
-      }
+      .site {
+        .dropdown {
+          .dropdown-item {
+            &.active {
+              background-color: $wp_radio_color;
+            }
+          }
 
-      .offer-badge.personal{
-        background: $reader_mode_color!important;
-        border-bottom: 3px solid #a07800!important;
+          .btn-pr {
+            background-color: #4353FF;
+          }
+        }
       }
     }
+
     .price-features {
       .feature-item {
         i {
-          background: $reader_mode_color!important;
+          background: #4353FF;
         }
       }
     }
-  }
-  
-  .site-header .primary-nav {
-    .navbar-nav .nav-item a {
-      color: #fff;
-
-      &.active {
-        color: $igd_color;
-      }
-      &:hover {
-        color: $igd_color;
-      }
-    }
-
-    .navbar-brand {
-      &.brand-radio-player {
-        background: url("../images/radio-player/radio-player-white-logo.png") no-repeat bottom;
-
-        img {
-          visibility: hidden;
-        }
-      }
-    }
-
-  }
-
-  #pricing-hero {
-    background: url("../images/google-drive/pricing/hero-bg-bf.png") no-repeat bottom / cover;
-    .hero-content {
-      img {
-        margin-bottom: 30px;
-      }
-
-      h2 {
-        color: #FFF;
-      }
-
-      p {
-        color: #FFF;
-      }
-    }
-
   }
 
   #industry {
@@ -1000,16 +980,17 @@
 
     .price-table {
       .buy-btn-free {
-        color: $reader_mode_color!important;
-        border: 1px solid $reader_mode_color!important;
-        background: #fff!important;
+        color: $reader_mode_color !important;
+        border: 1px solid $reader_mode_color !important;
+        background: #fff !important;
 
         &:hover {
-          color: #fff!important;
-          background: $reader_mode_color!important;
-          border-color: $reader_mode_color!important;
+          color: #fff !important;
+          background: $reader_mode_color !important;
+          border-color: $reader_mode_color !important;
         }
       }
+
       .buy-btn {
         color: #fff;
         border: 1px solid $reader_mode_color;
@@ -1033,13 +1014,14 @@
       }
 
       .buy-btn-professional {
-        background: linear-gradient(0deg, #FFC107 0%, #FFC107 100%)!important;
-        border: 1px solid #FFC107!important;
+        background: linear-gradient(0deg, #FFC107 0%, #FFC107 100%) !important;
+        border: 1px solid #FFC107 !important;
         transition: all linear .4s;
+
         &:hover {
           color: #FFC107;
-          background: #fff!important;
-          border-color:#FFC107;
+          background: #fff !important;
+          border-color: #FFC107;
         }
       }
 
@@ -1049,16 +1031,16 @@
         }
       }
 
-      .offer-badge.personal{
-        background: $reader_mode_color!important;
-        border-bottom: 3px solid #a07800!important;
+      .offer-badge.personal {
+        background: $reader_mode_color !important;
+        border-bottom: 3px solid #a07800 !important;
       }
     }
 
     .price-features {
       .feature-item {
         i {
-          background: $reader_mode_color!important;
+          background: $reader_mode_color !important;
         }
       }
     }
