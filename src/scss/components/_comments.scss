@@ -80,17 +80,19 @@
     .form-submit {
         order: 6;
         margin-bottom: 60px;
+        transition: all linear .4s;
         .btn-primary {
             color: #fff;
             background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
             border-color: transparent;
-            padding: 18px 40px;
-            transition: all linear .3s;
+            padding: 11px 18px;
+            transition: all linear .4s;
             &:hover {
                 background: #fff;
                 color: #6E6DFF;
                 border-color: #6E6DFF;
-                transition: all linear .3s;
+                transition: all linear .4s;
+                box-shadow: 5px 16px 20px rgba(112, 114, 255, 0.2);
             }
         }
     }
@@ -107,16 +109,18 @@
             align-items: center;
             justify-content: space-between;
             a {
-                background: #dc3545;
+                border: 1px solid #7072FF;
                 padding: 14px 22px;
                 font-size: 1rem;
                 font-weight: 600;
-                color: #fff;
+                color: #7072FF;
                 border-radius: .25rem;
                 transition: all linear .4s;
                 &:hover {
-                    box-shadow: 5px 16px 20px rgba(255, 111, 111, 0.2);
+                    box-shadow: 5px 16px 20px rgba(112, 114, 255, 0.2);
                     transition: all linear .4s;
+                    background-color: #7072FF;
+                    color: #fff;
                 }
             }
         }

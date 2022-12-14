@@ -17,3 +17,151 @@
     }
   }
 }
+/*=== entry-content css ===*/
+.entry-content {
+  h3 {
+    a {
+      color: #151826;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+    }
+  }
+}
+
+.single-widget-area {
+  /*=== table of content explore ===*/
+  .wp-block-group__inner-container {
+    background: #FFFFFF;
+    border: 1px solid #ECF1FA;
+    border-radius: 20px;
+    
+    margin-bottom: 40px;
+
+    h4 {
+      font-size: 1.2rem;
+      color: #151826;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    p {
+      font-size: .8rem;
+      color: #5C637E;
+      font-weight: 400;
+    }
+    h2 {
+      padding: 0 20px;
+      padding-bottom: 20px;
+      margin-bottom: 0;
+      border-bottom: 1px solid #EDF4FE;
+    }
+    .wp-block-latest-posts__post-title {
+      margin-top: 10px;
+    }
+    .wp-block-latest-posts__list {
+      padding: 0 20px;
+    }
+  }
+  .wp-block-columns {
+    margin-bottom: 0;
+    border-bottom: 1px solid #EDF4FE;
+    padding: 0 20px;
+  }
+/*=== products explore ===*/
+  .sub-mains {
+    background: #FFFFFF;
+    border: 1px solid #ECF1FA;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    .section-head {
+      h2 {
+        padding: 0 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #EDF4FE;
+        text-align: center;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 120%;
+        color: #151826;
+      }
+    }
+    .item-border {
+      border-bottom: 1px solid #EDF4FE;
+    }
+    .products-item {
+      padding: 20px;
+      .content {
+        margin-left: 10px;
+        p {
+          font-size: .8rem;
+          color: #5C637E;
+          font-weight: 400;
+        }
+        h3 {
+          font-size: 1.2rem;
+          color: #151826;
+          font-weight: 700
+        }
+      }
+    }
+  }
+/*=== newslatter explore ===*/
+  .sub-main {
+    background: linear-gradient(142.49deg, #7788FF 2.15%, #6E6DFF 92.6%);
+    border-radius: 20px;
+    padding: 30px;
+    .sub-icon {
+      span {
+        display: block;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        color: #fff;
+        padding-top: 15px;
+      }
+    }
+    .sub-mails {
+      .form-control {
+        padding: 16px 12px;
+        color: #212529;
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+    }
+      .form-control::placeholder {
+        color: #979797;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+    }
+      .btn {
+        background: #151826;
+        padding: 13px 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        color: #fff;
+        border: 1px solid #151826;
+      }
+      .btn-primary {
+        width: 100%!important;
+      }
+      span {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #fff;
+        padding-top: 15px;
+      }
+    }
+  }
+
+}
+
+.section-item {
+  padding: 0 0 160px 0;
+}
