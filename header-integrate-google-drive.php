@@ -7,6 +7,7 @@
 	<?php wp_head(); ?>
 </head>
 
+
 <?php
 $navbar_scheme   = get_theme_mod( 'navbar_scheme', 'navbar-light' ); // Get custom meta-value.
 $navbar_position = get_theme_mod( 'navbar_position', 'static' ); // Get custom meta-value.
@@ -14,7 +15,7 @@ $navbar_position = get_theme_mod( 'navbar_position', 'static' ); // Get custom m
 $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-value.
 ?>
 
-<body <?php body_class( 'black-friday' ); ?>>
+<body <?php body_class(); ?>>
 
 <?php wp_body_open(); ?>
 
@@ -29,7 +30,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                 <nav class="navbar navbar-expand-xl primary-nav <?php echo esc_attr( $navbar_scheme );
 				if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' fixed-top';
                 elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' fixed-bottom'; endif;
-				if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
+                if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
 
                     <a class="navbar-brand brand-softlab" href="<?php echo esc_url( home_url() ); ?>"
                        title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
