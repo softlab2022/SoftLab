@@ -42,14 +42,26 @@ class SoftLa {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
 
-		} else if ( in_array( $file_name, [
+		}
+		
+		else if ( in_array( $file_name, [
 			'reader-mode',
 			'reader-mode-pricing',
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
 
-		} else if ( in_array( $file_name, [
+		} 
+
+		else if ( in_array( $file_name, [
+			'dracula',
+		] ) ) {
+
+			wp_enqueue_style( 'dracula-main', get_theme_file_uri( 'assets/css/dracula-main.css' ) );
+
+		} 
+		
+		else if ( in_array( $file_name, [
 			'wp-radio',
 			'wp-radio-pricing',
 			'wp-radio-user-frontend',

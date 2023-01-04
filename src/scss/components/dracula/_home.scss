@@ -1,0 +1,352 @@
+
+.page-template-templatesdracula-php {
+    background-color: #202248;
+}
+/*==== hero css area ====*/
+#dracula-banner {
+    padding: 100px 0;
+    
+    .section-head{
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            color: #fff;
+            span {
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+          }
+      
+          p {
+            font-size: 1rem;
+            margin-bottom: 2.5rem;
+            font-weight: 400;
+            color: #fff;
+          }
+      
+          .free-btn {
+            margin-top: 1.5rem;
+            margin-right: 25px;
+            padding: 15px 30px;
+            background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            transition: all linear .4s;
+            &:hover {
+              background: #fff;
+              color: #7367FB;
+              border-color: $color_primary;
+              transition: all linear .4s;
+            }
+          }
+          .view-demo {
+            margin-top: 1.5rem;
+            margin-right: 25px;
+            padding: 15px 30px;
+            background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+            backdrop-filter: blur(20px);
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            transition: all linear .4s;
+            &:hover {
+              background: #fff;
+              color: #7367FB;
+              border-color: $color_primary;
+              transition: all linear .4s;
+            }
+          }
+    }
+}
+
+/*==== feature css area ====*/
+#feature {
+    padding: 100px 0;
+    .feature-content {
+        h3 {
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 120%;
+            color: #fff;
+            padding: 20px 0;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.8);
+            padding-bottom: 40px;
+        }
+        .view-demo {
+            margin-top: 1.5rem;
+            margin-right: 25px;
+            padding: 15px 30px;
+            background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+            backdrop-filter: blur(20px);
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: capitalize;
+            transition: all linear .4s;
+            &:hover {
+              background: #fff;
+              color: #7367FB;
+              border-color: $color_primary;
+              transition: all linear .4s;
+            }
+        }
+    }
+    .dark-mode {
+        margin-bottom: 60px;
+    }
+    .admin-dashbord-dark-mode {
+        background: linear-gradient(92.72deg, rgba(92, 66, 255, 0.4) -17.53%, rgba(83, 69, 255, 0.06) 22.48%, rgba(83, 69, 255, 0.15) 54.86%, rgba(205, 197, 255, 0.1) 83.22%);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        border-radius: 30px;
+        padding: 66px;
+    }
+}
+
+/*==== dark mode solution css area ====*/
+#solution {
+    padding: 100px 0;
+    .section-head {
+        h1 {
+            font-weight: 600;
+            font-size: 3rem;
+            line-height: 120%;
+            color: #fff;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.8);
+            padding-top: 15px;
+            padding-bottom: 65px;
+        }
+    }
+    .solu-main {
+        background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(60px);
+        border-radius: 40px;
+        padding: 40px;
+    }
+
+    .solu-item {
+        h5 {
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 150%;
+            color: #fff;
+            margin-top: 12px;
+        }
+    }
+}
+
+/*==== flexible-price css area ====*/
+#flexible-price {
+    padding: 100px 0;
+    .section-head {
+        h1 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 150%;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #fff;
+            margin-bottom: 32px;
+        }
+    }
+
+    .pricing-switcher {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+    
+        .switch {
+          position: relative;
+          width: 70px;
+          height: 35px;
+          background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+          backdrop-filter: blur(60px);
+          border-radius: 20px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          margin: 0 15px;
+          display: flex;
+          align-items: center;
+          line-height: 1;
+    
+          &:after {
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #675ED5;
+            left: 5px;
+            transition: all 0.3s ease;
+          }
+        }
+    
+        .switch-text {
+          font-size: 1.2rem;
+          color: $p_color;
+    
+          &.annual {
+            color: #fff;
+          }
+        }
+    
+        &.active {
+          .switch {
+            background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+    
+            &:after {
+              left: auto;
+              right: 5px;
+            }
+          }
+    
+          .switch-text {
+            &.annual {
+              color: #6E6D7E;
+            }
+    
+            &.lifetime {
+              color: #fff;
+            }
+          }
+        }
+    
+    }
+    .price-content {
+        background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
+        backdrop-filter: blur(60px);
+        border-radius: 20px;
+        border: 1px solid #60627C;
+        .price-text {
+            border-bottom: 1px solid #60627C;
+            h3 {
+                padding: 24px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 120%;
+                color: #fff;
+                margin-bottom: 0;
+            }
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 120%;
+                color: #fff;
+                padding: 15px 30px;
+                background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
+                backdrop-filter: blur(20px);
+                border-radius: 10px;
+                margin-right: 24px;
+                .fa-fire {
+                    color: rgb(204, 184, 0);
+                }
+            }
+        }
+        .prices {
+            border-bottom: 1px solid #60627C;
+            h4 {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 120%;
+                color: #fff;
+                padding-top: 12px;
+                padding-left: 24px;
+                margin-bottom: 0;
+                span {
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+            }
+            h5 {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 120%;
+                color: #fff;
+                padding-top: 12px;
+                padding-bottom: 24px;
+                padding-left: 24px;
+                margin-bottom: 0;
+            }
+        }
+        .support {
+            padding: 24px;
+            .support-text {
+                margin-bottom: 12px;
+                i {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.59) 1.79%, rgba(255, 255, 255, 0.27) 98.76%);
+                }
+                h5 {
+                    margin-bottom: 0;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 120%;
+                    color: #fff;
+                }
+            }
+            .personal-btn {
+                margin-top: 30px;
+                a {
+                    display: block;
+                    text-align: center;
+                    border: 1px solid #B5B2E6;
+                    border-radius: 10px;
+                    padding: 18px 40px;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    line-height: 120%;
+                    color: #fff;
+                    text-transform: capitalize;
+                }
+            }
+            .professional-btn {
+                a {
+                    background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/*==== hero css area ====*/
+/*==== hero css area ====*/
+/*==== hero css area ====*/

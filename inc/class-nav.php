@@ -18,6 +18,7 @@ class SoftLaB_Nav {
 					'radio-player-menu'           => 'Radio Player Menu',
 					'wp-radio-menu'               => 'WP Radio Menu',
 					'reader-mode-menu'            => 'Reader Mode Menu',
+					'dracula-menu'            => 'Dracula Menu',
 				)
 			);
 		}

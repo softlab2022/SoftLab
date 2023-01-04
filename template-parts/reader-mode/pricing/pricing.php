@@ -119,7 +119,7 @@ $pro_features = [
                                     <span class="price-value lifetime">$99</span>
 
                                     <span class="price-suffix annual">/ Year</span>
-                                    <span class="price-suffix lifetime">/ Billed once
+                                    <span class="price-suffix lifetime">/ Billed once</span>
                                 </div>
                             </div>
 

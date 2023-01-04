@@ -564,6 +564,13 @@
 
     .accordion-body {
       border-top: 1px solid #00BB45;
+      .description {
+        margin-bottom: 20px;
+      }
+      iframe {
+        border-radius: 20px;
+        box-shadow: 6px 6px 8px rgba(142, 170, 249, 0.3);
+      }
     }
   }
 
