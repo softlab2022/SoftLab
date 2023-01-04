@@ -26,10 +26,6 @@ $features = [
 		'description' => 'You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.',
 	],
 
-	'multiple-accounts' => [
-		'title'       => 'Multiple <br> Google Accounts',
-		'description' => 'You can link multiple Google accounts and can use files from the multiple accounts.',
-	],
 
 	'page-builder' => [
 		'title'       => 'Popular Page Builder Supports',
