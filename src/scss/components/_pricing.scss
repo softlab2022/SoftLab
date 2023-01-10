@@ -1094,3 +1094,345 @@
   }
 
 }
+.page-template-templatesdracula-pricing-php {
+  background-color: #202248;
+}
+.page-template-dracula-pricing,
+.page-template-dracula-features {
+  #pricing-hero {
+    background: url("../images/dracula/home/pricing/pricing-bg-shape.png") no-repeat;
+    padding: 100px 0;
+    .hero-content {
+        h1 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 150%;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #fff;
+            margin-bottom: 32px;
+        }
+    }
+
+    @media (max-width: 767px) {
+      padding-top: 120px;
+      padding-bottom: 250px;
+      .hero-content {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+
+  }
+
+  #pricing {
+    padding-top: 200px;
+    margin-bottom: 0;
+    .pricing-switcher {
+      .switch-text {
+
+        &.annual {
+          color: #fff;
+        }
+
+        &.lifetime {
+          color: rgba(#7788FF, 0.5);
+        }
+      }
+
+      .switch {
+        background-color: $reader_mode_color;
+      }
+
+      &.active {
+        .switch-text {
+
+          &.annual {
+            color: rgba(#7788FF, 0.5);
+          }
+
+          &.lifetime {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .price-table {
+      background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
+      backdrop-filter: blur(60px);
+      border: 1px solid #5A5B77;
+      border-radius: 20px;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      
+    }
+      .buy-btn {
+        color: #fff;
+        border: 1px solid #5A5B77;
+
+        &:hover {
+          color: #fff;
+          background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+        }
+
+        &-pro {
+          color: #fff;
+          background: $reader_mode_color;
+
+          &:hover {
+            color: $reader_mode_color;
+            background: #fff;
+          }
+        }
+      }
+
+      .buy-btn-professional {
+        background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%) !important;
+        border: 1px solid #7367FB !important;
+        transition: all linear .4s;
+
+        &:hover {
+          color: #7367FB;
+          background: transparent !important;
+          border-color: #7367FB;
+        }
+      }
+
+      .pricing-head {
+        .pricing-head-title {
+          font-size: 1.6rem;
+          font-weight: 700;
+          color: #fff;
+          border-bottom: 1px solid #5A5B77;
+          padding-left: 20px;
+        }
+        .professional-title {
+          font-size: 1.6rem;
+          font-weight: 700;
+          color: #fff;
+          padding-left: 20px;
+          border-bottom: none!important;
+          padding-bottom: 15px;
+        }
+        .pricing_head_professional {
+          border-bottom: 1px solid #5A5B77;
+          h5 {
+            background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
+            backdrop-filter: blur(60px);
+            padding: 9px 20px;
+            border-bottom: 1px solid #5A5B77;
+            border-radius: 10px;
+            margin-right: 20px;
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #FFF;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+          }
+        }
+        .price-text {
+          padding-left: 20px;
+          border-bottom: 1px solid #5A5B77;
+          .price-value {
+            color: #fff;
+          }
+          .price-suffix {
+            color: #fff;
+          }
+          .support-text {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #fff;
+            border: 0;
+          }
+        }
+        
+      }
+  }
+
+  .price-features {
+      .feature-item {
+        span {
+          color: #fff !important;
+        }
+        i {
+          background: $reader_mode_color !important;
+          border-radius: 50% !important;
+          width: 25px !important;
+          height: 25px !important;
+          line-height: 25px !important;
+        }
+      }
+  }
+
+  #industry-dracula {
+    padding-bottom: 60px;
+    .industry-dracula {
+      background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+      backdrop-filter: blur(60px);
+      border-radius: 40px;
+      padding: 60px;
+    }
+    .industry-head {
+      position: relative;
+
+            &:after {
+                content: "";
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                border-radius: 90px;
+                z-index: -1;
+                top: 50px;
+                left: 250px;
+                filter: blur(38.5px);
+                opacity: .4;
+            }
+      h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 120%;
+        color: #fff;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+  
+    .indu-item {
+      background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+      backdrop-filter: blur(60px);
+      border-radius: 20px;
+      padding: 28px;
+      height: 175px;
+      text-align: center;
+  
+      span {
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 120%;
+        color: #fff;
+        display: block;
+      }
+  
+      img {
+        padding-top: 28px;
+      }
+    }
+  }
+  
+  #faq {
+      background: #202248;
+      .section-header {
+        h2 {
+          color: #fff;
+        }
+        p {
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 150%;
+          color: rgba(255, 255, 255, 0.8);
+          margin-bottom: 65px;
+          margin-top: 30px;
+        }
+      }
+      .accordion {
+        .accordion-item {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.14) 100%);
+          box-shadow: inset 0px 2.13049px 120px rgba(255, 255, 255, 0.06);
+          backdrop-filter: blur(250px);
+          border-radius: 15px;
+          border: 1px solid rgba(0,0,0,.125);
+        }
+      }
+      .accordion-button {
+        padding: 1.5rem;
+        font-size: 1.1rem;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.14) 100%);
+        box-shadow: inset 0px 2.13049px 120px rgba(255, 255, 255, 0.06);
+        backdrop-filter: blur(250px);
+        color: #fff;
+    }
+    .accordion-body {
+      color: #fff;
+    }
+      .accordion-button:not(.collapsed) {
+        .fa-chevron-down {
+          transform: rotate(180deg);
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.14) 100%);
+          color: #fff;
+          transition: all linear .4s;
+        }
+      }
+  }
+
+  #live-demo {
+    background: url("../images/dracula/home/pricing/frame1.png") no-repeat;
+    padding: 20px 0;
+    .live-demo {
+      background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+      backdrop-filter: blur(60px);
+      border-radius: 20px;
+      padding: 55px 97px;
+    }
+    .section-content {
+      position: relative;
+
+            &:after {
+                content: "";
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                border-radius: 90px;
+                z-index: -1;
+                top: 10px;
+                left: 350px;
+                filter: blur(38.5px);
+                opacity: .4;
+            }
+      h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 120%;
+        color: #fff;
+        margin-bottom: 24px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+        color: #fff;
+      }
+    }
+    .live-demo-button {
+        a {
+          padding: 18px 50px;
+          font-weight: 600;
+          font-size: 1rem;
+          color: #fff;
+          border-radius: 10px;
+          transition: all linear .4s;
+          margin-right: 20px;
+      }
+      .live-demo-btn {
+          background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+          transition: all linear .4s;
+          &:hover {
+              background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+              backdrop-filter: blur(20px);
+              transition: all linear .4s;
+          }
+      }
+    }
+  }
+}

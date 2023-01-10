@@ -55,6 +55,9 @@ class SoftLa {
 
 		else if ( in_array( $file_name, [
 			'dracula',
+			'dracula-pricing',
+			'dracula-features',
+			'dracula-compare',
 		] ) ) {
 
 			wp_enqueue_style( 'dracula-main', get_theme_file_uri( 'assets/css/dracula-main.css' ) );

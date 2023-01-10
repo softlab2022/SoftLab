@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="section-head text-center">
-                    <h1>Benefits for use <br> Our Dark Mode solution.</h1>
+                    <h1>Benefits for use <br> Our <span>Dark Mode</span> solution.</h1>
                     <p>Let's explore which features are absolute you can <br> add to stand out and give even more value</p>
                 </div>
             </div>

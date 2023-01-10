@@ -77,7 +77,7 @@
         </div>
 
         <!--==== Color Adjustments =====--->
-        <div class="row dark-mode align-items-center">
+        <div class="row dark-mode color-adjustments align-items-center">
             <div class="col-lg-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/color-adjustments-icon.png" alt="" class="img-fluid">
@@ -107,7 +107,7 @@
         </div>
 
         <!--==== 14+ Toggle Button Styles =====--->
-        <div class="row dark-mode align-items-center">             
+        <div class="row dark-mode color-adjustments align-items-center">             
             <div class="col-lg-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/14+toggle-button-style-icon.png" alt="" class="img-fluid">

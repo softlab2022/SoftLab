@@ -11,7 +11,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode.png" alt="" class="img-fluid w-75 w-md-100 ">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/hero-img.png" alt="" class="img-fluid w-75 w-md-100 ">
             </div>
             
         </div>

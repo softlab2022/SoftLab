@@ -348,8 +348,53 @@
   }
 }
 
-// .page-template-templatesdracula-php {
-//   .footer {
-//     background: #202248;
-//   }
-// }
+.page-template-templatesdracula-php,
+.page-template-dracula-pricing,
+.page-template-dracula-features,
+.page-template-dracula-compare{
+  .footer {
+
+    background: url("../images/dracula/home/footer-shape.png")!important;
+    background: #202248;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    .footer-contant {
+      p {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .footer-bottom {
+      p {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .footer-menu-bottom {
+        a {
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+    .footer-menu-head {
+      h4 {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .footer-menu {
+      a {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .footer-menu-products {
+      a {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    
+    .news-letter-form {
+      p {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}

@@ -111,13 +111,14 @@ $tabs = [
                             <a href="tel:+8801741-920985">+8801741-920985</a>
                         </div>
                     </div>
+                    
                     <div class="con-info d-flex justify-content-start align-items-center">
                         <div class="info-icon">
                             <i class="fa-solid fa-envelope"></i>
                         </div>
                         <div class="info-content">
                             <h5>Email Address</h5>
-                            <a href="mailto:softlab2022@gmail.com">softlab2022@gmail.com</a>
+                            <a href="mailto:contact@softlabbd.com">contact@softlabbd.com</a>
                         </div>
                     </div>
                 </div>

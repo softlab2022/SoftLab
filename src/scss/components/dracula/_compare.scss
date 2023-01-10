@@ -1,0 +1,25 @@
+.page-template-dracula-compare {
+    background-color: #202248;
+}
+
+
+#compare-hero {
+    background: url("../images/dracula/home/pricing/pricing-bg-shape.png") no-repeat;
+    padding: 150px 0 50px 0;
+    .hero-content {
+        h1 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 150%;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #fff;
+            margin-bottom: 32px;
+        }
+    }
+}

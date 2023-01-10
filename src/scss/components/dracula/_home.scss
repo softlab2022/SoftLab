@@ -4,8 +4,9 @@
 }
 /*==== hero css area ====*/
 #dracula-banner {
-    padding: 100px 0;
-    
+    background: url("../images/dracula/home/bg-shapes.png") no-repeat;
+    padding: 150px 0 100px 0;
+    background-size: cover;
     .section-head{
         h1 {
             font-size: 3rem;
@@ -71,6 +72,22 @@
 #feature {
     padding: 100px 0;
     .feature-content {
+        background: url("../images/dracula/home/feature/frame.png") no-repeat;
+        position: relative;
+
+            &:after {
+                content: "";
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                border-radius: 90px;
+                z-index: -1;
+                top: 0px;
+                left: 50px;
+                filter: blur(38.5px);
+                opacity: .6;
+            }
         h3 {
             font-weight: 700;
             font-size: 46px;
@@ -116,6 +133,13 @@
         border-radius: 30px;
         padding: 66px;
     }
+
+    .color-adjustments {
+        background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(60px);
+        border-radius: 40px;
+        padding: 66px;
+    }
 }
 
 /*==== dark mode solution css area ====*/
@@ -127,6 +151,12 @@
             font-size: 3rem;
             line-height: 120%;
             color: #fff;
+            span {
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
         }
         p {
             font-weight: 400;
@@ -155,183 +185,211 @@
     }
 }
 
-/*==== flexible-price css area ====*/
-#flexible-price {
+/*==== compare css area ====*/
+#compare {
     padding: 100px 0;
+
+    .compare {
+        border-top: 1px solid #292C63;
+        border-bottom: 1px solid #292C63;
+    }
+    .content {
+        h3 {
+            font-weight: 700;
+            font-size: 2.1rem;
+            line-height: 120%;
+            color: #fff;
+            margin-top: 30px;
+        }
+        p {
+            font-weight: 400;
+            font-size: .9rem;
+            line-height: 120%;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 30px;
+        }
+    }
+    .com-text {
+        p {
+            font-weight: 500;
+            font-size: 1.2rem;
+            line-height: 120%;
+            color: #fff;
+        }
+    }
+    .compare-btn {
+        a {
+            background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+            border-radius: 10px;
+            padding: 18px 40px;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #fff;
+        }
+    }
+}
+
+/*==== testimonial css area ====*/
+#testimonial {
+    padding: 100px 0;
+    background: url("../images/dracula/home/feature/frame.png") no-repeat left center;
     .section-head {
+       
         h1 {
             font-weight: 700;
             font-size: 3rem;
-            line-height: 150%;
+            line-height: 120%;
             color: #fff;
-            margin-bottom: 12px;
+            span {
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
         }
         p {
             font-weight: 400;
             font-size: 1rem;
-            line-height: 120%;
-            color: #fff;
-            margin-bottom: 32px;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 60px;
         }
     }
 
-    .pricing-switcher {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 3rem;
-    
-        .switch {
-          position: relative;
-          width: 70px;
-          height: 35px;
-          background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
-          backdrop-filter: blur(60px);
-          border-radius: 20px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          margin: 0 15px;
-          display: flex;
-          align-items: center;
-          line-height: 1;
-    
-          &:after {
-            content: "";
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            background: #675ED5;
-            left: 5px;
-            transition: all 0.3s ease;
-          }
-        }
-    
-        .switch-text {
-          font-size: 1.2rem;
-          color: $p_color;
-    
-          &.annual {
-            color: #fff;
-          }
-        }
-    
-        &.active {
-          .switch {
-            background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
-    
-            &:after {
-              left: auto;
-              right: 5px;
-            }
-          }
-    
-          .switch-text {
-            &.annual {
-              color: #6E6D7E;
-            }
-    
-            &.lifetime {
-              color: #fff;
-            }
-          }
-        }
-    
-    }
-    .price-content {
+    .testi-main {
         background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
         backdrop-filter: blur(60px);
-        border-radius: 20px;
-        border: 1px solid #60627C;
-        .price-text {
-            border-bottom: 1px solid #60627C;
-            h3 {
-                padding: 24px;
-                font-weight: 700;
-                font-size: 24px;
-                line-height: 120%;
-                color: #fff;
-                margin-bottom: 0;
-            }
-            span {
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 120%;
-                color: #fff;
-                padding: 15px 30px;
-                background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
-                backdrop-filter: blur(20px);
-                border-radius: 10px;
-                margin-right: 24px;
-                .fa-fire {
-                    color: rgb(204, 184, 0);
+        border-radius: 15px;
+        padding: 12px;
+        border: 1px solid #5A5B77;
+        margin: 10px;
+        .testi-head {
+            .name {
+                .star {
+                    i {
+                        color: #F2994A;
+                        margin-right: 8px;
+                    }
+                    .review {
+                        span {
+                            font-weight: 400;
+                            font-size: .8rem;
+                            line-height: 150%;
+                            color: #fff;
+                            margin-left: 10px;
+                            display: block;
+                        }
+                    }
                 }
-            }
-        }
-        .prices {
-            border-bottom: 1px solid #60627C;
-            h4 {
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 120%;
-                color: #fff;
-                padding-top: 12px;
-                padding-left: 24px;
-                margin-bottom: 0;
-                span {
+                h3 {
                     font-weight: 500;
-                    font-size: 24px;
+                    font-size: 1rem;
+                    line-height: 150%;
+                    color: #fff;
+                    margin-top: 10px;
                 }
             }
-            h5 {
+    
+        }
+        
+        .content {
+            p {
                 font-weight: 400;
-                font-size: 20px;
-                line-height: 120%;
+                font-size: 1rem;
+                line-height: 150%;
                 color: #fff;
-                padding-top: 12px;
-                padding-bottom: 24px;
-                padding-left: 24px;
-                margin-bottom: 0;
+                margin-top: 20px;
             }
         }
-        .support {
-            padding: 24px;
-            .support-text {
-                margin-bottom: 12px;
-                i {
-                    width: 30px;
-                    height: 30px;
-                    line-height: 30px;
-                    text-align: center;
-                    border-radius: 50%;
-                    margin-right: 10px;
-                    background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.59) 1.79%, rgba(255, 255, 255, 0.27) 98.76%);
-                }
-                h5 {
-                    margin-bottom: 0;
-                    font-weight: 400;
-                    font-size: 1rem;
-                    line-height: 120%;
-                    color: #fff;
+    }
+}
+
+/*==== compatibility css area ====*/
+#compatibility {
+    padding: 100px 0;
+
+    .compatibility {
+        background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(60px);
+        border-radius: 40px;
+        padding: 80px;
+    }
+    .section-head {
+        h1 {
+            font-weight: 800;
+            font-size: 3rem;
+            line-height: 120%;
+            color: #fff;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 40px;
+        }
+    }
+    .compat-img {
+        margin-bottom: 20px;
+    }
+}
+
+/*==== cta-dracula css area ====*/
+#cta-dracula {
+    padding: 100px 0;
+    .cta-dracula {
+        background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(60px);
+        border-radius: 40px;
+        padding: 60px;
+        border: 1px solid #5A5B77;
+    }
+    .section-head {
+        h1 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 120%;
+            color: #fff;
+            span {
+                background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 60px;
+        }
+        .cta-button {
+            a {
+                padding: 18px 50px;
+                font-weight: 600;
+                font-size: 1rem;
+                color: #fff;
+                border-radius: 10px;
+                transition: all linear .4s;
+                margin-right: 20px;
+            }
+            .free-btn {
+                background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+                transition: all linear .4s;
+                &:hover {
+                    background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+                    backdrop-filter: blur(20px);
+                    transition: all linear .4s;
                 }
             }
-            .personal-btn {
-                margin-top: 30px;
-                a {
-                    display: block;
-                    text-align: center;
-                    border: 1px solid #B5B2E6;
-                    border-radius: 10px;
-                    padding: 18px 40px;
-                    font-weight: 500;
-                    font-size: 1rem;
-                    line-height: 120%;
-                    color: #fff;
-                    text-transform: capitalize;
-                }
-            }
-            .professional-btn {
-                a {
+            .view-pricing {
+                background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+                backdrop-filter: blur(20px);
+                transition: all linear .4s;
+                &:hover {
+                    transition: all linear .4s;
                     background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
                 }
             }
@@ -339,14 +397,4 @@
     }
 }
 
-
-
-
-
-
-
-
-
-/*==== hero css area ====*/
-/*==== hero css area ====*/
 /*==== hero css area ====*/
