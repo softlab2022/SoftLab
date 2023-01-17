@@ -26,11 +26,11 @@ $products = [
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/reader-mode.png',
 	],
 
-	'dracula-dark-mode'               => [
-		'title'       => 'Dracula Dark Mode',
-		'description' => 'Dark Mode helps to create a stunning eye-pleasing dark version for your WordPress website easily and effectively',
-		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
-	],
+	// 'dracula-dark-mode'               => [
+	// 	'title'       => 'Dracula Dark Mode',
+	// 	'description' => 'Dark Mode helps to create a stunning eye-pleasing dark version for your WordPress website easily and effectively',
+	// 	'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
+	// ],
 
 ];
 

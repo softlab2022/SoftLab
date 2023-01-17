@@ -178,7 +178,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/reader-mode.png';
 						$description = 'Distraction-free Content Reader for WordPress.';
 					}
-					 elseif ( 'dracula' == strtolower( $title ) ) {
+					 elseif ( 'dracula dark mode' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png';
 						$description = 'The Future of WordPress Dark Mode';
 					}

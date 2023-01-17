@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-3 col-md-4 m-auto">
                 <div class="compare-btn">
-                    <a href="#">Compare with others <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/dracula-compare/">Compare with others <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

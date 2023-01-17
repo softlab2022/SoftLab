@@ -7,7 +7,7 @@
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                     <div class="cta-button">
                         <a href="#" class="free-btn">Try for free</a>
-                        <a href="/d-pricing/" class="view-pricing">View Pricing</a>
+                        <a href="/dracula-dark-mode-pricing/" class="view-pricing">View Pricing</a>
                     </div>
                 </div>
             </div>
