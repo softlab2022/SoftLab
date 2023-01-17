@@ -29,19 +29,34 @@ $agency_features = [
 <section id="pricing-hero">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7 m-auto">
 
-                <div class="hero-content text-center">
-                    <h1>Simple And Flexible Pricing</h1>
-                    <p>The Most Powerful WordPress Dark Mode Plugin, Without the High Costs</p>
+            <div class="col-lg-5 col-md-6 ms-auto">
+                <div class="hero-content">
+                    <h1>Be the First to Experience the Revolutionary Dracula <span>Dark Mode</span> Plugin for <span class="pre-word">WordPress</span> .</h1>
                 </div>
             </div>
+
+            <div class="col-lg-5 col-md-6 me-auto">
+                <div class="hero-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/early-bird.png" alt="" class="img-fluid">
+
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
 <section id="pricing">
     <div class="container">
+        <div class="row">
+            <div class="col-lg-9 m-auto">
+                <div class="hero-content text-center">
+                    <h1>Simple And Flexible Pricing</h1>
+                    <p>The Most Powerful WordPress Dark Mode Plugin, Without the High Costs</p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
 
@@ -58,25 +73,24 @@ $agency_features = [
 
         <div class="row">
             <div class="col-lg-12">
+                
                 <div class="price-tables annual">
   
                     <div class="row">
                          <!-- PERSONAL -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__personal">
                                 <div class="pricing-head">
 
-                                    <span class="pricing-head-title">PERSONAL</span>
+                                    <span class="pricing-head-title">Basic</span>
 
-                                    <div class="price-text annual personal license-1">
+                                    <div class="price-text basic">
 
-                                        <span class="price-value annual single">14.99</span>
-                                        <span class="price-value lifetime single">23.99</span>
+                                        <span class="price-value annual single">FREE</span>
 
-                                        <span class="price-suffix annual">/ Year</span>
-                                        <span class="price-suffix lifetime">/ Billed once</span>
+                                        <span class="price-suffix annual">/ forever</span>
 
-                                        <span class="support-text">Priority Email Support</span>
+                                        <span class="support-text">Basic Features to Start and Test</span>
                                     
                                     </div>
                                 </div>
@@ -91,12 +105,12 @@ $agency_features = [
                                     <?php } ?>
                                 </div>
 
-                                <a href="#" class=" buy-btn buy-btn-personal">Purchase Now</a>
+                                <a href="#" class=" buy-btn buy-btn-personal">Download Now</a>
                             </div>
                         </div>
 
                         <!-- PROFESSIONAL -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__professional">
                                 <div class="pricing-head">
                                     <div class="pricing_head_professional d-flex justify-content-between align-items-center">
@@ -112,7 +126,7 @@ $agency_features = [
 
                                         <span class="price-suffix annual">/ Year</span>
                                         <span class="price-suffix lifetime">/ Billed once</span>
-                                        <span class="support-text">Priority Email Support</span>
+                                        <span class="support-text">Advanced Features with More Flexibility</span>
                                     </div>
                                 </div>
 
@@ -135,7 +149,7 @@ $agency_features = [
                         </div>
 
                         <!-- ELITE -->
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__business">
                                 <div class="pricing-head">
 
@@ -149,7 +163,7 @@ $agency_features = [
                                         <span class="price-suffix annual">/ Year</span>
                                         <span class="price-suffix lifetime">/ Billed once</span>
 
-                                        <span class="support-text">Priority Email Support</span>
+                                        <span class="support-text">Most Comprehensive Set of Features</span>
                                     </div>
                                 </div>
 
