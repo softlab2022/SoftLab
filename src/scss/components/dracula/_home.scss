@@ -87,6 +87,12 @@
             h1 {
                 font-size: 2rem;
             }
+            .free-btn {
+                padding: 15px 20px;
+            }
+            .view-demo {
+                padding: 15px 20px;
+            }
         }
     }
 }
@@ -593,13 +599,16 @@
         
     }
     @media (max-width: 767px) {
+        .cta-dracula {
+            padding: 48px;
+        }
         .section-head {
             h1 {
                 font-size: 2rem;
             }
             .cta-button {
                 a {
-                    padding: 18px 20px;
+                    padding: 17px 18px;
                 }
             }
         }

@@ -40,11 +40,11 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                              alt="white-site-icon">
                     </a>
 
-                    <a class="navbar-brand brand-dracula" href="/dracula"
-                       title="Dracula" rel="home">
+                    <a class="navbar-brand brand-dracula" href="/dracula-dark-mode"
+                       title="Dracula Dark Mode" rel="home">
                         <img class="img-fluid"
                              src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/dracula-main-icon.png"
-                             alt="Dracula">
+                             alt="Dracula Dark Mode">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
