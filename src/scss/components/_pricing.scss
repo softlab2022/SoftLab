@@ -1220,6 +1220,7 @@
     display: none;
   }
   #pricing {
+    padding-top: 400px!important;
     @media (min-width: 992px) and (max-width: 1199px) {
       padding-top: 400px!important;
     }
@@ -1808,6 +1809,12 @@
             border-top-right-radius: 0;
           }
         }
+        .compare-item {
+          margin-right: 11px;
+        }
+        .elite-item-bottom {
+          margin: 0 11px;
+        }
       }
       .item-content {
         margin: 0 11px;
@@ -1901,6 +1908,9 @@
       .industry-head {
         h2 {
           font-size: 2rem;
+        }
+        &:after {
+          left: 0px;
         }
       }
       .indu-item {
@@ -2025,6 +2035,24 @@
       .live-demo-button {
         a {
           padding: 18px 20px;
+        }
+      }
+    }
+    @media(max-width: 767px) {
+      .live-demo {
+        padding: 55px 30px;
+        text-align: center;
+      }
+      .section-content {
+        h2 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: .9rem;
+          padding-bottom: 20px;
+        }
+        &:after {
+          left: 0px;
         }
       }
     }

@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 60px;
-  padding-bottom: 1%;
+  padding-bottom: 0;
 
   .footer-contant {
     p {
@@ -67,6 +67,9 @@
       }
 
       &.product-reader-mode:hover {
+        color: #574DCC;
+      }
+      &.product-dracula-dark-mode:hover {
         color: #574DCC;
       }
 
@@ -354,12 +357,11 @@
 .page-template-dracula-compare{
   .footer {
 
-    background: url("../images/dracula/home/footer-shape.png")!important;
-    background: #202248;
+    background: url("../images/dracula/home/footer-shape.png") no-repeat 0 8rem #2E3161!important;
+    padding: 60px 0 0 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0;
     .footer-contant {
       p {
         color: rgba(255, 255, 255, 0.8);

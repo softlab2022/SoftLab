@@ -48,6 +48,7 @@
 /*==== dracula-feature css area ====*/
 #dracula-feature {
     padding: 100px 0;
+    padding-bottom: 0;
     .feature-content {
         background: url("../images/dracula/home/feature/frame.png") no-repeat;
         position: relative;
@@ -101,7 +102,7 @@
         }
     }
     .dark-mode {
-        margin-bottom: 60px;
+        margin-bottom: 130px;
     }
     .admin-dashbord-dark-mode {
         background: linear-gradient(92.72deg, rgba(92, 66, 255, 0.4) -17.53%, rgba(83, 69, 255, 0.06) 22.48%, rgba(83, 69, 255, 0.15) 54.86%, rgba(205, 197, 255, 0.1) 83.22%);
@@ -159,6 +160,7 @@
 }
 /*==== single-feature css area ====*/
 #single-feature {
+    padding-bottom: 100px;
     .section-head {
         h1 {
             font-weight: 700;
@@ -198,6 +200,20 @@
             color: rgba(255, 255, 255, 0.8);
             margin-bottom: 0;
         }
+        &:hover {
+            background: rgba(14, 12, 52, 0.556);
+            box-shadow: 9px 10px 3px rgba(159, 153, 227, 0.14);
+            border-radius: 20px;
+      
+            img {
+              transform: translateY(-8px);
+            }
+          }
+      
+            img {
+              transition: all linear .4s;
+            }
+          
         // &:hover {
         //     transition: all linear .4s;
         //     background: linear-gradient(104.05deg, #90A0E1 26.81%, #E16BEB 61.08%, #636AEA 96.06%);

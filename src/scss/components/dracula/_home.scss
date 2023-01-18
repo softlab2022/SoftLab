@@ -94,6 +94,7 @@
 /*==== feature css area ====*/
 #feature {
     padding: 100px 0;
+    padding-bottom: 0;
     .feature-content {
         background: url("../images/dracula/home/feature/frame.png") no-repeat;
         position: relative;
@@ -147,7 +148,7 @@
         }
     }
     .dark-mode {
-        margin-bottom: 60px;
+        margin-bottom: 130px;
     }
     .admin-dashbord-dark-mode {
         background: linear-gradient(92.72deg, rgba(92, 66, 255, 0.4) -17.53%, rgba(83, 69, 255, 0.06) 22.48%, rgba(83, 69, 255, 0.15) 54.86%, rgba(205, 197, 255, 0.1) 83.22%);
@@ -198,8 +199,7 @@
 
 /*==== dark mode solution css area ====*/
 #solution {
-    padding: 100px 0;
-    padding-bottom: 200px;
+    padding: 0;
     .section-head {
         h1 {
             font-weight: 600;
@@ -357,7 +357,7 @@
 
 /*==== testimonial css area ====*/
 #testimonial {
-    padding: 100px 0;
+    padding: 0;
     background: url("../images/dracula/home/feature/frame.png") no-repeat left center;
     .section-head {
        
@@ -510,6 +510,7 @@
 /*==== cta-dracula css area ====*/
 #cta-dracula {
     padding: 100px 0;
+    padding-top: 0;
     .cta-dracula {
         background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
         backdrop-filter: blur(60px);
