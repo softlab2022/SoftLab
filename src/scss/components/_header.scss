@@ -402,7 +402,7 @@
     backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 12px;
-    .navbar-collapse {
+    .show {
       background: #000;
     }
     .navbar-toggler {
@@ -412,6 +412,10 @@
       .nav-item {
         a {
           color: #fff;
+        }
+        .nav-link {
+          padding-left: 0;
+          padding-right: 0;
         }
       }
     }
