@@ -141,7 +141,7 @@
                       
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/Page-wish-dark-mode-icon.png" alt="" class="img-fluid">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode-icon.png" alt="" class="img-fluid">
                     <h3>Page Wise Dark Mode</h3>
                     <p>Dracula Dark Mode allows you to set and customize every page of your website separately with different dark mode color schemes, switch variations, typography styles, and many others settings. This gives you the flexibility and fully customize controls to present every page of your website more perfectly in dark mode and create a unique experience for the visitors.</p>
                     <a href="#" class="view-demo">check demo</a>
@@ -149,7 +149,7 @@
             </div>
 
             <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/Page-wish-dark-mode.png" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
             </div> 
 
         </div>
