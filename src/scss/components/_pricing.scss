@@ -1215,6 +1215,23 @@
   background-color: #202248;
 }
 
+.page-template-dracula-features {
+  #pricing-hero {
+    display: none;
+  }
+  #pricing {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      padding-top: 400px!important;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      padding-top: 400px!important;
+    }
+    @media (max-width: 767px) {
+      padding-top: 400px!important;
+    }
+  }
+}
+
 .page-template-dracula-pricing,
 .page-template-dracula-features {
   #pricing-hero {
