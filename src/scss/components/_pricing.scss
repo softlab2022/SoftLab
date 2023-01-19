@@ -1373,7 +1373,7 @@
         }
       }
 
-      .buy-btn-professional {
+      .buy-btn-pro {
         background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%) !important;
         border: 1px solid #7367FB !important;
         transition: all linear .4s;
@@ -1519,7 +1519,7 @@
 
       .compare-btn {
         text-align: center;
-        padding: 41px 83px;
+        padding: 41px 0px;
         a {
           font-weight: 700;
           font-size: 1rem;
@@ -1533,7 +1533,7 @@
 
       .professional-btn{
         text-align: center;
-        padding: 41px 84px;
+        padding: 41px 0px;
         a {
           font-weight: 700;
           font-size: 1rem;
@@ -1695,10 +1695,10 @@
           }
         }
         .compare-btn {
-          padding: 41px 8px;
+          padding: 41px 0px;
         }
         .professional-btn {
-          padding: 41px 14.5px;
+          padding: 41px 0px;
         }
         .starter-item {
           .starter {
@@ -1749,10 +1749,10 @@
           }
         }
         .compare-btn {
-          padding: 41px 8px;
+          padding: 41px 0px;
         }
         .professional-btn {
-          padding: 41px 14.5px;
+          padding: 41px 0px;
         }
         .starter-item {
           .starter {

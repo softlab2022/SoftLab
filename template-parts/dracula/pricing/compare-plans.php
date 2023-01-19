@@ -24,7 +24,7 @@
                             <h5>Professional Plan</h5>
                         </div>
                         <div class="professional-btn">
-                            <a href="#" >Purchase Now</a>
+                            <a href="#" class=" buy-btn-pro">Purchase Now</a>
                         </div>  
                     </div>
                             
@@ -35,7 +35,7 @@
                             <h5>Elite Plan</h5>
                         </div>
                         <div class="compare-btn">
-                            <a href="#">Purchase Now</a>
+                            <a href="#" class=" buy-btn-elite">Purchase Now</a>
                         </div>
                     </div>
                             
@@ -1447,7 +1447,7 @@
                 <div class="col-lg-3 col-md-3">
                     <div class="professional-item elite-item-bottom">
                         <div class="professional-btn">
-                            <a href="#" >Purchase Now</a>
+                            <a href="#" class=" buy-btn-pro">Purchase Now</a>
                         </div>  
                     </div>    
                 </div>
@@ -1455,7 +1455,7 @@
                 <div class="col-lg-3 col-md-3">
                     <div class="elite-item elite-item-bottom">
                         <div class="compare-btn">
-                            <a href="#">Purchase Now</a>
+                            <a href="#" class=" buy-btn-elite">Purchase Now</a>
                         </div>
                     </div>   
                 </div>

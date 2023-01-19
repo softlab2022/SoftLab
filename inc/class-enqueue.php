@@ -114,7 +114,8 @@ class SoftLa {
 			'wp-radio-user-frontend',
 			'wp-radio-proxy-player',
 			'wp-radio-image-import',
-			'wp-radio-ads-player'
+			'wp-radio-ads-player',
+			'dracula-pricing'
 		] );
 
 		if ( $is_pricing_page ) {

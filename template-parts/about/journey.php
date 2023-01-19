@@ -13,6 +13,7 @@
                 <i class="fa-solid fa-chevron-up up"></i>
                 <i class="fa-solid fa-chevron-down down"></i>
                 <div class="slider-main">
+                    
                     <div class="slider-item">
                         <div class="row">
                             <div class="col-lg-12 d-flex justify-content-start align-items-center">
@@ -21,7 +22,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line1.png" alt="line1">
                                     
                                 </div>
-                                <div class="slider-content d-flex">
+                                <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
                                         <a href="/wp-radio">
                                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon1.png" alt="j-icon1">
@@ -48,7 +49,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line2.png" alt="line2">
                                     
                                 </div>
-                                <div class="slider-content d-flex">
+                                <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
                                         <a href="/wp-radio">
                                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon2.png" alt="j-icon2">
@@ -75,7 +76,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line3.png" alt="line3">
                                     
                                 </div>
-                                <div class="slider-content d-flex">
+                                <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
                                         <a href="/wp-radio">
                                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon3.png" alt="j-icon3">
@@ -102,15 +103,15 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line1.png" alt="line1">
                                     
                                 </div>
-                                <div class="slider-content d-flex">
+                                <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
-                                        <a href="/wp-radio">
+                                        <a href="/reader-mode">
                                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/reader-mode.png" alt="reader-mode">
                                         </a>
                                     </div>
                                     <div class="products-content">
                                         <div class="text-item d-flex justify-content-between">
-                                            <a href="/wp-radio">Reader Mode</a>
+                                            <a href="/reader-mode">Reader Mode</a>
                                             <h5>2022</h5>
                                         </div>
                                         <p>Reader Mode Plugin adds a distraction-free reading experience for your WordPress website.</p>
@@ -120,6 +121,32 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="slider-item">
+                        <div class="row">
+                            <div class="col-lg-12 d-flex justify-content-start align-items-center">
+                                <div class="slider-img">                                   
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line1.png" alt="line1">                                   
+                                </div>
+                                <div class="slider-content d-flex align-items-center">
+                                    <div class="products-img">
+                                        <a href="/dracula-dark-mode">
+                                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/dracula-dark-mode.png" alt="dracula dark mode">
+                                        </a>
+                                    </div>
+                                    <div class="products-content">
+                                        <div class="text-item d-flex justify-content-between">
+                                            <a href="/dracula-dark-mode">Dracula Dark Mode</a>
+                                            <h5>2023</h5>
+                                        </div>
+                                        <p>Dracula Dark Mode is an easy-to-use and the best dark mode plugin for WordPress.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
