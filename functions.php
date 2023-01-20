@@ -345,7 +345,7 @@ if ( ! function_exists( 'softlab_comment' ) ) :
 				break;
 			default:
 				?>
-            <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
+                <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
                 <article id="comment-<?php comment_ID(); ?>" class="comment">
                     <footer class="comment-meta">
                         <div class="comment-author vcard">
@@ -493,6 +493,25 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 		'redirect'   => false,
 	) );
 }
+
+
+//TODO - TEST REMOVE
+add_action( 'wp_footer', function () {
+//	printf( '<script src="%s"></script>', home_url() . '/darkreader.js' );
+
+	?>
+    <script>
+        // DarkReader.enable(
+        // {
+        //     brightness: 100,
+        //     contrast: 90,
+        //     sepia: 10
+        // }
+        // );
+    </script>
+	<?php
+
+} );
 
 
 
