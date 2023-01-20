@@ -495,23 +495,4 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 }
 
 
-//TODO - TEST REMOVE
-add_action( 'wp_footer', function () {
-//	printf( '<script src="%s"></script>', home_url() . '/darkreader.js' );
-
-	?>
-    <script>
-        // DarkReader.enable(
-        // {
-        //     brightness: 100,
-        //     contrast: 90,
-        //     sepia: 10
-        // }
-        // );
-    </script>
-	<?php
-
-} );
-
-
 
