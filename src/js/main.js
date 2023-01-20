@@ -128,6 +128,45 @@ import './components/pricing';
                     }
                 ]
             });
+
+            $('.dracula-slider').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 4,
+                autoplay: true,
+                arrows:false,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 1199.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 991.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 767.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+              });
+
         },
 
         initFunFactCounter: function () {

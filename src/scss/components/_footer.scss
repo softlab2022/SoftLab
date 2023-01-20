@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 60px;
-  padding-bottom: 1%;
+  padding-bottom: 0;
 
   .footer-contant {
     p {
@@ -69,6 +69,9 @@
       &.product-reader-mode:hover {
         color: #574DCC;
       }
+      &.product-dracula-dark-mode:hover {
+        color: #574DCC;
+      }
 
     }
 
@@ -125,7 +128,7 @@
         border-radius: 8px;
         font-size: .875rem;
         border: none;
-
+        margin-bottom: 0;
 
         &:hover {
           background: linear-gradient(146.96deg, #6E6DFF 11.6%, #7788FF 89.24%);
@@ -343,6 +346,56 @@
         a {
           background: #00D1E1;
         }
+      }
+    }
+  }
+}
+
+.page-template-templatesdracula-php,
+.page-template-dracula-pricing,
+.page-template-dracula-features,
+.page-template-dracula-compare{
+  .footer {
+
+    background: url("../images/dracula/home/footer-shape.png") no-repeat 0 8rem #2E3161!important;
+    padding: 60px 0 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footer-contant {
+      p {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .footer-bottom {
+      p {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .footer-menu-bottom {
+        a {
+          color: rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+    .footer-menu-head {
+      h4 {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .footer-menu {
+      a {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    .footer-menu-products {
+      a {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+    
+    .news-letter-form {
+      p {
+        color: rgba(255, 255, 255, 0.8);
       }
     }
   }

@@ -5,9 +5,7 @@
                 <div class="hero-content text-center">
                     <h1>Complete <span>Google Drive</span> Cloud Solution for WordPress.</h1>
                     <p>
-                        Integrate Google Drive – is the best and easy-to-use Google Drive cloud solution plugin for
-                        WordPress to integrate your Google Drive documents and media directly into your WordPress
-                        Website.
+                        Integrate Google Drive is the most advanced plugin to access your important Google Drive files & folders directly on your WordPress website. Even if you have zero knowledge of coding, you are up to using the plugin without any difficulties or hassle. Browse, manage, embed, display, upload, download, search, play, and share almost everything to your WordPress website that you were doing inside of your Google Drive.
                     </p>
 
                     <a href="/integrate-google-drive-pricing" class="get">Get Started</a>

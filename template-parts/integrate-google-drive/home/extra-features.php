@@ -21,7 +21,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Easy Setup</h4>
-                        <p>You don’t need to create any custom Google app. You can sign-in to your Google account directly using this plugin.</p>
+                        <p>Integrate Google Drive has been developed to maintain an easy setup for all groups of people. If you using a plugin for the first time, still you can set up & maintain it properly. We made it that simple!</p>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Embed Document</h4>
-                        <p>Embed any Google Drive files to your page/ post.</p>
+                        <p>We made embedding documents easy for you. Using the Embed Documents feature users can embed documents (files, docs, excels, pdf, mp3, mp4, etc) with read-only and editable modes.</p>
                     </div>
                 </div>
             </div>
@@ -68,8 +68,8 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/icon5.png" alt="icon5">
                     </div>
                     <div class="ex-text">
-                        <h4>Easy SetupFile View Links</h4>
-                        <p>Insert direct links to view any Google Drive file.</p>
+                        <h4>File View Links</h4>
+                        <p>File view links can be sometimes effective depending on the sector you are operating. Insert direct links on your website to view any Google Drive files & documents.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Use Own Google App</h4>
-                        <p>You can add your own Google app with this plugin.</p>
+                        <p>What if you want to integrate your own Google App with Integrate Google Drive? Our plugin gives you the freedom to link your own Google App and start playing with it.</p>
                     </div>
                 </div>
             </div>

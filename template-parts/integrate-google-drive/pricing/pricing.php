@@ -1,13 +1,29 @@
 <?php
 
 $free_features = [
-	'Documents Embed',
-	'File Browser',
-	'Preview, Copy, Move, Delete',
-	'Search Files',
+	'Embed Documents Module',
+	'Download Links Module',
+	'View Links Module',
 	'Shortcode Builder',
-	'Insert/ Generate Direct View Links',
-	'Links Download Files',
+	'Inline Preview',
+	'Classic Editor Integrations',
+	'Gutenberg Integrations',
+	'Elementor Integrations',
+	'Link Own Google App',
+	'Full-Text Search',
+	'Zip Download',
+	'On Demand Assets Loading',
+	'Responsive Design',
+	'Multi-Language Support',
+	'Share Files',
+	'Custom CSS',
+	'Export/ Import Data',
+	'File Browser Preloader - 2 FREE',
+	'Rename, Move, Copy Files & Folders',
+	'Exclude Files by Names & Extensions',
+	'Multiple File Download',
+	'Allow others to use plugin by user roles',
+	'Direct File View Link for All Users & Admins',
 ];
 
 $pro_features = [
@@ -17,12 +33,24 @@ $pro_features = [
 	'Photo Gallery Module',
 	'Media Player Module',
 	'File Search Module',
-    'User Private Files and Folders',
-    'File Importer to Media Library',
 	'Add Multiple Google Drive Accounts',
 	'WooCommerce Integration',
 	'Easy Digital Downloads Integration',
-    'WPForms, Ninja Forms, Gravity Forms, Fluent Forms, Formidable Forms, Contact Form 7 Integrations',
+    'Gravity Forms Integrations',
+    'Fluent Forms Integrations',
+    'Formidable Forms Integrations',
+    'Contact Form 7 Integrations',
+    'WP Forms Integrations',
+    'Ninja Forms Integrations',
+    'User Private Files',
+    'Automatic Private Folders',
+    'Statistics & Email Report',
+    'Email Notifications',
+    '18+ File Browser Preloaders',
+    'Appearance Color Customizations',
+    'Gallery Lightbox Preview',
+    'Module Size Customization',
+    'Auto Synchronize Cloud Files',
 ];
 
 ?>
@@ -108,9 +136,58 @@ $pro_features = [
                         </div>
 
                         <div class="price-text annual license-1">
+
+                            <div class="offer-price annual single">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$58 </p>
+                                    <span class="price-dis">50%OFF</span>
+                                </div>
+                                
+                            </div>
+
+                            <div class="offer-price annual five">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$178 </p>
+                                    <span class="price-dis">50%OFF</span>
+                                </div>
+                                
+                            </div>
+
+                            <div class="offer-price annual hundred">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$398 </p>
+                                    <span class="price-dis">50%OFF</span>
+                                </div>
+                                
+                            </div>
+
                             <span class="price-value annual single">29</span>
                             <span class="price-value annual five">89</span>
                             <span class="price-value annual hundred">199</span>
+
+                            <div class="offer-price lifetime single">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$158 </p>
+                                    <span class="price-dis">50%OFF</span>
+                                </div>
+                                
+                            </div>
+
+                            <div class="offer-price lifetime five">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$398 </p>
+                                    <span class="price-dis">50%OFF</span>
+                                </div>
+                                
+                            </div>
+
+                            <div class="offer-price lifetime hundred">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$998 </p>
+                                    <span class="price-dis">50%OFF</span>
+                                </div>
+                                
+                            </div>
 
                             <span class="price-value lifetime single">79</span>
                             <span class="price-value lifetime five">199</span>

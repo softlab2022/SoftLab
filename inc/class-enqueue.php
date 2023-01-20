@@ -42,14 +42,29 @@ class SoftLa {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
 
-		} else if ( in_array( $file_name, [
+		}
+		
+		else if ( in_array( $file_name, [
 			'reader-mode',
 			'reader-mode-pricing',
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
 
-		} else if ( in_array( $file_name, [
+		} 
+
+		else if ( in_array( $file_name, [
+			'dracula',
+			'dracula-pricing',
+			'dracula-features',
+			'dracula-compare',
+		] ) ) {
+
+			wp_enqueue_style( 'dracula-main', get_theme_file_uri( 'assets/css/dracula-main.css' ) );
+
+		} 
+		
+		else if ( in_array( $file_name, [
 			'wp-radio',
 			'wp-radio-pricing',
 			'wp-radio-user-frontend',
@@ -99,7 +114,8 @@ class SoftLa {
 			'wp-radio-user-frontend',
 			'wp-radio-proxy-player',
 			'wp-radio-image-import',
-			'wp-radio-ads-player'
+			'wp-radio-ads-player',
+			'dracula-pricing'
 		] );
 
 		if ( $is_pricing_page ) {

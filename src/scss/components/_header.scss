@@ -396,4 +396,55 @@
 
   }
 
+  .navbar-dracula {
+    background: linear-gradient(92.72deg, rgba(92, 66, 255, 0.4) -17.53%, rgba(83, 69, 255, 0.06) 22.48%, rgba(83, 69, 255, 0.15) 54.86%, rgba(205, 197, 255, 0.1) 83.22%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 12px;
+    .show {
+      background: #000;
+    }
+    .navbar-toggler {
+      color: #fff;
+    }
+    .dracula-nav {     
+      .nav-item {
+        a {
+          color: #fff;
+        }
+        .nav-link {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+    @media (max-width: 767px) {
+      .brand-dracula {
+        img {
+          width: 240px;
+        }
+      }
+    }
+  }
+  .buy-now-btn-dracula {
+    a {
+      background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%)!important;
+      border-radius: 10px!important;
+      text-decoration: none;
+      color: #fff;
+      padding: 15px 30px;
+      transition: all .3s ease;
+
+      &:hover {
+        box-shadow: drop-shadow(4px 8px 24px rgba(118, 107, 250, 0.14));
+      }
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+
 }

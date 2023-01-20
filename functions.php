@@ -262,6 +262,17 @@ function softlab_widgets_init() {
 			'after_title'   => '</h3>',
 		)
 	);
+	// Area 4.
+	register_sidebar(
+		array(
+			'name'          => 'Four Widget Area (Single Sidebar)',
+			'id'            => 'single_sidebar_area',
+			'before_widget' => '',
+			'after_widget'  => '',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
 }
 
 add_action( 'widgets_init', 'softlab_widgets_init' );

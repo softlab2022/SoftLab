@@ -173,9 +173,14 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					} elseif ( 'wp radio' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png';
 						$description = 'Worldwide Online Radio Stations Directory for WordPress.';
-					} elseif ( 'reader mode' == strtolower( $title ) ) {
+					}
+					 elseif ( 'reader mode' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/reader-mode.png';
 						$description = 'Distraction-free Content Reader for WordPress.';
+					}
+					 elseif ( 'dracula dark mode' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png';
+						$description = 'The Future of WordPress Dark Mode';
 					}
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );

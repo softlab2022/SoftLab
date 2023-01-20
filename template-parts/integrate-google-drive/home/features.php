@@ -3,42 +3,42 @@
 $features = [
 	'file-browser' => [
 		'title'       => 'File Browser',
-		'description' => 'Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.',
+		'description' => 'Display your cloud files via an interactive File Browser. The file browser can have a grid thumbnail and list view for the Google Drive files you are browsing. It’s the simplest solution to manage your cloud files easily & efficiently.',
 	],
 
 	'file-uploader' => [
 		'title'       => 'File Uploader',
-		'description' => 'You and also your users can upload files directly to your Google Drive account from your site.',
+		'description' => 'Integrate Google Drive features a user-friendly file uploader to upload files into the Google Drive cloud platform from your website. Users can see an upload progress bar, file name, cancel uploading action, and media preview for improved interactions.',
 	],
 
 	'photo-gallery' => [
 		'title'       => 'Photo Gallery',
-		'description' => 'You can add a grid lightbox popup photo gallery in your page/ post using the photo gallery options of the plugin. The gallery will be generated based on the folders that you select.',
+		'description' => 'The Photo Gallery Module feature of the plugin can display your Google Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you create a stunning photo gallery and display it to your users.',
 	],
 
 	'media-player' => [
 		'title'       => 'Media Player',
-		'description' => 'Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.',
+		'description' => 'Play Google Drive audio and video files in a single player using the Media Player module from your website. This feature will also create a stunning playlist for all selected media files. All in all, you can save your hosting space by using this feature.',
 	],
 
 	'shortcode-builder' => [
 		'title'       => 'Shortcode Builder',
-		'description' => 'You can create various types of module with different configurations with the shortcode builder and can use them anywhere using the shortcode.',
+		'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
 	],
 
 	'multiple-accounts' => [
-		'title'       => 'Multiple <br> Google Accounts',
-		'description' => 'You can link multiple Google accounts and can use files from the multiple accounts.',
+		'title'       => 'Multiple Google Accounts',
+		'description' => 'Linking multiple Google Accounts can be sometimes necessary for you. We provide you full freedom to link multiple Google Accounts and share files from your specific accounts.',
 	],
 
 	'page-builder' => [
 		'title'       => 'Popular Page Builder Supports',
-		'description' => 'Compare the Best Website Builders and Choose Yours. Create a Free Website Today. It\'s Easy and Free. Compare the Best Website Builders.',
+		'description' => 'We provide a wide & popular page builder supports all over the world. That means Integrate Google Drive is 100% compatible with the most popular page builders. So you are up to go with whatever page builders are you using.',
 	],
 
 	'form' => [
 		'title'       => 'Popular Forms Connect & Easy to Use',
-		'description' => 'Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.',
+		'description' => 'Integrate your favorite services and add advanced features with the official Form plugin integration feature. It’s time to build a powerful module for popular forms by using Integrate Google Drive plugin.',
 	],
 
 ];
@@ -52,7 +52,7 @@ $features = [
             <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
                     <h1>Amazing Drive </br> Integration <span>Features</span>.</h1>
-                    <p>Best and most productive integrations for </br> Google Drive. Learn how to connect with us.</p>
+                    <p>We provide the best and most productive integrations for Google Drive. You are near to discovering some coolest features of Integrate Google Drive & easiest way to connect with us. Join the party now!</p>
                 </div>
             </div>
         </div>
