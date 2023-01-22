@@ -152,7 +152,7 @@
       margin-top: 1.5rem;
       margin-right: 25px;
       padding: 15px 30px;
-      background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+      background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
       backdrop-filter: blur(20px);
       border-radius: 10px;
       color: #fff;
@@ -196,12 +196,17 @@
       h3 {
         font-size: 2rem;
       }
+      p {
+        font-size: .8rem;
+      }
     }
     .admin-dashbord-dark-mode {
       padding: 22px;
+      padding-bottom: 40px;
     }
     .color-adjustments {
       padding: 22px;
+      padding-bottom: 40px;
     }
   }
 
@@ -222,6 +227,39 @@
     }
   }
 }
+/*==== more-feature css area ====*/
+#more-feature {
+  padding: 60px 0;
+  .more-feature {
+    background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(60px);
+    border-radius: 40px;
+    padding: 40px;
+    padding-bottom: 60px;
+    border: 1px solid #5A5B77;
+  }
+  .section-content {
+    span {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: #fff;
+      display: block;
+      padding-bottom: 50px;
+    }
+    a {
+      background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+      border-radius: 10px;
+      padding: 18px 40px;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 120%;
+      color: #fff;
+    }
+  }
+}
+
+
 
 /*==== dark mode solution css area ====*/
 #solution {
@@ -576,7 +614,7 @@
       background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
       filter: blur(38.5px);
       top: 50%;
-      left: 25%;
+      left: 35%;
       opacity: .7;
     }
 
@@ -668,6 +706,9 @@
   @media (max-width: 767px) {
     .cta-dracula {
       padding: 48px;
+      &:after {
+        left: 8%;
+      }
     }
     .section-head {
       h1 {

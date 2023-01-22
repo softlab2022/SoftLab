@@ -1,21 +1,6 @@
 <section id="dracula-feature">
     <div class="container">
 
-        <!--==== Live Edit Dark Mode =====--->
-        <div class="row dark-mode align-items-center flex-column-reverse flex-md-row">
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Live Edit Dark Mode</h3>
-                    <p>Dark Mode plugin features a live edit widget that allows users to customize the appearance of their dark mode theme in real-time. It allows users to customize a wide range of settings, including the colors customization, toggle button customization, typography settings, exclude elements, image and video replacements, and custom CSS can be customized. This feature can be handy in terms of saving you valuable time than editing on the backend.</p>
-                    <a href="#" class="view-demo">check demo</a>
-                </div>
-            </div>
-        </div>
-
         <!--==== Frontend Dark Mode =====--->
         <div class="row dark-mode align-items-center">
             <div class="col-lg-6 col-md-6">
@@ -29,7 +14,7 @@
             <div class="col-lg-6 col-md-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode.png" alt="" class="img-fluid">
             </div>
-        </div>
+        </div>    
 
         <!--==== Admin Dashboard Dark Mode =====--->
         <div class="row dark-mode align-items-center admin-dashbord-dark-mode flex-column-reverse flex-md-row">
@@ -43,21 +28,6 @@
                     <p>Dracula Dark Mode allows site admins to enable and use dark mode in their admin dashboard. This provides a consistent look and feel throughout the site, and can also help to reduce eye strain when working in the admin dashboard.</p>
                     <a href="#" class="view-demo">check demo</a>
                 </div>
-            </div>
-        </div>
-
-        <!--==== Auto Match OS Theme =====--->
-        <div class="row dark-mode align-items-center">
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/auto-match-os-theme-icon.png" alt="" class="img-fluid">
-                    <h3>Auto Match OS Theme</h3>
-                    <p>Dracula Dark Mode automatically detect user’s device OS theme and automatically enable website’s dark mode to match the dark mode setting on the user’s device. This allows for a seamless experience for users who prefer to use dark mode on their device.</p>
-                    <a href="#" class="view-demo">check demo</a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/auto-match-os-theme.png" alt="" class="img-fluid">
             </div>
         </div>
 
@@ -76,6 +46,70 @@
             </div>
         </div>
 
+        <!--==== 14+ Toggle Button Styles =====--->
+        <div class="row dark-mode color-adjustments align-items-center">             
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/14+toggle-button-style-icon.png" alt="" class="img-fluid">
+                    <h3>14+ Toggle Button Styles</h3>
+                    <p>Dracula Dark Mode offers a variety of toggle button styles for switching between light and dark mode. You can choose from 14+ different toggle button styles, which can be easily customized to match the website's design and branding. This allows users to give a unique look and feel to the Dark mode toggle button and enhance the overall user experience.</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/14+toggle-button-style.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <!--==== Custom Toggle Button Builder =====--->
+        <div class="row dark-mode align-items-center flex-column-reverse flex-md-row">
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-toggle-button-builder.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-toggle-button-builder-icon.png" alt="" class="img-fluid">
+                    <h3>Custom Toggle Button Builder</h3>
+                    <p>You don’t have to stick with the toggle buttons we designed for you. You always have the freedom to redesign whatever you are looking for. By using the Toggle Builder feature you can create a custom toggle button for dark mode</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--==== Live Edit Dark Mode =====--->
+        <div class="row dark-mode color-adjustments align-items-center flex-column-reverse flex-md-row">
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode-icon.png" alt="" class="img-fluid">
+                    <h3>Live Edit Dark Mode</h3>
+                    <p>Dark Mode plugin features a live edit widget that allows users to customize the appearance of their dark mode theme in real-time. It allows users to customize a wide range of settings, including the colors customization, toggle button customization, typography settings, exclude elements, image and video replacements, and custom CSS can be customized. This feature can be handy in terms of saving you valuable time than editing on the backend.</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+        </div>
+
+        <!--==== Page Wise Dark Mode =====--->
+        <div class="row dark-mode align-items-center">  
+                      
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode-icon.png" alt="" class="img-fluid">
+                    <h3>Page Wise Dark Mode</h3>
+                    <p>Dracula Dark Mode allows you to set and customize every page of your website separately with different dark mode color schemes, switch variations, typography styles, and many others settings. This gives you the flexibility and fully customize controls to present every page of your website more perfectly in dark mode and create a unique experience for the visitors.</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
+            </div> 
+
+        </div>
+
         <!--==== Color Adjustments =====--->
         <div class="row dark-mode color-adjustments align-items-center">
             <div class="col-lg-6 col-md-6">
@@ -91,8 +125,23 @@
             </div>
         </div>
 
+        <!--==== Auto Match OS Theme =====--->
+        <div class="row dark-mode align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/auto-match-os-theme-icon.png" alt="" class="img-fluid">
+                    <h3>Auto Match OS Theme</h3>
+                    <p>Dracula Dark Mode automatically detect user’s device OS theme and automatically enable website’s dark mode to match the dark mode setting on the user’s device. This allows for a seamless experience for users who prefer to use dark mode on their device.</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/auto-match-os-theme.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
         <!--==== Floating Dark Mode Toggle Button =====--->
-        <div class="row dark-mode align-items-center flex-column-reverse flex-md-row">  
+        <div class="row dark-mode color-adjustments align-items-center flex-column-reverse flex-md-row">  
             <div class="col-lg-6 col-md-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/floating-dark-mode.png" alt="" class="img-fluid">
             </div>
@@ -103,21 +152,6 @@
                     <p>Dracula Dark Mode features a floating dark mode toggle button with 14+ attractive styles that allows users to easily switch between the light and dark modes of a website. The floating button is designed to provide a convenient and user-friendly way to access the dark mode feature, regardless of where the user is on the website.</p>
                     <a href="#" class="view-demo">check demo</a>
                 </div>
-            </div>
-        </div>
-
-        <!--==== 14+ Toggle Button Styles =====--->
-        <div class="row dark-mode color-adjustments align-items-center">             
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/14+toggle-button-style-icon.png" alt="" class="img-fluid">
-                    <h3>14+ Toggle Button Styles</h3>
-                    <p>Dracula Dark Mode offers a variety of toggle button styles for switching between light and dark mode. You can choose from 14+ different toggle button styles, which can be easily customized to match the website's design and branding. This allows users to give a unique look and feel to the Dark mode toggle button and enhance the overall user experience.</p>
-                    <a href="#" class="view-demo">check demo</a>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/14+toggle-button-style.png" alt="" class="img-fluid">
             </div>
         </div>
 
@@ -166,23 +200,6 @@
             </div>
         </div>
 
-        <!--==== Page Wise Dark Mode =====--->
-        <div class="row dark-mode align-items-center">  
-                      
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Page Wise Dark Mode</h3>
-                    <p>Dracula Dark Mode allows you to set and customize every page of your website separately with different dark mode color schemes, switch variations, typography styles, and many others settings. This gives you the flexibility and fully customize controls to present every page of your website more perfectly in dark mode and create a unique experience for the visitors.</p>
-                    <a href="#" class="view-demo">check demo</a>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
-            </div> 
-
-        </div>
-
     </div>
+        
 </section>

@@ -68,6 +68,33 @@ $agency_features = [
         </div>
 
         <div class="row">
+            <div class="col-lg-5 m-auto">
+                <div class="dracula-site text-center">
+                        <div class="site">
+                            <div class="dropdown license-dropdown">
+                                <button class="btn-dr dropdown-toggle" type="button" id="license-dropdown"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    Single Site License
+                                </button>
+
+                                <ul class="dropdown-menu" aria-labelledby="license-dropdown">
+                                    <li>
+                                        <a class="dropdown-item active" href="#" data-license="1">Single Site License</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
             <div class="col-lg-12">
 
                 <div class="price-tables annual">
@@ -100,8 +127,7 @@ $agency_features = [
 									<?php } ?>
                                 </div>
 
-                                <a href="https://wordpress.org/plugins/integrate-google-drive"
-                                   class=" buy-btn buy-btn-free">Download Now</a>
+                                <a href="#" class=" buy-btn buy-btn-free">Download Now</a>
                             </div>
                         </div>
 
@@ -109,13 +135,7 @@ $agency_features = [
                         <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__professional">
                                 <div class="pricing-head">
-                                    <div class="pricing_head_professional d-flex justify-content-between align-items-center">
-                                        <span class="professional-title">PROFESSIONAL</span>
-                                        <h5>popular <img
-                                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/fire.png"
-                                                    class="img-fluid"></h5>
-                                    </div>
-
+                                        <span class="pricing-head-title">PROFESSIONAL</span>                                   
 
                                     <div class="price-text annual professional license-1">
 
@@ -198,8 +218,10 @@ $agency_features = [
                         <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__elite">
                                 <div class="pricing-head">
-
-                                    <span class="pricing-head-title">ELITE</span>
+                                    <div class="pricing_head_professional d-flex justify-content-between align-items-center">
+                                        <span class="professional-title">ELITE</span>
+                                        <h5>popular <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/fire.png" class="img-fluid"></h5>
+                                    </div>
 
                                     <div class="price-text annual elite license-1">
 

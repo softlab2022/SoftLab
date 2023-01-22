@@ -61,11 +61,24 @@
             </div>
         </div>
 
-        <!--==== Live Edit Dark Mode =====--->
+        <!--==== Custom Toggle Button Builder =====--->
         <div class="row dark-mode align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode.png" alt="" class="img-fluid">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-toggle-button-builder.png" alt="" class="img-fluid">
             </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-toggle-button-builder-icon.png" alt="" class="img-fluid">
+                    <h3>Custom Toggle Button Builder</h3>
+                    <p>You don’t have to stick with the toggle buttons we designed for you. You always have the freedom to redesign whatever you are looking for. By using the Toggle Builder feature you can create a custom toggle button for dark mode.</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+        </div>
+
+        <!--==== Live Edit Dark Mode =====--->
+        <div class="row dark-mode color-adjustments align-items-center">
+            
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode-icon.png" alt="" class="img-fluid">
@@ -74,11 +87,16 @@
                     <a href="#" class="view-demo">check demo</a>
                 </div>
             </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode.png" alt="" class="img-fluid">
+            </div>
         </div>
 
         <!--==== Page Wise Dark Mode =====--->
-        <div class="row dark-mode align-items-center">  
-                      
+        <div class="row dark-mode align-items-center flex-column-reverse flex-md-row">  
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
+            </div> 
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode-icon.png" alt="" class="img-fluid">
@@ -88,9 +106,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
-            </div> 
+           
 
         </div>
 
