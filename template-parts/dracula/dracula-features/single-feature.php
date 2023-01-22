@@ -123,6 +123,14 @@
                 </div>
             </div>
             
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-item text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/keyboard-shortcut.png" alt="" class="img-fluid">
+                    <h3>Keyboard Shortcut</h3>
+                    <p>Dracula Dark Mode allows users to switch between light and dark mode using the keyboard shortcut (Ctrl + Shift + D).</p>
+                </div>
+            </div>
+            
         </div>
 
     </div>

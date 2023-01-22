@@ -1,7 +1,7 @@
 <section id="compare-plans-table">
     <div class="container">
         <div class="compare-main">
-
+            <!-- Feature List area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="compare-item">
@@ -40,7 +40,7 @@
                             
                 </div>
             </div>
-
+            <!-- Frontend Dark Mode area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -79,177 +79,7 @@
                 </div> -->
 
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/backend.png" alt="" class="img-fluid">
-                        <h5>Backend Dark Mode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/admin.png" alt="" class="img-fluid">
-                        <h5>Admin Dashboard Dark Mode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/os.png" alt="" class="img-fluid">
-                        <h5>OS-based color Mode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/time-based.png" alt="" class="img-fluid">
-                        <h5>Time-based Dark Mode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/page-wish.png" alt="" class="img-fluid">
-                        <h5>Page Wish Dark Mode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                    <span>No</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-
-            </div>
-
+            <!-- Default Dark Mode area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -283,7 +113,75 @@
                 </div>
 
             </div>
+            <!-- OS-based color mode area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/os.png" alt="" class="img-fluid">
+                        <h5>OS-based color Mode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
 
+            </div>
+            <!-- Time-based dark mode area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/time-based.png" alt="" class="img-fluid">
+                        <h5>Time-based Dark Mode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+
+            </div>
+            <!-- WordPress Login & Register Page Dark Mode area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -317,41 +215,7 @@
                 </div>
 
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/specific.png" alt="" class="img-fluid">
-                        <h5>Dashboard Dark Mode for <br> Specific User Roles</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-
-            </div>
-
+            <!-- Performance Mode area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -385,7 +249,7 @@
                 </div>
 
             </div>
-
+            <!-- Save User Choice area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -419,12 +283,46 @@
                 </div>
 
             </div>
-
+            <!-- Admin Dashboard Dark Mode area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/live-edit.png" alt="" class="img-fluid">
-                        <h5>Dark Mode Live Edit Mode</h5>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/admin.png" alt="" class="img-fluid">
+                        <h5>Admin Dashboard Dark Mode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+
+            </div>
+            <!-- Dashboard Dark Mode for Specific User Roles area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/specific.png" alt="" class="img-fluid">
+                        <h5>Dashboard Dark Mode for <br> Specific User Roles</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -453,7 +351,76 @@
                 </div>
 
             </div>
+            <!-- Realtime Dark Mode Customization area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-position.png" alt="" class="img-fluid">
+                        <h5>Realtime Dark Mode Customization</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
 
+            </div>
+             <!-- Page Wise Dark Mode area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/page-wish.png" alt="" class="img-fluid">
+                        <h5>Page Wish Dark Mode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-xmark"></i>
+                    <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+
+            </div>
+           
+            <!-- Floating Dark Mode Toggle Button area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -487,7 +454,8 @@
                 </div>
 
             </div>
-
+            
+            <!-- Dark mode Switch in Menu area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -496,9 +464,9 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -521,41 +489,43 @@
                 </div>
 
             </div>
-
+            
+            <!-- Multiple Toggle Buttons area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/multiple.png" alt="" class="img-fluid">
-                        <h5>Multiple switches</h5>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/toggle.png" alt="" class="img-fluid">
+                        <h5>Multiple Toggle Buttons</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                        <span>Yes(2 Free & 14+ Pro)</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                        <span>Yes(3 Free & 16+ Pro)</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                        <span>Yes(2 Free & 5+ Pro)</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                        <span>Yes(2 Free & 3+ Pro)</span>
                     </div>  
                 </div>
 
             </div>
-
+            
+            <!-- Toggle Button Size Customization area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -589,7 +559,8 @@
                 </div>
 
             </div>
-
+            
+            <!-- Draggable Floating Switch area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -623,7 +594,8 @@
                 </div>
 
             </div>
-
+            
+            <!-- Custom Toggle Button Builder area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -657,12 +629,12 @@
                 </div>
 
             </div>
-
+            <!-- Toggle Button Position Customization area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-toggle-switch.png" alt="" class="img-fluid">
-                        <h5>Custom Toggle Switch Positions</h5>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-position.png" alt="" class="img-fluid">
+                        <h5>Toggle Button Size Customization</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -692,42 +664,7 @@
                 </div>
 
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-position.png" alt="" class="img-fluid">
-                        <h5>Custom position</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-
-            </div>
-
+            <!-- Darkmode Toggle Animation area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -766,7 +703,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Custom Switch Text & Color area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -806,46 +743,7 @@
                 </div> -->
 
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/ready-mode.png" alt="" class="img-fluid">
-                        <h5>Ready-made color schema</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <!-- <div class="col-lg-3">
-                    <div class="items text-center">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div>     
-                </div> -->
-
-            </div>
-
+            <!-- Color Adjustments area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -884,7 +782,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Dynamic Colors area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -924,7 +822,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Custom Colors area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -964,25 +862,25 @@
                 </div> -->
 
             </div>
-
+            <!-- Dark Mode Color Presets area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/presets.png" alt="" class="img-fluid">
-                        <h5>Presets</h5>
+                        <h5>Dark Mode Color Presets</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                     
                     <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                    <span>Yes (2 Free & 8 PRO)</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                        <span>Yes (2 Free & 11 PRO)</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -992,9 +890,9 @@
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                        <span>Yes (2 Free & 7 PRO)</span>
                     </div>  
                 </div>
                 <!-- <div class="col-lg-3">
@@ -1004,7 +902,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Dark Mode Based Typography area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1013,10 +911,9 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -1044,7 +941,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Darken Background Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1083,7 +980,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Low Brightness Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1122,7 +1019,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Grayscale Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1161,7 +1058,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Invert Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1195,7 +1092,7 @@
                 </div>
 
             </div>
-
+            <!-- Image Replacement area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1230,60 +1127,54 @@
                 </div>
 
             </div>
-
+            <!-- Dark mode based Image Support area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/logo-suport.png" alt="" class="img-fluid">
-                        <h5>Dark mode logo support</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/image-support.png" alt="" class="img-fluid">
                         <h5>Dark mode based Image Support</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+
+            </div>
+            <!-- Dark mode area -->            
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/image-support.png" alt="" class="img-fluid">
+                        <h5>Dark mode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
@@ -1292,14 +1183,20 @@
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
                     </div>  
                 </div>
 
             </div>
-
+            <!-- Dark mode based Video Support area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1308,9 +1205,9 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
                     <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -1333,7 +1230,7 @@
                 </div>
 
             </div>
-
+            <!-- Popular page builder support -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1367,7 +1264,7 @@
                 </div>
 
             </div>
-
+            <!-- Classic Editor Compatibility -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1401,7 +1298,7 @@
                 </div>
 
             </div>
-
+            <!-- Gutenberg Editor Compatibility area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1435,8 +1332,252 @@
                 </div>
 
             </div>
-
+            <!-- Toggle Button Shortcode area -->
             <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/button-shortcode.png" alt="" class="img-fluid">
+                        <h5>Toggle Button Shortcode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+
+            </div>
+            <!-- Keyboard Shortcut area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/keybord.png" alt="" class="img-fluid">
+                        <h5>Keybord Shortcode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>  
+                </div>
+
+            </div>
+            <!-- Custom CSS support area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-css.png" alt="" class="img-fluid">
+                        <h5>Custom CSS Support</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+            <!-- Exclude Elements area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/exclude.png" alt="" class="img-fluid">
+                        <h5>Excludes Elements</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+
+            </div>
+            <!-- Include Elements area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/include.png" alt="" class="img-fluid">
+                        <h5>Include Elements</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+
+            </div>   
+            <!-- Include / Exclude, Pages & Posts area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/exclude.png" alt="" class="img-fluid">
+                        <h5>Include / Exclude, Pages & Posts</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+
+            </div>
+
+            <!-- Dark mode logo support area -->
+            <!-- <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/logo-suport.png" alt="" class="img-fluid">
+                        <h5>Dark mode logo support</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>  
+                </div>
+
+            </div> -->
+
+            <!-- <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/woocommerce.png" alt="" class="img-fluid">
@@ -1502,217 +1643,8 @@
                     </div>  
                 </div>
 
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/button-shortcode.png" alt="" class="img-fluid">
-                        <h5>Toggle Button Shortcode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/keybord.png" alt="" class="img-fluid">
-                        <h5>Keybord Shortcode</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-css.png" alt="" class="img-fluid">
-                        <h5>Custom CSS Support</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <!-- <div class="col-lg-3">
-                    <div class="items text-center">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div>     
-                </div> -->
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/include.png" alt="" class="img-fluid">
-                        <h5>Include Elements, Pages & Posts</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/exclude.png" alt="" class="img-fluid">
-                        <h5>Excludes Elements, Pages & Posts</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/export-import.png" alt="" class="img-fluid">
-                        <h5>Export, Import, Reset Settings</h5>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-
-            </div>
-
+            </div> -->
+            <!-- Usage Analytics & Email Report -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1751,7 +1683,7 @@
                 </div> -->
 
             </div>
-
+            <!-- Works on all devices area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
@@ -1785,7 +1717,7 @@
                 </div>
 
             </div>
-
+            <!-- pricing area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="dracula-prices"></div>

@@ -84,7 +84,7 @@
             margin-top: 1.5rem;
             margin-right: 25px;
             padding: 15px 30px;
-            background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
+            background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
             backdrop-filter: blur(20px);
             border-radius: 10px;
             color: #fff;
@@ -133,12 +133,17 @@
             h3 {
                 font-size: 2rem;
             }
+            p {
+                font-size: .8rem;
+            }
         }
         .admin-dashbord-dark-mode  {
             padding: 22px;
+            padding-bottom: 40px;
         }
         .color-adjustments  {
             padding: 22px;
+            padding-bottom: 40px;
         }
     }
 
