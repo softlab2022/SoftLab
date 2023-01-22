@@ -144,7 +144,6 @@ $pro_features = [
                                 </div>
                                 
                             </div>
-
                             <div class="offer-price annual five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$178 </p>
@@ -152,7 +151,6 @@ $pro_features = [
                                 </div>
                                 
                             </div>
-
                             <div class="offer-price annual hundred">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$398 </p>
@@ -172,7 +170,6 @@ $pro_features = [
                                 </div>
                                 
                             </div>
-
                             <div class="offer-price lifetime five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$398 </p>
@@ -180,7 +177,6 @@ $pro_features = [
                                 </div>
                                 
                             </div>
-
                             <div class="offer-price lifetime hundred">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$998 </p>

@@ -69,6 +69,7 @@
       &.product-reader-mode:hover {
         color: #574DCC;
       }
+
       &.product-dracula-dark-mode:hover {
         color: #574DCC;
       }
@@ -354,45 +355,53 @@
 .page-template-templatesdracula-php,
 .page-template-dracula-pricing,
 .page-template-dracula-features,
-.page-template-dracula-compare{
+.page-template-dracula-compare {
   .footer {
 
-    background: url("../images/dracula/home/footer-shape.png") no-repeat 0 8rem #2E3161!important;
+    background: url("../images/dracula/home/footer-shape.png") no-repeat 0 8rem #2E3161 !important;
     padding: 60px 0 0 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     .footer-contant {
       p {
         color: rgba(255, 255, 255, 0.8);
       }
     }
+
     .footer-bottom {
+      border-color: rgba(255, 255, 255, 0.1);
+
       p {
         color: rgba(255, 255, 255, 0.8);
       }
+
       .footer-menu-bottom {
         a {
           color: rgba(255, 255, 255, 0.8);
         }
       }
     }
+
     .footer-menu-head {
       h4 {
         color: rgba(255, 255, 255, 0.8);
       }
     }
+
     .footer-menu {
       a {
         color: rgba(255, 255, 255, 0.8);
       }
     }
+
     .footer-menu-products {
       a {
         color: rgba(255, 255, 255, 0.8);
       }
     }
-    
+
     .news-letter-form {
       p {
         color: rgba(255, 255, 255, 0.8);

@@ -8,15 +8,15 @@ $personal_features = [
 	'1 Year Priority Support',
 ];
 
-$pro_features = [
-    'Use on 10 site',
+$pro_features    = [
+	'Use on 10 site',
 	'All Floating Switch',
 	'All Color Preset',
 	'All Features Included',
 	'1 Year Priority Support',
 ];
 $agency_features = [
-    'Use on 100 site',
+	'Use on 100 site',
 	'All Floating Switch',
 	'All Color Preset',
 	'All Features Included',
@@ -29,20 +29,16 @@ $agency_features = [
 <section id="pricing-hero">
     <div class="container">
         <div class="row align-items-center">
-
             <div class="col-lg-5 col-md-6 ms-auto">
-                <div class="hero-content">
-                    <h1>Be the First to Experience the Revolutionary Dracula <span>Dark Mode</span> Plugin for <span class="pre-word">WordPress</span> .</h1>
-                </div>
+                <h3>Be the First to Experience the Revolutionary
+                    <span>Dark Mode</span> Plugin for <span class="pre-word">WordPress</span>
+                </h3>
             </div>
 
             <div class="col-lg-5 col-md-6 me-auto">
-                <div class="hero-content">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/early-bird.png" alt="" class="img-fluid">
-
-                </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/early-bird.png"
+                     class="img-fluid">
             </div>
-
         </div>
     </div>
 </section>
@@ -73,11 +69,12 @@ $agency_features = [
 
         <div class="row">
             <div class="col-lg-12">
-                
+
                 <div class="price-tables annual">
-  
+
                     <div class="row">
-                         <!-- PERSONAL -->
+
+                        <!-- Basic -->
                         <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__personal">
                                 <div class="pricing-head">
@@ -87,25 +84,24 @@ $agency_features = [
                                     <div class="price-text basic">
 
                                         <span class="price-value annual single">FREE</span>
-
                                         <span class="price-suffix annual">/ forever</span>
-
                                         <span class="support-text">Basic Features to Start and Test</span>
-                                    
+
                                     </div>
                                 </div>
 
                                 <div class="price-features align-items-center">
 
-                                    <?php foreach ( $personal_features as $feature ) { ?>
+									<?php foreach ( $personal_features as $feature ) { ?>
                                         <div class="feature-item">
                                             <i class="fa-solid fa-check"></i>
                                             <span><?php echo $feature; ?></span>
                                         </div>
-                                    <?php } ?>
+									<?php } ?>
                                 </div>
 
-                                <a href="https://wordpress.org/plugins/integrate-google-drive" class=" buy-btn buy-btn-free">Download Now</a>
+                                <a href="https://wordpress.org/plugins/integrate-google-drive"
+                                   class=" buy-btn buy-btn-free">Download Now</a>
                             </div>
                         </div>
 
@@ -115,14 +111,69 @@ $agency_features = [
                                 <div class="pricing-head">
                                     <div class="pricing_head_professional d-flex justify-content-between align-items-center">
                                         <span class="professional-title">PROFESSIONAL</span>
-                                        <h5>popular <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/fire.png" alt="" class="img-fluid"></h5>
+                                        <h5>popular <img
+                                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/fire.png"
+                                                    class="img-fluid"></h5>
                                     </div>
-                                    
+
 
                                     <div class="price-text annual professional license-1">
 
-                                        <span class="price-value annual single">27.99</span>
-                                        <span class="price-value lifetime single">47.99</span>
+                                        <!-- Regular Price -->
+                                        <div class="offer-price annual single">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$29.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price annual five">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$79.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price annual hundred">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$199.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Sale Price -->
+                                        <span class="price-value annual single">14.99</span>
+                                        <span class="price-value annual five">39.99</span>
+                                        <span class="price-value annual hundred">99.99</span>
+
+                                        <!-- Regular Price -->
+                                        <div class="offer-price lifetime single">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$79.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price lifetime five">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$199.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price lifetime hundred">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$399.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Sale Price -->
+                                        <span class="price-value lifetime single">39.99</span>
+                                        <span class="price-value lifetime five">99.99</span>
+                                        <span class="price-value lifetime hundred">199.99</span>
 
                                         <span class="price-suffix annual">/ Billed once</span>
                                         <span class="price-suffix lifetime">/ Year</span>
@@ -131,17 +182,12 @@ $agency_features = [
                                 </div>
 
                                 <div class="price-features align-items-center">
-                                    <!-- <div class="feature-item">
-                                        <i class="fa-solid fa-check"></i>
-                                        <span>Use On 10 Site</span>
-                                    </div> -->
-
-                                    <?php foreach ( $pro_features as $feature ) { ?>
+									<?php foreach ( $pro_features as $feature ) { ?>
                                         <div class="feature-item">
                                             <i class="fa-solid fa-check"></i>
                                             <span><?php echo $feature; ?></span>
                                         </div>
-                                    <?php } ?>
+									<?php } ?>
                                 </div>
 
                                 <a href="#" class=" buy-btn buy-btn-pro">Purchase Now</a>
@@ -150,31 +196,85 @@ $agency_features = [
 
                         <!-- ELITE -->
                         <div class="col-lg-4 col-md-6">
-                            <div class="price-table price-table__business">
+                            <div class="price-table price-table__elite">
                                 <div class="pricing-head">
 
                                     <span class="pricing-head-title">ELITE</span>
 
-                                    <div class="price-text annual personal license-1">
+                                    <div class="price-text annual elite license-1">
 
-                                        <span class="price-value annual single">47.99</span>
-                                        <span class="price-value lifetime single">67.99</span>
+                                        <!-- Regular Price -->
+                                        <div class="offer-price annual single">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$49.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price annual five">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$149.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price annual hundred">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$399.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Sale Price -->
+                                        <span class="price-value annual single">24.99</span>
+                                        <span class="price-value annual five">74.99</span>
+                                        <span class="price-value annual hundred">199.99</span>
+
+
+                                        <!-- Regular Price -->
+                                        <div class="offer-price lifetime single">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$149.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price lifetime five">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$299.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price lifetime hundred">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$479.99</p>
+                                                <span class="price-dis">50%OFF</span>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Sale Price -->
+                                        <span class="price-value lifetime single">74.99</span>
+                                        <span class="price-value lifetime five">199.99</span>
+                                        <span class="price-value lifetime hundred">239.99</span>
 
                                         <span class="price-suffix annual">/ Billed once</span>
                                         <span class="price-suffix lifetime ">/ Year</span>
-
                                         <span class="support-text">Most Comprehensive Set of Features</span>
                                     </div>
+
                                 </div>
 
                                 <div class="price-features align-items-center">
 
-                                    <?php foreach ( $agency_features as $feature ) { ?>
+									<?php foreach ( $agency_features as $feature ) { ?>
                                         <div class="feature-item">
                                             <i class="fa-solid fa-check"></i>
                                             <span><?php echo $feature; ?></span>
                                         </div>
-                                    <?php } ?>
+									<?php } ?>
                                 </div>
 
                                 <a href="#" class=" buy-btn buy-btn-elite">Purchase Now</a>
@@ -193,7 +293,9 @@ $agency_features = [
 <script>
     ;(function ($) {
         $(document).on('ready', function () {
-            var handler = FS.Checkout.configure({
+
+            //Handle PRO Button
+            var proHandler = FS.Checkout.configure({
                 plugin_id: '11821',
                 plan_id: '20144',
                 public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
@@ -203,7 +305,7 @@ $agency_features = [
             $('.buy-btn-pro').on('click', function (e) {
                 e.preventDefault();
 
-                handler.open({
+                proHandler.open({
                     name: 'Dracula Dark Mode',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
@@ -217,14 +319,9 @@ $agency_features = [
                     }
                 });
             });
-        });
-    })(jQuery);
-</script>
 
-<script>
-    ;(function ($) {
-        $(document).on('ready', function () {
-            var handler = FS.Checkout.configure({
+            //Handle Elite Button
+            var eliteHandler = FS.Checkout.configure({
                 plugin_id: '11821',
                 plan_id: '20145',
                 public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
@@ -234,7 +331,7 @@ $agency_features = [
             $('.buy-btn-elite').on('click', function (e) {
                 e.preventDefault();
 
-                handler.open({
+                eliteHandler.open({
                     name: 'Dracula Dark Mode',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
@@ -248,6 +345,8 @@ $agency_features = [
                     }
                 });
             });
+
+
         });
     })(jQuery);
 </script>
