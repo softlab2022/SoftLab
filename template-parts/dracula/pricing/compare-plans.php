@@ -97,7 +97,6 @@ $features = [
 
             ?>
 
-            
 
             <div class="row">
                 <div class="col-lg-3 col-sm-6 col-md-6">
