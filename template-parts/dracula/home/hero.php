@@ -6,8 +6,8 @@
                     <h1>WordPress <span>Dark Mode Plugin</span> to Ready your Site for the Night</h1>
                     <p>Dark Mode helps to create a stunning eye-pleasing dark version for your WordPress website easily
                         and effectively</p>
-                    <a href="#" class="free-btn">Try for free</a>
-                    <a href="#" class="view-demo">View live demo</a>
+                    <a href="https://demo.softlabbd.com/?product=dracula-dark-mode" class="free-btn">Try Live Demo</a>
+                    <a href="/dracula-dark-mode-pricing" class="view-demo">Buy Now</a>
                 </div>
             </div>
 

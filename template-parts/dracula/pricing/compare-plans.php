@@ -5,10 +5,12 @@ $features = [
 		'title'       => 'Frontend Dark Mode',
 		'isFree'       => true,
 	],
+
 	'performance-mode' => [
 		'title'       => 'Performance Mode',
 		'isPro'       => true,
 	],
+
 	'toggle-builder' => [
 		'title'       => 'Custom Toggle Button Builder',
 		'isElite'       => true,
