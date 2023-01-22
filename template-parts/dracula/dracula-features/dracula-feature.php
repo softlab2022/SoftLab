@@ -2,7 +2,10 @@
     <div class="container">
 
         <!--==== Frontend Dark Mode =====--->
-        <div class="row dark-mode align-items-center">
+        <div class="row dark-mode align-items-center flex-column-reverse flex-md-row">
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode.png" alt="" class="img-fluid">
+            </div>
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode-icon.png" alt="" class="img-fluid">
@@ -11,16 +14,12 @@
                     <a href="#" class="view-demo">check demo</a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode.png" alt="" class="img-fluid">
-            </div>
+            
         </div>    
 
         <!--==== Admin Dashboard Dark Mode =====--->
-        <div class="row dark-mode align-items-center admin-dashbord-dark-mode flex-column-reverse flex-md-row">
-            <div class="col-lg-6 col-md-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/admin-dashbord-dark-mode.png" alt="" class="img-fluid">
-            </div>
+        <div class="row dark-mode align-items-center admin-dashbord-dark-mode">
+            
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/admin-dashbord-dark-mode-icon.png" alt="" class="img-fluid">
@@ -28,6 +27,9 @@
                     <p>Dracula Dark Mode allows site admins to enable and use dark mode in their admin dashboard. This provides a consistent look and feel throughout the site, and can also help to reduce eye strain when working in the admin dashboard.</p>
                     <a href="#" class="view-demo">check demo</a>
                 </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/admin-dashbord-dark-mode.png" alt="" class="img-fluid">
             </div>
         </div>
 
@@ -198,6 +200,22 @@
                     <a href="#" class="view-demo">check demo</a>
                 </div>
             </div>
+        </div>
+
+        <!--==== Custom Css =====--->
+        <div class="row dark-mode align-items-center">  
+                      
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-css-icon.png" alt="" class="img-fluid">
+                    <h3>Custom Css</h3>
+                    <p>Dracula Dark Mode allows you to add your Custom CSS code to customize the appearance of the website when it is in dark mode.</p>
+                    <a href="#" class="view-demo">check demo</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-css.png" alt="" class="img-fluid">
+            </div> 
         </div>
 
     </div>
