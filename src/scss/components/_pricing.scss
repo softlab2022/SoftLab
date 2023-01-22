@@ -1509,152 +1509,124 @@
       border-radius: 20px;
       background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
       backdrop-filter: blur(60px);
+      overflow: hidden;
+
+      .compare-header {
+        &-item {
+          &:not(:last-child) {
+            border-right: 1px solid #5A5B77;
+          }
+        }
+      }
+
+      .compare-footer {
+        border-top: 1px solid #5A5B77;
+
+        &-item {
+          &:not(:last-child) {
+            border-right: 1px solid #5A5B77;
+          }
+        }
+
+        .compare-item {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+
+          &.compare-heading {
+            padding-left: 20px;
+            align-items: flex-start;
+
+            h5 {
+              font-size: 1rem;
+              padding: 0;
+            }
+
+            p {
+              font-size: .875rem;
+            }
+          }
+        }
+      }
+
+      .compare-item {
+        &.compare-heading {
+          h5 {
+            font-weight: 600;
+            font-size: 1.9rem;
+            line-height: 150%;
+            padding-top: 50px;
+            padding-left: 40px;
+            padding-bottom: 12px;
+            color: #fff;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+          }
+        }
+
+        .compare-item-title {
+          border-bottom: 1px solid #5A5B77;
+          background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
+          backdrop-filter: blur(60px);
+          padding: 2rem;
+
+          h5 {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 120%;
+            color: #fff;
+            text-align: center;
+          }
+        }
+
+        .compare-item-btn {
+          text-align: center;
+          padding: 2rem 0;
+
+          a {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #fff;
+            line-height: 120%;
+            padding: 16px 21px;
+            border: 1px solid #B5B2E6;
+            border-radius: 10px;
+          }
+        }
+
+        &.professional-item {
+          .compare-item-btn {
+            text-align: center;
+            padding: 41px 0px;
+
+            a {
+              font-weight: 700;
+              font-size: 1rem;
+              color: #fff;
+              line-height: 120%;
+              padding: 16px 21px;
+              border-radius: 10px;
+              background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%) !important;
+            }
+          }
+        }
+
+      }
+
+      .row {
+        margin: 0;
+      }
 
       .col-lg-3 {
         padding-left: 0;
         padding-right: 0;
-      }
-
-      .compare-item {
-        border-right: 1px solid #5A5B77;
-        margin-left: 11px;
-
-        h5 {
-          font-weight: 600;
-          font-size: 1.9rem;
-          line-height: 150%;
-          padding-top: 50px;
-          padding-left: 40px;
-          padding-bottom: 12px;
-          color: #fff;
-        }
-
-        p {
-          font-weight: 400;
-          font-size: 1rem;
-          line-height: 120%;
-          color: rgba(255, 255, 255, 0.8);
-          padding-bottom: 70px;
-          padding-left: 40px;
-          margin-bottom: 0;
-        }
-      }
-
-      .compare-btn {
-        text-align: center;
-        padding: 41px 0px;
-
-        a {
-          font-weight: 700;
-          font-size: 1rem;
-          color: #fff;
-          line-height: 120%;
-          padding: 16px 21px;
-          border: 1px solid #B5B2E6;
-          border-radius: 10px;
-        }
-      }
-
-      .professional-btn {
-        text-align: center;
-        padding: 41px 0px;
-
-        a {
-          font-weight: 700;
-          font-size: 1rem;
-          color: #fff;
-          line-height: 120%;
-          padding: 16px 21px;
-          border-radius: 10px;
-          background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%) !important;
-        }
-      }
-
-      .starter-item {
-        border-right: 1px solid #5A5B77;
-
-        .starter {
-          border-bottom: 1px solid #5A5B77;
-          background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
-          backdrop-filter: blur(60px);
-          padding: 35px 84px;
-
-          h5 {
-            font-weight: 500;
-            font-size: 1rem;
-            line-height: 120%;
-            color: #fff;
-            text-align: center;
-          }
-        }
-      }
-
-      .professional-item {
-        border-right: 1px solid #5A5B77;
-
-        .professional {
-          background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
-          backdrop-filter: blur(60px);
-          padding: 35px 84px;
-          border-bottom: 1px solid #5A5B77;
-
-          h5 {
-            font-weight: 500;
-            font-size: 1rem;
-            line-height: 120%;
-            color: #fff;
-            text-align: center;
-          }
-
-        }
-
-      }
-
-      .elite-item {
-        margin-right: 11px;
-
-        .elite {
-          border-bottom: 1px solid #5A5B77;
-          background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.08) 1.79%, rgba(255, 255, 255, 0.06) 98.76%);
-          backdrop-filter: blur(60px);
-          padding: 35px 84px;
-          border-top-right-radius: 20px;
-          overflow: hidden;
-          border-bottom: 1px solid #5A5B77;
-
-          h5 {
-            font-weight: 500;
-            font-size: 1rem;
-            line-height: 120%;
-            color: #fff;
-            text-align: center;
-          }
-        }
-      }
-
-      .elite-item-bottom {
-        border-top: 1px solid #5A5B77;
-
-        h6 {
-          font-weight: 600;
-          font-size: 1.5rem;
-          line-height: 150%;
-          padding-top: 20px;
-          padding-left: 20px;
-          padding-bottom: 0px;
-          color: #fff;
-        }
-
-        span {
-          font-weight: 400;
-          font-size: 1rem;
-          line-height: 120%;
-          color: rgba(255, 255, 255, 0.8);
-          padding-bottom: 13px;
-          padding-left: 20px;
-          margin-bottom: 0;
-          display: block;
-        }
       }
 
     }
@@ -1662,7 +1634,6 @@
     .item-content {
       border-top: 1px solid #5A5B77;
       border-right: 1px solid #5A5B77;
-      margin-left: 11px;
       padding-top: 24px;
       padding-bottom: 24px;
 
@@ -1699,7 +1670,6 @@
     }
 
     .items {
-      margin-right: 11px;
       border-top: 1px solid #5A5B77;
       padding-top: 27px;
       padding-bottom: 27px;
