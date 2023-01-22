@@ -1,26 +1,36 @@
 <?php
 
-$personal_features = [
-	'Use on 1 site',
-	'All Floating Switch',
-	'All Color Preset',
-	'All Features Included',
-	'1 Year Priority Support',
+$basic_features = [
+	'Frontend Dark Mode',
+	'Default Dark Mode',
+	'Auto Match OS-Theme',
+	'Dynamic Color Scheme',
+	'Floating Dark Mode Toggle Button',
+	'Toggle Button Shortcode',
+	'Admin Dashboard Dark Mode',
+	'Classic Editor & Block Editor Compatibility',
 ];
 
-$pro_features    = [
-	'Use on 10 site',
-	'All Floating Switch',
-	'All Color Preset',
-	'All Features Included',
-	'1 Year Priority Support',
+$pro_features = [
+	'All Free Features',
+	'Multiple Color Presets',
+	'Custom Dark Mode Color Scheme',
+	'8+ Toggle Button Styles',
+	'Image and Vide Replacement',
+	'Include/Exclude Posts, Pages',
+	'Custom CSS',
+	'Draggable Floating Switch ',
 ];
-$agency_features = [
-	'Use on 100 site',
-	'All Floating Switch',
-	'All Color Preset',
-	'All Features Included',
-	'1 Year Priority Support',
+
+$elite_features = [
+	'All Pro Features',
+	'Live Dark Mode Edit Widget',
+	'Page Wise Dark Mode',
+	'Custom Toggle Button Builder',
+	'14+ Dark Mode Toggle Button Styles',
+	'Dashboard Dark Mode for Specific User Roles',
+	'Usage Analytics & Email Report (Coming Soon)',
+	'Dark Mode Page Transition Animation (coming soon)',
 ];
 
 ?>
@@ -119,7 +129,7 @@ $agency_features = [
 
                                 <div class="price-features align-items-center">
 
-									<?php foreach ( $personal_features as $feature ) { ?>
+									<?php foreach ( $basic_features as $feature ) { ?>
                                         <div class="feature-item">
                                             <i class="fa-solid fa-check"></i>
                                             <span><?php echo $feature; ?></span>
@@ -291,7 +301,7 @@ $agency_features = [
 
                                 <div class="price-features align-items-center">
 
-									<?php foreach ( $agency_features as $feature ) { ?>
+									<?php foreach ( $elite_features as $feature ) { ?>
                                         <div class="feature-item">
                                             <i class="fa-solid fa-check"></i>
                                             <span><?php echo $feature; ?></span>
@@ -317,17 +327,17 @@ $agency_features = [
         $(document).on('ready', function () {
 
             //Handle PRO Button
-            var proHandler = FS.Checkout.configure({
-                plugin_id: '11821',
-                plan_id: '20144',
-                public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png",
-            });
-
             $('.buy-btn-pro').on('click', function (e) {
                 e.preventDefault();
 
-                proHandler.open({
+                var handler = FS.Checkout.configure({
+                    plugin_id: '11821',
+                    plan_id: '20144',
+                    public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
+                    image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png",
+                });
+
+                handler.open({
                     name: 'Dracula Dark Mode',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
@@ -343,17 +353,17 @@ $agency_features = [
             });
 
             //Handle Elite Button
-            var eliteHandler = FS.Checkout.configure({
-                plugin_id: '11821',
-                plan_id: '20145',
-                public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png",
-            });
-
             $('.buy-btn-elite').on('click', function (e) {
                 e.preventDefault();
 
-                eliteHandler.open({
+                var handler = FS.Checkout.configure({
+                    plugin_id: '11821',
+                    plan_id: '20145',
+                    public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
+                    image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png",
+                });
+
+                handler.open({
                     name: 'Dracula Dark Mode',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 

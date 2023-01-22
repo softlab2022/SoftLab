@@ -14,6 +14,8 @@ import './components/pricing';
             $('.item-price').on('click', app.handlePricingItem)
 
             app.initImageCompare();
+
+            app.changeDraculaHeroImage();
         },
 
         initTestimonialSlider: function () {
@@ -75,19 +77,19 @@ import './components/pricing';
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 autoplay: true,
-                arrows:true,
-                nextArrow:'.up',
-                prevArrow:'.down',
-                vertical:true,
-                centerMode:true,
-                centerPadding:false,
+                arrows: true,
+                nextArrow: '.up',
+                prevArrow: '.down',
+                vertical: true,
+                centerMode: true,
+                centerPadding: false,
                 autoplaySpeed: 2000,
             });
             $('.compat-slider').slick({
                 slidesToShow: 6,
                 slidesToScroll: 1,
                 autoplay: true,
-                arrows:false,
+                arrows: false,
                 autoplaySpeed: 2000,
                 responsive: [
                     {
@@ -134,7 +136,7 @@ import './components/pricing';
                 centerPadding: '60px',
                 slidesToShow: 4,
                 autoplay: true,
-                arrows:false,
+                arrows: false,
                 autoplaySpeed: 2000,
                 responsive: [
                     {
@@ -165,7 +167,7 @@ import './components/pricing';
                         }
                     }
                 ]
-              });
+            });
 
         },
 
@@ -207,6 +209,16 @@ import './components/pricing';
                 no_overlay: true,
 
             });
+        },
+
+        changeDraculaHeroImage: function () {
+            const image = $('.dracula-hero-image');
+
+            setInterval(() => {
+                const imageSrc = image.attr('src');
+                const isDark = imageSrc.includes('hero-dark');
+                image.attr('src', imageSrc.replace(isDark ? 'hero-dark' : 'hero-light', isDark ? 'hero-light' : 'hero-dark'));
+            }, 1500);
         }
     }
 
