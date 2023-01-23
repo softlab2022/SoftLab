@@ -5,7 +5,7 @@ $features = [
 		'title'       => 'Frontend Dark Mode',
 		'isFree'       => true,
 	],
-	'performance-mode' => [
+	'performance' => [
 		'title'       => 'Performance Mode',
 		'isPro'       => true,
 	],
