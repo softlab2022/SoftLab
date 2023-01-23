@@ -72,16 +72,30 @@
       }
     }
   }
-  .section-main {
-    .section-img {
-      margin: 0 20px;
-      text-align: center;
-      h6 {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 120%;
-        color: #fff;
-        padding-top: 12px;
+  .demo-control {
+    button {
+      border: none;
+      width: 100px;
+      font-size: 14px;
+      font-weight: 300;
+      background: none;
+      margin: 0 8px;
+      color: #ffffff;
+      text-transform: capitalize
+
+      
+    }
+    .btn-content {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      color: #fff;
+      padding-top: 12px;
+    }
+    button.active {
+      img {
+        box-shadow: 0px 0px 3px 1px #b8d7f9;
+        border-radius: 8px;
       }
     }
   }

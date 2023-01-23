@@ -67,7 +67,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						?>
 
                         <div class="buy-now-btn buy-now-btn-dracula ms-auto">
-                            <a href="#"><i class="fa-solid fa-cart-shopping"></i> Purchase Now</a>
+                            <a href="/dracula-dark-mode-pricing/"><i class="fa-solid fa-cart-shopping"></i> Purchase Now</a>
                         </div>
 
 

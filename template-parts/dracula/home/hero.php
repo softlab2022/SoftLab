@@ -15,16 +15,18 @@
                 <div class="header-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/hero-dark.png" class="dracula-hero-image img-fluid w-75 w-md-100 ">
                 </div>
-                <div class="section-main d-flex justify-content-center align-items-center">
-                    <div class="section-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/light-mode.png" class="img-fluid">
-                        <h6>Light</h6>
-                    </div>
-                    <div class="section-img">
+
+                <div class="demo-control text-center">
+                    <button class="dark-btn">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/dark-mode.png" class="img-fluid">
-                        <h6>Dark</h6>
-                    </div>
+                        <h6 class="btn-content">Dark</h6>
+                    </button>
+                    <button class="light-btn active">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/light-mode.png" class="img-fluid">
+                        <h6 class="btn-content">Light</h6>
+                    </button>
                 </div>
+
             </div>
 
         </div>
