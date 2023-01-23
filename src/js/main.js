@@ -218,7 +218,11 @@ import './components/pricing';
                 const imageSrc = image.attr('src');
                 const isDark = imageSrc.includes('hero-dark');
                 image.attr('src', imageSrc.replace(isDark ? 'hero-dark' : 'hero-light', isDark ? 'hero-light' : 'hero-dark'));
-            }, 1500);
+
+                $('.mode-btn').removeClass('active');
+                $(`.mode-btn.mode-${isDark ? 'light' : 'dark'}`).addClass('active');
+
+            }, 2000);
         }
     }
 

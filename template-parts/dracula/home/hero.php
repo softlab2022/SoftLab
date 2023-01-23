@@ -13,17 +13,20 @@
 
             <div class="col-lg-6 col-md-6">
                 <div class="header-img text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/hero-dark.png" class="dracula-hero-image img-fluid w-75 w-md-100 ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/hero-dark.png"
+                         class="dracula-hero-image img-fluid w-75 w-md-100 ">
                 </div>
 
                 <div class="demo-control text-center">
-                    <button class="dark-btn">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/dark-mode.png" class="img-fluid">
-                        <h6 class="btn-content">Dark</h6>
-                    </button>
-                    <button class="light-btn active">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/light-mode.png" class="img-fluid">
+                    <button class="mode-btn mode-light">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/light-mode.png"
+                             class="img-fluid">
                         <h6 class="btn-content">Light</h6>
+                    </button>
+                    <button class="mode-btn mode-dark active">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/dark-mode.png"
+                             class="img-fluid">
+                        <h6 class="btn-content">Dark</h6>
                     </button>
                 </div>
 

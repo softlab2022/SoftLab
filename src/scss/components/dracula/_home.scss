@@ -72,6 +72,7 @@
       }
     }
   }
+
   .demo-control {
     button {
       border: none;
@@ -81,21 +82,24 @@
       background: none;
       margin: 0 8px;
       color: #ffffff;
-      text-transform: capitalize
+      text-transform: capitalize;
 
-      
+      img {
+        border-radius: 5px;
+        border: 2px solid transparent;
+      }
+
     }
+
     .btn-content {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 120%;
+      font-size: .875rem;
       color: #fff;
-      padding-top: 12px;
+      margin-top: 10px;
     }
+
     button.active {
       img {
-        box-shadow: 0px 0px 3px 1px #b8d7f9;
-        border-radius: 8px;
+        border-color: #b8d7f9;
       }
     }
   }
@@ -223,6 +227,7 @@
       h3 {
         font-size: 2rem;
       }
+
       p {
         font-size: .8rem;
       }
@@ -254,9 +259,11 @@
     }
   }
 }
+
 /*==== more-feature css area ====*/
 #more-feature {
   padding: 60px 0;
+
   .more-feature {
     background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
     backdrop-filter: blur(60px);
@@ -265,6 +272,7 @@
     padding-bottom: 60px;
     border: 1px solid #5A5B77;
   }
+
   .section-content {
     span {
       font-weight: 400;
@@ -274,6 +282,7 @@
       display: block;
       padding-bottom: 50px;
     }
+
     a {
       background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
       border-radius: 10px;
@@ -285,7 +294,6 @@
     }
   }
 }
-
 
 
 /*==== dark mode solution css area ====*/
@@ -733,6 +741,7 @@
   @media (max-width: 767px) {
     .cta-dracula {
       padding: 48px;
+
       &:after {
         left: 8%;
       }
