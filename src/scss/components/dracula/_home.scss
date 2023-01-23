@@ -6,7 +6,7 @@
 /*==== hero css area ====*/
 #dracula-banner {
   background: url("../images/dracula/home/bg-shapes.png") no-repeat;
-  padding: 200px 0 150px 0;
+  padding: 200px 0 60px 0;
   background-size: cover;
 
   .section-head {
@@ -31,7 +31,7 @@
       color: #fff;
     }
 
-    .free-btn {
+    .view-demo {
       margin-top: 1.5rem;
       margin-right: 25px;
       padding: 15px 30px;
@@ -51,7 +51,7 @@
       }
     }
 
-    .view-demo {
+    .free-btn {
       margin-top: 1.5rem;
       margin-right: 25px;
       padding: 15px 30px;
@@ -69,6 +69,19 @@
         color: #7367FB;
         border-color: $color_primary;
         transition: all linear .4s;
+      }
+    }
+  }
+  .section-main {
+    .section-img {
+      margin: 0 20px;
+      text-align: center;
+      h6 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        color: #fff;
+        padding-top: 12px;
       }
     }
   }
@@ -654,7 +667,7 @@
         margin-right: 20px;
       }
 
-      .free-btn {
+      .view-pricing {
         background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
         transition: all linear .4s;
 
@@ -665,7 +678,7 @@
         }
       }
 
-      .view-pricing {
+      .free-btn {
         background: linear-gradient(98.11deg, rgba(255, 255, 255, 0.17) 2%, rgba(255, 255, 255, 0.15) 35.61%, rgba(255, 255, 255, 0.15) 62.82%, rgba(255, 255, 255, 0.23) 92.77%);
         backdrop-filter: blur(20px);
         transition: all linear .4s;

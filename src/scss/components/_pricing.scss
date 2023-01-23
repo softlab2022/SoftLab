@@ -1791,54 +1791,67 @@
       }
       .compare-main {
         .compare-item {
-          h5 {
-            font-size: 1rem;
-            padding-top: 35px;
-            padding-left: 16px;
-            padding-bottom: 5px;
+          &.compare-heading {
+            h5 {
+              font-size: 1.5rem;
+              padding-top: 30px;
+              padding-left: 40px;
+              padding-bottom: 12px;
+            }
+  
+            p {
+              font-size: 1rem;
+              
+            }
           }
-
-          p {
-            font-size: .8rem;
-            padding-left: 16px;
-            padding-bottom: 101px;
+          .compare-item-title {
+            padding: 1rem;
+            h5 {
+              font-size: 1rem;
+              padding-top: 10px;
+              padding-left: 0px;
+              padding-bottom: 5px;
+            }
+  
+            p {
+              font-size: .8rem;
+              padding-left: 16px;
+              padding-bottom: 101px;
+            }
           }
-        }
-
-        .compare-btn {
-          padding: 41px 0px;
-        }
-
-        .professional-btn {
-          padding: 41px 0px;
-        }
-
-        .starter-item {
-          .starter {
-            padding: 35px 0;
+  
+          .compare-btn {
+            padding: 32px 0px;
           }
-        }
-
-        .professional-item {
-          .professional {
-            padding: 35px 0;
+  
+          .starter-item {
+            .starter {
+              padding: 35px 0;
+            }
           }
-        }
-
-        .elite-item {
-          .elite {
-            padding: 35px 0;
+  
+          
+          &.professional-item {
+            .compare-item-btn {
+              text-align: center;
+              padding: 32px 0px;
+            }
           }
-        }
-
-        .elite-item-bottom {
-          h6 {
-            font-size: 1rem;
+          .elite-item {
+            .elite {
+              padding: 35px 0;
+            }
           }
-
-          span {
-            font-size: .8rem;
-            padding-bottom: 23px;
+  
+          .elite-item-bottom {
+            h6 {
+              font-size: 1rem;
+            }
+  
+            span {
+              font-size: .8rem;
+              padding-bottom: 23px;
+            }
           }
         }
       }
@@ -1850,19 +1863,19 @@
         .starter-item {
 
           .starter {
-            margin: 0 11px;
+            // margin: 0 11px;
             border-bottom: 1px solid #5A5B77;
           }
         }
 
         .professional-item {
           .professionals {
-            margin: 0 11px;
+            // margin: 0 11px;
             border-bottom: 1px solid #5A5B77;
           }
 
           .professional {
-            margin: 0 11px;
+            // margin: 0 11px;
             border-bottom: 1px solid #5A5B77;
           }
         }
@@ -1871,28 +1884,28 @@
           margin-right: 0;
 
           .elite {
-            margin: 0 11px;
+            // margin: 0 11px;
             border-top-right-radius: 0;
           }
         }
 
-        .compare-item {
-          margin-right: 11px;
-        }
+        // .compare-item {
+        //   margin-right: 11px;
+        // }
 
-        .elite-item-bottom {
-          margin: 0 11px;
-        }
+        // .elite-item-bottom {
+        //   margin: 0 11px;
+        // }
       }
-      .item-content {
-        margin: 0 11px;
-      }
-      .item {
-        margin: 0 11px;
-      }
-      .items {
-        margin: 0 11px;
-      }
+      // .item-content {
+      //   margin: 0 11px;
+      // }
+      // .item {
+      //   margin: 0 11px;
+      // }
+      // .items {
+      //   margin: 0 11px;
+      // }
     }
 
   }
