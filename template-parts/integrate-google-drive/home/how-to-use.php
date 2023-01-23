@@ -11,10 +11,10 @@
 
         <div class="row">
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item d-flex justify-content-start align-items-center">
                     <div class="use-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img1.png" alt="img1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img1.png" alt="img1">
                     </div>
                     <div class="use-text">
                         <h4>Download & Install</h4>
@@ -22,10 +22,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item use-item2 d-flex justify-content-start align-items-center">
                     <div class="use-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img2.png" alt="img2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img2.png" alt="img2">
                     </div>
                     <div class="use-text">
                         <h4>Manage & Browse Files</h4>
@@ -35,10 +35,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item use-item3 d-flex justify-content-start align-items-center">
                     <div class="use-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img3.png" alt="img3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img3.png" alt="img3">
                     </div>
                     <div class="use-text">
                         <h4>Link A Google Account</h4>
@@ -46,14 +46,13 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="use-item use-item4 d-flex justify-content-start align-items-center">
                     <div class="use-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/img4.png" alt="img4">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/img4.png" alt="img4">
                     </div>
                     <div class="use-text">
-                        <h4>Link A Google Account</h4>
+                        <h4>Shortcode Builder</h4>
                         <p>You can create various types of module (File browser, Photo Gallery, Media player etc.) with different configurations with the shortcode builder and can use them anywhere using the shortcode.</p>
                     </div>
                 </div>

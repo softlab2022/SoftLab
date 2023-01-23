@@ -8,6 +8,17 @@
 @import "components/blog";
 @import "components/team";
 @import "components/contact";
+@import "components/documentation";
 @import "components/footer";
+@import "components/sidebar";
+@import "components/page";
+@import "components/comments";
+@import "components/archive";
 
 @import "components/404";
+
+
+//DOCS
+.softdocs-wrap {
+  padding-top: 150px;
+}

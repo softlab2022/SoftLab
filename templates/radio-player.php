@@ -1,22 +1,20 @@
-
-
 <?php
 /**
- * Template Name: radio-player-Page
+ * Template Name: Radio Player Landing Page
  *
  */
 
-get_header('radio-player');
+get_header( 'radio-player' );
 
-get_template_part( 'template-parts/radio-player/home/hero-area' );
-get_template_part( 'template-parts/radio-player/home/feature' );
+get_template_part( 'template-parts/radio-player/home/hero' );
+get_template_part( 'template-parts/radio-player/home/features' );
 get_template_part( 'template-parts/radio-player/home/preview' );
-get_template_part( 'template-parts/radio-player/home/ex-feature' );
-get_template_part( 'template-parts/radio-player/home/funfact' );
-get_template_part( 'template-parts/radio-player/home/testmonial' );
-get_template_part( 'template-parts/radio-player/home/radio-cta' );
+get_template_part( 'template-parts/radio-player/home/extra-features' );
+get_template_part( 'template-parts/radio-player/home/compatibility' );
+get_template_part( 'template-parts/radio-player/home/fun-fact' );
+get_template_part( 'template-parts/radio-player/home/testimonial' );
+get_template_part( 'template-parts/radio-player/home/cta' );
 ?>
-
 
 
 <?php

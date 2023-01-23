@@ -1,134 +1,102 @@
-<section id="testimonial">
+<?php
+
+$testimonials = [
+	[
+		'title'       => 'Works nicely',
+		'description' => 'We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar2.png',
+		'name'        => 'brianray',
+		'designation' => 'Web Developer',
+	],
+
+	[
+		'title'       => 'WORKS AS DESCRIBED',
+		'description' => 'Great support from the developer. He jumped right in and helped me get it working. Works perfectly.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar1.png',
+		'name'        => 'tom-pennington',
+		'designation' => 'Web Developer',
+	],
+
+	[
+		'title'       => 'Best of the Best Radio plugin on WordPress',
+		'description' => 'Great support from the developer. He jumped right in and helped me get it working. Works perfectly.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar3.png',
+		'name'        => 'venetiou',
+		'designation' => 'Web Developer',
+	],
+
+	[
+		'title'       => 'GREAT PLUGIN, IT CAN ALSO BE ..',
+		'description' => 'Such good cooperation. Instant support. I have already forgotten about such good cooperation in the world. Instant support. The company responded absolutely expressly. I have to admit that the time difference was not an obstacle. Impression that you cooperate with a large corporation. I consider the plug to be good with a light code, a great advantage. I recommend programmers.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar4.png',
+		'name'        => 'Joseph Robert Kozubek',
+		'designation' => 'Web Developer',
+	],
+
+	[
+		'title'       => 'PERFECT!',
+		'description' => 'Perfect! The pro version helped me to get rid of some https problems and now everyone can hear my broadcasts!',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar5.png',
+		'name'        => 'Per Kindwall',
+		'designation' => 'Web Developer',
+	],
+
+	[
+		'title'       => 'Excellent HTTP Radio Player and awesome support!',
+		'description' => 'Great and easy to use Radio Player with excellent options for customizable skin including own branding. Even better is the HTTP solution for the Chrome radio stream issue – WP Military Radio Player works like a charm for HTTP radio streams across all browsers including Chrome, Edge and Opera. Awesome support and great lifetime pricing.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/avatar6.png',
+		'name'        => 'LakeHouse Media',
+		'designation' => 'Web Developer',
+	],
+
+
+];
+
+?>
+
+<section class="testimonial">
     <div class="container">
+
         <div class="row">
-            <div class="col-lg-5 col-8  m-auto">
-                <div class="testimonial-head text-center">
-                    <h2>What people think about our products</h2>
+            <div class="col-lg-8 col-8  m-auto">
+                <div class="section-head text-center">
+                    <h2>What our users says</h2>
+                    <p>See, how our users all over the world are getting benefit from using our products.</p>
                 </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-lg-7 col-11 m-auto">
-                <div class="testimonial-support-main">
+            <div class="col-lg-7 col-11  m-auto">
+
+                <div class="slider-item">
                     <div class="testimonial-support-item">
-
                         <i class="fa-solid fa-chevron-left left"></i>
-
                         <i class="fa-solid fa-chevron-right right"></i>
                     </div>
-                    <div class="testimonial-item">
+                    <div class="single-testimonial-items">
 
-                        <div class="people-think-item text-center">
-                            <div class="people-think-icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <div class="people-think-content">
-                                <h4>“Works perfect! Great and super fast support</h4>
-                                <p>Once I found streams that worked with the player, they work flawlessly! I do love how
-                                    easy it is to add the links, even though some streams are more difficult to obtain
-                                    (proprietary stations, etc). In any case, I love this!”</p>
-                            </div>
-
-                            <div class="people-think-info d-flex justify-content-center align-items-center">
-                                <div class="people-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar.png"
-                                         alt="people-img">
+						<?php foreach ( $testimonials as $testimonial ) { ?>
+                            <div class="testimonial-item text-center">
+                                <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
-                                <div class="people-text">
-                                    <h4>Worshiplive</h4>
-                                    <p>Web Developer</p>
+
+                                <div class="testimonial-content">
+                                    <h4 class="testimonial-title"><?php echo $testimonial['title']; ?></h4>
+                                    <p class="testimonial-desc"><?php echo $testimonial['description']; ?></p>
+                                </div>
+
+                                <div class="testimonial-user d-flex justify-content-center align-items-center">
+                                    <img class="img-fluid" src="<?php echo $testimonial['image']; ?>" alt="<?php echo $testimonial['title']; ?>">
+                                    <span class="testimonial-name"><?php echo $testimonial['name']; ?></span>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <div class="people-think-item text-center">
-                            <div class="people-think-icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
-                            <div class="people-think-content">
-                                <h4>“Works perfect! Great and super fast support</h4>
-                                <p>Once I found streams that worked with the player, they work flawlessly! I do love how
-                                    easy it is to add the links, even though some streams are more difficult to obtain
-                                    (proprietary stations, etc). In any case, I love this!”</p>
-                            </div>
-
-                            <div class="people-think-info d-flex justify-content-center align-items-center">
-                                <div class="people-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar.png"
-                                         alt="people-img">
-                                </div>
-                                <div class="people-text">
-                                    <h4>Worshiplive</h4>
-                                    <p>Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="people-think-item text-center">
-                            <div class="people-think-icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <div class="people-think-content">
-                                <h4>“Works perfect! Great and super fast support</h4>
-                                <p>Once I found streams that worked with the player, they work flawlessly! I do love how
-                                    easy it is to add the links, even though some streams are more difficult to obtain
-                                    (proprietary stations, etc). In any case, I love this!”</p>
-                            </div>
-
-                            <div class="people-think-info d-flex justify-content-center align-items-center">
-                                <div class="people-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar.png"
-                                         alt="people-img">
-                                </div>
-                                <div class="people-text">
-                                    <h4>Worshiplive</h4>
-                                    <p>Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="people-think-item text-center">
-                            <div class="people-think-icon">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
-                            <div class="people-think-content">
-                                <h4>“Works perfect! Great and super fast support</h4>
-                                <p>Once I found streams that worked with the player, they work flawlessly! I do love how
-                                    easy it is to add the links, even though some streams are more difficult to obtain
-                                    (proprietary stations, etc). In any case, I love this!”</p>
-                            </div>
-
-                            <div class="people-think-info d-flex justify-content-center align-items-center">
-                                <div class="people-img">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar.png"
-                                         alt="people-img">
-                                </div>
-                                <div class="people-text">
-                                    <h4>Worshiplive</h4>
-                                    <p>Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-
+						<?php } ?>
 
                     </div>
                 </div>
@@ -136,5 +104,5 @@
             </div>
         </div>
     </div>
-    
+
 </section>

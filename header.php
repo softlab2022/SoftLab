@@ -28,22 +28,16 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
             <div class="row">
                 <nav class="navbar navbar-expand-md primary-nav <?php echo esc_attr( $navbar_scheme );
 				if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' fixed-top';
+
                 elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' fixed-bottom'; endif;
 				if ( is_home() || is_front_page() ) : echo ' home'; endif; ?>">
-                    <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"
-                       title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						<?php
-						$header_logo = get_theme_mod( 'header_logo' ); // Get custom meta-value.
 
-						if ( ! empty( $header_logo ) ) :
-							?>
-                            <img src="<?php echo esc_url( $header_logo ); ?>"
-                                 alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"/>
-						<?php
-						else :
-							echo esc_attr( get_bloginfo( 'name', 'display' ) );
-						endif;
-						?>
+                    <a class="navbar-brand brand-website" href="<?php echo esc_url( home_url() ); ?>"
+                       title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/softlab-logo.png"
+                             alt="site-logo">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -54,7 +48,6 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 
                     <div id="navbar" class="collapse navbar-collapse">
 						<?php
-						// Loading WordPress Custom Menu (theme_location).
 						wp_nav_menu(
 							array(
 								'theme_location' => 'main-menu',
@@ -66,7 +59,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 						);
 						?>
 
-                        <a class="nav-link btn text-white view-products" href="/products/">View Products</a>
+                        <a class="nav-link btn text-white view-products-btn" href="/account/"><i class="fa-sharp fa-solid fa-user"></i> My account</a>
 
                     </div><!-- /.navbar-collapse -->
                 </nav><!-- /#header -->
@@ -74,5 +67,4 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
         </div>
     </header>
 
-    <main id="main"
-          class=""<?php if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' style="padding-top: 100px;"'; elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' style="padding-bottom: 100px;"'; endif; ?>>
+    <main id="main" class="site-main">

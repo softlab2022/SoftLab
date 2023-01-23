@@ -1,22 +1,20 @@
-
-
 <?php
 /**
- * Template Name: radio-player-pricing
+ * Template Name: Radio Player Pricing
  *
  */
 
-get_header('radio-player');
+get_header( 'radio-player' );
 
 
-get_template_part( 'template-parts/integrate-google-drive/pricing/pricing-hero' );
-get_template_part( 'template-parts/integrate-google-drive/pricing/industry' );
-get_template_part( 'template-parts/integrate-google-drive/pricing/feature-list' );
-get_template_part( 'template-parts/integrate-google-drive/pricing/price-ask' );
-get_template_part( 'template-parts/radio-player/home/testmonial' );
-get_template_part( 'template-parts/radio-player/home/radio-cta' );
+get_template_part( 'template-parts/radio-player/pricing/pricing' );
+get_template_part( 'template-parts/radio-player/pricing/industry' );
+get_template_part( 'template-parts/radio-player/pricing/feature-list' );
+get_template_part( 'template-parts/radio-player/pricing/faq' );
+
+get_template_part( 'template-parts/radio-player/home/testimonial' );
+get_template_part( 'template-parts/radio-player/home/cta' );
 ?>
-
 
 
 <?php

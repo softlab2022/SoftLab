@@ -53,6 +53,19 @@
                 </div>
             </div>
 
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="member-img bg-cover"
+                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png')"></div>
+                    <div class="member-info">
+                        <h3>Naziur Rahaman</h3>
+                        <div class="position">
+                            <h5>Digital Marketing</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="col-lg-4">
                 <div class=" team-butt d-flex justify-content-center align-items-center">

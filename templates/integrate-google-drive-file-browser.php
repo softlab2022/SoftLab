@@ -2,16 +2,17 @@
 
 <?php
 /**
- * Template Name: integrate-google-drive-file-browser
+ * Template Name: File Browser Demo
  *
  */
 
 get_header('integrate-google-drive');
 
 
-get_template_part( 'template-parts/integrate-google-drive/demo/file-browser-demo-hero' );
-get_template_part( 'template-parts/integrate-google-drive/demo/demo-detalis' );
-get_template_part( 'template-parts/integrate-google-drive/home/integrate' );
+get_template_part( 'template-parts/integrate-google-drive/demo/file-browser-hero' );
+get_template_part( 'template-parts/integrate-google-drive/demo/file-browser-details' );
+
+get_template_part( 'template-parts/integrate-google-drive/home/cta' );
 
 ?>
 

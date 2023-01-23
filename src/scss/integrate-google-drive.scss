@@ -1,9 +1,10 @@
 @import "components/variables";
-@import "components/integrate-google-drive/header";
+@import "components/header";
+@import "components/footer";
+@import "components/pricing";
+
 @import "components/integrate-google-drive/home";
-@import "components/integrate-google-drive/pricing";
 @import "components/integrate-google-drive/file-browser-demo";
 @import "components/integrate-google-drive/file-uploader-demo";
 @import "components/integrate-google-drive/photo-gallery-demo";
 @import "components/integrate-google-drive/media-demo";
-@import "components/footer";
