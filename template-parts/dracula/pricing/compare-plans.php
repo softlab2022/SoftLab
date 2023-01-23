@@ -5,75 +5,11 @@ $features = [
 		'title'       => 'Frontend Dark Mode',
 		'isFree'       => true,
 	],
-	
-	'performance' => [
+	'performance-mode' => [
 		'title'       => 'Performance Mode',
 		'isPro'       => true,
 	],
-	'backend' => [
-		'title'       => 'Backend Dark Mode',
-		'isFree'       => true,
-	],
-	'admin' => [
-		'title'       => 'Admin Dashboard Dark Mode',
-		'isFree'       => true,
-	],
-	'os' => [
-		'title'       => 'OS-based color Mode',
-		'isFree'       => true,
-	],
-	'time-based' => [
-		'title'       => 'Time-based Dark Mode',
-		'isFree'       => true,
-	],
-    'page-wish' => [
-		'title'       => 'Page Wish Dark Mode',
-		'isPro'       => true,
-	],
-    'default' => [
-		'title'       => 'Default Dark Mode',
-		'isFree'       => true,
-	],
-    'login-reg' => [
-		'title'       => 'WordPress Login & Register <br> Page Dark Mode',
-		'isFree'       => true,
-	],
-    
-    'specific' => [
-		'title'       => 'Dashboard Dark Mode for <br> Specific User Roles',
-		'isPro'       => true,
-	],
-    'save-user' => [
-		'title'       => 'Save User Choice',
-		'isFree'       => true,
-	],
-    
-    'live-edit' => [
-		'title'       => 'Dark Mode Live Edit Mode',
-		'isPro'       => true,
-	],
-    
-    'floating' => [
-		'title'       => 'Floating Dark Mode Toggle Button',
-		'isFree'       => true,
-	],
-    'switch' => [
-		'title'       => 'Dark mode switch in the menu',
-		'isPro'       => true,
-	],
-    'multiple' => [
-		'title'       => 'Multiple switches',
-		'isFree'       => true,
-	],
-    'toggle' => [
-		'title'       => 'Toggle Button Size Customization',
-		'isPro'       => true,
-	],
-    'draggable' => [
-		'title'       => 'Draggable Floating Switch',
-		'isPro'       => true,
-	],
-    'custom-toggle' => [
+	'toggle' => [
 		'title'       => 'Custom Toggle Button Builder',
 		'isPro'       => true,
 	],
