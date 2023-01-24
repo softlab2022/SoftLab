@@ -1,4 +1,5 @@
 /**---------- Header ----------**/
+
 .site-header {
   position: absolute;
   left: 0;
@@ -455,5 +456,57 @@
     }
   }
 
+
+}
+/**---------- stiky-menu ----------**/
+#stiky-menu {
+  background: #3D34A4;
+  padding: .5rem 0;
+  .buy-now-btn-dracula {
+    a {
+      background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+      border-radius: 10px;
+      text-decoration: none;
+      color: #fff;
+      padding: 15px 30px;
+      transition: all .3s ease;
+
+      &:hover {
+        box-shadow: drop-shadow(4px 8px 24px rgba(118, 107, 250, 0.14));
+      }
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  /**---------- countdown ----------**/
+  .countdown{
+    #tiles{
+      position: relative;
+      z-index: 1;
+      span{
+        font: bold 28px 'Droid Sans', Arial, sans-serif;
+        text-align: center;
+        color: #fff;
+        margin: 0 7px;
+        padding: 0px 12px;
+        display: inline-block;
+      }
+    }
+    .labels{
+      li{
+        font: bold 15px 'Droid Sans', Arial, sans-serif;
+        color: #f47321;
+        text-shadow: 1px 1px 0px #000;
+        text-align: center;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+  }
+ 
 
 }

@@ -1792,5 +1792,12 @@
             </div>
 
         </div>
+        <div class="row">
+            <div class="col-lg-12 m-auto">
+                <div class="update-date text-center">
+                    <span>Last update : <?php echo date('d/m/Y'); ?> </span>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

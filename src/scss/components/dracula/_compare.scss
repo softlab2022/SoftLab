@@ -297,8 +297,16 @@
       border-top: 1px solid #5A5B77;
       margin-right: 11px;
     }
-
-    @media (min-width: 992px) and (max-width: 1199px) {
+    .update-date {
+      padding-top: 30px;
+      span {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        
+      }
+    }
+  @media (min-width: 992px) and (max-width: 1199px) {
         
       .compare-main {
 
@@ -316,7 +324,7 @@
           padding-bottom: 20px;
         }
       }
-    }
+  }
   @media (min-width: 768px) and (max-width: 991px) {
     .compare-main {
       .starter-item {

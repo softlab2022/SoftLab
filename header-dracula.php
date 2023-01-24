@@ -20,7 +20,47 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 <?php wp_body_open(); ?>
 
 <a href="#main" class="visually-hidden-focusable"><?php esc_html_e( 'Skip to main content', 'softlab' ); ?></a>
+<section id="stiky-menu">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-2">
+                <a class="navbar-brand brand-dracula" href="/dracula-dark-mode" title="Dracula Dark Mode" rel="home">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/dracula-main-icon.png" alt="Dracula Dark Mode">
+                </a>
+            </div>
 
+            <div class="col-lg-2 m-auto">
+                <a class="navbar-brand brand-dracula" href="/dracula-dark-mode-pricing/" title="" rel="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/early-bird.png" alt="Dracula Dark Mode">
+                </a>
+            </div>
+
+            <div class="col-lg-4 m-auto">
+                <div class="countdown">
+                    <div id='tiles'></div>
+                    <div class="labels">
+                        <li>Days</li>
+                        <li>Hours</li>
+                        <li>Mins</li>
+                        <li>Secs</li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 m-auto">
+                <a class="navbar-brand brand-dracula" href="/dracula-dark-mode-pricing/" title="" rel="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/clime-early.png" alt="Dracula Dark Mode">
+                </a>
+            </div>
+
+            <div class="col-lg-2 ms-auto">
+                <div class=" buy-now-btn-dracula text-end">
+                    <a href="/dracula-dark-mode-pricing/"><i class="fa-solid fa-cart-shopping"></i> Claim Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <div id="wrapper">
 
 
