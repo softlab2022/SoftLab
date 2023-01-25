@@ -21,14 +21,13 @@ $products = [
 
 	'reader-mode'               => [
 		'title'       => 'Reader Mode',
-		'description' => 'Reader Mode is a wordpress based pugin that includes Reading Time, Translation
-       Text to Speech,Multiple Buttons & Styles, Multiple Display Positions, Light/ Dark Mode Theme generator and many other features all in one plugin.',
+		'description' => 'Reader Mode Plugin adds a distraction-free reading experience for users by stripping away clutter and unnecessary elements from the post content.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/reader-mode.png',
 	],
 
 	'dracula-dark-mode'               => [
 		'title'       => 'Dracula Dark Mode',
-		'description' => 'Dark Mode helps to create a stunning eye-pleasing dark version for your WordPress website easily and effectively',
+		'description' => 'Dracula Dark Mode is a highly customizable and easy-to-use dark mode plugin for WordPress. It offers an elegant dark mode version of your website.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
 	],
 

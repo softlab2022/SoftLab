@@ -169,6 +169,12 @@
       line-height: 120%;
       color: #fff;
       padding: 20px 0;
+      span {
+        background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
     }
 
     p {
