@@ -1,5 +1,4 @@
 /**---------- Header ----------**/
-
 .site-header {
   position: absolute;
   left: 0;
@@ -8,7 +7,7 @@
   background: transparent;
   backdrop-filter: inherit;
   z-index: 99;
-  top: 85px;
+  padding: 1rem 0px;
 
   .primary-nav {
     .navbar-nav {
@@ -16,6 +15,7 @@
         padding-right: 0;
         padding-left: 0;
       }
+
       .nav-item {
         margin: 0 1rem;
 
@@ -452,26 +452,45 @@
       }
     }
   }
-  // @media (min-width: 992px) and (max-width: 1199px) {
-  //   top: 120px;
-  // }
-  @media (max-width: 767px) {
-    top: 120px;
-  }
 
 }
-/**---------- stiky-menu ----------**/
-#stiky-menu {
+
+/**---------- sticky-banner ----------**/
+
+@media (min-width: 992px) {
+
+  body:has(.sticky-banner) {
+    .site-header {
+      padding-top: 85px;
+    }
+  }
+}
+
+.sticky-banner {
   background: #3D34A4;
   padding: .3rem 0;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
   width: 100%;
   position: fixed;
   z-index: 999999;
-  
+
   &.active {
     display: none;
   }
+
+  .banner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-title,
+  .banner-offer, {
+    img {
+      max-height: 50px;
+    }
+  }
+
   .buy-now-btn-dracula {
     a {
       background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
@@ -482,7 +501,6 @@
       transition: all .3s ease;
 
       &:hover {
-        box-shadow: drop-shadow(4px 8px 24px rgba(118, 107, 250, 0.14));
       }
 
       i {
@@ -492,26 +510,51 @@
   }
 
   /**---------- countdown ----------**/
-  .countdown{
+  .banner-countdown {
     text-align: center;
-    #tiles{
+
+    .timer {
       position: relative;
       z-index: 1;
-      span{
-        
-        font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #fff;
+      border-radius: 7px;
+      margin: 0;
+      padding: 3px 7px;
+
+      span {
+        font-size: 1.2rem;
         font-weight: 700;
         text-align: center;
         color: #fff;
-        margin: 0 4px;
-        border: 1px solid #fff;
-        padding: 8px 10px;
-        border-radius: 7px;
-        display: inline-block;
+        border: none;
+        padding: 5px;
+        margin: 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:after {
+          content: ":";
+          color: #fff;
+          font-size: 1rem;
+          font-weight: 500;
+          z-index: -1;
+          margin-left: 7px;
+        }
+
+        &:last-child:after {
+          content: "";
+          display: none;
+        }
       }
     }
-    .labels{
-      li{
+
+    .timer-labels {
+      span {
         font-size: 12px;
         font-weight: 400;
         color: #fff;
@@ -522,142 +565,75 @@
       }
     }
   }
-  .stiky-menu {
-    position: relative;
-  }
- .colse-btn {
+
+  .banner-close {
     position: absolute;
-    top: 34%;
-    right: -30px;
+    right: 20px;
+
     i {
       font-size: 1.5rem;
       color: #fff;
       cursor: pointer;
     }
-    
- }
-
- .vector-left-img {
-  img {
-    position: absolute;
-    left: -80px;
-    top: 10px;
   }
- }
- .vector-right-img {
-  img {
-    position: absolute;
-    right: -100px;
-    top: 10px;
-  }
- }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .off-img {
-      img {
-        width: 53px;
+  .banner-vector {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+    pointer-events: none;
+    width: max-content;
+
+    &.vector-right {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  @media (max-width: 991px) and (min-width: 768px) {
+    .banner-countdown {
+
+      .timer {
+        span {
+          font-size: 1rem;
+          font-weight: 500;
+        }
       }
     }
-    .early-bird-img {
+
+    .banner-close {
+      right: 10px;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    position: relative;
+
+    .banner-product {
       img {
-        width: 70px;
+        width: 100px;
       }
     }
+
+    .banner-countdown {
+      display: none;
+    }
+
     .buy-now-btn-dracula {
+      margin-right: 20px;
+
       a {
-        padding: 10px 20px;
+        padding: 10px 10px;
       }
     }
-    .colse-btn {
-      right: 0px;
+
+    .banner-close {
+      right: 10px;
     }
-    .vector-left-img {
-      img {
-        left: -20px;
-      }
-    }
-    .vector-right-img {
-      img {
-        right: -20px;
-      }
-    }
+
   }
 
- @media (min-width: 768px) and (max-width: 991px) {
-  .off-img {
-    img {
-      width: 53px;
-    }
-  }
-  .early-bird-img {
-    img {
-      width: 70px;
-    }
-  }
-  .buy-now-btn-dracula {
-    a {
-      padding: 10px 20px;
-    }
-  }
-  .colse-btn {
-    right: 0px;
-  }
-  .vector-left-img {
-    img {
-      left: 0px;
-    }
-   }
-  .vector-right-img {
-    img {
-      right: 0px;
-    }
-   }
- }
-
- @media (max-width: 767px) {
-  padding: .5rem;
-  text-align: center;
-  .early-birds {
-    display: none;
-  }
-  .off-img {
-    img {
-      width: 53px;
-    }
-  }
-  .buy-now-btn-dracula {
-    a {
-      padding: 10px 20px;
-    }
-  }
-  .colse-btn {
-    top: 24%;
-    right: 0px;
-  }
-  .vector-left-img {
-    img {
-      left: 0px;
-    }
-   }
-  .vector-right-img {
-    img {
-      right: 0px;
-    }
-  }
-  .countdown{
-    #tiles {
-      span {
-        padding: 5px;
-        font-size: 15px;
-      }
-    }
-    .labels{
-      li{
-        font-size: 10px;
-        margin: 0 3px;
-      }
-    }
-  }
-   
- }
 }
