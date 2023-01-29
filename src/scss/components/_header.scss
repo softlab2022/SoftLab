@@ -8,10 +8,14 @@
   background: transparent;
   backdrop-filter: inherit;
   z-index: 99;
-  padding: 1rem 0;
+  top: 85px;
 
   .primary-nav {
     .navbar-nav {
+      .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+      }
       .nav-item {
         margin: 0 1rem;
 
@@ -384,9 +388,9 @@
 
     @media (max-width: 991px) {
       .navbar-collapse {
-        background: #FFF;
-        margin-top: 20px;
-        padding: 30px;
+        background: #fff;
+        margin-top: 10px;
+        padding: 10px;
       }
 
       .buy-now-btn {
@@ -428,13 +432,6 @@
       }
     }
 
-    @media (max-width: 767px) {
-      .brand-dracula {
-        img {
-          width: 240px;
-        }
-      }
-    }
   }
 
   .buy-now-btn-dracula {
@@ -455,7 +452,12 @@
       }
     }
   }
-
+  // @media (min-width: 992px) and (max-width: 1199px) {
+  //   top: 120px;
+  // }
+  @media (max-width: 767px) {
+    top: 120px;
+  }
 
 }
 /**---------- stiky-menu ----------**/
@@ -463,6 +465,13 @@
   background: #3D34A4;
   padding: .3rem 0;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
+  width: 100%;
+  position: fixed;
+  z-index: 999999;
+  
+  &.active {
+    display: none;
+  }
   .buy-now-btn-dracula {
     a {
       background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
@@ -489,24 +498,166 @@
       position: relative;
       z-index: 1;
       span{
-        font: bold 20px 'Droid Sans', Arial, sans-serif;
+        
+        font-size: 20px;
+        font-weight: 700;
         text-align: center;
         color: #fff;
         margin: 0 4px;
+        border: 1px solid #fff;
+        padding: 8px 10px;
+        border-radius: 7px;
         display: inline-block;
       }
     }
     .labels{
       li{
-        font: normal 12px 'Droid Sans', Arial, sans-serif;
-        color: #fff;;
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
         text-align: center;
         text-transform: uppercase;
         display: inline-block;
-        margin: 0 1px;
+        margin: 0 9px;
       }
     }
   }
- 
+  .stiky-menu {
+    position: relative;
+  }
+ .colse-btn {
+    position: absolute;
+    top: 34%;
+    right: -30px;
+    i {
+      font-size: 1.5rem;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+ }
 
+ .vector-left-img {
+  img {
+    position: absolute;
+    left: -80px;
+    top: 10px;
+  }
+ }
+ .vector-right-img {
+  img {
+    position: absolute;
+    right: -100px;
+    top: 10px;
+  }
+ }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .off-img {
+      img {
+        width: 53px;
+      }
+    }
+    .early-bird-img {
+      img {
+        width: 70px;
+      }
+    }
+    .buy-now-btn-dracula {
+      a {
+        padding: 10px 20px;
+      }
+    }
+    .colse-btn {
+      right: 0px;
+    }
+    .vector-left-img {
+      img {
+        left: -20px;
+      }
+    }
+    .vector-right-img {
+      img {
+        right: -20px;
+      }
+    }
+  }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+  .off-img {
+    img {
+      width: 53px;
+    }
+  }
+  .early-bird-img {
+    img {
+      width: 70px;
+    }
+  }
+  .buy-now-btn-dracula {
+    a {
+      padding: 10px 20px;
+    }
+  }
+  .colse-btn {
+    right: 0px;
+  }
+  .vector-left-img {
+    img {
+      left: 0px;
+    }
+   }
+  .vector-right-img {
+    img {
+      right: 0px;
+    }
+   }
+ }
+
+ @media (max-width: 767px) {
+  padding: .5rem;
+  text-align: center;
+  .early-birds {
+    display: none;
+  }
+  .off-img {
+    img {
+      width: 53px;
+    }
+  }
+  .buy-now-btn-dracula {
+    a {
+      padding: 10px 20px;
+    }
+  }
+  .colse-btn {
+    top: 24%;
+    right: 0px;
+  }
+  .vector-left-img {
+    img {
+      left: 0px;
+    }
+   }
+  .vector-right-img {
+    img {
+      right: 0px;
+    }
+  }
+  .countdown{
+    #tiles {
+      span {
+        padding: 5px;
+        font-size: 15px;
+      }
+    }
+    .labels{
+      li{
+        font-size: 10px;
+        margin: 0 3px;
+      }
+    }
+  }
+   
+ }
 }

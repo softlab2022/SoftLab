@@ -2,7 +2,7 @@
 .hero-area {
   background: url("../images/home/hero-bg.png") #EEF2FE no-repeat left center;
   background-size: contain;
-  padding: 150px 0 100px 0;
+  padding: 200px 0 100px 0;
 
   .hero-content {
     h1 {
@@ -32,7 +32,7 @@
 
   @media (min-width: 992px) and (max-width: 1199px) {
     //Laptop
-    padding: 120px 0 0px 0;
+    padding: 180px 0 0px 0;
     .hero-content {
 
       h1 {
@@ -48,7 +48,7 @@
 
   @media (min-width: 768px) and (max-width: 991px) {
     //Tablet
-    padding: 120px 0 0px 0;
+    padding: 160px 0 0px 0;
     .hero-content {
 
       h1 {
@@ -63,7 +63,7 @@
   }
 
   @media (max-width: 767px) {
-    padding: 120px 0 0px 0;
+    padding: 220px 0 0px 0;
     background-position: top;
 
     .hero-content {
@@ -556,6 +556,7 @@
     padding: 1.7rem;
     margin-bottom: 1.4rem;
     transition: all 0.3s ease-in-out;
+    background-color: #fff;
     height: 320px;
 
     .feat-icon {
@@ -577,12 +578,12 @@
         font-weight: 700;
         font-size: 1.5rem;
         line-height: 120%;
-        color: #fff;
+        color: $h1_color;
         padding-top: 10%;
       }
 
       p {
-        color: #fff;
+        color: $p_color;
         font-weight: 400;
         font-size: .9rem;
         line-height: 150%;
@@ -590,42 +591,42 @@
       }
     }
   }
-  .feature-easy-to-customize {
-    background: url("../images/home/features/easy-customize.png,"), linear-gradient(153.63deg, #BCDDFF 3.43%, #738CF6 90.47%);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-  }
-  .feature-details-documentation {
-  background: url("../images/home/features/details.png,"), linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  }
-  .feature-money-back-guarantee {
-  background: url("../images/home/features/money-back.png,"), linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  }
-  .feature-highly-rated-support {
-  background: url("../images/home/features/highly-rated.png,"), linear-gradient(142.74deg, #FDAEFF 12.69%, #9F85F2 89.9%);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  }
-  .feature-regular-updates {
-  background: url("../images/home/features/regular-update.png,"), linear-gradient(143.53deg, #8D7DFE 11.16%, #6FB9FF 94.07%);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  }
-  .feature-top-nothch-security {
-  background: url("../images/home/features/top-notch-security.png,"), linear-gradient(128.9deg, #F8C36D 4.15%, #F2A851 100%);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
-  }
+  // .feature-easy-to-customize {
+  //   background: url("../images/home/features/easy-customize.png,"), linear-gradient(153.63deg, #BCDDFF 3.43%, #738CF6 90.47%);
+  //   background-repeat: no-repeat;
+  //   background-position: 0 0;
+  //   background-size: cover;
+  // }
+  // .feature-details-documentation {
+  // background: url("../images/home/features/details.png,"), linear-gradient(143.38deg, #FFCDA3 4.99%, #FD6C87 94.05%);
+  // background-repeat: no-repeat;
+  // background-position: 0 0;
+  // background-size: cover;
+  // }
+  // .feature-money-back-guarantee {
+  // background: url("../images/home/features/money-back.png,"), linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+  // background-repeat: no-repeat;
+  // background-position: 0 0;
+  // background-size: cover;
+  // }
+  // .feature-highly-rated-support {
+  // background: url("../images/home/features/highly-rated.png,"), linear-gradient(142.74deg, #FDAEFF 12.69%, #9F85F2 89.9%);
+  // background-repeat: no-repeat;
+  // background-position: 0 0;
+  // background-size: cover;
+  // }
+  // .feature-regular-updates {
+  // background: url("../images/home/features/regular-update.png,"), linear-gradient(143.53deg, #8D7DFE 11.16%, #6FB9FF 94.07%);
+  // background-repeat: no-repeat;
+  // background-position: 0 0;
+  // background-size: cover;
+  // }
+  // .feature-top-nothch-security {
+  // background: url("../images/home/features/top-notch-security.png,"), linear-gradient(128.9deg, #F8C36D 4.15%, #F2A851 100%);
+  // background-repeat: no-repeat;
+  // background-position: 0 0;
+  // background-size: cover;
+  // }
 
   .feature-head {
     position: relative;

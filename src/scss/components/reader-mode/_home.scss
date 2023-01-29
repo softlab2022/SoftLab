@@ -42,7 +42,7 @@ body {
 /**---------- products-Hero Area ----------**/
 .reader-mode-hero-area {
   background: url("../images/reader-mode/home/header-bg-shape.png") no-repeat 0 100px / cover, #3F3799;
-  padding: 180px 0;
+  padding: 200px 0;
 
   .hero-content {
     h1 {
@@ -104,7 +104,7 @@ body {
   }
 
   @media(max-width: 767px) {
-    padding: 120px 0;
+    padding: 192px 0;
 
     .hero-content {
       h1 {
@@ -581,6 +581,13 @@ body {
 
   @media (max-width: 767px) {
     padding: 3rem 0;
+    .left {
+      left: 0px;
+    }
+  
+    .right {
+      right: 0px;
+    }
   }
 
 }

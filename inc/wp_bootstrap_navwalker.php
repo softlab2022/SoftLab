@@ -180,7 +180,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					}
 					 elseif ( 'dracula dark mode' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png';
-						$description = 'The Future of WordPress Dark Mode';
+						$description = 'The Revolutionary Dark Mode Plugin For WordPress';
 					}
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );

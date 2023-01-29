@@ -28,6 +28,44 @@ body.page-template-about {
 
   }
 
+  @media (min-width: 992px) and (max-width: 1199px) {
+    padding: 0;
+    .about-hero-content {
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 0;
+    .about-hero-content {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        margin-right: 0;
+        font-size: 14px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 0;
+    .about-hero-content {
+      text-align: center;
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        margin-right: 0;
+        font-size: 14px;
+      }
+    }
+  }
 
 }
 
@@ -241,7 +279,6 @@ body.page-template-about {
     //Tablet
     padding: 110px 0 50px 0;
     .journey-head {
-      text-align: center;
 
       h2 {
         font-size: 2rem;
@@ -252,6 +289,23 @@ body.page-template-about {
         font-size: .785rem;
         padding-bottom: 20px;
         padding-top: 1%;
+      }
+    }
+
+    .slider-main {
+      .slider-item {
+        .slider-content {
+          .products-content {
+            .text-item {
+              a {
+                font-size: 17px;
+              }
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
       }
     }
 
@@ -332,7 +386,7 @@ body.page-template-about {
 
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (max-width: 767px) {
     //Mobile
     padding: 110px 0 70px 0;
     .journey-head {
@@ -346,6 +400,23 @@ body.page-template-about {
       p {
         font-size: .785rem;
         padding-bottom: 20px;
+      }
+    }
+
+    .slider-main {
+      .slider-item {
+        .slider-content {
+          .products-content {
+            .text-item {
+              a {
+                font-size: 17px;
+              }
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
       }
     }
 

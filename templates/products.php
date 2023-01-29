@@ -111,10 +111,10 @@ $products = [
 
 	'dracula-dark-mode' => [
 		'name'        => 'Dracula Dark Mode',
-		'title'       => 'Adds a distraction free reading layout for a better readability for the users',
-		'description' => 'Reader Mode adds a distraction free reading layout for a better readability for the users on every post/ article by strips away clutter and unnecessary elements from the post/ article.',
-		'image'       => get_template_directory_uri() . '/assets/images/products//reader-mode/reader-mode.png',
-		'logo'        => get_template_directory_uri() . '/assets/images/products//reader-mode/logo.png',
+		'title'       => 'The Revolutionary Dark Mode Plugin For WordPress',
+		'description' => 'Dracula Dark Mode is a highly customizable and easy-to-use dark mode plugin for WordPress. It offers an elegant dark mode version of your website',
+		'image'       => get_template_directory_uri() . '/assets/images/products//dracula/frontend-dark-mode.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/products//dracula/dracula-icon.png',
 		'features'    => [
 			[
 				'title' => 'Reader Mode layout',
@@ -211,8 +211,8 @@ $products = [
 
 	'reader-mode' => [
 		'name'        => 'Reader Mode',
-		'title'       => 'Adds a distraction free reading layout for a better readability for the users',
-		'description' => 'Reader Mode adds a distraction free reading layout for a better readability for the users on every post/ article by strips away clutter and unnecessary elements from the post/ article.',
+		'title'       => 'Distraction-Free Content Reader',
+		'description' => 'Reader Mode Plugin adds a distraction-free reading experience for users by stripping away clutter and unnecessary elements from the post content.',
 		'image'       => get_template_directory_uri() . '/assets/images/products//reader-mode/reader-mode.png',
 		'logo'        => get_template_directory_uri() . '/assets/images/products//reader-mode/logo.png',
 		'features'    => [

@@ -139,7 +139,7 @@
                                             <a href="/dracula-dark-mode">Dracula Dark Mode</a>
                                             <h5>2023</h5>
                                         </div>
-                                        <p>Dracula Dark Mode is an easy-to-use and the best dark mode plugin for WordPress.</p>
+                                        <p>Dracula Dark Mode – The Revolutionary Dark Mode Plugin For WordPress</p>
                                         
                                     </div>
                                 </div>
