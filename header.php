@@ -15,6 +15,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 ?>
 
 <body <?php body_class(); ?>>
+ 
 
 <?php wp_body_open(); ?>
 

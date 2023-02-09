@@ -137,7 +137,7 @@ $elite_features = [
 									<?php } ?>
                                 </div>
 
-                                <a href="#" class=" buy-btn buy-btn-free">Download Now</a>
+                                <a href="https://wordpress.org/plugins/dracula-dark-mode/" class=" buy-btn buy-btn-free">Download Now</a>
                             </div>
                         </div>
 

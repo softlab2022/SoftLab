@@ -390,13 +390,13 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/page-wish.png" alt="" class="img-fluid">
-                        <h5>Page Wish Dark Mode</h5>
+                        <h5>Page Wige Dark Mode hobe</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                    <span>No</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">

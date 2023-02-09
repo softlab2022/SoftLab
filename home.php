@@ -12,6 +12,7 @@ get_template_part( 'template-parts/home/business' );
 get_template_part( 'template-parts/home/features' );
 get_template_part( 'template-parts/home/testimonial' );
 get_template_part( 'template-parts/home/fun-fact' );
+get_template_part( 'template-parts/home/animate-nav' );
 get_template_part( 'template-parts/home/cta' );
 //get_template_part( 'template-parts/home/blog' );
 
