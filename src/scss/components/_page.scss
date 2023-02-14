@@ -1,7 +1,7 @@
 body.page,
 body.single,
 body.archive,
-body.search,
+body.search
 {
   background: linear-gradient(180.71deg, #6C9EFF -150px, rgba(249, 250, 255, 0) 400px) no-repeat center top;
 
@@ -20,6 +20,15 @@ body.search,
     font-weight: 700;
     line-height: 3.5rem;
     color: #000000;
+  }
+  .softdocs-entry-title {
+    color: #5c637e;
+  }
+
+  .softdocs-entry-content {
+    p {
+      color: #5c637e;
+    }
   }
 
 }
