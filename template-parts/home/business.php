@@ -30,6 +30,7 @@
             <img class="img-fluid"
                  src="<?php echo get_template_directory_uri(); ?>/assets/images/home/business/vector2.png">
         </div>
+      
 
     </div>
 </section>

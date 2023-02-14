@@ -92,8 +92,7 @@ Reader Mode\'s simple layout represents easy customizations of buttons style and
 
                     <div class="col-md-6 m-auto">
                         <div class="feature-img text-center">
-                            <img class="img-fluid"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/features/<?php echo $key; ?>.png"
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/features/<?php echo $key; ?>.png"
                                  alt="<?php echo $feature['title']; ?>">
                         </div>
                     </div>

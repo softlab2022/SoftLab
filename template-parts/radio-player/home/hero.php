@@ -23,9 +23,7 @@
             </div>
             <div class="col-lg-6 mt-5 mt-lg-0">
                 <div class="radio-header-bg text-center">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png"
-                         alt="radio-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
                 </div>
             </div>
         </div>

@@ -137,7 +137,7 @@ $elite_features = [
 									<?php } ?>
                                 </div>
 
-                                <a href="#" class=" buy-btn buy-btn-free">Download Now</a>
+                                <a href="https://wordpress.org/plugins/dracula-dark-mode/" class=" buy-btn buy-btn-free">Download Now</a>
                             </div>
                         </div>
 
@@ -205,8 +205,8 @@ $elite_features = [
                                         <span class="price-value lifetime five">99.99</span>
                                         <span class="price-value lifetime hundred">199.99</span>
 
-                                        <span class="price-suffix annual">/ Billed once</span>
-                                        <span class="price-suffix lifetime">/ Year</span>
+                                        <span class="price-suffix annual">/ Year</span>
+                                        <span class="price-suffix lifetime">/ Billed once</span>
                                         <span class="support-text">Advanced Features with More Flexibility</span>
                                     </div>
                                 </div>
@@ -292,8 +292,8 @@ $elite_features = [
                                         <span class="price-value lifetime five">199.99</span>
                                         <span class="price-value lifetime hundred">239.99</span>
 
-                                        <span class="price-suffix annual">/ Billed once</span>
-                                        <span class="price-suffix lifetime ">/ Year</span>
+                                        <span class="price-suffix annual">/ Year</span>
+                                        <span class="price-suffix lifetime ">/ Billed once</span>
                                         <span class="support-text">Most Comprehensive Set of Features</span>
                                     </div>
 

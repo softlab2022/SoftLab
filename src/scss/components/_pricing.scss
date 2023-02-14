@@ -1243,6 +1243,7 @@
   #pricing-hero {
     background: url("../images/dracula/home/pricing/pricing-bg-shape.png") no-repeat;
     padding: 200px 0 60px 0;
+    background-size: cover;
 
     h3 {
       font-weight: 600;
@@ -1311,18 +1312,18 @@
     .offer-price {
 
       .price-off {
-        color: #fff!important;
+        color: #fff !important;
 
       }
 
       .price-dis {
-        background: linear-gradient(37.24deg, #D39F17 14.77%, #EC9C23 84.8%)!important;
+        background: linear-gradient(37.24deg, #D39F17 14.77%, #EC9C23 84.8%) !important;
       }
     }
 
     .dracula-site {
       padding-bottom: 40px;
-      
+
       .site {
         .dropdown {
           .btn-dr {
@@ -1332,11 +1333,12 @@
             border-radius: 8px;
             color: #fff
           }
+
           .dropdown-item.active {
             background: #675ED5;
           }
         }
-        
+
       }
     }
 
@@ -1368,6 +1370,9 @@
 
       .switch {
         background-color: $reader_mode_color;
+        &:after {
+          content: "";
+        }
       }
 
       &.active {
@@ -1470,10 +1475,11 @@
 
         .price-value {
           color: #fff;
+
           &:before {
             content: "$";
             font-size: 2.3rem;
-            vertical-align: middle!important;
+            vertical-align: middle !important;
           }
         }
 
@@ -1798,56 +1804,59 @@
               padding-left: 40px;
               padding-bottom: 12px;
             }
-  
+
             p {
               font-size: 1rem;
-              
+
             }
           }
+
           .compare-item-title {
             padding: 1rem;
+
             h5 {
               font-size: 1rem;
               padding-top: 10px;
               padding-left: 0px;
               padding-bottom: 5px;
             }
-  
+
             p {
               font-size: .8rem;
               padding-left: 16px;
               padding-bottom: 101px;
             }
           }
-  
+
           .compare-btn {
             padding: 32px 0px;
           }
-  
+
           .starter-item {
             .starter {
               padding: 35px 0;
             }
           }
-  
-          
+
+
           &.professional-item {
             .compare-item-btn {
               text-align: center;
               padding: 32px 0px;
             }
           }
+
           .elite-item {
             .elite {
               padding: 35px 0;
             }
           }
-  
+
           .elite-item-bottom {
             h6 {
               font-size: 1rem;
             }
-  
+
             span {
               font-size: .8rem;
               padding-bottom: 23px;

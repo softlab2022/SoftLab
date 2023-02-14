@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
                 <div class="single-team-member">
                     <div class="member-img bg-cover"
                          style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png')"></div>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-lg-4 col-md-6">
                 <div class="single-team-member">
@@ -69,7 +69,7 @@
 
             <div class="col-lg-4">
                 <div class=" team-butt d-flex justify-content-center align-items-center">
-                    <a href="#" class="btn">Join with us</a>
+                    <a href="/create-account/" class="btn">Join with us</a>
                 </div>
             </div>
 
