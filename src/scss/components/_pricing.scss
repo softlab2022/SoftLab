@@ -1370,6 +1370,9 @@
 
       .switch {
         background-color: $reader_mode_color;
+        &:after {
+          content: "";
+        }
       }
 
       &.active {

@@ -1,0 +1,111 @@
+/**---------- text filter css ----------**/
+
+#containers {
+  // position: absolute;
+  // margin: auto;
+  // width: 100vw;
+  // height: 80pt;
+  // top: 0;
+  // bottom: 0;
+  filter: url(#threshold) blur(0.6px);
+  text-align: center;
+  #text1, #text2 {
+    position: absolute;
+    // width: 100%;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    user-select: none;
+    background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/**---------- animate button css ----------**/
+button {
+      box-shadow: none;
+      background: transparent;
+      transform-style: preserve-3d;
+      padding: 0;
+      appearance: none;
+      border: none;
+      letter-spacing: 1px;
+  }
+
+  button span {
+      background: linear-gradient(180deg, #ff7147, #e0417f);
+      font-size: 1rem;
+      color: #fff;
+      margin-top: 1.5rem;
+      padding: 4px 30px;
+      line-height: 3rem;
+      will-change: transform, filter;
+      float: none;
+      transition: all 0.15s ease-out;
+      height: auto;
+      border-radius: 100px;
+      overflow: hidden;
+      display: block;
+      transform: rotateX(0deg) rotateY(0deg) scale(1);
+      filter: drop-shadow(0 15px 15px rgba(0,0,0,0.3));
+      font-weight: 500;
+      perspective-origin: 0 0;
+      letter-spacing: 0;
+  }
+
+  button.animated span:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 600%;
+      height: 200%;
+      background: linear-gradient(90deg, #00a1ff, #af4ae6, #00a1ff, #2cefff);
+      animation: colorCycle 8s infinite alternate;
+      z-index: -1;
+
+  }
+
+  button.animated span {
+      filter: drop-shadow(0 15px 15px #00a1ff57);
+  }
+
+  button.animated.example span:after {
+      width: 200%;
+      height: 100%;
+      animation: colorCycleExample 4s infinite alternate;
+  }
+  
+  @keyframes colorCycle {
+      0% {
+          top: 0;
+          left: 0;
+          transform: scale(1);
+      }
+      50% {
+          top: -50%;
+          transform: scale(1.4);
+      }
+      100% {
+          top: 0;
+          left: -500%;
+          transform: scale(1);
+      }
+  }
+
+  @keyframes colorCycleExample {
+      0% {
+          top: 0;
+          left: 0;
+          transform: scale(1);
+      }
+      100% {
+          top: 0;
+          left: -100%;
+          transform: scale(1);
+      }
+  }

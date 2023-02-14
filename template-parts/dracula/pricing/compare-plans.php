@@ -160,7 +160,7 @@ $features = [
                             <h5>Basic Plan</h5>
                         </div>
                         <div class="compare-item-btn">
-                            <a href="#">Download Now</a>
+                            <a href="https://wordpress.org/plugins/dracula-dark-mode/">Download Now</a>
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@ $features = [
                 <div class="col-lg-3 col-md-3 compare-footer-item">
                     <div class="compare-item starter-item">
                         <div class="compare-item-btn">
-                            <a href="#">Download Now</a>
+                            <a href="https://wordpress.org/plugins/dracula-dark-mode/">Download Now</a>
                         </div>
                     </div>
                 </div>
