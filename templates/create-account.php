@@ -158,7 +158,7 @@ get_header();
         </div>
     </section>
 
-    <!-- <section id="animation-button">
+    <section id="animation-button">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -204,7 +204,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section id="our-team">
         <div class="container">
@@ -222,7 +222,6 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=1027"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png" alt="" class="img-fluid ">
                         </div>
                         <div class="team-content">
@@ -232,7 +231,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -241,7 +240,6 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=839"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash.png" alt="" class="img-fluid ">
                         </div>
                         <div class="team-content">
@@ -251,7 +249,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -260,7 +258,6 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=856"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid ">
 
                         </div>
@@ -271,7 +268,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -280,8 +277,8 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=836"> -->
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png" alt="" class="img-fluid ">
+                        <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png" alt="" class="img-fluid "> -->
 
                         </div>
                         <div class="team-content">
@@ -291,7 +288,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
