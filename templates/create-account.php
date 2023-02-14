@@ -8,7 +8,7 @@ get_header();
 
 ?>
 
-    <!-- <section class="title-header">
+    <section class="title-header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 m-auto">
@@ -48,7 +48,7 @@ get_header();
         </div>
     </section>
 
-    <section id="team-slider">
+    <section id="tab">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 m-auto">
@@ -158,7 +158,7 @@ get_header();
         </div>
     </section>
 
-    <section id="animation-button">
+    <!-- <section id="animation-button">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -206,7 +206,178 @@ get_header();
         </div>
     </section> -->
 
+    <section id="our-team">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="section-head text-center">
+                        <h1>Meet With Our Creative Team</h1>
+                        <p>We are a team of WordPress developers who love to build awesome products.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=1027"> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png" alt="" class="img-fluid ">
+                        </div>
+                        <div class="team-content">
+                        <h3 class="name">Israil Ahmed</h3>
+                        <h4 class="title">CEO & Founder</h4>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=839"> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash.png" alt="" class="img-fluid ">
+                        </div>
+                        <div class="team-content">
+                        <h3 class="name">Akash Ahmed</h3>
+                        <h4 class="title">Frontend Developer</h4>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                            <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=856"> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid ">
+
+                        </div>
+                        <div class="team-content">
+                            <h3 class="name">Naziur Rahaman</h3>
+                            <h4 class="title">Digital Marketing</h4>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="our-team">
+                        <div class="picture">
+                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=836"> -->
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png" alt="" class="img-fluid ">
+
+                        </div>
+                        <div class="team-content">
+                        <h3 class="name">Ashikur Rahaman</h3>
+                        <h4 class="title">UI & UX Designer</h4>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
     
+    <!-- <section id="animate-nav">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-9 m-auto">
+                    <div class="accordion"> 
+    
+                        <a href="#" class="accordion-toggle">Hover for height animate</a>
+                        <div class="accordion-content">
+                            <div class="accordion-inner"> 
+                                <p>For animate the "height" of element with CSS Transitions you need use "max-height".</p>
+                                <p>If use the "height: auto", the effect not works. Is necessary some value for the CSS create a CSS animate, and you can use "max-height" with a great value for emulate this effect.</p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    
+                    <div class="loader loader--style6" title="5">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                            <rect x="0" y="13" width="4" height="5" fill="#333">
+                            <animate attributeName="height" attributeType="XML"
+                                values="5;21;5" 
+                                begin="0s" dur="0.6s" repeatCount="indefinite" />
+                            <animate attributeName="y" attributeType="XML"
+                                values="13; 5; 13"
+                                begin="0s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                            <rect x="10" y="13" width="4" height="5" fill="#333">
+                            <animate attributeName="height" attributeType="XML"
+                                values="5;21;5" 
+                                begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                            <animate attributeName="y" attributeType="XML"
+                                values="13; 5; 13"
+                                begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                            <rect x="20" y="13" width="4" height="5" fill="#333">
+                            <animate attributeName="height" attributeType="XML"
+                                values="5;21;5" 
+                                begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                            <animate attributeName="y" attributeType="XML"
+                                values="13; 5; 13"
+                                begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+                            </rect>
+                        </svg>
+                    </div>
+
+                </div>
+            
+
+               <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="filters">
+                        <div id="containers">
+                            <span id="text1"></span>
+                            <span id="text2"></span>
+                        </div>
+                    </div>
+                </div>-->
+                <!-- <div class="col-lg-6 m-auto">
+                    <div id="dark-light-container">
+                        <div class="black-container">
+                            <button class="button animated" data-filter-color="#00a1ff57"><span>🐭 Mouse Over</span></button>
+                        </div>
+                        <a href="/products">
+                            <button class="button animated" data-filter-color="#00a1ff57"><span>View Products</span></button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+
+        </div>
+
+
+    </section> -->
 
 
 <?php
