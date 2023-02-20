@@ -158,7 +158,7 @@ get_header();
         </div>
     </section>
 
-    <!-- <section id="animation-button">
+    <section id="animation-button">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -204,7 +204,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section id="our-team">
         <div class="container">
@@ -222,7 +222,6 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=1027"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png" alt="" class="img-fluid ">
                         </div>
                         <div class="team-content">
@@ -232,7 +231,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -241,7 +240,6 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=839"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash.png" alt="" class="img-fluid ">
                         </div>
                         <div class="team-content">
@@ -251,7 +249,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -260,7 +258,6 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                            <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=856"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid ">
 
                         </div>
@@ -271,7 +268,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -280,8 +277,8 @@ get_header();
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=836"> -->
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png" alt="" class="img-fluid ">
+                        <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png" alt="" class="img-fluid "> -->
 
                         </div>
                         <div class="team-content">
@@ -291,7 +288,7 @@ get_header();
                         <ul class="social">
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
@@ -302,6 +299,383 @@ get_header();
         </div>
     </section>
     
+    <section class="video-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="search">
+                        <input type="text" class="input" placeholder="Search...">
+                        <button class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="video-play-btn ripple">
+                        <a href="#" class="play-btn"> <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+    <section id="testmonial-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="testmonial-container">
+                        <div class="progress-bar"></div>
+                        <div class="fas fa-quote-right fa-quote"></div>
+                        <div class="fas fa-quote-left fa-quote"></div>
+                        <h5 class="test-title">Works nicely</h5>
+                        <p class="testmonial-content">
+                            We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.
+                        </p>
+                        <div class="user">
+                            <img class="img-fluid user-image" src="https://picsum.photos/130/130?image=836">
+                            <div class="user-details">
+                                <h4 class="username">brianray</h4>
+                                <p class="role">marketing</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="team-section section-padding">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="sec-title-wrapper">
+                    <div class="section-title text-center text-lg-left no-bg">
+                        <div class="sub-title">
+                            <span>team</span>
+                        </div>
+                        <h1>Meet with our creative team</h1>
+                        <p>We are a team of WordPress developers who love to build awesome products.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="member-img bg-cover"
+                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png')"></div>
+                    <div class="member-info">
+                        <h3>Israil Ahmed</h3>
+                        <div class="position">
+                            <h5>CEO & Founder</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="member-img bg-cover"
+                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash.png')"></div>
+                    <div class="member-info">
+                        <h3>Akash Ahmed</h3>
+                        <div class="position">
+                            <h5>Frontend Developer</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="member-img bg-cover"
+                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home/team/ashik.png')"></div>
+                    <div class="member-info">
+                        <h3>Ashikur Rahaman</h3>
+                        <div class="position">
+                            <h5>Lead Product Designer</h5>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="single-team-member">
+                    <div class="member-img bg-cover"
+                         style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png')"></div>
+                    <div class="member-info">
+                        <h3>Naziur Rahaman</h3>
+                        <div class="position">
+                            <h5>Digital Marketing</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class=" team-butt d-flex justify-content-center align-items-center">
+                    <a href="/create-account/" class="btn">Join with us</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="cuont">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 m-auto">
+                
+                        <div class="CountDown-box">
+                            <!-- <h1> CountDown To Birthday <i class="fas fa-leaf"></i></h1> -->
+                            <div class="countDown-number">
+                                <div class="counDown-day Neumorphism">
+                                    <span id="days"></span>
+                                    Day
+                                    <div class="progress" id="day_progress"></div>
+                                </div>
+                                <div class="counDown-hour Neumorphism">
+                                    <span id="hours"></span>
+                                    Hour
+                                    <div class="progress" id="hour_progress"></div>
+                                </div>
+                                <div class="counDown-minutes Neumorphism">
+                                    <span id="minutes"></span>
+                                    Min
+                                    <div class="progress" id="minute_progress"></div>
+                                </div>
+                                <div class="counDown-minutes Neumorphism">
+                                    <span id="seconds"></span>
+                                    Sec
+                                    <div class="progress" id="second_progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+            </div>
+        </div>
+    </div>
+</section>
+        
+
+<!-- <section id="slide">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="video-container" id="video-container">
+                    <div class="playback-animation" id="playback-animation">
+                        <svg class="playback-icons">
+                        <use class="hidden" href="#play-icon"></use>
+                        <use href="#pause"></use>
+                        </svg>
+                    </div>
+
+                    <video controls class="video" id="video" preload="metadata">
+                        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4"></source>
+                    </video>
+
+                    <div class="video-controls hidden" id="video-controls">
+                        <div class="video-progress">
+                        <progress id="progress-bar" value="0" min="0"></progress>
+                        <input class="seek" id="seek" value="0" min="0" type="range" step="1">
+                        <div class="seek-tooltip" id="seek-tooltip">00:00</div>
+                        </div>
+
+                        <div class="bottom-controls">
+                        <div class="left-controls">
+                            <button data-title="Play (k)" id="play">
+                            <svg class="playback-icons">
+                                <use href="#play-icon"></use>
+                                <use class="hidden" href="#pause"></use>
+                            </svg>
+                            </button>
+
+                            <div class="volume-controls">
+                            <button data-title="Mute (m)" class="volume-button" id="volume-button">
+                                <svg>
+                                <use class="hidden" href="#volume-mute"></use>
+                                <use class="hidden" href="#volume-low"></use>
+                                <use href="#volume-high"></use>
+                                </svg>
+                            </button>
+
+                            <input class="volume" id="volume" value="1"
+                            data-mute="0.5" type="range" max="1" min="0" step="0.01">
+                            </div>
+
+                            <div class="time">
+                            <time id="time-elapsed">00:00</time>
+                            <span> / </span>
+                            <time id="duration">00:00</time>
+                            </div>
+                        </div>
+
+                        <div class="right-controls">
+                            <button data-title="PIP (p)" class="pip-button" id="pip-button">
+                            <svg>
+                                <use href="#pip"></use>
+                            </svg>
+                            </button>
+                            <button data-title="Full screen (f)" class="fullscreen-button" id="fullscreen-button">
+                            <svg>
+                                <use href="#fullscreen"></use>
+                                <use href="#fullscreen-exit" class="hidden"></use>
+                            </svg>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+<section id="audi">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="glow">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="screen">
+                    <div class="screen__content">
+                        <form class="login">
+                            <div class="login__field">
+                                <i class="login__icon fas fa-user"></i>
+                                <input type="text" class="login__input" required="" placeholder="User name / Email">
+                            </div>
+                            <div class="login__field">
+                                <i class="login__icon fas fa-lock"></i>
+                                <input type="password" class="login__input" required="" placeholder="Password">
+                            </div>
+                            <button class="button login__submit">
+                                <span class="button__text">Log In Now</span>
+                                <i class="button__icon fas fa-chevron-right"></i>
+                            </button>				
+                        </form>
+                        <div class="social-login">
+                            <h3>log in via</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-login__icon fab fa-instagram"></a>
+                                <a href="#" class="social-login__icon fab fa-facebook"></a>
+                                <a href="#" class="social-login__icon fab fa-twitter"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen__background">
+                        <span class="screen__background__shape screen__background__shape4"></span>
+                        <span class="screen__background__shape screen__background__shape3"></span>		
+                        <span class="screen__background__shape screen__background__shape2"></span>
+                        <span class="screen__background__shape screen__background__shape1"></span>
+                    </div>		
+                </div>
+            </div>
+
+            <div class="col-lg-6 m-auto">
+                <div class="chekbox1 text-center">
+                    <input type="checkbox" id="s5" />
+                    <label class="slider-v3" for="s5"></label>
+                    
+                    <input type="checkbox" id="s6" checked="" />
+                    <label class="slider-v3" for="s6"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="pricing-section">
+        <div class="container">
+            <div class="sec-title text-center">
+                <span class="title">Get plan</span>
+                <h2>Choose a Plan</h2>
+            </div>
+
+            <div class="outer-box">
+                <div class="row">
+                    <!-- Pricing Block -->
+                    <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="icon-outer"><i class="fas fa-paper-plane"></i></div>
+                            </div>
+                            <div class="price-box">
+                                <div class="title"> Day Pass</div>
+                                <h4 class="price">$35.99</h4>
+                            </div>
+                            <ul class="features">
+                                <li class="true">Conference plans</li>
+                                <li class="true">Free Lunch And Coffee</li>
+                                <li class="true">Certificate</li>
+                                <li class="false">Easy Access</li>
+                                <li class="false">Free Contacts</li>
+                            </ul>
+                            <div class="btn-box">
+                                <a href="#" class="theme-btn">BUY plan</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Block -->
+                    <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="icon-outer"><i class="fas fa-gem"></i></div>
+                            </div>
+                            <div class="price-box">
+                                <div class="title">Full Pass</div>
+                                <h4 class="price">$99.99</h4>
+                            </div>
+                            <ul class="features">
+                                <li class="true">Conference plans</li>
+                                <li class="true">Free Lunch And Coffee</li>
+                                <li class="true">Certificate</li>
+                                <li class="true">Easy Access</li>
+                                <li class="false">Free Contacts</li>
+                            </ul>
+                            <div class="btn-box">
+                                <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Block -->
+                    <div class="pricing-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="icon-outer"><i class="fas fa-rocket"></i></div>
+                            </div>
+                            <div class="price-box">
+                                <div class="title">Group Pass</div>
+                                <h4 class="price">$199.99</h4>
+                            </div>
+                            <ul class="features">
+                                <li class="true">Conference plans</li>
+                                <li class="true">Free Lunch And Coffee</li>
+                                <li class="true">Certificate</li>
+                                <li class="true">Easy Access</li>
+                                <li class="true">Free Contacts</li>
+                            </ul>
+                            <div class="btn-box">
+                                <a href="https://codepen.io/anupkumar92" class="theme-btn">BUY plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- <section id="animate-nav">
         <div class="container">
             

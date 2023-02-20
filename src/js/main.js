@@ -1,6 +1,5 @@
 import './components/pricing';
 import './components/sticky-banner';
-import './components/button';
 
 ;(function ($) {
 
