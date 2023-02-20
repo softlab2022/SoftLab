@@ -22,7 +22,7 @@
 				'youtube'   => [
 					'title' => 'Youtube',
 					'icon'  => 'fa-brands fa-youtube',
-					'url'   => 'https://www.youtube.com/channel/UCtDcr4ignMbaryNP-4RC-rw',
+					'url'   => 'https://www.youtube.com/channel/UC6SI0Jlr9h-GyhER_EB-kBg',
 				],
 				'wordpress' => [
 					'title' => 'WordPress',
