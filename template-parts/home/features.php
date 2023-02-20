@@ -11,10 +11,10 @@ $features = [
 		'description' => 'Check out our detailed online documentation and video tutorials to find out more about what you can do.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/documentation.png',
 	],
-	'money-back-guarantee'  => [
-		'title'       => 'Money-Back Guarantee',
-		'description' => 'User-centric product creation is our prime concern. Our products are based on maintaining the most user-friendly',
-		'image'       => get_template_directory_uri() . '/assets/images/home/features/money.png',
+	'business'  => [
+		'title'       => 'Business Growth',
+		'description' => 'Expert client-handling to ensure proper buainess plan execution',
+		'image'       => get_template_directory_uri() . '/assets/images/home/features/business.png',
 	],
 	'highly-rated-support'  => [
 		'title'       => 'Highly-Rated Support',
