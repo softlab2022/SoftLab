@@ -12,7 +12,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
@@ -92,7 +92,7 @@
                     <div class="our-team">
                         <div class="picture">
                         <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
-                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid "> -->
+                         <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid "> -->
 
                         </div>
                         <div class="team-content">
@@ -108,14 +108,12 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 m-auto">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class=" team-butt join-us text-center">
                         <a href="/create-account/" class="btn">Join with us</a>
                     </div>
                 </div>
+
             </div>
 
         </div>
