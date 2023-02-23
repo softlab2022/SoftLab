@@ -8,9 +8,9 @@
 
     <header class="title-header">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-10">
-                    <div class="header-content">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-8">
+                    <div class="header-content text-center">
                         <h1 class="entry-title"><?php the_title(); ?></h1>
                         <div class="entry-meta">
 							<?php softlab_article_posted_on(); ?>
@@ -23,7 +23,7 @@
 
 
     <div class="container section-item">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-md-8 m-auto">
 
 				<?php
@@ -53,7 +53,7 @@
 				?>
 
             </div>
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
                 <div class="single-widget-area">
                     <?php 
                         dynamic_sidebar('single_sidebar_area')
@@ -121,7 +121,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
             
 			<?php
 			edit_post_link( __( 'Edit', 'softlab' ), '<span class="edit-link">', '</span>' );
