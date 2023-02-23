@@ -19,15 +19,10 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png" alt="" class="img-fluid ">
                         </div>
                         <div class="team-content">
-                        <h3 class="name">Israil Ahmed</h3>
+                        <h3 class="name">prince Ahmed</h3>
                         <h4 class="title">CEO & Founder</h4>
                         </div>
-                        <ul class="social">
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
+                       
                     </div>
                 </div>
 
@@ -40,12 +35,7 @@
                         <h3 class="name">Akash Ahmed</h3>
                         <h4 class="title">Frontend Developer</h4>
                         </div>
-                        <ul class="social">
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
+                        
                     </div>
                 </div>
 
@@ -57,14 +47,9 @@
                         </div>
                         <div class="team-content">
                             <h3 class="name">Naziur Rahaman</h3>
-                            <h4 class="title">Digital Marketing</h4>
+                            <h4 class="title">Digital Marketer</h4>
                         </div>
-                        <ul class="social">
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
+                        
                     </div>
                 </div>
 
@@ -79,32 +64,22 @@
                         <h3 class="name">Rezoan Khan</h3>
                         <h4 class="title">UI & UX Designer</h4>
                         </div>
-                        <ul class="social">
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
+                      
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
                         <div class="picture">
-                        <img class="img-fluid" src="https://picsum.photos/130/130?image=836">
+                        <img class="img-fluid" src="<?php echo get_theme_file_uri();?>/assets/images/home/team/firoz.jpg">
                          <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid "> -->
 
                         </div>
                         <div class="team-content">
-                        <h3 class="name">Khan</h3>
-                        <h4 class="title">UI & UX Designer</h4>
+                        <h3 class="name">firoz Mahmud</h3>
+                        <h4 class="title">WordPress Developer</h4>
                         </div>
-                        <ul class="social">
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"  aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
+                      
                     </div>
                 </div>
 

@@ -319,15 +319,13 @@
     .name {
       color: #353535;
       font-size: 27px;
-      font-family: "Cormorant Garamond", serif;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
     .title {
       display: block;
       font-size: 15px;
       color: #4e5052;
-      font-family: "Cormorant Garamond", serif;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
     .picture {
       display: inline-block;
@@ -398,6 +396,7 @@
   }
   .our-team:hover .social {
     bottom: 0;
+    display: none;
   }
   .our-team:hover .picture::before {
     height: 100%;

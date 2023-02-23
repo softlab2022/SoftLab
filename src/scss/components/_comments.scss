@@ -1,5 +1,8 @@
 #comments {
-    
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+        padding: 23px 40px;
+        border-radius: 5px;
+        margin-top: 60px;
     #comments-title {
         font-weight: 700;
         font-size: 1.2rem;
@@ -80,7 +83,7 @@
     }
     .form-submit {
         order: 6;
-        margin-bottom: 60px;
+        margin-bottom: 10px;
         transition: all linear .4s;
         .btn-primary {
             color: #fff;
@@ -175,7 +178,7 @@
                         position: absolute;
                         left: 120px;
                         top: 45px;
-                        max-width: 550px;
+                        max-width: 500px;
 
             }
             .reply {
@@ -188,6 +191,15 @@
                         font-size:16px;
                         font-weight:600;
                         transform: scale(1.5);
+                    }
+                    &.comment-reply-link{
+                        background: transparent;
+                        color:#212529;
+                        border:transparent;
+                        transition: all .4s ease;
+                        &:hover{
+                            color:#6E6DFF;
+                        }
                     }
                 }
                 
@@ -203,9 +215,5 @@
         .children{
             list-style: none;
         }
-        #respond {
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-             padding: 23px;
-            border-radius: 5px;
-        }
+       
 }
