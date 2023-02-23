@@ -16,7 +16,7 @@
             <div class="col-lg-8 m-auto">
                 <div class="use-img text-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/wp-bg.png" alt="wp-bg">
-                <div class="how-butt">
+                <div class="how-butt ripple">
                     <a href="#"><i class="fa fa-play"></i></a>
                 </div>
                 </div>
