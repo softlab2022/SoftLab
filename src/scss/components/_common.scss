@@ -11,13 +11,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn, a.btn {
-  color: #fff;
+  color: #424255;
   padding: .7rem 1.2rem;
-  background: $button_bg_color;
+  background: transparent;
   transition: all .2s ease-in-out;
   box-shadow: none;
   outline: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   border: 1px solid transparent;
+  font-weight:500;
+  font-size:13px;
   border-radius: 100px;
   transition: all linear .4s;
 
@@ -26,9 +30,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &:hover {
-    background: #fff;
+    background: transparent;
     color: #3C4FF4;
-    border-color: #3C4FF4;
+    border-color: transparent;
     transition: all linear .4s;
   }
 }
