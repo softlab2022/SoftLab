@@ -1,6 +1,6 @@
 .blog-header {
   background: url("../images/blog/blog-bg.png") no-repeat center / cover;
-  padding: 200px 0;
+  padding: 176px 0px 28px 0;
 
   .news-letter-form {
 
@@ -63,7 +63,7 @@
 
   .section-header {
     h2 {
-      font-size: 3rem;
+      font-size: 2rem;
       margin-bottom: 1.5rem;
       font-weight: 600;
       color: $h1_color;
@@ -87,8 +87,8 @@
       line-height: 150%;
       color: $p_color;
       border-radius: 8px;
-      margin: 0 10px;
-      padding: 13px 24px;
+      margin: 0 5px;
+      padding: 10px 16px;
       background: #fff;
 
       &:hover, &.active {

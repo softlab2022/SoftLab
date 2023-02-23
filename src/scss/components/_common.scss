@@ -11,15 +11,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn, a.btn {
-  color: #424255;
+  color: #fff;
   padding: .7rem 1.2rem;
-  background: transparent;
+  background: linear-gradient(to right, #7788FF, #6E6DFF);
   transition: all .2s ease-in-out;
   box-shadow: none;
   outline: none;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 1px solid transparent;
+  border: 1px solid linear-gradient(to right, #7788FF, #6E6DFF);
   font-weight:500;
   font-size:13px;
   border-radius: 100px;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   &:hover {
     background: transparent;
     color: #3C4FF4;
-    border-color: transparent;
+    border-color: linear-gradient(to right, #7788FF, #6E6DFF);
     transition: all linear .4s;
   }
 }

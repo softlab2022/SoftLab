@@ -78,6 +78,10 @@
 
       &.annual {
         color: $igd_color;
+        cursor: pointer;
+      }
+      &.lifetime {
+        cursor: pointer;
       }
     }
 
@@ -94,10 +98,12 @@
       .switch-text {
         &.annual {
           color: $p_color;
+          cursor: pointer;
         }
 
         &.lifetime {
           color: $igd_color;
+          cursor: pointer;
         }
       }
     }
@@ -776,6 +782,20 @@
 
 .page-template-integrate-google-drive-pricing {
   background-color: #F9FAFF;
+  #pricing {
+    .table-pro {
+      border-top: 5px solid #00BB45;
+      .pricing-head {
+        .pricing-head-title {
+          color: $radio_player_color;
+        }
+      }
+      .price-text {
+        color: $radio_player_color;
+      }
+    }
+  }
+  
 }
 
 .page-template-radio-player-pricing {
@@ -808,10 +828,14 @@
     }
 
     .table-pro {
+      border-top: 5px solid #00BB45;
       .pricing-head {
         .pricing-head-title {
-          color: #4353FF;
+          color: $radio_player_color;
         }
+      }
+      .price-text {
+        color: $radio_player_color;
       }
     }
   }
@@ -889,6 +913,7 @@
     }
 
     .price-table {
+      border-top: 5px solid $wp_radio_color;
       .pricing-head {
         .price-text {
           color: #4353FF;

@@ -16,15 +16,15 @@
 					) );
 
 					foreach ( $categories as $category ) {
-						printf( '<a href="%1$s" alt="%2$s" class="btn">%2$s</a>', get_category_link( $category->term_id ), $category->name );
+						printf( '<a href="%1$s" alt="%2$s" class="btn my-2">%2$s</a>', get_category_link( $category->term_id ), $category->name );
 					} ?>
 
                 </div>
             </div>
         </div>
 
-        <div class="row align-items-start">
-            <div class="col-md-12">
+        <div class="row align-items-start justify-content-center">
+            <div class="col-md-8">
 
 
 				<?php
@@ -97,7 +97,7 @@
             </div>
 
 			<?php
-			get_sidebar();
+			// get_sidebar();
 			?>
 
         </div>
