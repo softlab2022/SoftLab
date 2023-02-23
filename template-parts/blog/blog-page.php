@@ -24,7 +24,7 @@
         </div>
 
         <div class="row align-items-start">
-            <div class="col-md-8">
+            <div class="col-md-12">
 
 
 				<?php

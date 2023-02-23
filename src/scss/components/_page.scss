@@ -9,6 +9,28 @@ body.search
     background: url("../images/header-bg.png") no-repeat;
     background-size: cover;
     padding: 200px 0 60px 0;
+    .header-content{
+        .entry-title{
+          font-size: 35px;
+          font-weight: 900;
+        }
+        .entry-meta{
+          span{
+            font-weight: 600;
+          }
+          a{
+            color:#000000;
+            &:hover{
+              color:blueviolet;
+            }
+          }
+          .by-author{
+            display: none;
+          }
+        }
+      
+    }
+    
   }
 
   .page {
@@ -40,6 +62,7 @@ body.search
 
   img {
     max-width: 100%;
+    width: 100% !important;
     border-radius: 10px;
   }
 }
