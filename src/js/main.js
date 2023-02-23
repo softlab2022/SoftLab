@@ -34,13 +34,15 @@ import './components/sticky-banner';
                 prevArrow: '.left',
                 adaptiveHeight: true,
             });
-
+            //google drive
             $('.testimonial-items').slick({
                 centerMode: false,
                 centerPadding: '60px',
                 slidesToShow: 3,
                 dots: true,
+                autoplay: true,
                 arrows: true,
+                autoplaySpeed: 3000,
                 nextArrow: '.right',
                 prevArrow: '.left',
                 responsive: [
@@ -73,7 +75,7 @@ import './components/sticky-banner';
                     }
                 ]
             });
-
+            //about slider
             $('.slider-main').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -86,6 +88,7 @@ import './components/sticky-banner';
                 centerPadding: false,
                 autoplaySpeed: 2000,
             });
+
             $('.compat-slider').slick({
                 slidesToShow: 6,
                 slidesToScroll: 1,
@@ -131,7 +134,7 @@ import './components/sticky-banner';
                     }
                 ]
             });
-
+            //dracula slider
             $('.dracula-slider').slick({
                 centerMode: true,
                 centerPadding: '60px',
