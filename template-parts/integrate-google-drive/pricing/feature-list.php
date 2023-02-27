@@ -140,6 +140,20 @@ $features = [
 		'pro'         => true,
 
 	],
+	[
+		'title'       => 'Dokan Multi-vendor Integration',
+		'description' => 'You can allow your vendors to serve their downloadable product’s files directly from Google Drive, and also vendors can let their customers upload files for their products to the vendor’s Google Drive account when any customer purchase any products.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Advanced Custom Fields (ACF) Integration',
+		'description' => 'Allows you to select Google Drive files and folders using ACF field and display in theme template file.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
 
 	[
 		'title'       => 'WooCommerce Integration',
@@ -159,7 +173,7 @@ $features = [
 		'title'       => 'Contact Form 7 Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Contact Form 7. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/UIRswwNcIY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-		'pro'         => false,
+		'pro'         => true,
 
 	],
 	[
@@ -185,7 +199,7 @@ $features = [
 	[
 		'title'       => 'Formidable Forms Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Formidable Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
-		'video'       => '<iframe width="400" height="315" src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[
