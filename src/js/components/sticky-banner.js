@@ -37,6 +37,7 @@
                 if (distance < 0) {
                     clearInterval(x);
                     timer.text("EXPIRED");
+                    localStorage.removeItem('time');
                 }
 
                 //save time in local storage
