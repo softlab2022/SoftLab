@@ -5,7 +5,7 @@
             <div class="col-lg-10 m-auto">
                 <div class="industry-head text-center">
                     <h2>We offer 7-days money-back guarantee</h2>
-                    <p>We guarantee 100% satisfaction with our help & support service. However, if our plugin still doesn’t meet your needs, please inform us. We’ll happily refund 100% of your money within 7-days of your purchase. No questions asked. However, we do not refund if the product has been purchased on discount.</p>
+                    <p>We guarantee 100% satisfaction with our help & support service. However, If you have any bug/issues with our plugin, and we are unable to resolve the issue, We’ll happily refund full amount of your money within 7-days of your purchase.</p>
                 </div>
             </div>
         </div>
