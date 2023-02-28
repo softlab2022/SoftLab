@@ -9,6 +9,7 @@ $free_features = [
 	'Classic Editor Integrations',
 	'Gutenberg Integrations',
 	'Elementor Integrations',
+    'Contact Form 7 Integrations',
 	'Link Own Google App',
 	'Full-Text Search',
 	'Zip Download',
@@ -39,7 +40,7 @@ $pro_features = [
     'Gravity Forms Integrations',
     'Fluent Forms Integrations',
     'Formidable Forms Integrations',
-    'Contact Form 7 Integrations',
+    
     'WP Forms Integrations',
     'Ninja Forms Integrations',
     'User Private Files',
@@ -61,7 +62,7 @@ $pro_features = [
             <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
                     <h2>Simple Pricing, Unbeatable Value</h2>
-                    <p>Join 2000+ User's Happy Community</p>
+                    <p>Join 3000+ User's Happy Community</p>
                 </div>
             </div>
         </div>

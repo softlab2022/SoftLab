@@ -23,20 +23,23 @@
           color: #5C637E;
 
           &:hover {
-            color: $color_primary
+            color: $color_primary;
           }
         }
 
         .dropdown-menu {
           display: none;
+         
         }
 
         &:hover .dropdown-menu {
           display: block;
         }
 
-        .dropdown-item.active {
-          background: #e9ecef;
+        .dropdown-item.active,.dropdown-item:active {
+          background-color: #e9ecef !important;
+
+          
         }
 
         .arrow {
