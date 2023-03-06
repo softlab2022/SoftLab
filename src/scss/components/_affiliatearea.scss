@@ -1,0 +1,163 @@
+
+
+.page-banner {
+    background: rgba(26, 74, 199, -0.92);
+    padding: 180px 0px;
+    padding-bottom: 80px;
+}
+.affiliate-contact-area{
+
+    .card{
+
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding:50px;
+        border: 1px solid transparent;
+
+        .card-header {
+            padding: .5rem 1rem;
+            margin-bottom: 0;
+            background-color: transparent;
+            border-bottom: 1px solid transparent;
+            h2{
+                font-size: 27px;
+                font-weight: 700;
+                color: #222222;
+                line-height: 48px;
+            }
+        }
+        .card-body{
+
+            form{
+                .my-4{
+                    .checkb{
+                        margin-bottom: -10px;
+                    }
+                }
+                label{
+                    font-size: 16px;
+                    color: #000000;
+                    font-weight: 700;
+                    margin-bottom: 7px;
+                }
+                input{
+                    padding: 13px;
+                    border-radius: 3px;
+                    padding-left: 15px;
+                    margin-bottom: 10px;
+                    background: #f7f7f7;
+                    border: 1px solid #dddddd;
+                    &.label-color{
+                            label{
+                                font-weight: 500;
+                            }
+                    }
+                }
+                input[type=submit] {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    color: #ffffff;
+                    background: #ee5913;
+                    border: 1px solid #ee5913;
+                }
+                P{
+                    font-size: 15px;
+                    color:#353434
+                }
+            }
+            .loading {
+                display:none;
+                h4{
+                    font-size:18px;
+
+                }
+
+            }
+        }
+
+    }
+}
+
+//cta banner 
+.cta-section{
+    padding:40px 0;
+    .cta-banner{
+        padding: 100px 80px;
+        position: relative;
+        z-index: 2;
+        background: linear-gradient(90deg, #197ab3 0%, #0494c8 48.19%, #04c87a 100%);
+        border-radius: 22px;
+        display: grid;
+        grid-template-columns: 8fr 5fr;
+        grid-gap: 30px;
+        align-items: center;
+        .sub-cta{
+            text-align: left;
+            h2{
+                color: #fff;
+                margin-bottom: 15px;
+                font-weight: 600;
+            }
+            p {
+                color: #cde9f4;
+                
+            }
+        }
+        form{
+            position: relative;
+
+            input {
+                width: 100%;
+                font-size: 18px;
+                padding: 15px 20px;
+                border-radius: 0.25rem;
+                border: 1px solid #ced4da;
+               
+            }
+            button {
+                top: 0;
+                right: 0;
+                width: 104px;
+                position: absolute;
+                height: calc(100% - 1px);
+                border-radius: 0 4px 4px 0;
+                background-color: #ccecff;
+                border: 1px solid #ccecff;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+        }
+       
+    }
+ }
+
+
+ @media (max-width: 575.98px){
+    .affiliate-contact-area {
+
+        .card {
+        
+            padding: 10px; 
+
+            .card-header{
+                h2{
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }
+            .card-body{
+                padding: 0 1rem;
+            }
+        }
+    }
+ }
+
+
+ @media (max-width: 768.98px){
+    .cta-section{
+
+        .cta-banner {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+ }

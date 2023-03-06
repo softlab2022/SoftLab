@@ -73,6 +73,7 @@ class SoftLa {
 			'wp-radio-image-import',
 		] ) ) {
 			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
+			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
 
 		} else {
 			wp_enqueue_style( 'main', get_theme_file_uri( 'assets/css/main.css' ), array(), $theme_version, 'all' );
@@ -101,9 +102,22 @@ class SoftLa {
 
 		wp_enqueue_script( 'main', get_theme_file_uri( 'assets/js/main.js' ), array( 'jquery' ), $theme_version, true );
 
+		wp_localize_script('main', 'softlab', [
+			'ajax_url' => admin_url( 'admin-ajax.php' ),
+		]);
+
+
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}
+
+		// if(is_page_template('affiliates-area.php')){
+		// 	wp_enqueue_script( 'ajaxscript-js', get_theme_file_uri(  'assets/vendor/ajax/ajax.js' ), array( 'jquery' ), $theme_version, true );
+
+		// 	//$test = admin_url( 'admin-ajax.php' );
+		// }
+		
+
 
 		//If pricing page, enqueue the freemius script
 		$is_pricing_page = in_array( $file_name, [
@@ -134,3 +148,4 @@ class SoftLa {
 }
 
 SoftLa::instance();
+
