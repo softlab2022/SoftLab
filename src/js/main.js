@@ -21,7 +21,7 @@ import "./components/sticky-banner";
 
       // console.log(softlab.ajax_url);
   
-      $("#submit.bk").on("click", function (e) {
+      $("#submit").on("click", function (e) {
         e.preventDefault();
 
         var name = $("#name").val();
@@ -34,11 +34,14 @@ import "./components/sticky-banner";
         var socialsite = $("#socialsite").val();
         var agree = $("#agree").val();
 
-        //     if(!name || !username || !pemail || !aemail || !website || !site ){
-        //         $('.msg').html('All fields are required');
-        //      }else{
-        //        $('.msg').html('thenks you very much');
-        //    }
+            if(!name || !username || !pemail || !email || !website || !site || !media || !app || !socialsite || !agree){
+
+                $('.msg').html('All fields are required');
+               return true;
+             }else{
+               $('.msg').html('thenks you very much');
+               
+           }
       
 
 
@@ -61,7 +64,7 @@ import "./components/sticky-banner";
         function (data) {
             console.log(data);
             $("#submit").val("Register");
-            e.target.reset();
+            
           }
         );
       });

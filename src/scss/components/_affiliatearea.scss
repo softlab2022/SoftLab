@@ -56,14 +56,19 @@
               }
           }
         }
+        .msg {
+          color: #e00303;
+          font-size: 18px;
+          font-weight: 400;
+      }
        
         input[type="submit"] {
           font-size: 18px;
           font-weight: 600;
           margin-bottom: 0;
           color: #ffffff;
-          background: #ee5913;
-          border: 1px solid #ee5913;
+          background: #7F83FF;
+          border: 1px solid #7F83FF;
         }
         P {
           font-size: 15px;
