@@ -18,10 +18,10 @@ import "./components/sticky-banner";
       app.changeDraculaHeroImage();
 
       // data send to server
-      
-      // console.log(softlab.ajax_url);
 
-      $("#submit").on("click", function (e) {
+      // console.log(softlab.ajax_url);
+  
+      $("#submit.bk").on("click", function (e) {
         e.preventDefault();
 
         var name = $("#name").val();
@@ -39,7 +39,7 @@ import "./components/sticky-banner";
         //      }else{
         //        $('.msg').html('thenks you very much');
         //    }
-
+      
 
 
         $("#submit").val("Loading...");
@@ -61,6 +61,7 @@ import "./components/sticky-banner";
         function (data) {
             console.log(data);
             $("#submit").val("Register");
+            e.target.reset();
           }
         );
       });

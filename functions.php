@@ -513,7 +513,7 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 // ajax backend configuration
 function softlab_affiliate_register_backend_action(){
 
-	 $name= $_POST['name'];
+	echo $name= $_POST['name'];
 	$media= $_POST['media'];
 	$email= $_POST['email'];
 	$pemail= $_POST['pemail'];
