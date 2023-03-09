@@ -1,3 +1,29 @@
+<?php
+
+    $addons = [
+        
+        'radio-player-ads'    => [
+            'title'       => 'Radio Player Ads',
+            'logo'        => get_template_directory_uri() . '/assets/images/radio-player/radio-station/addon-logo.png',
+        ],
+    ];
+
+    $page_template = get_page_template_slug();
+    $file_name     = basename( $page_template, '.php' );
+
+    $is_addon = in_array( $file_name, array_keys( $addons ) );
+
+    $title = $is_addon ? $addons[ $file_name ]['title'] : 'Radio Player';
+    $logo  = $is_addon ? $addons[ $file_name ]['logo'] : get_template_directory_uri() . '/assets/images/radio-player/radio-player-logo.png';
+    $link  = $is_addon ? '/' . $file_name : '/radio-player';
+
+    $nav_class = $is_addon ? $file_name . '-nav' : 'radio-player-nav';
+
+    $pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
+
+?>
+
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -21,7 +47,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 <a href="#main" class="visually-hidden-focusable"><?php esc_html_e( 'Skip to main content', 'softlab' ); ?></a>
 
 <!-- Sticky Notification -->
-<?php get_template_part( 'template-parts/sticky-banner' ); ?>
+
 
 <div id="wrapper">
 
@@ -43,11 +69,15 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
                              alt="site-logo">
                     </a>
 
-                    <a class="navbar-brand brand-radio-player" href="/radio-player"
+                    <!-- <a class="navbar-brand brand-radio-player" href="/radio-player"
                        title="Radio Player" rel="home">
                         <img class="img-fluid"
                              src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-player-logo.png"
                              alt="Radio Player">
+                    </a> -->
+                    <a class="navbar-brand brand-radio-player" href="<?php echo $link; ?>" title="<?php echo $title; ?>"
+                       rel="home">
+                        <img class="img-fluid" src="<?php echo $logo; ?>" alt="<?php echo $title; ?>">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -62,7 +92,7 @@ $search_enabled = get_theme_mod( 'search_enabled', '1' ); // Get custom meta-val
 							array(
 								'theme_location' => 'radio-player-menu',
 								'container'      => '',
-								'menu_class'     => 'navbar-nav ms-auto radio-player-nav',
+								'menu_class'     => 'navbar-nav ms-auto ' . $nav_class,
 								'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
 								'walker'         => new WP_Bootstrap_Navwalker(),
 							)
