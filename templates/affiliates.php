@@ -13,8 +13,8 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>Softlab affiliate program</h1>  
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
+                    <h1>SoftLab Affiliate Program</h1>  
+                    <p>Earn Up To $124 for Each Successful Conversion!</p> 
                 </div>
             </div>
         </div>
@@ -26,8 +26,8 @@ get_header();
             <div class="col-lg-6 col-md-12">
                 
                     <div class="hero-content">
-                        <h1>Earn up to 25% from each sale with WPPOOL affiliate program</h1>
-                        <p>Your efforts are valuable to us! As a partner, we offer you what you deserve from the income per sale.</p>
+                        <h1>Earn Up To 25% Commission from Each Successful Sale!</h1>
+                        <p>Join our affiliate program and earn generous commissions by promoting our products. Wherever your audience comes from websites or social channels, you are always encouraged to promote!</p>
                         <div class="btns">
                             <a href="http://softlab.local/affiliates-area/" class="btn big-btn">become an affiliate</a>
                         </div>
@@ -48,8 +48,8 @@ get_header();
         <div class="row">
             <div class="col-12">
                 <div class="section-title">
-                    <p>how mach</p>
-                    <h2>Commissions?</h2>
+                    <p>how much</p>
+                    <h2>Our Commission Distribution</h2>
                 </div>
             </div>
         </div>
@@ -61,14 +61,14 @@ get_header();
                             <h2>25 <span>%</span></h2>
                             <h4>Commission</h4>
                         </div>
-                        <p>You earn 25% of every transaction from users joining WPPOOL through your affiliate link. This means every upgrade and user-added during the first year they’re on the platform.</p>
+                        <p>You will earn a 25% commission on every successful purchase of SoftLab products through your unique affiliate link.</p>
                     </div>
                     <div class="payout-card ring">
                         <div class="payout-header">
                             <h2>15 <span>%</span></h2>
                             <h4>Commission</h4>
                         </div>
-                        <p>You earn 25% of every transaction from users joining WPPOOL through your affiliate link. This means every upgrade and user-added during .</p>
+                        <p>You can also earn a 15% recurring affiliate earning when user renews their subscription. It’s somewhat like an unlimited passive income for a lifetime.</p>
                     </div>
                 </div>
             </div>
@@ -91,18 +91,18 @@ get_header();
                 <div class="work-process">
                     <div class="process text1 ">
                         <div class="num " style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">01</div>
-                        <h4>Become an affiliate</h4>
-                        <p>Sign up for the WPPOOL Affiliate Program to get your unique affiliate link.</p>
+                        <h4>Become an Affiliate</h4>
+                        <p>Sign up for the SoftLab Affiliate Program and enroll yourself in the affiliate program.</p>
                     </div>
                     <div class="process text2">
-                        <div class="num" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">01</div>
-                        <h4>Send visitors to WPPOOL</h4>
-                        <p>Sign up for the WPPOOL Affiliate Program to get your unique affiliate link.</p>
+                        <div class="num" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">02</div>
+                        <h4>Send Visitors to SoftLab</h4>
+                        <p>Start promoting our product through your preferred websites or social channels</p>
                     </div>
                     <div class="process text3">
-                        <div class="num" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">01</div>
-                        <h4>Become an affiliate</h4>
-                        <p>Sign up for the WPPOOL Affiliate Program to get your unique affiliate link.</p>
+                        <div class="num" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">03</div>
+                        <h4>Start Earning</h4>
+                        <p>Start earning commissions when any customer upgrades the premium version of our product.</p>
                     </div>
                 </div>
             </div>
@@ -124,43 +124,46 @@ get_header();
             <div class="col-12">
                 <div class="terms">
                     <div class="term box1">
-                        <div class="term-title" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">Please <span>do</span></div>
+                        <div class="term-title" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"><span>Dos</span></div>
                         <ul>
                             <li> <span>01.</span>
-                                Engage with the WordPress community and suggest our solutions on relevant threads
+                                Create high-quality content that provides value to your audience. It can be an article, video, social post, or others.
                             </li>
+
                             <li> <span>02.</span>
-                                Write reviews and Blog posts about our product and solutions.
+                                Stay up to date with the latest updates and features of the product.
                             </li>
+
                             <li> <span>03.</span>
-                                Spread positive awareness about our products and their features through social channels.
+                                Engage with your audience through comments, social media, and other channels for awareness & help.
                             </li>
+
                             <li> <span>04.</span>
-                                Publish product comparisons, white papers infographics, images, and case studies.
+                                Create relevant informative content and suggest to them one of our useful products (this method converts well).
                             </li>
-                            <li> <span>05.</span>
-                                Create demo videos and video blogs on our products on your own channels
-                            </li>
+                            
                         </ul>
                     </div>
                     <div class="term box2">
-                        <div class="term-title" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);">Please <span>do</span></div>
+                        <div class="term-title" style="background: url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"><span>Don’ts</span></div>
                         <ul>
                             <li> <span>01.</span>
-                                Engage with the WordPress community and suggest our solutions on relevant threads
+                                Don’t share any false or misleading information about the product to increase conversion.
                             </li>
+
                             <li> <span>02.</span>
-                                Write reviews and Blog posts about our product and solutions.
+                                Don't try to trick your audience into clicking on your links by disguising them as something else.
                             </li>
+
                             <li> <span>03.</span>
-                                Spread positive awareness about our products and their features through social channels.
+                                 Don’t use any black hat method to promote our products. Your commissions won’t be approved.
                             </li>
+
                             <li> <span>04.</span>
-                                Publish product comparisons, white papers infographics, images, and case studies.
+                                Don’t promote our product directly to our competitors. It may create confusion!
                             </li>
-                            <li> <span>05.</span>
-                                Create demo videos and video blogs on our products on your own channels
-                            </li>
+
+                            
                         </ul>
                     </div>
                 </div>
@@ -195,41 +198,50 @@ get_header();
                     <div class="slider-single-item">
                         <div class="slider-items">
                             <div class="item">
-                                <h4>Promotional </h4>
+                                <h4>Easy to Join </h4>
                                 <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 01</div>
                             </div>
-                            <p>Get to our product and promote them efficiently with amzing promotional resources
-                                provided to you.</p>
+                            <p>Joining the SoftLab affiliate program is super easy! By just filling in some basic information you can join us and start promoting our products as an affiliate.</p>
                         </div>
                     </div>
+
                     <div class="slider-single-item">
                         <div class="slider-items">
                             <div class="item">
-                            <h4>Promotional </h4>
-                            <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 01</div>
+                            <h4>Unlimited Promotional Methods </h4>
+                            <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 02</div>
                             </div>
-                            <p>Get to our product and promote them efficiently with amzing promotional resources
-                                provided to you.</p>
+                            <p>You are allowed to promote anywhere you would love to promote. But make sure to do everything following the rules.</p>
                         </div>
                     </div>
+
                     <div class="slider-single-item">
                         <div class="slider-items">
                             <div class="item">
-                            <h4>Promotional </h4>
-                            <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 01</div>
+                            <h4> High Commission Rates </h4>
+                            <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 03</div>
                             </div>
-                            <p>Get to our product and promote them efficiently with amzing promotional resources
-                                provided to you.</p>
+                            <p>We pay the highest commission rate in this category of products. You can get up to 25% commission on each successful purchase. We also provide a 15% recurring commission.</p>
                         </div>
                     </div>
+
                     <div class="slider-single-item">
                         <div class="slider-items">
                             <div class="item">
-                            <h4>Promotional </h4>
-                                <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 01</div>
+                            <h4>Timely Payout </h4>
+                                <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 04</div>
                             </div>
-                            <p>Get to our product and promote them efficiently with amzing promotional resources
-                                provided to you.</p>
+                            <p>We believe in releasing affiliate commissions in time. So that you never have to wait after the deadline is finished.</p>
+                        </div>
+                    </div> 
+
+                    <div class="slider-single-item">
+                        <div class="slider-items">
+                            <div class="item">
+                            <h4>Free to Join </h4>
+                                <div class="num" style="background:url(https://wppool.dev/wp-content/themes/wppool/assets/img/affilieat-images/dots.svg);"> 05</div>
+                            </div>
+                            <p>We don’t charge any penny from our affiliates when they are registering to promote our product.</p>
                         </div>
                     </div>      
             </div>
@@ -253,7 +265,7 @@ get_header();
                 </div>
                 <div class="col-lg-6">
                     <div class="cta-heading">
-                        <h2>Start earning cash for helping WPPOOL grow.</h2>
+                        <h2>Join our affiliate program and help SoftLab's growth</h2>
                         <a href="/affiliate" class="btns">become an affiliate</a>
                     </div>
                 </div>
