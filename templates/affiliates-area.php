@@ -27,10 +27,7 @@ get_header();
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="card">
-                            <div class="card-header">
-                            <h2>Register a new affiliate account</h2>
-                                
-                            </div>
+                            
                             <div class="card-body">
                                 <form action="http://test.local/affiliate-contact/" id="datasend" class="needs-validation" novalidate >
 

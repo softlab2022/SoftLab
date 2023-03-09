@@ -41,7 +41,7 @@ import "./components/sticky-banner";
              }else{
                $('.msg').html('thenks you very much');
                
-           }
+                }
       
 
 
@@ -64,7 +64,6 @@ import "./components/sticky-banner";
         function (data) {
             console.log(data);
             $("#submit").val("Register");
-            
           }
         );
       });

@@ -1,0 +1,681 @@
+.affiliate-rs {
+    padding-top: 200px;
+    padding-bottom: 137px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    .affiliate-cols-left{
+        h2{
+            font-size: 50px;
+            font-weight: 700 !important;
+            color: rgba(21, 24, 38, 0.8980392157);
+            line-height: 64px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 18px;
+            line-height:27px;
+            font-weight: 400;
+            margin-bottom: 80px;
+        }
+        .affiliate-btn{
+            text-decoration: none;
+            text-transform: capitalize;
+            background: #737DFF;
+            border:1px solid #737DFF;
+            color: #fff;
+            font-size:18px;
+            font-weight: 600;
+            padding: 18px 50px;
+            border-radius: 10px;
+            transition: all .2s ease;
+    
+            &:hover{
+                background: #F9FAFF;
+                border:1px solid #737DFF;
+                color:#6E6DFF;
+                transform: translateY(-7px);
+                
+            }
+        }
+    }
+    
+}
+
+
+//about area of affiliate
+.about-area {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #F9FAFF;
+
+    .vactors-one {
+        position: absolute;
+        top: 110px;
+        left: 242px;
+    }
+    
+    .vactors-two {
+        position: absolute;
+        top: 50px;
+        right: 312px;
+    }
+    .about-header{
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 69px;
+            max-width: 496px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 18px;
+            line-height:27px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+    }
+    .about-cols {
+        display: flex;
+        justify-content: space-between;
+        gap: 90px;
+        align-items: center;
+        margin-top: 70px;
+        .about-cols-left {
+            flex-basis: 50%;
+            h2{
+                font-size: 50px;
+            font-weight: 700;
+            line-height: 69px;
+            }
+            p{
+                font-size: 18px;
+                line-height:27px;
+                font-weight: 400;
+            
+            }
+        }
+        .about-cols-right {
+            flex-basis: 50%;
+        }
+    }
+    .affiliate-about-two {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;
+        align-items: center;
+        .affiliate-about-two-right{
+            flex-basis: 50%;
+           
+
+            h2{
+                font-size: 43px;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 17px;
+                line-height:27px;
+                font-weight: 400;
+            }
+            .vector{
+                text-align: end;
+                margin-top: 30px;
+                img{
+                    width: 82px;
+                    height: 82px;
+                }
+            }
+        }
+        .affiliate-about-two-left{ 
+            flex-basis: 50%;
+            img{
+                
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+    .col-12{
+        .affiliate-about-three {
+            padding: 70px 0;
+            display: flex;
+            gap: 70px;
+            justify-content: space-between;
+            align-items: center;
+            .affiliate-about-three-left{
+                flex-basis: 50%;
+                h2{
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    margin-bottom: 30px;
+                }
+                p{
+                    font-size: 18px;
+                    line-height:27px;
+                    font-weight: 400;
+                }
+            }
+            .affiliate-about-three-right{
+                flex-basis: 50%;
+            }
+        }
+        .affiliate-applay{
+            position: relative;
+            padding: 30px 0;
+            .applay-btn {
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 500;
+                background: #737DFF;
+                border:1px solid #737DFF;
+                padding: 14px 46px;
+                color:#fff;
+                border-radius: 5px;
+                transition: all 0.2s ease;
+                &:hover{
+                    background: #F9FAFF;
+                    border:1px solid #737DFF;
+                    color:#6E6DFF;
+                    transform: translateY(-7px);
+                }
+            }
+            .vactors-one{
+                position: absolute;
+                
+                left: 40px;
+                top: 30px;
+            }
+            .vactors-two{
+                position: absolute;
+               
+                right: 20px;
+                top: 10px;
+            }
+
+        }
+    }
+    .impact-area {
+   
+        margin-top: 80px !important;
+        background-position: center !important;
+        .impact-applys{
+            h2{
+                font-size: 50px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    margin-top: 60px;
+            }
+            p{
+                max-width: 667px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            .impact-btn {
+                text-decoration: none;
+                text-transform: capitalize;
+                margin-top: 20px;
+                display: inline-block;
+                background: #737DFF;
+                border:1px solid #737DFF;
+                color:#fff;
+                font-size: 18px;
+                font-weight: 600;
+                padding: 13px 40px;
+                border-radius: 5px;
+                transition: all 0.2s ease;
+                &:hover{
+                    background: #F9FAFF;
+                    border:1px solid #737DFF;
+                    color:#6E6DFF;
+                    transform: translateY(-7px);
+                }
+            }
+        }
+        
+    }
+   
+}
+
+//impact area
+
+
+
+
+
+//how it work
+.work-area {
+    padding-top: 40px ;
+    padding-bottom: 60px ;
+    background: #F9FAFF;
+    .works{
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 17px;
+            line-height:27px;
+            font-weight: 400; 
+        }
+    }
+    .works-cols {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        padding-top:60px;
+        .works-box{
+            img{
+                margin-bottom: 30px;
+                transition: all .4s ease;
+                object-fit: cover;
+                &:hover{
+                    transform: translateY(-7px);
+                }
+            }
+            p{
+                font-size: 17px;
+                line-height:27px;
+                font-weight: 400;
+                padding:0 44px;
+            }
+        }
+    }
+}
+
+//affiliate benefits
+
+.affiliate-benefits{
+    padding:90px 0;
+    background: #EEF2FE;
+    .affiliate-title{
+        position: relative;
+
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 17px;
+            line-height:27px;
+            font-weight: 400;
+            max-width:536px;
+            margin: 0 auto;
+        }
+        .vcl{
+            position: absolute;
+            top: -36px;
+            right: 4px;
+            
+        }
+        .vcl2{
+            position: absolute;
+            top: 36px;
+            left: 4px;
+            
+        }
+
+    }
+    .affiliate-benefit-cols{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 30px;
+            padding: 60px 0;
+        .affiliate-benefits-box{
+            background: #F9FAFF;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            border-top-right-radius:30px;
+            border-bottom-left-radius:30px;
+                .cols-box{
+                    .col-img {
+                        img {
+                            width: 80px;
+                            height: auto;
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+            .vct{
+                position: absolute;
+                top: 27px;
+                right: 28px;
+                
+              
+            }
+          
+        }
+    }
+}
+
+//comparison section
+.comparisons-area{
+    padding: 93px 0;
+    background-size: cover !important;
+    background-position: center;
+    position: relative;
+    .comparison-title{
+        h2{
+                font-size:56px;
+                line-height:84px;
+                font-weight: 600;
+                text-transform: capitalize;
+        }
+        p{
+            font-size:18px;
+            line-height:27px;
+            font-weight:500;
+        }
+    }
+    .col{
+        .voctors-comparison{
+            .vc1{
+                position: absolute;
+                /* text-align: end; */
+                  top: 20px;
+            }
+            .vc2 {
+                position: absolute;
+                right: 155px;
+                top: 60px;
+            }
+        }
+        
+    }
+    .col-12{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 10px;
+        background: #fff;
+        padding:60px 55px;
+        margin-top:46px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+        .comparison-link{
+                margin-top:40px;
+            .comparison-btn{
+                text-decoration: none;
+                padding: 13px 40px;
+                text-transform: capitalize;
+                background: #6E6DFF;
+                border-radius: 5px;
+                color:#fff;
+                font-weight:600;
+                border:1px solid #737DFF;
+                transition: all .4s ease;
+                &:hover{
+                    border:1px solid #737DFF;
+                    background: #F9FAFF;
+                    color:#333;
+                    transform: translateY(-7px);
+                }
+            }
+        }
+       
+    
+    .comparisons-boxs{
+        
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:70px;
+       
+        .comparisons-col-left{
+            h2{
+                font-size:42px;
+                line-height:70px;
+                font-weight: 600;
+                text-transform: capitalize;
+                color:#2FB44B;
+
+            }
+            ul{
+                padding: 0px;
+                margin: 40px 0;
+                list-style: none;
+                li{
+                    margin-bottom: 40px;
+                    font-weight: 600;
+                    position: relative;
+                    font-size: 18px;
+                    padding-left: 52px;
+                    img{
+                        position: absolute;
+                        display: inline-block;
+                        left: -6px;
+                        top: 1px;
+                    }
+                }
+            }
+        }
+        .comparisons-col-right{
+            h2{
+                font-size:42px;
+                line-height:70px;
+                font-weight: 600;
+                text-transform: capitalize;
+                color:#F40000;
+            }
+            ul{
+                padding: 0px;
+                margin: 40px 0;
+                list-style: none;
+                li{
+                    margin-bottom: 40px;
+                    font-weight: 600;
+                    position: relative;
+                    font-size: 18px;
+                    padding-left: 52px;
+                    img{
+                        position: absolute;
+                        display: inline-block;
+                        left: -6px;
+                        top: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+//affiliate cpt area
+.affiliate-cpt-area{
+    padding:80px 0;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    .ctp{
+        h2{
+            font-size:42px;
+            font-weight: 700;
+            color:#fff;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 17px;
+            line-height:27px;
+            font-weight: 400;
+            color:#fff;
+            margin-bottom: 40px;
+        }
+        .cpt-btn{
+            text-decoration: none;
+            background:#fff;
+            padding:13px 40px;
+            font-weight:500;
+            text-transform: capitalize;
+            border-radius: 5px;
+            transition: all .4s ease;
+            &:hover{
+                background: #3D34A4;
+                border:1px solid #3D34A4;
+                color:#fff;
+                
+            }
+            
+        }
+    }
+
+}
+
+
+
+
+
+//responsive section
+@media only screen and (max-width: 768px){
+    .affiliate-rs{
+        .affiliate-cols-left{
+            margin-bottom: 40px;
+            
+        }
+    }
+    .about-area{
+        .col-8{
+            .about-header{
+                h2{
+                    font-size:42px;
+                    line-height: 50px;
+                }
+            }
+        }
+        .about-cols{
+            gap:40px;
+            flex-direction: column;
+            .about-cols-left{
+                h2{
+                    font-size:40px;
+                    line-height: 48px;
+                }
+            }
+        }
+        .affiliate-about-two{
+            gap: 40px;
+            flex-direction: column-reverse;
+
+            .affiliate-about-two-right{
+                h2{
+                    font-size:40px;
+                    line-height: 48px;
+                    margin-bottom: 20px;;
+                }
+            }
+        }
+        .affiliate-about-three{
+            flex-direction: column;
+            .affiliate-about-three-left{
+                h2{
+                    font-size:40px !important;
+                    line-height: 48px !important;
+                }
+            }
+            
+        }
+    }
+    
+    .work-area{
+        .works-cols{
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap:20px;
+        }
+    }
+    .affiliate-benefits{
+        .affiliate-benefit-cols{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .comparisons-area{
+        .col-12{ 
+        .comparisons-boxs{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:0px;
+
+            .comparisons-col-left{
+
+                h2{
+                    font-size:40px;
+                }
+                ul{
+                    margin:20px 0;
+                }
+            }
+            .comparisons-col-right{
+
+                h2{
+                    font-size:40px;
+                }
+                ul{
+                    margin:20px 0;
+                }
+            }
+        }
+        }
+    }
+    .affiliate-cpt-area{
+        .ctp{
+            h2{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    .affiliate-rs{
+        .affiliate-cols-left{
+            margin-bottom: 40px;
+            h2{
+                font-size:42px;
+                line-height: 50px;
+            }
+            
+        }
+    }
+    .about-area{
+        .col-8{
+            width:100%;
+            .about-header{
+                h2{
+                    font-size:32px;
+                    line-height: 40px;
+                }
+            }
+        }
+         .affiliate-about-three{
+            .affiliate-about-three-left{
+                h2{
+                    font-size: 30px !important;
+                    line-height: 40px !important;
+                    margin-bottom: 10px;
+                }
+            }
+        
+    }
+    }
+    .work-area{
+        .works-cols{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:20px;
+        }
+    }
+    .comparisons-area{
+        margin-top:10px !important;
+        padding-top:35px !important;
+    }
+    
+}
