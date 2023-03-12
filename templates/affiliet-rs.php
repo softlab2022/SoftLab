@@ -362,29 +362,21 @@ get_header();
                             <ul>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/icons.png" class="img-fluid" alt="">
-                                    Engage with the WordPress community and suggest 
-                                    our solutions on relevant threads.
+                                    Create high-quality content that provides value to your audience. It can be an article, video, social post, or others.
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/icons.png" class="img-fluid" alt="">
-                                    Write reviews and Blog posts about our products and 
-                                    solutions.
+                                    Stay up to date with the latest updates and features of the product.
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/icons.png" class="img-fluid" alt="">
-                                    Spread positive awareness about our products and its 
-                                    features through social channels.
+                                    Engage with your audience through comments, social media, and other channels for awareness & help.
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/icons.png" class="img-fluid" alt="">
-                                    Publish product comparisons, white papers, infographics, 
-                                    images and case studies.
+                                    Create relevant informative content and suggest to them one of our useful products (this method converts well).
                                 </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/icons.png" class="img-fluid" alt="">
-                                    Create demo videos and video blogs on our products on 
-                                    your own channels
-                                </li>
+                               
                             </ul>
 
                         </div>
@@ -393,29 +385,21 @@ get_header();
                             <ul>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/reicons.png" class="img-fluid" alt="">
-                                    Engage with the WordPress community and suggest 
-                                    our solutions on relevant threads.
+                                    Don’t share any false or misleading information about the product to increase conversion.
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/reicons.png" class="img-fluid" alt="">
-                                    Write reviews and Blog posts about our products and 
-                                    solutions.
+                                    Don't try to trick your audience into clicking on your links by disguising them as something else.
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/reicons.png" class="img-fluid" alt="">
-                                    Spread positive awareness about our products and its 
-                                    features through social channels.
+                                    Don’t use any black hat method to promote our products. Your commissions won’t be approved.
                                 </li>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/reicons.png" class="img-fluid" alt="">
-                                    Publish product comparisons, white papers, infographics, 
-                                    images and case studies.
+                                    Don’t promote our product directly to our competitors. It may create confusion!
                                 </li>
-                                <li>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/reicons.png" class="img-fluid" alt="">
-                                    Create demo videos and video blogs on our products on 
-                                    your own channels
-                                </li>
+                                
                             </ul> 
                         </div>
                     </div>      
@@ -429,9 +413,8 @@ get_header();
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
                     <div class="ctp text-center">
-                        <h2>Partner Up With weDevs And 
-                            Start Making People's Lives Better.</h2>
-                            <p>Take a look at our highly rated 03+ premium and free plugins.</p>
+                        <h2>Partner Up With SoftLab And Start Making People's Lives Better</h2>
+                            <p>Discover our high-converting products and star promoting</p>
                             <a href="http://test.local/affiliates-area/" class="cpt-btn">apply now</a>
                     </div>
                 </div>
