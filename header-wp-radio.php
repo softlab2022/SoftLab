@@ -49,7 +49,7 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
 <a href="#main" class="visually-hidden-focusable"><?php esc_html_e( 'Skip to main content', 'softlab' ); ?></a>
 
 <!-- Sticky Notification -->
-<?php get_template_part( 'template-parts/sticky-banner' ); ?>
+
 
 <div id="wrapper">
 

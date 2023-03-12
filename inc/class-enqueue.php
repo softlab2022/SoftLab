@@ -38,6 +38,7 @@ class SoftLa {
 			'radio-player-pricing',
 			'radio-player-http-player',
 			'radio-player-multiple-player-skins',
+			'radio-player-ads',
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
@@ -49,7 +50,7 @@ class SoftLa {
 			'reader-mode-pricing',
 		] ) ) {
 
-			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
+			wp_enqueue_style( 'reader-mode-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
 
 		} 
 
@@ -129,7 +130,8 @@ class SoftLa {
 			'wp-radio-proxy-player',
 			'wp-radio-image-import',
 			'wp-radio-ads-player',
-			'dracula-pricing'
+			'dracula-pricing',
+			'radio-player-ads'
 		] );
 
 		if ( $is_pricing_page ) {
