@@ -256,8 +256,7 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vcl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <p>Upto $200 commission 
-                                from a single sale</p>
+                            <p>Best way to scale your online income</p>
                         </div>
                         <div class="affiliate-benefits-box">
                             <div class="cols-box">
@@ -282,8 +281,7 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vcl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <p>Upto $200 commission 
-                                from a single sale</p>
+                            <p>Unlimited promotion resources available</p>
                         </div>
                         <div class="affiliate-benefits-box">
                             <div class="cols-box">
