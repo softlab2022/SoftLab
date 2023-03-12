@@ -11,12 +11,14 @@
             color: rgba(21, 24, 38, 0.8980392157);
             line-height: 64px;
             margin-bottom: 20px;
+            color: #151826CC;
         }
         p{
             font-size: 18px;
             line-height:27px;
             font-weight: 400;
             margin-bottom: 80px;
+            color:#15182699;
         }
         .affiliate-btn{
             text-decoration: none;
@@ -69,12 +71,14 @@
             max-width: 496px;
             margin: 0 auto;
             margin-bottom: 15px;
+            color: #151826CC;
         }
         p{
             font-size: 18px;
             line-height:27px;
             font-weight: 400;
             margin-bottom: 40px;
+            color:#15182699;
         }
     }
     .about-cols {
@@ -89,11 +93,13 @@
                 font-size: 50px;
             font-weight: 700;
             line-height: 69px;
+            color: #151826CC;
             }
             p{
                 font-size: 18px;
                 line-height:27px;
                 font-weight: 400;
+                color:#15182699;
             
             }
         }
@@ -116,11 +122,13 @@
                 font-weight: 700;
                 line-height: 60px;
                 margin-bottom: 30px;
+                color: #151826CC;
             }
             p{
-                font-size: 17px;
+                font-size: 18px;
                 line-height:27px;
                 font-weight: 400;
+                color:#15182699;
             }
             .vector{
                 text-align: end;
@@ -154,11 +162,14 @@
                     font-weight: 700;
                     line-height: 60px;
                     margin-bottom: 30px;
+                    color: #151826CC;
+
                 }
                 p{
                     font-size: 18px;
                     line-height:27px;
                     font-weight: 400;
+                    color:#15182699;
                 }
             }
             .affiliate-about-three-right{
@@ -205,13 +216,16 @@
         margin-top: 80px !important;
         background-position: center !important;
         .impact-applys{
-            margin-bottom: 70px;
+            margin-top:47px;
+            margin-bottom: 75px;
             h2{
                 font-size: 50px;
                 font-weight: 700;
                 line-height: 60px;
                 max-width: 605px;
                 margin: 30px auto;
+                color: #151826CC;
+
                     
                     
             }
@@ -219,6 +233,8 @@
                 max-width: 667px;
                 margin: 0 auto;
                 margin-bottom: 20px;
+                color:#15182699;
+                font-size:18px;
             }
             .impact-btn {
                 text-decoration: none;
@@ -255,7 +271,7 @@
 //how it work
 .work-area {
     padding-top: 40px ;
-    padding-bottom: 60px ;
+    padding-bottom: 75px ;
     background: #F9FAFF;
     .works{
         h2{
@@ -263,21 +279,24 @@
             font-weight: 700;
             line-height: 60px;
             margin-bottom: 20px;
+            color: #151826CC;
+
         }
         p{
-            font-size: 17px;
+            font-size: 18px;
             line-height:27px;
             font-weight: 400; 
+            color:#15182699;
         }
     }
     .works-cols {
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-gap: 10px;
-        padding-top:60px;
+        padding-top:70px;
         .works-box{
             img{
-                margin-bottom: 30px;
+                margin-bottom: 34px;
                 transition: all .4s ease;
                 object-fit: cover;
                 &:hover{
@@ -285,10 +304,11 @@
                 }
             }
             p{
-                font-size: 17px;
+                font-size: 18px;
                 line-height:27px;
                 font-weight: 400;
                 padding:0 44px;
+                color:#15182699;
             }
         }
     }
@@ -307,13 +327,15 @@
             font-weight: 700;
             line-height: 60px;
             margin-bottom: 20px;
+            color: #151826CC;
         }
         p{
-            font-size: 17px;
+            font-size: 18px;
             line-height:27px;
             font-weight: 400;
             max-width:536px;
             margin: 0 auto;
+            color:#15182699;
         }
         .vcl{
             position: absolute;
@@ -333,7 +355,8 @@
             display: grid;
             grid-template-columns: auto auto auto auto;
             grid-gap: 30px;
-            padding: 60px 0;
+            padding-top: 60px;
+            padding-bottom: 20px;
         .affiliate-benefits-box{
             background: #F9FAFF;
             text-align: center;
@@ -344,14 +367,15 @@
                 .cols-box{
                     .col-img {
                         img {
-                            width: 80px;
+                            width: 100px;
                             height: auto;
-                            margin-bottom: 25px;
+                            margin-bottom: 23px;
                         }
                     }
                 }
                 p{
                     font-size:20px;
+                    color:#15182699;
                 }
             .vct{
                 position: absolute;
@@ -377,11 +401,13 @@
                 line-height:84px;
                 font-weight: 600;
                 text-transform: capitalize;
+                color: #151826CC;
         }
         p{
             font-size:18px;
             line-height:27px;
             font-weight:500;
+            color:#15182699;
         }
     }
     .col{
@@ -457,6 +483,7 @@
                     position: relative;
                     font-size: 18px;
                     padding-left: 52px;
+                    color:#15182699;
                     img{
                         position: absolute;
                         display: inline-block;
@@ -484,6 +511,7 @@
                     position: relative;
                     font-size: 18px;
                     padding-left: 52px;
+                    color:#15182699;
                     img{
                         position: absolute;
                         display: inline-block;
@@ -505,13 +533,13 @@
     background-size: cover !important;
     .ctp{
         h2{
-            font-size:42px;
+            font-size:45px;
             font-weight: 700;
             color:#fff;
             margin-bottom: 20px;
         }
         p{
-            font-size: 17px;
+            font-size: 18px;
             line-height:27px;
             font-weight: 400;
             color:#fff;
