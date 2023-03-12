@@ -15,13 +15,9 @@ get_header();
 
                 <div class="col-lg-6">
                     <div class="affiliate-cols-left">
-                        <h2>Earn up to $200 from 
-                            each sale with weDevs 
-                            referral program</h2>
-                            <p>Let's build an amazing family together to shape our future. 
-                                Promote our products to your audience and be a part of the 
-                                best WordPress affiliate deal.</p>
-                            <a href="http://test.local/affiliates-area/" class="affiliate-btn">Join Our Affiliate Family</a>
+                        <h2>Earn Up To $100 for Each Successful Conversion!</h2>
+                            <p>Join our affiliate program and earn generous commissions by promoting our products. Wherever your audience comes from websites or social channels, you are always encouraged to promote!.</p>
+                            <a href="http://test.local/affiliates-area/" class="affiliate-btn">Join Our Affiliate Program</a>
                     </div>
                 </div>
 
@@ -41,10 +37,8 @@ get_header();
 
                 <div class="col-8">
                     <div class="about-header text-center">
-                        <h2>Start A GreatAffiliate 
-                            Partnership</h2>
-                            <p>We love entrepreneurship as much as you do. Because we know the freedom, the light ofhope 
-                                that comes with it & also you will get 20% commission on each sale.</p>
+                        <h2>Start A Profitable Affiliate Program</h2>
+                            <p>Our passion for entrepreneurship runs deep, and we're eager to help you achieve your dreams soon. We'll be there to provide the guidance and resources you need to hit up to 20% commission on every sale!</p>
                     </div>
                     <div class="vactors-one">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/Vector.png" class="img-fluid" alt="">
@@ -60,12 +54,8 @@ get_header();
                 <div class="col-12">
                     <div class="about-cols">
                         <div class="about-cols-left">
-                            <h2>Why Should You
-                                Choose weDevs?</h2>
-                                <p>During 2016, the minimum average affiliate commission 
-                                    per month was $116 and the highest average per month 
-                                    was $1356. Currently we are working with our affiliates to 
-                                    empower them and increase their income by 200%.</p>
+                            <h2>Why Choose SoftLab Affiliate?</h2>
+                                <p>Choose the SoftLab Affiliate Program for the opportunity to partner with a trusted and innovative software company, and earn money while helping customers improve their businesses.</p>
                         </div>
                         <div class="about-cols-right">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/doller.png" class="img-fluid" alt="">
@@ -80,11 +70,8 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/affiliate-sec1.png" class="img-fluid" alt="">
                         </div>
                         <div class="affiliate-about-two-right">
-                            <h2>Earn Money While 
-                                DoingThings You Love</h2>
-                                <p>Do you have strong SEO skills? Love advertising? Have communities 
-                                    that trust you? Decide to become our partner, join us and help 
-                                    people with our solutions. All while doing the things you love.</p>
+                            <h2>Generate Passive Income by Doing Things You Love</h2>
+                                <p>Whatever you like to do, you can start a passive income module even when you are sleeping. If you love making videos, writing content, running advertisements, or anything else - Our creations can make you money if you promote them.</p>
                                     <div class="vector">
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vector2.png" class="img-fluid" alt="">
                                     </div> 
@@ -100,11 +87,8 @@ get_header();
                     <div class="affiliate-about-three">
 
                         <div class="affiliate-about-three-left">
-                            <h2>Simplest Process 
-                                To Get Involved</h2>
-                                <p>You will not face any issues while getting involved with 
-                                    our cause. Just fill up the form. Then we will evaluate the 
-                                    credentials and notify you at the earliest possible time.</p>
+                            <h2>Get Involved in a Snap</h2>
+                                <p>We made things easy & clear while you set your mind to get involved in our affiliate program. Just focus on your plan, share it with us, apply for our affiliate program, and start promoting our products worldwide.</p>
                         </div>
 
                         <div class="affiliate-about-three-right">
@@ -114,7 +98,7 @@ get_header();
                     </div>
 
                     <div class="affiliate-applay text-center">
-                        <a href="#" class="applay-btn">Apply Now</a>
+                        <a href="http://softlab.local/affiliates-area/" class="applay-btn">Apply Now</a>
                         <div class="vactors-one">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/Vector.png" alt="" class="img-fluid">
                         </div>
@@ -139,9 +123,8 @@ get_header();
                 <div class="row">
                     <div class="col-12">
                         <div class="impact-applys text-center">
-                            <h2>Earn 20% from each sale!</h2>
-                            <p>Because we believe that you cannot achieve something great alone.And only by empowering 
-                                others can you make a long lasting impact in people's lives.</p>
+                            <h2>Earn Up To 20% from Each Successful Sale!</h2>
+                            <p>We believe we can’t achieve anything alone. You are always welcome to participate in our affiliate platform and get a golden opportunity to make passive income..</p>
                                 <a href="http://test.local/affiliates-area/" class="impact-btn">apply now</a>
                         </div>
                     </div>
@@ -160,7 +143,7 @@ get_header();
                 <div class="col-12">
                     <div class="works text-center">
                         <h2>How it works</h2>
-                        <p>Becoming an affiliate and earning money is simple.</p>
+                        <p>Earning money through affiliate commissions is easy for you!</p>
                     </div>
                 </div>
             </div>
@@ -195,9 +178,8 @@ get_header();
             <div class="row">
                 <div class="col-12">
                     <div class="affiliate-title text-center">
-                        <h2>Affiliate Benefits</h2>
-                        <p>As an example, one of our highest commission earner spenthis 
-                            earnings for a family vacation in Maldives. Imagine what you can do!</p>
+                        <h2>Our Affiliate Benefits</h2>
+                        <p>Apart from our highest-paying commission rates, you will more incredible benefits while promoting our products as an affiliate</p>
                             <div class="vcl">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/Vector.png" alt="" class="img-fluid">
                             </div>
@@ -221,8 +203,7 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vcl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <p>Upto $200 commission 
-                                from a single sale</p>
+                            <p>Up to $100 commission from a single sale</p>
                         </div>
                         <div class="affiliate-benefits-box">
                             <div class="cols-box">
@@ -235,8 +216,7 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vcl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <p>Large amounts of 
-                                creative for you!</p>
+                            <p>A large number of resources for you!</p>
                         </div>
                         <div class="affiliate-benefits-box">
                             <div class="cols-box">
@@ -249,8 +229,8 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vcl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <p>Dedicated mentorship 
-                                from experts</p>
+                            <p>Regular follow-up and tips via email
+</p>
                         </div>
                         <div class="affiliate-benefits-box">
                             <div class="cols-box">
@@ -263,8 +243,7 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/vcl.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <p>Weekly follow up and tips 
-                                via email</p>
+                            <p>Unlimited promotion resources available</p>
                         </div>
                         <div class="affiliate-benefits-box">
                             <div class="cols-box">
