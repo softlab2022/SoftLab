@@ -17,7 +17,7 @@ get_header();
                     <div class="affiliate-cols-left">
                         <h2>Earn Up To $100 for Each Successful Conversion!</h2>
                             <p>Join our affiliate program and earn generous commissions by promoting our products. Wherever your audience comes from websites or social channels, you are always encouraged to promote!.</p>
-                            <a href="http://test.local/affiliates-area/" class="affiliate-btn">Join Our Affiliate Program</a>
+                            <a href="/affiliates-area/" class="affiliate-btn">Join Our Affiliate Program</a>
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@ get_header();
         <div class="container">
             <div class="row justify-content-center">
 
-                <div class="col-8">
+                <div class="col-9">
                     <div class="about-header text-center">
                         <h2>Start A Profitable Affiliate Program</h2>
                             <p>Our passion for entrepreneurship runs deep, and we're eager to help you achieve your dreams soon. We'll be there to provide the guidance and resources you need to hit up to 20% commission on every sale!</p>
@@ -56,6 +56,8 @@ get_header();
                         <div class="about-cols-left">
                             <h2>Why Choose SoftLab Affiliate?</h2>
                                 <p>Choose the SoftLab Affiliate Program for the opportunity to partner with a trusted and innovative software company, and earn money while helping customers improve their businesses.</p>
+
+                               
                         </div>
                         <div class="about-cols-right">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/doller.png" class="img-fluid" alt="">
@@ -98,7 +100,7 @@ get_header();
                     </div>
 
                     <div class="affiliate-applay text-center">
-                        <a href="http://softlab.local/affiliates-area/" class="applay-btn">Apply Now</a>
+                        <a href="/affiliates-area/" class="applay-btn">Apply Now</a>
                         <div class="vactors-one">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/Vector.png" alt="" class="img-fluid">
                         </div>
@@ -113,8 +115,8 @@ get_header();
         </div>
         <div class="impact-area bg-impact " style="background:url('<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/BG.png');background-repeat: no-repeat; background-size: cover; ">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-10">
                         <div class="impact text-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/impacts.png" class="img-fluid" alt="">
                         </div>
@@ -125,7 +127,7 @@ get_header();
                         <div class="impact-applys text-center">
                             <h2>Earn Up To 20% from Each Successful Sale!</h2>
                             <p>We believe we can’t achieve anything alone. You are always welcome to participate in our affiliate platform and get a golden opportunity to make passive income..</p>
-                                <a href="http://test.local/affiliates-area/" class="impact-btn">apply now</a>
+                                <a href="/affiliates-area/" class="impact-btn">apply now</a>
                         </div>
                     </div>
                 </div>
@@ -307,7 +309,7 @@ get_header();
     </section>
 
     <!--comparisons area-->
-    <section class="comparisons-area overflow-hidden" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/bg-shape.png');background-repeat: no-repeat; background-size: cover;">
+    <section class="comparisons-area overflow-hidden">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -329,7 +331,14 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="row">
+           
+        </div>
+    </section>
+    <!--comparison section main-->
+    <section class="comparison-real" >
+    <div class="comparison-back" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/bg-shape.png');background-repeat: no-repeat; background-size: cover; z-index:2;">
+    <div class="container">
+            <div class="row justify-content-center">
                 <div class="col-12">
 
                     <div class="comparisons-boxs">
@@ -380,9 +389,12 @@ get_header();
                             </ul> 
                         </div>
                     </div>      
+                
                 </div>
             </div>
         </div>
+    </div>
+        
     </section>
 <!--ctp section -->
     <section class="affiliate-cpt-area" style="background:url('<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/cta_bg.png')">
@@ -392,7 +404,7 @@ get_header();
                     <div class="ctp text-center">
                         <h2>Partner Up With SoftLab And Start Making People's Lives Better</h2>
                             <p>Discover our high-converting products and star promoting</p>
-                            <a href="http://test.local/affiliates-area/" class="cpt-btn">apply now</a>
+                            <a href="/affiliates-area/" class="cpt-btn">apply now</a>
                     </div>
                 </div>
             </div>

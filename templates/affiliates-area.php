@@ -29,7 +29,7 @@ get_header();
                         <div class="card">
                             
                             <div class="card-body">
-                                <form action="http://test.local/affiliate-contact/" id="datasend" class="needs-validation" novalidate >
+                                <form action="/affiliate-contact/" id="datasend" class="needs-validation" novalidate >
 
                                     <div class="my-4">
                                         <label for="Aemail"> Email Address *</label>
@@ -42,7 +42,17 @@ get_header();
                                         <label for="name">Full name *</label>
                                         <input type="text" id="name" placeholder="Name" class="form-control" value="" required>
                                         <div class="msg"></div>
-                                    </div>
+
+                                        <div class="my-4 select-option">
+                                            <label for="">Select Product</label>
+                                            <div class="my-2">
+                                                <input type="checkbox" >
+                                                
+                                            </div>
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/drive.png" class="img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/thubnail-1.png" class="img-fluid" alt="">
+                                        </div>
+                                   
                                     
                                     <div class="my-4">
                                         <label for="pemail">PayPal account email address *</label>
@@ -78,7 +88,7 @@ get_header();
                                     </div>
                                     <div class="msg"></div>  
                                     <div class="my-4">
-                                        <label for="socialsite">Website, Email, social media statistics (optionals);</label>
+                                        <label for="socialsite">Website, Email, Social media statistics (optionals);</label>
                                         <textarea name="" class="form-control" id="socialsite" cols="30"  rows="5"></textarea>
                                         <div class="msg"></div>
                                         <p class="mt-2">Please feel free to provide any relevent website or social media statistics e.g monthly unique site visits, Number of email subscriber followers (we will keep this information confidential) </p>
