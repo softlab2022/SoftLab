@@ -33,79 +33,114 @@ get_header();
 
                                     <div class="my-4">
                                         <label for="Aemail"> Email Address *</label>
-                                        <input type="email" id="email" placeholder="Your Email" class="form-control"  value="" required>
-                                        
-                                        <div class="msg"></div>
+                                        <input type="email" id="email" name='email' placeholder="Your Email" class="form-control"  value="" required>
+                                        <span id="e-validate"></span>
+                                        <div class="invalid-feedback">
+                                            Please enter your email address.
+                                        </div>
                                     </div>
 
                                     <div class="my-4">
                                         <label for="name">Full name *</label>
-                                        <input type="text" id="name" placeholder="Name" class="form-control" value="" required>
-                                        <div class="msg"></div>
+                                        <input type="text" id="name" name='name' placeholder="Name" class="form-control" value="" required>
+                                        <div class="invalid-feedback">
+                                        Please enter your full name
+                                        </div>
 
-                                        <div class="my-4 select-option">
-                                            <label for="">Select Product</label>
-                                            <div class="my-2">
-                                                <input type="checkbox" >
+                   
+                                    </div>
+                                   
+                                    <div class="my-4 select-option">
+
+                                            <label for="">Select Product *</label>
+
+                                            <div class="my-2 d-flex align-items-center">
+                                                <input type="checkbox" id='google-drive' class='p-4 mt-1'  name='google' required>
+                                                <div class="img ms-2">
+                                                    <img src="<?php echo get_theme_file_uri();?>/assets/images/affiliat/drive.png" alt="">
+                                                    <label for="google-drive">Integrate Google Drive</label>
+                                                </div>
+                                                  
+                                            </div>
+
+                                            <div class="my-2 d-flex align-items-center">
+                                                <input type="checkbox" id='radio-player' class='p-4 mt-1' name='google' required >
+                                                <div class="img ms-2">
+                                                    <img src="<?php echo get_theme_file_uri();?>/assets/images/affiliat/radio-player.png" alt="">
+                                                    <label for="radio-player">Radio Player</label>
+                                                </div>
                                                 
                                             </div>
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/drive.png" class="img-fluid" alt="">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/thubnail-1.png" class="img-fluid" alt="">
-                                        </div>
-                                   
-                                    
+                                            
+                                            <div class="invalid-feedback">
+                                            Select Product(s)
+                                             </div> 
+                                    </div>
                                     <div class="my-4">
                                         <label for="pemail">PayPal account email address *</label>
-                                        <input type="email" id="pemail" placeholder="Payment Email" class="form-control" value="" required>
-                                        <div class="msg"></div>
+                                        <input type="email" id="pemail" name='paypal' placeholder="Payment Email" class="form-control" value="" required>
+                                        <div class="invalid-feedback">
+                                        Enter Paypal email address
+                                        </div>
                                     </div>
 
                                     <div class="my-4">
-                                        <label for="website">Where are going to promote the pluign? *</label>
-                                        <input type="text" id="website" placeholder="Website" class="form-control" required >
-                                        <div class="msg"></div>
-                                        <p>Enter the domain of your website or other website from where you plan to promote the plugin</p>
+                                        <label for="website">Where are you going to promote our plugin(s)? *</label>
+                                        <input type="text" id="website" name='website' placeholder="Website, Social Media, or Mobile App URL(s)" class="form-control" required >
+                                        <div class="invalid-feedback">
+                                        Enter website, social media, or mobile app URL(s)
+                                        </div>
+                                        <p>Enter the URL(s) of your website, social media or mobile app where you planned to promote our plugin(s)</p>
                                      </div>
 
                                 <div class="my-4">
-                                    <label for="">Promotion methods</label>
-
+                                    <label for="">Promotion methods *</label>
+                                <div>
                                     <div class="d-flex align-items-center checkb">
 
-                                    <input type="checkbox" id="media" class="me-2  mt-1 label-color" value=[] required>
-                                    
+                                    <input type="checkbox" id="media" name='social-media' class="me-2  mt-1 app" value=[] required>
+
                                     <label for="media" class="">Social media(Facebook , Twitter etc.. )</label>
 
                                     </div>
-                                        
 
-                                        <div class="d-flex align-items-center mt-1">
-                                            <input type="checkbox" id="app" class="me-2 mt-1 label-color" value="[]" required>
-                                        
-                                            <label for="app" class="">Mobile apps</label>
+
+                                    <div class="d-flex align-items-center mt-1">
+                                        <input type="checkbox" id="app" name="mobile-app" class="me-2 mt-1 app" value="[]" required>
+                                    
+                                        <label for="app" class="">Mobile apps</label>
+                                    </div>
+                                </div>
+
+                                <div class="invalid-feedback">
+                                Describe how will you promote our product(s)?
                                         </div>
                                         
                                     </div>
-                                    <div class="msg"></div>  
+                                    
                                     <div class="my-4">
-                                        <label for="socialsite">Website, Email, Social media statistics (optionals);</label>
+                                        <label for="socialsite">Website, Email, Social media statistics (optional)</label>
                                         <textarea name="" class="form-control" id="socialsite" cols="30"  rows="5"></textarea>
-                                        <div class="msg"></div>
+                                        
                                         <p class="mt-2">Please feel free to provide any relevent website or social media statistics e.g monthly unique site visits, Number of email subscriber followers (we will keep this information confidential) </p>
                                     </div>
 
                                     <div class="my-4">
-                                        <label for="site">How will you promote us? *</label>
-                                        <textarea name="" class="form-control" id="site" cols="30" rows="5" required ></textarea>
-                                        <div class="msg"></div>
-                                        <p class="mt-2">Please provide details on how you intend to promote integrate Google Drive (Please be specific as possible)</p>
+                                        <label for="site">Describe how will you promote our product(s)?  *</label>
+                                        <textarea name="" class="form-control" id="site" cols="30" name='site' rows="5" required ></textarea>
+                                        <div class="invalid-feedback">
+                                        Please provide details to promote our product(s)
+                                        </div>
+                                        <p class="mt-2">Provide details on how you intend to promote our product(s) (be specific as much as possible)</p>
                                     </div>
 
                                     <div class="my-4">
-                                        <input type="checkbox" id="agree">
+                                        <input type="checkbox" id="agree" name="check" required>
                                         
-                                        <label for="agree" class="ms-2">I agree to the <a href="#">Referrer Program </a>terms & conditions</label>
-                                        <div class="msg"></div>
+                                        <label for="agree" class="ms-2">I agree to the <a href="//docs.google.com/document/d/1Xa29IVNHGbuax-a2WBQBhp1JiHfnIOBNueNIdeD69U8/edit">Referrer Program </a>terms & conditions</label>
+                                        <div class="invalid-feedback">
+                                                Please check
+                                        </div>
                                     </div>
                                    
                                     <div class="my-4">

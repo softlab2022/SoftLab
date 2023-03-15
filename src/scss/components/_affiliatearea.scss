@@ -9,23 +9,21 @@
     padding: 50px;
     border: 1px solid transparent;
 
-    .card-header {
-      padding: 0.5rem 1rem;
-      margin-bottom: 0;
-      background-color: transparent;
-      border-bottom: 1px solid transparent;
-      h2 {
-        font-size: 27px;
-        font-weight: 700;
-        color: #222222;
-        line-height: 48px;
-      }
-    }
+    
     .card-body {
       form {
         .my-4 {
           .checkb {
             margin-bottom: -10px;
+          }
+        }
+        .my-4{
+          &.select-option{
+            .my-2{
+              input[type='checkbox']{
+                padding:6px;
+            }
+            }
           }
         }
         label {
