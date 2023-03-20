@@ -313,6 +313,18 @@
           }
         }
       }
+      &-integrate-dropbox {
+        a {
+          color: #fff;
+          background-color: #0061FF;
+          border-color: #0061FF;
+
+          &:hover {
+            color: #0061FF;
+            background: #fff;
+          }
+        }
+      }
 
       &-radio-player {
         a {

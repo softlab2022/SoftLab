@@ -69,9 +69,16 @@ $features = [
 
 	],
 	[
-		'title'       => 'Photo Gallery',
+		'title'       => 'Gallery',
 		'description' => 'Display your images in a lightbox grid photo gallery. The gallery will be automatically created from the selected folders.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GE1vRI1iOK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => true,
+
+	],
+	[
+		'title'       => 'Slider Carousel',
+		'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
+		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/dZw0z84t-5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],

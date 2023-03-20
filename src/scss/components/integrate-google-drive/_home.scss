@@ -88,7 +88,7 @@
 .integrate-google-drive-hero-image {
 
   .hero-image {
-    margin: -220px 0 0 -100px;
+    margin: -250px 0 0 -100px;
     position: relative;
 
     &:after {
@@ -147,7 +147,7 @@
   }
 
   .feature-item {
-    padding: 100px 0;
+    padding: 70px 0;
 
     .feature-title {
       font-weight: 700;
@@ -529,10 +529,10 @@
 
       p {
         font-weight: 400;
-        font-size: .8rem;
+        font-size: .9rem;
         line-height: 150%;
         color: $p_color;
-        padding: 0 18%;
+        padding: 0 6%;
       }
     }
   }
@@ -581,7 +581,7 @@
 
       .ex-text {
         p {
-          padding: 0 5%;
+          padding: 0;
         }
       }
     }
@@ -592,8 +592,7 @@
 
 /**---------- how to use scss ----------**/
 #how-to-use {
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding: 0;
 
   .how-to-use-head {
     h1 {
