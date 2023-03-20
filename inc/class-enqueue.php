@@ -28,6 +28,7 @@ class SoftLa {
 			'integrate-google-drive-file-uploader',
 			'integrate-google-drive-photo-gallery',
 			'integrate-google-drive-media-player',
+			'integrate-googlle-drive-slider-carousel',
 
 		] ) ) {
 
