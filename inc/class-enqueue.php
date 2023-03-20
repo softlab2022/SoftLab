@@ -38,6 +38,7 @@ class SoftLa {
 			'radio-player-pricing',
 			'radio-player-http-player',
 			'radio-player-multiple-player-skins',
+			'radio-player-ads',
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
@@ -49,7 +50,7 @@ class SoftLa {
 			'reader-mode-pricing',
 		] ) ) {
 
-			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
+			wp_enqueue_style( 'reader-mode-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
 
 		} 
 
@@ -63,6 +64,18 @@ class SoftLa {
 			wp_enqueue_style( 'dracula-main', get_theme_file_uri( 'assets/css/dracula-main.css' ) );
 
 		} 
+		else if ( in_array( $file_name, [
+			'integrate-dropbox',
+			'integrate-dropbox-pricing',
+			'integrate-dropbox-file-browser',
+			'integrate-dropbox-file-uploader',
+			'integrate-dropbox-photo-gallery',
+			'integrate-dropbox-media-player',
+		] ) ) {
+
+			wp_enqueue_style( 'integrate-dropbox-main', get_theme_file_uri( 'assets/css/integrate-dropbox-main.css' ) );
+
+		} 
 		
 		else if ( in_array( $file_name, [
 			'wp-radio',
@@ -72,6 +85,7 @@ class SoftLa {
 			'wp-radio-proxy-player',
 			'wp-radio-image-import',
 		] ) ) {
+			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
 			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
 
 		} else {
@@ -101,9 +115,22 @@ class SoftLa {
 
 		wp_enqueue_script( 'main', get_theme_file_uri( 'assets/js/main.js' ), array( 'jquery' ), $theme_version, true );
 
+		wp_localize_script('main', 'softlab', [
+			'ajax_url' => admin_url( 'admin-ajax.php' ),
+		]);
+
+
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}
+
+		// if(is_page_template('affiliates-area.php')){
+		// 	wp_enqueue_script( 'ajaxscript-js', get_theme_file_uri(  'assets/vendor/ajax/ajax.js' ), array( 'jquery' ), $theme_version, true );
+
+		// 	//$test = admin_url( 'admin-ajax.php' );
+		// }
+		
+
 
 		//If pricing page, enqueue the freemius script
 		$is_pricing_page = in_array( $file_name, [
@@ -115,7 +142,9 @@ class SoftLa {
 			'wp-radio-proxy-player',
 			'wp-radio-image-import',
 			'wp-radio-ads-player',
-			'dracula-pricing'
+			'dracula-pricing',
+			'radio-player-ads',
+			'integrate-dropbox-pricing'
 		] );
 
 		if ( $is_pricing_page ) {
@@ -134,3 +163,4 @@ class SoftLa {
 }
 
 SoftLa::instance();
+

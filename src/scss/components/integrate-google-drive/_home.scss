@@ -19,7 +19,7 @@
       font-size: 1.2rem;
       color: $p_color;
       line-height: 150%;
-      padding: 2rem 5rem;
+      padding: 2rem 1rem;
     }
 
     a {
@@ -88,7 +88,7 @@
 .integrate-google-drive-hero-image {
 
   .hero-image {
-    margin: -220px 0 0 -100px;
+    margin: -250px 0 0 -100px;
     position: relative;
 
     &:after {
@@ -147,7 +147,7 @@
   }
 
   .feature-item {
-    padding: 100px 0;
+    padding: 70px 0;
 
     .feature-title {
       font-weight: 700;
@@ -305,6 +305,7 @@
       h1 {
         font-size: 2.5rem;
       }
+
       p {
         padding: 2rem 0;
       }
@@ -313,16 +314,16 @@
       .feature-title {
         font-size: 2rem;
       }
-      
+
     }
-    
+
     .feature-item-content {
-      padding-right: 0!important;
+      padding-right: 0 !important;
       margin-top: 40px;
     }
     .feature-shortcode-builder {
       .feature-item-content {
-        padding-left: 0!important;
+        padding-left: 0 !important;
       }
     }
   }
@@ -333,21 +334,24 @@
       h1 {
         font-size: 2rem;
       }
+
       p {
         padding: 2rem 0;
       }
     }
     .feature-photo-gallery {
-      .feature-item-img{
-        padding-left: 0!important;
+      .feature-item-img {
+        padding-left: 0 !important;
       }
     }
 
     .feature-item {
       padding: 50px 0;
+
       .feature-title {
         font-size: 2rem;
       }
+
       .feature-integrations {
         justify-content: center;
       }
@@ -422,6 +426,7 @@
     box-shadow: inset 0px 0px 40px 20px white;
     opacity: .08;
   }
+
   @media (max-width: 1199.98px) {
     .feature-head {
       h1 {
@@ -436,6 +441,7 @@
       h1 {
         font-size: 2rem;
       }
+
       p {
         padding: 0;
       }
@@ -496,7 +502,7 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    height:300px;
+    height: 300px;
     margin-bottom: 25px;
     transition: all 0.3s ease-in-out;
 
@@ -529,13 +535,14 @@
 
       p {
         font-weight: 400;
-        font-size: .8rem;
+        font-size: .9rem;
         line-height: 150%;
         color: $p_color;
-        padding: 0 18%;
+        padding: 0 6%;
       }
     }
   }
+
   @media (max-width: 1199.98px) {
     .ex-feature-head {
       h1 {
@@ -581,7 +588,7 @@
 
       .ex-text {
         p {
-          padding: 0 5%;
+          padding: 0;
         }
       }
     }
@@ -592,8 +599,7 @@
 
 /**---------- how to use scss ----------**/
 #how-to-use {
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding: 100px 0;
 
   .how-to-use-head {
     h1 {
@@ -992,14 +998,14 @@
   }
 
   @media(max-width: 991.98px) {
-    .cta-content{
+    .cta-content {
       p {
         padding-right: 0;
       }
     }
   }
   @media(max-width: 767.98px) {
-    .cta-content{
+    .cta-content {
       p {
         padding-right: 0;
       }

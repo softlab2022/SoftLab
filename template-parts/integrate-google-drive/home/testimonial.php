@@ -21,16 +21,16 @@ $testimonials = [
 		'name'        => 'brianray',
     ],
 	[
-		'description' => '“ Perfect, Simple, Works well, and lightning fast support”',
-		'name'        => 'rindevofficial',
+		'description' => '“ This plugin is amazing. Works perfectly and it’s very versatile. thank you for creating this and for your support!”',
+		'name'        => 'rbeltranpuig',
     ],
 	[
 		'description' => '“I had a problem with removing the blue frame of this plugin,tech support gave me a solution in just a few minutes just add code .igd-browser-wrap {border: none;}and problem solved”',
 		'name'        => 'ANC',
     ],
 	[
-		'description' => '“ Fine for me, très bonne assistance, bon travail pour moi!”',
-		'name'        => 'isabrie',
+		'description' => '“The plugin is great, this plugin solve a bid issue of mine and their support is super great”',
+		'name'        => 'sahriarfahmid2',
     ],
 ];
 

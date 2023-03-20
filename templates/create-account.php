@@ -88,7 +88,8 @@ get_header();
         </div>
     </section>
 
-
+<!-- Sticky Notification -->
+<?php get_template_part( 'template-parts/sticky-banner' ); ?>
 <!---==== new pricing area ====---->
 <?php
 
