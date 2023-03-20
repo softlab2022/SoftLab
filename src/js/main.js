@@ -17,57 +17,84 @@ import "./components/sticky-banner";
 
       app.changeDraculaHeroImage();
 
-      // data send to server
+      //product check
+      const evalidate = document.getElementById('e-validate');
+      const emailtype = document.querySelector('input[name=email]');
+      //email check
 
+        const emailCheck =(email)=>{
+          let paterns=/^[a-z0-9_\.]{1,}@[a-z]{2,}\.[a-z]{2,5}$/;
+
+          return paterns.test(email);
+        }
+     //email validation
+
+      emailtype.onkeyup=(e)=>{
+        let email = e.target.value;
+        // console.log(emailCheck(email));
+        if(emailCheck(email)){
+            evalidate.textContent='a valid email address';
+            evalidate.className='text-info';
+        }else{
+            evalidate.textContent='please Enter a valid email address';
+            evalidate.className='text-danger';
+        }
+
+      }
+
+
+
+      var forms = document.querySelectorAll('.needs-validation');
       // console.log(softlab.ajax_url);
-  
-      $("#submit").on("click", function (e) {
-        e.preventDefault();
+      Array.prototype.slice.call(forms).forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
 
-        var name = $("#name").val();
-        var email = $("#email").val();
-        var pemail = $("#pemail").val();
-        var website = $("#website").val();
-        var site = $("#site").val();
-        var media = $("#media").val();
-        var app = $("#app").val();
-        var socialsite = $("#socialsite").val();
-        var agree = $("#agree").val();
+      //   var name = $("#name").val();
+      //   var email = $("#email").val();
+      //   var pemail = $("#pemail").val();
+      //   var website = $("#website").val();
+      //   var site = $("#site").val();
+      //   var media = $("#media").val();
+      //   var app = $("#app").val();
+      //   var googledrive = $("#google-drive").val();
+      //   var radioplayer = $("#radio-player").val();
+      //  // var socialsite = $("#socialsite").val();
+      //   var agree = $("#agree").val();
 
-            if(!name || !username || !pemail || !email || !website || !site || !media || !app || !socialsite || !agree){
-
-                $('.msg').html('All fields are required');
-               return true;
-             }else{
-               $('.msg').html('thenks you very much');
-               
-           }
-      
-
-
-        $("#submit").val("Loading...");
-
-        $.post(
-          softlab.ajax_url,
-          {
-            action: "affiliate_register",
-            name: name,
-            email: email,
-            pemail: pemail,
-            website: website,
-            site: site,
-            media: media,
-            app: app,
-            socialsite: socialsite,
-            agree: agree,
-          },
-        function (data) {
-            console.log(data);
-            $("#submit").val("Register");
-            
+      //   $("#submit").val("Loading...");
+      //   $.post(
+      //     softlab.ajax_url,
+      //     {
+      //       action: "affiliate_register",
+      //       name: name,
+      //       email: email,
+      //       pemail: pemail,
+      //       googledrive:googledrive,
+      //       radioplayer:radioplayer,
+      //       website: website,
+      //       site: site,
+      //       media: media,
+      //       app: app,
+      //       socialsite: socialsite,
+      //       agree: agree,
+      //     },
+      //   function (data) {
+      //       console.log(data);
+      //       $("#submit").val("Register");
+      //     }
+      //   );
+          
+          
+            event.preventDefault();
+            event.stopPropagation();
           }
-        );
+  
+          form.classList.add('was-validated')
+        });
       });
+  
+      
     
     },
     
