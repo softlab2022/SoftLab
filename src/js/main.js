@@ -295,6 +295,8 @@ import "./components/sticky-banner";
     changeDraculaHeroImage: function () {
       const image = $(".dracula-hero-image");
 
+      if(!image.length) return;
+
       setInterval(() => {
         const imageSrc = image.attr("src");
         const isDark = imageSrc.includes("hero-dark");
