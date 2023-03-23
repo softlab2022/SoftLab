@@ -2,7 +2,7 @@
 .radio-player-hero-area {
   background: url("../images/radio-player/hero-bg-shapes.png") no-repeat;
   background-size: cover;
-  padding: 200px 0 100px 0;
+  padding: 200px 0 350px 0;
 
   .hero-content {
     .hero-header {
@@ -111,13 +111,15 @@
 
   .feature-item-img {
     text-align: right;
-   
+
   }
+
   .embed-code {
     img {
-      margin-bottom: 60px!important;
+      margin-bottom: 60px !important;
     }
   }
+
   .feature-wrap {
     margin: 60px 0;
 
@@ -364,6 +366,7 @@
 
 
 }
+
 /**-----ex-feature area------**/
 
 #ex-feature {
@@ -533,6 +536,7 @@
     justify-content: center;
     align-items: center;
   }
+
   @media (max-width: 767px) {
     .item-img {
       width: 180px;
@@ -544,10 +548,12 @@
 #radio-player-option {
   padding: 60px 0 60px 0;
   background-color: #fff;
+
   .option {
     background-color: #F9FAFB;
     padding: 20px;
     border-radius: 30px;
+
     .section-head {
       h1 {
         font-weight: 700;
@@ -557,6 +563,7 @@
         margin-bottom: 30px;
       }
     }
+
     .add-text {
       span {
         font-weight: 700;
@@ -564,6 +571,7 @@
         line-height: 120%;
         color: #151826;
       }
+
       p {
         font-weight: 400;
         font-size: 1rem;
@@ -573,6 +581,7 @@
         padding-top: 20px;
       }
     }
+
     .add-but {
       a {
         text-decoration: none;
@@ -582,22 +591,26 @@
         font-size: 1rem;
         text-transform: capitalize;
       }
+
       .bt {
         color: #01AA47;
         border: 1px solid #01AA47;
-        &:hover{
+
+        &:hover {
           background-color: #01AA47;
           color: #fff;
           transition: all linear .4s;
         }
       }
+
       .bt1 {
         background-color: #01AA47;
         border: 1px solid #01AA47;
         color: #fff;
         margin-left: 25px;
         transition: all linear .4s;
-        &:hover{
+
+        &:hover {
           background-color: #fff;
           color: #01AA47;
           transition: all linear .4s;
@@ -605,51 +618,57 @@
       }
     }
   }
+
   /**---------- responsive-area scss start ----------**/
   @media (min-width: 1200px) {
     //Extra large
-    }
+  }
 
-    @media (min-width: 992px) and (max-width: 1199px) {
-        //Laptop
-      
-    }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    //Laptop
 
-    @media (min-width: 768px) and (max-width: 991px)  {
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
     //Tablet
-      .option {
-        .add-text {
-          span {
-            font-size: 1rem;
-          }
-          p {
-            font-size: .785rem;
-          }
+    .option {
+      .add-text {
+        span {
+          font-size: 1rem;
         }
-        .add-but {
-          a {
-            padding: 10px 23px;
-            font-size: .785rem;
-          }
-        }
-      }
-    }
 
-    @media (min-width: 320px) and (max-width: 767px) {
-    //Mobile
-      .option {
-        text-align: center;
-        .add-text {
-          margin-top: 20px;
-          p {
-            padding-bottom: 40px;
-          }
+        p {
+          font-size: .785rem;
         }
-        .add-but {
-          margin-bottom: 25px;
+      }
+
+      .add-but {
+        a {
+          padding: 10px 23px;
+          font-size: .785rem;
         }
       }
     }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    //Mobile
+    .option {
+      text-align: center;
+
+      .add-text {
+        margin-top: 20px;
+
+        p {
+          padding-bottom: 40px;
+        }
+      }
+
+      .add-but {
+        margin-bottom: 25px;
+      }
+    }
+  }
   /**---------- responsive-area scss end ----------**/
 }
 

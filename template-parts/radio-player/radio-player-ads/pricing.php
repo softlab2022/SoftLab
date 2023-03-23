@@ -1,4 +1,4 @@
-<section class="radio-player-addon-pricing ads-player-pricing">
+<section class="radio-player-addon-pricing ads-player-pricing" id="addon-pricing">
     <div class="container">
 
         <div class="row">
@@ -8,8 +8,8 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png" alt="image-1">
                     </div>
                     <span>Pricing plan</span>
-                    <h2>Simple Pricing, Unbeatable Value</h2>
-                    <p>Join 1000+ User's Happy Community</p>
+                    <h2>Flexible Pricing Plans to Meet Your Needs</h2>
+                    <p>Choose the Plan that Works Best for You and Your Station</p>
                 </div>
             </div>
         </div>

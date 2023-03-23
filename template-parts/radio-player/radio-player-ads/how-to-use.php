@@ -6,8 +6,8 @@
                     <div class="imgs">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png" alt="image-1">
                     </div>
-                    <span>How it's works</span>
-                    <h5>Know how people will actually listen.</h5>
+                    <span>How Ads Player Add-on Works</span>
+                    <h5> Learn How Our Add-On Enhances Your Audio Ad Experience.</h5>
                 </div>
             </div>
         </div>
