@@ -26,7 +26,12 @@ import "./components/sticky-banner";
             //Change Dracula Hero Image
             app.changeDraculaHeroImage();
 
-            
+            // Handle Affiliate Form
+            $("#affiliate-register-form").on("submit", app.handleAffiliateForm);
+
+            $("[name='product[]']").on("change", app.handleProductChange);
+            $("[name='method[]']").on("change", app.handleMethodChange);
+
 
         },
 
@@ -245,6 +250,94 @@ import "./components/sticky-banner";
             }, 2000);
         },
 
+        handleAffiliateForm: function (e) {
+            e.preventDefault();
+
+            var failed = false;
+
+            // Product selection
+            const products = $("[name='product[]']:checked").map(function () {
+                return $(this).val();
+            });
+
+            if (!products.length) {
+                $("[name='product[]']").attr("required", true);
+                failed = true;
+            } else {
+                $("[name='product[]']").attr("required", false);
+            }
+
+            // Methods Selection
+            const methods = $("[name='method[]']:checked").map(function () {
+                return $(this).val();
+            });
+
+            if (!methods.length) {
+                $("[name='method[]']").attr("required", true);
+                failed = true;
+            } else {
+                $("[name='method[]']").attr("required", false);
+            }
+
+            //bootstrap validation
+            const form = $(this).get(0);
+
+            if (form.checkValidity() === false) {
+                failed = true;
+
+                $(form).addClass('was-validated');
+            }
+
+            if (!failed) {
+                const name = $("#name").val();
+                const email = $("#email").val();
+                const pemail = $("#pemail").val();
+                const website = $("#website").val();
+                const statistics = $("#statistics").val();
+                const promotion_method_description = $("#promotion_method_description").val();
+
+                wp.ajax.send('affiliate_register', {
+                    data: {
+                        name: name,
+                        email: email,
+                        pemail: pemail,
+                        products: products,
+                        website: website,
+                        methods: methods,
+                        statistics: statistics,
+                        promotion_method_description: promotion_method_description,
+                    },
+                    beforeSend: () => {
+                        $('#submit').find('.fa-spinner').addClass('d-none');
+                    },
+                    success: (data) => {
+                        console.log(data);
+                    },
+                    error: (error) => {
+                        console.log(error);
+                    },
+                    complete: () => {
+                        $('#submit').find('.fa-spinner').removeClass('d-none');
+                    }
+                });
+            }
+        },
+
+        handleProductChange: function () {
+            if ($("[name='product[]']:checked").length) {
+                $("[name='product[]']").attr("required", false);
+            } else {
+                $("[name='product[]']").attr("required", true);
+            }
+        },
+
+        handleMethodChange: function () {
+            if ($("[name='method[]']:checked").length) {
+                $("[name='method[]']").attr("required", false);
+            } else {
+                $("[name='method[]']").attr("required", true);
+            }
+        },
 
     };
 

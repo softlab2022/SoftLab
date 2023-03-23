@@ -31,6 +31,7 @@ get_header();
             </div>
         </div>
     </div>
+
     <!--about section-->
     <section class="about-area">
         <div class="container">
