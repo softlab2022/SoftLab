@@ -465,6 +465,11 @@
 
   .use-img {
     position: relative;
+
+    img {
+      border-radius: 20px;
+      box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+    }
   }
 
   .how-butt {

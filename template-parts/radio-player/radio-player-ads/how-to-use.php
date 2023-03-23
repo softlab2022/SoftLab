@@ -15,9 +15,9 @@
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="use-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/wp-bg.png" alt="wp-bg">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/how-to-use-bg.png" alt="how-to-use-bg">
                     <div class="how-butt ripple">
-                        <a class="my-video-links" data-maxwidth="850px" data-autoplay="true" data-vbtype="video" href="https://youtu.be/njoP0RnC-94">
+                        <a class="my-video-links" data-maxwidth="850px" data-autoplay="true" data-vbtype="video" href="https://youtu.be/J3-awEWXFIU">
                             <i class="fa fa-play"></i>
                         </a>
                     </div>
