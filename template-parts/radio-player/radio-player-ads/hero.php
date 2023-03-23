@@ -1,4 +1,4 @@
-<section class="wp-demo-hero-area">
+<section class="radio-demo-hero-area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 m-auto">

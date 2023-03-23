@@ -342,5 +342,10 @@ import "./components/sticky-banner";
     };
 
     $(document).ready(app.init);
+    
+    //video js for radio player ads
+    new VenoBox({
+        selector: '.my-video-links',
+    });
 
 })(jQuery);

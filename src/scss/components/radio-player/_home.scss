@@ -99,8 +99,7 @@
     }
   }
 
-  @media (max-width: 767px) {
-  }
+  @media (max-width: 767px) {}
 
 }
 
@@ -121,7 +120,8 @@
   }
 
   .feature-wrap {
-    margin: 60px 0;
+    margin: 0;
+    margin-bottom: 130px;
 
     &.flex-column-reverse {
       .feature-item-img {
@@ -224,7 +224,7 @@
       font-size: 3rem;
       color: $h1_color;
       font-weight: 700;
-      padding-bottom: 25px;
+      padding-bottom: 60px;
       padding-top: 25px;
     }
 
@@ -386,7 +386,7 @@
       font-size: 1rem;
       line-height: 150%;
       color: #5c637e;
-      padding: 0 150px;
+      padding: 0;
       margin-bottom: 60px;
     }
   }
@@ -445,6 +445,7 @@
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
+
     //Laptop
     .ex-head {
       h1 {
@@ -456,6 +457,7 @@
         font-size: .785rem;
       }
     }
+
     .ex-feature-item {
       .item-text {
         h5 {
@@ -472,6 +474,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
+
     //Tablet
     .ex-head {
       h1 {
@@ -485,6 +488,7 @@
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
+
     //Mobile
     .ex-head {
       h1 {
@@ -498,6 +502,7 @@
     }
 
   }
+
   /**---------- responsive-area scss end ----------**/
 
 }
@@ -549,20 +554,22 @@
   padding: 60px 0 60px 0;
   background-color: #fff;
 
+  .section-head {
+    h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+      line-height: 120%;
+      color: #151826;
+      margin-bottom: 60px;
+    }
+  }
+
   .option {
     background-color: #F9FAFB;
     padding: 20px;
     border-radius: 30px;
 
-    .section-head {
-      h1 {
-        font-weight: 700;
-        font-size: 3rem;
-        line-height: 120%;
-        color: #151826;
-        margin-bottom: 30px;
-      }
-    }
+
 
     .add-text {
       span {
@@ -630,6 +637,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
+
     //Tablet
     .option {
       .add-text {
@@ -652,6 +660,7 @@
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
+
     //Mobile
     .option {
       text-align: center;
@@ -669,6 +678,7 @@
       }
     }
   }
+
   /**---------- responsive-area scss end ----------**/
 }
 
@@ -965,4 +975,3 @@
   }
 
 }
-
