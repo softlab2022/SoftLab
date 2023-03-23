@@ -358,4 +358,7 @@ import "./components/sticky-banner";
       },
     ],
   });
+  new VenoBox({
+    selector: '.my-video-links',
+  });
 })(jQuery);

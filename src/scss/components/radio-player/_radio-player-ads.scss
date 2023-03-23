@@ -1,5 +1,5 @@
 /**---------- wp-radio-station-Hero Area ----------**/
-.wp-demo-hero-area {
+.radio-demo-hero-area {
   background: #F2FDFD;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -481,6 +481,14 @@
       border: 2px solid #BEAAC8;
       color: #fff;
       font-size: 25px;
+    }
+    
+  }
+
+  .vbox-overlay {
+    .vbox-close {
+      right: 200px!important;
+      top: 20px!important;
     }
   }
 

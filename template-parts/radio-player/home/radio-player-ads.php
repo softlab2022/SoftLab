@@ -1,5 +1,5 @@
 <section id="radio-player-option">
-    <div class="container option ">
+    <div class="container ">
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
@@ -7,7 +7,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row align-items-center option">
             <div class="col-lg-2 col-md-2 m-auto">
                 <div class="ad-logo">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/audio-ads.png" alt="audio-ads">
