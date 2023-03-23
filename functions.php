@@ -1,10 +1,8 @@
 <?php
 
 
-
 include_once get_theme_file_path( 'inc/class-enqueue.php' );
 include_once get_theme_file_path( 'inc/class-nav.php' );
-
 
 
 /**
@@ -360,7 +358,7 @@ if ( ! function_exists( 'softlab_comment' ) ) :
 				break;
 			default:
 				?>
-                <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
+            <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
                 <article id="comment-<?php comment_ID(); ?>" class="comment">
                     <footer class="comment-meta">
                         <div class="comment-author vcard">
@@ -511,60 +509,85 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 
 
 // ajax backend configuration
-function softlab_affiliate_register_backend_action(){
+function softlab_affiliate_register_backend_action() {
 
-	$name= $_POST['name'];
-	$media= $_POST['media'];
-	$googledrive= $_POST['googledrive'];
-	$radioplayer= $_POST['radioplayer'];
-	$email= $_POST['email'];
-	$pemail= $_POST['pemail'];
-	$website= $_POST['website'];
-	$site= $_POST['websitesite'];
-	$app= $_POST['app'];
-	$socialsite= $_POST['socialsite'];
-	$agree= $_POST['agree'];
 
-  define( 'FS__API_SCOPE', 'developer' );
-  define( 'FS__API_DEV_ID', 5043 );
-  define( 'FS__API_PUBLIC_KEY', 'pk_a98c8f6df1cb2964b726c7ac7686e' );
-  define( 'FS__API_SECRET_KEY', 'sk_#_FrNZ[vglb%c^1=MG{<r=cut&pt<' );
+	$name                         = $_POST['name'];
+	$media                        = $_POST['media'];
+	$email                        = $_POST['email'];
+	$pemail                       = $_POST['pemail'];
+	$domain                       = $_POST['domain'];
+	$products                     = $_POST['products'];
+	$methods                      = ! empty( $_POST['methods'] ) ? implode( ',', $_POST['methods'] ) : '';
+	$statistics                   = ! empty( $_POST['statistics'] ) ? implode( ',', $_POST['statistics'] ) : '';
+	$promotion_method_description = $_POST['promotion_method_description'];
 
-	if(!class_exists('Freemius_Api')){
-		include_once get_theme_file_path('freemius-sdk/FreemiusBase.php');
-		include_once get_theme_file_path('freemius-sdk/Freemius.php');
+	wp_send_json_success( 'success' );
+
+	define( 'FS__API_SCOPE', 'developer' );
+	define( 'FS__API_DEV_ID', 5043 );
+	define( 'FS__API_PUBLIC_KEY', 'pk_a98c8f6df1cb2964b726c7ac7686e' );
+	define( 'FS__API_SECRET_KEY', 'sk_#_FrNZ[vglb%c^1=MG{<r=cut&pt<' );
+
+	if ( ! class_exists( 'Freemius_Api' ) ) {
+		include_once get_theme_file_path( 'freemius-api/FreemiusBase.php' );
+		include_once get_theme_file_path( 'freemius-api/Freemius.php' );
 	}
-  
-  // Init SDK.
-  $api = new Freemius_Api(FS__API_SCOPE, FS__API_DEV_ID, FS__API_PUBLIC_KEY, FS__API_SECRET_KEY);
 
-  $productID = '9618';
-  $affiliateProgramTermsID = '1449';
-  
-  // You can get the product's affiliate program terms ID from the AFFILIATION section, it's stated right in the 1st tab.
-//   $api->Api("/plugins/{$productID}/aff/{$affiliateProgramTermsID}/affiliates.json", 'POST', array(
-//     'name'                         => $name,
-//     'email'                        => $email,
-//     'paypal_email'                 => $pemail,
-//     // Should not include an HTTP/S protocol.
-//     'domain'                       => 'affiliate-main-site.com',
-//     // An optional param to include additional domains/sub-domains where the applicant will promote your product.
-//     'additional_domains'           => array('affiliate-2nd-site.com', 'affiliate-3rd-site.com'),
-//     // Optional comma-separated combination of the following: 'social_media' and 'mobile_apps'.
-//     // This is useful if by default you don't allow promoting through mobile or social, to manually (& optionally) create custom terms for the applicant after approval.
-//     'promotional_methods'          => 'social_media,mobile_apps',
-//     // An optional free text where an applicant can provide some stats data about their reach.
-//     'stats_description'            => '100k monthly PVs. 1,000 Instagram followers. I manage a FB group of 20,000 members.',
-//     // An optional free text when an applicant can explain how they are planning to promote your product.
-//     'promotion_method_description' => 'I am going to write a review of your plugin and sharing through my social reach of 100k followers.',
-//     // An option applicant state. Defaults to 'active'. One of the following states: 'active', 'pending', 'rejected', 'suspended', 'blocked'.
-//     'state'                        => 'pending',
-//   ));
-	
+	// Init SDK.
+	$api = new Freemius_Api( FS__API_SCOPE, FS__API_DEV_ID, FS__API_PUBLIC_KEY, FS__API_SECRET_KEY );
 
-die();
+
+	if ( empty( $products ) ) {
+		wp_send_json_error( 'Please select at least one product.' );
+	}
+
+	foreach ( $products as $product ) {
+		if ( ! in_array( $product, array( 'radio-player', 'integrate-google-drive' ) ) ) {
+			wp_send_json_error( 'Invalid product selected.' );
+		}
+
+		if ( 'radio-player' == $products ) {
+			$productID               = '8684';
+			$affiliateProgramTermsID = '1593';
+		} else {
+			$productID               = '9618';
+			$affiliateProgramTermsID = '1449';
+		}
+
+
+		// You can get the product's affiliate program terms ID from the AFFILIATION section, it's stated right in the 1st tab.
+		$api->Api( "/plugins/{$productID}/aff/{$affiliateProgramTermsID}/affiliates.json", 'POST', array(
+			'name'                         => $name,
+			'email'                        => $email,
+			'paypal_email'                 => $pemail,
+
+			// Should not include an HTTP/S protocol.
+			'domain'                       => str_replace( array( 'http://', 'https://' ), '', $domain ),
+
+			// An optional param to include additional domains where the applicant will promote your product.
+			//'additional_domains'           => array('affiliate-2nd-site.com', 'affiliate-3rd-site.com'),
+
+			// Optional comma-separated combination of the following: 'social_media' and 'mobile_apps'.
+			// This is useful if by default you don't allow promoting through mobile or social, to manually (& optionally) create custom terms for the applicant after approval.
+			'promotional_methods'          => $methods,
+
+			// An optional free text where an applicant can provide some stats data about their reach.
+			'stats_description'            => $statistics,
+
+			// An optional free text when an applicant can explain how they are planning to promote your product.
+			'promotion_method_description' => $promotion_method_description,
+
+			// An option applicant state. Defaults to 'active'. One of the following states: 'active', 'pending', 'rejected', 'suspended', 'blocked'.
+			'state'                        => 'pending',
+
+		) );
+
+	}
+
+	wp_send_json_success( 'Thank you for your application. We will review it and get back to you shortly.' );
 
 }
 
-add_action('wp_ajax_affiliate_register', 'softlab_affiliate_register_backend_action');
+add_action( 'wp_ajax_affiliate_register', 'softlab_affiliate_register_backend_action' );
 

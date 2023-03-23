@@ -6,8 +6,8 @@
                     <div class="imgs">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png" alt="image-1">
                     </div>
-                    <span>features</span>
-                    <h5>Let’s Explore our Valuable Awesome Features</h5>
+                    <span>Features</span>
+                    <h5>Advanced Audio Ad Features for Optimized Management</h5>
                 </div>
             </div>
 

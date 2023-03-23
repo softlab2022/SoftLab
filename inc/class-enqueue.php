@@ -28,6 +28,7 @@ class SoftLa {
 			'integrate-google-drive-file-uploader',
 			'integrate-google-drive-photo-gallery',
 			'integrate-google-drive-media-player',
+			'integrate-googlle-drive-slider-carousel',
 
 		] ) ) {
 
@@ -101,6 +102,7 @@ class SoftLa {
 		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3' );
 		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version );
 		wp_enqueue_style( 'twenty-twenty', get_theme_file_uri( 'assets/vendor/twenty/twentytwenty.css' ), array(), $theme_version );
+		wp_enqueue_style( 'venobox', get_theme_file_uri( 'assets/vendor/venobox/venobox.min.css' ), array(), $theme_version );
 		wp_enqueue_style( 'style', get_stylesheet_uri(), array( 'bootstrap' ), $theme_version );
 
 
@@ -110,6 +112,7 @@ class SoftLa {
 		wp_enqueue_script( 'counter', get_theme_file_uri( 'assets/vendor/counter/jquery.counterup.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'waypoint', get_theme_file_uri( 'assets/vendor/counter/waypoints.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'event', get_theme_file_uri( 'assets/vendor/twenty/jquery.event.move.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'venobox', get_theme_file_uri( 'assets/vendor/venobox/venobox.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'twenty-twenty', get_theme_file_uri( 'assets/vendor/twenty/jquery.twentytwenty.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'masonary', get_theme_file_uri( 'assets/vendor/masonary.js' ), array(), '4.2.2', true );
 
