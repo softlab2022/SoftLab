@@ -17,87 +17,94 @@ import "./components/sticky-banner";
 
       app.changeDraculaHeroImage();
 
-      //product check
-      const evalidate = document.getElementById('e-validate');
-      const emailtype = document.querySelector('input[name=email]');
-      //email check
+      // var form =$('#affiliate-register');
 
-        const emailCheck =(email)=>{
-          let paterns=/^[a-z0-9_\.]{1,}@[a-z]{2,}\.[a-z]{2,5}$/;
+      // form.on('submit', function(e){
+      //   e.preventDefault();
 
-          return paterns.test(email);
+      //   form.addClass("was-validated");
+
+      // });
+
+      const form = document.getElementById("affiliate-register");
+      form.onsubmit = (e) => {
+        // e.preventDefault();
+
+        // const products = $("[name='product[]']:checked").map(function () {
+        //   return $(this).val();
+        // });
+
+        // if (!products.length) {
+        //   $("#product-error").removeClass("d-none").addClass('d-block')
+        //   return;
+        // } else {
+        //   $("#product-error").addClass("d-none").removeClass('d-block')
+
+        // }
+
+        var failed = false;
+
+        if ($("[name='product[]']:checked").length == 0) {
+          $("[name='product[]']").attr("required", true);
+          failed = true;
+        } else {
+          $("[name='product[]']").attr("required", false);
         }
-     //email validation
-
-      emailtype.onkeyup=(e)=>{
-        let email = e.target.value;
-        // console.log(emailCheck(email));
-        if(emailCheck(email)){
-            evalidate.textContent='a valid email address';
-            evalidate.className='text-info';
+        //select app
+        if($("[name='method[]']:checked").length==0) {
+          $("[name='method[]']").attr("required", true);
+          failed = true;
         }else{
-            evalidate.textContent='please Enter a valid email address';
-            evalidate.className='text-danger';
+          $("[name='method[]']").attr("required", false);
         }
 
-      }
+        if (form.checkValidity() === false) {
+          failed = true;
+        }
 
+        if (failed == true) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
 
+        form.classList.add("was-validated");
 
-      var forms = document.querySelectorAll('.needs-validation');
-      // console.log(softlab.ajax_url);
-      Array.prototype.slice.call(forms).forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
+        if (!failed) {
+          var name = $("#name").val();
+          var email = $("#email").val();
+          var pemail = $("#pemail").val();
+          var website = $("#website").val();
+          var site = $("#site").val();
+          var media = $("#media").val();
+          var app = $("#app").val();
+          var socialsite = $("#socialsite").val();
+          var agree = $("#agree").val();
 
-      //   var name = $("#name").val();
-      //   var email = $("#email").val();
-      //   var pemail = $("#pemail").val();
-      //   var website = $("#website").val();
-      //   var site = $("#site").val();
-      //   var media = $("#media").val();
-      //   var app = $("#app").val();
-      //   var googledrive = $("#google-drive").val();
-      //   var radioplayer = $("#radio-player").val();
-      //  // var socialsite = $("#socialsite").val();
-      //   var agree = $("#agree").val();
+          $("#submit").val("Loading...");
 
-      //   $("#submit").val("Loading...");
-      //   $.post(
-      //     softlab.ajax_url,
-      //     {
-      //       action: "affiliate_register",
-      //       name: name,
-      //       email: email,
-      //       pemail: pemail,
-      //       googledrive:googledrive,
-      //       radioplayer:radioplayer,
-      //       website: website,
-      //       site: site,
-      //       media: media,
-      //       app: app,
-      //       socialsite: socialsite,
-      //       agree: agree,
-      //     },
-      //   function (data) {
-      //       console.log(data);
-      //       $("#submit").val("Register");
-      //     }
-      //   );
-          
-          
-            event.preventDefault();
-            event.stopPropagation();
-          }
-  
-          form.classList.add('was-validated')
-        });
-      });
-  
-      
-    
+          $.post(
+            softlab.ajax_url,
+            {
+              action: "affiliate_register",
+              name: name,
+              email: email,
+              pemail: pemail,
+              products: products,
+              website: website,
+              site: site,
+              media: media,
+              app: app,
+              socialsite: socialsite,
+              agree: agree,
+            },
+            function (data) {
+              console.log(data);
+              $("#submit").val("Register");
+            }
+          );
+        }
+      };
     },
-    
 
     initTestimonialSlider: function () {
       // Home testimonial slider
@@ -295,9 +302,12 @@ import "./components/sticky-banner";
     changeDraculaHeroImage: function () {
       const image = $(".dracula-hero-image");
 
+      if (!image.length) return;
+
       setInterval(() => {
         const imageSrc = image.attr("src");
         const isDark = imageSrc.includes("hero-dark");
+
         image.attr(
           "src",
           imageSrc.replace(
@@ -313,8 +323,6 @@ import "./components/sticky-banner";
   };
 
   $(document).ready(app.init);
-  
-
 
   $(".vertical-center-4").slick({
     dots: false,

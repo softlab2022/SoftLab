@@ -23,7 +23,11 @@
               input[type='checkbox']{
                 padding:6px;
             }
+            
             }
+          }
+          .form-check{
+            padding-left: 0 !important;
           }
         }
         label {
@@ -71,6 +75,9 @@
         P {
           font-size: 15px;
           color: #353434;
+          &.note{
+            color:#e00303;
+          }
         }
       }
       .loading {

@@ -29,7 +29,7 @@ get_header();
                         <h1>Earn Up To 25% Commission from Each Successful Sale!</h1>
                         <p>Join our affiliate program and earn generous commissions by promoting our products. Wherever your audience comes from websites or social channels, you are always encouraged to promote!</p>
                         <div class="btns">
-                            <a href="http://softlab.local/affiliates-area/" class="btn big-btn">become an affiliate</a>
+                            <a href="/affiliates-area/" class="btn big-btn">become an affiliate</a>
                         </div>
                     </div>
 

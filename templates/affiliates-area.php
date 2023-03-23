@@ -29,7 +29,7 @@ get_header();
                         <div class="card">
                             
                             <div class="card-body">
-                                <form action="/affiliate-contact/" id="datasend" class="needs-validation" novalidate >
+                                <form action="/affiliate-contact/" id="affiliate-register" class="needs-validation" novalidate >
 
                                     <div class="my-4">
                                         <label for="Aemail"> Email Address *</label>
@@ -54,28 +54,39 @@ get_header();
 
                                             <label for="">Select Product *</label>
 
-                                            <div class="my-2 d-flex align-items-center">
-                                                <input type="checkbox" id='google-drive' class='p-4 mt-1'  name='google' required>
-                                                <div class="img ms-2">
+                                           <div class="form-check">
+                                             
+                                           
+                                                    <input type="checkbox" id='google-drive' class='me-1'  name='product[]' value="integrate-google-drive" required>
+                                                    
+                                                    <label for="google-drive">
                                                     <img src="<?php echo get_theme_file_uri();?>/assets/images/affiliat/drive.png" alt="">
-                                                    <label for="google-drive">Integrate Google Drive</label>
-                                                </div>
-                                                  
-                                            </div>
 
-                                            <div class="my-2 d-flex align-items-center">
-                                                <input type="checkbox" id='radio-player' class='p-4 mt-1' name='google' required >
-                                                <div class="img ms-2">
-                                                    <img src="<?php echo get_theme_file_uri();?>/assets/images/affiliat/radio-player.png" alt="">
-                                                    <label for="radio-player">Radio Player</label>
-                                                </div>
+                                                    
+                                                    Integrate Google Drive
+
+                                                </label>
+
+                                               </div>
+
+                                               <div class="form-check">
                                                 
-                                            </div>
-                                            
-                                            <div class="invalid-feedback">
-                                            Select Product(s)
-                                             </div> 
+                                                 <input type="checkbox" id='radio-player' class='p-4 mt-1' name='product[]' value="radio-player" required >
+
+                                                 <label for="radio-player">
+                                                 <img src="<?php echo get_theme_file_uri();?>/assets/images/affiliat/radio-player.png" alt="">
+                                                 Radio Player
+
+                                                </label>
+
+                                                <div class="invalid-feedback">Please select one product.</div>
+
+                                           </div>
+
+                                          	
+                                         
                                     </div>
+
                                     <div class="my-4">
                                         <label for="pemail">PayPal account email address *</label>
                                         <input type="email" id="pemail" name='paypal' placeholder="Payment Email" class="form-control" value="" required>
@@ -95,28 +106,24 @@ get_header();
 
                                 <div class="my-4">
                                     <label for="">Promotion methods *</label>
-                                <div>
-                                    <div class="d-flex align-items-center checkb">
+                                
+                                    <div class=" form-check">
 
-                                    <input type="checkbox" id="media" name='social-media' class="me-2  mt-1 app" value=[] required>
+                                        <input type="checkbox" id="media" name='method[]' class="me-2  mt-1 " value='social-media' required>
 
-                                    <label for="media" class="">Social media(Facebook , Twitter etc.. )</label>
-
-                                    </div>
-
-
-                                    <div class="d-flex align-items-center mt-1">
-                                        <input type="checkbox" id="app" name="mobile-app" class="me-2 mt-1 app" value="[]" required>
+                                        <label for="media" class="">Social media(Facebook , Twitter etc.. )</label>
+                                        <br>
+                                    
+                                        <input type="checkbox" id="app" name="method[]" class="me-2 mt-1 " value="mobile-apps" required>
                                     
                                         <label for="app" class="">Mobile apps</label>
+                                        <br>
+                                    
+                                        <div class="invalid-feedback">
+                                        Please select one app. 
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="invalid-feedback">
-                                Describe how will you promote our product(s)?
-                                        </div>
-                                        
-                                    </div>
                                     
                                     <div class="my-4">
                                         <label for="socialsite">Website, Email, Social media statistics (optional)</label>
