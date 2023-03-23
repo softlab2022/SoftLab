@@ -1,6 +1,7 @@
 <?php
 
 $free_features = [
+    'Gallery Module',
 	'Embed Documents Module',
 	'Download Links Module',
 	'View Links Module',
@@ -31,7 +32,8 @@ $pro_features = [
 	'All Free Features',
 	'File Browser Module',
 	'File Uploader Module',
-	'Photo Gallery Module',
+	
+	'Slider Carousel Module',
 	'Media Player Module',
 	'File Search Module',
 	'Add Multiple Google Drive Accounts',
@@ -140,40 +142,40 @@ $pro_features = [
 
                             <div class="offer-price annual single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$58 </p>
+                                    <p class="price-off">$70 </p>
                                     <span class="price-dis">50%OFF</span>
                                 </div>
                                 
                             </div>
                             <div class="offer-price annual five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$178 </p>
+                                    <p class="price-off">$198 </p>
                                     <span class="price-dis">50%OFF</span>
                                 </div>
                                 
                             </div>
                             <div class="offer-price annual hundred">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$398 </p>
+                                    <p class="price-off">$458 </p>
                                     <span class="price-dis">50%OFF</span>
                                 </div>
                                 
                             </div>
 
-                            <span class="price-value annual single">29</span>
-                            <span class="price-value annual five">89</span>
-                            <span class="price-value annual hundred">199</span>
+                            <span class="price-value annual single">35</span>
+                            <span class="price-value annual five">99</span>
+                            <span class="price-value annual hundred">229</span>
 
                             <div class="offer-price lifetime single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$158 </p>
+                                    <p class="price-off">$178 </p>
                                     <span class="price-dis">50%OFF</span>
                                 </div>
                                 
                             </div>
                             <div class="offer-price lifetime five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$398 </p>
+                                    <p class="price-off">$458 </p>
                                     <span class="price-dis">50%OFF</span>
                                 </div>
                                 
@@ -186,8 +188,8 @@ $pro_features = [
                                 
                             </div>
 
-                            <span class="price-value lifetime single">79</span>
-                            <span class="price-value lifetime five">199</span>
+                            <span class="price-value lifetime single">89</span>
+                            <span class="price-value lifetime five">229</span>
                             <span class="price-value lifetime hundred">499</span>
 
                             <span class="price-suffix annual">/ Per year</span>

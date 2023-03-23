@@ -302,7 +302,11 @@ import "./components/sticky-banner";
     changeDraculaHeroImage: function () {
       const image = $(".dracula-hero-image");
 
+<<<<<<< HEAD
       if (!image.length) return;
+=======
+      if(!image.length) return;
+>>>>>>> c230e711722dfa289009885ba7d0770e1b6d7fae
 
       setInterval(() => {
         const imageSrc = image.attr("src");

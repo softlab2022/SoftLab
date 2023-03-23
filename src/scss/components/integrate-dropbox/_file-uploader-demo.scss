@@ -1,0 +1,80 @@
+.file-uploader-demo-hero {
+  background: url("../images/integrate-dropbox/uploader-demo/file-uploder-demo-head-bg1.png") no-repeat bottom / cover;
+  padding: 160px 0 100px 0;
+
+  .igd-file-uploader {
+    background: #fff;
+  }
+
+  .uploader-demo-head {
+    h1 {
+      font-weight: 700;
+      font-size: 3.4rem;
+      line-height: 120%;
+      color: #151826;
+      padding-bottom: 20px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: #5c637e;
+      padding: 0 94px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    //Extra large
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    //Laptop
+    padding: 100px 0;
+    .uploader-demo-head {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: .9rem;
+        padding: 0;
+        margin-bottom: 30px;
+      }
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    padding: 100px 0;
+    .uploader-demo-head {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: .9rem;
+        padding: 0 170px;
+        margin-bottom: 30px;
+      }
+    }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    //Mobile
+    padding: 100px 0;
+    .uploader-demo-head {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: .785rem;
+        padding: 0;
+      }
+    }
+  }
+
+}

@@ -11,9 +11,13 @@ $features = [
 		'description' => 'Integrate Google Drive features a user-friendly file uploader to upload files into the Google Drive cloud platform from your website. Users can see an upload progress bar, file name, cancel uploading action, and media preview for improved interactions.',
 	],
 
-	'photo-gallery' => [
-		'title'       => 'Photo Gallery',
+	'gallery' => [
+		'title'       => 'Gallery',
 		'description' => 'The Photo Gallery Module feature of the plugin can display your Google Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you create a stunning photo gallery and display it to your users.',
+	],
+	'slider-carousel' => [
+		'title'       => 'Slider Carousel',
+		'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
 	],
 
 	'media-player' => [

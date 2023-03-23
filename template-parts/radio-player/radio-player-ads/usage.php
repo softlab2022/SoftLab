@@ -6,8 +6,8 @@
                     <div class="imgs">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log1.png" alt="image-1">
                     </div>
-                    <span>usage</span>
-                    <h5>Easy way to run radio ads on WordPress Usage.</h5>
+                    <span>Usage</span>
+                    <h5>Simple Integration and Usage for Seamless Ad Delivery</h5>
                 </div>
             </div>
 

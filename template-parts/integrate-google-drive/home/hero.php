@@ -21,9 +21,7 @@
         <div class="row">
             <div class="col-md-8 m-auto">
                 <div class="hero-image text-center">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/hero-image.png"
-                         alt="Integrate Google Drive">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/update-hero-image-v1.png" alt="Integrate Google Drive">
                 </div>
             </div>
         </div>
