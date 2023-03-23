@@ -1,7 +1,7 @@
 <section id="how-use">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-8 m-auto">
                 <div class="use-head text-center">
                     <div class="imgs">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png" alt="image-1">
@@ -15,12 +15,12 @@
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="use-img text-center">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/wp-bg.png" alt="wp-bg">
-                <div class="how-butt ripple">
-                    <a href="#"><i class="fa fa-play"></i></a>
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/wp-radio-station/wp-bg.png" alt="wp-bg">
+                    <div class="how-butt ripple">
+                        <a href="#"><i class="fa fa-play"></i></a>
+                    </div>
                 </div>
-                </div>
-              
+
             </div>
         </div>
 
