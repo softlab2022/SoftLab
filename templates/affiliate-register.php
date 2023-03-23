@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: Affiliates area
+Template Name: Affiliate Register
 */
 
 get_header();
@@ -14,8 +14,8 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>Affiliate Area</h1>  
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> 
+                    <h1>Affiliate Register</h1>
+                    <p>Register to become an affiliate and start earning money today.</p>
                 </div>
             </div>
         </div>
