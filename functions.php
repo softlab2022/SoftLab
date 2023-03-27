@@ -522,6 +522,8 @@ function softlab_affiliate_register_backend_action() {
 	$statistics                   = ! empty( $_POST['statistics'] ) ? implode( ',', $_POST['statistics'] ) : '';
 	$promotion_method_description = $_POST['promotion_method_description'];
 
+    error_log(print_r($_POST, true));
+
 	wp_send_json_success( 'success' );
 
 	define( 'FS__API_SCOPE', 'developer' );
@@ -543,6 +545,7 @@ function softlab_affiliate_register_backend_action() {
 	}
 
 	foreach ( $products as $product ) {
+
 		if ( ! in_array( $product, array( 'radio-player', 'integrate-google-drive' ) ) ) {
 			wp_send_json_error( 'Invalid product selected.' );
 		}

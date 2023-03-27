@@ -256,8 +256,9 @@ import "./components/sticky-banner";
             var failed = false;
 
             // Product selection
-            const products = $("[name='product[]']:checked").map(function () {
-                return $(this).val();
+            let products = [];
+            $("[name='product[]']:checked").each(function () {
+                products.push($(this).val());
             });
 
             if (!products.length) {
@@ -268,8 +269,10 @@ import "./components/sticky-banner";
             }
 
             // Methods Selection
-            const methods = $("[name='method[]']:checked").map(function () {
-                return $(this).val();
+            let methods = [];
+
+            $("[name='method[]']:checked").each(function () {
+                methods.push($(this).val());
             });
 
             if (!methods.length) {
@@ -288,11 +291,12 @@ import "./components/sticky-banner";
                 $(form).addClass('was-validated');
             }
 
+
             if (!failed) {
                 const name = $("#name").val();
                 const email = $("#email").val();
                 const pemail = $("#pemail").val();
-                const website = $("#website").val();
+                const domain = $("#domain").val();
                 const statistics = $("#statistics").val();
                 const promotion_method_description = $("#promotion_method_description").val();
 
@@ -301,14 +305,14 @@ import "./components/sticky-banner";
                         name: name,
                         email: email,
                         pemail: pemail,
+                        domain: domain,
                         products: products,
-                        website: website,
                         methods: methods,
                         statistics: statistics,
                         promotion_method_description: promotion_method_description,
                     },
                     beforeSend: () => {
-                        $('#submit').find('.fa-spinner').addClass('d-none');
+                        $('#submit').find('.fa-spinner').removeClass('d-none');
                     },
                     success: (data) => {
                         console.log(data);
@@ -317,7 +321,7 @@ import "./components/sticky-banner";
                         console.log(error);
                     },
                     complete: () => {
-                        $('#submit').find('.fa-spinner').removeClass('d-none');
+                        $('#submit').find('.fa-spinner').addClass('d-none');
                     }
                 });
             }
