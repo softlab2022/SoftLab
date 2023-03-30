@@ -4,7 +4,9 @@
             <div class="col-lg-6 col-md-6 m-auto">
                 <div class="hero-content">
                     <div class="imgs">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png" alt="image-1">
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png"
+                             alt="image-1">
                     </div>
                     <span>Addon</span>
                     <h1>Boost Your Ad Revenue with Our Audio Ad Player Add-On</h1>
@@ -19,28 +21,9 @@
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="radio-header-bg text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/ads-player-bg.png" alt="ads-player-bg">
-
-                    <div class="hero-how-butt ripple">
-
-                        <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            <i class="fa fa-play"></i>
-                        </a>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <iframe width="900" height="500" src="https://www.youtube.com/embed/J3-awEWXFIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <img class="img-fluid"
+                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/ads-player-bg.png"
+                         alt="ads-player-bg">
                 </div>
             </div>
         </div>
