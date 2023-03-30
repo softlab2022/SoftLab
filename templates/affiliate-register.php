@@ -29,7 +29,7 @@ get_header();
                     <div class="card">
 
                         <div class="card-body">
-                            <form id="affiliate-register-form" class="needs-validation" novalidate>
+                            <form action="" id="affiliate-register-form" class="needs-validation" novalidate>
 
                                 <!-- Full Name -->
                                 <div class="my-4">
@@ -173,6 +173,9 @@ get_header();
                                 </div>
 
                             </form>
+                            <div class="message" style="display:none">
+                                 Your  affiliate account is pending approval
+                            </div>
                         </div>
                     </div>
                 </div>

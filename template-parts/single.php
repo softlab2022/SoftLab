@@ -13,7 +13,14 @@
                     <div class="header-content text-center">
                         <h1 class="entry-title"><?php the_title(); ?></h1>
                         <div class="entry-meta">
-							<?php softlab_article_posted_on(); ?>
+							<?php
+                            
+                            softlab_post_date_and_category();
+                            softlab_article_posted_on();
+
+                              
+                            ?>
+                             
                         </div>
                     </div>
                 </div>

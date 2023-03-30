@@ -54,7 +54,9 @@
                                     <span class="blog-item-meta-category"><?php the_category(); ?></span>
                                     <span class="blog-item-meta-date">
                                         <i class="fas fa-calendar-alt"></i>
-                                        <?php the_date(); ?>
+                                        <?php
+                                         display_update_date(); 
+                                        //echo get_the_date(); ?>
                                     </span>
                                 </div>
                                 <h3 class="blog-item-title">

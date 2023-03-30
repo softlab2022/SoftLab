@@ -11,6 +11,13 @@
 
     
     .card-body {
+      .message {
+        background: #FFFFE0;
+        padding: 17px;
+        border: 1px solid #E6DB55;
+        font-size: 18px;
+        border-radius: 8px;
+    }
       form {
         .my-4 {
           .checkb {
@@ -57,6 +64,15 @@
                 box-shadow: none!important;
               }
           }
+        }
+        .btn-button{
+          padding: 10px;
+          background: #7D7FFF;
+          border:1px solid #7D7FFF; 
+          color: #fff;
+          font-size: 18px;
+          font-weight: 400;
+
         }
         .msg {
           color: #e00303;
