@@ -119,9 +119,9 @@ $features = [
 
                         <div class="feature-video">
                             <?php
-                                if ( !wp_is_mobile() ) {
-                                    echo $feature['video'];
-                                }
+                            if (!wp_is_mobile()) {
+                                echo $feature['video'];
+                            }
                             ?>
                         </div>
 
@@ -138,9 +138,9 @@ $features = [
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
                         <?php
-                            if ( wp_is_mobile() ) {
-                                echo $feature['video'];
-                            }
+                        if (wp_is_mobile()) {
+                            echo $feature['video'];
+                        }
                         ?>
 
                         <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
