@@ -29,6 +29,7 @@ class SoftLa {
 			'integrate-google-drive-photo-gallery',
 			'integrate-google-drive-media-player',
 			'integrate-googlle-drive-slider-carousel',
+			'integrate-google-drive-integrations',
 
 		] ) ) {
 
