@@ -80,6 +80,7 @@
 
   .buttons {
     margin-bottom: 3rem;
+    position: relative;
 
     .btn {
       font-weight: 400;
@@ -97,6 +98,97 @@
         color: #fff;
         box-shadow: (6px 6px 14px rgba(142, 170, 249, 0.4));
       }
+    }
+    .search_container{
+      position: absolute;
+      right: -29px;
+      top: -4px;
+      .search-form{
+        
+        .search-box{
+          position: relative;
+         height: 60px;
+         width:60px;
+         transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+         
+         &.active{
+          width:350px;
+          }
+         .search-field{
+          position: relative;
+          width:100%;
+          height:100%;
+          border: none;
+          outline: none;
+          border-radius: 50px;
+          background: #fff;
+          font-size: 18px;
+          padding:0 60px 0 20px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          opacity: 0;
+          transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+        
+          &.active{
+            opacity: 1;
+        }
+      }
+      .search-btn{
+        width:60px;
+        height:60px;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 50%;
+        color:#4b45b0;
+        font-size: 22px;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: absolute;
+        top:50%;
+        right:0px;
+        transform: translateY(-50%);
+        transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+        &.active{
+          right:5px;
+          width:50px;
+          height:50px;
+          line-height: 50px;
+          text-align: center;
+          border-radius: 50%;
+          color:#fff;
+          background:#6e6dff !important;
+          font-size: 20px;
+          transform: translateY(-50%);
+      }
+    }
+    .cencel-btn{
+      position: absolute;
+      top:50%;
+      right:80px;
+      transform: translateY(-50%);
+      color:#000;
+      cursor: pointer;
+      font-size: 25px;
+      display: none;
+  
+  }
+      
+}
+     
+      }
+      #iconform{
+        width: 50px;
+        height: 50px;
+        background: blue;
+        line-height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        i {
+          color: #fff;
+          
+      }
+      }
+      
     }
 
   }

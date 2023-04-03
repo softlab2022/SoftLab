@@ -356,4 +356,26 @@ import "./components/sticky-banner";
         selector: '.my-video-links',
     });
 
+    //search form for category page
+    const searchBtn = document.querySelector('.search-btn');
+    const cencelBtn = document.querySelector('.cencel-btn');
+    const searchInput = document.querySelector('.search-field');
+    const searchBox = document.querySelector('.search-box');
+
+    searchBtn.onclick = ()=> {
+        searchBox.classList.add('active');
+        searchInput.classList.add('active');
+        searchBtn.classList.add('active');
+        cencelBtn.style.display='block';
+    }
+    cencelBtn.onclick = ()=> {
+        searchBox.classList.remove('active');
+        searchInput.classList.remove('active');
+        searchBtn.classList.remove('active');
+        cencelBtn.style.display='none';
+
+
+    }
+       
+
 })(jQuery);
