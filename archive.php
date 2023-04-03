@@ -24,7 +24,7 @@ if ( have_posts() ) :
 
     <section class="archive-area">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
 				<?php
 				while ( have_posts() ) :
 					the_post();

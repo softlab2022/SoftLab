@@ -59,105 +59,12 @@
 
   }
 
-  .radio-header-bg {
-    position: relative;
-
-    .hero-how-butt {
-      position: absolute;
-      top: 40%;
-      left: 44%;
-
-      .my-btn-primary {
-        i {
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
-          width: 100px;
-          height: 100px;
-          line-height: 100px;
-          border-radius: 50%;
-          border: 2px solid #BEAAC8;
-          color: #fff;
-          font-size: 25px;
-          cursor: pointer;
-        }
-      }
-
-
-      /**---------- popup video area scss start ----------**/
-      .modal {
-        top: 4%;
-      }
-
-      .modal-dialog {
-        max-width: 950px;
-        height: auto;
-        margin: 1.75rem auto;
-
-        .modal-content {
-          background-color: transparent;
-          border: none;
-
-          .modal-header {
-            border: none;
-
-            .btn-close {
-              background-color: #fff;
-            }
-          }
-
-          .modal-body {
-            iframe {
-              border-radius: 10px;
-            }
-          }
-        }
-      }
-
-      /**---------- popup video area scss end ----------**/
-    }
-
-    .ripple {
-      text-decoration: none;
-      color: #fff;
-      width: 100px;
-      height: 100px;
-      background-color: #7249AC;
-      border-radius: 50%;
-      -webkit-animation: ripple 1s linear infinite;
-      animation: ripple 1s linear infinite;
-    }
-
-    @-webkit-keyframes ripple {
-      0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-        box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-      }
-
-      100% {
-        -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-        box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-      }
-    }
-
-    @keyframes ripple {
-      0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-        box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-      }
-
-      100% {
-        -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-        box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-      }
-    }
-
-  }
-
   /**---------- responsive-area scss start ----------**/
   @media (min-width: 1200px) {
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
     //Laptop
     padding: 115px 0 0px 0;
 
@@ -176,7 +83,7 @@
 
   }
 
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  @media (min-width: 768px) and (max-width: 991px) {
 
     //Tablet
     .hero-content {
@@ -199,50 +106,9 @@
         padding: 10px 25px;
       }
     }
-
-    .radio-header-bg {
-
-      .hero-how-butt {
-        position: absolute;
-        top: 44%;
-        left: 42%;
-
-        .my-btn-primary {
-          i {
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
-            font-size: 1rem;
-          }
-        }
-
-        .modal-dialog {
-          max-width: 750px;
-          height: auto;
-          margin: 1.75rem auto;
-
-          .modal-content {
-
-            .modal-body {
-              iframe {
-                max-width: 680px;
-                max-height: 400px;
-              }
-            }
-          }
-        }
-      }
-
-      .ripple {
-        width: 60px;
-        height: 60px;
-      }
-    }
-
-
   }
 
-  @media (max-width: 767.98px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     //Mobile
     padding: 90px 0 60px 0;
     text-align: center;
@@ -261,42 +127,6 @@
 
     .radio-header-bg {
       padding-top: 35px;
-
-      .hero-how-butt {
-        position: absolute;
-        top: 44%;
-        left: 42%;
-
-        .my-btn-primary {
-          i {
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
-            font-size: 1rem;
-          }
-        }
-
-        .modal-dialog {
-          max-width: 450px;
-          height: auto;
-          margin: 1.75rem auto;
-
-          .modal-content {
-
-            .modal-body {
-              iframe {
-                max-width: 380px;
-                max-height: 300px;
-              }
-            }
-          }
-        }
-      }
-
-      .ripple {
-        width: 60px;
-        height: 60px;
-      }
     }
 
   }
@@ -647,56 +477,25 @@
     top: 40%;
     left: 44%;
 
-    .my-btn-primary {
-      .fa-play {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
-        border-radius: 50%;
-        border: 2px solid #BEAAC8;
-        color: #fff;
-        font-size: 25px;
-        cursor: pointer;
-      }
+    .fa-play {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 50%;
+      border: 2px solid #BEAAC8;
+      color: #fff;
+      font-size: 25px;
     }
-
-
-    /**---------- popup video area scss start ----------**/
-    .modal {
-      top: 4%;
-    }
-
-    .modal-dialog {
-      max-width: 950px;
-      height: auto;
-      margin: 1.75rem auto;
-
-      .modal-content {
-        background-color: transparent;
-        border: none;
-
-        .modal-header {
-          border: none;
-
-          .btn-close {
-            background-color: #fff;
-          }
-        }
-
-        .modal-body {
-          iframe {
-            border-radius: 10px;
-          }
-        }
-      }
-    }
-
-    /**---------- popup video area scss end ----------**/
-
-
+    
   }
 
+  .vbox-overlay {
+    .vbox-close {
+      right: 200px!important;
+      top: 20px!important;
+    }
+  }
 
   .ripple {
     text-decoration: none;
@@ -741,7 +540,7 @@
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199.98px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
 
     //Laptop
     .plan-head {
@@ -751,30 +550,12 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991.98px) {
+  @media (min-width: 768px) and (max-width: 991px) {
 
     //Tablet
     .use-head {
       h5 {
         font-size: 2rem;
-      }
-    }
-
-    .how-butt {
-      .modal-dialog {
-        max-width: 750px;
-        height: auto;
-        margin: 1.75rem auto;
-
-        .modal-content {
-
-          .modal-body {
-            iframe {
-              max-width: 680px;
-              max-height: 400px;
-            }
-          }
-        }
       }
     }
   }
@@ -793,29 +574,11 @@
       top: 34%;
       left: 42%;
 
-      .my-btn-primary {
-        .fa-play {
-          width: 60px;
-          height: 60px;
-          line-height: 60px;
-          font-size: 1rem;
-        }
-      }
-
-      .modal-dialog {
-        max-width: 450px;
-        height: auto;
-        margin: 1.75rem auto;
-
-        .modal-content {
-
-          .modal-body {
-            iframe {
-              max-width: 380px;
-              max-height: 300px;
-            }
-          }
-        }
+      .fa-play {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1rem;
       }
     }
 

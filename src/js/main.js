@@ -315,7 +315,11 @@ import "./components/sticky-banner";
                         $('#submit').find('.fa-spinner').removeClass('d-none');
                     },
                     success: (data) => {
-                        console.log(data);
+                        //console.log(data);
+                        $('#affiliate-register-form').hide();
+                         
+                        $('.message').show();
+
                     },
                     error: (error) => {
                         console.log(error);
@@ -346,6 +350,10 @@ import "./components/sticky-banner";
     };
 
     $(document).ready(app.init);
-
+    
+    //video js for radio player ads
+    new VenoBox({
+        selector: '.my-video-links',
+    });
 
 })(jQuery);

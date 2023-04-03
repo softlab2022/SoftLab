@@ -400,7 +400,7 @@
     .affiliate-benefits-box {
       background: #ffffFF;
       text-align: center;
-      padding: 7px;
+      padding: 30px;
       position: relative;
       border-top-right-radius: 30px;
       border-bottom-left-radius: 30px;
@@ -518,11 +518,19 @@
           padding-left: 52px;
           color: rgba(21, 24, 38, 0.6);
 
-          img {
+          i {
             position: absolute;
             display: inline-block;
             left: -6px;
             top: 1px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: #2FB44B;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 20px;
           }
         }
       }
@@ -550,11 +558,19 @@
           padding-left: 52px;
           color: rgba(21, 24, 38, 0.6);
 
-          img {
+          i {
             position: absolute;
             display: inline-block;
             left: -6px;
             top: 1px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: #F40000;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 20px;
           }
         }
       }
@@ -675,13 +691,12 @@
   .affiliate-benefits {
     .affiliate-benefit-cols {
       grid-template-columns: repeat(2, 1fr);
+      .affiliate-benefits-box {
+        padding: 10px !important;
+    }
     }
   }
-  .comparisons-area {
-    .col-12 {
-
-    }
-  }
+ 
   .comparison-real {
     .comparisons-boxs {
       grid-template-columns: repeat(1, 1fr);
@@ -721,6 +736,24 @@
 
 
 @media only screen and (max-width: 600px) {
+  .affiliate-program{
+    padding-top:127px;
+    .affiliate-cols-left{
+      text-align: center;
+      h2{
+        font-size:30px;
+        line-height: 40px;
+      }
+      p{
+        margin-bottom: 48px;
+      }
+      .affiliate-btn{
+        margin-bottom: 40px;
+        display: inline-block;
+      }
+
+    }
+  }
   .affiliate-rs {
     .affiliate-cols-left {
       margin-bottom: 40px;
@@ -733,26 +766,55 @@
     }
   }
   .about-area {
-    .col-8 {
+    padding-top:48px;
+    padding-bottom: 0;
+    .col-9 {
       width: 100%;
-
       .about-header {
         h2 {
-          font-size: 32px;
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+     
+    }
+    .about-cols{
+      margin-top: 7px;
+    text-align: center;
+      .about-cols-left{
+        h2{
+          font-size: 30px;
           line-height: 40px;
         }
       }
     }
 
+
     .impact-applys {
+      margin-top:25px !important;
       h2 {
         font-size: 30px !important;
         line-height: 40px !important;
       }
     }
 
+    .affiliate-about-two {
+        margin-top:7px;
+        gap:0 !important;
+        text-align: center !important;;
+      .affiliate-about-two-right {
+        h2 {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+    }
+
     .affiliate-about-three {
+      padding:40px 0 !important;
+      gap:17px !important;
       .affiliate-about-three-left {
+        text-align: center;
         h2 {
           font-size: 30px !important;
           line-height: 40px !important;
@@ -762,12 +824,32 @@
 
     }
   }
+
   .work-area {
+    padding-bottom: 30px;
+    .works{
+      h2{
+        font-size: 30px !important;
+        line-height: 40px !important;;
+      }
+    }
     .works-cols {
+      padding-top:20px;
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 7px;
     }
   }
+  .affiliate-benefits{
+    padding:10px 0 !important;
+    .affiliate-title{
+      h2{
+        font-size:30px;
+        line-height: 40px !important;
+        
+      }
+    }
+  }
+
   .comparisons-area {
     margin-top: 10px !important;
     padding-top: 35px !important;
@@ -775,7 +857,28 @@
   .comparison-real {
     .comparisons-boxs {
       padding: 30px;
+      .comparisons-col-left{
+        h2{
+          font-size:25px;
+        }
+        ul{
+          li{
+            font-size:14px;
+          }
+        }
+      }
+      .comparisons-col-right{
+        h2{
+          font-size:25px;
+        }
+        ul{
+          li{
+            font-size:14px;
+          }
+        }
+      }
     }
   }
+
 
 }
