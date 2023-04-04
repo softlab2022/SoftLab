@@ -292,7 +292,8 @@ if ( ! function_exists( 'softlab_article_posted_on' ) ) :
 			esc_url( get_the_permalink() ),
 			esc_attr( get_the_date() . ' - ' . get_the_time() ),
 			esc_attr( get_the_date( 'c' ) ),
-			esc_html(get_the_modified_date('F j, Y')),
+			esc_html(get_the_modified_date('F j, Y'))
+
 			
 				
 

@@ -30,16 +30,19 @@
                         <div class="search_container">
                             <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                             <div class="search-box">
-                                    <input type="text" class="search-field" placeholder="<?php echo esc_attr( $search_args['placeholder'] ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+                                <input type="text" class="search-field" placeholder="<?php echo esc_attr( $search_args['placeholder'] ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
 
-                                    <div class="search-btn">
-                                        <i class="fa fa-search search-icon"></i>
-                                    </div>
-                                    <div class="cencel-btn">
-                                         <i class="fa fa-close close-icon"></i>
-                                    </div>
-                                     <!-- <i class="fa-sharp fa-regular fa-xmark close-icon"></i> -->
+                                <div class="search-btn">
+                                    <i class="fa fa-search search-icon"></i>
                                 </div>
+                                <div class="cencel-btn">
+                                        <i class="fa fa-close close-icon"></i>
+                                </div>
+                                <button type="submit" class="fm-search-btn"> 
+                                    <i class="fa fa-search search-icon"></i>
+                                </button>
+                                    <!-- <i class="fa-sharp fa-regular fa-xmark close-icon"></i> -->
+                            </div>
                                 
                         </form>
                             

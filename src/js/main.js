@@ -361,11 +361,17 @@ import "./components/sticky-banner";
     const cencelBtn = document.querySelector('.cencel-btn');
     const searchInput = document.querySelector('.search-field');
     const searchBox = document.querySelector('.search-box');
+    const fSearchBtn = document.querySelector('.fm-search-btn');
 
     searchBtn.onclick = ()=> {
         searchBox.classList.add('active');
         searchInput.classList.add('active');
         searchBtn.classList.add('active');
+        searchBtn.style.display='none';
+        fSearchBtn.classList.add('active');
+        fSearchBtn.style.display='block';
+        fSearchBtn.style.cursor='pointer';
+        fSearchBtn.style.border='none';
         cencelBtn.style.display='block';
     }
     cencelBtn.onclick = ()=> {
@@ -373,6 +379,8 @@ import "./components/sticky-banner";
         searchInput.classList.remove('active');
         searchBtn.classList.remove('active');
         cencelBtn.style.display='none';
+       fSearchBtn.style.display='none';
+        searchBtn.style.display='block';
 
 
     }
