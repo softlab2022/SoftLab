@@ -5,25 +5,63 @@ $features = [
 		'title'       => 'Frontend Dark Mode',
 		'isFree'       => true,
 	],
+	'backend' => [
+		'title'       => 'Backend Dark Mode',
+		'isFree'       => true,
+	],
+	'admin' => [
+		'title'       => 'Admin Dashboard Dark Mode',
+		'isFree'       => true,
+	],
+	'os' => [
+		'title'       => 'OS-based color mode',
+		'isFree'       => true,
+	],
+	'default' => [
+		'title'       => 'Default Dark Mode',
+		'isFree'       => true,
+	],
 	'performance' => [
 		'title'       => 'Performance Mode',
 		'isPro'       => true,
 	],
+
 	'toggle' => [
 		'title'       => 'Custom Toggle Button Builder',
+	],
+    'toggle' => [
+		'title'       => 'Toggle Button Size Customization',
+		'isPro'       => true,
+	],
+    'draggable' => [
+		'title'       => 'Draggable Floating Switch',
 		'isPro'       => true,
 	],
     'custom-toggle-switch' => [
 		'title'       => 'Custom Toggle Switch Positions',
 		'isPro'       => true,
 	],
+    'switch' => [
+		'title'       => 'Dark mode switch in the menu',
+		'isPro'       => true,
+	],
     'custom-position' => [
 		'title'       => 'Custom position',
 		'isPro'       => true,
 	],
+    'specific' => [
+		'title'       => 'Dashboard Dark Mode for <br> Specific User Roles',
+	],
     'darkmode-animation' => [
 		'title'       => 'Dark mode Toggle Animation',
 		'isPro'       => true,
+	],
+    'time-based' => [
+		'title'       => 'Time Based dark mode',
+		'isFree'       => true,
+	],
+    'page-wish' => [
+		'title'       => 'Page Wise Dark Mode',
 	],
     'custom-text-color' => [
 		'title'       => 'Custom Switch Text & Color',
@@ -32,6 +70,13 @@ $features = [
     'ready-mode' => [
 		'title'       => 'Ready-made color schema',
 		'isFree'       => true,
+	],
+    'save-user' => [
+		'title'       => 'Save User Choice',
+		'isFree'       => true,
+	],
+    'live-edit' => [
+		'title'       => 'Dark Mode Live Edit Mode',
 	],
     'color-adjust' => [
 		'title'       => 'Color Adjustment',
@@ -53,12 +98,17 @@ $features = [
 		'title'       => 'Dark Mode Based Typography',
 		'isPro'       => true,
 	],
+    
     'background-image' => [
 		'title'       => 'Darken Background Images',
 		'isFree'       => true,
 	],
     'low-brightness' => [
 		'title'       => 'Low Brightness Images',
+		'isFree'       => true,
+	],
+    'multiple' => [
+		'title'       => 'Multiple switches',
 		'isFree'       => true,
 	],
     'grayscale' => [
@@ -131,7 +181,6 @@ $features = [
 	],
     'email-report' => [
 		'title'       => 'Usage Analytics & Email Report',
-		'isPro'       => true,
 	],
     'works-all-devices' => [
 		'title'       => 'Works on all devices',
@@ -202,12 +251,12 @@ $features = [
                     </div>
                     <div class="col-lg-3 col-sm-6 col-md-2">
                         <div class="item text-center">
-                            <?php echo isset( $feature['isFree'] ) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-xmark"></i>'; ?>
+                            <?php echo !empty( $feature['isFree'] )  ? '<i class="fa fa-check"></i>' : '<i class="fa fa-xmark"></i>'; ?>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-md-2">
                         <div class="item text-center">
-	                        <?php echo isset( $feature['isPro'] ) || isset( $feature['isFree'] ) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-xmark"></i>'; ?>
+	                        <?php echo !empty( $feature['isPro'] ) || !empty( $feature['isFree'] ) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-xmark"></i>'; ?>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-md-2">
