@@ -13,7 +13,7 @@ if ( have_posts() ) :
             <div class="row align-items-center">
                 <div class="col-lg-7 m-auto">
                     <div class="header-content text-center">
-						<?php the_archive_title( '<h1 class="header-title">', '</h1>' ); ?>
+                    <h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'softlab' ), get_search_query() ); ?></h1>
 
 						<?php the_archive_description( ); ?>
                     </div>
