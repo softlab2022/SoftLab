@@ -350,11 +350,7 @@ import "./components/sticky-banner";
     };
 
     $(document).ready(app.init);
-    
-    //video js for radio player ads
-    new VenoBox({
-        selector: '.my-video-links',
-    });
+
 
     //search form for category page
     const searchBtn = document.querySelector('.search-btn');
