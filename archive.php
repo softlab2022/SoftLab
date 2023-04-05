@@ -13,7 +13,20 @@ if ( have_posts() ) :
             <div class="row align-items-center">
                 <div class="col-lg-7 m-auto">
                     <div class="header-content text-center">
-						<?php the_archive_title( '<h1 class="header-title">', '</h1>' ); ?>
+                        <?php 
+                        if(get_search_query()){
+                            ?>
+                            <h1 class="page-title"><?php  printf( esc_html__( 'Search Results for: %s', 'softlab' ), get_search_query() ); ?></h1>
+                            <?php
+                        }else{
+                            ?>
+                            <h1 class="page-title" ><?php printf( esc_html__( 'Category : %s', 'softlab' ), single_cat_title( '', false ) ); ?></h1>
+                            <?php
+                        }
+                        ?>
+
+                    
+                    
 
 						<?php the_archive_description( ); ?>
                     </div>
@@ -24,7 +37,7 @@ if ( have_posts() ) :
 
     <section class="archive-area">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
 				<?php
 				while ( have_posts() ) :
 					the_post();

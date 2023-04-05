@@ -29,7 +29,7 @@ get_header();
                     <div class="card">
 
                         <div class="card-body">
-                            <form id="affiliate-register-form" class="needs-validation" novalidate>
+                            <form action="" id="affiliate-register-form" class="needs-validation" novalidate>
 
                                 <!-- Full Name -->
                                 <div class="my-4">
@@ -89,10 +89,11 @@ get_header();
 
                                 </div>
 
+                                <!-- Domain -->
                                 <div class="my-4">
-                                    <label for="website">Where are you going to promote our plugin(s)? *</label>
+                                    <label for="domain">Where are you going to promote our plugin(s)? *</label>
 
-                                    <input type="text" id="website" name='website'
+                                    <input type="text" id="domain" name="domain"
                                            placeholder="Website, Social Media, or Mobile App URL(s)"
                                            class="form-control" required>
 
@@ -107,7 +108,8 @@ get_header();
 
                                     <div class=" form-check">
 
-                                        <input type="checkbox" id="website" name='method[]' class="me-2  mt-1 " value="website" required>
+                                        <input type="checkbox" id="website" name='method[]' class="me-2  mt-1 "
+                                               value="website" required>
 
                                         <label for="website" class="">Websites</label>
                                     </div>
@@ -117,7 +119,8 @@ get_header();
                                         <input type="checkbox" id="social_media" name='method[]' class="me-2  mt-1 "
                                                value="social_media" required>
 
-                                        <label for="social_media" class="">Social media(Facebook , Twitter etc.. )</label>
+                                        <label for="social_media" class="">Social media(Facebook , Twitter etc..
+                                            )</label>
                                     </div>
 
                                     <div class="form-check">
@@ -170,6 +173,9 @@ get_header();
                                 </div>
 
                             </form>
+                            <div class="message" style="display:none">
+                                 Your  affiliate account is pending approval
+                            </div>
                         </div>
                     </div>
                 </div>

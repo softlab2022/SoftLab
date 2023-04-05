@@ -19,7 +19,35 @@
 						printf( '<a href="%1$s" alt="%2$s" class="btn my-2">%2$s</a>', get_category_link( $category->term_id ), $category->name );
 					} ?>
 
+
+                    <div class="search_container">
+                        <form role="search" method="get" class="search-form"
+                              action="<?php echo esc_url( home_url( '/' ) ); ?>">
+
+                            <div class="search-box">
+                                <input type="text" class="search-field" placeholder="Search.."
+                                       value="<?php echo get_search_query(); ?>" name="s"/>
+
+                                <div class="search-btn">
+                                    <i class="fa fa-search search-icon"></i>
+                                </div>
+
+                                <div class="cencel-btn">
+                                    <i class="fa fa-close close-icon"></i>
+                                </div>
+
+                                <button type="submit" class="fm-search-btn">
+                                    <i class="fa fa-search search-icon"></i>
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                      
+
                 </div>
+                
             </div>
         </div>
 
@@ -54,7 +82,9 @@
                                     <span class="blog-item-meta-category"><?php the_category(); ?></span>
                                     <span class="blog-item-meta-date">
                                         <i class="fas fa-calendar-alt"></i>
-                                        <?php the_date(); ?>
+                                        <?php
+                                         display_update_date(); 
+                                        //echo get_the_date(); ?>
                                     </span>
                                 </div>
                                 <h3 class="blog-item-title">

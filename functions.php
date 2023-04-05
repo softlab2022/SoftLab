@@ -288,14 +288,11 @@ if ( ! function_exists( 'softlab_article_posted_on' ) ) :
 	 */
 	function softlab_article_posted_on() {
 		printf(
-			wp_kses_post( __( '<span class="sep">Posted on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author-meta vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'softlab' ) ),
+			wp_kses_post( __( ' <div> <span class="sep"> Updated on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a></div>', 'softlab' ) ),
 			esc_url( get_the_permalink() ),
 			esc_attr( get_the_date() . ' - ' . get_the_time() ),
 			esc_attr( get_the_date( 'c' ) ),
-			esc_html( get_the_date() . ' - ' . get_the_time() ),
-			esc_url( get_author_posts_url( (int) get_the_author_meta( 'ID' ) ) ),
-			sprintf( esc_attr__( 'View all posts by %s', 'softlab' ), get_the_author() ),
-			get_the_author()
+			esc_html(get_the_modified_date('F j, Y'))
 		);
 	}
 endif;
@@ -517,9 +514,9 @@ function softlab_affiliate_register_backend_action() {
 	$email                        = $_POST['email'];
 	$pemail                       = $_POST['pemail'];
 	$domain                       = $_POST['domain'];
-	$products                     = $_POST['products'];
+	$products                     = ! empty( $_POST['products'] ) ? implode( ',', $_POST['products'] ) : '';
 	$methods                      = ! empty( $_POST['methods'] ) ? implode( ',', $_POST['methods'] ) : '';
-	$statistics                   = ! empty( $_POST['statistics'] ) ? implode( ',', $_POST['statistics'] ) : '';
+	$statistics                   = ! empty( $_POST['statistics'] ) ? $_POST['statistics'] : '';
 	$promotion_method_description = $_POST['promotion_method_description'];
 
 	wp_send_json_success( 'success' );
@@ -543,6 +540,7 @@ function softlab_affiliate_register_backend_action() {
 	}
 
 	foreach ( $products as $product ) {
+
 		if ( ! in_array( $product, array( 'radio-player', 'integrate-google-drive' ) ) ) {
 			wp_send_json_error( 'Invalid product selected.' );
 		}
@@ -590,4 +588,27 @@ function softlab_affiliate_register_backend_action() {
 }
 
 add_action( 'wp_ajax_affiliate_register', 'softlab_affiliate_register_backend_action' );
+
+
+//update date on the blog page
+function display_update_date() {
+    $date_format = get_option( 'date_format' );
+    $update_date = get_the_modified_date($date_format);
+    if ( get_the_modified_time() != get_the_time() ) {
+        echo '<span class="update-date">'. $update_date . '</span>';
+    }
+}
+
+
+//show the category of singe page 
+
+function softlab_post_date_and_category() {
+    if ( is_single() ) {
+        echo '<p>';
+        the_category( '  ' );
+        echo '  </p> ';
+    }
+}
+
+
 
