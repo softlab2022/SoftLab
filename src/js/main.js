@@ -32,9 +32,19 @@ import "./components/sticky-banner";
             $("[name='product[]']").on("change", app.handleProductChange);
             $("[name='method[]']").on("change", app.handleMethodChange);
 
+            // Handle Search
+            $('.search-btn').on('click', app.openSearch);
+            $('.cencel-btn').on('click', app.cancelSearch);
 
         },
 
+        openSearch: function (e) {
+            $('.search-form').addClass('active');
+        },
+
+        cancelSearch: function (e) {
+            $('.search-form').removeClass('active');
+        },
 
         initTestimonialSlider: function () {
             // Home testimonial slider
@@ -317,7 +327,7 @@ import "./components/sticky-banner";
                     success: (data) => {
                         //console.log(data);
                         $('#affiliate-register-form').hide();
-                         
+
                         $('.message').show();
 
                     },
@@ -350,36 +360,7 @@ import "./components/sticky-banner";
     };
 
     $(document).ready(app.init);
+    
 
-
-    //search form for category page
-    const searchBtn = document.querySelector('.search-btn');
-    const cencelBtn = document.querySelector('.cencel-btn');
-    const searchInput = document.querySelector('.search-field');
-    const searchBox = document.querySelector('.search-box');
-    const fSearchBtn = document.querySelector('.fm-search-btn');
-
-    searchBtn.onclick = ()=> {
-        searchBox.classList.add('active');
-        searchInput.classList.add('active');
-        searchBtn.classList.add('active');
-        searchBtn.style.display='none';
-        fSearchBtn.classList.add('active');
-        fSearchBtn.style.display='block';
-        fSearchBtn.style.cursor='pointer';
-        fSearchBtn.style.border='none';
-        cencelBtn.style.display='block';
-    }
-    cencelBtn.onclick = ()=> {
-        searchBox.classList.remove('active');
-        searchInput.classList.remove('active');
-        searchBtn.classList.remove('active');
-        cencelBtn.style.display='none';
-       fSearchBtn.style.display='none';
-        searchBtn.style.display='block';
-
-
-    }
-       
 
 })(jQuery);

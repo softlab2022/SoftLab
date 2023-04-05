@@ -18,35 +18,32 @@
 					foreach ( $categories as $category ) {
 						printf( '<a href="%1$s" alt="%2$s" class="btn my-2">%2$s</a>', get_category_link( $category->term_id ), $category->name );
 					} ?>
-                   <?php
-                        $search_args = array(
-                            'label' => 'Search this website',
-                            'placeholder' => 'Search...',
-                          //'button_text' => '<i class="fa-solid fa-arrow-right"></i>',
-                            //'button_text' => '<i class="fa fa-search"></i>',
-                            'submit_button' => false // hide the default submit button
-                        );
-                        ?>
-                        <div class="search_container">
-                            <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+
+
+                    <div class="search_container">
+                        <form role="search" method="get" class="search-form"
+                              action="<?php echo esc_url( home_url( '/' ) ); ?>">
+
                             <div class="search-box">
-                                <input type="text" class="search-field" placeholder="<?php echo esc_attr( $search_args['placeholder'] ); ?>" value="<?php echo get_search_query(); ?>" name="s" />
+                                <input type="text" class="search-field" placeholder="Search.."
+                                       value="<?php echo get_search_query(); ?>" name="s"/>
 
                                 <div class="search-btn">
                                     <i class="fa fa-search search-icon"></i>
                                 </div>
+
                                 <div class="cencel-btn">
-                                        <i class="fa fa-close close-icon"></i>
+                                    <i class="fa fa-close close-icon"></i>
                                 </div>
-                                <button type="submit" class="fm-search-btn"> 
+
+                                <button type="submit" class="fm-search-btn">
                                     <i class="fa fa-search search-icon"></i>
                                 </button>
-                                    <!-- <i class="fa-sharp fa-regular fa-xmark close-icon"></i> -->
                             </div>
-                                
+
                         </form>
-                            
-                        </div>
+
+                    </div>
                       
 
                 </div>
