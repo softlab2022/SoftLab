@@ -36,14 +36,21 @@ import "./components/sticky-banner";
             $('.search-btn').on('click', app.openSearch);
             $('.cencel-btn').on('click', app.cancelSearch);
 
+        //   const searchField= document.querySelector(".search-field");
+        //   const searchBox= document.querySelector(".search-box");
         },
-
+        
         openSearch: function (e) {
             $('.search-form').addClass('active');
+        //    if(searchField.value ==='') {
+        //     searchBox.style.border='red';
+        //    }
+       
         },
 
         cancelSearch: function (e) {
             $('.search-form').removeClass('active');
+       
         },
 
         initTestimonialSlider: function () {

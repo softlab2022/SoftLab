@@ -131,6 +131,30 @@ figure {
     }
   }
 }
+//search page content block
+.search-page{
+  padding: 170px 0 !important;
+  .search-form{
+    
+    max-width: 500px;
+    width:100%;
+    margin:30px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    .input-group{
+      input{
+        padding:10px;
+        border:none !important;
+      }
+      button{
+        border:none !important;
+      }
+    }
+   
+  }
+}
+
+
 
 @media (max-width: 600px){
   .title-header{

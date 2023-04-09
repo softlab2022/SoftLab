@@ -157,7 +157,54 @@ get_header();
 
         </div>
     </section>
-    <!--impact area-->
+     <!--freemus area-->
+     <div class="freemius-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center">
+                        <h2>Everything is managed by Freemius </h2>
+                        <p>As an example, one of our highest commission earner spenthis 
+                            earnings for a family vacation in Maldives. Imagine what you can do!</p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="group-freemius">
+
+                        <div class="freemius-item">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius-r.png" alt="">
+                            <h4>Registration</h4>
+                        </div>
+
+                        <div class="freemius-item">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius-db.png" alt="">
+                            <h4>Dashboard Management</h4>
+                        </div>
+
+                        <div class="freemius-item">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius-rt.png" alt="">
+                            <h4>Real-time Stats</h4>
+                        </div>
+
+                        <div class="freemius-item">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius-ft.png" alt="">
+                            <h4>Flexible Tracking</h4>
+                        </div>
+
+                        <div class="freemius-item">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius-ot.png" alt="">
+                            <h4>On-time Withdrawal</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--freemus area end-->
 
 
     <!--how is work-->

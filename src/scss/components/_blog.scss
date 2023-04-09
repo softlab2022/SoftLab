@@ -622,3 +622,33 @@
     border-radius: .25rem;
   }
 }
+
+
+@media (max-width: 768px){
+  .blog-item{
+    margin-top:50px !important;
+  }
+  .search_container{
+    top: 133px !important;
+    right: 134px !important;
+    bottom: 0 !important;
+    
+      .search-box {
+        width: 350px !important;
+      }
+  
+    .search-box{
+      .fm-search-btn{
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .search_container{
+    top: 245px !important;
+    right: 10px !important;
+    bottom: 0 !important;
+  }
+}

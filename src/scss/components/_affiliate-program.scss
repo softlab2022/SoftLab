@@ -633,6 +633,7 @@
     }
   }
   .about-area {
+    padding-bottom: 33px !important;
     .col-8 {
       .about-header {
         h2 {
@@ -680,6 +681,22 @@
     }
 
 
+  }
+  .freemius-area{
+    padding-bottom: 40px !important;
+    .section-title{
+      h2{
+        font-size: 25px !important;
+        margin-bottom: 0 !important;
+      }
+      img{
+        margin-top:25px !important;
+      }
+    }
+    .group-freemius{
+      padding-top:10px !important;
+      grid-template-columns: repeat(3, auto) !important;
+    }
   }
 
   .work-area {
@@ -824,6 +841,24 @@
 
     }
   }
+  .freemius-area{
+    padding-bottom: 40px !important;
+    .section-title{
+      h2{
+        font-size: 25px !important;
+        margin-bottom: 0 !important;
+        line-height:35px !important;
+      }
+      img{
+        margin-top:25px !important;
+      }
+    }
+    .group-freemius{
+      padding-top:10px !important;
+      grid-template-columns: repeat(2, auto) !important;
+    }
+  }
+
 
   .work-area {
     padding-bottom: 30px;
@@ -880,5 +915,56 @@
     }
   }
 
+
+}
+
+
+
+  // freemius
+  .freemius-area{
+    background: #F9FAFF;
+    padding-bottom: 100px;
+    .section-title{
+        h2{
+            font-size: 42px;
+            font-weight: 600;
+            color:#151826;
+            line-height: 58px;
+            margin-bottom: 20px;
+        }
+        p{
+          max-width:514px ;
+            width:100%;
+            margin:0 auto;
+
+        }
+        img{
+            margin-top:50px;
+           
+        }
+    }
+    .group-freemius{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        padding-top:30px;
+        margin-top: 50px;
+        grid-gap:20px;
+        .freemius-item{
+            img{
+                margin-bottom: 30px;
+                transition: all 0.4s;
+                &:hover {
+                  transform: translateY(-7px);
+                }
+            }
+            h4{
+              font-size:18px;
+              font-weight:500;
+              line-height:27px;
+              color:rgba(21, 24, 38, 0.6);
+            }
+        }
+    }
 
 }

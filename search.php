@@ -14,15 +14,24 @@ if ( have_posts() ) :
 	get_template_part( 'archive', 'loop' );
 else :
 ?>
-	<article id="post-0" class="post no-results not-found">
-		<header class="entry-header">
-			<h1 class="entry-title"><?php esc_html_e( 'Nothing Found', 'softlab' ); ?></h1>
-		</header><!-- /.entry-header -->
-		<p><?php esc_html_e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'softlab' ); ?></p>
-		<?php
-			get_search_form();
-		?>
-	</article><!-- /#post-0 -->
+<div class="search-page">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-8 m-auto">
+				<article id="post-0" class="post no-results not-found text-center">
+					<header class="entry-header">
+						<h1 class="entry-title"><?php esc_html_e( 'Nothing Found', 'softlab' ); ?></h1>
+					</header><!-- /.entry-header -->
+					<p><?php esc_html_e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'softlab' ); ?></p>
+					<?php
+						get_search_form();
+					?>
+				</article><!-- /#post-0 -->
+			</div>
+		</div>
+	</div>
+</div>
+	
 <?php
 endif;
 wp_reset_postdata();
