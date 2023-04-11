@@ -107,6 +107,11 @@
         ol {
             list-style-type: none;
             padding-left: 0;
+            .comment-respond{
+                margin-top: 20px;
+                background: #fff;
+                padding: 20px;
+            }
         }
         #reply-title {
             display: flex;
@@ -134,7 +139,8 @@
             background: #f7f8fb;
             padding:22px 20px !important;
             position: relative;
-            margin-bottom: 20px;
+           // margin-bottom: 20px;
+            overflow: hidden;
             
             .comment-meta {
                 position: relative;
@@ -170,6 +176,10 @@
             }
             .comment-awaiting-moderation {
                 color: #212529;
+                margin-top:60px;
+                display:block;
+                overflow:hidden;
+                display:none;
             }
             .comment-content {
                         color: #5c5c5c;
@@ -177,13 +187,14 @@
                         font-weight: 400;
                         position: absolute;
                         left: 120px;
-                        top: 45px;
-                        max-width: 500px;
+                        top: 52px;
+                        width: 450px;
+                        overflow: hidden;
 
             }
             .reply {
                 position: absolute;
-                top:27px;
+                top:0px;
                 right:0;
                 .btn, a.btn {
                     margin-bottom: 40px;
