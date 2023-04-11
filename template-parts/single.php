@@ -31,7 +31,7 @@
 
     <div class="container section-item">
         <div class="row justify-content-center">
-            <div class="col-md-8 m-auto">
+            <div class="col-md-8  col-sm-12 m-auto">
 
 				<?php
 				if ( has_post_thumbnail() ) {

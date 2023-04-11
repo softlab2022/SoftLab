@@ -36,7 +36,9 @@ import "./components/sticky-banner";
             $('.search-btn').on('click', app.openSearch);
             $('.cencel-btn').on('click', app.cancelSearch);
 
-          
+            $(".search-btn").on("click", function() {
+                $(".search-form").focus();
+              });
         
         },
         
