@@ -81,10 +81,24 @@
         }
 
         .tab-area {
+
+            // a {
+            //     width: 170px;
+            // }
+
             .page-builder {
                 margin-bottom: 60px;
                 display: inline-block;
             }
+
+            // .demo-btn {
+            //     display: inline-block;
+            // }
+
+            // .demo {
+            //     display: flex;
+
+            // }
         }
     }
 
@@ -95,7 +109,7 @@
 /*==== page-builder css area start ====*/
 
 #page-builder {
-    padding: 50px 100px 0 0;
+    padding: 50px 0;
 
     .heading-text {
         font-weight: 700;
@@ -150,7 +164,8 @@
             line-height: 120%;
             color: $h1_color;
             text-transform: capitalize;
-            padding-top: 20px;
+            padding-top: 40px;
+            padding-bottom: 20px;
         }
 
         .feature-description {
@@ -174,6 +189,7 @@
             margin-top: 2rem;
             width: max-content;
             transition: all linear .4s;
+            display: block;
 
             &:hover {
                 background-color: #fff;
@@ -284,6 +300,28 @@
     }
 
     /*==== responsive css area start ====*/
+
+    @media (min-width: 1200px) {
+        .feat-shadw {
+            position: relative;
+
+            &:after {
+                content: "";
+                //background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                width: 180px;
+                height: 180px;
+                right: 0%;
+            }
+
+            &:before {
+                content: "";
+                //background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                width: 180px;
+                height: 180px;
+                left: 0%;
+            }
+        }
+    }
 
     @media (min-width: 992px) and (max-width: 1199.98px) {
         .heading-text {
@@ -494,6 +532,8 @@
 
                 iframe {
                     border-radius: 10px;
+                    width: 100%;
+                    aspect-ratio: 16/9;
                 }
 
             }
@@ -578,7 +618,8 @@
             line-height: 120%;
             color: $h1_color;
             text-transform: capitalize;
-            padding-top: 20px;
+            padding-top: 40px;
+            padding-bottom: 20px;
         }
 
         .feature-description {
@@ -602,6 +643,7 @@
             margin-top: 2rem;
             width: max-content;
             transition: all linear .4s;
+            display: block;
 
             &:hover {
                 background-color: #fff;
@@ -727,6 +769,28 @@
     }
 
     /*==== responsive css area start ====*/
+
+    @media (min-width: 1200px) {
+        .feat-shadw {
+            position: relative;
+
+            &:after {
+                content: "";
+                //background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                width: 180px;
+                height: 180px;
+                right: 0%;
+            }
+
+            &:before {
+                content: "";
+                //background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                width: 180px;
+                height: 180px;
+                left: 0%;
+            }
+        }
+    }
 
     @media (min-width: 992px) and (max-width: 1199.98px) {
         .heading-text {
@@ -987,6 +1051,8 @@
 
                 iframe {
                     border-radius: 10px;
+                    width: 100%;
+                    aspect-ratio: 16/9;
                 }
             }
 
@@ -1076,13 +1142,13 @@
 
 
     .woocommerce-head {
-        padding-top: 60px;
+        // padding-top: 60px;
 
         img {
             box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.25);
             border-radius: 19px;
             margin-bottom: 30px;
-            margin-top: 65px;
+            margin-top: 100px;
         }
 
         .wooco-title {
@@ -1105,8 +1171,7 @@
     }
 
     .wooco-feature-area {
-        padding-bottom: 40px;
-
+        margin: 0 20px;
         .feature-title {
             font-weight: 600;
             font-size: 2.5rem;
@@ -1137,9 +1202,13 @@
 
     }
 
+    .last-feature {
+        padding-bottom: 90px !important;
+    }
+
     .feature-btn {
         margin-top: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
 
         .feature-demo-btn {
             text-decoration: none;
@@ -1240,6 +1309,56 @@
 
     /*==== responsive css area start ====*/
 
+    @media (min-width: 1200px) {
+        .feat-shadw {
+            position: relative;
+
+            &:after {
+                content: "";
+                //background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                width: 180px;
+                height: 180px;
+                right: 0%;
+            }
+
+            &:before {
+                content: "";
+                //background: linear-gradient(153.63deg, #BBE897 3.43%, #08CD87 90.47%);
+                width: 180px;
+                height: 180px;
+                left: 0%;
+            }
+        }
+
+        .wooco-feature-area {
+            .feature-title {
+                font-size: 2.2rem;
+                padding-bottom: 10px;
+                padding-top: 20px;
+            }
+
+            .feature-description {
+                font-size: 1rem;
+                padding: 0 3rem;
+            }
+
+
+        }
+
+        .woocommerce-head {
+
+            .wooco-title {
+                font-size: 2.7rem;
+                padding-bottom: 20px;
+                padding-top: 10px;
+            }
+
+            .wooco-description {
+                margin: 0 1rem;
+            }
+        }
+    }
+
     @media (min-width: 992px) and (max-width: 1199.98px) {
         .heading-text {
             font-size: 3rem;
@@ -1287,7 +1406,7 @@
 
         .wooco-feature-area {
             text-align: center;
-
+            margin: 0;
 
             .feature-video {
 
@@ -1367,7 +1486,7 @@
 
         .wooco-feature-area {
             text-align: center;
-
+            margin: 0;
 
             .feature-video {
 
@@ -1449,7 +1568,7 @@
 
         .wooco-feature-area {
             text-align: center;
-
+            margin: 0;
 
             .feature-title {
                 font-size: 2rem;

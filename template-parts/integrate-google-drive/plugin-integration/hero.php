@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-10 m-auto">
                 <div class="section-head text-center">
-                    <h1 class="title-haader">Plugin integrations</h1>
-                    <p class="header-description">Our WP Cloud Plugins seamlessly integrate into a couple of well crafted other WP plugins allowing you to build even more powerful solutions.</p>
+                    <h1 class="title-haader">Most Popular Plugin Integrations</h1>
+                    <p class="header-description">Integrate Google Drive is a popular cloud-based file storage, management, and collaboration platform. With the power of Integrating popular third-party plugins, Integrate Google Drive plugin make it even more useful for users.</p>
                 </div>
                 <div class="tab-area text-center">
                     <a class="page-builder" href="#page-builder">
