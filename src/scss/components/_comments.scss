@@ -189,7 +189,7 @@
                         font-weight: 400;
                         position: absolute;
                         left: 120px;
-                        top: 52px;
+                        top: 53px;
                         //width: 450px;
                         overflow: hidden;
 
@@ -237,4 +237,43 @@
             }
         }
        
+}
+
+
+@media (max-width: 768px){
+    #comments{
+        padding:23px 10px;
+        .comment{
+            .comment-meta{
+                .comment-author{
+                    img{
+                        width:50px;
+                        height:50px;
+                    }
+                }
+            }
+            .comment-content{
+                left:85px;
+                top:45px;
+            }
+            padding:22px 6px !important;
+            .reply {
+                
+                right: -16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    #comments{
+       
+        .comment{
+           
+            .reply {
+                
+                right: -16px;
+            }
+        }
+    }
 }

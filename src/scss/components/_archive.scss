@@ -71,6 +71,7 @@
     }
   }
 }
+
 //pagination of  category archive page
 .cat_pagination_ar{
   padding-bottom: 70px !important;
@@ -78,7 +79,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 3rem;
+        //margin-top: 3rem;
     .page-numbers{
           font-size: 14px;
           line-height: 150%;
@@ -109,16 +110,28 @@
 }
 
 
+@media (max-width: 768px){
+    .undated-date{
+      flex-direction: column;
+      justify-content: center;
+      gap:10px !important;
+      
+    }
+}
+
 // responsive category page
 @media (max-width: 600px){
+ 
 .archive-area{
    padding:1rem 0;
   .card{
     .card-body{
       .undated-date{
-        text-align: center !important;
+        flex-direction: column;
+        justify-content: center;
+        gap:10px !important;
         ul{
-          display: block;
+          
           li{
             margin-bottom: 15px;
           }
@@ -127,6 +140,7 @@
       h2{
         font-size:20px !important;
       }
+      
     }
   }
 }

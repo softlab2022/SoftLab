@@ -636,6 +636,10 @@
   .buttons{
     margin-top:80px;
   }
+  .blog-item-meta{
+    flex-direction: column;
+    gap: 20px;
+  }
   .blog-item{
     margin-top:0px !important;
   }
@@ -668,6 +672,14 @@
 @media (max-width: 600px){
   .buttons{
     margin-top:80px;
+    .btn{
+      font-size: 11px !important;
+      padding:9px 11px !important;
+    }
+  }
+  .blog-item-meta{
+    flex-direction: column;
+    gap: 20px;
   }
   .search_container{
     top: -84px !important;

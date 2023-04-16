@@ -153,7 +153,18 @@ figure {
    
   }
 }
+//responsive 
+@media (max-width: 768px){
+  .entry-content{
+    p{
+      font-size:16px;
 
+    }
+    h2{
+      font-size:25px;
+    }
+  }
+}
 
 
 @media (max-width: 600px){
