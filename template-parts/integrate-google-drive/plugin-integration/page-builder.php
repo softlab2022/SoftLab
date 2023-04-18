@@ -1,28 +1,32 @@
 <?php
 
-$features = [
-    'classic-editor' => [
-        'title'       => 'Classic Editor',
-        'description' => 'The Integrate Google Drive WordPress plugin is compatible with the Classic Editor page builder, allowing users to easily and conveniently manage and insert Google Drive files into their posts and pages without leaving the editor.',
-        'video'        => '<iframe  src="https://www.youtube.com/embed/E1RmiLFJ1wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-    ],
-    'gutenberg' => [
-        'title'       => 'Gutenberg',
-        'description' => 'With the integration of Gutenberg compatibility, users can now easily add and manage these files and folders within the Gutenberg block editor, providing a streamlined and user-friendly experience. This integration allows users to easily create and manage content without having to switch between different platforms or interfaces.',
-        'video'        => '<iframe  src="https://www.youtube.com/embed/H8tHWCmyJno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-    ],
-    'elementor' => [
-        'title'       => 'Elementor Website Builder',
-        'description' => 'With the added compatibility for the Elementor website builder, users can easily incorporate Google Drive files and folders into their Elementor-designed pages and posts. This integration offers a convenient way to share and display content from Google Drive directly on your website.',
-        'video'        => '<iframe  src="https://www.youtube.com/embed/DnbvXdWv8Q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    $features = [
+        'classic-editor' => [
+            'title'       => 'Classic Editor',
+            'description' => 'The Integrate Google Drive WordPress plugin is compatible with the Classic Editor page builder, allowing users to easily and conveniently manage and insert Google Drive files into their posts and pages without leaving the editor.',
+            'video'        => '<iframe  src="https://www.youtube.com/embed/E1RmiLFJ1wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+        ],
+        'gutenberg' => [
+            'title'       => 'Gutenberg',
+            'description' => 'With the integration of Gutenberg compatibility, users can now easily add and manage these files and folders within the Gutenberg block editor, providing a streamlined and user-friendly experience. This integration allows users to easily create and manage content without having to switch between different platforms or interfaces.',
+            'video'        => '<iframe  src="https://www.youtube.com/embed/H8tHWCmyJno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+        ],
+        'elementor' => [
+            'title'       => 'Elementor Website Builder',
+            'description' => 'With the added compatibility for the Elementor website builder, users can easily incorporate Google Drive files and folders into their Elementor-designed pages and posts. This integration offers a convenient way to share and display content from Google Drive directly on your website.',
+            'video'        => '<iframe  src="https://www.youtube.com/embed/DnbvXdWv8Q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 
-    ],
+        ],
+        'divi' => [
+            'title'       => 'Divi Page Builder',
+            'description' => 'Add Google Drive modules, embed documents and insert  file view links and download links using the Google Drive  Gutenberg editor blocks',
+            'video'        => '<iframe src="https://www.youtube.com/embed/Iz_Md-oiRhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 
-];
+        ],
+
+    ];
 
 ?>
-
-
 
 
 <section id="page-builder">
@@ -67,12 +71,23 @@ $features = [
                 </div>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4 me-auto">
+            <div class="col-lg-2 col-4 col-md-4">
                 <div class="page-builder-area text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/elementor.png" alt="elementor">
                     <div class="page-builder-area-text text-center">
                         <span class="page-builder-text">
                             Elementor
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-4 col-md-4 me-auto">
+                <div class="page-builder-area text-center">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/divi.png" alt="divi">
+                    <div class="page-builder-area-text text-center">
+                        <span class="page-builder-text">
+                            Divi Page Builder
                         </span>
                     </div>
                 </div>
