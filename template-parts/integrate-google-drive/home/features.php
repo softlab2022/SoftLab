@@ -103,6 +103,7 @@ $features = [
                                 <span><i class="fa-solid fa-check"></i> Classic Editor</span>
                                 <span><i class="fa-solid fa-check"></i> Gutenberg</span>
                                 <span><i class="fa-solid fa-check"></i> Elementor</span>
+                                <span><i class="fa-solid fa-check"></i> Divi Page Builder</span>
                             </div>
 						<?php } elseif ( 'form' == $key ) { ?>
                             <div class="feature-integrations">
