@@ -105,18 +105,14 @@
     .search_container {
       position: absolute;
       right: -29px;
-      top: 0px;
+      top: 5px;
 
       .search-form {
        
 
         .search-box {
           position: relative;
-<<<<<<< HEAD
           height: 45px;
-=======
-          height: 53px;
->>>>>>> aa313a5d75fe4984f549c4f97f62497a3550dd44
           width: 60px;
           transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
          
@@ -143,7 +139,6 @@
           }
 
           .search-btn {
-<<<<<<< HEAD
             width: 45px;
             height: 45px;
             line-height: 45px;
@@ -151,15 +146,6 @@
             border-radius: 50%;
             color: #4b45b0;
             font-size: 18px;
-=======
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-            text-align: center;
-            border-radius: 50%;
-            color: #4b45b0;
-            font-size: 16px;
->>>>>>> aa313a5d75fe4984f549c4f97f62497a3550dd44
             cursor: pointer;
             background-color: #fff;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -175,26 +161,15 @@
             position: absolute;
             top: 23px;
             right: 5px;
-<<<<<<< HEAD
             width: 35px;
             height: 35px;
             line-height: 35px;
-=======
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
->>>>>>> aa313a5d75fe4984f549c4f97f62497a3550dd44
             text-align: center;
             border-radius: 50%;
             color: #fff;
             background: #6e6dff !important;
-<<<<<<< HEAD
             font-size: 16px;
             transform: translateY(-50%);
-=======
-            font-size: 15px;
-            transform: translateY(-58%);
->>>>>>> aa313a5d75fe4984f549c4f97f62497a3550dd44
             cursor: pointer;
             border: none;
           }
@@ -560,9 +535,8 @@
     border-radius: .25rem;
   }
 }
-<<<<<<< HEAD
-=======
 
+// responsive blog page 
 
 @media (max-width: 768px){
   .buttons{
@@ -635,4 +609,3 @@
    
   }
 }
->>>>>>> aa313a5d75fe4984f549c4f97f62497a3550dd44
