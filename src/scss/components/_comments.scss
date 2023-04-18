@@ -187,11 +187,13 @@
                         color: #5c5c5c;
                         font-size: 1rem;
                         font-weight: 400;
-                        position: absolute;
-                        left: 120px;
-                        top: 53px;
+                        // position: absolute;
+                        // left: 120px;
+                        // top: 53px;
                         //width: 450px;
-                        overflow: hidden;
+                        // overflow: hidden;
+                        margin-left: 100px;
+                        margin-top: -58px;
 
             }
             .reply {
@@ -253,8 +255,10 @@
                 }
             }
             .comment-content{
-                left:85px;
-                top:45px;
+                // left:85px;
+                // top:45px;
+                margin-left: 80px;
+                margin-top:-41px;
             }
             padding:22px 6px !important;
             .reply {
