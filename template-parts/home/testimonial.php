@@ -58,7 +58,7 @@ $testimonials = [
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-8 col-8  m-auto">
+            <div class="col-lg-8 col-10  m-auto">
                 <div class="section-head text-center">
                     <h2>What our users says</h2>
                     <p>See, how our users all over the world are getting benefit from using our products.</p>

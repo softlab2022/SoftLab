@@ -36,7 +36,7 @@ $elite_features = [
 ?>
 
 
-<section id="pricing-hero">
+<!-- <section id="pricing-hero">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-6 ms-auto">
@@ -51,7 +51,7 @@ $elite_features = [
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="pricing">
     <div class="container">
