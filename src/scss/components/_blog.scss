@@ -300,6 +300,11 @@
         color: $h1_color;
         margin-bottom: 1rem;
         font-weight: 600;
+        transition: all linear .4s;
+        &:hover {
+          color: #0d6efd;
+          transition: all linear .4s;
+        }
       }
     }
 
