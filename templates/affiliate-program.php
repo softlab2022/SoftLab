@@ -56,7 +56,7 @@ get_header();
 
 
             </div>
-            
+
             <div class="row">
                 <div class="col-12">
                     <div class="about-cols">
@@ -442,22 +442,22 @@ get_header();
                                 <h2>you can</h2>
                                 <ul>
                                     <li>
-                                        
+
                                         <i class="fa-solid fa-check"></i>
                                         Create high-quality content that provides value to your audience. It can be an
                                         article, video, social post, or others.
                                     </li>
                                     <li>
-                                    <i class="fa-solid fa-check"></i>
+                                        <i class="fa-solid fa-check"></i>
                                         Stay up to date with the latest updates and features of the product.
                                     </li>
                                     <li>
-                                    <i class="fa-solid fa-check"></i>
+                                        <i class="fa-solid fa-check"></i>
                                         Engage with your audience through comments, social media, and other channels for
                                         awareness & help.
                                     </li>
                                     <li>
-                                    <i class="fa-solid fa-check"></i>
+                                        <i class="fa-solid fa-check"></i>
                                         Create relevant informative content and suggest to them one of our useful
                                         products (this method converts well).
                                     </li>
@@ -469,22 +469,22 @@ get_header();
                                 <h2>you can not</h2>
                                 <ul>
                                     <li>
-                                    <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-xmark"></i>
                                         Don’t share any false or misleading information about the product to increase
                                         conversion.
                                     </li>
                                     <li>
-                                    <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-xmark"></i>
                                         Don't try to trick your audience into clicking on your links by disguising them
                                         as something else.
                                     </li>
                                     <li>
-                                    <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-xmark"></i>
                                         Don’t use any black hat method to promote our products. Your commissions won’t
                                         be approved.
                                     </li>
                                     <li>
-                                    <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-xmark"></i>
                                         Don’t promote our product directly to our competitors. It may create confusion!
                                     </li>
 
@@ -508,7 +508,10 @@ get_header();
                     <div class="ctp text-center">
                         <h2>Partner Up With SoftLab And Start Making People's Lives Better</h2>
                         <p>Discover our high-converting products and star promoting</p>
-                        <a href="/affiliates-/" class="cpt-btn">apply now</a>
+                        <a href="/affiliate-register/" class="cpt-btn">
+                            Become our Partner
+                            <i class="fas fa-long-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>

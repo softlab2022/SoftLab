@@ -402,10 +402,8 @@
       text-align: center;
       padding: 30px;
       position: relative;
-      border-top-right-radius: 30px;
-      border-bottom-left-radius: 30px;
-      border-top-left-radius: 6px;
-      border-bottom-right-radius: 6px;
+      border-radius: 10px;
+      border: 1px solid #E5E5E5;
 
       .cols-box {
         .col-img {
@@ -419,7 +417,7 @@
 
       p {
         font-size: 16px;
-        color: #15182699;
+        color: #333;
       }
 
       .vct {
@@ -610,6 +608,11 @@
       text-transform: capitalize;
       border-radius: 5px;
       transition: all .4s ease;
+      color: #555;
+
+      i {
+        margin-left: 10px;
+      }
 
       &:hover {
         background: #3D34A4;
@@ -708,12 +711,13 @@
   .affiliate-benefits {
     .affiliate-benefit-cols {
       grid-template-columns: repeat(2, 1fr);
+
       .affiliate-benefits-box {
         padding: 10px !important;
-    }
+      }
     }
   }
- 
+
   .comparison-real {
     .comparisons-boxs {
       grid-template-columns: repeat(1, 1fr);
@@ -753,18 +757,22 @@
 
 
 @media only screen and (max-width: 600px) {
-  .affiliate-program{
-    padding-top:127px;
-    .affiliate-cols-left{
+  .affiliate-program {
+    padding-top: 127px;
+
+    .affiliate-cols-left {
       text-align: center;
-      h2{
-        font-size:30px;
+
+      h2 {
+        font-size: 30px;
         line-height: 40px;
       }
-      p{
+
+      p {
         margin-bottom: 48px;
       }
-      .affiliate-btn{
+
+      .affiliate-btn {
         margin-bottom: 40px;
         display: inline-block;
       }
@@ -783,23 +791,27 @@
     }
   }
   .about-area {
-    padding-top:48px;
+    padding-top: 48px;
     padding-bottom: 0;
+
     .col-9 {
       width: 100%;
+
       .about-header {
         h2 {
           font-size: 30px;
           line-height: 40px;
         }
       }
-     
+
     }
-    .about-cols{
+
+    .about-cols {
       margin-top: 7px;
-    text-align: center;
-      .about-cols-left{
-        h2{
+      text-align: center;
+
+      .about-cols-left {
+        h2 {
           font-size: 30px;
           line-height: 40px;
         }
@@ -808,7 +820,8 @@
 
 
     .impact-applys {
-      margin-top:25px !important;
+      margin-top: 25px !important;
+
       h2 {
         font-size: 30px !important;
         line-height: 40px !important;
@@ -816,9 +829,10 @@
     }
 
     .affiliate-about-two {
-        margin-top:7px;
-        gap:0 !important;
-        text-align: center !important;;
+      margin-top: 7px;
+      gap: 0 !important;
+      text-align: center !important;;
+
       .affiliate-about-two-right {
         h2 {
           font-size: 30px;
@@ -828,10 +842,12 @@
     }
 
     .affiliate-about-three {
-      padding:40px 0 !important;
-      gap:17px !important;
+      padding: 40px 0 !important;
+      gap: 17px !important;
+
       .affiliate-about-three-left {
         text-align: center;
+
         h2 {
           font-size: 30px !important;
           line-height: 40px !important;
@@ -862,25 +878,28 @@
 
   .work-area {
     padding-bottom: 30px;
-    .works{
-      h2{
+
+    .works {
+      h2 {
         font-size: 30px !important;
         line-height: 40px !important;;
       }
     }
+
     .works-cols {
-      padding-top:20px;
+      padding-top: 20px;
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 7px;
     }
   }
-  .affiliate-benefits{
-    padding:10px 0 !important;
-    .affiliate-title{
-      h2{
-        font-size:30px;
+  .affiliate-benefits {
+    padding: 10px 0 !important;
+
+    .affiliate-title {
+      h2 {
+        font-size: 30px;
         line-height: 40px !important;
-        
+
       }
     }
   }
@@ -892,23 +911,27 @@
   .comparison-real {
     .comparisons-boxs {
       padding: 30px;
-      .comparisons-col-left{
-        h2{
-          font-size:25px;
+
+      .comparisons-col-left {
+        h2 {
+          font-size: 25px;
         }
-        ul{
-          li{
-            font-size:14px;
+
+        ul {
+          li {
+            font-size: 14px;
           }
         }
       }
-      .comparisons-col-right{
-        h2{
-          font-size:25px;
+
+      .comparisons-col-right {
+        h2 {
+          font-size: 25px;
         }
-        ul{
-          li{
-            font-size:14px;
+
+        ul {
+          li {
+            font-size: 14px;
           }
         }
       }
