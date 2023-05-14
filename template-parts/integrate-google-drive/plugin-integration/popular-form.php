@@ -52,7 +52,7 @@ $features = [
             <div class="col-lg-7 m-auto">
                 <div class="section-head  text-center">
                     <h2 class="heading-text">Popular form integrations</h2>
-                    <p class="heading-description">Do you want more flexibility than the Upload Box can provide? Use a popular form integration allowing you the create the perfect form!</p>
+                    <p class="heading-description">Do you want more flexibility with the popular form plugins? Integrate Google Drive plugin has compatibility with Contact Form 7, WPForms, Gravity Forms, Ninja Forms, Fluent Forms, and Formidable Forms to create stunning upload fields.</p>
                 </div>
             </div>
             <div class="vector-crcel-right">

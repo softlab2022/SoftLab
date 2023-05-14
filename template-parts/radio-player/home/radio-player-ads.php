@@ -13,13 +13,13 @@
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/audio-ads.png" alt="audio-ads">
                 </div>
             </div>
-            <div class="col-lg-6 m-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
                 <div class="add-text">
                     <span>Transform Your Radio Ads Experience and Boost Your Revenue</span>
                     <p>Sign Up Now to Seamlessly Manage and Deliver Targeted Audio Ads, Promos, and Mic-Drops to Your Listeners with Our Advanced Audio Ad Player Add-On</p>
                 </div>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-4 m-auto">
                 <div class="add-but text-center">
                     <a href="/radio-player-ads/" class="bt1" >Get Started</a>
                 </div>

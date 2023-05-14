@@ -36,7 +36,7 @@ $addons = [
         <div class="row">
 
 			<?php foreach ( $addons as $key => $addon ) { ?>
-                <div class="col-lg-3 col-md-6 m-auto">
+                <div class="col-lg-3 col-md-6 ">
                     <a href="/<?php echo $key; ?>">
                         <div class="addon-item text-center addon-<?php echo $key; ?>">
                             <img class="img-fluid"

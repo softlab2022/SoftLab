@@ -1,7 +1,7 @@
 #comments {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
         padding: 23px 40px;
-        border-radius: 5px;
+        border-radius: 7px;
         margin-top: 60px;
     #comments-title {
         font-weight: 700;
@@ -107,6 +107,12 @@
         ol {
             list-style-type: none;
             padding-left: 0;
+            .comment-respond{
+                margin-top: 20px;
+                background: #fff;
+                padding: 20px;
+                border-radius: 7px;
+            }
         }
         #reply-title {
             display: flex;
@@ -134,7 +140,9 @@
             background: #f7f8fb;
             padding:22px 20px !important;
             position: relative;
-            margin-bottom: 20px;
+           // margin-bottom: 20px;
+            overflow: hidden;
+           
             
             .comment-meta {
                 position: relative;
@@ -170,23 +178,31 @@
             }
             .comment-awaiting-moderation {
                 color: #212529;
+                margin-top:60px;
+                display:block;
+                overflow:hidden;
+                //display:none;
             }
             .comment-content {
                         color: #5c5c5c;
                         font-size: 1rem;
                         font-weight: 400;
-                        position: absolute;
-                        left: 120px;
-                        top: 45px;
-                        max-width: 500px;
+                        // position: absolute;
+                        // left: 120px;
+                        // top: 53px;
+                        //width: 450px;
+                        // overflow: hidden;
+                        margin-left: 100px;
+                        margin-top: -58px;
 
             }
             .reply {
                 position: absolute;
-                top:27px;
+                top:8px;
                 right:0;
                 .btn, a.btn {
                     margin-bottom: 40px;
+                    outline: none !important;
                     span{
                         font-size:16px;
                         font-weight:600;
@@ -206,14 +222,62 @@
             }
             .btn-check:focus+.btn-primary, .btn-primary:focus {
                 box-shadow:none;
-                background:transparent !important
+                background:transparent !important;
+                outline: none !important;
             }
             .btn-check:focus {
                 box-shadow: none;
+                outline: none !important;
             }
         }
         .children{
             list-style: none;
+            margin-bottom: -39px;
+            .children {
+                list-style: none;
+                margin-bottom: -39px;
+            }
         }
        
+}
+
+
+@media (max-width: 768px){
+    #comments{
+        padding:23px 10px;
+        .comment{
+            .comment-meta{
+                .comment-author{
+                    img{
+                        width:50px;
+                        height:50px;
+                    }
+                }
+            }
+            .comment-content{
+                // left:85px;
+                // top:45px;
+                margin-left: 80px;
+                margin-top:-41px;
+            }
+            padding:22px 6px !important;
+            .reply {
+                
+                right: -16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    #comments{
+       
+        .comment{
+           
+            .reply {
+                
+                right: -16px;
+            }
+        }
+    }
 }

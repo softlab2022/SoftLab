@@ -117,44 +117,44 @@ $products = [
 		'logo'        => get_template_directory_uri() . '/assets/images/products//dracula/dracula-icon.png',
 		'features'    => [
 			[
-				'title' => 'Reader Mode layout',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/layout.png',
+				'title' => 'Frontend Dark Mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/frontend.png',
 			],
 
 			[
-				'title' => 'Reading Time',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/time.png',
+				'title' => 'Dark Mode Live Edit Mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/live-edit.png',
 			],
 
 			[
-				'title' => 'Translation',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/transiation.png',
+				'title' => 'Page Wise Dark Mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/page-wish.png',
 			],
 
 
 			[
-				'title' => 'Text to Speech',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/speech.png',
+				'title' => 'Backend Dark Mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/backend.png',
 			],
 
 			[
-				'title' => 'Multiple Buttons & Styles',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/multiple.png',
+				'title' => 'Multiple switches',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/multiple.png',
 			],
 
 			[
-				'title' => 'Multiple Display Positions',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/display.png',
+				'title' => 'Admin Dashboard Dark Mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/admin-dash.png',
 			],
 
 			[
-				'title' => 'Light/ Dark Mode Theme',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/light-dark.png',
+				'title' => 'OS-based color mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/os-based.png',
 			],
 
 			[
-				'title' => 'Reading Progress Bar',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/reading.png',
+				'title' => 'Time-based dark mode',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/time-based.png',
 			],
 		]
 	],

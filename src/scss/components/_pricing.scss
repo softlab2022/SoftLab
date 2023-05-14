@@ -2097,7 +2097,7 @@
 
   #pricing {
     margin: 0;
-
+    padding-top: 200px;
     .hero-content {
       h1 {
         font-weight: 700;
@@ -2335,7 +2335,7 @@
       }
     }
 
-    @media (min-width: 768px) and (max-width: 991px) {
+    @media (min-width: 768px) and (max-width: 991.98px) {
       .price-table__business {
         margin-top: 25px;
       }
@@ -2347,6 +2347,9 @@
         .professional-title {
           font-size: 1.2rem;
         }
+      }
+      .price-table__elite {
+        margin-top: 30px;
       }
     }
 

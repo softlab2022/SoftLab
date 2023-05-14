@@ -68,26 +68,12 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="our-team">
-                        <div class="picture">
-                        <img class="img-fluid" src="<?php echo get_theme_file_uri();?>/assets/images/home/team/firoz.jpg">
-                         <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid "> -->
-
-                        </div>
-                        <div class="team-content">
-                        <h3 class="name">firoz Mahmud</h3>
-                        <h4 class="title">WordPress Developer</h4>
-                        </div>
-                      
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-auto">
                     <div class=" team-butt join-us text-center">
                         <a href="/create-account/" class="btn">Join with us</a>
                     </div>
                 </div>
+
 
             </div>
 

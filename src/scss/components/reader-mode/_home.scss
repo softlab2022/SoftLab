@@ -8,7 +8,6 @@ body {
   }
 }
 
-
 .section-title {
   text-align: center;
 
@@ -27,7 +26,18 @@ body {
     margin: 0px 90px 60px 90px;
   }
 
-  @media (max-width: 767px) {
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      margin: 0px 0px 30px 0px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
     h2 {
       font-size: 2rem;
     }
@@ -103,7 +113,19 @@ body {
     }
   }
 
-  @media(max-width: 767px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-content {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        margin: 20px 0px 60px 0px;
+      }
+    }
+  }
+
+  @media(max-width: 767.98px) {
     padding: 192px 0;
 
     .hero-content {
@@ -198,7 +220,8 @@ body {
     border: 3px #333 !important;
     background: #333;
 
-    &:after, &:before {
+    &:after,
+    &:before {
       background: #333 !important;
     }
 
@@ -217,6 +240,8 @@ body {
 /**-----feature area------**/
 #reader-mode-features {
   margin: 120px 0;
+
+  
 
   .feature-item {
     padding: 60px 0;
@@ -251,9 +276,26 @@ body {
       padding-right: 72px;
       padding-top: 30px;
     }
+
+
   }
 
-  @media (max-width: 767px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .feature-content {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding-bottom: 20px;
+        padding-right: 0;
+        padding-top: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
     margin: 80px 0;
 
     .feature-item {
@@ -284,8 +326,8 @@ body {
   background-color: #FFF;
   margin: 120px 0;
 
-  .ex-head {
-    h1 {
+  .section-title {
+    h2 {
       font-weight: 700;
       font-size: 2.2rem;
       line-height: 120%;
@@ -349,13 +391,26 @@ body {
     }
   }
 
-  @media (max-width: 767px) {
-    margin: 60px 0;
-
-    .ex-head {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .section-title{
       text-align: center;
 
-      h1 {
+      h2 {
+        font-size: 2rem;
+      }
+
+      p {
+        padding: 0 30px;
+      }
+    }
+  }
+  @media (max-width: 767.98px) {
+    margin: 60px 0;
+
+    .section-title {
+      text-align: center;
+
+      h2 {
         font-size: 1.8rem;
       }
 
@@ -581,10 +636,11 @@ body {
 
   @media (max-width: 767px) {
     padding: 3rem 0;
+
     .left {
       left: 0px;
     }
-  
+
     .right {
       right: 0px;
     }
@@ -666,4 +722,3 @@ body {
   }
 
 }
-  

@@ -5,9 +5,9 @@ $features = [
 		'title'       => 'Reader Mode Layout',
 		'description' => '
 		Reader Mode adds a simple and clean content layout that is user-friendly, comfortable, more readable, more accessible, and easy to use for readers. Your website articles & posts can be turned into simple & interactive by using the Reader Mode layout.
-<br />
-<br />
-Reader Mode\'s simple layout represents easy customizations of buttons style and text, translating over 100+ languages, multiple accents, and genders Text-to-Speech capability, reading time estimator, reading progress bar, and many other powerful features that improve your websites readability and accessibility better among users.
+		<br />
+		<br />
+		Reader Mode\'s simple layout represents easy customizations of buttons style and text, translating over 100+ languages, multiple accents, and genders Text-to-Speech capability, reading time estimator, reading progress bar, and many other powerful features that improve your websites readability and accessibility better among users.
 		',
 	],
 	'translation'                => [
@@ -59,50 +59,47 @@ Reader Mode\'s simple layout represents easy customizations of buttons style and
 
 <section id="reader-mode-features">
 
-    <div class="container">
-        <div class="col-md-6 m-auto">
-            <div class="section-title">
-                <h2>Reader Mode Features</h2>
-                <p>Let's explore the amazing features of the Reader Mode, which will help you to improve your user's
-                    reading
-                    experience.</p>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="col-lg-6 col-md-10 m-auto">
+			<div class="section-title">
+				<h2>Reader Mode Features</h2>
+				<p>Let's explore the amazing features of the Reader Mode, which will help you to improve your user'sreading experience.</p>
+			</div>
+		</div>
+	</div>
 
 	<?php
 
 	$i = 0;
-	foreach ( $features as $key => $feature ) {
+	foreach ($features as $key => $feature) {
 
 		$is_odd = $i % 2 == 0;
 
-		?>
+	?>
 
-        <div class="feature-item feature-<?php echo $key; ?>">
-            <div class="container">
-                <div class="row flex-column-reverse <?php echo $is_odd ? 'flex-md-row' : 'flex-md-row-reverse'; ?>  align-items-center">
+		<div class="feature-item feature-<?php echo $key; ?>">
+			<div class="container">
+				<div class="row flex-column-reverse <?php echo $is_odd ? 'flex-md-row' : 'flex-md-row-reverse'; ?>  align-items-center">
 
-                    <div class="col-md-6">
-                        <div class="feature-content">
-                            <h2><?php echo $feature['title']; ?></h2>
-                            <p><?php echo $feature['description']; ?></p>
-                        </div>
-                    </div>
+					<div class="col-md-6">
+						<div class="feature-content">
+							<h2><?php echo $feature['title']; ?></h2>
+							<p><?php echo $feature['description']; ?></p>
+						</div>
+					</div>
 
-                    <div class="col-md-6 m-auto">
-                        <div class="feature-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/features/<?php echo $key; ?>.png"
-                                 alt="<?php echo $feature['title']; ?>">
-                        </div>
-                    </div>
+					<div class="col-md-6 m-auto">
+						<div class="feature-img text-center">
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/features/<?php echo $key; ?>.png" alt="<?php echo $feature['title']; ?>">
+						</div>
+					</div>
 
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
 
-		<?php
-		$i ++;
+	<?php
+		$i++;
 	} ?>
 
 </section>

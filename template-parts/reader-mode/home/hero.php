@@ -1,7 +1,7 @@
 <section class="reader-mode-hero-area">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-8 col-md-6 m-auto">
+            <div class="col-lg-8 col-md-10 m-auto">
                 <div class="hero-content text-center">
                     <h1>Distraction-Free Content Reader with Enhanced Readability and Accessibility.</h1>
                     <p>

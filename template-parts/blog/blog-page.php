@@ -25,10 +25,11 @@
                               action="<?php echo esc_url( home_url( '/' ) ); ?>">
 
                             <div class="search-box">
-                                <input type="text" class="search-field" placeholder="Search.."
-                                       value="<?php echo get_search_query(); ?>" name="s"/>
+                                <input type="text"  class="search-field" placeholder="Search.."
+                                       value="<?php echo get_search_query(); ?>" name="s" required />
+                                       
 
-                                <div class="search-btn">
+                                <div class="search-btn" >
                                     <i class="fa fa-search search-icon"></i>
                                 </div>
 
