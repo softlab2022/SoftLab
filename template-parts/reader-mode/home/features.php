@@ -84,6 +84,9 @@ $features = [
 					<div class="col-md-6">
 						<div class="feature-content">
 							<h2><?php echo $feature['title']; ?></h2>
+							<div class="feature-img-mobile text-center">
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/home/features/<?php echo $key; ?>.png" alt="<?php echo $feature['title']; ?>">
+						</div>
 							<p><?php echo $feature['description']; ?></p>
 						</div>
 					</div>

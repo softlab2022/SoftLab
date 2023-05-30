@@ -36,6 +36,9 @@ $features = [
                 <div class="<?php echo $content_class; ?>">
                     <div class="feature-content">
                         <h3><?php echo $feature['title']; ?></h3>
+						<div class="feature-item-img-mobile">
+                        	<img class="img-fluid" src="<?php echo $feature['image']; ?>" alt="File Uploader">
+                    	</div>
                         <p><?php echo $feature['description']; ?></p>
                         <div class="feature-list">
 							<?php foreach ( $feature['features'] as $item ) { ?>

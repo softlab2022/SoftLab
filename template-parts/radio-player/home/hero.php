@@ -5,12 +5,15 @@
                 <div class="hero-content">
 
                     <div class="hero-header">
-                        <img class="img-fluid element"
-                             src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                        <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                         <span>Radio Player</span>
                     </div>
 
                     <h2>Live Shoutcast, Icecast and Audio Stream Player for WordPress</h2>
+
+                    <div class="radio-header-bg-mobile text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
+                    </div>
 
                     <p>
                         A simple, easy to use, user-friendly and fully customizable web radio player for WordPress. You

@@ -2,12 +2,10 @@
     <div class="container">
 
         <!---=== HTTP Stream Player====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap row align-items-center ">
             <div class="col-lg-6">
                 <div class="feature-item-img ">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png"
-                         alt="http-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -15,12 +13,15 @@
                     <div class="file-text">
 
                         <div class="feature-header">
-                            <img class="img-fluid element"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                             <span class="section-head">HTTP Stream Player</span>
                         </div>
 
                         <h3>Play HTTP Streams on HTTPS Website</h3>
+
+                        <div class="feature-item-img-mobile text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
+                        </div>
 
                         <div class="feature-description">
                             <p>
@@ -41,18 +42,20 @@
         </div>
 
         <!---=== Full Sticky Player====-->
-        <div class="feature-wrap row align-items-center">
+        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6">
                 <div class="feature-item">
                     <div class="file-text">
 
                         <div class="feature-header">
-                            <img class="img-fluid element"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                             <span>Sticky Player</span>
                         </div>
 
                         <h3>Sticky Player with Multiple Styles</h3>
+                        <div class="feature-item-img-mobile text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
+                        </div>
                         <div class="feature-description">
                             <p>
                                 Radio Player provides a sticky player with multiple styles (Fullwidth, Mini-Fullwidth &
@@ -68,20 +71,16 @@
             </div>
             <div class="col-lg-6">
                 <div class="feature-item-img">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png"
-                         alt="Sticky Player">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
                 </div>
             </div>
         </div>
 
         <!---=== Popup Player====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap row align-items-center ">
             <div class="col-lg-6">
                 <div class="feature-item-img ">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png"
-                         alt="Popup Player">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="Popup Player">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -89,12 +88,15 @@
                     <div class="file-text">
 
                         <div class="feature-header">
-                            <img class="img-fluid element"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                             <span>Popup Player</span>
                         </div>
 
                         <h3>Listen the player in a new Popup window.</h3>
+
+                        <div class="feature-item-img-mobile text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="Popup Player">
+                        </div>
 
                         <div class="feature-description">
                             <p>
@@ -114,17 +116,21 @@
         </div>
 
         <!---==== Stations Playlist ====-->
-        <div class="feature-wrap row align-items-center">
+        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6">
                 <div class="feature-item">
                     <div class="file-text">
                         <div class="feature-header">
-                            <img class="img-fluid element"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                             <span>Stations Playlist</span>
                         </div>
 
                         <h3>Stations Playlist for Multiple Stations</h3>
+
+                        <div class="feature-item-img-mobile text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
+                        </div>
+
                         <div class="feature-description">
                             <p>If you want to play multiple stations in a single player, You can display them in
                                 playlist
@@ -137,32 +143,31 @@
             </div>
             <div class="col-lg-6">
                 <div class="feature-item-img">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png"
-                         alt="Stations Playlist">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
                 </div>
             </div>
         </div>
 
         <!---==== Multiple Player Skins ====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap row align-items-center">
             <div class="col-lg-6 ">
                 <div class="feature-item-img ">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png"
-                         alt="Multiple Skins">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="Multiple Skins">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="feature-item">
                     <div class="file-text">
                         <div class="feature-header">
-                            <img class="img-fluid element"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                             <span>Multiple Player Skins</span>
                         </div>
 
                         <h3>10+ Player Skins with Different Layouts and Styles</h3>
+
+                        <div class="feature-item-img-mobile text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="Multiple Skins">
+                        </div>
 
                         <div class="feature-description">
                             <p>
@@ -178,18 +183,21 @@
         </div>
 
         <!---==== Embed Code ====-->
-        <div class="feature-wrap row align-items-center">
+        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6">
                 <div class="feature-item">
                     <div class="file-text">
 
                         <div class="feature-header">
-                            <img class="img-fluid element"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png"/>
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png" />
                             <span>Embed Code</span>
                         </div>
 
                         <h3>Player Embed</h3>
+
+                        <div class="feature-item-img-mobile text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png" alt="Embed Code">
+                        </div>
 
                         <div class="feature-description">
                             <p>Radio Player provides the ability to embed the player on any website using the embed
@@ -201,9 +209,7 @@
             </div>
             <div class="col-lg-6 ">
                 <div class="feature-item-img embed-code">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png"
-                         alt="Embed Code">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png" alt="Embed Code">
                 </div>
             </div>
         </div>
@@ -215,8 +221,7 @@
                 <div class="preview-head text-center">
 
                     <div class="feature-header">
-                        <img class="img-fluid element"
-                             src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
+                        <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
                         <span>Live Player Editing Preview</span>
                     </div>
 
@@ -229,15 +234,17 @@
         <div class="feature-wrap row align-items-center">
             <div class="col-md-6 m-auto">
                 <div class="feature-item-img text-center">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png"
-                         alt="Customize Player Appearance">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="Customize Player Appearance">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
                         <h3>Customizing Player Appearance</h3>
+
+                        <div class="feature-item-img-mobile text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="Customize Player Appearance">
+                        </div>
 
                         <div class="feature-description">
                             <p>
@@ -250,11 +257,14 @@
             </div>
         </div>
 
-        <div class="feature-wrap row row align-items-center">
+        <div class="feature-wrap row row align-items-center flex-column-reverse flex-md-row">
             <div class="col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
                         <h3>Customizing Player Controls</h3>
+                        <div class="feature-item-img-mobile text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
+                        </div>
                         <p>
                             You can customize the player controls in real-time.
                             You can show/ hide the different player controls like popup icon, volume icon, playlist icon
@@ -265,9 +275,7 @@
             </div>
             <div class="col-md-6 m-auto">
                 <div class="feature-item-img text-center">
-                    <img class="img-fluid"
-                         src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png"
-                         alt="enhanced">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
                 </div>
             </div>
         </div>

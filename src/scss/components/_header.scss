@@ -29,17 +29,18 @@
 
         .dropdown-menu {
           display: none;
-         
+
         }
 
         &:hover .dropdown-menu {
           display: block;
         }
 
-        .dropdown-item.active,.dropdown-item:active {
+        .dropdown-item.active,
+        .dropdown-item:active {
           background-color: #e9ecef !important;
 
-          
+
         }
 
         .arrow {
@@ -62,6 +63,7 @@
 
       // WP Radio Header
       &.wp-radio-nav {
+
         .nav-item {
 
           a {
@@ -75,6 +77,32 @@
           &.current-menu-item {
             a {
               color: #333;
+            }
+          }
+        }
+
+
+        .navbar-toggler-icon {
+          i {
+            color: #fff;
+          }
+        }
+
+        @media (max-width: 767.98px) {
+          .nav-item {
+
+            a {
+              color: #5C637E;
+
+              &:hover {
+                color: #333;
+              }
+            }
+
+            &.current-menu-item {
+              a {
+                color: #333;
+              }
             }
           }
         }
@@ -135,6 +163,24 @@
 
         }
 
+        @media (max-width: 767.98px) {
+          .nav-item {
+
+            a {
+              color: #5C637E;
+
+              &:hover {
+                color: #333;
+              }
+            }
+
+            &.current-menu-item {
+              a {
+                color: #333;
+              }
+            }
+          }
+        }
       }
 
       &.radio-player-nav {
@@ -163,7 +209,8 @@
         margin-right: auto;
 
         img {
-          height: 45px;
+          height: auto;
+          width: 180px;
         }
       }
 
@@ -176,7 +223,7 @@
         padding-right: 15px;
       }
 
-      @media (max-width: 767px) {
+      @media (max-width: 767.98px) {
         &.brand-softlab {
           img {
             height: 30px;
@@ -188,8 +235,22 @@
 
         &.brand-reader-mode {
           img {
-            width: 200px;
-            margin-right: auto;
+            width: 170px;
+            height: auto;
+          }
+        }
+
+        &.brand-radio-player {
+          img {
+            width: 170px;
+            height: auto;
+          }
+        }
+
+        &.brand-wp-radio {
+          img {
+            width: 170px;
+            height: auto;
           }
         }
       }
@@ -215,7 +276,7 @@
         border-bottom: 10px solid #fff;
       }
 
-      & > li {
+      &>li {
         margin-bottom: 1rem;
 
         &:last-child {
@@ -274,8 +335,12 @@
       }
 
       @media (max-width: 767.98px) {
-        width: 350px;
-        padding: 10px;
+        width: auto;
+        padding: 0px;
+
+        .dropdown-item {
+          padding: 0;
+        }
       }
 
     }
@@ -319,6 +384,7 @@
           }
         }
       }
+
       &-integrate-dropbox {
         a {
           color: #fff;
@@ -476,6 +542,49 @@
 
 }
 
+.page-template-templateswp-radio-php {
+  .navbar {
+    .navbar-toggler {
+      padding: 0;
+
+      &:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+      }
+
+      .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.page-template-templateswp-radio-user-frontend-php,
+.page-template-templateswp-radio-image-import-php,
+.page-template-templateswp-radio-proxy-player-php,
+.page-template-templateswp-radio-ads-player-php {
+  .navbar {
+    .navbar-toggler {
+      padding: 0;
+      &:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+      }
+      .navbar-toggler-icon {
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+}
+
 /**---------- sticky-banner ----------**/
 
 @media (min-width: 992px) {
@@ -520,6 +629,7 @@
       color: #fff;
       padding: 15px 30px;
       transition: all .3s ease;
+
       i {
         margin-right: 5px;
       }
