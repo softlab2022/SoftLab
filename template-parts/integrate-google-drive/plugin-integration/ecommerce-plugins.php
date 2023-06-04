@@ -20,7 +20,7 @@
 
         <div class="row feat-shadw">
 
-            <div class="col-lg-2 col-4 col-md-4 ms-auto">
+            <div class="col-lg-2 col-3 col-md-4 ms-auto">
                 <a href="#woocommerce">
                     <div class="ecommerce-plugins-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/woocommerce.png" alt="woocommerce">
@@ -33,7 +33,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#dokan">
                     <div class="ecommerce-plugins-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/dokan.png" alt="dokan">
@@ -46,7 +46,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4 me-auto">
+            <div class="col-lg-2 col-3 col-md-4 me-auto">
                 <a href="#easy-digital">
                     <div class="ecommerce-plugins-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/easy-digital-download.png" alt="easy-digital-download">

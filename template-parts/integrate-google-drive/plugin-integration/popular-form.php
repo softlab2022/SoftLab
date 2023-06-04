@@ -63,7 +63,7 @@ $features = [
 
         <div class="row feat-shadw">
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-contact-form">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/contact-form.png" alt="contact-form">
@@ -76,7 +76,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-ninja-form">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/ninja-form.png" alt="ninja-form">
@@ -89,7 +89,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-wp-form">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/wp-form.png" alt="wp-form">
@@ -102,7 +102,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-gravity-form">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/gravity-form.png" alt="gravity-form">
@@ -115,7 +115,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-fluent-form">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/fluent-form.png" alt="fluent-form">
@@ -128,7 +128,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-formidable-form">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/formidable-form.png" alt="formidable-form">

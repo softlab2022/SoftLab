@@ -49,7 +49,7 @@
 
         <div class="row feat-shadw">
 
-            <div class="col-lg-2 col-4 col-md-4 ms-auto">
+            <div class="col-lg-2 col-3 col-md-4 ms-auto">
                 <a href="#feature-classic-editor">
                     <div class="page-builder-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/classic-editor.png" alt="classic-editor">
@@ -62,7 +62,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-gutenberg">
                     <div class="page-builder-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/gutenberg.png" alt="gutenberg">
@@ -75,7 +75,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
+            <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-elementor">
                     <div class="page-builder-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/elementor.png" alt="elementor">
@@ -88,7 +88,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4 me-auto">
+            <div class="col-lg-2 col-3 col-md-4 me-auto">
                 <a href="#feature-divi">
                     <div class="page-builder-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/divi.png" alt="divi">

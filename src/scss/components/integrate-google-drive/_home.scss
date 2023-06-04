@@ -76,7 +76,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 130px 0 100px 0;
+    padding: 130px 0 230px 0;
 
     .hero-content {
       h1 {
@@ -391,7 +391,7 @@
 
   @media(max-width: 767.98px) {
     padding: 0 0 50px 0;
-
+    margin-top: -100px;
     .section-head {
       h1 {
         font-size: 1.5rem;
@@ -420,6 +420,7 @@
       }
 
       .feature-integrations {
+        justify-content: center;
         span {
           margin-right: .5rem;
           font-size: .8rem;
@@ -434,9 +435,59 @@
       .feature-item-content {
         padding: 0 !important;
         margin-top: 40px;
+
         .feature-item-img-mobile {
           display: block;
           margin: 30px 0;
+          overflow: hidden;
+          // img {
+          //   margin-left: -40px;
+          // }
+        }
+      }
+
+      &.feature-file-browser {
+        .feature-item-content {
+  
+          .feature-item-img-mobile {
+            overflow: hidden;
+            img {
+              margin-left: -40px;
+            }
+          }
+        }
+      }
+      &.feature-file-uploader  {
+        .feature-item-content {
+  
+          .feature-item-img-mobile {
+            overflow: hidden;
+            img {
+              margin-right: -32px;
+            }
+          }
+        }
+      }
+      &.feature-slider-carousel {
+        .feature-item-content {
+  
+          .feature-item-img-mobile {
+            overflow: hidden;
+            img {
+              margin-right: -40px;
+            }
+          }
+        }
+      }
+      &.feature-shortcode-builder {
+        .feature-item-content {
+  
+          .feature-item-img-mobile {
+            overflow: hidden;
+            img {
+              margin-left: -23px;
+            }
+          }
         }
       }
 
@@ -985,6 +1036,11 @@
       font-style: italic;
       line-height: 150%;
       margin-top: 10px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      line-clamp: 5;
+      -webkit-box-orient: vertical;
     }
 
     .testimonial-user {
@@ -1060,11 +1116,11 @@
     }
 
     .left {
-      left: 1px;
+      left: 10px;
     }
 
     .right {
-      right: 1px;
+      right: 10px;
     }
 
     .testimonial {
