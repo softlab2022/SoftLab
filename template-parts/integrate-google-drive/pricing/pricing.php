@@ -64,7 +64,7 @@ $pro_features = [
             <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
                     <h2>Simple Pricing, Unbeatable Value</h2>
-                    <p>Join 3000+ User's Happy Community</p>
+                    <p>Join 5000+ User's Happy Community</p>
                 </div>
             </div>
         </div>

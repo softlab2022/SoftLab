@@ -13,6 +13,9 @@ import "./components/sticky-banner";
       //Handle contact form tabs
       $(".contact-form .tab-item").on("click", app.handleContactForm);
 
+      //Handle mobile-nav
+      // $(".close-btn").on("click", app.handleMobilesidebar);
+
       //Handle to top button
       $(".to-top").on("click", app.handleToTop);
 
@@ -217,6 +220,10 @@ import "./components/sticky-banner";
       $(`.contact-form-wrap.form-${$(this).data("target")}`).addClass("active");
     },
 
+    // handleMobilesidebar: function(){
+    //   $(".close-btn").addClass("active")
+    // },
+
     handleToTop: function () {
       $("html, body").animate({ scrollTop: 0 }, "fast");
     },
@@ -359,5 +366,15 @@ import "./components/sticky-banner";
     },
   };
 
+  
+  //Close mobile nav
+  const mobilenav = $('.mobile-menu');
+  
+  $('.close-btn', mobilenav).on('click', function () {
+      mobilenav.remove();
+  });
+
+
   $(document).ready(app.init);
 })(jQuery);
+

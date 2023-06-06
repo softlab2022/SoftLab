@@ -336,7 +336,7 @@
 
       @media (max-width: 767.98px) {
         width: auto;
-        padding: 0px;
+        padding: 10px;
 
         .dropdown-item {
           padding: 0;
@@ -473,11 +473,105 @@
 
     }
 
+    .mobile-menu{
+      
+      .mobile-close-btn {
+        display: none!important;
+      }
+    }
+
     @media (max-width: 991px) {
-      .navbar-collapse {
-        background: #fff;
-        margin-top: 10px;
-        padding: 10px;
+      // .navbar-collapse {
+      //   // background: #fff;
+      //   // margin-top: 10px;
+      //   // padding: 10px;
+
+      // }
+      .mobile-menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #0b0a21;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+        padding: 50px 25px;
+        visibility: hidden;
+        transform: translateX(100%);
+        opacity: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+        scrollbar-width: thin !important;
+        scrollbar-color: #4e4e4e transparent !important;
+
+        &.show {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(0);
+        }
+
+        .mobile-close-btn {
+          width: 100%;
+          flex-wrap: nowrap;
+          position: relative;
+          margin-bottom: 30px;
+          display: flex!important;
+          .logo-btn {
+            max-width: 150px;
+            width: 100%;
+          }
+
+          #close_btn {
+            width: 35px;
+            height: 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            color: #222;
+            background: transparent;
+            transition: 0.3s;
+            cursor: pointer;
+            border: 2px solid #d9d9d9;
+            padding: 0 !important;
+            color: #fff;
+
+            &:hover {
+              background: #ee5913;
+              color: #fff;
+            }
+          }
+        }
+
+        .navbar-nav {
+          margin-block-start: 0;
+          margin-block-end: 0;
+          .nav-item {
+            margin: 0;
+            &:last-child {
+              padding-bottom: 30px;
+            }
+
+            .nav-link {
+              border-bottom: 1px solid #fff;
+              color: #fff;
+
+              &.active {
+                color: #7788FF;
+              }
+            }
+          }
+        }
+
+        .view-products-btn {
+          margin-left: 0;
+        }
+
+        // &.active {
+        //   visibility: hidden;
+        //   opacity: 0;
+
+        // }
+
       }
 
       .buy-now-btn {
@@ -572,11 +666,13 @@
   .navbar {
     .navbar-toggler {
       padding: 0;
+
       &:focus {
         text-decoration: none;
         outline: 0;
         box-shadow: none;
       }
+
       .navbar-toggler-icon {
         width: auto;
         height: auto;
