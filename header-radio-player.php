@@ -5,6 +5,7 @@ $addons = [
     'radio-player-ads'    => [
         'title'       => 'Radio Player Ads',
         'logo'        => get_template_directory_uri() . '/assets/images/radio-player/radio-station/addon-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/radio-player-ads-withe-logo.png',
     ],
 ];
 
@@ -15,6 +16,7 @@ $is_addon = in_array($file_name, array_keys($addons));
 
 $title = $is_addon ? $addons[$file_name]['title'] : 'Radio Player';
 $logo  = $is_addon ? $addons[$file_name]['logo'] : get_template_directory_uri() . '/assets/images/radio-player/radio-player-logo.png';
+$logo_withe  = $is_addon ? $addons[$file_name]['logo_withe'] : get_template_directory_uri() . '/assets/images/new-logo/radio-player-withe-logo.png';
 $link  = $is_addon ? '/' . $file_name : '/radio-player';
 
 $nav_class = $is_addon ? $file_name . '-nav' : 'radio-player-nav';
@@ -32,6 +34,22 @@ $pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php wp_head(); ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6DRHX4YG7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C6DRHX4YG7');
+    </script>
+
+
+
+
 </head>
 
 <?php
@@ -87,10 +105,10 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             <span class="mobile-close-btn d-flex justify-content-between align-items-center">
 
                                 <a class="navbar-brand brand-radio-player logo-btn" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
-                                    <img class="img-fluid" src="<?php echo $logo; ?>" alt="<?php echo $title; ?>">
+                                    <img class="img-fluid" src="<?php echo $logo_withe; ?>" alt="<?php echo $title; ?>">
                                 </a>
 
-                                <button id="close_btn" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                                <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                             </span>
                             <?php
                             wp_nav_menu(

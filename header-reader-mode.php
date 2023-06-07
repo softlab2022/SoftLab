@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php wp_head(); ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6DRHX4YG7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C6DRHX4YG7');
+    </script>
+
+
+
+
 </head>
 
 <?php
@@ -57,7 +73,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                 <a class="navbar-brand brand-reader-mode logo-btn" href="/reader-mode" title="Reader Mode" rel="home">
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/reader-mode/reader-mode-logo-white.png" alt="Reader Mode">
                                 </a>
-                                <button id="close_btn" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                                <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                             </span>
                             <?php
                             wp_nav_menu(

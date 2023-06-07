@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php wp_head(); ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6DRHX4YG7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C6DRHX4YG7');
+    </script>
+
+
+
+
 </head>
 
 
@@ -52,10 +68,10 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
                             <span class="mobile-close-btn d-flex justify-content-between align-items-center">
                                 <a class="navbar-brand brand-integrate-google-drive logo-btn" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive">
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/new-logo/integrate-google-drive-withe-logo.png" alt="Integrate Google Drive">
                                 </a>
 
-                                <button id="close_btn" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                                <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                             </span>
                             <?php
                             wp_nav_menu(

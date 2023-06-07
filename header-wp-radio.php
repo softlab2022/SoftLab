@@ -4,18 +4,22 @@ $addons = [
     'wp-radio-user-frontend' => [
         'title'       => 'WP Radio User Frontend',
         'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-user-frontend-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/wp-radio-user-frontend-withe-logo.png',
     ],
     'wp-radio-proxy-player'  => [
         'title'       => 'WP Radio Proxy Player',
         'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-proxy-player-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/wp-radio-proxy-player-withe-logo.png',
     ],
     'wp-radio-ads-player'    => [
         'title'       => 'WP Radio Ads Player',
         'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-ads-player-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/wp-radio-ads-player-withe-logo.png',
     ],
     'wp-radio-image-import'  => [
         'title'       => 'WP Radio Image Import',
         'logo'        => get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-image-import-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/wp-radio-image-importer-withe-logo.png',
     ],
 ];
 
@@ -26,6 +30,7 @@ $is_addon = in_array($file_name, array_keys($addons));
 
 $title = $is_addon ? $addons[$file_name]['title'] : 'WP Radio';
 $logo  = $is_addon ? $addons[$file_name]['logo'] : get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-logo.png';
+$logo_withe  = $is_addon ? $addons[$file_name]['logo_withe'] : get_template_directory_uri() . '/assets/images/wp-radio/wp-radio-logo.png';
 $link  = $is_addon ? '/' . $file_name : '/wp-radio';
 
 $nav_class = $is_addon ? $file_name . '-nav' : 'wp-radio-nav';
@@ -41,6 +46,22 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <?php wp_head(); ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6DRHX4YG7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-C6DRHX4YG7');
+    </script>
+
+
+
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -76,9 +97,9 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
                             <span class="mobile-close-btn d-flex justify-content-between align-items-center">
                                 <a class="navbar-brand brand-wp-radio logo-btn" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
-                                    <img class="img-fluid" src="<?php echo $logo; ?>" alt="<?php echo $title; ?>">
+                                    <img class="img-fluid" src="<?php echo $logo_withe; ?>" alt="<?php echo $title; ?>">
                                 </a>
-                                <button id="close_btn" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                                <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                             </span>
                             <?php
                             wp_nav_menu(
