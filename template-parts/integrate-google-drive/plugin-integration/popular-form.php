@@ -36,6 +36,16 @@ $features = [
         'description' => 'Allows you to upload your files directly to Google Drive from your Fluent Forms upload field.',
         'video'        => '<iframe src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
+    'elementor-form' => [
+        'title'       => 'Elementor Forms',
+        'description' => 'Allows effortless file uploads from Elementor PRO Form widget to Google Drive for quick and efficient storage.',
+        'video'        => '<iframe src="https://www.youtube.com/embed/53FP34HQZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    ],
+    'met-form' => [
+        'title'       => 'Met Forms',
+        'description' => 'Allows effortless file uploads from MetForm to Google Drive for quick and efficient storage.',
+        'video'        => '<iframe src="https://www.youtube.com/embed/kcxwp53VFZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    ],
 
 ];
 
@@ -135,6 +145,32 @@ $features = [
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Formidable Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-elementor-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/elementor-form.png" alt="elementor-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Elementor Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-met-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/met-form.png" alt="met-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Met Form
                             </span>
                         </div>
                     </div>

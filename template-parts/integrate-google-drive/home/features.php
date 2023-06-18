@@ -113,6 +113,8 @@ $features = [
                                 <span><i class="fa-solid fa-check"></i> NinjaForms</span>
                                 <span><i class="fa-solid fa-check"></i> FluentForms</span>
                                 <span><i class="fa-solid fa-check"></i> FormidableForms</span>
+                                <span><i class="fa-solid fa-check"></i> ElementorForms</span>
+                                <span><i class="fa-solid fa-check"></i> MetForms</span>
 
                             </div>
                             <div class="integration-btn">
