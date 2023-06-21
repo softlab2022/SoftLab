@@ -25,8 +25,9 @@
   }
 
 
-  @media (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
     padding-bottom: 60px;
+
     .multiple-head {
       h1 {
         font-size: 2.2rem;
@@ -39,7 +40,7 @@
 
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
     .multiple-head {
       h1 {
         font-size: 2.2rem;
@@ -52,7 +53,9 @@
 
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 767.98px) {
+    padding: 120px 0 60px 0;
+
     .multiple-head {
       h1 {
         font-size: 2rem;
@@ -162,9 +165,9 @@
     }
   }
 
-  @media (min-width: 1200px) {
-  }
-  @media (max-width: 1199px) {
+  @media (min-width: 1200px) {}
+
+  @media (min-width: 992px) and (max-width: 1199.989px) {
     .container {
       padding: 30px;
     }
@@ -174,6 +177,7 @@
         font-size: 2.3rem;
       }
     }
+
     .skin-item {
       .skin-head {
         p {
@@ -187,12 +191,14 @@
 
     }
   }
-  @media (min-width: 768px) and (max-width: 991px) {
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
     .section-head {
       h1 {
         font-size: 1.9rem;
       }
     }
+
     .skin-item {
       .skin-head {
         p {
@@ -202,8 +208,18 @@
       }
     }
   }
-  @media (min-width: 320px) and (max-width: 767px) {
+
+  @media (max-width: 767.98px) {
     padding: 20px 0;
+
+    .section-head {
+      margin-top: 40px;
+
+      h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+      }
+    }
 
     .container {
       border-radius: 0;
@@ -219,10 +235,13 @@
   }
 }
 
-#skins{
+#skins {
+
   padding: 100px 0;
+
   .skins-main {
     position: relative;
+
     &::after {
       position: absolute;
       top: 242px;
@@ -235,6 +254,7 @@
       z-index: -2;
     }
   }
+
   .item-icon {
     img {
       position: relative;
@@ -242,6 +262,7 @@
       z-index: -1;
     }
   }
+
   .icon1 {
     img {
       position: relative;
@@ -249,5 +270,26 @@
       z-index: -1;
     }
   }
-}
 
+  @media (max-width: 767.98px) {
+    padding: 0;
+
+    .skins-main {
+      &::after {
+        display: none;
+      }
+    }
+
+    .item-icon {
+      img {
+        display: none;
+      }
+    }
+
+    .icon1 {
+      img {
+        display: none;
+      }
+    }
+  }
+}

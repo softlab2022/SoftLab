@@ -20,44 +20,50 @@
 
         <div class="row feat-shadw">
 
-            <div class="col-lg-2 col-4 col-md-4 ms-auto">
-                <div class="ecommerce-plugins-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/woocommerce.png" alt="woocommerce">
-                    <div class="ecommerce-plugins-area-text text-center">
-                        <span class="ecommerce-plugins-text">
-                            Woocommerce
-                        </span>
+            <div class="col-lg-2 col-3 col-md-4 ms-auto">
+                <a href="#woocommerce">
+                    <div class="ecommerce-plugins-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/woocommerce.png" alt="woocommerce">
+                        <div class="ecommerce-plugins-area-text text-center">
+                            <span class="ecommerce-plugins-text">
+                                Woocommerce
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
-                <div class="ecommerce-plugins-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/dokan.png" alt="dokan">
-                    <div class="ecommerce-plugins-area-text text-center">
-                        <span class="ecommerce-plugins-text">
-                            Dokan
-                        </span>
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#dokan">
+                    <div class="ecommerce-plugins-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/dokan.png" alt="dokan">
+                        <div class="ecommerce-plugins-area-text text-center">
+                            <span class="ecommerce-plugins-text">
+                                Dokan
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4 me-auto">
-                <div class="ecommerce-plugins-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/easy-digital-download.png" alt="easy-digital-download">
-                    <div class="ecommerce-plugins-area-text text-center">
-                        <span class="ecommerce-plugins-text">
-                            Easy Digital Downloads
-                        </span>
+            <div class="col-lg-2 col-3 col-md-4 me-auto">
+                <a href="#easy-digital">
+                    <div class="ecommerce-plugins-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/easy-digital-download.png" alt="easy-digital-download">
+                        <div class="ecommerce-plugins-area-text text-center">
+                            <span class="ecommerce-plugins-text">
+                                Easy Digital Downloads
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
         </div>
 
         <!----===== Woocommerce area =====------>
 
-        <div class="row feat-shadw">
+        <div id="woocommerce" class="row feat-shadw">
 
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
@@ -114,7 +120,7 @@
 
         <!----===== Dokan area =====------>
 
-        <div class="row feat-shadw">
+        <div id="dokan" class="row feat-shadw">
 
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
@@ -170,7 +176,7 @@
 
         <!----===== Easy Digital Downloads area =====------>
 
-        <div class="row feat-shadw">
+        <div id="easy-digital" class="row feat-shadw">
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/easy-digital-download-icon.png" alt="easy-digital-download-icon">
@@ -243,6 +249,49 @@
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
             </div>
 
+        </div>
+
+        <!----===== Tutor Lms area =====------>
+
+        <div class="row feat-shadw">
+            <div class="col-lg-7 m-auto">
+                <div class="woocommerce-head tutor-lms vector-area text-center">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/tutor-lms.png" alt="tutor-lms">
+
+
+                    <h3 class="wooco-title">Tutor Lms</h3>
+                    <p class="wooco-description">The integration of the Google Drive plugin within Tutor LMS presents a powerful solution for instructors seeking a more efficient approach to managing their course materials. With this plugin, instructors can link their Google accounts to Tutor LMS, enabling them to easily access and manage their Google Drive course files within the platform. See how it works!</p>
+                </div>
+
+                <div class="vector-crcel-left">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                </div>
+                <div class="vector-crcel-right">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 m-auto">
+                <div class="wooco-feature-area vector-area  text-center">
+
+                    <div class="feature-video">
+                        <iframe src="https://www.youtube.com/embed/UTFgIKS64zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="feature-btn tutor-lms-feat text-center">
+                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                    </div>
+
+                    <div class="fe-vector-left">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                    </div>
+                    <div class="fe-vector-right">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                    </div>
+
+                </div>
+            </div>
         </div>
 
     </div>

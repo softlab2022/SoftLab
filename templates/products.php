@@ -281,6 +281,11 @@ $products = [
             <div class="row">
 
                 <div class="col-md-6 m-auto product-image">
+						<!-- <?php
+                            if (wp_is_mobile()) {
+								echo $product['image'];
+                            	}
+                            ?> -->
                     <img class="img-fluid" src="<?php echo $product['image']; ?>"
                          alt="<?php echo esc_html( $product['name'] ); ?>"/>
                 </div>
@@ -293,6 +298,12 @@ $products = [
                     </div>
 
                     <h4 class="product-subtitle"><?php echo $product['title']; ?></h4>
+
+					<div class="product-images">
+                    	<img class="img-fluid" src="<?php echo $product['image']; ?>"
+                         alt="<?php echo esc_html( $product['name'] ); ?>"/>
+                	</div>
+
                     <p class="product-description"><?php echo $product['description']; ?></p>
 
                     <div class="row features-wrap">

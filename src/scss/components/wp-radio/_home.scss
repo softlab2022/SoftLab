@@ -74,6 +74,14 @@
       }
     }
 
+    .radio-header-bg-mobile {
+      display: none;
+    }
+
+  }
+
+  .radio-header-bg {
+    display: block;
   }
 
   .inner-header-bg {
@@ -95,16 +103,26 @@
       a {
         margin-right: 2px;
       }
+
+      .get {
+        padding: 15px 18px;
+      }
     }
   }
 
   @media (max-width: 767.68px) {
+    padding: 100px 0 100px 0;
+
+    .radio-header-bg {
+      display: none;
+    }
+
     .hero-content {
       text-align: center;
       margin-bottom: 50px;
 
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
       p {
@@ -113,7 +131,19 @@
       }
 
       a {
-        margin-right: 2px;
+        margin-right: 0px;
+      }
+
+      .get {
+        padding: 15px 18px;
+      }
+
+      .get1 {
+        font-size: .9rem;
+      }
+
+      .radio-header-bg-mobile {
+        display: block;
       }
     }
   }
@@ -157,9 +187,13 @@
       padding-bottom: 60px;
     }
 
-    .w-f-con {
-      padding-top: 45px !important;
+    .featuer-item-img {
+      display: block;
     }
+
+    // .w-f-con {
+    //   padding-top: 45px !important;
+    // }
 
     .wp-feat-content {
       padding-top: 120px;
@@ -207,24 +241,22 @@
             box-shadow: rgba(0, 0, 0, 0.201) 0px 2px 8px 0px;
           }
         }
+
+        .featuer-item-img-mobile {
+          display: none;
+        }
       }
     }
   }
 
-  .feat-item-img {
-    display: block;
-  }
 
-  .feat-item-img1 {
-    display: none;
-  }
 
   /**---------- responsive-area scss start ----------**/
   @media (min-width: 1200px) {
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
     //Laptop
     .wp-feat-item {
@@ -262,7 +294,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
     //Tablet
     padding: 60px 0 0 0;
 
@@ -296,16 +328,10 @@
 
   }
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (max-width: 767.98px) {
+    padding: 0px 0 60px 0;
 
     //Mobile
-    .feat-item-img {
-      display: none;
-    }
-
-    .feat-item-img1 {
-      display: block;
-    }
 
     .advanced {
 
@@ -319,13 +345,33 @@
         padding-bottom: 0;
       }
 
+      .featuer-item-img {
+        display: none;
+      }
+
+      // .w-f-con {
+      //   padding-top: 0px !important;
+      // }
+
       .wp-feat-content {
+        padding-top: 10px;
+
         .file-text {
           margin-bottom: 60px;
           text-align: center;
 
+          h3 {
+            font-size: 1.5rem;
+          }
+
           p {
             padding-right: 0;
+            font-size: .9rem;
+          }
+
+          .featuer-item-img-mobile {
+            display: block;
+            margin-bottom: 30px;
           }
         }
       }
@@ -414,7 +460,7 @@
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
     //Laptop
     padding: 0;
 
@@ -441,7 +487,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
     //Tablet
     .ex-head {
@@ -463,16 +509,32 @@
     }
   }
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (max-width: 767.98px) {
+    padding: 0;
 
     //Mobile
     .ex-head {
       h1 {
         margin: 0;
+        font-size: 1.5rem;
       }
 
       p {
         padding: 0 10px;
+      }
+    }
+
+    .ex-item {
+      height: auto;
+
+      .ex-text {
+        span {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: .9rem;
+        }
       }
     }
   }
@@ -577,6 +639,42 @@
     }
   }
 
+  @media (max-width: 767.98px) {
+    .section-header {
+      h2 {
+        font-size: 1.5rem;
+        margin: 0;
+      }
+
+      p {
+        font-size: .9rem;
+        padding: 0;
+      }
+    }
+
+    // .testimonial-item {
+    //   &:last-child {
+    //     display: none;
+    //   }
+    // }
+    .testimonial-rating {
+      .star {
+        .fa-star {
+          margin-right: 10px;
+        }
+      }
+
+      .quote {
+        .fa-quote-right {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
 }
 
 /**-----funfact area------**/
@@ -623,7 +721,7 @@
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
     //Laptop
     .fun-item {
@@ -645,7 +743,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
     //Tablet
     .fun-item {
@@ -653,10 +751,18 @@
     }
   }
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (max-width: 767.98px) {
 
     //Mobile
     .fun-item {
+      margin-bottom: 10px;
+
+      img {
+        margin-right: 7px;
+        width: 31px;
+        height: auto;
+      }
+
       .text {
         .te-count {
           span {
@@ -770,13 +876,28 @@
   @media (min-width: 768px) and (max-width: 991.98px) {
     .addon-wp-radio-user-frontend {
       margin-bottom: 20px;
+
       .addon-item {
         .addon-content {
           p {
-            margin: 10px 0; 
+            margin: 10px 0;
           }
         }
       }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .addons-head {
+      p {
+        font-size: .9rem;
+        padding: 0;
+        margin-bottom: 40px;
+      }
+    }
+
+    .addon-item {
+      margin-bottom: 15px;
     }
   }
 
@@ -804,13 +925,13 @@
       font-weight: 600;
       font-size: 1rem;
       line-height: 19px;
+      padding: 15px 36px;
       text-transform: capitalize;
     }
 
     .butt1 {
       margin: 0 15px;
       border: 1px solid #fff;
-      padding: 15px 36px;
       color: #fff;
       border-radius: 8px;
       transition: all linear .4s;
@@ -826,7 +947,6 @@
     .butt2 {
       margin: 0 15px;
       background-color: #fff;
-      padding: 15px 36px;
       color: #4353FF;
       border-radius: 8px;
       transition: all linear .4s;
@@ -846,12 +966,41 @@
         font-size: 2rem;
       }
     }
+
     .cta-actions {
       .butt2 {
         margin-bottom: 10px;
       }
+
       .butt1 {
         padding: 15px 42px;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .cta-content {
+      h3 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+    }
+
+    .cta-actions {
+      padding-top: 30px;
+      text-align: center;
+
+      a {
+        font-size: 1rem;
+        padding: 15px 20px;
+      }
+
+      .butt1 {
+        margin: 0 1px;
+      }
+
+      .butt2 {
+        margin: 0 1px;
       }
     }
   }

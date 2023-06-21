@@ -64,6 +64,10 @@ $features = [
                         	<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
                     	</div>
                         <h3><?php echo $feature['title']; ?></h3>
+						<div class="feature-item-img-mobile text-center">
+                        <img class="img-fluid" src="<?php echo $feature['image']; ?>"
+                             alt="<?php echo $feature['intro']; ?>">
+                    </div>
                         <p><?php echo $feature['description']; ?></p>
                     </div>
                 </div>

@@ -57,8 +57,8 @@ if ( function_exists( 'get_field' ) ) {
                     </div>
                 </div>
             </div>
-            <!------=== player skin 3 ===-------->
-            <div class="row align-items-center skin-wrap skin-2" id="skin2">
+            <!------=== player skin 2 ===-------->
+            <div class="row align-items-center flex-column-reverse flex-md-row skin-wrap skin-2" id="skin2">
                 
                 <div class="col-lg-5">
                     <div class="section-head text-center">
@@ -105,7 +105,7 @@ if ( function_exists( 'get_field' ) ) {
                 </div>
             </div>
             <!------=== player skin 4 ===-------->
-            <div class="row align-items-center skin-wrap skin-4" id="skin4">
+            <div class="row align-items-center flex-column-reverse flex-md-row skin-wrap skin-4" id="skin4">
                 <div class="col-lg-5">
                     <div class="section-head text-center">
                         <div class="section-head-img text-center">
@@ -151,7 +151,7 @@ if ( function_exists( 'get_field' ) ) {
                 </div>
             </div>
             <!------=== player skin 6 ===-------->
-            <div class="row align-items-center skin-wrap skin-6" id="skin6">
+            <div class="row align-items-center flex-column-reverse flex-md-row skin-wrap skin-6" id="skin6">
                 
                 <div class="col-lg-5">
                     <div class="section-head text-center">
@@ -198,7 +198,7 @@ if ( function_exists( 'get_field' ) ) {
                 </div>
             </div>
             <!------=== player skin 8 ===-------->
-            <div class="row align-items-center skin-wrap skin-8" id="skin8">
+            <div class="row align-items-center flex-column-reverse flex-md-row skin-wrap skin-8" id="skin8">
                 
                 <div class="col-lg-5">
                     <div class="section-head text-center">
@@ -245,7 +245,7 @@ if ( function_exists( 'get_field' ) ) {
                 </div>
             </div>
             <!------=== player skin 10 ===-------->
-            <div class="row align-items-center skin-wrap skin-10" id="skin10">  
+            <div class="row align-items-center flex-column-reverse flex-md-row skin-wrap skin-10" id="skin10">  
                 <div class="col-lg-5">
                     <div class="section-head text-center">
                     <div class="section-head-img text-center">

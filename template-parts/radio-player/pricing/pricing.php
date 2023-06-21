@@ -36,7 +36,7 @@ $pro_features = [
             <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
                     <h2>Simple Pricing, Unbeatable Value</h2>
-                    <p>Join 2000+ User's Happy Community</p>
+                    <p>Join 5000+ User's Happy Community</p>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ $pro_features = [
 						<?php } ?>
                     </div>
 
-                    <a href="https://wordpress.org/plugins/integrate-google-drive" class="btn buy-btn">Download Free</a>
+                    <a href="https://wordpress.org/plugins/radio-player/" class="btn buy-btn">Download Free</a>
 
                 </div>
             </div>

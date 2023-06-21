@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-lg-10 m-auto">
                 <div class="industry-head text-center">
-                    <h2>We offer 7-days money-back guarantee</h2>
-                    <p>We guarantee 100% satisfaction with our help & support service. However, If you have any bug/issues with our plugin, and we are unable to resolve the issue, We’ll happily refund full amount of your money within 7-days of your purchase.</p>
+                    <h2>We offer 7-day money-back guarantee</h2>
+                    <p>We guarantee 100% satisfaction with our help & support service. However, If you have any bug/issues with our plugin, and we are unable to resolve the issue, We’ll happily refund full amount of your money within 7-day of your purchase.</p>
                 </div>
             </div>
         </div>

@@ -29,6 +29,12 @@
         transition: all linear .4s;
       }
     }
+    .hero-image-mobile {
+      display: none;
+    }
+  }
+  .hero-image {
+    display: block;
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -66,7 +72,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 200px 0 0px 0;
+    padding: 130px 0 60px 0;
     background-size: cover;
     // background-position: top;
 
@@ -74,12 +80,18 @@
       text-align: center;
 
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
       p {
         font-size: .785rem;
       }
+      .hero-image-mobile {
+        display: block;
+      }
+    }
+    .hero-image{
+      display: none;
     }
   }
 
@@ -250,7 +262,7 @@
 
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
     //Laptop
     .products-head {
@@ -282,7 +294,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
     //Tablet
     .products-head {
@@ -311,10 +323,10 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 767.98px) {
     .products-head {
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-top: 2rem;
       }
 
@@ -325,6 +337,18 @@
 
     .products-item {
       margin-bottom: 40px;
+
+      .product-title {
+        font-size: 1.4rem;
+        margin-top: 15px;
+      }
+
+      .product-description {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 1rem 0rem;
+      }
+
     }
 
     .products-vector {
@@ -487,7 +511,7 @@
 
       h2 {
         padding-top: 20px;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
       }
 
       p {
@@ -632,7 +656,7 @@
 
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
     //Laptop
     .feature-head {
@@ -658,7 +682,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
     //Tablet
     .feature-head {
@@ -686,19 +710,30 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (max-width: 767.98px) {
 
     //Mobile
     .feature-head {
-      h1 {
-        margin-top: 20px;
-        font-size: 2rem;
-        padding: 0 16px;
+      margin-top: 60px;
+
+      .feature-title {
+
+        font-size: 1.5rem;
+        padding: 0;
       }
 
-      p {
-        font-size: .785rem;
-        padding: 0 77px;
+      .feature-description {
+        font-size: .9rem;
+        padding: 0;
+      }
+    }
+
+    .feature-item {
+      height: auto;
+      .feat-content {
+        h3 {
+          font-size: 1.4rem;
+        }
       }
     }
 
@@ -834,17 +869,37 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 50px 0;
+    min-height: 600px;
     .section-head {
       h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
+
+    .slider-item {
+      padding: 25px;
+    }
+
+    .testimonial-support-item {
+      i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+
     .single-testimonial-items {
       .testimonial-item {
         .testimonial-content {
           p {
-            font-size: 1rem;
+            font-size: .9rem;
             padding: 1rem;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 7;
+            line-clamp: 7;
+            -webkit-box-orient: vertical;
           }
         }
       }
@@ -913,7 +968,7 @@
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
     //Laptop
     .amazing-head {
@@ -942,7 +997,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
     //Tablet
     .amazing-head {
@@ -969,10 +1024,12 @@
 
   }
 
-  @media(max-width: 767px) {
+  @media(max-width: 767.98px) {
+    padding: 0;
+
     .amazing-head {
       h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
       }
     }
 
@@ -981,13 +1038,19 @@
       padding: .5rem .5rem 1rem .5rem;
 
       .amazing-item-content {
-        h5 {
-          font-size: 1.5rem;
+        .te-count {
+          span {
+            font-size: 1.5rem;
+          }
+          h5 {
+            font-size: 1.5rem;
+          }
         }
+       
 
-        p {
+        .fact-item-desc {
           font-size: .785rem;
-
+          text-align: center;
         }
       }
     }
@@ -1047,7 +1110,7 @@
     //Extra large
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
 
     //Laptop
     .solution-content {
@@ -1061,7 +1124,7 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
 
     //Tablet
     .solution-content {
@@ -1075,16 +1138,22 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (max-width: 767.98px) {
 
     //Mobile
     .solution-content {
       h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
       }
 
       p {
         font-size: .785rem;
+      }
+      .solution-butt {
+        a {
+          font-size: .9rem;
+          padding: 15px 20px;
+        }
       }
     }
 

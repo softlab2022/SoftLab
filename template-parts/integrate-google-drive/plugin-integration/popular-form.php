@@ -36,6 +36,16 @@ $features = [
         'description' => 'Allows you to upload your files directly to Google Drive from your Fluent Forms upload field.',
         'video'        => '<iframe src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
+    'elementor-form' => [
+        'title'       => 'Elementor Forms',
+        'description' => 'Allows effortless file uploads from Elementor PRO Form widget to Google Drive for quick and efficient storage.',
+        'video'        => '<iframe src="https://www.youtube.com/embed/53FP34HQZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    ],
+    'met-form' => [
+        'title'       => 'Met Forms',
+        'description' => 'Allows effortless file uploads from MetForm to Google Drive for quick and efficient storage.',
+        'video'        => '<iframe src="https://www.youtube.com/embed/kcxwp53VFZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    ],
 
 ];
 
@@ -63,37 +73,108 @@ $features = [
 
         <div class="row feat-shadw">
 
-            <div class="col-lg-2 col-4 col-md-4 ms-auto">
-                <div class="popular-form-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/contact-form.png" alt="contact-form">
-                    <div class="popular-form-area-text text-center">
-                        <span class="popular-form-text">
-                            Contact Form 7
-                        </span>
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-contact-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/contact-form.png" alt="contact-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Contact Form 7
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4">
-                <div class="popular-form-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/ninja-form.png" alt="ninja-form">
-                    <div class="popular-form-area-text text-center">
-                        <span class="popular-form-text">
-                            Ninja Forms
-                        </span>
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-ninja-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/ninja-form.png" alt="ninja-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Ninja Forms
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="col-lg-2 col-4 col-md-4 me-auto">
-                <div class="popular-form-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/wp-form.png" alt="wp-form">
-                    <div class="popular-form-area-text text-center">
-                        <span class="popular-form-text">
-                            WP Forms
-                        </span>
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-wp-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/wp-form.png" alt="wp-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                WP Forms
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-gravity-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/gravity-form.png" alt="gravity-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Gravity Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-fluent-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/fluent-form.png" alt="fluent-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Fluent Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-formidable-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/formidable-form.png" alt="formidable-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Formidable Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-elementor-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/elementor-form.png" alt="elementor-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Elementor Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-3 col-md-4">
+                <a href="#feature-met-form">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/met-form.png" alt="met-form">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                                Met Form
+                            </span>
+                        </div>
+                    </div>
+                </a>
             </div>
 
         </div>
@@ -111,7 +192,7 @@ $features = [
             $content_class = 'col-md-5';
 
         ?>
-            <div class="row popular-form-feature align-items-center feature-<?php echo $key; ?> <?php echo !$is_odd ? 'flex-row-reverse' : '' ?>">
+            <div id="feature-<?php echo $key; ?>" class="row popular-form-feature align-items-center feature-<?php echo $key; ?> <?php echo !$is_odd ? 'flex-row-reverse' : '' ?>">
 
                 <div class="<?php echo $image_class; ?>">
                     <div class="feature-item-img">

@@ -13,6 +13,7 @@ import "./components/sticky-banner";
       //Handle contact form tabs
       $(".contact-form .tab-item").on("click", app.handleContactForm);
 
+
       //Handle to top button
       $(".to-top").on("click", app.handleToTop);
 
@@ -217,6 +218,7 @@ import "./components/sticky-banner";
       $(`.contact-form-wrap.form-${$(this).data("target")}`).addClass("active");
     },
 
+
     handleToTop: function () {
       $("html, body").animate({ scrollTop: 0 }, "fast");
     },
@@ -359,5 +361,9 @@ import "./components/sticky-banner";
     },
   };
 
+
+
+
   $(document).ready(app.init);
 })(jQuery);
+

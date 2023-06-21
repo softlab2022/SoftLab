@@ -15,11 +15,13 @@
       padding: 1rem 5rem;
     }
   }
+
   @media (max-width: 767.98px) {
     .header-content {
       h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
+
       p {
         padding: 1rem 1rem;
       }
@@ -29,7 +31,9 @@
 
 .product-item {
   padding: 5rem 0;
-
+  .product-image {
+    display: block;
+  }
   .product-content {
 
     .product-name {
@@ -76,6 +80,10 @@
       line-height: 150%;
     }
 
+    .product-images {
+      display: none;
+    }
+
   }
 
   .feature-item {
@@ -88,6 +96,7 @@
     justify-content: center;
     flex-direction: column;
     height: 150px;
+
     &.multiplegoogleaccounts,
     &.popupwindowplayer,
     &.mobilemedianotification,
@@ -115,7 +124,7 @@
   }
 
   &:nth-child(odd) {
-    & > .container > .row {
+    &>.container>.row {
       flex-flow: row-reverse;
 
       .product-image {
@@ -163,8 +172,8 @@
     }
   }
 
-  @media (min-width: 992px) and (max-width: 1199px) {
-  }
+  @media (min-width: 992px) and (max-width: 1199px) {}
+
   @media (min-width: 768px) and (max-width: 991.98px) {
     .product-content {
       .product-name {
@@ -172,9 +181,11 @@
           font-size: 1.5rem;
         }
       }
+
       .product-subtitle {
         font-size: 1.5rem;
       }
+
       .product-description {
         font-size: .8rem;
       }
@@ -182,33 +193,53 @@
   }
 
   @media (max-width: 767.98px) {
+
+
+    padding: 0 0 3rem 0;
+
+
+    
     .product-image {
-      img {
-        margin-bottom: 40px;
-      }
+      display: none;
     }
+
     .product-content {
       text-align: center;
+
+      .product-images {
+        display: block;
+        img {
+          margin: 40px 0;
+        }
+      }
+
       .product-name {
         justify-content: center;
         width: auto;
+
         h3 {
-          font-size: 1.7rem;
+          font-size: 1.2rem;
         }
       }
+
       .product-subtitle {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
+
       .product-description {
         font-size: .9rem;
       }
     }
+
     &:nth-child(odd) {
-      & > .container > .row {
+      &>.container>.row {
         flex-flow: wrap;
-  
+
       }
     }
   }
+
+  
+  
 
 }

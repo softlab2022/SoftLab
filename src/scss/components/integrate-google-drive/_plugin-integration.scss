@@ -72,7 +72,7 @@
 
         .section-head {
             .title-haader {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
             }
 
             .header-description {
@@ -87,8 +87,14 @@
             // }
 
             .page-builder {
-                margin-bottom: 60px;
+                margin-bottom: 20px;
                 display: inline-block;
+            }
+
+            a {
+                padding: 15px 9px;
+                font-size: .8rem;
+                margin-right: 5px;
             }
 
             // .demo-btn {
@@ -476,7 +482,7 @@
         padding: 0;
 
         .heading-text {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
         }
 
         .heading-description {
@@ -487,8 +493,10 @@
         .page-builder-area {
 
             .page-builder-area-text {
-                margin-top: 40px;
-                margin-bottom: 40px;
+                margin: 30px 0;
+                .page-builder-text {
+                    font-size: .8rem;
+                }
             }
         }
 
@@ -510,6 +518,7 @@
 
         .page-builder-feature {
             text-align: center;
+            padding-top: 50px;
 
             .feature-item-content {
                 img {
@@ -518,7 +527,7 @@
 
                 .feature-title {
                     padding-top: 20px;
-                    font-size: 2rem;
+                    font-size: 1.3rem;
                 }
 
                 .feature-description {
@@ -584,6 +593,7 @@
     }
 
     .popular-form-area {
+        margin-bottom: 20px;
         img {
             box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.25);
             border-radius: 15px;
@@ -764,7 +774,7 @@
 
     .vector-crcel-right {
         position: absolute;
-        top: 25%;
+        top: 13%;
         right: 0;
     }
 
@@ -995,12 +1005,13 @@
     @media (max-width: 767.98px) {
 
         .heading-text {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
         }
 
         .heading-description {
             padding-top: .5rem;
             padding-bottom: 2rem;
+            font-size: .9rem;
         }
 
         .popular-form-area {
@@ -1008,6 +1019,10 @@
             .popular-form-area-text {
                 margin-top: 40px;
                 margin-bottom: 40px;
+               
+                .popular-form-text {
+                    font-size: .8rem;
+                }
             }
         }
 
@@ -1029,6 +1044,7 @@
 
         .popular-form-feature {
             text-align: center;
+            padding-top: 50px;
 
             .feature-item-content {
                 img {
@@ -1037,7 +1053,7 @@
 
                 .feature-title {
                     padding-top: 20px;
-                    font-size: 2rem;
+                    font-size: 1.3rem;
                 }
 
                 .feature-description {
@@ -1140,6 +1156,11 @@
 
     }
 
+    .tutor-lms {
+        img {
+            margin-top: 25px !important;
+        }
+    }
 
     .woocommerce-head {
         // padding-top: 60px;
@@ -1172,6 +1193,7 @@
 
     .wooco-feature-area {
         margin: 0 20px;
+
         .feature-title {
             font-weight: 600;
             font-size: 2.5rem;
@@ -1204,6 +1226,10 @@
 
     .last-feature {
         padding-bottom: 90px !important;
+    }
+
+    .tutor-lms-feat {
+        margin-bottom: 60px !important;
     }
 
     .feature-btn {
@@ -1522,8 +1548,12 @@
     @media (max-width: 767.98px) {
         padding: 0;
 
+        .col-3 {
+            margin: 0 auto;
+        }
+
         .heading-text {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
         }
 
         .heading-description {
@@ -1536,6 +1566,9 @@
             .ecommerce-plugins-area-text {
                 margin-top: 40px;
                 margin-bottom: 40px;
+                .ecommerce-plugins-text {
+                    font-size: .8rem;
+                }
             }
         }
 
@@ -1557,12 +1590,16 @@
 
         .woocommerce-head {
             .wooco-title {
-                font-size: 2rem;
+                font-size: 1.3rem;
             }
 
             .wooco-description {
                 font-size: .8rem;
                 margin: 0;
+            }
+
+            img {
+                margin-top: 70px;
             }
         }
 
@@ -1571,7 +1608,7 @@
             margin: 0;
 
             .feature-title {
-                font-size: 2rem;
+                font-size: 1.3rem;
             }
 
             .feature-description {
