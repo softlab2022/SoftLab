@@ -81,7 +81,9 @@
         }
 
         .tab-area {
-
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;        
             // a {
             //     width: 170px;
             // }

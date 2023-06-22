@@ -18,11 +18,11 @@
                         </div>
 
                         <h3>Play HTTP Streams on HTTPS Website</h3>
-
-                        <div class="feature-item-img-mobile text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
-                        </div>
-
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>
                                 Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP
@@ -53,9 +53,11 @@
                         </div>
 
                         <h3>Sticky Player with Multiple Styles</h3>
-                        <div class="feature-item-img-mobile text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
-                        </div>
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>
                                 Radio Player provides a sticky player with multiple styles (Fullwidth, Mini-Fullwidth &
@@ -93,11 +95,11 @@
                         </div>
 
                         <h3>Listen the player in a new Popup window.</h3>
-
-                        <div class="feature-item-img-mobile text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="Popup Player">
-                        </div>
-
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="Popup Player">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>
                                 Radio Player provides a Popup Player to play your radio stream in a new browser window
@@ -126,11 +128,11 @@
                         </div>
 
                         <h3>Stations Playlist for Multiple Stations</h3>
-
-                        <div class="feature-item-img-mobile text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
-                        </div>
-
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>If you want to play multiple stations in a single player, You can display them in
                                 playlist
@@ -164,11 +166,11 @@
                         </div>
 
                         <h3>10+ Player Skins with Different Layouts and Styles</h3>
-
-                        <div class="feature-item-img-mobile text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="Multiple Skins">
-                        </div>
-
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="Multiple Skins">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>
                                 Radio Player provides 10+ player skins with different layouts and styles to choose from.
@@ -194,11 +196,11 @@
                         </div>
 
                         <h3>Player Embed</h3>
-
-                        <div class="feature-item-img-mobile text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png" alt="Embed Code">
-                        </div>
-
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png" alt="Embed Code">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>Radio Player provides the ability to embed the player on any website using the embed
                                 code.</p>
@@ -241,11 +243,11 @@
                 <div class="feature-item">
                     <div class="file-text">
                         <h3>Customizing Player Appearance</h3>
-
-                        <div class="feature-item-img-mobile text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="Customize Player Appearance">
-                        </div>
-
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="Customize Player Appearance">
+                            </div>
+                        <?php } ?>
                         <div class="feature-description">
                             <p>
                                 You can customize the player appearance in real-time. You can change the player
@@ -262,9 +264,11 @@
                 <div class="feature-item">
                     <div class="file-text">
                         <h3>Customizing Player Controls</h3>
-                        <div class="feature-item-img-mobile text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
-                        </div>
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
+                            </div>
+                        <?php } ?>
                         <p>
                             You can customize the player controls in real-time.
                             You can show/ hide the different player controls like popup icon, volume icon, playlist icon

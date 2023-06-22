@@ -5,9 +5,15 @@
                 <div class="hero-content">
 
                     <h1>Worldwide Online Radio Stations Directory for WordPress</h1>
+
+                    <?php if ( wp_is_mobile() ) { ?>
+                        
                     <div class="radio-header-bg-mobile text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/head.png" alt="head">
-                </div>
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/head.png" alt="head">
+                    </div>
+                    
+                    <?php } ?>
+
                     <p>
                         WP Radio is a worldwide online radio stations directory plugin for WordPress. You can easily create a full-featured online radio directory website with the WP Radio plugin.
                     </p>

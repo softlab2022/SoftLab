@@ -68,6 +68,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                         </button>
 
                         <div id="navbar" class="mobile-menu collapse navbar-collapse">
+                        <?php if ( wp_is_mobile() ) { ?>
                             <span class="mobile-close-btn d-flex justify-content-between align-items-center">
 
                                 <a class="navbar-brand brand-reader-mode logo-btn" href="/reader-mode" title="Reader Mode" rel="home">
@@ -75,6 +76,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                 </a>
                                 <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                             </span>
+                            <?php } ?>
                             <?php
                             wp_nav_menu(
                                 array(

@@ -10,11 +10,11 @@
                     </div>
 
                     <h2>Live Shoutcast, Icecast and Audio Stream Player for WordPress</h2>
-
-                    <div class="radio-header-bg-mobile text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
-                    </div>
-
+                    <?php if (wp_is_mobile()) { ?>
+                        <div class="radio-header-bg-mobile text-center">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
+                        </div>
+                    <?php } ?>
                     <p>
                         A simple, easy to use, user-friendly and fully customizable web radio player for WordPress. You
                         can play any live mp3, Shoutcast, iceCast, and any audio stream in your WordPress website.

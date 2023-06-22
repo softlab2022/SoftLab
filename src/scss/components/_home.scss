@@ -72,7 +72,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 130px 0 60px 0;
+    padding: 100px 0 60px 0;
     background-size: cover;
     // background-position: top;
 
@@ -81,10 +81,12 @@
 
       h1 {
         font-size: 1.5rem;
+        line-height: 1.5;
       }
 
       p {
-        font-size: .785rem;
+        font-size: 1rem;
+        margin-bottom: 30px;
       }
       .hero-image-mobile {
         display: block;
@@ -336,8 +338,10 @@
     }
 
     .products-item {
-      margin-bottom: 40px;
-
+      margin-bottom: 20px;
+      .products-icon {
+        padding-top: 1rem;
+      }
       .product-title {
         font-size: 1.4rem;
         margin-top: 15px;

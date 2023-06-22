@@ -92,9 +92,11 @@ $features = [
                         <?php } ?>
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
-                        <div class="feature-item-img-mobile">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>">
-                        </div>
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>">
+                            </div>
+                        <?php } ?>
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
                         <?php if ('page-builder' == $key) { ?>
@@ -104,8 +106,8 @@ $features = [
                                 <span><i class="fa-solid fa-check"></i> Elementor</span>
                                 <span><i class="fa-solid fa-check"></i> Divi Page Builder</span>
                             </div>
-                        
-                            <?php } elseif ('form' == $key) { ?>
+
+                        <?php } elseif ('form' == $key) { ?>
                             <div class="feature-integrations">
                                 <span><i class="fa-solid fa-check"></i> Contact Form 7</span>
                                 <span><i class="fa-solid fa-check"></i> WPForms</span>

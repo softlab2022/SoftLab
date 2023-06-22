@@ -42,38 +42,38 @@ $features = [
 ?>
 
 <section id="wp-radio-user-frontend-features">
-    <div class="container">
+	<div class="container">
 
 		<?php
 		$i = 0;
-		foreach ( $features as $feature ) {
+		foreach ($features as $feature) {
 			$is_odd = $i % 2 == 0;
-			?>
-            <div class="row feature-item align-items-center">
-                <div class="col-md-6 <?php echo ! $is_odd ? 'order-1' : ''; ?>">
-                    <div class="feature-item-img text-center">
-                        <img class="img-fluid" src="<?php echo $feature['image']; ?>"
-                             alt="<?php echo $feature['intro']; ?>">
-                    </div>
-                </div>
+		?>
+			<div class="row feature-item align-items-center">
+				<div class="col-md-6 <?php echo !$is_odd ? 'order-1' : ''; ?>">
+					<div class="feature-item-img text-center">
+						<img class="img-fluid" src="<?php echo $feature['image']; ?>" alt="<?php echo $feature['intro']; ?>">
+					</div>
+				</div>
 
-                <div class="col-md-6">
-                    <div class="feature-item-content">
-                        <span><?php echo $feature['intro']; ?></span>
+				<div class="col-md-6">
+					<div class="feature-item-content">
+						<span><?php echo $feature['intro']; ?></span>
 						<div class="imgs2">
-                        	<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
-                    	</div>
-                        <h3><?php echo $feature['title']; ?></h3>
-						<div class="feature-item-img-mobile text-center">
-                        <img class="img-fluid" src="<?php echo $feature['image']; ?>"
-                             alt="<?php echo $feature['intro']; ?>">
-                    </div>
-                        <p><?php echo $feature['description']; ?></p>
-                    </div>
-                </div>
-            </div>
-			<?php $i ++;
+							<img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-2.png" alt="image-2">
+						</div>
+						<h3><?php echo $feature['title']; ?></h3>
+						<?php if (wp_is_mobile()) { ?>
+							<div class="feature-item-img-mobile text-center">
+								<img class="img-fluid" src="<?php echo $feature['image']; ?>" alt="<?php echo $feature['intro']; ?>">
+							</div>
+						<?php } ?>
+						<p><?php echo $feature['description']; ?></p>
+					</div>
+				</div>
+			</div>
+		<?php $i++;
 		} ?>
 
-    </div>
+	</div>
 </section>

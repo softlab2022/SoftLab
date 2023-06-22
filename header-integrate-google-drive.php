@@ -66,6 +66,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                         </button>
 
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
+                        <?php if ( wp_is_mobile() ) { ?>
                             <span class="mobile-close-btn d-flex justify-content-between align-items-center">
                                 <a class="navbar-brand brand-integrate-google-drive logo-btn" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/new-logo/integrate-google-drive-withe-logo.png" alt="Integrate Google Drive">
@@ -73,6 +74,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
                                 <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                             </span>
+                            <?php } ?>
                             <?php
                             wp_nav_menu(
                                 array(

@@ -95,12 +95,14 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
                         </button>
 
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
-                            <span class="mobile-close-btn d-flex justify-content-between align-items-center">
-                                <a class="navbar-brand brand-wp-radio logo-btn" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
-                                    <img class="img-fluid" src="<?php echo $logo_withe; ?>" alt="<?php echo $title; ?>">
-                                </a>
-                                <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
-                            </span>
+                            <?php if ( wp_is_mobile() ) { ?>
+                                <span class="mobile-close-btn d-flex justify-content-between align-items-center">
+                                    <a class="navbar-brand brand-wp-radio logo-btn" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
+                                        <img class="img-fluid" src="<?php echo $logo_withe; ?>" alt="<?php echo $title; ?>">
+                                    </a>
+                                    <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                                </span>
+                            <?php } ?>
                             <?php
                             wp_nav_menu(
                                 array(

@@ -31,9 +31,11 @@
 
 .product-item {
   padding: 5rem 0;
+
   .product-image {
     display: block;
   }
+
   .product-content {
 
     .product-name {
@@ -198,16 +200,19 @@
     padding: 0 0 3rem 0;
 
 
-    
+
     .product-image {
       display: none;
     }
+
+
 
     .product-content {
       text-align: center;
 
       .product-images {
         display: block;
+
         img {
           margin: 40px 0;
         }
@@ -215,7 +220,8 @@
 
       .product-name {
         justify-content: center;
-        width: auto;
+        margin-left: auto;
+        margin-right: auto;
 
         h3 {
           font-size: 1.2rem;
@@ -239,7 +245,21 @@
     }
   }
 
-  
-  
 
+
+
+}
+
+@media (max-width: 767.98px) {
+  .product-radio-player {
+    .product-content {
+      .product-images {
+        overflow: hidden;
+        img {
+          margin-right: -30px;
+         
+        }
+      }
+    }
+  }
 }
