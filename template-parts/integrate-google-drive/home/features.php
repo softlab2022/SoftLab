@@ -119,9 +119,7 @@ $features = [
                                 <span><i class="fa-solid fa-check"></i> MetForms</span>
 
                             </div>
-                            <div class="integration-btn">
-                                <a href="/integrate-google-drive-integrations/" class="feature-integration-btn">More Integrations</a>
-                            </div>
+
                         <?php } ?>
 
                         <?php if (!$is_integration && !in_array($key, [
@@ -137,7 +135,13 @@ $features = [
         <?php
             $i++;
         } ?>
-
+        <div class="row">
+            <div class="col-lg-2 col-md-3 m-auto">
+                <div class="integration-btn">
+                    <a href="/integrate-google-drive-integrations/" class="feature-integration-btn">See All Integrations</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

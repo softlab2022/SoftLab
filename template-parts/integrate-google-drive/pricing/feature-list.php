@@ -184,33 +184,47 @@ $features = [
 
 	],
 	[
-		'title'       => 'WPForms Integration',
+		'title'       => 'Elementor Form Integration',
+		'description' => 'Allows effortless file uploads from Elementor PRO Form widget to Google Drive for quick and efficient storage.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/53FP34HQZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => true,
+
+	],
+	[
+		'title'       => 'MetForm Integration',
+		'description' => 'Allows effortless file uploads from MetForm to Google Drive for quick and efficient storage.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/kcxwp53VFZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => true,
+
+	],
+	[
+		'title'       => 'WPForm Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in WPForms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/QvRuNCcUjic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Gravity Forms Integration',
+		'title'       => 'Gravity Form Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Gravity Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Ninja Forms Integration',
+		'title'       => 'Ninja Form Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Ninja Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/D687aswuMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[
-		'title'       => 'Formidable Forms Integration',
+		'title'       => 'Formidable Form Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Formidable Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[
-		'title'       => 'Fluent Forms Integration',
+		'title'       => 'Fluent Form Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Fluent Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lE7i66t_7Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
@@ -219,49 +233,45 @@ $features = [
 ?>
 
 <section id="features">
-    <div class="container">
+	<div class="container">
 
-        <div class="row">
-            <div class="col-lg-5 m-auto">
-                <div class="section-header text-center">
-                    <h2>Choose the best plan that fits your needs</h2>
-                    <p>we’ve created several packages with different features in them. These are priced according to the
-                        value they deliver.</p>
-                </div>
-            </div>
-        </div>
+		<div class="row">
+			<div class="col-lg-5 m-auto">
+				<div class="section-header text-center">
+					<h2>Choose the best plan that fits your needs</h2>
+					<p>we’ve created several packages with different features in them. These are priced according to the
+						value they deliver.</p>
+				</div>
+			</div>
+		</div>
 
-        <div class="row ">
-            <div class="col-lg-8 m-auto">
+		<div class="row ">
+			<div class="col-lg-8 m-auto">
 
-                <div class="features-header justify-content-between">
-                    <h5>Features</h5>
-                    <span class="feature-type type-free">FREE</span>
-                    <span class="feature-type type-pro">PRO</span>
-                </div>
+				<div class="features-header justify-content-between">
+					<h5>Features</h5>
+					<span class="feature-type type-free">FREE</span>
+					<span class="feature-type type-pro">PRO</span>
+				</div>
 
-                <div class="accordion" id="features-accordion">
-					<?php foreach ( $features as $key => $feature ) { ?>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading-<?php echo $key; ?>">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-<?php echo $key; ?>" aria-expanded="false"
-                                        aria-controls="collapse-<?php echo $key; ?>">
+				<div class="accordion" id="features-accordion">
+					<?php foreach ($features as $key => $feature) { ?>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="heading-<?php echo $key; ?>">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-<?php echo $key; ?>" aria-expanded="false" aria-controls="collapse-<?php echo $key; ?>">
 
-                                    <div class="title">
-                                        <i class="fa-solid fa-chevron-down"></i>
-                                        <span class="feature-title"><?php echo $feature['title']; ?></span>
-                                    </div>
+									<div class="title">
+										<i class="fa-solid fa-chevron-down"></i>
+										<span class="feature-title"><?php echo $feature['title']; ?></span>
+									</div>
 
-                                    <i class="fas <?php echo ! empty( $feature['pro'] ) ? 'fa-check-square' : 'fa-times-square'; ?>"></i>
-                                    <i class="fas fa-check-square"></i>
-                                </button>
-                            </h2>
+									<i class="fas <?php echo !empty($feature['pro']) ? 'fa-check-square' : 'fa-times-square'; ?>"></i>
+									<i class="fas fa-check-square"></i>
+								</button>
+							</h2>
 
-                            <div id="collapse-<?php echo $key; ?>" class="accordion-collapse collapse"
-                                 aria-labelledby="heading-<?php echo $key; ?>"
-                                 data-bs-parent="#features-accordion">
-                                <div class="accordion-body">
+							<div id="collapse-<?php echo $key; ?>" class="accordion-collapse collapse" aria-labelledby="heading-<?php echo $key; ?>" data-bs-parent="#features-accordion">
+								<div class="accordion-body">
 									<div class="row">
 										<div class="col-lg-12">
 											<div class="description">
@@ -272,15 +282,15 @@ $features = [
 											</div>
 										</div>
 									</div>
-                                </div>
-                            </div>
-                        </div>
+								</div>
+							</div>
+						</div>
 					<?php } ?>
 
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
 
-    </div>
+	</div>
 
 </section>

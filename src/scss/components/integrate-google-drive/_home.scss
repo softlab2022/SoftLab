@@ -248,32 +248,7 @@
 
     }
 
-    .integration-btn {
-      .feature-integration-btn {
-        text-decoration: none;
-        font-weight: 600;
-        font-size: .9rem;
-        line-height: 19px;
-        color: #fff;
-        text-transform: capitalize;
-        background-color: #01AA47;
-        padding: 15px 30px;
-        border-radius: 8px;
-        margin-top: 2rem;
-        display: block;
-        width: max-content;
-        transition: all linear .4s;
-
-        &:hover {
-          background-color: #fff;
-          color: #01AA47;
-          transition: all linear .4s;
-          box-shadow: $color_primary 0px 2px 8px 0px;
-          border-color: transparent;
-        }
-
-      }
-    }
+    
 
 
     &.feature-file-browser {
@@ -347,6 +322,34 @@
       }
     }
 
+  }
+
+  .integration-btn {
+    padding-top: 40px;
+    .feature-integration-btn {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: .9rem;
+      line-height: 19px;
+      color: #fff;
+      text-transform: capitalize;
+      background-color: #01AA47;
+      padding: 15px 30px;
+      border-radius: 8px;
+      margin-top: 2rem;
+      display: block;
+      width: max-content;
+      transition: all linear .4s;
+
+      &:hover {
+        background-color: #fff;
+        color: #01AA47;
+        transition: all linear .4s;
+        box-shadow: $color_primary 0px 2px 8px 0px;
+        border-color: transparent;
+      }
+
+    }
   }
 
   @media (min-width: 1400px) {
@@ -502,6 +505,12 @@
           text-align: center;
           padding: 15px 20px;
         }
+      }
+    }
+
+    .integration-btn  {
+      .feature-integration-btn {
+        margin: 0 auto;
       }
     }
 
@@ -940,7 +949,7 @@
       background-color: #01AA47;
       color: transparent;
       border-radius: 50%;
-      line-height: 16px;
+      line-height: 15px;
       border: 0;
       opacity: 0;
       display: inline-flex;
