@@ -1,0 +1,221 @@
+#summer-offers {
+    background: url("../images/home/offers/offer-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 150px 0;
+    background-size: cover;
+
+    .section-head {
+        p {
+            color: #000;
+            font-family: Inter;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+        }
+
+        h1 {
+            color: #000;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+
+            span {
+                color: #F79A22;
+            }
+        }
+        img {
+            margin-bottom: 30px;
+        }
+    }
+
+    .offers-img {
+        margin-bottom: 60px;
+    
+        img {
+          width: 60%;
+          height: auto;
+        }
+      }
+
+
+}
+
+#offers-main {
+    position: relative;
+    top: -60px;
+
+    .offer-item {
+        background: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        position: relative;
+
+        .offer-icon {
+            position: absolute;
+            top: -50px;
+        }
+
+        .offer-off {
+            background: url("../images/home/offers/offer-rectangle.png");
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            top: 0;
+            right: 40px;
+            text-align: center;
+
+            span {
+                color: rgba(255, 255, 255, 0.70);
+                text-align: center;
+                font-family: Inter;
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 130%;
+                display: block;
+                margin-bottom: 10px;
+                margin-top: 6px;
+            }
+
+            p {
+                color: #fff;
+                text-align: center;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 130%;
+                margin-bottom: 0;
+                padding: 0 1px;
+            }
+
+        }
+
+        .offer-content {
+            h5 {
+                color: #000;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 120%;
+                margin-bottom: 30px;
+                margin-top: 40px;
+            }
+
+            p {
+                color: rgba(0, 0, 0, 0.60);
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                font-family: Inter;
+                margin-bottom: 50px;
+            }
+        }
+
+        .offer-price {
+            p {
+                color: rgba(0, 0, 0, 0.70);
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 150%;
+            }
+
+            h6 {
+                color: #39B54F;
+                font-size: 50px;
+                font-weight: 600;
+                line-height: 120%;
+
+                &:before {
+                    content: "$";
+                    font-size: 1.5rem;
+                    vertical-align: top;
+                }
+            }
+        }
+
+        .offer-button {
+            padding: 30px 0;
+
+            a {
+                padding: 15px 30px;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 150%;
+                border-radius: 10px;
+                background: linear-gradient(147deg, #2FB44B 0%, #39B54F 100%);
+                border: 1px solid #2FB44B;
+                transition: all linear .4s;
+                &:hover {
+                    background: transparent;
+                    color: #2FB44B;
+                }
+            }
+        }
+    }
+
+    .offer-item-radio-player {
+        .offer-price {
+
+            h6 {
+                color: #2CD28A;
+
+                &:before {
+                    content: "$";
+                    font-size: 1.5rem;
+                    vertical-align: top;
+                }
+            }
+        }
+
+        .offer-button {
+            a {
+                background: #2CD28A;
+                border: 1px solid #2CD28A;
+                transition: all linear .4s;
+                &:hover {
+                    background: transparent;
+                    color: #2CD28A;
+                }
+            }
+        }
+    }
+
+    .offer-item-dark-mode {
+        .offer-price {
+
+            h6 {
+                color: #675DE1;
+
+                &:before {
+                    content: "$";
+                    font-size: 1.5rem;
+                    vertical-align: top;
+                }
+            }
+        }
+
+        .offer-button {
+            a {
+                background: #675DE1;
+                border: 1px solid #675DE1;
+                transition: all linear .4s;
+                &:hover {
+                    background: transparent;
+                    color: #675DE1;
+                }
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .offer-item {
+            margin-bottom: 67px;
+        }
+    }
+}
