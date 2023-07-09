@@ -14,7 +14,7 @@ get_header();
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-4 col-md-7 m-auto">
                 <div class="section-head text-center">
                     <p>Sun's Out, Savings In</p>
                     <!-- <h1>Unbeatable Summer <span>Deals!</span> </h1> -->
@@ -25,7 +25,15 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="offer-left-img">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/tree.png" alt="tree">
 
+        </div>
+
+        <div class="offer-right-img">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/umbrella.png" alt="umbrella">
+
+        </div>
     </div>
 </section>
 
@@ -33,7 +41,7 @@ get_header();
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-4 m-auto ">
+            <div class="col-lg-4 col-md-6 m-auto ">
                 <div class="offer-item">
                     <div class="offer-icon">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/integrate-google-drive-icon.png" alt="integrate-google-drive-icon">
@@ -59,7 +67,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto ">
+            <div class="col-lg-4 col-md-6 m-auto ">
                 <div class="offer-item offer-item-radio-player">
                     <div class="offer-icon">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/radio-icon.png" alt="radio-icon">
@@ -85,7 +93,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="col-lg-4 m-auto ">
+            <div class="col-lg-4 col-md-6 me-auto ">
                 <div class="offer-item offer-item-dark-mode">
                     <div class="offer-icon">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/dracula-icon.png" alt="dracula-icon">

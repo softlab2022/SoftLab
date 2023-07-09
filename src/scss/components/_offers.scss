@@ -1,10 +1,14 @@
 #summer-offers {
-    background: url("../images/home/offers/offer-bg.png");
-    background-repeat: no-repeat;
+    // background: url("../images/home/offers/offer-bg.png");
+    // background-repeat: no-repeat;
     background-position: 0 0;
-    padding: 150px 0;
+    padding: 130px 0;
     background-size: cover;
+    background: url("../images/header-bg.png"), linear-gradient(180.71deg, #6C9EFF 0px, rgba(249, 250, 255, 0) 800px) no-repeat center top;
+    background-repeat: no-repeat;
+    position: relative;
 
+    // background: linear-gradient(180.71deg, #6C9EFF 0px, rgba(249, 250, 255, 0) 800px) no-repeat center top;
     .section-head {
         p {
             color: #000;
@@ -28,6 +32,7 @@
                 color: #F79A22;
             }
         }
+
         img {
             margin-bottom: 30px;
         }
@@ -35,14 +40,110 @@
 
     .offers-img {
         margin-bottom: 60px;
-    
+
         img {
-          width: 60%;
-          height: auto;
+            width: 60%;
+            height: auto;
         }
-      }
+    }
 
+    @media (min-width: 992px) and (max-width: 1199px) {
+        padding: 130px 0;
 
+        .section-head {
+            p {
+                font-size: 28px;
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        padding: 120px 0;
+
+        .section-head {
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .offers-img {
+            margin-bottom: 30px;
+
+            img {
+                width: 40%;
+                height: auto;
+            }
+        }
+
+        .offer-right-img {
+            bottom: 60px!important;
+
+            img {
+                width: 100px;
+                height: auto;
+            }
+        }
+
+        .offer-left-img {
+            bottom: 100px!important;
+
+            img {
+                width: 100px;
+                height: auto;
+            }
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 100px 0;
+
+        .section-head {
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .offers-img {
+            margin-bottom: 30px;
+
+            img {
+                width: 40%;
+                height: auto;
+            }
+        }
+
+        .offer-right-img {
+            bottom: 40px!important;
+
+            img {
+                width: 80px;
+
+                height: auto;
+            }
+        }
+
+        .offer-left-img {
+            bottom: 40px!important;
+
+            img {
+                width: 80px;
+
+                height: auto;
+            }
+        }
+    }
+
+    .offer-right-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .offer-left-img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 }
 
 #offers-main {
@@ -54,23 +155,32 @@
         padding: 20px;
         border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.20);
+        display: flex;
+        flex-direction: column;
         position: relative;
 
         .offer-icon {
             position: absolute;
             top: -50px;
+
+            img {
+                width: 85px;
+                height: 85px;
+            }
         }
 
         .offer-off {
             background: url("../images/home/offers/offer-rectangle.png");
             background-repeat: no-repeat;
-            background-position: 0 0;
             width: max-content;
             height: max-content;
             position: absolute;
             top: 0;
             right: 40px;
             text-align: center;
+            background-size: cover;
+            background-position: bottom;
+            padding: 5px;
 
             span {
                 color: rgba(255, 255, 255, 0.70);
@@ -152,6 +262,7 @@
                 background: linear-gradient(147deg, #2FB44B 0%, #39B54F 100%);
                 border: 1px solid #2FB44B;
                 transition: all linear .4s;
+
                 &:hover {
                     background: transparent;
                     color: #2FB44B;
@@ -179,6 +290,7 @@
                 background: #2CD28A;
                 border: 1px solid #2CD28A;
                 transition: all linear .4s;
+
                 &:hover {
                     background: transparent;
                     color: #2CD28A;
@@ -206,6 +318,7 @@
                 background: #675DE1;
                 border: 1px solid #675DE1;
                 transition: all linear .4s;
+
                 &:hover {
                     background: transparent;
                     color: #675DE1;
@@ -213,9 +326,81 @@
             }
         }
     }
-    @media (max-width: 767px) {
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .offer-item {
+            .offer-off {
+                right: 15px;
+
+
+            }
+
+            .offer-content {
+                h5 {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 1rem;
+                    margin-bottom: 20px;
+                    margin-right: 14px;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .offer-item {
+            margin-bottom: 80px;
+
+            .offer-off {
+                right: 15px;
+
+
+            }
+
+            .offer-content {
+                h5 {
+                    font-size: 20px;
+                    padding-right: 40px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: .9rem;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .offer-item-dark-mode {
+            margin-left: auto !important;
+        }
+    }
+
+    @media (max-width: 767.98px) {
         .offer-item {
             margin-bottom: 67px;
+
+            .offer-off {
+                right: 15px;
+
+
+            }
+
+            .offer-content {
+                h5 {
+                    font-size: 20px;
+                    padding-right: 40px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: .9rem;
+                    margin-bottom: 20px;
+                }
+            }
         }
     }
 }
