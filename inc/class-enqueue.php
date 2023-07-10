@@ -33,7 +33,7 @@ class SoftLa {
 
 		] ) ) {
 
-			wp_enqueue_style( 'integrate-google-drive', get_theme_file_uri( 'assets/css/integrate-google-drive.css' ), array(), $theme_version, 'all' ); // main.scss: Compiled Framework source + custom styles.
+			wp_enqueue_style( 'integrate-google-drive', get_theme_file_uri( 'assets/css/integrate-google-drive.css' ), array(), $theme_version, 'all' );
 
 		} else if ( in_array( $file_name, [
 			'radio-player',
@@ -43,7 +43,7 @@ class SoftLa {
 			'radio-player-ads',
 		] ) ) {
 
-			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ) );
+			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ), array(), $theme_version, 'all' );
 
 		}
 		
@@ -52,7 +52,7 @@ class SoftLa {
 			'reader-mode-pricing',
 		] ) ) {
 
-			wp_enqueue_style( 'reader-mode-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ) );
+			wp_enqueue_style( 'reader-mode-main', get_theme_file_uri( 'assets/css/reader-mode-main.css' ), array(), $theme_version, 'all' );
 
 		} 
 
@@ -63,7 +63,7 @@ class SoftLa {
 			'dracula-compare',
 		] ) ) {
 
-			wp_enqueue_style( 'dracula-main', get_theme_file_uri( 'assets/css/dracula-main.css' ) );
+			wp_enqueue_style( 'dracula-main', get_theme_file_uri( 'assets/css/dracula-main.css' ), array(), $theme_version, 'all' );
 
 		} 
 		else if ( in_array( $file_name, [
@@ -75,7 +75,7 @@ class SoftLa {
 			'integrate-dropbox-media-player',
 		] ) ) {
 
-			wp_enqueue_style( 'integrate-dropbox-main', get_theme_file_uri( 'assets/css/integrate-dropbox-main.css' ) );
+			wp_enqueue_style( 'integrate-dropbox-main', get_theme_file_uri( 'assets/css/integrate-dropbox-main.css' ), array(), $theme_version, 'all' );
 
 		} 
 		
