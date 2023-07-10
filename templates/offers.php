@@ -57,7 +57,7 @@ get_header();
                     </div>
                     <div class="offer-price">
                         <p>Starting Form</p>
-                        <h6>49.00</h6>
+                        <h6>29.00</h6>
                     </div>
                     <div class="offer-button">
                         <a href="/integrate-google-drive-pricing">
@@ -83,7 +83,7 @@ get_header();
                     </div>
                     <div class="offer-price">
                         <p>Starting Form</p>
-                        <h6>49.00</h6>
+                        <h6>29.00</h6>
                     </div>
                     <div class="offer-button">
                         <a href="/radio-player-pricing">
@@ -109,7 +109,7 @@ get_header();
                     </div>
                     <div class="offer-price">
                         <p>Starting Form</p>
-                        <h6>49.00</h6>
+                        <h6>15.00</h6>
                     </div>
                     <div class="offer-button">
                         <a href="/dracula-dark-mode-pricing">
