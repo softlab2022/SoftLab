@@ -49,7 +49,10 @@ if ( $page_template ) {
 
 ?>
 
+<?php echo get_template_part('template-parts/summer-offer-sticky-banner'); ?>
+
 <div id="wrapper">
+
 
 
     <header class="site-header">
