@@ -16,7 +16,7 @@
                 <div class="contant">
                     
                         <div class="te-count d-flex align-items-center">
-                            <span class="counter" >20</span> <h5>k+</h5>
+                            <span class="counter" >44</span> <h5>k+</h5>
                         </div>
                     <h6>Total Downloads</h6>
                 </div>
@@ -29,7 +29,7 @@
                 
                 <div class="contant">
                         <div class="te-count d-flex align-items-center">
-                            <span class="counter" >2</span> <h5>k+</h5>
+                            <span class="counter" >4</span> <h5>k+</h5>
                         </div>
                         <h6>Active installation</h6>
                 </div>
