@@ -86,9 +86,11 @@ $tabs = [
             <div class="col-lg-4 col-sm-6 m-auto">
 
                 <h3 class="contact-details-title">Fast and Easy to reach out us</h3>
-                <div class="contact-frame-img-mobile">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="Illustration">
-                </div>
+                <?php if (wp_is_mobile()) { ?>
+                    <div class="contact-frame-img-mobile">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="Illustration">
+                    </div>
+                <?php } ?>
                 <p class="contact-details-description">Your thoughtful suggestions and sincere feedback is important
                     to us. Please, feel free to let us
                     know anything you have in your mind.</p>

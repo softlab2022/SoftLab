@@ -1,3 +1,39 @@
+<?php
+
+$testimonials = [
+    [
+        'title'       => 'it’s working!',
+        'description' => 'Yes, simply put, the plugin works and I’m very happy. I’m using it with Blocksy theme and elementor plugin.best dark mode plugin, best team, thanks SoftLap! I also use your other plugins, reader mode, it’s very good too.',
+        'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/man1.png',
+        'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
+        'names'        => 'hipertale',
+        'designation' => 'Web Developer',
+    ],
+
+    [
+        'title'       => 'Absolutely the Best😍!!!',
+        'description' => 'I tried so many plugins with high ratings but, none of the plugins didn’t work on my site. And those plugins slow down my site entirely. But finally, I found your plugin and I thought to give it a try. Voila, the dark mode, and my website works perfectly. Thank you so much for developing this plugin and best of luck😇.',
+        'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/man2.png',
+        'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
+        'names'        => 'Tharusha Induwara ',
+        'designation' => 'Web Developer',
+    ],
+
+    [
+        'title'       => 'Yes it’s a Revolutionary',
+        'description' => 'It’s a great start and the plugin is full of lots of features as well as nice user experience. Best of luck. Wishing from the heart.',
+        'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/man3.png',
+        'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
+        'names'        => 'DarkMySite',
+        'designation' => 'Web Developer',
+    ],
+
+
+];
+
+?>
+
+
 <section id="testimonial">
     <div class="container">
         <div class="row">
@@ -9,308 +45,35 @@
             </div>
         </div>
 
-        <div class="row dracula-slider">
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
+        <div class="row">
+            <?php foreach ($testimonials as $testimonial) { ?>
+                <div class="col-lg-4">
+                    <div class="testi-main">
+                        <div class="testi-head d-flex justify-content-between align-items-center">
+                            <img class="img-fluid man-img" src="<?php echo $testimonial['image']; ?>" alt="<?php echo $testimonial['title']; ?>">
+                            <div class="name">
+                                <div class="star d-flex justify-content-center align-items-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <div class="review">
+                                        <span>5.00</span>
+                                    </div>
                                 </div>
+                                <h3><?php echo $testimonial['names']; ?></h3>
                             </div>
-                            <h3>Mkarlov2</h3>
+                            <img class="img-fluid" src="<?php echo $testimonial['images']; ?>" alt="<?php echo $testimonial['title']; ?>">
                         </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
+                        <div class="content">
+                            <h3><?php echo $testimonial['title']; ?></h3>
+                            <p><?php echo $testimonial['description']; ?></p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <?php } ?>
 
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="row dracula-slider">
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3">
-                <div class="testi-main">
-                    <div class="testi-head d-flex justify-content-between align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/man.png" alt="" class="img-fluid">
-                        <div class="name">
-                            <div class="star d-flex justify-content-center align-items-center">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <div class="review">
-                                    <span>5.00</span>
-                                </div>
-                            </div>
-                            <h3>Mkarlov2</h3>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/testimonial/group.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="content">
-                        <p>It's intuitive to set up, and simple. Worked straight away. Very impressive - as is the support. Emails are replied to very  quickly....</p>
-                    </div>
-                </div>
-            </div>
         </div>
 
     </div>
