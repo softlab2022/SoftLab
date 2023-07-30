@@ -1727,15 +1727,13 @@
                         <div class="hedding">
                             <h6>Pricing</h6>
                             <span class="head">Annual</span>
-                            <p>Starter($14.99)</p>
-                            <p>Professional($27.99)</p>
-                            <p>Elite($47.99)</p>
+                            <p>Pro ($15)</p>
+                            <p>Ultimate ($99)</p>
 
                             <span class="head">Lifetime</span>
-                            <p>Starter($23.99)</p>
-                            <p>Professional($47.99)</p>
-                            <p>Elite($77.99)</p>
-                            <p class="lasts"> </p>
+                            <p>Pro Lifetime ($39)</p>
+                            <p>Ultimate Lifetime ($199)</p>
+                            <p class="last"> </p>
                         </div>
                     </div>
                 </div>
