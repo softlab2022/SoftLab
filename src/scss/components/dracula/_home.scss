@@ -684,7 +684,15 @@
   }
 
   .compat-img {
-    margin-bottom: 20px;
+    // background: #5345FE8A, #3C89FD00;
+    background: linear-gradient(132.96deg, rgba(83, 69, 254, 0.54) 1.79%, rgba(60, 137, 253, 0) 100%);
+    padding: 15px 10px;
+    border-radius: 10px;
+  }
+  .img-size {
+    img {
+      height: 23px;
+    }
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {

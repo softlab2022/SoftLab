@@ -908,7 +908,8 @@
   }
 
   #industry {
-    background: url("../images/radio-player/price/industry-bg.png") no-repeat;
+    background: url("../images/radio-player/price/industry-bg-new.png"), linear-gradient(180deg, #289074 0%, #85E1C8 100%) no-repeat;
+    // background: linear-gradient(180deg, #289074 0%, #85E1C8 100%);
     background-size: cover;
 
     .indu-item {

@@ -949,7 +949,7 @@
       background-color: #01AA47;
       color: transparent;
       border-radius: 50%;
-      line-height: 15px;
+      line-height: 12px;
       border: 0;
       opacity: 0;
       display: inline-flex;
@@ -1015,6 +1015,40 @@
 
     }
 
+    .testi-head {
+      .man-img {
+        border-radius: 50px;
+      }
+      .title-name {
+        .star {
+          i {
+            color: #F2994A;
+            margin-right: 8px;
+          }
+
+          .review {
+            span {
+              font-weight: 400;
+              font-size: .8rem;
+              line-height: 150%;
+              color: #fff;
+              margin-left: 10px;
+              display: block;
+            }
+          }
+        }
+
+        h3 {
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 150%;
+          color: #000;
+          margin-top: 10px;
+        }
+      }
+
+    }
+
     .icon {
       width: 40px;
       height: 40px;
@@ -1070,7 +1104,7 @@
         line-height: 120%;
         color: $h1_color;
         padding-left: 10px;
-        padding-top: 5px;
+        padding-top: 0px;
       }
     }
   }

@@ -11,61 +11,61 @@
 
         <div class="row">
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/jupiter.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/avada.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img img-size text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/newspaper.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img img-size text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/jannah.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/woodmart.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/eduma.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/news12paper.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/rehub.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/astra.png" alt="" class="img-fluid">
                 </div>
             </div>
 
             <div class="col-lg col-md-6 col-6 m-auto">
-                <div class="compat-img">
+                <div class="compat-img text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compatibility/wp-residence.png" alt="" class="img-fluid">
                 </div>
             </div>
