@@ -22,7 +22,7 @@ get_header();
     </section>
 
     <!--affiliate area_--->
-    <div class="affiliate-contact-area py-5">
+    <div class="affiliate-contact-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -41,32 +41,34 @@ get_header();
 
                                 <!-- Email Address -->
                                 <div class="my-4">
-                                    <label for="Aemail"> Email Address *</label>
+                                    <label for="email"> Email Address *</label>
                                     <input type="email" id="email" name='email' placeholder="Your Email"
                                            class="form-control" value="" required>
                                     <div class="invalid-feedback">Please enter your email address.</div>
+                                    <p class="description">Enter your email address to access your affiliate dashboard</p>
                                 </div>
 
                                 <!-- PayPal Email Address -->
                                 <div class="my-4">
-                                    <label for="pemail">PayPal account email address *</label>
+                                    <label for="pemail">PayPal Email Address *</label>
                                     <input type="email" id="pemail" name="paypal" placeholder="Payment Email"
                                            class="form-control" value="" required>
-                                    <div class="invalid-feedback">Enter Paypal email address</div>
+                                    <div class="invalid-feedback">Paypal email address is required!</div>
+                                    <p class="description">Enter your PayPal email address to receive payments</p>
                                 </div>
 
                                 <!-- Products -->
-                                <div class="my-4 select-option">
+                                <div class="my-4 product-options">
 
                                     <label>Select Product(s) *</label>
 
                                     <div class="form-check">
 
-                                        <input type="checkbox" id='google-drive' class='me-1' name="product[]"
+                                        <input type="checkbox" id='google-drive' class="" name="product[]"
                                                value="integrate-google-drive" required>
 
                                         <label for="google-drive">
-                                            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/affiliat/drive.png">
+                                            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/home/products/integrate-google-drive-icon.png">
                                             Integrate Google Drive
                                         </label>
 
@@ -74,11 +76,11 @@ get_header();
 
                                     <div class="form-check">
 
-                                        <input type="checkbox" id='radio-player' class='p-4 mt-1' name='product[]'
+                                        <input type="checkbox" id='radio-player' class="mt-1" name='product[]'
                                                value="radio-player" required>
 
                                         <label for="radio-player">
-                                            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/affiliat/radio-player.png">
+                                            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/home/products/radio-icon.png">
                                             Radio Player
                                         </label>
 
@@ -86,6 +88,7 @@ get_header();
 
                                     </div>
 
+                                    <p class="description">Select the product(s) you want to promote</p>
 
                                 </div>
 
@@ -97,9 +100,9 @@ get_header();
                                            placeholder="Website, Social Media, or Mobile App URL(s)"
                                            class="form-control" required>
 
-                                    <div class="invalid-feedback">Enter website, social media, or mobile app URL(s)
-                                    </div>
-                                    <p>Enter the URL(s) of your website, social media or mobile app where you planned to promote our plugin(s)</p>
+                                    <div class="invalid-feedback">Enter website, social media, or mobile app URL(s)</div>
+
+                                    <p class="description">Enter the URL(s) of your website, social media or mobile app where you planned to promote our plugin(s)</p>
                                 </div>
 
                                 <!-- Promotional Methods -->
@@ -182,28 +185,6 @@ get_header();
             </div>
         </div>
     </div>
-
-    <!--ctp section-->
-    <!-- <div class="cta-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="cta-banner home-cta">
-						<div class="sub-cta">
-							<h2>Subscribe to get product updates</h2>
-							<p>Get exclusive updates on discounts, product updates, WordPress news &amp; tips</p>
-						</div>
-
-						<form action="">
-							<input type="text" name="email" placeholder="Email address">
-							<button type="submit"><span class="icon icon-sent">subscribe</span></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-    <!--//ctp section-->
 
 
 <?php

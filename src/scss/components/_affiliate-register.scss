@@ -3,13 +3,15 @@
   padding: 180px 0px;
   padding-bottom: 80px;
 }
+
 .affiliate-contact-area {
+  margin-bottom: 100px;
+
   .card {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 50px;
+    padding: 10px 30px;
     border: 1px solid transparent;
 
-    
     .card-body {
       .message {
         background: #FFFFE0;
@@ -17,32 +19,37 @@
         border: 1px solid #E6DB55;
         font-size: 18px;
         border-radius: 8px;
-    }
+      }
+
       form {
         .my-4 {
           .checkb {
             margin-bottom: -10px;
           }
         }
-        .my-4{
-          &.select-option{
-            .my-2{
-              input[type='checkbox']{
-                padding:6px;
-            }
-            
+
+        .my-4 {
+          &.select-option {
+            .my-2 {
+              input[type='checkbox'] {
+                padding: 6px;
+              }
+
             }
           }
-          .form-check{
+
+          .form-check {
             padding-left: 0 !important;
           }
         }
+
         label {
           font-size: 16px;
           color: #000000;
           font-weight: 700;
           margin-bottom: 7px;
         }
+
         input {
           padding: 13px;
           border-radius: 3px;
@@ -50,36 +57,40 @@
           margin-bottom: 10px;
           background: #f7f7f7;
           border: 1px solid #dddddd;
+
           &.label-color {
             label {
               font-weight: 500;
             }
           }
+
           .form-control {
-             &:focus {
-                color: #212529;
-                background-color: transparent !important;
-                border-color: transparent !important;
-                outline: 0;
-                box-shadow: none!important;
-              }
+            &:focus {
+              color: #212529;
+              background-color: transparent !important;
+              border-color: transparent !important;
+              outline: 0;
+              box-shadow: none !important;
+            }
           }
         }
-        .btn-button{
+
+        .btn-button {
           padding: 10px;
           background: #7D7FFF;
-          border:1px solid #7D7FFF; 
+          border: 1px solid #7D7FFF;
           color: #fff;
           font-size: 18px;
           font-weight: 400;
 
         }
+
         .msg {
           color: #e00303;
           font-size: 18px;
           font-weight: 400;
-      }
-       
+        }
+
         input[type="submit"] {
           font-size: 18px;
           font-weight: 600;
@@ -88,53 +99,84 @@
           background: #7F83FF;
           border: 1px solid #7F83FF;
         }
+
         P {
           font-size: 15px;
           color: #353434;
-          &.note{
-            color:#e00303;
+
+          &.note {
+            color: #e00303;
           }
         }
       }
+
       .loading {
         display: none;
+
         h4 {
           font-size: 18px;
         }
       }
     }
   }
+
+  .product-options {
+    input {
+      width: 20px;
+      height: 20px;
+      margin: 0 !important;
+    }
+
+    img {
+      width: 35px;
+      height: 35px;
+      margin: 0 10px 0 15px;
+    }
+
+    .form-check {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+  }
+
 }
 
 //cta banner
 .cta-section {
   padding: 40px 0;
+
   .cta-banner {
     padding: 100px 80px;
     position: relative;
     z-index: 2;
     background: linear-gradient(
-      90deg,
-      #197ab3 0%,
-      #0494c8 48.19%,
-      #04c87a 100%
+                    90deg,
+                    #197ab3 0%,
+                    #0494c8 48.19%,
+                    #04c87a 100%
     );
     border-radius: 22px;
     display: grid;
     grid-template-columns: 8fr 5fr;
     grid-gap: 30px;
     align-items: center;
+
     .sub-cta {
       text-align: left;
+
       h2 {
         color: #fff;
         margin-bottom: 15px;
         font-weight: 600;
       }
+
       p {
         color: #cde9f4;
       }
     }
+
     form {
       position: relative;
 
@@ -145,6 +187,7 @@
         border-radius: 0.25rem;
         border: 1px solid #ced4da;
       }
+
       button {
         top: 0;
         right: 0;
@@ -172,6 +215,7 @@
           line-height: 30px;
         }
       }
+
       .card-body {
         padding: 0 1rem;
       }

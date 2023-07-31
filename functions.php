@@ -292,7 +292,7 @@ if ( ! function_exists( 'softlab_article_posted_on' ) ) :
 			esc_url( get_the_permalink() ),
 			esc_attr( get_the_date() . ' - ' . get_the_time() ),
 			esc_attr( get_the_date( 'c' ) ),
-			esc_html(get_the_modified_date('F j, Y'))
+			esc_html( get_the_modified_date( 'F j, Y' ) )
 		);
 	}
 endif;
@@ -508,18 +508,15 @@ if ( function_exists( 'acf_add_options_page' ) ) {
 // ajax backend configuration
 function softlab_affiliate_register_backend_action() {
 
-
-	$name                         = $_POST['name'];
-	$media                        = $_POST['media'];
-	$email                        = $_POST['email'];
-	$pemail                       = $_POST['pemail'];
-	$domain                       = $_POST['domain'];
-	$products                     = ! empty( $_POST['products'] ) ? implode( ',', $_POST['products'] ) : '';
-	$methods                      = ! empty( $_POST['methods'] ) ? implode( ',', $_POST['methods'] ) : '';
+	$name                         = ! empty( $_POST['name'] ) ? $_POST['name'] : '';
+	$email                        = ! empty( $_POST['email'] ) ? $_POST['email'] : '';
+	$pemail                       = ! empty( $_POST['pemail'] ) ? $_POST['pemail'] : '';
+	$domain                       = ! empty( $_POST['domain'] ) ? $_POST['domain'] : '';
+	$products                     = ! empty( $_POST['products'] ) ? $_POST['products'] : [];
+	$methods                      = ! empty( $_POST['methods'] ) ? $_POST['methods'] : '';
 	$statistics                   = ! empty( $_POST['statistics'] ) ? $_POST['statistics'] : '';
-	$promotion_method_description = $_POST['promotion_method_description'];
+	$promotion_method_description = ! empty( $_POST['promotion_method_description'] ) ? $_POST['promotion_method_description'] : '';
 
-	wp_send_json_success( 'success' );
 
 	define( 'FS__API_SCOPE', 'developer' );
 	define( 'FS__API_DEV_ID', 5043 );
@@ -545,14 +542,13 @@ function softlab_affiliate_register_backend_action() {
 			wp_send_json_error( 'Invalid product selected.' );
 		}
 
-		if ( 'radio-player' == $products ) {
+		if ( 'radio-player' == $product ) {
 			$productID               = '8684';
 			$affiliateProgramTermsID = '1593';
-		} else {
+		} else if ( 'integrate-google-drive' == $product ) {
 			$productID               = '9618';
 			$affiliateProgramTermsID = '1449';
 		}
-
 
 		// You can get the product's affiliate program terms ID from the AFFILIATION section, it's stated right in the 1st tab.
 		$api->Api( "/plugins/{$productID}/aff/{$affiliateProgramTermsID}/affiliates.json", 'POST', array(
@@ -588,26 +584,27 @@ function softlab_affiliate_register_backend_action() {
 }
 
 add_action( 'wp_ajax_affiliate_register', 'softlab_affiliate_register_backend_action' );
+add_action( 'wp_ajax_nopriv_affiliate_register', 'softlab_affiliate_register_backend_action' );
 
 
 //update date on the blog page
 function display_update_date() {
-    $date_format = get_option( 'date_format' );
-    $update_date = get_the_modified_date($date_format);
-    if ( get_the_modified_time() != get_the_time() ) {
-        echo '<span class="update-date">'. $update_date . '</span>';
-    }
+	$date_format = get_option( 'date_format' );
+	$update_date = get_the_modified_date( $date_format );
+	if ( get_the_modified_time() != get_the_time() ) {
+		echo '<span class="update-date">' . $update_date . '</span>';
+	}
 }
 
 
 //show the category of singe page 
 
 function softlab_post_date_and_category() {
-    if ( is_single() ) {
-        echo '<p>';
-        the_category( '  ' );
-        echo '  </p> ';
-    }
+	if ( is_single() ) {
+		echo '<p>';
+		the_category( '  ' );
+		echo '  </p> ';
+	}
 }
 
 
