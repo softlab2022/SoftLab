@@ -16,7 +16,7 @@ get_header();
                         <h2>Earn Up To $100 for Each Successful Conversion!</h2>
                         <p>Join our affiliate program and earn generous commissions by promoting our products. Wherever
                             your audience comes from websites or social channels, you are always encouraged to
-                            promote!.</p>
+                            promote!</p>
                         <a href="/affiliate-register/" class="affiliate-btn">Join Our Affiliate Program</a>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ get_header();
                     </div>
 
                     <div class="affiliate-applay text-center">
-                        <a href="/affiliate-register/" class="applay-btn">Apply Now</a>
+                        <a href="/affiliate-register/" class="applay-btn">Join Now!</a>
                         <div class="vactors-one">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/Vector.png"
                                  alt="" class="img-fluid">
@@ -149,7 +149,7 @@ get_header();
                             <h2>Earn Up To 20% from Each Successful Sale!</h2>
                             <p>We believe we can’t achieve anything alone. You are always welcome to participate in our
                                 affiliate platform and get a golden opportunity to make passive income..</p>
-                            <a href="/affiliate-register/" class="impact-btn">apply now</a>
+                            <a href="/affiliate-register/" class="impact-btn">Join Now!</a>
                         </div>
                     </div>
                 </div>
@@ -509,7 +509,7 @@ get_header();
                         <h2>Partner Up With SoftLab And Start Making People's Lives Better</h2>
                         <p>Discover our high-converting products and star promoting</p>
                         <a href="/affiliate-register/" class="cpt-btn">
-                            Become our Partner
+                        Become Our Affiliate Partner 
                             <i class="fas fa-long-arrow-right"></i>
                         </a>
                     </div>

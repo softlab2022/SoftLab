@@ -33,7 +33,7 @@ get_header();
 
                                 <!-- Full Name -->
                                 <div class="my-4">
-                                    <label for="name">Full Name *</label>
+                                    <label for="name">Full Name <span>*</span> </label>
                                     <input type="text" id="name" name="name" placeholder="Name" class="form-control"
                                            value="" required>
                                     <div class="invalid-feedback">Please enter your full name</div>
@@ -41,7 +41,7 @@ get_header();
 
                                 <!-- Email Address -->
                                 <div class="my-4">
-                                    <label for="email"> Email Address *</label>
+                                    <label for="email"> Email Address <span>*</span> </label>
                                     <input type="email" id="email" name='email' placeholder="Your Email"
                                            class="form-control" value="" required>
                                     <div class="invalid-feedback">Please enter your email address.</div>
@@ -50,7 +50,7 @@ get_header();
 
                                 <!-- PayPal Email Address -->
                                 <div class="my-4">
-                                    <label for="pemail">PayPal Email Address *</label>
+                                    <label for="pemail">PayPal Email Address <span>*</span> </label>
                                     <input type="email" id="pemail" name="paypal" placeholder="Payment Email"
                                            class="form-control" value="" required>
                                     <div class="invalid-feedback">Paypal email address is required!</div>
@@ -60,7 +60,7 @@ get_header();
                                 <!-- Products -->
                                 <div class="my-4 product-options">
 
-                                    <label>Select Product(s) *</label>
+                                    <label>Select Product(s) <span>*</span> </label>
 
                                     <div class="form-check">
 
@@ -94,7 +94,7 @@ get_header();
 
                                 <!-- Domain -->
                                 <div class="my-4">
-                                    <label for="domain">Where are you going to promote our plugin(s)? *</label>
+                                    <label for="domain">Where are you going to promote our plugin(s)? <span>*</span> </label>
 
                                     <input type="text" id="domain" name="domain"
                                            placeholder="Website, Social Media, or Mobile App URL(s)"
@@ -107,7 +107,7 @@ get_header();
 
                                 <!-- Promotional Methods -->
                                 <div class="my-4">
-                                    <label for="">Promotion methods *</label>
+                                    <label for="">Promotion methods <span>*</span> </label>
 
                                     <div class=" form-check">
 
@@ -149,7 +149,7 @@ get_header();
                                 <!-- promotion_method_description -->
                                 <div class="my-4">
                                     <label for="promotion_method_description">Describe how will you promote our
-                                        product(s)? *</label>
+                                        product(s)? <span>*</span> </label>
                                     <textarea name="promotion_method_description" class="form-control"
                                               id="promotion_method_description" cols="30" rows="5" required></textarea>
                                     <div class="invalid-feedback">Please provide details to promote our product(s)</div>
