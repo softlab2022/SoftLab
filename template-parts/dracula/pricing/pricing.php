@@ -20,11 +20,6 @@ $pro_features = [
     'Include/Exclude Posts, Pages',
     'Custom CSS',
     'Draggable Floating Switch ',
-];
-
-$elite_features = [
-    
-    'All Pro Features',
     'Live Dark Mode Edit Widget',
     'Page Wise Dark Mode',
     'Custom Toggle Button Builder',
@@ -33,6 +28,18 @@ $elite_features = [
     'Usage Analytics & Email Report (Coming Soon)',
     'Dark Mode Page Transition Animation (coming soon)',
 ];
+
+// $elite_features = [
+    
+//     'All Pro Features',
+//     'Live Dark Mode Edit Widget',
+//     'Page Wise Dark Mode',
+//     'Custom Toggle Button Builder',
+//     '14+ Dark Mode Toggle Button Styles',
+//     'Dashboard Dark Mode for Specific User Roles',
+//     'Usage Analytics & Email Report (Coming Soon)',
+//     'Dark Mode Page Transition Animation (coming soon)',
+// ];
 
 
 ?>
@@ -128,7 +135,7 @@ $elite_features = [
                     <div class="row">
 
                         <!-- Basic -->
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-5 col-md-6 ms-auto">
                             <div class="price-table price-table__personal">
                                 <div class="pricing-head">
 
@@ -158,36 +165,36 @@ $elite_features = [
                         </div>
 
                         <!-- PROFESSIONAL -->
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-5 col-md-6 me-auto">
                             <div class="price-table price-table__professional">
                                 <div class="pricing-head">
-                                <span class="pricing-head-title">PROFESSIONAL</span>
-                                    <!-- <div class="pricing_head_professional d-flex justify-content-between align-items-center">
+                                <!-- <span class="pricing-head-title">PRO</span> -->
+                                    <div class="pricing_head_professional d-flex justify-content-between align-items-center">
                                         <span class="pricing-head-title">PRO</span>
                                         <h5>popular <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/fire.png" class="img-fluid"></h5>
-                                    </div> -->
+                                    </div>
 
                                     <div class="price-text annual professional license-1">
 
                                         <!-- Regular Price -->
                                         <div class="offer-price annual single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$50</p>
-                                                <span class="price-dis">70%OFF</span>
+                                                <p class="price-off">$19</p>
+                                                <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price annual five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$156</p>
-                                                <span class="price-dis">75%OFF</span>
+                                                <p class="price-off">$52</p>
+                                                <span class="price-dis">35%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price annual hundred">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$345</p>
-                                                <span class="price-dis">80%OFF</span>
+                                                <p class="price-off">$138</p>
+                                                <span class="price-dis">40%OFF</span>
                                             </div>
 
                                         </div>
@@ -195,35 +202,35 @@ $elite_features = [
                                         <!-- Sale Price -->
                                         <span class="price-value annual single">15</span>
                                         <span class="price-value annual five">39</span>
-                                        <span class="price-value annual hundred">69</span>
+                                        <span class="price-value annual hundred">99</span>
 
                                         <!-- Regular Price -->
                                         <div class="offer-price lifetime single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$156</p>
-                                                <span class="price-dis">75%OFF</span>
+                                                <p class="price-off">$54</p>
+                                                <span class="price-dis">40%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price lifetime five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$345</p>
-                                                <span class="price-dis">80%OFF</span>
+                                                <p class="price-off">$143</p>
+                                                <span class="price-dis">45%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price lifetime hundred">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$860</p>
-                                                <span class="price-dis">85%OFF</span>
+                                                <p class="price-off">$298</p>
+                                                <span class="price-dis">50%OFF</span>
                                             </div>
 
                                         </div>
 
                                         <!-- Sale Price -->
                                         <span class="price-value lifetime single">39</span>
-                                        <span class="price-value lifetime five">69</span>
-                                        <span class="price-value lifetime hundred">129</span>
+                                        <span class="price-value lifetime five">99</span>
+                                        <span class="price-value lifetime hundred">199</span>
 
                                         <span class="price-suffix annual">/ Year</span>
                                         <span class="price-suffix lifetime">/ Billed once</span>
@@ -244,7 +251,7 @@ $elite_features = [
                             </div>
                         </div>
 
-                        <!-- ELITE -->
+                        <!-- ELITE -
                         <div class="col-lg-4 col-md-6">
                             <div class="price-table price-table__elite">
                                 <div class="pricing-head">
@@ -255,7 +262,7 @@ $elite_features = [
 
                                     <div class="price-text annual elite license-1">
 
-                                        <!-- Regular Price -->
+                                        <!-- Regular Price 
                                         <div class="offer-price annual single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
                                                 <p class="price-off">$84</p>
@@ -278,13 +285,13 @@ $elite_features = [
 
                                         </div>
 
-                                        <!-- Sale Price -->
+                                        <!-- Sale Price 
                                         <span class="price-value annual single">25</span>
                                         <span class="price-value annual five">49</span>
                                         <span class="price-value annual hundred">99</span>
 
 
-                                        <!-- Regular Price -->
+                                        <!-- Regular Price 
                                         <div class="offer-price lifetime single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
                                                 <p class="price-off">$196</p>
@@ -307,7 +314,7 @@ $elite_features = [
 
                                         </div>
 
-                                        <!-- Sale Price -->
+                                        <!-- Sale Price 
                                         <span class="price-value lifetime single">49</span>
                                         <span class="price-value lifetime five">99</span>
                                         <span class="price-value lifetime hundred">199</span>
@@ -331,7 +338,7 @@ $elite_features = [
 
                                 <a href="#" class=" buy-btn buy-btn-elite">Purchase Now</a>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
 

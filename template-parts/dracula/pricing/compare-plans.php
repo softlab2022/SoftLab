@@ -28,6 +28,7 @@ $features = [
 
 	'toggle' => [
 		'title'       => 'Custom Toggle Button Builder',
+		'isPro'       => true,
 	],
     'toggle' => [
 		'title'       => 'Toggle Button Size Customization',
@@ -51,6 +52,7 @@ $features = [
 	],
     'specific' => [
 		'title'       => 'Dashboard Dark Mode for <br> Specific User Roles',
+		'isPro'       => true,
 	],
     'darkmode-animation' => [
 		'title'       => 'Dark mode Toggle Animation',
@@ -62,6 +64,7 @@ $features = [
 	],
     'page-wish' => [
 		'title'       => 'Page Wise Dark Mode',
+		'isPro'       => true,
 	],
     'custom-text-color' => [
 		'title'       => 'Custom Switch Text & Color',
@@ -77,6 +80,7 @@ $features = [
 	],
     'live-edit' => [
 		'title'       => 'Dark Mode Live Edit Mode',
+		'isPro'       => true,
 	],
     'color-adjust' => [
 		'title'       => 'Color Adjustment',
@@ -181,6 +185,7 @@ $features = [
 	],
     'email-report' => [
 		'title'       => 'Usage Analytics & Email Report',
+		'isPro'       => true,
 	],
     'works-all-devices' => [
 		'title'       => 'Works on all devices',
@@ -196,14 +201,14 @@ $features = [
         <div class="compare-main">
             <div class="row compare-header">
 
-                <div class="col-lg-3 col-md-3 compare-header-item">
+                <div class="col-lg-4 col-md-4 compare-header-item">
                     <div class="compare-item compare-heading">
                         <h5>Compare Plans</h5>
                         <p class="text-center">Feature List</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 compare-header-item">
+                <div class="col-lg-4 col-md-4 compare-header-item">
                     <div class="compare-item starter-item">
                         <div class="compare-item-title">
                             <h5>Basic Plan</h5>
@@ -214,10 +219,10 @@ $features = [
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 compare-header-item">
+                <div class="col-lg-4 col-md-4 compare-header-item">
                     <div class="compare-item professional-item">
                         <div class="compare-item-title">
-                            <h5>Professional Plan</h5>
+                            <h5>Pro Plan</h5>
                         </div>
                         <div class="compare-item-btn">
                             <a href="#" class=" buy-btn-pro">Purchase Now</a>
@@ -225,7 +230,7 @@ $features = [
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 compare-header-item">
+                <!-- <div class="col-lg-3 col-md-3 compare-header-item">
                     <div class="compare-item elite-item">
                         <div class="compare-item-title">
                             <h5>Elite Plan</h5>
@@ -234,7 +239,7 @@ $features = [
                             <a href="#" class=" buy-btn-elite">Purchase Now</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
 
@@ -243,27 +248,27 @@ $features = [
             foreach ( $features as $key => $feature ) {
                 ?>
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-md-6">
+                    <div class="col-lg-4 col-sm-6 col-md-6">
                         <div class="item-content d-flex justify-content-start align-items-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri() .'/assets/images/dracula/home/compare/'.$key.'.png'; ?>" >
                             <h5><?php echo $feature['title']; ?></h5>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-md-2">
+                    <div class="col-lg-4 col-sm-6 col-md-3">
                         <div class="item text-center">
                             <?php echo !empty( $feature['isFree'] )  ? '<i class="fa fa-check"></i>' : '<i class="fa fa-xmark"></i>'; ?>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-md-2">
-                        <div class="item text-center">
+                    <div class="col-lg-4 col-sm-6 col-md-3">
+                        <div class="item item-pro text-center">
 	                        <?php echo !empty( $feature['isPro'] ) || !empty( $feature['isFree'] ) ? '<i class="fa fa-check"></i>' : '<i class="fa fa-xmark"></i>'; ?>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 col-md-2">
+                    <!-- <div class="col-lg-3 col-sm-6 col-md-2">
                         <div class="items text-center">
                             <i class="fa-solid fa-check"></i>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <?php
             }
@@ -273,14 +278,14 @@ $features = [
 
             <div class="row compare-footer">
 
-                <div class="col-lg-3 col-md-3 compare-footer-item">
+                <div class="col-lg-4 col-md-4 compare-footer-item">
                     <div class="compare-item compare-heading">
                         <h5>Let’s Get Started</h5>
                         <p>It’s time to use our dark mode solutions</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 compare-footer-item">
+                <div class="col-lg-4 col-md-4 compare-footer-item">
                     <div class="compare-item starter-item">
                         <div class="compare-item-btn">
                             <a href="https://wordpress.org/plugins/dracula-dark-mode/">Download Now</a>
@@ -288,7 +293,7 @@ $features = [
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 compare-footer-item">
+                <div class="col-lg-4 col-md-4 compare-footer-item">
                     <div class="professional-item compare-item">
                         <div class="compare-item-btn">
                             <a href="#" class=" buy-btn-pro">Purchase Now</a>
@@ -296,13 +301,13 @@ $features = [
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 compare-footer-item">
+                <!-- <div class="col-lg-3 col-md-3 compare-footer-item">
                     <div class="elite-item compare-item">
                         <div class="compare-item-btn">
                             <a href="#" class=" buy-btn-elite">Purchase Now</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
