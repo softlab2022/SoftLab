@@ -20,18 +20,18 @@
 
 	require_once(dirname(__FILE__) . '/FreemiusBase.php');
 
-	define('FS_SDK__USER_AGENT', 'fs-php-' . Freemius_Api_Base::VERSION);
+	define('SOFTLAB_FS_SDK__USER_AGENT', 'fs-php-' . Softlab_Freemius_Api_Base::VERSION);
 
 	$curl_version = curl_version();
 
-	define('FS_API__PROTOCOL', version_compare($curl_version['version'], '7.37', '>=') ? 'https' : 'http');
+	define('SOFTLAB_FS_API__PROTOCOL', version_compare($curl_version['version'], '7.37', '>=') ? 'https' : 'http');
 
-	if (!defined('FS_API__ADDRESS'))
-		define('FS_API__ADDRESS', FS_API__PROTOCOL . '://api.freemius.com');
-	if (!defined('FS_API__SANDBOX_ADDRESS'))
-		define('FS_API__SANDBOX_ADDRESS', FS_API__PROTOCOL . '://sandbox-api.freemius.com');
+	if (!defined('SOFTLAB_FS_API__ADDRESS'))
+		define('SOFTLAB_FS_API__ADDRESS', SOFTLAB_FS_API__PROTOCOL . '://api.freemius.com');
+	if (!defined('SOFTLAB_FS_API__SANDBOX_ADDRESS'))
+		define('SOFTLAB_FS_API__SANDBOX_ADDRESS', SOFTLAB_FS_API__PROTOCOL . '://sandbox-api.freemius.com');
 
-	class Freemius_Api extends Freemius_Api_Base
+	class Softlab_Freemius_Api extends Softlab_Freemius_Api_Base
 	{
 		/**
 		 * Default options for curl.
@@ -40,7 +40,7 @@
 			CURLOPT_CONNECTTIMEOUT => 10,
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_TIMEOUT        => 60,
-			CURLOPT_USERAGENT      => FS_SDK__USER_AGENT,
+			CURLOPT_USERAGENT      => SOFTLAB_FS_SDK__USER_AGENT,
 			CURLOPT_HTTPHEADER     => array(
 				'Content-Type: application/json',
 			)
@@ -60,7 +60,7 @@
 
 		public function GetUrl($pCanonizedPath = '')
 		{
-			return ($this->_sandbox ? FS_API__SANDBOX_ADDRESS : FS_API__ADDRESS) . $pCanonizedPath;
+			return ($this->_sandbox ? SOFTLAB_FS_API__SANDBOX_ADDRESS : SOFTLAB_FS_API__ADDRESS) . $pCanonizedPath;
 		}
 
 		/**

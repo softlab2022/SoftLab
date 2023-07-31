@@ -329,7 +329,6 @@ import "./components/sticky-banner";
             $("#submit").find(".fa-spinner").removeClass("d-none");
           },
           success: (data) => {
-            //console.log(data);
             $("#affiliate-register-form").hide();
 
             $(".message").show();
