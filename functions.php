@@ -523,13 +523,13 @@ function softlab_affiliate_register_backend_action() {
 	define( 'FS__API_PUBLIC_KEY', 'pk_a98c8f6df1cb2964b726c7ac7686e' );
 	define( 'FS__API_SECRET_KEY', 'sk_#_FrNZ[vglb%c^1=MG{<r=cut&pt<' );
 
-	if ( ! class_exists( 'Freemius_Api' ) ) {
-		include_once get_theme_file_path( 'freemius-api/FreemiusBase.php' );
+	if ( ! class_exists( 'Softlab_Freemius_Api' ) ) {
 		include_once get_theme_file_path( 'freemius-api/Freemius.php' );
+		include_once get_theme_file_path( 'freemius-api/FreemiusBase.php' );
 	}
 
 	// Init SDK.
-	$api = new Freemius_Api( FS__API_SCOPE, FS__API_DEV_ID, FS__API_PUBLIC_KEY, FS__API_SECRET_KEY );
+	$api = new Softlab_Freemius_Api( FS__API_SCOPE, FS__API_DEV_ID, FS__API_PUBLIC_KEY, FS__API_SECRET_KEY );
 
 
 	if ( empty( $products ) ) {

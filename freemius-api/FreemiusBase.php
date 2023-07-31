@@ -15,9 +15,9 @@
 	 * under the License.
 	 */
 
-	define('FS_API__VERSION', '1');
-	define('FS_SDK__PATH', dirname(__FILE__));
-	define('FS_SDK__EXCEPTIONS_PATH', FS_SDK__PATH . '/Exceptions/');
+	define('SOFTLAB_FS_API__VERSION', '1');
+	define('SOFTLAB_FS_SDK__PATH', dirname(__FILE__));
+	define('SOFTLAB_FS_SDK__EXCEPTIONS_PATH', SOFTLAB_FS_SDK__PATH . '/Exceptions/');
 
 	if (!function_exists('json_decode'))
 		throw new Exception('Freemius needs the JSON PHP extension.');
@@ -34,11 +34,11 @@
 	foreach ($exceptions as $e)
 
 	if(!class_exists('Freemius_'.$e)){
-		require_once FS_SDK__EXCEPTIONS_PATH . $e . '.php';
+		require_once SOFTLAB_FS_SDK__EXCEPTIONS_PATH . $e . '.php';
 	}
 	
 
-	abstract class Freemius_Api_Base
+	abstract class Softlab_Freemius_Api_Base
 	{
 		const VERSION = '1.0.3';
 		const FORMAT = 'json';
@@ -107,7 +107,7 @@
 					throw new Freemius_Exception('Scope not implemented.');
 			}
 
-			return '/v' . FS_API__VERSION . $base .
+			return '/v' . SOFTLAB_FS_API__VERSION . $base .
 			       (!empty($pPath) ? '/' : '') . $pPath .
 			       ((false === strpos($pPath, '.')) ? '.' . self::FORMAT : '') . $query;
 		}
@@ -147,7 +147,7 @@
 		 */
 		public function Test()
 		{
-			$pong = $this->_Api('/v' . FS_API__VERSION . '/ping.json');
+			$pong = $this->_Api('/v' . SOFTLAB_FS_API__VERSION . '/ping.json');
 
 			return (is_object($pong) && isset($pong->api) && 'pong' === $pong->api);
 		}
@@ -161,7 +161,7 @@
 		public function FindClockDiff()
 		{
 			$time = time();
-			$pong = $this->_Api('/v' . FS_API__VERSION . '/ping.json');
+			$pong = $this->_Api('/v' . SOFTLAB_FS_API__VERSION . '/ping.json');
 			return ($time - strtotime($pong->timestamp));
 		}
 
