@@ -54,7 +54,7 @@ $tabs = [
                             <?php } ?>
                         </div>
 
-                        <div class="col-md-10 ps-5">
+                        <div class="col-md-9 content-form-tab">
 
                             <div class="contact-form-wrap form-pre-sales active">
                                 <?php echo do_shortcode('[fluentform id="3"]'); ?>
@@ -78,7 +78,7 @@ $tabs = [
 <section id="contact-details" class="contact-details">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-sm-6 f-img2 m-auto">
+            <div class="col-lg-7  col-sm-6 f-img2 m-auto">
                 <div class="contact-frame-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="Illustration">
                 </div>

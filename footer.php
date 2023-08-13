@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="footer-contant">
-                    <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth.</p>
+                    <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth</p>
                 </div>
 
                 <div class="footer-social">
@@ -108,7 +108,7 @@
                 </div>
 
                 <div class="news-letter-form">
-                    <p>Stay up to date with all the recent news, updates and great discounts.</p>
+                    <p>Stay up to date with all the recent news, updates and great discounts</p>
 
 
 					<?php echo do_shortcode( '[fluentform id="4"]' ); ?>
@@ -127,10 +127,10 @@
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
 
-            <div class="col-md-12 d-flex align-items-center justify-content-between flex-column flex-md-row">
+            <div class="col-md-12 d-flex align-items-center justify-content-center flex-column flex-md-row">
                 <p>© <?php echo date( 'Y' ); ?> SoftLab. All rights reserved.</p>
 
-                <div class="footer-menu-bottom">
+                <!-- <div class="footer-menu-bottom">
 					<?php
 					wp_nav_menu(
 						array(
@@ -143,7 +143,8 @@
 					);
 					?>
 
-                </div>
+                </div> -->
+
             </div>
         </div>
 

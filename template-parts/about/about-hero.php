@@ -6,7 +6,8 @@
                     <h1>Who <span>We Are</span></h1>
                     <p>
                         A team is like a family, you work together day-in and day-out to touch the lives and businesses of others. For this, you need a common understanding and values. 
-                        We like to provide Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Big Thing in Your Website.
+                        We like to provide Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Big Thing in Your Website
+
                         <i class="fa-solid fa-feather-pointed"></i>
                     </p>
                 </div>

@@ -1,7 +1,7 @@
 <section class="radio-player-hero-area">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 text-center text-lg-start m-auto">
+            <div class="col-lg-6 col-md-6 text-center text-lg-start m-auto">
                 <div class="hero-content">
 
                     <div class="hero-header">
@@ -24,7 +24,7 @@
                     <a href="/radio-player-pricing" class="btn get">Get Started</a>
                 </div>
             </div>
-            <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="col-lg-6 col-md-6 mt-5 mt-lg-0">
                 <div class="radio-header-bg text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
                 </div>

@@ -16,6 +16,10 @@
       margin-bottom: 1.5rem;
       font-weight: 600;
     }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
 
     .view-products-btn {
       // margin-top: 1.5rem;
@@ -56,17 +60,17 @@
 
   @media (min-width: 768px) and (max-width: 991.98px) {
     //Tablet
-    padding: 160px 0 0px 0;
+    padding: 110px 0 0px 0;
 
     .hero-content {
-
+      margin-bottom: 40px;
       h1 {
         font-size: 2rem;
-        padding-top: 30px;
       }
 
       p {
-        font-size: .785rem;
+        font-size: .9rem;
+        margin-bottom: 30px;
       }
     }
   }
@@ -342,6 +346,7 @@
       margin-bottom: 20px;
       .products-icon {
         padding-top: 1rem;
+        width: auto;
       }
       .product-title {
         font-size: 1.4rem;
@@ -787,7 +792,7 @@
       border-radius: 50px;
       text-align: center;
       color: #000;
-      z-index: 9999;
+      z-index: 1;
       box-shadow: 16px 26px 68px rgba(142, 170, 249, 0.3);
       cursor: pointer;
     }

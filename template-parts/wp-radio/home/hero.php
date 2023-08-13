@@ -17,7 +17,7 @@
                     <p>
                         WP Radio is a worldwide online radio stations directory plugin for WordPress. You can easily create a full-featured online radio directory website with the WP Radio plugin.
                     </p>
-                    <a href="#" class="get">Get Started</a>
+                    <a href="/wp-radio-pricing/" class="get">Get Started</a>
                     <a href="#" class="get1"><i class="fa-solid fa-play"></i> How it’s Work</a>
                 </div>
             </div>

@@ -164,6 +164,9 @@
 
         }
 
+
+        @media (min-width: 768px) and (max-width: 991.98px) {}
+
         @media (max-width: 767.98px) {
           .nav-item {
 
@@ -203,6 +206,24 @@
 
     }
 
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .brand-softlab {
+        padding-right: 2px !important;
+        margin-right: 6px;
+
+        img {
+          width: 30px;
+          height: auto !important;
+        }
+      }
+
+      .brand-reader-mode {
+        img {
+          width: 150px;
+        }
+      }
+    }
+
     .navbar-brand {
       padding: 0;
 
@@ -230,8 +251,8 @@
             height: 30px;
           }
 
-          margin-right: 10px;
-          padding-right: 7px;
+          margin-right: 4px;
+          padding-right: 1px;
         }
 
         &.brand-reader-mode {
@@ -573,6 +594,9 @@
 
         .view-products-btn {
           margin-left: 0;
+          margin-left: auto;
+          margin-right: auto;
+          width: max-content;
         }
 
 
@@ -995,6 +1019,7 @@
     .banner-close {
       right: 14px;
     }
+
     .summer {
       img {
         width: 170px;
@@ -1030,6 +1055,7 @@
       a {
         padding: 5px;
         font-size: .7rem;
+
         i {
           display: none;
         }

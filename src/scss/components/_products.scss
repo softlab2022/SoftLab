@@ -13,6 +13,8 @@
       font-size: 1rem;
       color: $p_color;
       padding: 1rem 5rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
   }
 
@@ -177,6 +179,7 @@
   @media (min-width: 992px) and (max-width: 1199px) {}
 
   @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 3rem 0 0 0;
     .product-content {
       .product-name {
         h3 {
@@ -191,6 +194,9 @@
       .product-description {
         font-size: .8rem;
       }
+    }
+    &:last-child {
+      padding-bottom: 3rem;
     }
   }
 

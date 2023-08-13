@@ -38,7 +38,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
 
-    
+
     <div id="wrapper">
 
 
@@ -51,29 +51,29 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                                                     endif;
                                                                     if (is_home() || is_front_page()) : echo ' home';
                                                                     endif; ?>">
+                        <div class="navbar-navs">
+                            <a class="navbar-brand brand-softlab" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
 
-                        <a class="navbar-brand brand-softlab" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo">
+                            </a>
 
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo">
-                        </a>
-
-                        <a class="navbar-brand brand-integrate-google-drive" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive">
-                        </a>
-
+                            <a class="navbar-brand brand-integrate-google-drive" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive">
+                            </a>
+                        </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'softlab'); ?>">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
-                        <?php if ( wp_is_mobile() ) { ?>
-                            <span class="mobile-close-btn d-flex justify-content-between align-items-center">
-                                <a class="navbar-brand brand-integrate-google-drive logo-btn" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/new-logo/integrate-google-drive-withe-logo.png" alt="Integrate Google Drive">
-                                </a>
+                            <?php if (wp_is_mobile()) { ?>
+                                <span class="mobile-close-btn d-flex justify-content-between align-items-center">
+                                    <a class="navbar-brand brand-integrate-google-drive logo-btn" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/new-logo/integrate-google-drive-withe-logo.png" alt="Integrate Google Drive">
+                                    </a>
 
-                                <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
-                            </span>
+                                    <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                                </span>
                             <?php } ?>
                             <?php
                             wp_nav_menu(

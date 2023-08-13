@@ -493,31 +493,31 @@
             <!-- Multiple Toggle Buttons area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
+                    <div class="item-content item-dark-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/toggle.png" alt="" class="img-fluid">
                         <h5>Multiple Toggle Buttons</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes(2 Free & 14+ Pro)</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes(3 Free & 16+ Pro)</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes(2 Free & 5+ Pro)</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
+                    <div class="items item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes(2 Free & 3+ Pro)</span>
                     </div>  
@@ -865,32 +865,32 @@
             <!-- Dark Mode Color Presets area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <div class="item-content d-flex justify-content-start align-items-center">
+                    <div class="item-content item-dark-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/presets.png" alt="" class="img-fluid">
                         <h5>Dark Mode Color Presets</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                     
                     <i class="fa-solid fa-check"></i>
                     <span>Yes (2 Free & 8 PRO)</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes (2 Free & 11 PRO)</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="item dark-item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
                     </div>  
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
+                    <div class="items item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes (2 Free & 7 PRO)</span>
                     </div>  
@@ -1733,6 +1733,7 @@
                             <span class="head">Lifetime</span>
                             <p>Pro Lifetime ($39)</p>
                             <p>Ultimate Lifetime ($199)</p>
+                            <p></p>
                             <p class="last"> </p>
                         </div>
                     </div>
@@ -1749,7 +1750,7 @@
                             <span class="head">Lifetime</span>
                             <p>Pro Lifetime ($124.75)</p>
                             <p>Ultimate Lifetime ($206.77)</p>
-                            <p class="last"> </p>
+                            <p class="lst"> </p>
                         </div>
                     </div>
                 </div>

@@ -3158,4 +3158,22 @@
     }
 
   }
+  @media (max-width: 767px) {
+
+
+    
+  #faq {
+    
+    .accordion-button {
+      padding: 1rem;
+      font-size: 1rem;
+      padding-right: 33px;
+      i {
+        right: 10px;
+      }
+    }
+  }
+
+}
+
 }

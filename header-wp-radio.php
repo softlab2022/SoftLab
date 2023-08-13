@@ -71,7 +71,7 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
 
     <!-- Sticky Notification -->
-    
+
 
     <div id="wrapper">
 
@@ -80,22 +80,23 @@ $pricing_link = $is_addon ? '#pricing' : '/wp-radio-pricing';
             <div class="container">
                 <div class="row align-items-center">
                     <nav class="navbar navbar-expand-md primary-nav">
+                        <div class="navbar-navs">
+                            <a class="navbar-brand brand-softlab" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
 
-                        <a class="navbar-brand brand-softlab" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo">
+                            </a>
 
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo">
-                        </a>
-
-                        <a class="navbar-brand brand-wp-radio" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
-                            <img class="img-fluid" src="<?php echo $logo; ?>" alt="<?php echo $title; ?>">
-                        </a>
+                            <a class="navbar-brand brand-wp-radio" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
+                                <img class="img-fluid" src="<?php echo $logo; ?>" alt="<?php echo $title; ?>">
+                            </a>
+                        </div>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'softlab'); ?>">
                             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
                         </button>
 
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
-                            <?php if ( wp_is_mobile() ) { ?>
+                            <?php if (wp_is_mobile()) { ?>
                                 <span class="mobile-close-btn d-flex justify-content-between align-items-center">
                                     <a class="navbar-brand brand-wp-radio logo-btn" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
                                         <img class="img-fluid" src="<?php echo $logo_withe; ?>" alt="<?php echo $title; ?>">

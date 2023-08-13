@@ -3,12 +3,12 @@
 
         <!---=== HTTP Stream Player====-->
         <div class="feature-wrap row align-items-center ">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
 
@@ -43,7 +43,7 @@
 
         <!---=== Full Sticky Player====-->
         <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
 
@@ -71,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
                 </div>
@@ -80,12 +80,12 @@
 
         <!---=== Popup Player====-->
         <div class="feature-wrap row align-items-center ">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="Popup Player">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
 
@@ -119,7 +119,7 @@
 
         <!---==== Stations Playlist ====-->
         <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
                         <div class="feature-header">
@@ -143,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
                 </div>
@@ -152,12 +152,12 @@
 
         <!---==== Multiple Player Skins ====-->
         <div class="feature-wrap row align-items-center">
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 col-md-6 ">
                 <div class="feature-item-img ">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/multipule-img.png" alt="Multiple Skins">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
                         <div class="feature-header">
@@ -186,7 +186,7 @@
 
         <!---==== Embed Code ====-->
         <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
 
@@ -209,7 +209,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 col-md-6 ">
                 <div class="feature-item-img embed-code">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png" alt="Embed Code">
                 </div>

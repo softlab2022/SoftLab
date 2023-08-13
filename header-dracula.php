@@ -39,7 +39,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
 
 
-  
+
 
     <div id="wrapper">
 
@@ -53,16 +53,16 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                                                                     endif;
                                                                                     if (is_home() || is_front_page()) : echo ' home';
                                                                                     endif; ?>">
+                        <div class="navbar-navs">
+                            <a class="navbar-brand brand-softlab" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
 
-                        <a class="navbar-brand brand-softlab" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/white-site-icon.png" alt="white-site-icon">
+                            </a>
 
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/white-site-icon.png" alt="white-site-icon">
-                        </a>
-
-                        <a class="navbar-brand brand-dracula" href="/dracula-dark-mode" title="Dracula Dark Mode" rel="home">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/dracula-main-icon.png" alt="Dracula Dark Mode">
-                        </a>
-
+                            <a class="navbar-brand brand-dracula" href="/dracula-dark-mode" title="Dracula Dark Mode" rel="home">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/dracula-main-icon.png" alt="Dracula Dark Mode">
+                            </a>
+                        </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'softlab'); ?>">
                             <span class="navbar-toggler-icon"></span>
                         </button>

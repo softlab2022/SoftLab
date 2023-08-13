@@ -267,7 +267,7 @@ $products = [
                 <div class="col-lg-7 m-auto">
                     <div class="header-content text-center">
                         <h2>Empower your business with our next level solutions.</h2>
-                        <p>Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Champion!.</p>
+                        <p>Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Champion!</p>
                     </div>
                 </div>
             </div>

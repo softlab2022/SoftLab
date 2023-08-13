@@ -23,6 +23,7 @@ body.page-template-contact-us {
     border-radius: 10px;
     padding: 1rem 12px;
     margin-bottom: 20px;
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -55,6 +56,9 @@ body.page-template-contact-us {
       span {
         color: #fff;
       }
+    }
+    &:last-child {
+      margin-right: 0;
     }
   }
 
@@ -129,11 +133,17 @@ body.page-template-contact-us {
 
   }
 
+  .content-form-tab {
+    padding-left: 3rem;
+  }
+
   @media (max-width: 767px) {
     .form-tabs {
       display: flex;
     }
-
+.content-form-tab {
+  padding-left: 0;
+}
     .contact-main {
       padding: 20px;
     }
