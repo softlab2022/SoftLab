@@ -127,11 +127,7 @@ $tabs = [
                 </div>
             </div>
 
-            <div class="col-lg-7 col-sm-6 f-img1 m-auto">
-                <div class="contact-frame-img">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="contact-frame">
-                </div>
-            </div>
+          
 
         </div>
     </div>

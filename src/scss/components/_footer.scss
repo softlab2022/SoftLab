@@ -291,6 +291,12 @@
         padding-right: 0;
       }
     }
+    .footer-menu-products {
+      a {
+        display: flex;
+        align-items: center;
+      }
+    }
   }
 
 }
