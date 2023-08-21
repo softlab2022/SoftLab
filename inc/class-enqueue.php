@@ -38,9 +38,9 @@ class SoftLa {
 		} else if ( in_array( $file_name, [
 			'radio-player',
 			'radio-player-pricing',
-			'radio-player-http-player',
 			'radio-player-multiple-player-skins',
 			'radio-player-ads',
+			'radio-player-check-http-stream',
 			'radio-player-http-stream-player',
 
 		] ) ) {
