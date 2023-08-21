@@ -110,7 +110,7 @@ if ( $page_template ) {
 						?>
 
                         <a class="nav-link btn text-white view-products-btn" href="/account/"><i
-                                    class="fa-sharp fa-solid fa-user"></i> My account</a>
+                                    class="fa-sharp fa-solid fa-user"></i> CUSTOMER AREA</a>
 
                     </div><!-- /.navbar-collapse -->
 

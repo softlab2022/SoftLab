@@ -41,6 +41,8 @@ class SoftLa {
 			'radio-player-http-player',
 			'radio-player-multiple-player-skins',
 			'radio-player-ads',
+			'radio-player-http-stream-player',
+
 		] ) ) {
 
 			wp_enqueue_style( 'radio-player-main', get_theme_file_uri( 'assets/css/radio-player-main.css' ), array(), $theme_version, 'all' );
@@ -88,7 +90,7 @@ class SoftLa {
 			'wp-radio-image-import',
 		] ) ) {
 			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
-			wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
+			// wp_enqueue_style( 'wp-radio-main', get_theme_file_uri( 'assets/css/wp-radio-main.css' ), array(), $theme_version, 'all' );
 
 		} else {
 			wp_enqueue_style( 'main', get_theme_file_uri( 'assets/css/main.css' ), array(), $theme_version, 'all' );
@@ -146,7 +148,8 @@ class SoftLa {
 			'wp-radio-ads-player',
 			'dracula-pricing',
 			'radio-player-ads',
-			'integrate-dropbox-pricing'
+			'integrate-dropbox-pricing',
+			'radio-player-http-stream-player'
 		] );
 
 		if ( $is_pricing_page ) {

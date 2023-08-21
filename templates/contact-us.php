@@ -13,10 +13,10 @@ $tabs = [
         'title' => 'Pre-Sales',
         'icon'  => 'fa-solid fa-cart-shopping',
     ],
-    'technical-support' => [
-        'title' => 'Technical Support',
-        'icon'  => 'fa-solid fa-headset',
-    ],
+    // 'technical-support' => [
+    //     'title' => 'Technical Support',
+    //     'icon'  => 'fa-solid fa-headset',
+    // ],
     'others'            => [
         'title' => 'Others',
         'icon'  => 'fa-solid fa-question-circle',
@@ -41,20 +41,20 @@ $tabs = [
 <section id="contact" class="contact-form">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 me-auto">
+            <div class="col-md-8">
                 <div class="contact-main">
                     <div class="row">
+                        <?php foreach ($tabs as $key => $tab) { ?>
+                            <div class="col-6 col-lg-3 col-md-5">
 
-                        <div class="col-lg-2 form-tabs col-md-3 me-auto">
-                            <?php foreach ($tabs as $key => $tab) { ?>
                                 <div class="tab-item text-center <?php echo $key == 'pre-sales' ? 'active' : ''; ?>" data-target="<?php echo $key; ?>">
                                     <i class="<?php echo $tab['icon']; ?>"></i>
                                     <span><?php echo $tab['title']; ?></span>
                                 </div>
-                            <?php } ?>
-                        </div>
 
-                        <div class="col-md-9 content-form-tab">
+                            </div>
+                        <?php } ?>
+                        <div class="col-md-12 content-form-tab">
 
                             <div class="contact-form-wrap form-pre-sales active">
                                 <?php echo do_shortcode('[fluentform id="3"]'); ?>
@@ -69,6 +69,38 @@ $tabs = [
 
                     </div>
                 </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="contact-sidebar text-center">
+                    <h4>I have a Technical Question</h4>
+                    <a href="/support/" class="support-btn">Submit a Ticket</a>
+                </div>
+
+                <!-- Products -->
+                <div class="sidebar-products-list">
+                    <h4>Our Products</h4>
+                    <?php
+                    $products = [
+                        'integrate-google-drive' => 'Integrate Google Drive',
+                        'radio-player'           => 'Radio Player',
+                        'wp-radio'               => 'WP Radio',
+                        'dracula-dark-mode'            => 'Dracula Dark Mode',
+                        'reader-mode'            => 'Reader Mode',
+                    ];
+                    ?>
+
+                    <div class="contact-menu-products">
+                        <?php foreach ($products as $key => $title) { ?>
+                            <a href="/<?php echo $key; ?>" class="product-<?php echo $key; ?>">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/products/<?php echo $key; ?>.png" alt="<?php echo $title; ?>">
+                                <span><?php echo $title; ?></span>
+                            </a>
+                        <?php } ?>
+                    </div>
+
+                </div>
+
 
             </div>
         </div>
@@ -127,7 +159,7 @@ $tabs = [
                 </div>
             </div>
 
-          
+
 
         </div>
     </div>

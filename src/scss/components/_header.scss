@@ -841,6 +841,21 @@
   }
 }
 
+.page-template-templatesradio-player-http-stream-player-php {
+  .brand-radio-player {
+    img {
+      width: 249px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .brand-radio-player {
+      img {
+        width: 200px;
+      }
+    }
+  }
+}
+
 /**---------- sticky-banner ----------**/
 
 @media (min-width: 992px) {

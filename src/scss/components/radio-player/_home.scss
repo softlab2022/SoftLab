@@ -60,7 +60,7 @@
       color: #fff;
       background: #01AA47;
       border: 1px solid #01AA47;
-      
+
       border-radius: 8px;
       transition: all linear .4s;
 
@@ -98,6 +98,7 @@
 
     .hero-content {
       text-align: left;
+
       h2 {
         font-size: 2rem;
       }
@@ -105,6 +106,7 @@
       p {
         padding-right: 0;
       }
+
       a {
         padding: 10px 15px;
       }
@@ -113,6 +115,7 @@
 
   @media (max-width: 767.98px) {
     padding: 100px 0;
+
     .hero-content {
       h2 {
         font-size: 2rem;
@@ -121,15 +124,18 @@
       p {
         padding-right: 0;
       }
+
       a {
         padding: 10px 15px;
         margin: 0;
       }
+
       .radio-header-bg-mobile {
         display: block;
         margin-bottom: 30px;
       }
     }
+
     .radio-header-bg {
       display: none;
     }
@@ -370,13 +376,15 @@
     .feature-item-img {
       text-align: center;
       margin-bottom: 90px;
-  
+
     }
+
     .embed-code {
       img {
-        margin-bottom: 0!important;
+        margin-bottom: 0 !important;
       }
     }
+
     .feature-item {
       text-align: center;
 
@@ -392,6 +400,7 @@
         .section-head {
           font-size: 1.5rem;
         }
+
         span {
           font-size: 1.5rem;
         }
@@ -562,8 +571,10 @@
         font-size: .785rem;
       }
     }
+
     .ex-feature-item {
       height: auto;
+
       .item-text {
         p {
           padding: 0 3px;
@@ -617,15 +628,17 @@
       h1 {
         font-size: 1.5rem;
       }
+
       p {
         font-size: .8rem;
       }
     }
+
     .item-img {
-      
-        width: 160px;
-        margin: 0 5px;
-      
+
+      width: 160px;
+      margin: 0 5px;
+
     }
   }
 }
@@ -999,27 +1012,33 @@
 
   @media (max-width: 767.98px) {
     padding: 0px 0 60px 0;
+
     .funfact-head {
       h2 {
         font-size: 1.5rem;
       }
     }
+
     .fun-item {
       margin-bottom: 10px;
+
       img {
         margin-right: 7px;
         width: 31px;
         height: auto;
       }
+
       .contant {
         .te-count {
           span {
             font-size: 1.1rem;
           }
+
           h5 {
             font-size: 1.1rem;
           }
         }
+
         h6 {
           font-size: .8rem;
         }
@@ -1028,6 +1047,75 @@
   }
 
 }
+
+
+/**-----addon css area------**/
+#radio-addon {
+  padding: 100px 0;
+
+  .section-head {
+    h5 {
+      color: #4353FF;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 120%;
+    }
+
+    h2 {
+      font-size: 32px;
+      color: $h1_color;
+      font-weight: 700;
+      line-height: 120%;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $p_color;
+    }
+  }
+
+  .addons-item {
+    border-radius: 20px;
+    background: #E1F6FE;
+    padding: 60px 40px;
+
+    .addons-img {
+      img {
+        padding-right: 15px;
+      }
+    }
+
+    .addons-content {
+      h3 {
+        font-size: 24px;
+        color: $h1_color;
+        font-weight: 700;
+        line-height: 120%;
+      }
+
+      p {
+        font-size: 20px;
+        color: $p_color;
+        font-weight: 400;
+        line-height: 150%;
+      }
+
+      h6 {
+        color: var(--light-blue, #4353FF);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%;
+      }
+    }
+  }
+
+  .radio-player-ads-item {
+    background: #FFE8E7;
+  }
+}
+
 
 /**---------- cta area scss ----------**/
 #cta {
@@ -1099,6 +1187,7 @@
     }
 
   }
+
   @media (max-width: 767.98px) {
     padding: 50px 0;
 
@@ -1107,11 +1196,14 @@
         font-size: 1.5rem;
       }
     }
+
     .cta-actions {
       margin-top: 20px;
+
       a {
         padding: 10px 15px;
       }
+
       .bt1 {
         margin-left: 2px;
       }

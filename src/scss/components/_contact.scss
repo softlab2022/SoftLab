@@ -8,7 +8,7 @@ body.page-template-contact-us {
 
 .contact-form {
   position: relative;
-  top: -120px;
+  top: -60px;
 
   .contact-main {
     background-color: #fff;
@@ -16,6 +16,10 @@ body.page-template-contact-us {
     padding: 45px;
     // box-shadow: 10px 10px 50px 10px rgba(128, 128, 128, 0.396);
     box-shadow: (6px 6px 14px rgba(142, 170, 249, 0.4));
+
+    .form-tabs {
+      display: flex;
+    }
   }
 
   .tab-item {
@@ -27,7 +31,8 @@ body.page-template-contact-us {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    // transition: all linear .4s;
 
     i {
       font-size: 25px;
@@ -43,12 +48,14 @@ body.page-template-contact-us {
       padding-top: 15px;
 
     }
+    
 
     &:hover,
     &.active {
       background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
       box-shadow: (6px 6px 14px rgba(142, 170, 249, 0.4));
-
+      // transition: all linear .4s;
+      transition: all 0.5s ease-in-out;
       i {
         color: #fff;
       }
@@ -57,6 +64,7 @@ body.page-template-contact-us {
         color: #fff;
       }
     }
+
     &:last-child {
       margin-right: 0;
     }
@@ -133,17 +141,175 @@ body.page-template-contact-us {
 
   }
 
-  .content-form-tab {
-    padding-left: 3rem;
+  .contact-sidebar {
+    // background: #EDF4FE;
+    background: url("../images/contact/technical-support1.png") #F9FAFF no-repeat bottom center;
+    padding-bottom: 150px;
+    padding-top: 60px;
+    border-radius: 20px;
+    background-size: contain;
+
+    h4 {
+      color: #5C637E;
+      font-size: 1.8rem;
+      line-height: 120%;
+      font-weight: 700;
+      padding-bottom: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .support-btn {
+      background: linear-gradient(to right, #7788FF, #6E6DFF);
+      padding: 0.5rem 1rem;
+      color: #fff;
+      font-size: .9rem;
+      font-weight: 500;
+      border-radius: 11px;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        background: #fff;
+        color: #738CF6;
+        box-shadow: (6px 6px 14px rgba(142, 170, 249, 0.4));
+        transition: all 0.5s ease-in-out;
+      }
+
+    }
+  }
+
+  .sidebar-products-list {
+    background: #F9FAFF;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    h4 {
+      color: #5C637E;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 120%;
+      padding-bottom: 30px;
+      padding-top: 10px;
+    }
+
+    .contact-menu-products {
+
+      a {
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: #5c637e;
+        margin-top: 1rem;
+
+        &.product-integrate-google-drive:hover {
+          color: $igd_color;
+        }
+
+        &.product-radio-player:hover {
+          color: $radio_player_color;
+        }
+
+        &.product-wp-radio:hover {
+          color: $wp_radio_color;
+        }
+
+        &.product-reader-mode:hover {
+          color: #574DCC;
+        }
+
+        &.product-dracula-dark-mode:hover {
+          color: #574DCC;
+        }
+
+      }
+
+      img {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // .col-lg-4 {
+  //   padding-left: 0;
+  //   padding-right: 0;
+
+  // }
+
+  // .content-form-tab {
+  //   padding-left: 3rem;
+  // }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-main {
+      padding: 30px;
+    }
+
+    .sidebar-products-list {
+      .contact-menu-products {
+
+        a {
+          font-size: 1.2rem;
+          display: flex;
+          align-items: center;
+        }
+
+        img {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .contact-main {
+      padding: 20px;
+    }
+
+    .contact-sidebar {
+      padding-bottom: 64px;
+
+      h4 {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 1.4rem;
+      }
+    }
+
+    .sidebar-products-list {
+      padding: 20px;
+      h4 {
+        font-size: 1.7rem;
+      }
+
+      .contact-menu-products {
+
+        a {
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+        }
+
+        img {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
   }
 
   @media (max-width: 767px) {
     .form-tabs {
       display: flex;
     }
-.content-form-tab {
-  padding-left: 0;
-}
+
+    .content-form-tab {
+      padding-left: 0;
+    }
+
     .contact-main {
       padding: 20px;
     }
@@ -153,6 +319,26 @@ body.page-template-contact-us {
       flex-grow: 1;
       padding-bottom: 15px;
     }
+
+    .contact-sidebar {
+      margin-top: 30px;
+    }
+
+    .sidebar-products-list {
+      .contact-menu-products {
+        margin-top: 30px;
+
+        a {
+          font-size: 1rem;
+        }
+
+        img {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+
   }
 
 }

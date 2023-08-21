@@ -7,6 +7,11 @@ $addons = [
         'logo'        => get_template_directory_uri() . '/assets/images/radio-player/radio-station/addon-logo.png',
         'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/radio-player-ads-withe-logo.png',
     ],
+    'radio-player-http-stream-player'    => [
+        'title'       => 'Radio Player Http Stream Player',
+        'logo'        => get_template_directory_uri() . '/assets/images/radio-player/addons/http-stream-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/radio-player/addons/http-stream-logo.png',
+    ],
 ];
 
 $page_template = get_page_template_slug();
