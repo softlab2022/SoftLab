@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <a href="/radio-player-http-stream-player/">
                     <div class="addons-item d-flex align-items-center">
                         <div class="addons-img">
@@ -26,7 +26,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <a href="/radio-player-ads/">
                     <div class="addons-item radio-player-ads-item d-flex align-items-center">
                         <div class="addons-img">

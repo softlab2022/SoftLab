@@ -15,14 +15,14 @@
         </div>
 
         <div class="pricing-wrap">
-            <!-- <div class="pricing-box annual">
+            <div class="pricing-box annual">
 
                 <div class="pricing-header text-center">
                     <div class="imgs">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/log.png" alt="image-1">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/log-blue.png" alt="image-1">
                     </div>
-                    <h3>ANNUALLY</h3>
-                    <p>BILLED ANNUALLY</p>
+                    <h3>Monthly</h3>
+                    <p>BILLED Monthly</p>
                 </div>
 
                 <div class="item-price active" data-license="1">
@@ -43,18 +43,18 @@
                 <div class="buy-btn text-center">
                     <a href="#">Buy now</a>
                 </div>
-            </div> -->
+            </div>
             <div class="pricing-box lifetime">
 
                 <div class="pricing-header text-center">
                     <div class="imgs">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/log-blue.png" alt="log-blue">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/log2.png" alt="log2">
                     </div>
                     <h3>ANNUALLY</h3>
                     <p>BILLED ANNUALLY</p>
                 </div>
 
-                <div class="item-price active" data-license="1">
+                <div class="item-price" data-license="1">
                     <div class="dot"></div>
                     <span>Single Site License - $59.99/ Year</span>
                 </div>
@@ -62,10 +62,10 @@
                     <div class="dot"></div>
                     <span>Up to 5 Site Licenses - $129.99/ Year</span>
                 </div>
-                <!-- <div class="item-price " data-license="100">
+                <div class="item-price " data-license="100">
                     <div class="dot"></div>
                     <span>Up to 100 Site Licenses - $229.99/ Year</span>
-                </div> -->
+                </div>
 
                 <div class="buy-btn text-center">
                     <a href="#">Buy now</a>

@@ -4,7 +4,7 @@
             <div class="col-lg-5 m-auto">
                 <div class="proxy-usage-head text-center">
                     <span><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> usage</span>
-                    <h5>Easy way to run radio Proxy player on your site.</h5>
+                    <h5>Your Roadmap to Add-on Excellence</h5>
                 </div>
             </div>
         </div>
@@ -35,9 +35,8 @@
                 <div class="usage-item3 d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/usage/enable.png" alt="enable">
                     <div class="text">
-                        <span>User HTTP Stream URL</span>
-                        <p>Fix station metadata not showing issue.
-                        </p>
+                        <span>Use Proxy URL</span>
+                        <p>If the player isn't functioning even after enabling the HTTP player, copy the external proxy URL provided  and insert it into the proxy URL input.</p>
                     </div>
                 </div>
             </div>
@@ -47,7 +46,7 @@
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/usage/title.png" alt="title">
                     <div class="text">
                         <span>Enable Metadata Proxy</span>
-                        <p>Play most of the available radio stations than before.</p>
+                        <p>Enable metadata proxy setting, if the station's metadata, like the song title or recent play history, isn't displayed in the player.</p>
                     </div>
                 </div>
             </div>

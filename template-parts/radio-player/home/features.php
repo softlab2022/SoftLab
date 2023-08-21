@@ -2,44 +2,51 @@
     <div class="container">
 
         <!---=== HTTP Stream Player====-->
-<!--        <div class="feature-wrap row align-items-center ">-->
-<!--            <div class="col-lg-6 col-md-6">-->
-<!--                <div class="feature-item-img ">-->
-<!--                    <img class="img-fluid" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/radio-player/feature/http-img.png" alt="http-img">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-6 col-md-6">-->
-<!--                <div class="feature-item">-->
-<!--                    <div class="file-text">-->
-<!---->
-<!--                        <div class="feature-header">-->
-<!--                            <img class="img-fluid element" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/radio-player/elements.png">-->
-<!--                            <span class="section-head">HTTP Stream Player</span>-->
-<!--                        </div>-->
-<!---->
-<!--                        <h3>Play HTTP Streams on HTTPS Website</h3>-->
-<!--                        --><?php //if (wp_is_mobile()) { ?>
-<!--                            <div class="feature-item-img-mobile text-center">-->
-<!--                                <img class="img-fluid" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/radio-player/feature/http-img.png" alt="http-img">-->
-<!--                            </div>-->
-<!--                        --><?php //} ?>
-<!--                        <div class="feature-description">-->
-<!--                            <p>-->
-<!--                                Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP-->
-<!--                                stream link, you can't play it on an HTTPS (Secured) website because of browser-->
-<!--                                mixed-content restrictions.-->
-<!--                            </p>-->
-<!--                            <p>-->
-<!--                                But Radio Player has a solution for this. You can play your HTTP stream on your HTTPS-->
-<!--                                website using our HTTP Player Proxy system.-->
-<!--                            </p>-->
-<!--                        </div>-->
-<!---->
-<!--                        <a href="/radio-player-http-player/">Check Your Stream Now</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div class="feature-wrap row align-items-center ">-->
+        <!--            <div class="col-lg-6 col-md-6">-->
+        <!--                <div class="feature-item-img ">-->
+        <!--                    <img class="img-fluid" src="--><?php //echo get_template_directory_uri(); 
+                                                                ?><!--/assets/images/radio-player/feature/http-img.png" alt="http-img">-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--            <div class="col-lg-6 col-md-6">-->
+        <!--                <div class="feature-item">-->
+        <!--                    <div class="file-text">-->
+        <!---->
+        <!--                        <div class="feature-header">-->
+        <!--                            <img class="img-fluid element" src="--><?php //echo get_template_directory_uri(); 
+                                                                                ?><!--/assets/images/radio-player/elements.png">-->
+        <!--                            <span class="section-head">HTTP Stream Player</span>-->
+        <!--                        </div>-->
+        <!---->
+        <!--                        <h3>Play HTTP Streams on HTTPS Website</h3>-->
+        <!--                        --><?php //if (wp_is_mobile()) { 
+                                        ?>
+        <!--                            <div class="feature-item-img-mobile text-center">-->
+        <!--                                <img class="img-fluid" src="--><?php //echo get_template_directory_uri(); 
+                                                                            ?><!--/assets/images/radio-player/feature/http-img.png" alt="http-img">-->
+        <!--                            </div>-->
+        <!--                        --><?php //} 
+                                        ?>
+        <!--                        <div class="feature-description">-->
+        <!--                            <p>-->
+        <!--                                Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP-->
+        <!--                                stream link, you can't play it on an HTTPS (Secured) website because of browser-->
+        <!--                                mixed-content restrictions.-->
+        <!--                            </p>-->
+        <!--                            <p>-->
+        <!--                                But Radio Player has a solution for this. You can play your HTTP stream on your HTTPS-->
+        <!--                                website using our HTTP Player Proxy system.-->
+        <!--                            </p>-->
+        <!--                        </div>-->
+        <!---->
+        <!--                        <a href="/radio-player-http-player/">Check Your Stream Now</a>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+
+
 
         <!---=== Full Sticky Player====-->
         <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
@@ -210,6 +217,37 @@
                 </div>
             </div>
         </div>
+        <!---==== Embed Code ====-->
+        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+            <div class="col-lg-6 col-md-6 ">
+                <div class="feature-item-img">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/play-statistics.png" alt="play-statistics">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-item">
+                    <div class="file-text">
+
+                        <div class="feature-header">
+                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png" />
+                            <span>Play Statistics</span>
+                        </div>
+
+                        <h3>Radio Player Statistics</h3>
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile text-center">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/play-statistics.png" alt="play-statistics">
+                            </div>
+                        <?php } ?>
+                        <div class="feature-description">
+                            <p>You can view the statistics how many user how many times the radio player.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <!--=== Preview Header ===-->
         <div class="row">
@@ -228,14 +266,12 @@
             </div>
         </div>
 
-        <div class="feature-wrap row align-items-center">
-            <div class="col-md-6 m-auto">
+        <div class="row">
+            <div class="col-md-6 ">
                 <div class="feature-item-img text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="Customize Player Appearance">
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="feature-item">
+                <div class="feature-item text-center">
                     <div class="file-text">
                         <h3>Customizing Player Appearance</h3>
                         <?php if (wp_is_mobile()) { ?>
@@ -252,11 +288,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="feature-wrap row row align-items-center flex-column-reverse flex-md-row">
             <div class="col-md-6">
-                <div class="feature-item">
+                <div class="feature-item-img text-center">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
+                </div>
+                <div class="feature-item text-center">
                     <div class="file-text">
                         <h3>Customizing Player Controls</h3>
                         <?php if (wp_is_mobile()) { ?>
@@ -272,12 +308,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 m-auto">
-                <div class="feature-item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
-                </div>
-            </div>
         </div>
+
+        <!-- <div class="feature-wrap row row align-items-center flex-column-reverse flex-md-row">
+            <div class="col-md-6">
+                
+            </div>
+            <div class="col-md-6 m-auto">
+                
+            </div>
+        </div> -->
 
     </div>
 </section>

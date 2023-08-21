@@ -8,13 +8,13 @@
         </div>
         <div class="col-lg-5 col-md-5 m-auto">
             <div class="add-text">
-                <span>Play HTTP streams on your HTTPS websites now!</span>
-                <p>WP Radio ads player is one of the best audio ads  plugin for WordPress.</p>
+                <span>Unleash the Power of Enhanced Streaming</span>
+                <p>Take action and transform your radio experience with the HTTP Stream Player Add-on.</p>
             </div>
         </div>
         <div class="col-lg-5 col-md-5 m-auto">
             <div class="add-but text-end">
-                <a href="#" class="bt" >Try your HTTP stream</a>
+                <a href="/radio-player-check-http-stream/" class="bt" >Try your HTTP stream</a>
                 <a href="#" class="bt1" >buy now</a>
             </div>
         </div>
