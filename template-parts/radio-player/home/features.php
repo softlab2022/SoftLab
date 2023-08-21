@@ -2,44 +2,44 @@
     <div class="container">
 
         <!---=== HTTP Stream Player====-->
-        <div class="feature-wrap row align-items-center ">
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-item-img ">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-item">
-                    <div class="file-text">
-
-                        <div class="feature-header">
-                            <img class="img-fluid element" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/elements.png">
-                            <span class="section-head">HTTP Stream Player</span>
-                        </div>
-
-                        <h3>Play HTTP Streams on HTTPS Website</h3>
-                        <?php if (wp_is_mobile()) { ?>
-                            <div class="feature-item-img-mobile text-center">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/http-img.png" alt="http-img">
-                            </div>
-                        <?php } ?>
-                        <div class="feature-description">
-                            <p>
-                                Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP
-                                stream link, you can't play it on an HTTPS (Secured) website because of browser
-                                mixed-content restrictions.
-                            </p>
-                            <p>
-                                But Radio Player has a solution for this. You can play your HTTP stream on your HTTPS
-                                website using our HTTP Player Proxy system.
-                            </p>
-                        </div>
-
-                        <a href="/radio-player-http-player/">Check Your Stream Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--        <div class="feature-wrap row align-items-center ">-->
+<!--            <div class="col-lg-6 col-md-6">-->
+<!--                <div class="feature-item-img ">-->
+<!--                    <img class="img-fluid" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/radio-player/feature/http-img.png" alt="http-img">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-6 col-md-6">-->
+<!--                <div class="feature-item">-->
+<!--                    <div class="file-text">-->
+<!---->
+<!--                        <div class="feature-header">-->
+<!--                            <img class="img-fluid element" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/radio-player/elements.png">-->
+<!--                            <span class="section-head">HTTP Stream Player</span>-->
+<!--                        </div>-->
+<!---->
+<!--                        <h3>Play HTTP Streams on HTTPS Website</h3>-->
+<!--                        --><?php //if (wp_is_mobile()) { ?>
+<!--                            <div class="feature-item-img-mobile text-center">-->
+<!--                                <img class="img-fluid" src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/radio-player/feature/http-img.png" alt="http-img">-->
+<!--                            </div>-->
+<!--                        --><?php //} ?>
+<!--                        <div class="feature-description">-->
+<!--                            <p>-->
+<!--                                Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP-->
+<!--                                stream link, you can't play it on an HTTPS (Secured) website because of browser-->
+<!--                                mixed-content restrictions.-->
+<!--                            </p>-->
+<!--                            <p>-->
+<!--                                But Radio Player has a solution for this. You can play your HTTP stream on your HTTPS-->
+<!--                                website using our HTTP Player Proxy system.-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!---->
+<!--                        <a href="/radio-player-http-player/">Check Your Stream Now</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
         <!---=== Full Sticky Player====-->
         <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
@@ -67,7 +67,6 @@
                                 Radio Player also provide the ability to display the Sticky Player on specific pages.
                             </p>
                         </div>
-                        <a href="/radio-player-multiple-player-skins/">Check demo</a>
                     </div>
                 </div>
             </div>
@@ -111,7 +110,6 @@
                             </p>
                         </div>
 
-                        <a href="/radio-player-multiple-player-skins/">Check demo</a>
                     </div>
                 </div>
             </div>
@@ -139,7 +137,6 @@
                                 in the player.</p>
                             <p>Users can choose and play any station from the stations playlist in the player.</p>
                         </div>
-                        <a href="/radio-player-multiple-player-skins/">Check Demo</a>
                     </div>
                 </div>
             </div>
@@ -178,7 +175,6 @@
                                 website using the shortcode.
                             </p>
                         </div>
-                        <a href="/radio-player-multiple-player-skins/">Check Demo</a>
                     </div>
                 </div>
             </div>
@@ -205,7 +201,6 @@
                             <p>Radio Player provides the ability to embed the player on any website using the embed
                                 code.</p>
                         </div>
-                        <a href="/radio-player-multiple-player-skins/">Check Demo</a>
                     </div>
                 </div>
             </div>

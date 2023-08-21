@@ -4,12 +4,22 @@
             <div class="col-lg-5 m-auto">
                 <div class="http-feat-head text-center">
                     <span><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/image-3.png" alt="image-1"> Features</span>
-                    <h5>Let’s Explore our Valuable Awesome Features</h5>
+                    <h5>Unlock Enhanced Streaming Capabilities</h5>
                 </div>
             </div>
         </div>
 
         <div class="row">
+
+            <div class="col-lg-6 col-md-6 m-auto">
+                <div class="http-item d-flex align-items-center">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/feature/fix.png" alt="fix">
+                    <div class="text">
+                        <span>VPS Server Proxy</span>
+                        <p>Fetches the radio stream from an external VPS server and deliver it to the player.</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="col-lg-6 col-md-6 m-auto">
                 <div class="http-item d-flex align-items-center">
