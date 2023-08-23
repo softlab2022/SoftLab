@@ -16,7 +16,7 @@
                 <div class="contant">
                     
                         <div class="te-count d-flex align-items-center">
-                            <span class="counter" >44</span> <h5>k+</h5>
+                            <span class="counter" >51</span> <h5>k+</h5>
                         </div>
                     <h6>Total Downloads</h6>
                 </div>

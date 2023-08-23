@@ -268,7 +268,7 @@
       font-size: 3rem;
       color: $h1_color;
       font-weight: 700;
-      padding-bottom: 60px;
+      padding-bottom: 30px;
       padding-top: 25px;
     }
 
@@ -278,7 +278,30 @@
       color: $p_color;
       line-height: 150%;
       padding: 0 95px;
-      padding-bottom: 30px;
+      padding-bottom: 60px;
+    }
+  }
+  .preview-item {
+    .file-text {
+
+      h3 {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 120%;
+        color: $h1_color;
+        text-transform: capitalize;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: .9rem;
+        line-height: 1.5;
+        color: $p_color;
+        padding: 0 80px;
+      }
+
     }
   }
 
@@ -437,6 +460,19 @@
       p {
         padding: 0;
         font-size: .785rem;
+      }
+    }
+    .preview-item {
+      .file-text {
+  
+        h3 {
+          font-size: 1.5rem;
+        }
+  
+        p {
+          padding: 0;
+        }
+  
       }
     }
   }

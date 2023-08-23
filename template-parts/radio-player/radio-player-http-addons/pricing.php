@@ -27,17 +27,17 @@
 
                 <div class="item-price active" data-license="1">
                     <div class="dot"></div>
-                    <span>Single Site License - $29.99/ Year</span>
+                    <span>Single Site Lincese - $3.99/ Month</span>
                 </div>
 
                 <div class="item-price" data-license="5">
                     <div class="dot"></div>
-                    <span>Up to 5 Site Licenses - $59.99/ Year</span>
+                    <span>Up to 5 Sites - $9.99/ Month</span>
                 </div>
 
                 <div class="item-price" data-license="100">
                     <div class="dot"></div>
-                    <span>Up to 100 Site Licenses - $129.99/ Year</span>
+                    <span>Up to 100 Sites - $29.99 / Month</span>
                 </div>
 
                 <div class="buy-btn text-center">
@@ -56,15 +56,15 @@
 
                 <div class="item-price" data-license="1">
                     <div class="dot"></div>
-                    <span>Single Site License - $59.99/ Year</span>
+                    <span>Single Site Lincese - $29.99/ Year</span>
                 </div>
                 <div class="item-price" data-license="5">
                     <div class="dot"></div>
-                    <span>Up to 5 Site Licenses - $129.99/ Year</span>
+                    <span>Up to 5 Sites - $89.99/ Year</span>
                 </div>
                 <div class="item-price " data-license="100">
                     <div class="dot"></div>
-                    <span>Up to 100 Site Licenses - $229.99/ Year</span>
+                    <span>Up to 100 Sites - $199.99/ Year</span>
                 </div>
 
                 <div class="buy-btn text-center">

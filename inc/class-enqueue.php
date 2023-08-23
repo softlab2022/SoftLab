@@ -41,7 +41,7 @@ class SoftLa {
 			'radio-player-multiple-player-skins',
 			'radio-player-ads',
 			'radio-player-check-http-stream',
-			'radio-player-http-stream-player',
+			'radio-player-proxy-player',
 
 		] ) ) {
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Radio Player Https Stream Player
+ * Template Name: Radio Player Proxy Player
  *
  */
 

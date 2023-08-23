@@ -26,7 +26,7 @@
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/feature/fix.png" alt="fix">
                     <div class="text">
                         <span>Fix CORS </span>
-                        <p>Effortlessly bypass CORS issues, enabling smooth HTTP stream playback without browser interruptions.</p>
+                        <p>Effortlessly bypass CORS issues, enabling smooth Radio Player playback without browser interruptions.</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 <div class="http-item d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/feature/show.png" alt="show">
                     <div class="text">
-                        <span>HTTP Stream Playback</span>
+                        <span>Radio Player Proxy</span>
                         <p>Effortlessly stream audio directly from HTTP sources for uninterrupted listening.</p>
                     </div>
                 </div>

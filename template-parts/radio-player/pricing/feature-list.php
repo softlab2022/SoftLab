@@ -64,12 +64,13 @@ $features = [
 	],
 
 
-	[
-		'title'       => 'HTTP Stream Player',
-		'description' => 'Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP stream link, you can\'t play it on an HTTPS (Secured) website because of browser mixed-content restrictions.
-		<br /> <br /> But Radio Player has a solution for this. You can play your HTTP stream on your HTTPS website using our HTTP Player Proxy system.',
-		'pro'         => true,
-	],
+	// [
+	// 	'title'       => 'HTTP Stream Player',
+	// 	'description' => 'Modern browsers no longer accepts mixed-content requests. That means if you have an HTTP stream link, you can\'t play it on an HTTPS (Secured) website because of browser mixed-content restrictions.
+	// 	<br /> <br /> But Radio Player has a solution for this. You can play your HTTP stream on your HTTPS website using our HTTP Player Proxy system.',
+	// 	'pro'         => true,
+	// ],
+	
 	[
 		'title'       => 'Sticky Player ',
 		'description' => 'Radio Player provides a sticky player with multiple styles (Fullwidth, Mini-Fullwidth & Floating) to play your radio stream on all the pages of your website.',

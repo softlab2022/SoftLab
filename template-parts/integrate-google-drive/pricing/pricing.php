@@ -240,7 +240,7 @@ $pro_features = [
                 plugin_id: '9618',
                 plan_id: '16186',
                 public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive.png",
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
             });
 
             $('.buy-btn-pro').on('click', function(e) {

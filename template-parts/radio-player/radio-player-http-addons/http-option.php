@@ -9,7 +9,7 @@
         <div class="col-lg-5 col-md-5 m-auto">
             <div class="add-text">
                 <span>Unleash the Power of Enhanced Streaming</span>
-                <p>Take action and transform your radio experience with the HTTP Stream Player Add-on.</p>
+                <p>Take action and transform your radio experience with the Radio Player Proxy Add-on.</p>
             </div>
         </div>
         <div class="col-lg-5 col-md-5 m-auto">

@@ -232,7 +232,7 @@
 
         img {
           height: auto;
-          width: 180px;
+          width: 200px;
         }
       }
 
@@ -253,6 +253,14 @@
 
           margin-right: 4px;
           padding-right: 1px;
+        }
+
+        &.brand-integrate-google-drive {
+  
+          img {
+            height: auto;
+            width: 170px;
+          }
         }
 
         &.brand-reader-mode {

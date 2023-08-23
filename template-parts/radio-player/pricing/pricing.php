@@ -16,7 +16,7 @@ $free_features = [
 ];
 
 $pro_features = [
-    'HTTP Stream Player',
+    // 'HTTP Stream Player',
     'Full-width Sticky Player',
     'Sticky Player on Specific Pages',
     'Multiple Stations in a Player',
@@ -222,7 +222,7 @@ $pro_features = [
                 plugin_id: '8684',
                 plan_id: '14508',
                 public_key: 'pk_6175576896c0d8c125d31e42287ab',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/radio-player.png",
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/radio-player-new.png",
             });
 
             $('.buy-btn-pro').on('click', function(e) {

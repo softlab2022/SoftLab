@@ -13,8 +13,8 @@
                         Integrate Google Drive is the most advanced plugin to access your important Google Drive files & folders directly on your WordPress website. Even if you have zero knowledge of coding, you are up to using the plugin without any difficulties or hassle. Browse, manage, embed, display, upload, download, search, play, and share almost everything to your WordPress website that you were doing inside of your Google Drive.
                     </p>
 
-                    <a href="/integrate-google-drive-pricing" class="get">Get Started</a>
                     <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="get1">Try Live Demo</a>
+                    <a href="/integrate-google-drive-pricing" class="get">Get Started</a>
                 </div>
             </div>
         </div>
