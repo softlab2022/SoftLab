@@ -13,8 +13,8 @@ $features = [
 	],
 	
 	[
-		'title'       => 'Current Song Title',
-		'description' => 'Radio player can grap and play the current playing station metadata title.',
+		'title'       => 'Stream Data Display',
+		'description' => 'Radio player can grab and play the stream data including current track title, artist, artwork, and recent play history',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/current-title.png',
 	],
 	[
@@ -34,8 +34,8 @@ $features = [
 	],
 	
 	[
-		'title'       => 'Add Unlimited Players',
-		'description' => 'You can add and play unlimited radio players as you want.',
+		'title'       => 'Add Multiple Players',
+		'description' => 'You can add upto 10 players in the free version and unlimited players in the PRO version.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/unlimited-players.png',
 	],
 	[

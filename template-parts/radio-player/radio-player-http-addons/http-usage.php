@@ -25,8 +25,8 @@
                 <div class="usage-item3 d-flex align-items-center">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/https-addon/usage/url.png" alt="url">
                     <div class="text">
-                        <span>Enable Radio Player Proxy</span>
-                        <p>Enable the http player from the http player settings.Try to play a Radio Player Proxy now, If your server is able enough to handle the Radio Player Proxy then the radio stations will be played after enabling the Radio Player Proxy setting.</p>
+                        <span>Enable HTTP  Proxy</span>
+                        <p>Enable the http player from the  settings.Try to play a Radio Player Proxy now, If your server is able enough to handle the Radio Player Proxy then the radio stream will be played after enabling the Radio Player Proxy setting.</p>
                     </div>
                 </div>
             </div>

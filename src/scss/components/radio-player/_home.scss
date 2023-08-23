@@ -1134,11 +1134,18 @@
     .addons-content {
       flex: 1;
 
-      h3 {
+      .section-title {
         font-size: 1.5rem;
         color: $h1_color;
         font-weight: 700;
         line-height: 120%;
+        margin-bottom: 20px;
+        display: block;
+        transition: all linear .4s;
+        &:hover {
+          color: $radio_player_color;
+          transition: all linear .4s;
+        }
       }
 
       p {
@@ -1148,12 +1155,17 @@
         line-height: 150%;
       }
 
-      h6 {
+      a {
         color: $radio_player_color;
         font-size: 18px;
         font-weight: 600;
         line-height: 150%;
         margin-bottom: 0;
+        transition: all linear .4s;
+        &:hover {
+          color: #000;
+          transition: all linear .4s;
+        }
       }
     }
   }
