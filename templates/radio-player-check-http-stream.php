@@ -113,6 +113,8 @@ get_header( 'radio-player' );
             $(document).on('ready', function () {
 
                 function playStream(stream) {
+                    stream = `${radioPlayer.site_url}/?radio_player_play=${encodeURIComponent(stream)}`;
+
                     var playerElement = $('.radio_player_media audio');
 
                     const playBtn = $('.radio-play-pause');
@@ -130,10 +132,8 @@ get_header( 'radio-player' );
                 $('#http-stream-from').on('submit', function (e) {
                     e.preventDefault();
                     var stream = $('#http-stream').val();
-                    stream = `https://worldradio.online/proxy/?site_id=12890822&plugin_id=13399&q=${stream}`;
 
                     const data = {
-                        title: 'Soft Classic Rock',
                         status: 1,
                         skin: 'skin1',
                         history_icon: 1,

@@ -84,9 +84,9 @@
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '12150',
-                plan_id: '20620',
-                public_key: 'pk_79edc019bc26f908bb4ec81de9b56',
+                plugin_id:  '13399',
+                plan_id:    '22441',
+                public_key: 'pk_275e57f1c8c993f99609755dddfc9',
                 image: "<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/addons/http-stream.png"
             });
 
