@@ -49,7 +49,7 @@
 
 
         <!---=== Full Sticky Player====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap feat-items-sec row align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
@@ -59,7 +59,7 @@
                             <span>Sticky Player</span>
                         </div>
 
-                        <h3>Sticky Player with Multiple Styles</h3>
+                        <h3>Sticky Player Excellence</h3>
                         <?php if (wp_is_mobile()) { ?>
                             <div class="feature-item-img-mobile text-center">
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
@@ -67,12 +67,11 @@
                         <?php } ?>
                         <div class="feature-description">
                             <p>
-                                Radio Player provides a sticky player with multiple styles (Fullwidth, Mini-Fullwidth &
-                                Floating) to play your radio stream on all the pages of your website.
+                            Boost engagement with Radio Player's Sticky Player. Offered in versatile styles like Fullwidth, Mini-Fullwidth, and Floating, it ensures seamless listening across your site. Plus, customize its display on specific pages for tailored user experiences
                             </p>
-                            <p>
+                            <!-- <p>
                                 Radio Player also provide the ability to display the Sticky Player on specific pages.
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                 </div>
@@ -122,7 +121,7 @@
         </div>
 
         <!---==== Stations Playlist ====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap feat-items-sec row align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
@@ -185,7 +184,7 @@
         </div>
 
         <!---==== Player Embed Code ====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap feat-items-sec row align-items-center flex-column-reverse flex-md-row">
             <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
                     <div class="file-text">
@@ -215,7 +214,7 @@
         </div>
 
         <!---==== Radio Player Analytics Dashboard ====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap row align-items-center">
             <div class="col-lg-6 col-md-6 ">
                 <div class="feature-item-img">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/play-statistics.png" alt="play-statistics">
@@ -247,7 +246,7 @@
         </div>
 
         <!---==== Player Display Schedule ====-->
-        <div class="feature-wrap row align-items-center flex-column-reverse flex-md-row">
+        <div class="feature-wrap feat-items-sec row align-items-center flex-column-reverse flex-md-row">
 
             <div class="col-lg-6 col-md-6">
                 <div class="feature-item">
@@ -299,7 +298,7 @@
 
         <div class="row">
             <div class="col-md-6 ">
-                <div class="feature-item-img text-center">
+                <div class="feature-item-img preview-item-img text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-color.png" alt="Customize Player Appearance">
                 </div>
                 <div class="feature-item preview-item text-center">
@@ -320,7 +319,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="feature-item-img text-center">
+                <div class="feature-item-img preview-item-img text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/enhanced.png" alt="enhanced">
                 </div>
                 <div class="feature-item preview-item text-center">

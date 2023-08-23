@@ -149,7 +149,7 @@ class SoftLa {
 			'dracula-pricing',
 			'radio-player-ads',
 			'integrate-dropbox-pricing',
-			'radio-player-http-stream-player'
+			'radio-player-proxy-player'
 		] );
 
 		if ( $is_pricing_page ) {
