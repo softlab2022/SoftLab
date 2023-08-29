@@ -16,6 +16,7 @@
                         playing song title, artist, artwork, and recent play history, the plugin can fix display of the
                         metadata.
                     </p>
+                    <a href="/radio-player-check-http-stream/" class="bt" >Try your HTTP stream</a>
                     <a href="#addon-pricing" class="get">Get Started</a>
                 </div>
             </div>

@@ -41,14 +41,26 @@
       font-size: .9rem;
       font-weight: 600;
       line-height: 150%;
+      padding: 15px 35px;
+      border-radius: 50px;
+    }
+    .bt {
+      color: rgba(22, 173, 225, 1);
+      border: 1px solid rgba(22, 173, 225, 1);
+
+      &:hover {
+        background-color: rgba(22, 173, 225, 1);
+        color: #fff;
+        transition: all linear .4s;
+      }
     }
 
     .get {
       color: #fff;
       background-color: rgba(22, 173, 225, 1);
       border: 1px solid rgba(22, 173, 225, 1);
-      padding: 15px 35px;
-      border-radius: 50px;
+      
+    
       transition: all linear .4s;
 
       &:hover {
@@ -71,9 +83,9 @@
       .my-btn-primary {
         i {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
-          width: 100px;
-          height: 100px;
-          line-height: 100px;
+          width: 80px;
+          height: 80px;
+          line-height: 80px;
           border-radius: 50%;
           border: 2px solid #BEAAC8;
           color: #fff;
@@ -119,8 +131,8 @@
     .ripple {
       text-decoration: none;
       color: #fff;
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       background-color: #7249AC;
       border-radius: 50%;
       -webkit-animation: ripple 1s linear infinite;

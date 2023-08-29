@@ -22,11 +22,7 @@
 
                                 <!-- Modal body -->
                                 <div class="modal-body">
-                                    <iframe src="https://www.youtube.com/embed/Z--ZC0ZPiGs?rel=0"
-                                            title="Reader Mode Quick Overview"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube.com/embed/Z--ZC0ZPiGs?rel=0" title="Reader Mode Quick Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -44,15 +40,31 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-lg m-auto">
                 <div class="reader-mode-image-compare-wrap">
-                    <img class="img-fluid browser-mockup"
-                         src="<?php echo get_theme_file_uri( '/assets/images/reader-mode/browser-mockup.png' ); ?>">
+                    <img class="img-fluid browser-mockup" src="<?php echo get_theme_file_uri('/assets/images/reader-mode/browser-mockup.png'); ?>">
+                    <!-- <div class="hero-how-butt ripple">
+
+                        <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <i class="fa fa-play"></i>
+                        </a>
+
+                        <!-- Modal -
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe width="900" height="500" src="https://www.youtube.com/embed/M3M7ssz8URc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
                     <div class="reader-mode-image-compare">
-                        <img class="img-fluid"
-                             src="<?php echo get_theme_file_uri( '/assets/images/reader-mode/home/compare-before.png' ); ?>"
-                             alt="General View">
-                        <img class="img-fluid"
-                             src="<?php echo get_theme_file_uri( '/assets/images/reader-mode/home/compare-after.png' ); ?>"
-                             alt="Reader Mode">
+                        <img class="img-fluid" src="<?php echo get_theme_file_uri('/assets/images/reader-mode/home/compare-before.png'); ?>" alt="General View">
+                        <img class="img-fluid" src="<?php echo get_theme_file_uri('/assets/images/reader-mode/home/compare-after.png'); ?>" alt="Reader Mode">
                     </div>
                 </div>
             </div>

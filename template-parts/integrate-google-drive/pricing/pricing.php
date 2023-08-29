@@ -158,14 +158,14 @@ $pro_features = [
 
                             <div class="offer-price annual single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$35 </p>
+                                    <p class="price-off">$47 </p>
                                     <span class="price-dis">20%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price annual five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$99 </p>
+                                    <p class="price-off">$124 </p>
                                     <span class="price-dis">25%OFF</span>
                                 </div>
 
@@ -178,20 +178,20 @@ $pro_features = [
 
                             </div>
 
-                            <span class="price-value annual single">29</span>
-                            <span class="price-value annual five">79</span>
+                            <span class="price-value annual single">39</span>
+                            <span class="price-value annual five">99</span>
                             <span class="price-value annual hundred">199</span>
 
                             <div class="offer-price lifetime single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$112 </p>
+                                    <p class="price-off">$124 </p>
                                     <span class="price-dis">25%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price lifetime five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$298 </p>
+                                    <p class="price-off">$259 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
@@ -204,8 +204,8 @@ $pro_features = [
 
                             </div>
 
-                            <span class="price-value lifetime single">89</span>
-                            <span class="price-value lifetime five">229</span>
+                            <span class="price-value lifetime single">99</span>
+                            <span class="price-value lifetime five">199</span>
                             <span class="price-value lifetime hundred">449</span>
 
                             <span class="price-suffix annual">/ Per year</span>
