@@ -113,7 +113,11 @@ get_header( 'radio-player' );
             $(document).on('ready', function () {
 
                 function playStream(stream) {
-                    stream = `${radioPlayer.site_url}/?radio_player_play=${encodeURIComponent(stream)}`;
+                    const isLoadedOverHttps = window.location.protocol === 'https:';
+
+                    if (isLoadedOverHttps) {
+                        stream = `${radioPlayer.site_url}/?radio_player_play=${encodeURIComponent(stream)}`;
+                    }
 
                     var playerElement = $('.radio_player_media audio');
 
