@@ -58,9 +58,100 @@
         transition: all linear .4s;
       }
     }
-    .hero-image-mobile {
+    position: relative;
+
+    .hero-how-butt {
+      position: absolute;
+      top: 33%;
+      left: 42%;
+
+      .my-btn-primary {
+        i {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
+          width: 80px;
+          height: 80px;
+          line-height: 80px;
+          border-radius: 50%;
+          border: 2px solid #BEAAC8;
+          color: #fff;
+          font-size: 25px;
+          cursor: pointer;
+        }
+      }
+
+
+      /**---------- popup video area scss start ----------**/
+      .modal {
+        top: 4%;
+      }
+
+      .modal-dialog {
+        max-width: 950px;
+        height: auto;
+        margin: 1.75rem auto;
+
+        .modal-content {
+          background-color: transparent;
+          border: none;
+
+          .modal-header {
+            border: none;
+
+            .btn-close {
+              background-color: #fff;
+            }
+          }
+
+          .modal-body {
+            iframe {
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+
+      /**---------- popup video area scss end ----------**/
+    }
+
+    .ripple {
+      text-decoration: none;
+      color: #fff;
+      width: 80px;
+      height: 80px;
+      background-color: #7249AC;
+      border-radius: 50%;
+      -webkit-animation: ripple 1s linear infinite;
+      animation: ripple 1s linear infinite;
+    }
+
+    @-webkit-keyframes ripple {
+      0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+        box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+      }
+
+      100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+        box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+      }
+    }
+
+    @keyframes ripple {
+      0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+        box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+      }
+
+      100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+        box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+      }
+    }
+
+    .hero-image {
       display: none;
     }
+
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -93,9 +184,50 @@
         padding: 10px 24px;
         margin: 0 1px;
       }
-      .hero-image-mobile {
+      
+
+      .hero-how-butt {
+        position: absolute;
+        top: 25%;
+      	left: 36%;
+
+        .my-btn-primary {
+          margin: 0!important;
+          padding: 0!important;
+          i {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1rem;
+          }
+        }
+
+        .modal-dialog {
+          max-width: 450px;
+          height: auto;
+          margin: 1.75rem auto;
+
+          .modal-content {
+
+            .modal-body {
+              iframe {
+                max-width: 300px;
+                max-height: 300px;
+              }
+            }
+          }
+        }
+      }
+
+      .ripple {
+        width: 50px;
+        height: 50px;
+      }
+
+      .hero-image {
         display: block;
       }
+
     }
   }
 

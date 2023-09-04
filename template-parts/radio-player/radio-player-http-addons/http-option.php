@@ -15,7 +15,7 @@
         <div class="col-lg-5 col-md-5 m-auto">
             <div class="add-but text-end">
                 <a href="/radio-player-check-http-stream/" class="bt" >Try your HTTP stream</a>
-                <a href="#" class="bt1" >buy now</a>
+                <a href="#addon-pricing" class="bt1" >buy now</a>
             </div>
         </div>
         </div>

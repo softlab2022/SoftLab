@@ -44,6 +44,7 @@
       padding: 15px 35px;
       border-radius: 50px;
     }
+
     .bt {
       color: rgba(22, 173, 225, 1);
       border: 1px solid rgba(22, 173, 225, 1);
@@ -59,8 +60,8 @@
       color: #fff;
       background-color: rgba(22, 173, 225, 1);
       border: 1px solid rgba(22, 173, 225, 1);
-      
-    
+
+
       transition: all linear .4s;
 
       &:hover {
@@ -204,12 +205,9 @@
         margin-bottom: 25px;
       }
 
-      .get {
-        padding: 10px 25px;
-      }
-
-      .get1 {
-        padding: 10px 25px;
+      a {
+        margin-right: 6px;
+        padding: 15px 25px;
       }
     }
 
@@ -269,6 +267,12 @@
         font-size: .9rem;
         padding: 0 10px;
         margin-bottom: 45px;
+      }
+
+      a {
+        margin-right: 1px;
+        font-size: 0.8rem;
+        padding: 15px 20px;
       }
     }
 
@@ -378,6 +382,7 @@
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
+
     //Laptop
     .http-feat-head {
       h5 {
@@ -385,6 +390,7 @@
         font-size: 1.9rem;
       }
     }
+
     .http-item {
       .text {
         span {
@@ -399,6 +405,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
+
     //Tablet
     .http-item {
       .text {
@@ -416,12 +423,14 @@
   @media (max-width: 767.98px) {
     //Mobile
     padding-bottom: 0;
+
     .http-feat-head {
       h5 {
         font-size: 1.5rem;
         margin: 0;
       }
     }
+
     .http-item {
       .text {
         span {
@@ -434,6 +443,7 @@
       }
     }
   }
+
   /**---------- responsive-area scss end ----------**/
 }
 
@@ -502,12 +512,14 @@
   @media (min-width: 992px) and (max-width: 1199.98px) {
     //Laptop
     padding: 0;
+
     .proxy-usage-head {
       h5 {
         margin: 0;
         font-size: 1.9rem;
       }
     }
+
     .usage-item3 {
       .text {
         span {
@@ -522,6 +534,7 @@
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
+
     //Tablet
     .usage-item3 {
       .text {
@@ -539,15 +552,17 @@
   @media (max-width: 767.98px) {
     //Mobile
     padding-bottom: 0;
+
     .proxy-usage-head {
       h5 {
         font-size: 1.5rem;
         margin: 0;
       }
     }
+
     .usage-item3 {
       height: auto;
-      
+
       .text {
         span {
           font-size: 1.2rem;
@@ -559,6 +574,7 @@
       }
     }
   }
+
   /**---------- responsive-area scss end ----------**/
 }
 
@@ -945,6 +961,7 @@
         margin: 0;
         font-size: 1.6rem;
       }
+
       p {
         padding: 0;
       }
@@ -953,6 +970,7 @@
     .items {
       margin-top: 0;
     }
+
     .test-rating {
       .star {
         .fa-star {
@@ -1035,6 +1053,7 @@
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
+
     //Laptop
     .option {
 
@@ -1043,6 +1062,7 @@
           padding: 15px 37px;
           font-size: .9rem;
         }
+
         .bt1 {
           margin-left: 10px;
         }
@@ -1069,6 +1089,7 @@
           padding: 10px 20px;
           font-size: .785rem;
         }
+
         .bt1 {
           margin-left: 3px;
         }
@@ -1077,10 +1098,11 @@
   }
 
   @media (max-width: 767.98px) {
-    	padding: 0;
+    padding: 0;
+
     //Mobile
     .option {
-      text-align: center!important;
+      text-align: center !important;
 
       .add-text {
         margin-top: 20px;
@@ -1092,7 +1114,8 @@
 
       .add-but {
         margin-bottom: 25px;
-        text-align: center!important;
+        text-align: center !important;
+
         .bt1 {
           margin-left: 0;
           margin-top: 40px;

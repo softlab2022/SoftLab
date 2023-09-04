@@ -178,6 +178,7 @@
                                 Personalize your radio experience with our expansive range of player skins. Each design is meticulously crafted, ensuring both style and functionality, to cater to every aesthetic preference.
                             </p>
                         </div>
+                        <a href="/radio-player-multiple-player-skins/">View Demo</a>
                     </div>
                 </div>
             </div>

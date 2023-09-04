@@ -71,9 +71,7 @@
         transition: all linear .4s;
       }
     }
-    .header-img-mobile {
-      display: none;
-    }
+    
   }
 
   .demo-control {
@@ -108,6 +106,7 @@
   }
 
   .header-img {
+    
     position: relative;
 
     .hero-how-butt {
@@ -239,8 +238,44 @@
         display: block;
       }
     }
-    .header-img-des {
-      display: none;
+    .header-img {
+      .hero-how-butt {
+        position: absolute;
+        top: 25%;
+      	left: 40%;
+
+        .my-btn-primary {
+          margin: 0!important;
+          padding: 0!important;
+          i {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1rem;
+          }
+        }
+
+        .modal-dialog {
+          max-width: 450px;
+          height: auto;
+          margin: 1.75rem auto;
+
+          .modal-content {
+
+            .modal-body {
+              iframe {
+                max-width: 300px;
+                max-height: 300px;
+              }
+            }
+          }
+        }
+      }
+
+      .ripple {
+        width: 50px;
+        height: 50px;
+      }
     }
   }
 }

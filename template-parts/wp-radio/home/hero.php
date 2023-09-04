@@ -10,6 +10,26 @@
 
                         <div class="radio-header-bg-mobile text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-radio/home/head.png" alt="head">
+                            <div class="hero-how-butt ripple">
+
+                                <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <i class="fa fa-play"></i>
+                                </a>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/M3M7ssz8URc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     <?php } ?>
