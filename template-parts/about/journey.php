@@ -14,7 +14,7 @@
                 <i class="fa-solid fa-chevron-down down"></i>
                 <div class="slider-main">
                     
-                    <div class="slider-item">
+                    <!-- <div class="slider-item">
                         <div class="row">
                             <div class="col-lg-12 d-flex justify-content-start align-items-center">
                                 <div class="slider-img">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="slider-item">
                         <div class="row">
@@ -95,7 +95,7 @@
                         </div>
                     </div>
 
-                    <div class="slider-item">
+                    <!-- <div class="slider-item">
                         <div class="row">
                             <div class="col-lg-12 d-flex justify-content-start align-items-center">
                                 <div class="slider-img">
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="slider-item">
                         <div class="row">

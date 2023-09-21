@@ -1,10 +1,10 @@
 <section id="dracula-banner">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-lg-6 col-md-6">
                 <div class="section-head">
 
-                    <h1>WordPress <span>Dark Mode Plugin</span> to Ready your Site for the Night</h1>
+                    <h1>AI-powered <span>Dark Mode Plugin</span> for WordPress</h1>
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image text-center">
@@ -45,8 +45,7 @@
                         </div>
                     <?php } ?>
 
-                    <p>Dark Mode helps to create a stunning eye-pleasing dark version for your WordPress website easily
-                        and effectively</p>
+                    <p>Dracula Dark Mode seamlessly converts your WordPress site to a stunning dark mode them using advanced AI algorithm. Designed to reduce eye strain for visitors, its adaptive interface perfectly complements your website's design, making it the top choice for a dark mode solution.</p>
                     <a href="https://demo.softlabbd.com/?product=dracula-dark-mode" class="free-btn">Try Live Demo</a>
                     <a href="/dracula-dark-mode-pricing" class="view-demo">Buy Now</a>
                 </div>

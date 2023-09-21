@@ -159,105 +159,105 @@ $products = [
 		]
 	],
 
-	'wp-radio'               => [
-		'name'        => '<span>WP Radio</span>',
-		'title'       => '<span>Worldwide</span> Online Radio Stations Directory for WordPress',
-		'description' => 'WP Radio is a worldwide online radio stations directory plugin for WordPress. You can easily create a full-featured online radio directory website.',
-		'image'       => get_template_directory_uri() . '/assets/images/products/wp-radio/wp-radio-illustration.png',
-		'logo'        => get_template_directory_uri() . '/assets/images/products/wp-radio/wp-radio.png',
-		'features'    => [
-			[
-				'title' => 'Radio Stations Listing',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon1.png',
-			],
+	// 'wp-radio'               => [
+	// 	'name'        => '<span>WP Radio</span>',
+	// 	'title'       => '<span>Worldwide</span> Online Radio Stations Directory for WordPress',
+	// 	'description' => 'WP Radio is a worldwide online radio stations directory plugin for WordPress. You can easily create a full-featured online radio directory website.',
+	// 	'image'       => get_template_directory_uri() . '/assets/images/products/wp-radio/wp-radio-illustration.png',
+	// 	'logo'        => get_template_directory_uri() . '/assets/images/products/wp-radio/wp-radio.png',
+	// 	'features'    => [
+	// 		[
+	// 			'title' => 'Radio Stations Listing',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon1.png',
+	// 		],
 
-			[
-				'title' => 'Radio Stations Importer',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon2.png',
-			],
+	// 		[
+	// 			'title' => 'Radio Stations Importer',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon2.png',
+	// 		],
 
-			[
-				'title' => 'Add Unlimited Radio Stations',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon3.png',
-			],
+	// 		[
+	// 			'title' => 'Add Unlimited Radio Stations',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon3.png',
+	// 		],
 
-			[
-				'title' => 'Custom Sticky Player',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon4.png',
-			],
+	// 		[
+	// 			'title' => 'Custom Sticky Player',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon4.png',
+	// 		],
 
-			[
-				'title' => 'Easy Stations Search',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon5.png',
-			],
+	// 		[
+	// 			'title' => 'Easy Stations Search',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon5.png',
+	// 		],
 
-			[
-				'title' => 'City Region List',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon6.png',
-			],
+	// 		[
+	// 			'title' => 'City Region List',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon6.png',
+	// 		],
 
-			[
-				'title' => 'Current Song Title',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon7.png',
-			],
+	// 		[
+	// 			'title' => 'Current Song Title',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon7.png',
+	// 		],
 
-			[
-				'title' => 'Mobile Media Notification',
-				'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon8.png',
-			],
+	// 		[
+	// 			'title' => 'Mobile Media Notification',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products/wp-radio/radio-feat-icon8.png',
+	// 		],
 
-		]
-	],
+	// 	]
+	// ],
 
-	'reader-mode' => [
-		'name'        => 'Reader Mode',
-		'title'       => 'Distraction-Free Content Reader',
-		'description' => 'Reader Mode Plugin adds a distraction-free reading experience for users by stripping away clutter and unnecessary elements from the post content.',
-		'image'       => get_template_directory_uri() . '/assets/images/products//reader-mode/reader-mode.png',
-		'logo'        => get_template_directory_uri() . '/assets/images/products//reader-mode/logo.png',
-		'features'    => [
-			[
-				'title' => 'Reader Mode layout',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/layout.png',
-			],
+	// 'reader-mode' => [
+	// 	'name'        => 'Reader Mode',
+	// 	'title'       => 'Distraction-Free Content Reader',
+	// 	'description' => 'Reader Mode Plugin adds a distraction-free reading experience for users by stripping away clutter and unnecessary elements from the post content.',
+	// 	'image'       => get_template_directory_uri() . '/assets/images/products//reader-mode/reader-mode.png',
+	// 	'logo'        => get_template_directory_uri() . '/assets/images/products//reader-mode/logo.png',
+	// 	'features'    => [
+	// 		[
+	// 			'title' => 'Reader Mode layout',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/layout.png',
+	// 		],
 
-			[
-				'title' => 'Reading Time',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/time.png',
-			],
+	// 		[
+	// 			'title' => 'Reading Time',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/time.png',
+	// 		],
 
-			[
-				'title' => 'Translation',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/transiation.png',
-			],
+	// 		[
+	// 			'title' => 'Translation',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/transiation.png',
+	// 		],
 
 
-			[
-				'title' => 'Text to Speech',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/speech.png',
-			],
+	// 		[
+	// 			'title' => 'Text to Speech',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/speech.png',
+	// 		],
 
-			[
-				'title' => 'Multiple Buttons & Styles',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/multiple.png',
-			],
+	// 		[
+	// 			'title' => 'Multiple Buttons & Styles',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/multiple.png',
+	// 		],
 
-			[
-				'title' => 'Multiple Display Positions',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/display.png',
-			],
+	// 		[
+	// 			'title' => 'Multiple Display Positions',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/display.png',
+	// 		],
 
-			[
-				'title' => 'Light/ Dark Mode Theme',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/light-dark.png',
-			],
+	// 		[
+	// 			'title' => 'Light/ Dark Mode Theme',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/light-dark.png',
+	// 		],
 
-			[
-				'title' => 'Reading Progress Bar',
-				'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/reading.png',
-			],
-		]
-	],
+	// 		[
+	// 			'title' => 'Reading Progress Bar',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//reader-mode/reading.png',
+	// 		],
+	// 	]
+	// ],
 ];
 
 ?>

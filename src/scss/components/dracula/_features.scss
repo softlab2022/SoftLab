@@ -238,8 +238,9 @@
         }
         &:hover {
             background: rgba(14, 12, 52, 0.556);
-            box-shadow: 9px 10px 3px rgba(159, 153, 227, 0.14);
+            // box-shadow: 9px 10px 3px rgba(159, 153, 227, 0.14);
             border-radius: 20px;
+            transition: all linear .4s;
       
             img {
               transform: translateY(-8px);

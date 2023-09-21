@@ -84,9 +84,9 @@ $tabs = [
                     $products = [
                         'integrate-google-drive' => 'Integrate Google Drive',
                         'radio-player'           => 'Radio Player',
-                        'wp-radio'               => 'WP Radio',
+                        // 'wp-radio'               => 'WP Radio',
                         'dracula-dark-mode'            => 'Dracula Dark Mode',
-                        'reader-mode'            => 'Reader Mode',
+                        // 'reader-mode'            => 'Reader Mode',
                     ];
                     ?>
 

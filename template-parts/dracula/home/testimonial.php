@@ -27,6 +27,22 @@ $testimonials = [
         'names'        => 'DarkMySite',
         'designation' => 'Web Developer',
     ],
+    [
+        'title'       => 'The only one that worked flawlesly on the front-end',
+        'description' => 'I have tested all the dark mode plugins available on WordPress.org with my theme. None of them worked perfectly and demanded all kinds of changes in the theme code to work. Bummer.Dracula was the only one that worked instantly, simply by activating it. I was amazed and will recommend it to all my clients from now on.',
+        'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/marcio.jpeg',
+        'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
+        'names'        => 'Márcio Duarte',
+        'designation' => 'Web Developer',
+    ],
+    [
+        'title'       => 'Great Plug-in!!!!',
+        'description' => 'This is a great plug in because it just works and on the theme I am using it does not mess up my nav menu colors or header image and title the way other dark mode plug-ins do. The only minor item would be that I suggest they put the toggle switch size variations in the free version rather than the paid. That suggestion is only because the Custom CSS needed to override the size of the toggle is almost trivial. I am no expert and 5 minutes in the browser dev tools and my toggle switch in my menu was a more reasonable smaller size so that it did not expand the height of my nav bar. Given how easy to override, there is no point hiding that feature behind the paid version. Still, if that is my only issue, then it is not a detractor. This is the first plug-in I have written a review on but the 5 stars is well deserved because there are so few decent themes that have dark mode built in and I had about given up on including dark mode because my preferred theme doesn’t support it natively.',
+        'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/edfhinton.png',
+        'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
+        'names'        => 'edfhinton',
+        'designation' => 'Web Developer',
+    ],
 
 
 ];

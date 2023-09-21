@@ -13,17 +13,17 @@ $products = [
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/radio-icon.png',
 	],
 
-	'wp-radio'               => [
-		'title'       => 'WP Radio',
-		'description' => 'WP Radio is a WordPress plugin that allows you to create a radio station with a custom player.',
-		'image'       => get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png',
-	],
+	// 'wp-radio'               => [
+	// 	'title'       => 'WP Radio',
+	// 	'description' => 'WP Radio is a WordPress plugin that allows you to create a radio station with a custom player.',
+	// 	'image'       => get_template_directory_uri() . '/assets/images/home/products/wp-radio-icon.png',
+	// ],
 
-	'reader-mode'               => [
-		'title'       => 'Reader Mode',
-		'description' => 'Reader Mode Plugin adds a distraction-free reading experience for users by stripping away clutter and unnecessary elements from the post content.',
-		'image'       => get_template_directory_uri() . '/assets/images/home/products/reader-mode.png',
-	],
+	// 'reader-mode'               => [
+	// 	'title'       => 'Reader Mode',
+	// 	'description' => 'Reader Mode Plugin adds a distraction-free reading experience for users by stripping away clutter and unnecessary elements from the post content.',
+	// 	'image'       => get_template_directory_uri() . '/assets/images/home/products/reader-mode.png',
+	// ],
 
 	'dracula-dark-mode'               => [
 		'title'       => 'Dracula Dark Mode',

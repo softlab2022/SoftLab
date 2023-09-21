@@ -17,6 +17,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/default.png" alt="" class="img-fluid">
@@ -24,6 +25,7 @@
                     <p>Default Dark Mode resource pack is unlike most of the other resource packs that you've stumbled upon</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/performance.png" alt="" class="img-fluid">
@@ -31,6 +33,7 @@
                     <p>Performance mode adjusts the power settings of your tablet to deliver maximum performance.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/dashbord.png" alt="" class="img-fluid">
@@ -38,6 +41,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/custom-button.png" alt="" class="img-fluid">
@@ -45,6 +49,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/custom-button-position.png" alt="" class="img-fluid">
@@ -52,6 +57,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/typography.png" alt="" class="img-fluid">
@@ -59,6 +65,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/exclude.png" alt="" class="img-fluid">
@@ -66,6 +73,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/pages-posts.png" alt="" class="img-fluid">
@@ -73,6 +81,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/custom-css.png" alt="" class="img-fluid">
@@ -80,6 +89,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/cookie.png" alt="" class="img-fluid">
@@ -87,6 +97,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/wide.png" alt="" class="img-fluid">
@@ -94,6 +105,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/export-import.png" alt="" class="img-fluid">
@@ -101,6 +113,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/time-based.png" alt="" class="img-fluid">
@@ -108,6 +121,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/url-parameter.png" alt="" class="img-fluid">
@@ -115,6 +129,7 @@
                     <p>The radio station player can display the currently playing song title.</p>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/draggable-switch.png" alt="" class="img-fluid">
@@ -123,11 +138,43 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 m-auto">
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/keyboard-shortcut.png" alt="" class="img-fluid">
                     <h3>Keyboard Shortcut</h3>
                     <p>Dracula Dark Mode allows users to switch between light and dark mode using the keyboard shortcut (Ctrl + Shift + D).</p>
+                </div>
+            </div> 
+
+            <div class="col-lg-3 col-md-6 m-auto">
+                <div class="feature-item text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/gutenberg-toggle-switch-block.png" alt="" class="img-fluid">
+                    <h3>Gutenberg Dark Mode Toggle Switch Block</h3>
+                    <p>Embed a dark mode switch directly within the Gutenberg editor for easy reader access.</p>
+                </div>
+            </div> 
+            
+            <div class="col-lg-3 col-md-6 m-auto">
+                <div class="feature-item text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/elementor-toggle-switch-block.png" alt="" class="img-fluid">
+                    <h3>Elementor Dark Mode Toggle Switch Block</h3>
+                    <p>Add a dark mode toggle to your Elementor designs effortlessly.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 m-auto">
+                <div class="feature-item text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/dark-mode-page-transition-animation.png" alt="" class="img-fluid">
+                    <h3>Dark Mode Page Transition Animation</h3>
+                    <p>Smooth and stylish transitions when switching between dark and light modes.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 ">
+                <div class="feature-item text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/toggle-switch-attention-effect.png" alt="" class="img-fluid">
+                    <h3>Toggle Switch Attention Effect</h3>
+                    <p>Eye-catching effects on the toggle, ensuring users notice the dark mode option.</p>
                 </div>
             </div>
             

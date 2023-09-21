@@ -79,8 +79,8 @@
 			$products = [
 				'integrate-google-drive' => 'Integrate Google Drive',
 				'radio-player'           => 'Radio Player',
-				'wp-radio'               => 'WP Radio',
-				'reader-mode'            => 'Reader Mode',
+				// 'wp-radio'               => 'WP Radio',
+				// 'reader-mode'            => 'Reader Mode',
 				'dracula-dark-mode'            => 'Dracula Dark Mode',
 			];
 			?>
