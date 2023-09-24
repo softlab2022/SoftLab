@@ -38,7 +38,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 feature-image-feat">
+            <div class="col-lg-6 col-md-6 feature-image-right feature-image-feat">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/admin-dashbord-dark-mode.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -78,7 +78,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 feature-image-feat">
+            <div class="col-lg-6 col-md-6 feature-image-right feature-image-feat">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/14+toggle-button-style.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -119,7 +119,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 feature-image-feat">
+            <div class="col-lg-6 col-md-6 feature-image-right feature-image-feat">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -147,7 +147,7 @@
         </div>
 
         <!--==== Page Wise Dark Mode =====--->
-        <div class="row dark-mode align-items-center ">
+        <div class="row dark-mode color-adjustments align-items-center ">
 
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
@@ -162,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 feature-image-feat">
+            <div class="col-lg-6 col-md-6 feature-image-right feature-image-feat">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/dark-mode-usage-analytics.png" alt="" class="img-fluid">
             </div>
 
@@ -172,7 +172,7 @@
         </div>
 
         <!--==== Color Adjustments =====--->
-        <div class="row dark-mode color-adjustments align-items-center flex-md-row">
+        <div class="row dark-mode  align-items-center flex-md-row">
             <div class="col-lg-6 col-md-6 more-feat-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/color-adjustments.png" alt="" class="img-fluid">
             </div>
@@ -193,7 +193,7 @@
         </div>
 
         <!--==== Auto Match OS Theme =====--->
-        <div class="row dark-mode align-items-center">
+        <div class="row dark-mode color-adjustments align-items-center">
 
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
@@ -209,14 +209,14 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 more-feat-img">
+            <div class="col-lg-6 col-md-6 feature-image-right more-feat-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/auto-match-os-theme.png" alt="" class="img-fluid">
             </div>
 
         </div>
 
         <!--==== Floating Dark Mode Toggle Button =====--->
-        <div class="row dark-mode color-adjustments align-items-center flex-md-row">
+        <div class="row dark-mode align-items-center flex-md-row">
             <div class="col-lg-6 col-md-6 more-feat-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/floating-dark-mode.png" alt="" class="img-fluid">
             </div>
@@ -237,7 +237,7 @@
         </div>
 
         <!--==== Display Toggle Button In Menu =====--->
-        <div class="row dark-mode align-items-center flex-md-row">
+        <div class="row dark-mode color-adjustments align-items-center flex-md-row">
 
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
@@ -253,13 +253,13 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 more-feat-img">
+            <div class="col-lg-6 col-md-6 feature-image-right more-feat-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/display-toggle-button-menu.png" alt="" class="img-fluid">
             </div>
         </div>
 
         <!--==== Image & Video Replacements =====--->
-        <div class="row dark-mode color-adjustments align-items-center flex-md-row">
+        <div class="row dark-mode  align-items-center flex-md-row">
             <div class="col-lg-6 col-md-6 more-feat-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/imageandvideo.png" alt="" class="img-fluid">
             </div>
@@ -280,7 +280,7 @@
         </div>
 
         <!--==== Gutenberg  & Classic Editor Compatibility =====--->
-        <div class="row dark-mode align-items-center  flex-md-row">
+        <div class="row dark-mode color-adjustments  align-items-center  flex-md-row">
 
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
@@ -296,7 +296,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 more-feat-img">
+            <div class="col-lg-6 col-md-6 feature-image-right more-feat-img">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/gutenberg.png" alt="" class="img-fluid">
             </div>
         </div>
@@ -310,7 +310,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-css-icon.png" alt="" class="img-fluid">
-                    <h3>Custom Css</h3>
+                    <h3>Custom CSS</h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="more-feat-img-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/custom-css.png" alt="" class="img-fluid">

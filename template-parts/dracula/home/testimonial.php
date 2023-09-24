@@ -28,7 +28,7 @@ $testimonials = [
         'designation' => 'Web Developer',
     ],
     [
-        'title'       => 'The only one that worked flawlesly on the front-end',
+        'title'       => 'The only one that worked flawlesly',
         'description' => 'I have tested all the dark mode plugins available on WordPress.org with my theme. None of them worked perfectly and demanded all kinds of changes in the theme code to work. Bummer.Dracula was the only one that worked instantly, simply by activating it. I was amazed and will recommend it to all my clients from now on.',
         'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/marcio.jpeg',
         'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',

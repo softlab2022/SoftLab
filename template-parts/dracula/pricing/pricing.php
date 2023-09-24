@@ -328,12 +328,7 @@ $pro_features = [
 
                                 <div class="price-features align-items-center">
 
-                                    <?php foreach ($elite_features as $feature) { ?>
-                                        <div class="feature-item">
-                                            <i class="fa-solid fa-check"></i>
-                                            <span><?php echo $feature; ?></span>
-                                        </div>
-                                    <?php } ?>
+                                    
                                 </div>
 
                                 <a href="#" class=" buy-btn buy-btn-elite">Purchase Now</a>

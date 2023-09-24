@@ -1,7 +1,7 @@
 <section id="solution">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 m-auto">
+            <div class="col-lg-10 m-auto">
                 <div class="section-head text-center">
                     <h1>Unlock The Benefits of Integration Our <br> <span>Dark Mode</span> plugin.</h1>
                     <p>Explore the reasons why website owners should consider implementing our Dark Mode solution</p>
