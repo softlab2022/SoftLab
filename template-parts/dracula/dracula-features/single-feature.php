@@ -118,7 +118,7 @@
                 <div class="feature-item text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/single-feature/time-based.png" alt="" class="img-fluid">
                     <h3>Time based dark mode</h3>
-                    <p>Dracula Dark Mode allows to schedule the dark mode based on the time of the day. This feature can be useful for users who prefer dark mode during nighttime hours and switch back to light mode during daytime hours</p>
+                    <p>Dracula Dark Mode allows to schedule the dark mode based on the time of the day.</p>
                 </div>
             </div>
 

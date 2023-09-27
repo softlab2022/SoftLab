@@ -2961,6 +2961,9 @@
         &.type-pro {
           display: flex;
           align-items: center;
+          img {
+            margin-right: 10px;
+          }
         }
 
         &.type-free {
@@ -3068,11 +3071,8 @@
 
       .accordion-body {
         border-top: 1px solid #5C637E;
-        .description {
+        .descriptions {
           color: #fff;
-          margin-bottom: 20px;
-        }
-        .description {
           margin-bottom: 20px;
         }
 

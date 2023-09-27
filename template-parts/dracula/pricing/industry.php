@@ -5,7 +5,7 @@
             <div class="col-lg-8 m-auto">
                 <div class="industry-head text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/pricing/indu.png" alt="" class="img-fluid">
-                    <h2>14-day money back guarantee with industry leading 24/7 support</h2>
+                    <h2>7-day money back guarantee </h2>
                     <p>We guarantee 100% satisfaction with our help & support service. However, If you have any bug/issues with our plugin, and we are unable to resolve the issue, We’ll happily refund full amount of your money within 7-day of your purchase.</p>
                 </div>
             </div>
