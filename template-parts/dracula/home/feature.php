@@ -124,7 +124,7 @@
             </div>
         </div>
 
-        <!--==== Page Wise Dark Mode =====--->
+        <!--==== Page-Specific Dark Mode Appearance =====--->
         <div class="row dark-mode align-items-center ">
             <div class="col-lg-6 col-md-6 feature-image-feat">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
@@ -132,7 +132,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Page Wise <span>Dark Mode</span></h3>
+                    <h3>Page-Specific <span>Dark Mode</span> Appearance</h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-image-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
@@ -146,7 +146,7 @@
 
         </div>
 
-        <!--==== Page Wise Dark Mode =====--->
+        <!--==== Dark Mode Usage Analytics =====--->
         <div class="row dark-mode color-adjustments align-items-center ">
 
             <div class="col-lg-6 col-md-6">

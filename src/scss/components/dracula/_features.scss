@@ -198,7 +198,7 @@
 #single-feature {
     padding-bottom: 100px;
     .section-head {
-        h1 {
+        h2 {
             font-weight: 700;
             font-size: 3rem;
             line-height: 120%;
@@ -217,9 +217,9 @@
         background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
         backdrop-filter: blur(60px);
         border: 1px solid #5A5B77;
-        padding: 30px 23px;
+        padding: 28px 19px;
         margin-bottom: 20px;
-        height: 250px;
+        height: 270px;
         border-radius: 20px;
         transition: all linear .4s;
         h3 {
@@ -273,7 +273,7 @@
     @media (min-width: 768px) and (max-width: 991px) {
         padding-bottom: 50px;
         .section-head {
-            h1 {
+            h2 {
                 font-size: 2rem;
             }
         }
@@ -281,7 +281,7 @@
     @media (max-width: 767px) {
         padding-bottom: 0;
         .section-head {
-            h1 {
+            h2 {
                 font-size: 1.5rem;
             }
             p {

@@ -55,7 +55,7 @@ $testimonials = [
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="section-head text-center">
-                    <h1>What People Think About Our <span>Dark Mode</span> solution </h1>
+                    <h1> What People Think About <span>Dracula Dark Mode </span></h1>
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                 </div>
             </div>

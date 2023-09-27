@@ -330,58 +330,69 @@ $features = [
 	'frontend' => [
 		'title'       => 'Frontend Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/4DEidfYhb08?si=hbPwoBCrfhNQ5BrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'description' => 'Frontend dark mode refers to the implementation of a dark color scheme on a website frontend while users interact. This feature is highly beneficial for the users, offering them a comfortable viewing experience',
 		'pro'         => true,
 	],
 	'backend' => [
 		'title'       => 'Backend Dark Mode',
-		'video'       => 'Frontend dark mode refers to the implementation of a dark color scheme on a website backend while admins and moderators interact. This feature is highly beneficial for the admins, moderators, and users offering a comfortable viewing experience',
+		'video'       => '',
+		'description' => 'Frontend dark mode refers to the implementation of a dark color scheme on a website backend while admins and moderators interact. This feature is highly beneficial for the admins, moderators, and users offering a comfortable viewing experience',
 		'pro'         => true,
 	],
 	'admin' => [
 		'title'       => 'Admin Dashboard Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/qOuFxLoinuE?si=iE23R-1pIRBgRfwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Dracula Dark Mode also allows site administrators to seamlessly enable dark mode for their admin dashboard. This provides a consistent look and feel and also help to reduce eye strain when working in the admin dashboard',
 		'pro'         => true,
 	],
 	'os' => [
 		'title'       => 'OS-based color mode',
-		'video'       => 'Dracula Dark Mode automatically detect user’s device theme and enable website them to match the user device. Users who prefer dark mode will appreciate the effortless transition and consistent experience',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode automatically detect user’s device theme and enable website them to match the user device. Users who prefer dark mode will appreciate the effortless transition and consistent experience',
 		'pro'         => true,
 	],
 	'default' => [
 		'title'       => 'Default Dark Mode',
-		'video'       => 'Dracula Dark Mode lets you set the dark mode as your websites default theme. Thus, first-time visitors will experience the site in dark mode',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode lets you set the dark mode as your websites default theme. Thus, first-time visitors will experience the site in dark mode',
 		'pro'         => true,
 	],
 	'performance' => [
 		'title'       => 'Performance Mode',
-		'video'       => 'The Performance Mode feature enhances websites loading speed by deferring script loading, reducing initial page load times
-		',
+		'video'       => '',
+		'description' => 'The Performance Mode feature enhances websites loading speed by deferring script loading, reducing initial page load times',
 		'Pro'       => false,
 	],
 
 	'toggle' => [
 		'title'       => 'Custom Toggle Button Builder',
-		'video'       => '',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lpx0ndyYoZ8?si=vMagX4_nVkH3-ScD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'description' => '
+		Dracula Dark Mode provides a custom toggle button builder that gives you the ability to create your own customized dark mode toggle button. The Custom Toggle Button builder allows you to create a unique toggle switch button that fits seamlessly with your websites design and branding',
 		'Pro'       => false,
 	],
 	'toggle' => [
 		'title'       => 'Toggle Button Size Customization',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lE7i66t_7Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Dracula Dark Mode allows you to customize the dark mode toggle button size as small, normal, large or even in a custom width and height of the button',
 		'Pro'       => false,
 	],
 	'draggable' => [
 		'title'       => 'Draggable Floating Switch',
-		'video'       => 'You can also enable the draggable switch option to allow users to drag the floating dark mode toggle button to the desired position on the screen',
+		'video'       => '',
+		'description' => 'You can also enable the draggable switch option to allow users to drag the floating dark mode toggle button to the desired position on the screen',
 		'Pro'       => false,
 	],
 	'custom-toggle-switch' => [
 		'title'       => 'Custom Toggle Switch Positions',
-		'video'       => 'You can also set the custom position for the dark mode toggle button as on the left, right, or even can place the toggle button in a specific location on the site for easy access',
+		'video'       => '',
+		'description' => 'You can also set the custom position for the dark mode toggle button as on the left, right, or even can place the toggle button in a specific location on the site for easy access',
 		'Pro'       => false,
 	],
 	'switch' => [
 		'title'       => 'Dark mode switch in the menu',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/jt_HF466KPM?si=oAWvXYXVWxuL_vi-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Dracula Dark Mode also offers to display dark mode the toggle button in the website navigation menu so that users can easily enable dark mode from the menu',
 		'Pro'       => false,
 	],
 	// 'custom-position' => [
@@ -391,148 +402,178 @@ $features = [
 	// ],
 	'specific' => [
 		'title'       => 'Dashboard Dark Mode for <br> Specific User Roles',
-		'video'       => 'You can allow other users to use the dark mode color scheme on their backend admin dashboard by selectively certain user roles such as: Administrator, Editor, Author etc',
+		'video'       => '',
+		'description' => 'You can allow other users to use the dark mode color scheme on their backend admin dashboard by selectively certain user roles such as: Administrator, Editor, Author etc',
 		'Pro'       => false,
 	],
 	'darkmode-animation' => [
 		'title'       => 'Toggle Switch Attention Effect',
-		'video'       => 'Eye-catching effects on the toggle, ensuring users notice the dark mode option',
+		'video'       => '',
+		'description' => 'Eye-catching effects on the toggle, ensuring users notice the dark mode option',
 		'Pro'       => false,
 	],
 	'time-based' => [
 		'title'       => 'Time Based dark mode',
-		'video'       => 'Dracula Dark Mode allows to schedule the dark mode based on the time of the day. This feature can be useful for users who prefer dark mode during nighttime hours and switch back to light mode during daytime hours',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode allows to schedule the dark mode based on the time of the day. This feature can be useful for users who prefer dark mode during nighttime hours and switch back to light mode during daytime hours',
 		'pro'         => true,
 	],
 	'page-wish' => [
 		'title'       => 'Page Specific Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/OZfn_4tiq9o?si=uhXzBMQfgZnU2TVt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'You can allow other users to use the dark mode color scheme on their backend admin dashboard by selectively certain user roles such as: Administrator, Editor, Author etc',
 		'Pro'       => false,
 	],
 	'custom-text-color' => [
 		'title'       => 'Custom Switch Text & Color',
-		'video'       => 'Dracula Dark Mode provides a custom toggle switch builder that gives you the ability to customize custom switch text, colors and many others',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode provides a custom toggle switch builder that gives you the ability to customize custom switch text, colors and many others',
 		'Pro'       => false,
 	],
 	'ready-mode' => [
 		'title'       => 'Ready-made color schema',
-		'video'       => 'Dracula Dark Mode use an AI-powered algorithm to effortlessly create a dark mode color scheme for your website. Additionally, the plugin offers 24+ popular color presets, with the flexibility to customize your own palette',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode use an AI-powered algorithm to effortlessly create a dark mode color scheme for your website. Additionally, the plugin offers 24+ popular color presets, with the flexibility to customize your own palette',
 		'pro'         => true,
 	],
 	'save-user' => [
 		'title'       => 'Save User Choice',
-		'video'       => 'If any user chooses dark mode on their last visit to your website the plugin will remember their preference and automatically load the same mode when they visit the website again',
+		'video'       => '',
+		'description' => 'If any user chooses dark mode on their last visit to your website the plugin will remember their preference and automatically load the same mode when they visit the website again',
 		'pro'         => true,
 	],
 	'live-edit' => [
 		'title'       => 'Dark Mode Live Edit Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/cUizkL-VX3k?si=aoXMiRKpcO3rXIg7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Dark Mode plugin features a live edit widget to instantly adjust and see settings like colors, buttons, and typography. Skip back-end edits and easily exclude elements or replace images. Its a real-time view that saves you time',
 		'Pro'       => false,
 	],
 	'color-adjust' => [
 		'title'       => 'Color Adjustment',
-		'video'       => 'Dracula Dark Mode offers color adjustment options for its dark mode theme, including brightness, contrast, sepia and grayscale. To insure perfect match of the dark theme is with your website design',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode offers color adjustment options for its dark mode theme, including brightness, contrast, sepia and grayscale. To insure perfect match of the dark theme is with your website design',
 		'Pro'       => false,
 	],
 	'dynamic-colors' => [
 		'title'       => ' AI Powered Color',
-		'video'       => 'This advanced AI-driven feature intuitively determines the best dark mode color scheme for your website, eliminating complex configurations. Its not just about looks — its about smart design.',
+		'video'       => '',
+		'description' => 'This advanced AI-driven feature intuitively determines the best dark mode color scheme for your website, eliminating complex configurations. Its not just about looks — its about smart design.',
 		'Pro'       => false,
 	],
 	'custom-color' => [
 		'title'       => 'Custom Colors',
-		'video'       => 'Dracula Dark Mode allows custom color customization for both dark mode and light mode. This feature will let customize what your eye wants',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode allows custom color customization for both dark mode and light mode. This feature will let customize what your eye wants',
 		'Pro'       => false,
 	],
 	'presets' => [
 		'title'       => 'Presets',
-		'video'       => 'The Dracula Dark Mode plugin offers 24+ popular color presets (including dark mode and light mode), with the flexibility to customize your own palette.',
+		'video'       => '',
+		'description' => 'The Dracula Dark Mode plugin offers 24+ popular color presets (including dark mode and light mode), with the flexibility to customize your own palette.',
 		'Pro'       => false,
 	],
 	'typography' => [
 		'title'       => 'Dark Mode Based Typography',
-		'video'       => 'Dracula Dark Mode allows you to set a different font family with a customized font size when dark mode is enabled to improve readability and legibility of their website',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode allows you to set a different font family with a customized font size when dark mode is enabled to improve readability and legibility of their website',
 		'Pro'       => false,
 	],
 
 	'background-image' => [
 		'title'       => 'Darken Background Images',
-		'video'       => 'Dracula Dark Mode allows having darken background images for a eye-safety viewing experience',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode allows having darken background images for a eye-safety viewing experience',
 		'pro'         => true,
 	],
 	'low-brightness' => [
 		'title'       => 'Low Brightness Images',
-		'video'       => 'Dracula Dark Mode allows customizing image brightness. Also you can enable low brightness images to automatically reduce the image brightness',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode allows customizing image brightness. Also you can enable low brightness images to automatically reduce the image brightness',
 		'pro'         => true,
 	],
 	'multiple' => [
 		'title'       => 'Multiple switches',
-		'video'       => 'Dracula Dark Mode offers a floating dark mode toggle button with 14+ attractive styles that allows users to easily switch between the light and dark modes',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode offers a floating dark mode toggle button with 14+ attractive styles that allows users to easily switch between the light and dark modes',
 		'pro'         => true,
 	],
 	'grayscale' => [
 		'title'       => 'Grayscale Images',
-		'video'       => 'Dracula Dark Mode offers Grayscale Image enabling feature. This feature will give extra grayscale effect to images',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode offers Grayscale Image enabling feature. This feature will give extra grayscale effect to images',
 		'pro'         => true,
 	],
 	'invert' => [
 		'title'       => 'Invert Images',
-		'video'       => 'Dracula Dark Mode offers invert image facility. This facility allows inverting any images via settings page or live dark mode edit',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode offers invert image facility. This facility allows inverting any images via settings page or live dark mode edit',
 		'pro'         => true,
 	],
 	'replacement' => [
 		'title'       => 'Image Replacement',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GhDguYi0w_s?si=mHV6hJMhSddFcCmK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Sometimes all the images don’t look better in dark mode and you might want to replace them in dark mode. Dracula Dark Mode lets you replace the light-mode images with different images in dark mode',
 		'Pro'       => false,
 	],
 	'logo-suport' => [
 		'title'       => 'Dark mode logo support',
-		'video'       => 'As like image and video replacement you might need to replace logo in the dark mode. Dracula Dark Mode allows you to do so as well',
+		'video'       => '',
+		'description' => 'As like image and video replacement you might need to replace logo in the dark mode. Dracula Dark Mode allows you to do so as well',
 		'pro'         => true,
 	],
 	'image-support' => [
 		'title'       => 'Dark mode based Image Support',
-		'video'       => 'Dark Mode Based Image Support feature lets you set different image for dark mode. Also you can customize light mode images and turn them dark mode',
+		'video'       => '',
+		'description' => 'Dark Mode Based Image Support feature lets you set different image for dark mode. Also you can customize light mode images and turn them dark mode',
 		'Pro'       => false,
 	],
 	'video-support' => [
 		'title'       => 'Dark mode based Video Support',
-		'video'       => 'As like images Dracula Dark Mode allows you to customize Dark Mode Based Video Support for any kind of videos',
+		'video'       => '',
+		'description' => 'As like images Dracula Dark Mode allows you to customize Dark Mode Based Video Support for any kind of videos',
 		'Pro'       => false,
 	],
 	'popular-page' => [
 		'title'       => 'Popular page builder support',
-		'video'       => 'Dracula Dark Mode supports mostly popular page builders like Elementor, Divi, Avada and more others',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode supports mostly popular page builders like Elementor, Divi, Avada and more others',
 		'pro'         => true,
 	],
 	'classic-editor' => [
 		'title'       => 'Classic Editor Compatibility',
-		'video'       => 'Dracula Dark Mode is designed to be compatible with the classic editor. This can be a great way to make the editing experience more comfortable for users, especially for those who spend a lot of time editing and creating content in WordPress classic editor',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode is designed to be compatible with the classic editor. This can be a great way to make the editing experience more comfortable for users, especially for those who spend a lot of time editing and creating content in WordPress classic editor',
 		'pro'         => true,
 	],
 	'gutenberg' => [
 		'title'       => 'Gutenberg Editor Compatibility',
-		'video'       => 'Dracula Dark Mode is designed to be compatible with the Gutenberg Editor. This can be a great way to make the editing experience more comfortable for users, especially for those who spend a lot of time editing and creating content in WordPress Gutenberg Editor',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode is designed to be compatible with the Gutenberg Editor. This can be a great way to make the editing experience more comfortable for users, especially for those who spend a lot of time editing and creating content in WordPress Gutenberg Editor',
 		'pro'         => true,
 	],
 	'woocommerce' => [
 		'title'       => 'WooCommerce Compatibility',
-		'video'       => 'Dracula Dark Mode is designed to be compatible with the WooCommerce. This can be a great compatibility for WooCommerce users to enjoy dark mode WooCommerce interface',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode is designed to be compatible with the WooCommerce. This can be a great compatibility for WooCommerce users to enjoy dark mode WooCommerce interface',
 		'pro'         => true,
 	],
 	'wide-theme' => [
 		'title'       => 'Wide Themes & Plugins Compatibility',
-		'video'       => 'Dracula Dark Mode is highly compatible with wide number of thems and plugins. This gives flexiblity for user to enjoy dark mode whatever theme or plugin they are using',
+		'video'       => '',
+
+		'description' => 'Dracula Dark Mode is highly compatible with wide number of thems and plugins. This gives flexiblity for user to enjoy dark mode whatever theme or plugin they are using',
 		'pro'         => true,
 	],
 	'button-shortcode' => [
 		'title'       => 'Toggle Button Shortcode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/sIa0FwVr-gc?si=DWAn0L7UbP1hALEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'You can display the dark mode toggle button anywhere on your website using the [dracula_toggle] shortcode',
 		'pro'         => true,
 	],
 	'keybord' => [
 		'title'       => 'Keybord Shortcut',
-		'video'       => 'Dracula Dark Mode allows users to switch between light and dark mode using the keyboard shortcut `(Ctrl + Alt + D)`',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode allows users to switch between light and dark mode using the keyboard shortcut `(Ctrl + Alt + D)`',
 		'pro'         => true,
 	],
 	'custom-css' => [
@@ -542,27 +583,32 @@ $features = [
 	],
 	'include' => [
 		'title'       => 'Include Elements, Pages & Posts',
-		'video'       => 'Include any elements, pages or posts to be turned into dark mode. This can be handy if you want to include specific elements, pages or posts to be enabled in dark mode',
+		'video'       => '',
+		'description' => 'Include any elements, pages or posts to be turned into dark mode. This can be handy if you want to include specific elements, pages or posts to be enabled in dark mode',
 		'pro'         => true,
 	],
 	'exclude' => [
 		'title'       => 'Excludes Elements, Pages & Posts',
-		'video'       => 'Exclude any elements, pages or posts not to be turned into dark mode. This can be handy if you want to exclude specific elements, pages or posts not to be turned in dark mode',
+		'video'       => '',
+		'description' => 'Exclude any elements, pages or posts not to be turned into dark mode. This can be handy if you want to exclude specific elements, pages or posts not to be turned in dark mode',
 		'Pro'       => false,
 	],
 	'export-import' => [
 		'title'       => 'Export, Import, Reset Settings',
-		'video'       => 'Dracula Dark Mode have the option to export, import or reset the whole settings and further optimize them if necessary',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode have the option to export, import or reset the whole settings and further optimize them if necessary',
 		'pro'         => true,
 	],
 	'email-report' => [
 		'title'       => 'Usage Analytics & Email Report',
-		'video'       => 'Dracula Dark Mode provides a detailed usage analytics report that allows you to track the number of users who use the dark mode, how many times the dark mode is enabled/ disabled, and many other useful information',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode provides a detailed usage analytics report that allows you to track the number of users who use the dark mode, how many times the dark mode is enabled/ disabled, and many other useful information',
 		'Pro'       => false,
 	],
 	'works-all-devices' => [
 		'title'       => 'Works on all devices',
-		'video'       => 'Dracula Dark Mode has been developed to be compatible with all devices (PC, Laptop, Smartphone, Tablet, Smart TV and others)',
+		'video'       => '',
+		'description' => 'Dracula Dark Mode has been developed to be compatible with all devices (PC, Laptop, Smartphone, Tablet, Smart TV and others)',
 		'pro'         => true,
 	],
 ];
@@ -612,7 +658,9 @@ $features = [
 								<div class="accordion-body">
 									<div class="row">
 										<div class="col-lg-12">
-
+											<div class="description">
+												<?php echo $feature['description']; ?>
+											</div>
 											<div class="video">
 												<?php echo $feature['video']; ?>
 											</div>
@@ -627,7 +675,7 @@ $features = [
 			</div>
 		</div>
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-lg-8 m-auto">
 				<div class="row align-items-center compare-footer">
 
@@ -658,7 +706,7 @@ $features = [
 
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 
 

@@ -1,32 +1,38 @@
 <?php
 
 $basic_features = [
+    'AI-Powered Color Generator',
     'Frontend Dark Mode',
+    'Admin Dashboard Dark Mode',
     'Default Dark Mode',
     'Auto Match OS-Theme',
-    'Dynamic Color Scheme',
     'Floating Dark Mode Toggle Button',
-    'Toggle Button Shortcode',
-    'Admin Dashboard Dark Mode',
+    'Display Toggle Button in Menu',
+    'Color Adjustments',
     'Classic Editor & Block Editor Compatibility',
+    'Toggle Button Size Customization',
+    'Toggle Button Position Customization',
+    'Gutenberg Dark Mode Toggle Block',
+    'Elementor Dark Mode Toggle Widget',
 ];
 
 $pro_features = [
     'All Free Features',
-    'Multiple Color Presets',
-    'Custom Dark Mode Color Scheme',
-    '8+ Toggle Button Styles',
-    'Image and Vide Replacement',
-    'Include/Exclude Posts, Pages',
-    'Custom CSS',
-    'Draggable Floating Switch ',
-    'Live Dark Mode Edit Widget',
-    'Page Wise Dark Mode',
+    'From Dark to Light',
     'Custom Toggle Button Builder',
-    '14+ Dark Mode Toggle Button Styles',
-    'Dashboard Dark Mode for Specific User Roles',
-    'Usage Analytics & Email Report (Coming Soon)',
-    'Dark Mode Page Transition Animation (coming soon)',
+    'Dark Mode Live Edit Widget',
+    'Page-Specific Dark Mode ',
+    '24+ Color Presets',
+    '14+ Toggle Switch Styles',
+    'Image & Video Replacement',
+    'Performance Mode ',
+    'Dark Mode Based Typography',
+    'Exclude Posts/Pages',
+    'Excludes Elements',
+    'Draggable Switch',
+    'Usage Analytics',
+    'Page Transition Animation',
+    'Toggle Switch Attention Effect',
 ];
 
 // $elite_features = [
@@ -179,58 +185,58 @@ $pro_features = [
                                         <!-- Regular Price -->
                                         <div class="offer-price annual single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$19</p>
+                                                <p class="price-off">$32</p>
                                                 <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price annual five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$52</p>
+                                                <p class="price-off">$106</p>
                                                 <span class="price-dis">35%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price annual hundred">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$138</p>
+                                                <p class="price-off">$278</p>
                                                 <span class="price-dis">40%OFF</span>
                                             </div>
 
                                         </div>
 
                                         <!-- Sale Price -->
-                                        <span class="price-value annual single">15</span>
-                                        <span class="price-value annual five">39</span>
-                                        <span class="price-value annual hundred">99</span>
+                                        <span class="price-value annual single">25</span>
+                                        <span class="price-value annual five">79</span>
+                                        <span class="price-value annual hundred">199</span>
 
                                         <!-- Regular Price -->
                                         <div class="offer-price lifetime single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$54</p>
+                                                <p class="price-off">$110</p>
                                                 <span class="price-dis">40%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price lifetime five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$143</p>
+                                                <p class="price-off">$216</p>
                                                 <span class="price-dis">45%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price lifetime hundred">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$298</p>
+                                                <p class="price-off">$898</p>
                                                 <span class="price-dis">50%OFF</span>
                                             </div>
 
                                         </div>
 
                                         <!-- Sale Price -->
-                                        <span class="price-value lifetime single">39</span>
-                                        <span class="price-value lifetime five">99</span>
-                                        <span class="price-value lifetime hundred">199</span>
+                                        <span class="price-value lifetime single">79</span>
+                                        <span class="price-value lifetime five">149</span>
+                                        <span class="price-value lifetime hundred">449</span>
 
                                         <span class="price-suffix annual">/ Year</span>
                                         <span class="price-suffix lifetime">/ Billed once</span>
