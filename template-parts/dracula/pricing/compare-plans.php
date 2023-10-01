@@ -342,8 +342,14 @@ $features = [
 	'admin' => [
 		'title'       => 'Admin Dashboard Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/qOuFxLoinuE?si=iE23R-1pIRBgRfwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'Dracula Dark Mode also allows site administrators to seamlessly enable dark mode for their admin dashboard. This provides a consistent look and feel and also help to reduce eye strain when working in the admin dashboard',
+		'descriptions' => 'Dracula Dark Mode also allows site administrators to seamlessly enable dark mode for their admin dashboard. This provides a consistent look and feel and also help to reduce eye strain when working in the admin dashboard',
 		'pro'         => true,
+	],
+	'dark-to-light' => [
+		'title'       => 'Dark to Light Mode',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/BYCl58gnAWs?si=apSrvy_AyIlbDYPP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'descriptions' => 'Dracula Dark Mode not only provides dark mode environment for your website. If you are using dark mode theme and want to enable light mode for your website, you can easily do it with Dark to Light feature. With just one click you can enable light mode environment of your website and choose from our 15+ prebuilt light mode presets',
+		'pro'         => false,
 	],
 	'os' => [
 		'title'       => 'OS-based color mode',
@@ -374,7 +380,7 @@ $features = [
 	'toggle' => [
 		'title'       => 'Toggle Button Size Customization',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lE7i66t_7Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'Dracula Dark Mode allows you to customize the dark mode toggle button size as small, normal, large or even in a custom width and height of the button',
+		'descriptions' => 'Dracula Dark Mode allows you to customize the dark mode toggle button size as small, normal, large or even in a custom width and height of the button',
 		'Pro'       => false,
 	],
 	'draggable' => [
@@ -392,7 +398,7 @@ $features = [
 	'switch' => [
 		'title'       => 'Dark mode switch in the menu',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/jt_HF466KPM?si=oAWvXYXVWxuL_vi-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'Dracula Dark Mode also offers to display dark mode the toggle button in the website navigation menu so that users can easily enable dark mode from the menu',
+		'descriptions' => 'Dracula Dark Mode also offers to display dark mode the toggle button in the website navigation menu so that users can easily enable dark mode from the menu',
 		'Pro'       => false,
 	],
 	// 'custom-position' => [
@@ -421,7 +427,7 @@ $features = [
 	'page-wish' => [
 		'title'       => 'Page Specific Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/OZfn_4tiq9o?si=uhXzBMQfgZnU2TVt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'You can allow other users to use the dark mode color scheme on their backend admin dashboard by selectively certain user roles such as: Administrator, Editor, Author etc',
+		'descriptions' => 'You can allow other users to use the dark mode color scheme on their backend admin dashboard by selectively certain user roles such as: Administrator, Editor, Author etc',
 		'Pro'       => false,
 	],
 	'custom-text-color' => [
@@ -445,7 +451,7 @@ $features = [
 	'live-edit' => [
 		'title'       => 'Dark Mode Live Edit Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/cUizkL-VX3k?si=aoXMiRKpcO3rXIg7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'Dark Mode plugin features a live edit widget to instantly adjust and see settings like colors, buttons, and typography. Skip back-end edits and easily exclude elements or replace images. Its a real-time view that saves you time',
+		'descriptions' => 'Dark Mode plugin features a live edit widget to instantly adjust and see settings like colors, buttons, and typography. Skip back-end edits and easily exclude elements or replace images. Its a real-time view that saves you time',
 		'Pro'       => false,
 	],
 	'color-adjust' => [
@@ -512,7 +518,7 @@ $features = [
 	'replacement' => [
 		'title'       => 'Image Replacement',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GhDguYi0w_s?si=mHV6hJMhSddFcCmK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'Sometimes all the images don’t look better in dark mode and you might want to replace them in dark mode. Dracula Dark Mode lets you replace the light-mode images with different images in dark mode',
+		'descriptions' => 'Sometimes all the images don’t look better in dark mode and you might want to replace them in dark mode. Dracula Dark Mode lets you replace the light-mode images with different images in dark mode',
 		'Pro'       => false,
 	],
 	'logo-suport' => [
@@ -567,7 +573,7 @@ $features = [
 	'button-shortcode' => [
 		'title'       => 'Toggle Button Shortcode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/sIa0FwVr-gc?si=DWAn0L7UbP1hALEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-			'descriptions' => 'You can display the dark mode toggle button anywhere on your website using the [dracula_toggle] shortcode',
+		'descriptions' => 'You can display the dark mode toggle button anywhere on your website using the [dracula_toggle] shortcode',
 		'pro'         => true,
 	],
 	'keybord' => [

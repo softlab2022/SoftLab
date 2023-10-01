@@ -42,6 +42,14 @@ $testimonials = [
         'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
         'names'        => 'edfhinton',
         'designation' => 'Web Developer',
+    ], 
+    [
+        'title'       => 'The Best (7 Stars)',
+        'description' => 'Simply the best Dark Mode plugin out there, especially since the latest update. No CSS hacks necessary (though the option is there and seems robust), no plugin incompatibilities, no bugs on refresh, great default colors and the options I cared about most are not pay walled.',
+        'image'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/seriouslysenpai.png',
+        'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
+        'names'        => 'seriouslysenpai',
+        'designation' => 'Web Developer',
     ],
 
 
@@ -63,7 +71,7 @@ $testimonials = [
 
         <div class="row">
             <?php foreach ($testimonials as $testimonial) { ?>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="testi-main">
                         <div class="testi-head d-flex justify-content-between align-items-center">
                             <img class="img-fluid man-img" src="<?php echo $testimonial['image']; ?>" alt="<?php echo $testimonial['title']; ?>">
