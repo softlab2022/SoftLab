@@ -539,6 +539,12 @@ $features = [
 		'descriptions' => 'As like images Dracula Dark Mode allows you to customize Dark Mode Based Video Support for any kind of videos',
 		'Pro'       => false,
 	],
+	'elementor-editor' => [
+		'title'       => 'Elementor Editor Compatibility ',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/cIctjSwHfR0?si=zLd6YyfkNVVWaNtj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'descriptions' => 'Dracula Dark Mode is designed to be compatible with the Elementor Editor. This can be a great way to make the editing experience more comfortable for users. Such as Elementor dark mode switch button, page specific dark mode, and many others',
+		'pro'         => true,
+	],
 	'popular-page' => [
 		'title'       => 'Popular page builder support',
 		'video'       => '',
@@ -553,8 +559,8 @@ $features = [
 	],
 	'gutenberg' => [
 		'title'       => 'Gutenberg Editor Compatibility',
-		'video'       => '',
-		'descriptions' => 'Dracula Dark Mode is designed to be compatible with the Gutenberg Editor. This can be a great way to make the editing experience more comfortable for users, especially for those who spend a lot of time editing and creating content in WordPress Gutenberg Editor',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/WlhPxWtk13E?si=hOOK5wTzH654It1e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'descriptions' => 'Dracula Dark Mode is designed to be compatible with the Elementor Editor. This can be a great way to make the editing experience more comfortable for users. Such as Elementor dark mode switch button, page specific dark mode, and many others',
 		'pro'         => true,
 	],
 	'woocommerce' => [
