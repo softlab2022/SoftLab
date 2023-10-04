@@ -11,7 +11,7 @@
                 <div class="col-lg-2 col-md-2">
                     <div class="starter-item">
                         <div class="starter text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/dracula.png" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/dracula-main-icon.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -19,25 +19,26 @@
                     <div class="professional-item">
                         <div class="professionals text-center">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/wp-darkmode.png" alt="" class="img-fluid">
-                        </div> 
+                        </div>
                     </div>
-                            
+
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="professional-item">
                         <div class="professional text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/darkmysite.png" alt="" class="img-fluid">
-                        </div> 
+
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/droit.png" alt="" class="img-fluid">
+                        </div>
                     </div>
-                            
+
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="elite-item">
                         <div class="elite text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/droit.png" alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/darkmysite.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                            
+
                 </div>
             </div>
             <!-- Frontend Dark Mode area -->
@@ -58,19 +59,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -97,19 +98,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -131,19 +132,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -165,19 +166,19 @@
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -197,21 +198,21 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -224,28 +225,28 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -265,21 +266,25 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                    <!-- <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div> -->
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
 
             </div>
@@ -301,19 +306,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -327,27 +332,27 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -369,28 +374,28 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
-             <!-- Page Wise Dark Mode area -->
+            <!-- Page-Specific Dark Mode -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/page-wish.png" alt="" class="img-fluid">
-                        <h5>Page Wige Dark Mode hobe</h5>
+                        <h5>Page-Specific Dark Mode</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
@@ -401,25 +406,26 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
 
             </div>
-           
+
             <!-- Floating Dark Mode Toggle Button area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -436,25 +442,25 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
 
             </div>
-            
+
             <!-- Dark mode Switch in Menu area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -473,28 +479,29 @@
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
 
             </div>
-            
+
             <!-- Multiple Toggle Buttons area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content item-dark-content d-flex justify-content-start align-items-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/toggle.png" alt="" class="img-fluid">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/multiple-toggle-buttons.png" alt="" class="img-fluid">
                         <h5>Multiple Toggle Buttons</h5>
                     </div>
                 </div>
@@ -508,23 +515,24 @@
                     <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes(3 Free & 16+ Pro)</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Yes(2 Free & 5+ Pro)</span>
-                    </div>  
+                        <span>Yes(2 Free & 3+ Pro)</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items item-dark text-center d-flex justify-content-center align-items-center">
+
                         <i class="fa-solid fa-check"></i>
-                        <span>Yes(2 Free & 3+ Pro)</span>
-                    </div>  
+                        <span>Yes(2 Free & 5+ Pro)</span>
+                    </div>
                 </div>
 
             </div>
-            
+
             <!-- Toggle Button Size Customization area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -535,31 +543,32 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
 
             </div>
-            
+
             <!-- Draggable Floating Switch area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -569,32 +578,33 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                    <span>No</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
-            
+
             <!-- Custom Toggle Button Builder area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -605,27 +615,27 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -634,36 +644,72 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/custom-position.png" alt="" class="img-fluid">
-                        <h5>Toggle Button Size Customization</h5>
+                        <h5>Toggle Button Position Customization</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+            <!-- Page Transition Animation -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/page-transition-animation.png" alt="" class="img-fluid">
+                        <h5>Page Transition Animation</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+
+            </div>
+
             <!-- Darkmode Toggle Animation area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -673,28 +719,28 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                    <span>No</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>NO</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>NO</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -703,6 +749,7 @@
                 </div> -->
 
             </div>
+
             <!-- Custom Switch Text & Color area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -713,28 +760,28 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -743,6 +790,47 @@
                 </div> -->
 
             </div>
+
+            <!-- Tooltip area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/tooltip.png" alt="" class="img-fluid">
+                        <h5>Tooltip</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>NO</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+
             <!-- Color Adjustments area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -752,28 +840,28 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -782,6 +870,7 @@
                 </div> -->
 
             </div>
+
             <!-- Dynamic Colors area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -792,28 +881,28 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -822,6 +911,7 @@
                 </div> -->
 
             </div>
+
             <!-- Custom Colors area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -832,28 +922,28 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes</span>
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -862,6 +952,48 @@
                 </div> -->
 
             </div>
+
+            <!-- AI Color Generator area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/ai-color-mode.png" alt="" class="img-fluid">
+                        <h5>AI Color Generator</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+
             <!-- Dark Mode Color Presets area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -872,28 +1004,29 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item item-dark text-center d-flex justify-content-center align-items-center">
-                    
-                    <i class="fa-solid fa-check"></i>
-                    <span>Yes (2 Free & 8 PRO)</span>
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes (2 Free & 15 PRO)</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes (2 Free & 11 PRO)</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item dark-item item-dark text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
+                        <span>Yes (2 Free & 7 PRO)</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items item-dark text-center d-flex justify-content-center align-items-center">
+
                         <i class="fa-solid fa-check"></i>
-                        <span>Yes (2 Free & 7 PRO)</span>
-                    </div>  
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -902,6 +1035,91 @@
                 </div> -->
 
             </div>
+
+            <!-- Light Mode Color Presets area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content item-dark-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/presets.png" alt="" class="img-fluid">
+                        <h5>Light Mode Color Presets</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes (2 Free & 15 PRO)</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item dark-item item-dark text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items item-dark text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+
+            <!-- Dark to Light Mode area -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content item-dark-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/dark-to-light.png" alt="" class="img-fluid">
+                        <h5>Dark to Light Mode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro item-dark text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item item-dark text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item dark-item item-dark text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items item-dark text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+
             <!-- Dark Mode Based Typography area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -918,21 +1136,21 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -941,6 +1159,7 @@
                 </div> -->
 
             </div>
+
             <!-- Darken Background Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -957,21 +1176,22 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -980,6 +1200,7 @@
                 </div> -->
 
             </div>
+
             <!-- Low Brightness Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -995,22 +1216,23 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -1019,6 +1241,7 @@
                 </div> -->
 
             </div>
+
             <!-- Grayscale Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1037,19 +1260,20 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -1058,6 +1282,7 @@
                 </div> -->
 
             </div>
+
             <!-- Invert Images area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1074,24 +1299,26 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+
             <!-- Image Replacement area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1102,7 +1329,7 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        
+
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
                     </div>
@@ -1111,22 +1338,23 @@
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+
             <!-- Dark mode based Image Support area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1145,24 +1373,25 @@
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
-            <!-- Dark mode area -->            
-            <div class="row">
+
+            <!-- Dark mode area -->
+            <!-- <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/image-support.png" alt="" class="img-fluid">
@@ -1171,31 +1400,32 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
-                        
+
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
-            </div>
+            </div> -->
+
             <!-- Dark mode based Video Support area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1206,30 +1436,31 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+
             <!-- Popular page builder support -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1248,22 +1479,23 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+
             <!-- Classic Editor Compatibility -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1280,24 +1512,25 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+
             <!-- Gutenberg Editor Compatibility area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1316,19 +1549,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -1350,19 +1583,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -1384,19 +1617,20 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-check"></i>
-                        <span>Yes</span>
-                    </div>  
+
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
                 </div>
 
             </div>
@@ -1418,19 +1652,19 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -1449,7 +1683,7 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
                     </div>
                 </div>
@@ -1457,19 +1691,19 @@
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -1483,41 +1717,41 @@
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
 
-            </div>   
-            <!-- Include / Exclude, Pages & Posts area -->
+            </div>
+            <!-- Exlcude Posts/ Pages area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="item-content d-flex justify-content-start align-items-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/exclude.png" alt="" class="img-fluid">
-                        <h5>Include / Exclude, Pages & Posts</h5>
+                        <h5>Exclude Pages & Posts</h5>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
+                        <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
                     </div>
                 </div>
@@ -1525,19 +1759,19 @@
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items pro text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Pro</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
@@ -1644,6 +1878,7 @@
                 </div>
 
             </div> -->
+
             <!-- Usage Analytics & Email Report -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1653,28 +1888,28 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
-                    <div class="item pro text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-check"></i>
-                        <span>Pro</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="item text-center d-flex justify-content-center align-items-center">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-xmark"></i>
                         <span>No</span>
-                    </div>  
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <div class="items text-center d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-xmark"></i>
-                        <span>No</span>
-                    </div>  
+                    </div>
                 </div>
                 <!-- <div class="col-lg-3">
                     <div class="items text-center">
@@ -1683,6 +1918,87 @@
                 </div> -->
 
             </div>
+
+            <!-- URL Parameter -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/url-parameter.png" alt="" class="img-fluid">
+                        <h5>URL Parameter</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yes</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+
+            <!-- Tools Settings -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="item-content d-flex justify-content-start align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/compare/tools.png" alt="" class="img-fluid">
+                        <h5>Tools Settings</h5>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item pro text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-check"></i>
+                        <span>Pro</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="item text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="items text-center d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-xmark"></i>
+                        <span>No</span>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="items text-center">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>     
+                </div> -->
+
+            </div>
+
             <!-- Works on all devices area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1701,22 +2017,23 @@
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="item text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-2">
                     <div class="items text-center d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-check"></i>
                         <span>Yes</span>
-                    </div>  
+                    </div>
                 </div>
 
             </div>
+
             <!-- pricing area -->
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -1727,14 +2044,15 @@
                         <div class="hedding">
                             <h6>Pricing</h6>
                             <span class="head">Annual</span>
-                            <p>Pro ($15)</p>
-                            <p>Ultimate ($99)</p>
+                            <p>Pro 1 site ($19)</p>
+                            <p>Pro 5 site ($39)</p>
+                            <p>Ultimated ($99)</p>
 
                             <span class="head">Lifetime</span>
-                            <p>Pro Lifetime ($39)</p>
-                            <p>Ultimate Lifetime ($199)</p>
-                            <p></p>
-                            <p class="last"> </p>
+                            <p>Pro Lifetime 1 site ($39)</p>
+                            <p>Lifetime 5 site ($99)</p>
+                            <p>Ultimated Lifetime ($199)</p>
+                            <!-- <p class="last"> </p> -->
                         </div>
                     </div>
                 </div>
@@ -1759,14 +2077,16 @@
                         <div class="hedding">
                             <h6>Pricing</h6>
                             <span class="head">Annual</span>
-                            <p>Personal ($15),</p>
-                            <p>Professional ($29)</p>
-                            <p>Agency ($49)</p>
+
+                            <p>Pro ($35)</p>
+                            <p>Premium 1 site ($59) </p>
+                            <p>Unlimited sites ($99)</p>
 
                             <span class="head">Lifetime</span>
-                            <p>Personal ($25)</p>
-                            <p>Professional ($49)</p>
-                            <p>Agency ($69)</p>
+
+                            <p>Pro ($59)</p>
+                            <p>Premium 1 site ($99)</p>
+                            <p>Unlimited sites ($149)</p>
                             <p class="lasts"> </p>
                         </div>
                     </div>
@@ -1776,14 +2096,14 @@
                         <div class="hedding">
                             <h6>Pricing</h6>
                             <span class="head">Annual</span>
-                            <p>Pro ($35)</p>
-                            <p>Premium 1 site ($59) </p>
-                            <p>Unlimited sites ($99)</p>
+                            <p>Personal ($15),</p>
+                            <p>Professional ($29)</p>
+                            <p>Agency ($49)</p>
 
                             <span class="head">Lifetime</span>
-                            <p>Pro ($59)</p>
-                            <p>Premium 1 site ($99)</p>
-                            <p>Unlimited sites ($149)</p>
+                            <p>Personal ($25)</p>
+                            <p>Professional ($49)</p>
+                            <p>Agency ($69)</p>
                         </div>
                     </div>
                 </div>
@@ -1794,7 +2114,8 @@
         <div class="row">
             <div class="col-lg-12 m-auto">
                 <div class="update-date text-center">
-                    <span>Last update : <?php echo date('d/m/Y'); ?> </span>
+                    <!-- <span>Last update : <?php echo date('d/m/Y'); ?> </span> -->
+                    <span>Last update : 3-10-2023 </span>
                 </div>
             </div>
         </div>
