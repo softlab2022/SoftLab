@@ -180,7 +180,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					}
 					 elseif ( 'dracula dark mode' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png';
-						$description = 'The Revolutionary Dark Mode Plugin For WordPress';
+						$description = 'AI-Powered Dark Mode for WordPress';
 					}
 					 elseif ( 'integrate dropbox' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/integrate-dropbox.png';

@@ -27,7 +27,7 @@ $products = [
 
 	'dracula-dark-mode'               => [
 		'title'       => 'Dracula Dark Mode',
-		'description' => 'Dracula Dark Mode is a highly customizable and easy-to-use dark mode plugin for WordPress. It offers an elegant dark mode version of your website.',
+		'description' => 'Experience a user-friendly AI-powered dark mode solution for WordPress. Instantly give your website an elegant look.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
 	],
 
