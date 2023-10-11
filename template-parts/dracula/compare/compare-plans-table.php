@@ -283,7 +283,7 @@ $features = [
         'darkmysite' => 'Yes',
     ],
 
-    'Keybord Shortcode' => [
+    'Keybord Shortcut' => [
         'dracula'    => 'Yes',
         'wpdarkmode' => 'Yes',
         'droit'      => 'No',
