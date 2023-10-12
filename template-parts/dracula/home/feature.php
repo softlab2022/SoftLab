@@ -158,7 +158,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/dark-mode-usage-analytics.png" alt="" class="img-fluid">
                         </div>
                     <?php } ?>
-                    <p>Dark mode plugin intelligently detects device preferences and dynamically delivers a handcrafted, expert-designed dark mode experience for your readers.</p>
+                    <p>Dracula Dark Mode provides a detailed usage analytics report that allows you to track the number of users who use the dark mode, how many times the dark mode is enabled/ disabled, and many other useful information.</p>
                 </div>
             </div>
 
@@ -185,7 +185,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/color-adjustments.png" alt="" class="img-fluid">
                         </div>
                     <?php } ?>
-                    <p>WP Dark Mode plugin features advanced color adjustment options for its dark mode theme, including brightness, contrast, sepia and grayscale adjustments. These options provide users with greater control over the appearance of their website in dark mode, allowing them to fine-tune the colors to their liking. This can be especially useful for users with visual impairments or those who prefer a specific aesthetic for their website in dark mode.</p>
+                    <p>Dracula Dark Mode plugin features advanced color adjustment options for its dark mode theme, including brightness, contrast, sepia and grayscale adjustments. These options provide users with greater control over the appearance of their website in dark mode, allowing them to fine-tune the colors to their liking. This can be especially useful for users with visual impairments or those who prefer a specific aesthetic for their website in dark mode.</p>
                     <!-- <a href="#" class="view-demo">check demo</a> -->
                 </div>
             </div>
