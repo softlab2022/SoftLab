@@ -20,6 +20,7 @@ class SoftLaB_Nav {
 					'reader-mode-menu'            => 'Reader Mode Menu',
 					'dracula-menu'            	=> 'Dracula Menu',
 					'integrate-dropbox-menu'  	=> 'Integrate Dropbox Menu',
+					'wp-froms-menu'  	=> 'WP Froms Menu',
 				)
 			);
 		}

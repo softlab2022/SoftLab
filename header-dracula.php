@@ -1,3 +1,6 @@
+<?php echo get_template_part( 'template-parts/halloween-offer-sticky-banner' ); ?>
+
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 

@@ -8,6 +8,7 @@
   backdrop-filter: inherit;
   z-index: 99;
   padding: 1rem 0px;
+  margin-top: 60px;
 
   .primary-nav {
     .navbar-nav {
@@ -256,7 +257,7 @@
         }
 
         &.brand-integrate-google-drive {
-  
+
           img {
             height: auto;
             width: 170px;
@@ -801,6 +802,7 @@
 
   @media (max-width: 767.98px) {
     padding: 0;
+    margin-top: 0;
   }
 }
 
@@ -855,6 +857,7 @@
       width: 249px;
     }
   }
+
   @media (min-width: 992px) and (max-width: 1199px) {
     .brand-radio-player {
       img {
@@ -863,6 +866,106 @@
     }
   }
 }
+
+.page-template-templateswp-forms-php,
+.page-template-templateswp-forms-pricing-php {
+  .primary-nav {
+    .navbar-nav {
+      .nav-item {
+
+        a {
+
+          &:hover {
+            color: $wp_radio_user_frontend_color;
+          }
+        }
+
+        &.current-menu-item {
+          a {
+            color: $wp_radio_user_frontend_color;
+          }
+        }
+      }
+    }
+
+    .buy-now-btn {
+
+      a {
+        text-decoration: none;
+        background: $wp_radio_user_frontend_color;
+        padding: 15px 30px;
+        transition: all .3s ease;
+        border-radius: 100px;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        color: #fff;
+
+        &:hover {
+          background: #fff;
+          color: $wp_radio_user_frontend_color;
+          border-color: $wp_radio_user_frontend_color;
+        }
+
+        i {
+          margin-right: 5px;
+        }
+      }
+
+    }
+  }
+
+
+}
+
+
+.page-template-templateshalloween-offers-php {
+  .primary-nav {
+    .navbar-nav {
+      .nav-item {
+
+        a {
+          color: #fff;
+
+          &:hover {
+            color: #16153F;
+          }
+        }
+
+        &.current-menu-item {
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    // .buy-now-btn {
+
+    //   a {
+    //     text-decoration: none;
+    //     background: $wp_radio_user_frontend_color;
+    //     padding: 15px 30px;
+    //     transition: all .3s ease;
+    //     border-radius: 100px;
+    //     border: 1px solid transparent;
+    //     white-space: nowrap;
+    //     color: #fff;
+
+    //     &:hover {
+    //       background: #fff;
+    //       color: $wp_radio_user_frontend_color;
+    //       border-color: $wp_radio_user_frontend_color;
+    //     }
+
+    //     i {
+    //       margin-right: 5px;
+    //     }
+    //   }
+
+    // }
+  }
+}
+
 
 /**---------- sticky-banner ----------**/
 
@@ -1092,6 +1195,283 @@
     .summer {
       img {
         width: 128px;
+        height: auto;
+      }
+    }
+
+    .offer {
+      img {
+        width: 50px;
+        height: auto;
+      }
+    }
+
+    .banner-vector {
+      display: none;
+    }
+
+  }
+
+}
+
+/**---------- halloween sticky-banner ----------**/
+
+.halloween-sticky-banner {
+  background: #633A89;
+  // padding: .3rem 0;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
+  width: 100%;
+  position: fixed;
+  z-index: 999999;
+
+  &.active {
+    display: none;
+  }
+
+  .banner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-title,
+  .banner-offer {
+    img {
+      max-height: 50px;
+    }
+  }
+
+  // .summer {
+  //   img {
+  //     width: 170px;
+  //     height: auto;
+  //   }
+  // }
+
+  .offer {
+    img {
+      width: 90px;
+      height: auto;
+    }
+  }
+
+  // .banner-title {
+  //   p {
+  //     margin-bottom: 0;
+  //     color: rgba(255, 255, 255, 0.80);
+  //     font-size: 26px;
+  //     font-weight: 500;
+  //     line-height: 150%;
+  //   }
+  // }
+
+  .buy-now-btn-dracula {
+    a {
+      // background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+      border-radius: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.56);
+      background: #311848;
+      text-decoration: none;
+      color: #fff;
+      padding: 15px 30px;
+      transition: all .3s ease;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  /**---------- countdown ----------**/
+  .banner-countdown {
+
+    text-align: center;
+
+
+
+    .timer {
+
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid #fff;
+      border-radius: 7px;
+      margin: 0;
+      // padding: 3px 7px;
+
+      span {
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        margin: 0 7px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        border: 2px solid rgba(207, 207, 250, 0.39);
+
+        background: #161655;
+
+        // &:after {
+        //     content: ":";
+        //     color: #fff;
+        //     font-size: 1rem;
+        //     font-weight: 500;
+        //     z-index: -1;
+        //     // margin-left: 7px;
+        // }
+
+        // &:last-child:after {
+        //     content: "";
+        //     display: none;
+        // }
+      }
+    }
+
+    .timer-labels {
+      span {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .banner-close {
+    position: absolute;
+    right: 40px;
+
+    i {
+      font-size: 1.5rem;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .banner-vector {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+    pointer-events: none;
+    width: max-content;
+
+    &.vector-right {
+      right: 0;
+      left: auto;
+    }
+
+    img {
+      width: 82px;
+      height: auto;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .offer {
+      img {
+        width: 75px;
+         height: auto;
+      }
+    }
+    .banner-products {
+      img {
+        width: 175px;
+         height: auto;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .banner-countdown {
+
+      .timer {
+        span {
+          font-size: 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .banner-close {
+      right: 14px;
+    }
+
+    .summer {
+      img {
+        width: 30px;
+        height: auto;
+      }
+    }
+    .offer {
+      img {
+        width: 75px;
+         height: auto;
+      }
+    }
+    .banner-products {
+      img {
+        width: 175px;
+         height: auto;
+      }
+    }
+
+    .buy-now-btn-dracula {
+
+      a {
+        padding: 15px 22px;
+      }
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    position: relative;
+
+    .banner-product {
+      img {
+        width: 100px;
+      }
+    }
+    .banner-products {
+      img {
+        width: 100px;
+      }
+    }
+
+    .banner-countdown {
+      display: none;
+    }
+
+    .buy-now-btn-dracula {
+      margin-right: 20px;
+
+      a {
+        padding: 5px;
+        font-size: .7rem;
+
+        i {
+          display: none;
+        }
+      }
+    }
+
+    .banner-close {
+      right: 10px;
+    }
+
+    .summer {
+      img {
+        width: 25px;
         height: auto;
       }
     }

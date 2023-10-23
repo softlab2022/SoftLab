@@ -2961,6 +2961,7 @@
         &.type-pro {
           display: flex;
           align-items: center;
+
           img {
             margin-right: 10px;
           }
@@ -3071,6 +3072,7 @@
 
       .accordion-body {
         border-top: 1px solid #5C637E;
+
         .descriptions {
           color: #fff;
           margin-bottom: 20px;
@@ -3492,4 +3494,178 @@
 
   }
 
+}
+
+.page-template-templateswp-forms-pricing-php {
+  #pricing-hero {
+    background: url("../images/wp-froms/home/header-bg-shapes.png") no-repeat bottom / cover;
+
+    .hero-content {
+      h2 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        line-height: 120%;
+        color: #151826;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #5C637E;
+        line-height: 150%;
+        padding-bottom: 120px;
+      }
+
+      @media(max-width: 767px) {
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  #pricing {
+    .pricing-switcher {
+      .switch-text {
+
+        &.annual {
+          color: #ED7E44;
+        }
+
+        &.lifetime {
+          color: #5C637E;
+        }
+      }
+
+      .switch {
+        background-color: #ED7E44;
+      }
+
+      &.active {
+        .switch-text {
+
+          &.annual {
+            color: #5C637E;
+          }
+
+          &.lifetime {
+            color: #ED7E44;
+          }
+        }
+      }
+    }
+
+    .price-table {
+      border-top: 5px solid #ED7E44;
+
+      .pricing-head {
+        .price-text {
+          color: #ED7E44;
+        }
+      }
+
+      .buy-btn {
+        color: #ED7E44;
+        border: 1px solid #ED7E44;
+        background: #fff;
+
+        &:hover {
+          color: #fff;
+          background: #ED7E44;
+        }
+
+        &-pro {
+          color: #fff;
+          background: #ED7E44;
+
+          &:hover {
+            color: #ED7E44;
+            background: #fff;
+          }
+        }
+      }
+    }
+
+    .table-pro {
+      .pricing-head-title {
+        color: #ED7E44;
+      }
+
+      .site {
+        .dropdown {
+          .dropdown-item {
+            &.active {
+              background-color: #ED7E44;
+            }
+          }
+
+          .btn-pr {
+            background-color: #ED7E44;
+          }
+        }
+      }
+    }
+
+    .price-features {
+      .feature-item {
+        i {
+          background: #ED7E44;
+        }
+      }
+    }
+  }
+
+  #industry {
+    background: url("../images/wp-froms/home/indrasty/indarsty-bg-shape.png"), linear-gradient(96deg, rgba(229, 119, 34, 0.80) 1.36%, rgba(245, 174, 76, 0.80) 101.38%) no-repeat;
+    background-size: cover;
+
+    .indu-item {
+      border-radius: 20px;
+      background: linear-gradient(180deg, #EE761A 0%, #E3890E 100%);
+
+      span {
+        color: #fff;
+      }
+    }
+  }
+
+  #features {
+    .accordion-button {
+      background-color: #ecf0ff;
+
+      .fa-check-square {
+        color: #EE761A;
+      }
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .accordion-collapse {
+      background-color: #ecf0ff;
+    }
+
+    .accordion-body {
+      border-top: 1px solid rgba(67, 83, 255, 0.2);
+    }
+
+    .accordion-button:not(.collapsed) {
+      .fa-chevron-down {
+        transform: rotate(180deg);
+        background-color: #EE761A;
+        color: #fff;
+      }
+    }
+  }
+
+  #faq {
+    .accordion-button:not(.collapsed) {
+      .fa-chevron-down {
+        transform: rotate(180deg);
+        background-color: #EE761A;
+        color: #fff;
+      }
+    }
+  }
 }
