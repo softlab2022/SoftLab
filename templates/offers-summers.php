@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Halloween Offers page
+ * Template Name: Offers page
  *
  */
 
@@ -10,40 +10,34 @@ get_header();
 
 ?>
 
-<section id="header-sticky-banner" class=" halloween-offers">
+<section id="summer-offers">
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-8 col-md-7 m-auto">
-                <div class="halloween-sec text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween-img.png" />
+            <div class="col-lg-4 col-md-7 m-auto">
+                <div class="section-head text-center">
+                    <p>Sun's Out, Savings In</p>
+                    <!-- <h1>Unbeatable Summer <span>Deals!</span> </h1> -->
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/summer-deals.png" alt="summer-deals">
                 </div>
-                <div class="col-lg-6 m-auto">
-                    <!-- Banner Countdown -->
-                    <div class="banner-countdown">
-                        <div class="timer"></div>
-
-                        <!--                <div class="timer-labels">-->
-                        <!--                    <span>Days</span>-->
-                        <!--                    <span>Hours</span>-->
-                        <!--                    <span>Mins</span>-->
-                        <!--                    <span>Secs</span>-->
-                        <!--                </div>-->
-                    </div>
-                    <div class="promo-code-sec text-center">
-                        <!-- <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/promo-code.png" /> -->
-                        <span class="sub-text">Use the Promo Code</span>
-                        <span class="promo-text">HALLOWEEN2023</span>
-                        <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc.png" />
-                    </div>
+                <div class="offers-img text-center">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/offer-img.png" alt="offer-img">
                 </div>
-
             </div>
+        </div>
+        <div class="offer-left-img">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/tree.png" alt="tree">
+
+        </div>
+
+        <div class="offer-right-img">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/umbrella.png" alt="umbrella">
+
         </div>
     </div>
 </section>
 
-<section id="halloween-offers-main">
+<section id="offers-main">
     <div class="container">
         <div class="row">
 

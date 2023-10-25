@@ -4,28 +4,32 @@
     $(document).ready(function () {
         const banner = $('#header-sticky-banner');
 
-        //Close banner
-        $('.banner-close', banner).on('click', function () {
+        // Close banner
+        banner.on('click', '.banner-close', function () {
             banner.remove();
         });
 
-        //Banner countdown
-        const countdown = $('.banner-countdown', banner);
-        const timer = $('.timer', banner);
+        // Banner countdown
+        const countdown = banner.find('.banner-countdown');
+        const timer = banner.find('.timer');
 
         if (countdown.length) {
-            const dateTime = new Date(new Date().getTime() + 24 * 60 * 60 * 1000 + 2 * 60 * 60 * 1000).toISOString();
-            let countDownDate = new Date(dateTime).getTime();
-
-            //check if there is a time in local storage
-            if (localStorage.getItem('time')) {
-                countDownDate = localStorage.getItem('time');
-            }
-
-
-            const x = setInterval(function () {
+            const updateTimer = () => {
                 const now = new Date().getTime();
+                let countDownDate = new Date().getTime() + 300 * 60 * 60 * 1000;
+
+                // Check if there is a time in local storage
+                if (localStorage.getItem('softlab_offers_time')) {
+                    countDownDate = localStorage.getItem('softlab_offers_time');
+                }
+
                 const distance = countDownDate - now;
+
+                if (distance < 0) {
+                    // Reset the time
+                    localStorage.removeItem('softlab_offers_time');
+                    return;
+                }
 
                 const days = Math.floor(distance / (1000 * 60 * 60 * 24));
                 const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -34,17 +38,13 @@
 
                 timer.html(`<span class="days">${days}d</span> <span class="hours">${hours}h</span> <span class="minutes">${minutes}m</span> <span class="seconds">${seconds}s</span>`);
 
-                if (distance < 0) {
-                    clearInterval(x);
-                    timer.text("EXPIRED");
-                    localStorage.removeItem('time');
-                }
+                // Save time in local storage
+                localStorage.setItem('softlab_offers_time', countDownDate);
+            };
 
-                //save time in local storage
-                localStorage.setItem('time', countDownDate);
-
-            }, 1000);
+            const x = setInterval(updateTimer, 1000);
+            updateTimer(); // Call immediately, don’t wait for the first interval to execute
         }
-
     });
+
 })(jQuery);
