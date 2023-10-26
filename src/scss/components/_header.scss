@@ -8,7 +8,6 @@
   backdrop-filter: inherit;
   z-index: 99;
   padding: 1rem 0px;
-  margin-top: 60px;
 
   .primary-nav {
     .navbar-nav {
@@ -918,7 +917,7 @@
 }
 
 
-.page-template-templateshalloween-offers-php {
+.page-template-templatesoffers-php {
   .primary-nav {
     .navbar-nav {
       .nav-item {
@@ -1216,6 +1215,16 @@
 
 /**---------- halloween sticky-banner ----------**/
 
+
+@media (min-width: 992px) {
+
+  body:has(.halloween-sticky-banner) {
+    .site-header {
+      padding-top: 85px;
+    }
+  }
+}
+
 .halloween-sticky-banner {
   background: #633A89;
   // padding: .3rem 0;
@@ -1223,6 +1232,7 @@
   width: 100%;
   position: fixed;
   z-index: 999999;
+
 
   &.active {
     display: none;
@@ -1279,6 +1289,11 @@
       i {
         margin-right: 5px;
       }
+
+      &:hover {
+        background: #fff;
+        color: #633A89;
+      }
     }
   }
 
@@ -1315,22 +1330,24 @@
         align-items: center;
         border-radius: 7px;
         border: 2px solid rgba(207, 207, 250, 0.39);
-
         background: #161655;
+        width: 55px;
 
-        // &:after {
-        //     content: ":";
-        //     color: #fff;
-        //     font-size: 1rem;
-        //     font-weight: 500;
-        //     z-index: -1;
-        //     // margin-left: 7px;
-        // }
+        &:after {
+          content: ":";
+          color: #fff;
+          font-size: 1rem;
+          font-weight: 500;
+          z-index: 1;
+          position: absolute;
+          right: -12px;
+          // margin-left: 7px;
+        }
 
-        // &:last-child:after {
-        //     content: "";
-        //     display: none;
-        // }
+        &:last-child:after {
+          content: "";
+          display: none;
+        }
       }
     }
 
@@ -1356,6 +1373,7 @@
       color: #fff;
       cursor: pointer;
     }
+
   }
 
   .banner-vector {
@@ -1377,20 +1395,23 @@
       height: auto;
     }
   }
+
   @media (min-width: 992px) and (max-width: 1199px) {
     .offer {
       img {
         width: 75px;
-         height: auto;
+        height: auto;
       }
     }
+
     .banner-products {
       img {
         width: 175px;
-         height: auto;
+        height: auto;
       }
     }
   }
+
   @media (min-width: 768px) and (max-width: 991px) {
     .banner-countdown {
 
@@ -1398,6 +1419,7 @@
         span {
           font-size: 1rem;
           font-weight: 500;
+          width: 45px;
         }
       }
     }
@@ -1412,16 +1434,18 @@
         height: auto;
       }
     }
+
     .offer {
       img {
         width: 75px;
-         height: auto;
+        height: auto;
       }
     }
+
     .banner-products {
       img {
         width: 175px;
-         height: auto;
+        height: auto;
       }
     }
 
@@ -1442,6 +1466,7 @@
         width: 100px;
       }
     }
+
     .banner-products {
       img {
         width: 100px;

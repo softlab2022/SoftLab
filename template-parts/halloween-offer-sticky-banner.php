@@ -9,7 +9,7 @@
             <div class="banner-vector vector-right">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-right.png" />
             </div>
-            <a class="banner-product summer" href="/halloween-offers">
+            <a class="banner-product summer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween.png" />
             </a>
              <!-- Banner Countdown -->
@@ -30,10 +30,10 @@
             </div> -->
 
             <!-- Banner Product -->
-            <a class="banner-products" href="/halloween-offers">
+            <a class="banner-products" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-text.png" />
             </a>
-            <a class="banner-product offer" href="/halloween-offers">
+            <a class="banner-product offer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-sticky.png" />
             </a>
 
@@ -51,7 +51,7 @@
             <!-- Banner Actions -->
             <div class="banner-actions">
                 <div class="buy-now-btn-dracula ">
-                    <a href="/halloween-offers">Claim Discount <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="/offers">Claim Discount <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
 

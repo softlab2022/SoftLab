@@ -34,7 +34,7 @@
                     </p>
 
                     <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="get1">Try Live Demo</a>
-                    <a href="/integrate-google-drive-pricing" class="get">Get Started</a>
+                    <a href="/integrate-google-drive-pricing" class="get">Buy Now</a>
                 </div>
             </div>
         </div>

@@ -158,7 +158,7 @@ $pro_features = [
 
                             <div class="offer-price annual single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$47 </p>
+                                    <p class="price-off">$35 </p>
                                     <span class="price-dis">20%OFF</span>
                                 </div>
 
@@ -178,7 +178,7 @@ $pro_features = [
 
                             </div>
 
-                            <span class="price-value annual single">39</span>
+                            <span class="price-value annual single">29</span>
                             <span class="price-value annual five">99</span>
                             <span class="price-value annual hundred">199</span>
 

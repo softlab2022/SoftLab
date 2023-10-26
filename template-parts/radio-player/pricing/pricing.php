@@ -229,7 +229,7 @@ $pro_features = [
                 e.preventDefault();
 
                 handler.open({
-                    name: 'Integrate Google Drive',
+                    name: 'Radio Player',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
                     // You can consume the response for after purchase logic.
