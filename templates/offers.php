@@ -76,7 +76,7 @@ get_header();
 
                     </div>
                     <div class="offer-button">
-                        <a href="#" class="offer-buy-now-btn">
+                        <a href="#" class="offer-buy-now-btn-igd">
                             Buy Now
                         </a>
                     </div>

@@ -410,6 +410,8 @@
 #halloween-offers {
     background: url("../images/offer-hero-bg.png"), no-repeat center top / cover;
     padding: 180px 0 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .halloween-sec {
         img {
@@ -543,7 +545,8 @@
 
         }
     }
-    @media (min-width: 768px) and (max-width: 991px) { 
+
+    @media (min-width: 768px) and (max-width: 991px) {
         .promo-code-sec {
 
             .sub-text {
@@ -567,8 +570,10 @@
 
         }
     }
+
     @media (max-width: 767.98px) {
         padding: 100px 0;
+
         .halloween-sec {
             img {
                 margin-bottom: 20px;
@@ -857,13 +862,14 @@
                     margin-right: 14px;
                 }
             }
+
             .promo-code-sec {
                 .cupon {
-    
+
                     .promo-text {
                         padding: 15px;
                     }
-    
+
                     .kc {
                         right: 16px;
                     }
@@ -894,19 +900,20 @@
                     margin-bottom: 20px;
                 }
             }
+
             .promo-code-sec {
                 .cupon {
-    
+
                     .promo-text {
                         padding: 15px;
                     }
-    
+
                     .kc {
                         right: 57px;
                     }
                 }
             }
-            
+
         }
 
         .offer-item-dark-mode {
@@ -936,13 +943,14 @@
                     margin-bottom: 20px;
                 }
             }
+
             .promo-code-sec {
                 margin-top: 15px;
                 position: relative;
                 // span {
                 //     display: block;
                 // }
-    
+
                 .sub-text {
                     color: #4D4D4D;
                     font-size: 1.5rem;
@@ -952,21 +960,22 @@
                     margin-bottom: 12px;
                     font-size: 16px;
                 }
-    
-    
+
+
                 .cupon {
-    
+                    width: 253px;
+
                     .promo-text {
                         padding: 15px;
                     }
-    
+
                     .kc {
                         top: -20px;
                         right: 15px;
                     }
                 }
             }
-    
+
         }
     }
 }

@@ -6,7 +6,7 @@
 
         // Close banner
         banner.on('click', '.banner-close', function () {
-            banner.remove();
+            $('#header-sticky-banner').remove()
         });
 
         // Banner countdown
