@@ -154,6 +154,30 @@ get_header();
             </div>
 
         </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="offers-content">
+                    <h4 class="titles">
+                    How to claim the special offer:
+                    </h4>
+                    <span class="descripition" >1. Visit the SoftLab offers page: <a href="/offers/">https://softlabbd.com/offers</a></span>
+                    <span class="descripition" >2. Choose the product you want to buy and click on the "Buy Now" button.</span>
+                    <span class="descripition" >3. Click on the "Have a promotional code?" button and apply the coupon code <b>"HALLOWEEN2023"</b>.</span>
+                    <span class="descripition" >4. Instantly enjoy a 30% discount – it’s that simple!</span>
+                </div>
+                <div class="offers-conten">
+                    <h4 class="titles">
+                    What are the conditions of the Halloween coupon?
+                    </h4>
+                    <li class="descripition" >Use coupon: <b>"HALLOWEEN2023"</b></li>
+                    <li class="descripition" >The coupon is available from October 26th to 1st November.</li>
+                    <li class="descripition" >Coupon applies to all our plugins membership, renewals, and upgrades.</li>
+                    <span>Hurry the coupon is just available for few days only!</span>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 

@@ -1257,6 +1257,11 @@
   //     height: auto;
   //   }
   // }
+  .banner-products {
+    img {
+      width: 320px;
+    }
+  }
 
   .offer {
     img {
@@ -1280,9 +1285,9 @@
       // background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
       border-radius: 50px;
       border: 1px solid rgba(255, 255, 255, 0.56);
-      background: #311848;
+      background: #fff;
       text-decoration: none;
-      color: #fff;
+      color: #633A89;
       padding: 15px 30px;
       transition: all .3s ease;
 
@@ -1291,8 +1296,8 @@
       }
 
       &:hover {
-        background: #fff;
-        color: #633A89;
+        background: #311848;
+        color: #fff;
       }
     }
   }
