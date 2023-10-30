@@ -16,7 +16,7 @@
         if (countdown.length) {
             const updateTimer = () => {
                 const now = new Date().getTime();
-                let countDownDate = new Date().getTime() + 300 * 60 * 60 * 1000;
+                let countDownDate = new Date().getTime() + 96 * 60 * 60 * 1000;
 
                 // Check if there is a time in local storage
                 if (localStorage.getItem('softlab_offers_time')) {
