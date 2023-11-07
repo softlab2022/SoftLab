@@ -2,7 +2,7 @@
     "use strict";
 
     $(document).ready(function () {
-        const banner = $('#header-sticky-banner, #halloween-offers');
+        const banner = $('#header-sticky-banner, #halloween-offers, #black-friday-offers');
 
         // Close banner
         banner.on('click', '.banner-close', function () {

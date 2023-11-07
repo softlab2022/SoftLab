@@ -1,4 +1,5 @@
-<?php echo get_template_part( 'template-parts/halloween-offer-sticky-banner' ); ?>
+<!-- <?php echo get_template_part( 'template-parts/halloween-offer-sticky-banner' ); ?> -->
+<!-- <?php echo get_template_part( 'template-parts/black-friday-sticky-banner' ); ?> -->
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
