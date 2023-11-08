@@ -159,6 +159,7 @@ class SoftLa {
 			'integrate-dropbox-pricing',
 			'radio-player-proxy-player',
 			'offers',
+			'offers-black-friday',
 		] );
 
 		if ( $is_pricing_page ) {

@@ -30,6 +30,7 @@ $pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
 
 ?>
 
+<?php echo get_template_part( 'template-parts/black-friday-sticky-banner' ); ?>
 
 
 <!DOCTYPE html>
