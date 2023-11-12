@@ -1248,6 +1248,7 @@
 
 
 #black-friday-offers-main {
+    background: linear-gradient(181deg, #10151C 40.2%, #10151C 86.93%);
     position: relative;
     padding: 100px 0;
 
@@ -1371,6 +1372,7 @@
 
             .cupon {
                 position: relative;
+                width: 206px;
 
                 .promo-text {
                     color: #33B44D;
@@ -1397,7 +1399,7 @@
                 .kc {
                     position: absolute;
                     top: -20px;
-                    right: 136px;
+                    right: 14px;
                 }
             }
         }
@@ -1486,14 +1488,14 @@
         padding: 100px 0 0 0;
 
         .titles {
-            color: #000;
+            color: #fff;
             font-size: 24px;
             font-weight: 600;
         }
 
         .descripition {
             display: inline-block;
-            color: #444;
+            color: #ddd;
             font-size: 16px;
             font-weight: 400;
             margin-left: 18px;
@@ -1505,13 +1507,13 @@
         padding: 50px 0 0 0;
 
         .titles {
-            color: #272727;
+            color: #fff;
             font-size: 24px;
             font-weight: 600;
         }
 
         .descripition {
-            color: #444;
+            color: #ddd;
             font-size: 16px;
             font-weight: 400;
             margin-left: 18px;
@@ -1520,7 +1522,7 @@
 
         span {
             display: inline-block;
-            color: #444;
+            color: #ddd;
             font-size: 16px;
             font-weight: 400;
             margin-top: 17px;
@@ -1556,9 +1558,9 @@
                         padding: 15px;
                     }
 
-                    .kc {
-                        right: 16px;
-                    }
+                    // .kc {
+                    //     right: 63px;
+                    // }
                 }
             }
         }
@@ -1594,9 +1596,9 @@
                         padding: 15px;
                     }
 
-                    .kc {
-                        right: 57px;
-                    }
+                    // .kc {
+                    //     right: 102px;
+                    // }
                 }
             }
 
@@ -1649,16 +1651,16 @@
 
 
                 .cupon {
-                    width: 253px;
+                    width: 206px;
 
                     .promo-text {
                         padding: 15px;
                     }
 
-                    .kc {
-                        top: -20px;
-                        right: 15px;
-                    }
+                    // .kc {
+                    //     top: -20px;
+                    //     right: 15px;
+                    // }
                 }
             }
 
