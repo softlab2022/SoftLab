@@ -227,7 +227,7 @@
         align-items: center;
         flex-direction: row;
 
-        & > li {
+        &>li {
           margin-right: 1rem;
 
           &:last-child {
@@ -291,6 +291,7 @@
         padding-right: 0;
       }
     }
+
     .footer-menu-products {
       a {
         display: flex;
@@ -412,6 +413,55 @@
     .news-letter-form {
       p {
         color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}
+
+
+.page-template-templatesoffers-black-friday-php {
+  .footer {
+    background: url("../images/footer-new-illus.png") #43464B;
+    // background: rgba(67, 70, 75, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 0;
+
+    .footer-menu-head {
+      h4 {
+        color: #fff;
+      }
+    }
+
+    .footer-contant {
+      p {
+        color: #D8D8D8;
+      }
+    }
+
+    .footer-menu {
+      a {
+        color: #D8D8D8;
+      }
+    }
+
+    .footer-menu-products {
+      a {
+        color: #D8D8D8;
+      }
+    }
+
+    .news-letter-form {
+      p {
+        color: #D8D8D8;
+      }
+    }
+
+    .footer-bottom {
+      p {
+        color: #D8D8D8;
       }
     }
   }

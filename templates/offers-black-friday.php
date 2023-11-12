@@ -169,7 +169,7 @@ get_header();
                 </div>
                 <div class="offers-conten">
                     <h4 class="titles">
-                        What are the conditions of the Halloween coupon?
+                    What are the conditions of the Black Friday & Cyber Monday coupon?
                     </h4>
                     <li class="descripition">Use coupon: <b>"FSBFCM2023"</b></li>
                     <li class="descripition">The coupon is available from October 20th to 30th November.</li>
