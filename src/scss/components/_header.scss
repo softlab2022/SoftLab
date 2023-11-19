@@ -1,11 +1,12 @@
 /**---------- Header ----------**/
 .site-header {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   width: auto;
   background: transparent;
   backdrop-filter: inherit;
+  background: #f5f5f5;
   z-index: 99;
   padding: 1rem 0px;
 
@@ -1546,6 +1547,8 @@
   position: fixed;
   z-index: 999999;
   padding: 5px 0;
+  background-repeat: no-repeat;
+
 
 
   &.active {
@@ -1567,7 +1570,7 @@
 
   .banner-products {
     img {
-      max-width: 320px;
+      max-width: 220px;
     }
 
   }
@@ -1594,19 +1597,20 @@
       // background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
       border-radius: 50px;
       border: 1px solid rgba(255, 255, 255, 0.56);
-      background: #fff;
+      background: #F2D23A;
       text-decoration: none;
-      color: #633A89;
+      color: #38394D;
       padding: 10px 20px;
       transition: all .3s ease;
+      font-weight: 600;
 
       i {
         margin-right: 5px;
       }
 
       &:hover {
-        background: #311848;
-        color: #fff;
+        background: #fff;
+        color: #38394D;
       }
     }
   }
@@ -1643,8 +1647,8 @@
         justify-content: center;
         align-items: center;
         border-radius: 7px;
-        border: 1px solid #A1A1A1;
-        background: #10151C;
+        border: 1px solid #fff;
+        // background: #10151C;
         width: 55px;
 
         &:after {

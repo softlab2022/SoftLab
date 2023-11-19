@@ -12,6 +12,17 @@
             <!-- <a class="banner-product summer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween.png" />
             </a> -->
+            <!-- Banner Product -->
+            <a class="banner-products" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text.png" />
+                <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
+            </a>
+
+            
+            <a class="banner-product offer" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky.png" />
+            </a>
+            
              <!-- Banner Countdown -->
              <div class="banner-countdown">
                 <div class="timer"></div>
@@ -29,14 +40,7 @@
                 <p>Unbeatable Summer Deals</p>
             </div> -->
 
-            <!-- Banner Product -->
-            <a class="banner-products" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text.png" />
-                <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
-            </a>
-            <a class="banner-product offer" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky.png" />
-            </a>
+            
 
             <!-- Banner Offer -->
             <!-- <div class="banner-offer">
