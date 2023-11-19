@@ -6,7 +6,7 @@
 
         // Close banner
         banner.on('click', '.banner-close', function () {
-            $('#header-sticky-banner').remove()
+            $('#header-sticky-banner').remove();
         });
 
         // Banner countdown
@@ -14,32 +14,41 @@
         const timer = banner.find('.timer');
 
         if (countdown.length) {
+            const SECOND = 1000;
+            const MINUTE = 60 * SECOND;
+            const HOUR = 60 * MINUTE;
+            const DAY = 24 * HOUR;
+
+            const formatTime = (distance) => {
+                const days = Math.floor(distance / DAY);
+                const hours = Math.floor((distance % DAY) / HOUR);
+                const minutes = Math.floor((distance % HOUR) / MINUTE);
+                const seconds = Math.floor((distance % MINUTE) / SECOND);
+
+                return `<span class="days">${days}d</span> <span class="hours">${hours}h</span> <span class="minutes">${minutes}m</span> <span class="seconds">${seconds}s</span>`;
+            };
+
             const updateTimer = () => {
                 const now = new Date().getTime();
-                let countDownDate = new Date().getTime() + 96 * 60 * 60 * 1000;
+                let countDownDate = new Date().getTime() + 8.5 * DAY;
 
                 // Check if there is a time in local storage
-                if (localStorage.getItem('softlab_offers_time')) {
-                    countDownDate = localStorage.getItem('softlab_offers_time');
+                if (localStorage.getItem('bf_offers_time')) {
+                    countDownDate = localStorage.getItem('bf_offers_time');
                 }
 
                 const distance = countDownDate - now;
 
                 if (distance < 0) {
                     // Reset the time
-                    localStorage.removeItem('softlab_offers_time');
+                    localStorage.removeItem('bf_offers_time');
                     return;
                 }
 
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                timer.html(`<span class="days">${days}d</span> <span class="hours">${hours}h</span> <span class="minutes">${minutes}m</span> <span class="seconds">${seconds}s</span>`);
+                timer.html(formatTime(distance));
 
                 // Save time in local storage
-                localStorage.setItem('softlab_offers_time', countDownDate);
+                localStorage.setItem('bf_offers_time', countDownDate);
             };
 
             const x = setInterval(updateTimer, 1000);
