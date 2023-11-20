@@ -97,6 +97,26 @@ $pro_features = [
                     <span class="switch"></span>
                     <span class="switch-text lifetime">Lifetime</span>
                 </div>
+                <div class="site">
+                            <div class="dropdown license-dropdown">
+                                <button class="btn-pr dropdown-toggle" type="button" id="license-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Single Site License
+                                </button>
+
+                                <ul class="dropdown-menu" aria-labelledby="license-dropdown">
+                                    <li>
+                                        <a class="dropdown-item active" href="#" data-license="1">Single Site
+                                            License</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
             </div>
         </div>
 
@@ -133,46 +153,27 @@ $pro_features = [
                         <span class="pricing-head-title">PRO</span>
                         <span class="pricing-head-description">Most Popular Package</span>
 
-                        <div class="site">
-                            <div class="dropdown license-dropdown">
-                                <button class="btn-pr dropdown-toggle" type="button" id="license-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Single Site License
-                                </button>
-
-                                <ul class="dropdown-menu" aria-labelledby="license-dropdown">
-                                    <li>
-                                        <a class="dropdown-item active" href="#" data-license="1">Single Site
-                                            License</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        
 
                         <div class="price-text annual license-1">
 
                             <div class="offer-price annual single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$35 </p>
-                                    <span class="price-dis">20%OFF</span>
+                                    <p class="price-off">$37 </p>
+                                    <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price annual five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$124 </p>
-                                    <span class="price-dis">25%OFF</span>
+                                    <p class="price-off">$128 </p>
+                                    <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price annual hundred">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$259 </p>
+                                    <p class="price-off">$258 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
@@ -184,22 +185,22 @@ $pro_features = [
 
                             <div class="offer-price lifetime single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$124 </p>
-                                    <span class="price-dis">25%OFF</span>
+                                    <p class="price-off">$128 </p>
+                                    <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price lifetime five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$259 </p>
+                                    <p class="price-off">$258 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price lifetime hundred">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$607 </p>
-                                    <span class="price-dis">35%OFF</span>
+                                    <p class="price-off">$583 </p>
+                                    <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>

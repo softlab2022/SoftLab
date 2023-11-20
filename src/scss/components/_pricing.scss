@@ -152,6 +152,43 @@
 
   }
 
+  .site {
+    text-align: center;
+    margin: 10px 0 45px 0;
+
+    .dropdown {
+      &-menu {
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .dropdown-item {
+        &.active {
+          background-color: $igd_color;
+        }
+      }
+
+      .btn-pr {
+        background-color: #00BB45;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        color: #fff;
+
+        &:hover {
+          box-shadow: #7788FF 0px 2px 8px 0px;
+        }
+
+      }
+
+      .btn-check:focus+.btn-secondary,
+      .btn-secondary:focus {
+        border: none;
+        box-shadow: none;
+      }
+    }
+  }
+
   .price-table {
     background-color: #fff;
     padding: 20px 20px 50px 20px;
@@ -401,41 +438,7 @@
         color: #3D6EC9;
       }
 
-      .site {
-        margin-top: 20px;
 
-        .dropdown {
-          &-menu {
-            padding: 0;
-            overflow: hidden;
-          }
-
-          .dropdown-item {
-            &.active {
-              background-color: $igd_color;
-            }
-          }
-
-          .btn-pr {
-            background-color: #00BB45;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 8px;
-            color: #fff;
-
-            &:hover {
-              box-shadow: #7788FF 0px 2px 8px 0px;
-            }
-
-          }
-
-          .btn-check:focus+.btn-secondary,
-          .btn-secondary:focus {
-            border: none;
-            box-shadow: none;
-          }
-        }
-      }
     }
   }
 
@@ -2282,7 +2285,7 @@
     }
 
     .dracula-site {
-      padding-bottom: 40px;
+      // padding-bottom: 40px;
 
       .site {
         .dropdown {

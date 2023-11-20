@@ -30,17 +30,18 @@ $pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
 
 ?>
 
-<?php echo get_template_part( 'template-parts/black-friday-sticky-banner' ); ?>
+
 
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-
+<?php wp_head(); ?>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://softlabbd.com/wp-content/uploads/2022/08/cropped-soft-logo.png" sizes="32x32" />
 
-    <?php wp_head(); ?>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6DRHX4YG7"></script>
     <script>
@@ -77,7 +78,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
     <div id="wrapper">
 
-
+        <?php echo get_template_part('template-parts/black-friday-sticky-banner'); ?>
         <header class="site-header">
             <div class="container">
                 <div class="row">
@@ -94,7 +95,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo">
                             </a>
 
-                                <!-- <a class="navbar-brand brand-radio-player" href="/radio-player"
+                            <!-- <a class="navbar-brand brand-radio-player" href="/radio-player"
                                 title="Radio Player" rel="home">
                                 <img class="img-fluid"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-player-logo.png"

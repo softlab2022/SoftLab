@@ -805,6 +805,15 @@
     margin-top: 0;
   }
 }
+.fixed-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  background-color: #fff;
+  box-shadow: 0 13px 22px -5px rgba(0,0,0,.06);
+}
 
 .page-template-templateswp-radio-php {
   .navbar {

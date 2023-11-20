@@ -192,15 +192,15 @@ $pro_features = [
                                         </div>
                                         <div class="offer-price annual five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$52</p>
-                                                <span class="price-dis">35%OFF</span>
+                                                <p class="price-off">$50</p>
+                                                <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price annual hundred">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$138</p>
-                                                <span class="price-dis">40%OFF</span>
+                                                <p class="price-off">$128</p>
+                                                <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
@@ -213,22 +213,22 @@ $pro_features = [
                                         <!-- Regular Price -->
                                         <div class="offer-price lifetime single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$54</p>
-                                                <span class="price-dis">40%OFF</span>
+                                                <p class="price-off">$50</p>
+                                                <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price lifetime five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$143</p>
-                                                <span class="price-dis">45%OFF</span>
+                                                <p class="price-off">$128</p>
+                                                <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
                                         <div class="offer-price lifetime hundred">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$398</p>
-                                                <span class="price-dis">50%OFF</span>
+                                                <p class="price-off">$258</p>
+                                                <span class="price-dis">30%OFF</span>
                                             </div>
 
                                         </div>
