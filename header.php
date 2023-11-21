@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <?php wp_head(); ?>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
@@ -55,7 +56,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
 
         <?php echo get_template_part('template-parts/black-friday-sticky-banner'); ?>
-        <header class="site-header">
+        <header  class="site-header navbar-transparent">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-md primary-nav <?php echo esc_attr($navbar_scheme);

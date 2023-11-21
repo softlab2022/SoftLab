@@ -10,6 +10,9 @@ import "./components/sticky-banner";
       //Init Fun Fact Counter
       app.initFunFactCounter();
 
+      //Init scrolling header
+      app.initFixdHeader();
+
       //Handle contact form tabs
       $(".contact-form .tab-item").on("click", app.handleContactForm);
 
@@ -210,6 +213,29 @@ import "./components/sticky-banner";
       });
     },
 
+    //scrolling header js
+    initFixdHeader: function () {
+      let lastScrollTop = 0;
+      const fixedheader = $('.site-header');
+
+      $(window).scroll(function () {
+        let currentScroll = $(this).scrollTop();
+
+        if (currentScroll > lastScrollTop || currentScroll <5) {
+          // Scroll down
+          fixedheader.removeClass('fixed-header');
+
+        } else {
+          // Scroll up
+          fixedheader.addClass('fixed-header');
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+      });
+    },
+
+
+
     handleContactForm: function () {
       $(".contact-form .tab-item").removeClass("active");
       $(this).addClass("active");
@@ -359,8 +385,6 @@ import "./components/sticky-banner";
       }
     },
   };
-
-
 
 
   $(document).ready(app.init);

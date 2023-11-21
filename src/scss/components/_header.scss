@@ -9,6 +9,7 @@
   // background: #f5f5f5;
   z-index: 99;
   padding: 1rem 0px;
+  transition: transform .25s ease-in-out;
 
   .primary-nav {
     .navbar-nav {
@@ -805,15 +806,22 @@
     margin-top: 0;
   }
 }
+
+/**---------- Scrolling Header Css start----------**/
 .fixed-header {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1030;
-  background-color: #fff;
+  // height: 80px;
+  z-index: 1330;
+  background-color: #DFE6FE;
   box-shadow: 0 13px 22px -5px rgba(0,0,0,.06);
+  transition: transform .25s ease-in-out;
+  padding: .5rem 0;
 }
+/**---------- Scrolling Header Css end----------**/
+
 
 .page-template-templateswp-radio-php {
   .navbar {
@@ -836,6 +844,9 @@
       }
     }
   }
+  .fixed-header {
+    background: #848FFF;
+  }
 }
 
 .page-template-templateswp-radio-user-frontend-php,
@@ -857,6 +868,13 @@
         height: auto;
       }
     }
+  }
+  
+}
+
+.page-template-templatesreader-mode-php {
+  .fixed-header {
+    background: #3C3498;
   }
 }
 
@@ -926,6 +944,17 @@
 
 }
 
+.page-template-templatesdracula-php {
+  .fixed-header {
+    background: transparent;
+  }
+}
+.page-template-templatesintegrate-google-drive-php,
+.page-template-templatesradio-player-php  {
+  .fixed-header {
+    background: #BBE6C6;
+  }
+}
 
 .page-template-templatesoffers-php,
 .page-template-templatesoffers-black-friday-php {
