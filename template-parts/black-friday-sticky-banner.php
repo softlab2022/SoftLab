@@ -14,7 +14,7 @@
             </a> -->
             <!-- Banner Product -->
             <a class="banner-products" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text.png" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new.png" />
                 <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
             </a>
 

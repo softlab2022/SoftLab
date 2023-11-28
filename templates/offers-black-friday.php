@@ -172,7 +172,7 @@ get_header();
                     What are the conditions of the Black Friday & Cyber Monday coupon?
                     </h4>
                     <li class="descripition">Use coupon: <b>"FSBFCM2023"</b></li>
-                    <li class="descripition">The coupon is available from October 20th to 30th November.</li>
+                    <li class="descripition">The coupon is available from November 25th to 05th December.</li>
                     <li class="descripition">Coupon applies to all our plugins membership, renewals, and upgrades.</li>
                     <span>Hurry the coupon is just available for few days only!</span>
                 </div>

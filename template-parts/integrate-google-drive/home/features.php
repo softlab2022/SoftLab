@@ -55,7 +55,7 @@ $features = [
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
-                    <h1>Amazing Drive </br> Integration <span>Features</span>.</h1>
+                    <h1>Amazing Drive </br> Integration <span>Features</span></h1>
                     <p>We provide the best and most productive integrations for Google Drive. You are near to discovering some coolest features of Integrate Google Drive & easiest way to connect with us. Join the party now!</p>
                 </div>
             </div>

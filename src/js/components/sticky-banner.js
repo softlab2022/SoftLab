@@ -31,7 +31,7 @@
             const updateTimer = () => {
                 const now = new Date().getTime();
                 //let countDownDate = new Date().getTime() + 8.5 * DAY;
-                let countDownDate = new Date('2023-11-27T23:59:00').getTime();
+                let countDownDate = new Date('2023-12-05T23:59:00').getTime();
 
 
                 // Check if there is a time in local storage
@@ -55,6 +55,7 @@
 
             const x = setInterval(updateTimer, 1000);
             updateTimer(); // Call immediately, don’t wait for the first interval to execute
+            
         }
     });
 

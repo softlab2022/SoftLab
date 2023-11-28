@@ -1003,6 +1003,9 @@
 
     // }
   }
+  .fixed-header {
+    background: #10151C;
+  }
 }
 
 
@@ -1599,7 +1602,7 @@
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
   width: 100%;
   position: fixed;
-  z-index: 999999;
+  z-index: 9999;
   padding: 5px 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1626,7 +1629,7 @@
 
   .banner-products {
     img {
-      max-width: 220px;
+      max-width: 450px;
     }
 
   }
@@ -1843,7 +1846,7 @@
 
     .banner-products {
       img {
-        width: 100px;
+        width: 132px;
       }
     }
 

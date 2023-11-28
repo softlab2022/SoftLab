@@ -6,7 +6,7 @@
                         <div class="vector5">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/ex-feature/ellipse-1.png" alt="ellipse-1">
                         </div>
-                    <h1>Never miss valuable</br> Extra <span>Features</span>.</h1>
+                    <h1>Never miss valuable</br> Extra <span>Features</span></h1>
                     <p>Let's explore which features are absolute must-haves for any banking app and which ones you can add to stand out and give even more value</p>
                 </div>
             </div>
