@@ -813,12 +813,11 @@
   left: 0;
   top: 0;
   width: 100%;
-  // height: 80px;
   z-index: 1330;
   background-color: #DFE6FE;
   box-shadow: 0 13px 22px -5px rgba(0,0,0,.06);
   transition: transform .25s ease-in-out;
-  padding: .5rem 0;
+  padding: 0 0 3px;
 }
 /**---------- Scrolling Header Css end----------**/
 
@@ -1015,7 +1014,7 @@
 
   body:has(.sticky-banner) {
     .site-header {
-      padding-top: 85px;
+      padding-top: 80px;
     }
   }
 }
@@ -1263,7 +1262,7 @@
 
   body:has(.halloween-sticky-banner) {
     .site-header {
-      padding-top: 85px;
+      padding-top: 80px;
     }
   }
 }
@@ -1575,7 +1574,7 @@
 
   body:has(.black-friday-sticky-banner) {
     .site-header {
-      padding-top: 85px;
+      padding-top: 80px;
     }
   }
 }
