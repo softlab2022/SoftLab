@@ -30,6 +30,7 @@ class SoftLa {
 			'integrate-google-drive-media-player',
 			'integrate-googlle-drive-slider-carousel',
 			'integrate-google-drive-integrations',
+			'integrate-google-drive-media-library',
 
 		] ) ) {
 
@@ -160,6 +161,7 @@ class SoftLa {
 			'radio-player-proxy-player',
 			'offers',
 			'offers-black-friday',
+			'integrate-google-drive-media-library',
 		] );
 
 		if ( $is_pricing_page ) {

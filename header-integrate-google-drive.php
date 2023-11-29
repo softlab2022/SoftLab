@@ -1,3 +1,39 @@
+
+
+
+
+<?php
+
+$addons = [
+
+    'integrate-google-drive-media-library'    => [
+        'title'       => 'Integrate Google Drive Media Library',
+        'logo'        => get_template_directory_uri() . '/assets/images/google-drive/media-library-addon/media-library-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/google-drive/media-library-addon/media-library-logo.png',
+    ],
+];
+
+$page_template = get_page_template_slug();
+$file_name     = basename($page_template, '.php');
+
+$is_addon = in_array($file_name, array_keys($addons));
+
+$title = $is_addon ? $addons[$file_name]['title'] : 'Integrate Google Drive';
+$logo  = $is_addon ? $addons[$file_name]['logo'] : get_template_directory_uri() . '/assets/images/google-drive/integrate-google-drive-logo.png';
+$logo_withe  = $is_addon ? $addons[$file_name]['logo_withe'] : get_template_directory_uri() . '/assets/images/new-logo/integrate-google-drive-withe-logo.png';
+$link  = $is_addon ? '/' . $file_name : '/integrate-google-drive';
+
+$nav_class = $is_addon ? $file_name . '-nav' : 'integrate-google-drive-nav';
+
+$pricing_link = $is_addon ? '#pricing' : '/integrate-google-drive-pricing';
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -59,8 +95,11 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="site-logo">
                             </a>
 
-                            <a class="navbar-brand brand-integrate-google-drive" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
+                            <!-- <a class="navbar-brand brand-integrate-google-drive" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/integrate-google-drive-logo.png" alt="Integrate Google Drive">
+                            </a> -->
+                            <a class="navbar-brand brand-integrate-google-drive" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
+                                <img class="img-fluid" src="<?php echo $logo; ?>" alt="<?php echo $title; ?>">
                             </a>
                         </div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'softlab'); ?>">
@@ -70,8 +109,11 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                         <div id="navbar" class=" mobile-menu collapse navbar-collapse">
                             <?php if (wp_is_mobile()) { ?>
                                 <span class="mobile-close-btn d-flex justify-content-between align-items-center">
-                                    <a class="navbar-brand brand-integrate-google-drive logo-btn" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
+                                    <!-- <a class="navbar-brand brand-integrate-google-drive logo-btn" href="/integrate-google-drive" title="Integrate Google Drive" rel="home">
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/new-logo/integrate-google-drive-withe-logo.png" alt="Integrate Google Drive">
+                                    </a> -->
+                                    <a class="navbar-brand brand-integrate-google-drive  logo-btn" href="<?php echo $link; ?>" title="<?php echo $title; ?>" rel="home">
+                                        <img class="img-fluid" src="<?php echo $logo_withe; ?>" alt="<?php echo $title; ?>">
                                     </a>
 
                                     <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
