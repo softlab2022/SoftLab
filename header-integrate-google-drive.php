@@ -9,9 +9,10 @@ $addons = [
     'integrate-google-drive-media-library'    => [
         'title'       => 'Integrate Google Drive Media Library',
         'logo'        => get_template_directory_uri() . '/assets/images/google-drive/media-library-addon/media-library-logo.png',
-        'logo_withe'        => get_template_directory_uri() . '/assets/images/google-drive/media-library-addon/media-library-logo.png',
+        'logo_withe'        => get_template_directory_uri() . '/assets/images/google-drive/media-library-addon/media-library-logo-withe.png',
     ],
 ];
+
 
 $page_template = get_page_template_slug();
 $file_name     = basename($page_template, '.php');
