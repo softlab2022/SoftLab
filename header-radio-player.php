@@ -35,12 +35,11 @@ $pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<?php wp_head(); ?>
+
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="https://softlabbd.com/wp-content/uploads/2022/08/cropped-soft-logo.png" sizes="32x32" />
 
 
     <!-- Google tag (gtag.js) -->
@@ -57,7 +56,7 @@ $pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
     </script>
 
 
-
+<?php wp_head(); ?>
 
 </head>
 
