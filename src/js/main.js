@@ -16,6 +16,9 @@ import "./components/sticky-banner";
       //Handle contact form tabs
       $(".contact-form .tab-item").on("click", app.handleContactForm);
 
+      //Handle popup img 
+      $(".single img").on("click", app.handlePopupimg);
+
 
       //Handle to top button
       $(".to-top").on("click", app.handleToTop);
@@ -221,7 +224,7 @@ import "./components/sticky-banner";
       $(window).scroll(function () {
         let currentScroll = $(this).scrollTop();
 
-        if (currentScroll > lastScrollTop || currentScroll <5) {
+        if (currentScroll > lastScrollTop || currentScroll < 5) {
           // Scroll down
           fixedheader.removeClass('fixed-header');
 
@@ -231,6 +234,27 @@ import "./components/sticky-banner";
         }
 
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+      });
+    },
+
+
+
+    //Handle popup img js
+    handlePopupimg: function () {
+      $('.single img').click(function () {
+        var src = $(this).attr('src');
+
+        $.magnificPopup.open({
+          items: {
+            src: src
+          },
+          type: 'image',
+          closeOnContentClick: true,
+          mainClass: 'mfp-img-mobile',
+          image: {
+            verticalFit: true
+          }
+        });
       });
     },
 
@@ -384,6 +408,9 @@ import "./components/sticky-banner";
         $("[name='method[]']").attr("required", true);
       }
     },
+
+
+
   };
 
 

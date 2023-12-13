@@ -81,6 +81,10 @@ body.search {
   .softdocs-entry-content {
     p {
       color: #5c637e;
+
+      img {
+        cursor: zoom-in;
+      }
     }
   }
 
@@ -97,8 +101,10 @@ body.search {
     height: auto;
     margin-bottom: 30px;
     border-radius: 10px;
+    cursor: zoom-in;
   }
 }
+
 
 figure {
   margin: 0;
@@ -108,6 +114,15 @@ figure {
     max-width: 100%;
     border: 1px solid #ddd;
     border-radius: 5px;
+  }
+}
+
+.mfp-content {
+  .mfp-figure {
+    img {
+      border: none;
+      border-radius: 5px;
+    }
   }
 }
 
@@ -122,8 +137,15 @@ figure {
       border: 1px solid #ddd;
       border-radius: 10px;
       margin: 35px auto;
+      cursor: zoom-in;
     }
 
+  }
+
+  .wp-block-image {
+    img {
+      cursor: zoom-in;
+    }
   }
 
   iframe {
