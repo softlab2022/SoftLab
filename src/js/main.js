@@ -241,7 +241,7 @@ import "./components/sticky-banner";
 
     //Handle popup img js
     handlePopupimg: function () {
-      $('.single img').click(function () {
+      $('.single article img').click(function () {
         var src = $(this).attr('src');
 
         $.magnificPopup.open({
