@@ -1,6 +1,10 @@
 <?php
 
 $features = [
+    'media-library' => [
+        'title'       => 'Google Drive Integration with Media Library',
+        'description' => 'The "Integrate Google Drive" plugin enhances WordPress media management by leveraging Google Drives unlimited storage. It enables seamless use, upload, import, and synchronization of media files between WordPress and Google Drive, providing a spacious and secure solution for handling extensive website content.',
+    ],
     'file-browser' => [
         'title'       => 'File Browser',
         'description' => 'Display your cloud files via an interactive File Browser. The file browser can have a grid thumbnail and list view for the Google Drive files you are browsing. It’s the simplest solution to manage your cloud files easily & efficiently.',
@@ -65,7 +69,8 @@ $features = [
         $i = 0;
         foreach ($features as $key => $feature) {
             $is_odd         = $i % 2 == 0;
-            $is_integration = in_array($key, ['page-builder', 'form']);
+            $is_integration = in_array($key, ['page-builder', 'form', 'media-library']);
+            $is_integrations = in_array($key, ['media-library']);
 
             $image_class   = $is_odd ? 'col-md-7' : 'col-md-5';
             $content_class = $is_odd ? 'col-md-5' : 'col-md-7';
@@ -89,6 +94,11 @@ $features = [
 
                         <?php if (!$is_integration) { ?>
                             <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
+                        <?php } ?> 
+
+                        <?php if ($is_integrations) { ?>
+                            <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
+                            <span class="new-text" >New</span>
                         <?php } ?>
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
@@ -120,11 +130,21 @@ $features = [
 
                             </div>
 
+                        <?php } elseif ('media-library' == $key) { ?>
+                            <div class="feature-integrations">
+                                <span><i class="fa-solid fa-check"></i> Google Drive as Media Attachment</span>
+                                <span><i class="fa-solid fa-check"></i> Auto Cloud Sync</span>
+                                <span><i class="fa-solid fa-check"></i> Upload to Google Drive</span>
+                                <span><i class="fa-solid fa-check"></i> Import from Google Drive</span>
+                                <span><i class="fa-solid fa-check"></i> Replace with Google Drive</span>
+
+                            </div>
+
                         <?php } ?>
 
                         <?php if (!$is_integration && !in_array($key, [
                             'multiple-accounts',
-                            'shortcode-builder'
+                            'shortcode-builder',
                         ])) { ?>
                             <a href="/integrate-google-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
                         <?php } ?>

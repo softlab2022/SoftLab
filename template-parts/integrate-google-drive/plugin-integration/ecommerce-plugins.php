@@ -293,6 +293,49 @@
                 </div>
             </div>
         </div>
+        <!----===== Tutor Lms area =====------>
+
+        <div class="row feat-shadw">
+            <div class="col-lg-7 m-auto">
+                <div class="woocommerce-head tutor-lms vector-area text-center">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library-icon.png" alt="media-library-icon">
+
+
+                    <h3 class="wooco-title">Media Library</h3>
+                    <p class="wooco-description">Allows you to select Google Drive files and folders using Media Library field and display in theme template file.</p>
+                </div>
+
+                <div class="vector-crcel-left">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                </div>
+                <div class="vector-crcel-right">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 m-auto">
+                <div class="wooco-feature-area vector-area  text-center">
+
+                    <div class="feature-video">
+                        <!-- <iframe src="https://www.youtube.com/embed/UTFgIKS64zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library.png" alt="media-library">
+                    </div>
+
+                    <div class="feature-btn tutor-lms-feat text-center">
+                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                    </div>
+
+                    <div class="fe-vector-left">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                    </div>
+                    <div class="fe-vector-right">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </div>
 </section>
