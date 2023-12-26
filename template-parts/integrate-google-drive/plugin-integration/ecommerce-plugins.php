@@ -302,7 +302,7 @@
 
 
                     <h3 class="wooco-title">Media Library</h3>
-                    <p class="wooco-description">Allows you to select Google Drive files and folders using Media Library field and display in theme template file.</p>
+                    <p class="wooco-description">Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your website's media capabilities.</p>
                 </div>
 
                 <div class="vector-crcel-left">

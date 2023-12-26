@@ -9,16 +9,19 @@
       font-size: 4rem;
       margin-bottom: 1.5rem;
       font-weight: 600;
+      line-height: 120%;
     }
 
     h2 {
       font-size: 2rem;
       margin-bottom: 1.5rem;
       font-weight: 600;
+      line-height: 120%;
     }
     p {
       font-size: 1.1rem;
       margin-bottom: 30px;
+      line-height: 150%;
     }
 
     .view-products-btn {
@@ -116,6 +119,7 @@
       margin-bottom: .5rem;
       font-weight: 700;
       color: $h1_color;
+      line-height: 120%;
     }
 
     p {
@@ -124,6 +128,7 @@
       margin-bottom: 2.5rem;
       padding: 0 11%;
       color: $p_color;
+      line-height: 150%;
     }
   }
 

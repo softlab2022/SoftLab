@@ -3,7 +3,7 @@
 $features = [
     'media-library' => [
         'title'       => 'Google Drive Integration with Media Library',
-        'description' => 'The "Integrate Google Drive" plugin enhances WordPress media management by leveraging Google Drives unlimited storage. It enables seamless use, upload, import, and synchronization of media files between WordPress and Google Drive, providing a spacious and secure solution for handling extensive website content.',
+        'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
     ],
     'file-browser' => [
         'title'       => 'File Browser',
@@ -76,8 +76,8 @@ $features = [
             $content_class = $is_odd ? 'col-md-5' : 'col-md-7';
 
             if ($is_integration) {
-                $image_class   = 'col-md-6';
-                $content_class = 'col-md-6';
+                $image_class   = 'col-md-5';
+                $content_class = 'col-md-7';
             }
 
         ?>

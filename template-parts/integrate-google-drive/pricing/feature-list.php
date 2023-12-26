@@ -148,20 +148,12 @@ $features = [
 
 	],
 	[
-		'title'       => 'Dokan Multi-vendor Integration',
-		'description' => 'You can allow your vendors to serve their downloadable product’s files directly from Google Drive, and also vendors can let their customers upload files for their products to the vendor’s Google Drive account when any customer purchase any products.',
-		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'title'       => 'Media Library Integration',
+		'description' => 'Use Google Drive files as WordPress media attachment and upload, import, and synchronize between WordPress and Google Drive.',
+		'video'       => '',
 		'pro'         => false,
 
 	],
-	[
-		'title'       => 'Advanced Custom Fields (ACF) Integration',
-		'description' => 'Allows you to select Google Drive files and folders using ACF field and display in theme template file.',
-		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-		'pro'         => false,
-
-	],
-
 	[
 		'title'       => 'WooCommerce Integration',
 		'description' => 'You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve your Digital Downloads directly from Google Drive.',
@@ -169,6 +161,14 @@ $features = [
 		'pro'         => false,
 
 	],
+	[
+		'title'       => 'Dokan Multi-vendor Integration',
+		'description' => 'You can allow your vendors to serve their downloadable product’s files directly from Google Drive, and also vendors can let their customers upload files for their products to the vendor’s Google Drive account when any customer purchase any products.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
+	
 	[
 		'title'       => 'Easy Digital Downloads Integration',
 		'description' => 'You can integrate your Google Drive files with EDD, and it allows you to serve your Digital Downloads directly from Google Drive.',
@@ -228,7 +228,14 @@ $features = [
 		'description' => 'You can get more flexibility than the Upload form that is included in Fluent Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lE7i66t_7Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
-	]
+	],
+	[
+		'title'       => 'Advanced Custom Fields (ACF) Integration',
+		'description' => 'Allows you to select Google Drive files and folders using ACF field and display in theme template file.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
 ];
 ?>
 
