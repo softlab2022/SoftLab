@@ -98,7 +98,7 @@ $features = [
 
                         <?php if ($is_integrations) { ?>
                             <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
-                            <span class="new-text" >New</span>
+                            <span class="new-text" >New⚡</span>
                         <?php } ?>
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>

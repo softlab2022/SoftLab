@@ -397,6 +397,32 @@
           color: #5C637E;
           font-weight: 500;
           font-size: 1rem;
+
+          .hot {
+            border-radius: 3px;
+            background: #ffe7d6;
+            padding: 1px 4px;
+            color: #ce0404;
+            font-size: .7rem;
+            font-weight: 400;
+            border: 1px solid #ffe7d6;
+            margin-left: 5px;
+            display: inline-flex;
+            align-items: center;
+            text-transform: uppercase;
+            img {
+              margin-left: 2px;
+            }
+          }
+          .new {
+            border-radius: 3px;
+            background: #00BB45;
+            padding: 1px 4px;
+            color: #fff;
+            padding-right: 0px;
+            font-size: .7rem;
+            font-weight: 400;
+          }
         }
       }
     }

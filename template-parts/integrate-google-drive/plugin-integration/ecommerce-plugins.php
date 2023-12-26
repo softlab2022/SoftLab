@@ -318,8 +318,8 @@
                 <div class="wooco-feature-area vector-area  text-center">
 
                     <div class="feature-video">
-                        <!-- <iframe src="https://www.youtube.com/embed/UTFgIKS64zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library.png" alt="media-library">
+                        <iframe src="https://www.youtube.com/embed/5Ekbe2AGfBI?si=yp8neq8SDl3rhtjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library.png" alt="media-library"> -->
                     </div>
 
                     <div class="feature-btn tutor-lms-feat text-center">
