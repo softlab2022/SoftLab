@@ -31,7 +31,7 @@ $free_features = [
 $pro_features = [
     'All Free Features',
     'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'File Uploader Module',
+    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
 
     'Slider Carousel Module',
     'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
@@ -45,12 +45,12 @@ $pro_features = [
     'Gravity Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Fluent Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Formidable Forms Integration',
-    'Elementor Form Integration',
+    'Elementor Form Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'MetForm Integration',
 
     'WP Forms Integration',
     'Ninja Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'User Private Files',
+    'User Private Files <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Automatic Private Folders',
     'Statistics & Email Report',
     'Email Notifications',
