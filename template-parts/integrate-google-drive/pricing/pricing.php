@@ -42,6 +42,7 @@ $pro_features = [
 
     'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Easy Digital Downloads Integration',
+    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Gravity Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Fluent Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Formidable Forms Integration',
@@ -83,7 +84,7 @@ $pro_features = [
             <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
                     <h2>Simple Pricing, Unbeatable Value</h2>
-                    <p>Join 5000+ User's Happy Community</p>
+                    <p>Join 10000+ User's Happy Community</p>
                 </div>
             </div>
         </div>

@@ -150,7 +150,7 @@ $features = [
 	[
 		'title'       => 'Media Library Integration',
 		'description' => 'Use Google Drive files as WordPress media attachment and upload, import, and synchronize between WordPress and Google Drive.',
-		'video'       => '',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/5Ekbe2AGfBI?si=yp8neq8SDl3rhtjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
@@ -173,6 +173,14 @@ $features = [
 		'title'       => 'Easy Digital Downloads Integration',
 		'description' => 'You can integrate your Google Drive files with EDD, and it allows you to serve your Digital Downloads directly from Google Drive.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZvkPsRn5-QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
+	
+	[
+		'title'       => 'Tutor LMS Integration',
+		'description' => 'The integration of the Google Drive plugin within Tutor LMS presents a powerful solution for instructors seeking a more efficient approach to managing their course materials. With this plugin, instructors can link their Google accounts to Tutor LMS, enabling them to easily access and manage their Google Drive course files within the platform. See how it works!',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/UTFgIKS64zA?si=qDTRP_Nt6vY2IYFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
