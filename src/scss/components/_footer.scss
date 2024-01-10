@@ -369,8 +369,8 @@
     background: url("../images/dracula/home/footer-shape.png") no-repeat 0 8rem #2E3161 !important;
     padding: 60px 0 0 0;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
 
     .footer-contant {
       p {

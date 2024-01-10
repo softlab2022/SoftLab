@@ -66,9 +66,13 @@ $products = [
 		'image'       => get_template_directory_uri() . '/assets/images/products/radio-player/radio-player-illustration.png',
 		'logo'        => get_template_directory_uri() . '/assets/images/products/radio-player/radio-player.png',
 		'features'    => [
+			// [
+			// 	'title' => 'HTTP Stream Player',
+			// 	'image' => get_template_directory_uri() . '/assets/images/products/radio-player/player-feat-icon-1.png',
+			// ],
 			[
-				'title' => 'HTTP Stream Player',
-				'image' => get_template_directory_uri() . '/assets/images/products/radio-player/player-feat-icon-1.png',
+				'title' => 'Play Statistics',
+				'image' => get_template_directory_uri() . '/assets/images/products//dracula/admin-dash.png',
 			],
 
 			[
