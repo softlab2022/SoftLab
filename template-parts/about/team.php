@@ -54,7 +54,6 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our-team">
                     <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=836"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid ">
 
                     </div>
@@ -68,13 +67,12 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our-team">
                     <div class="picture">
-                        <!-- <img class="img-fluid" src="https://picsum.photos/130/130?image=836"> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/monzur-alam.png" alt="" class="img-fluid ">
 
                     </div>
                     <div class="team-content">
                         <h3 class="name">Monzur Alam </h3>
-                        <h4 class="title">Plugin Developer</h4>
+                        <h4 class="title">Software Engineer</h4>
                     </div>
 
                 </div>
