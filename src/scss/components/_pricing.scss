@@ -3242,7 +3242,17 @@
     .feature-item {
       span {
         color: #fff !important;
+        .new {
+          border-radius: 3px;
+          background: linear-gradient(180deg, #8F87F3 -0.25%, #7469FA 99.83%)!important;
+          padding: 1px 4px;
+          color: #fff;
+          padding-right: 0px;
+          font-size: .7rem;
+          font-weight: 400;
+        }
       }
+      
 
       i {
         background: $reader_mode_color !important;

@@ -1,6 +1,28 @@
 <section id="feature">
     <div class="container">
 
+        <!--==== Reading Mode – Distraction-Free Content Reading =====--->
+        <div class="row dark-mode align-items-center admin-dashbord-dark-mode ">
+
+            <div class="col-lg-6 col-md-6">
+                <div class="feature-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/reading-mode-icon.png" alt="" class="img-fluid"> <span class="new-text">New⚡</span>
+                    <h3> <span class="dark-text">Reading Mode </span></h3>
+                    <?php if (wp_is_mobile()) { ?>
+                        <div class="feature-image-mobile">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/reading-mode.png" alt="" class="img-fluid">
+                        </div>
+                    <?php } ?>
+                    <p>Reading Mode enhances user experience by providing a distraction-free environment, removing clutter from articles and posts for improved focus. It prioritizes readability, accessibility, and ease of navigation, making it an invaluable tool for engaging and effortless content interaction.</p>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 feature-image-feat">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/reading-mode.png" alt="" class="img-fluid">
+            </div>
+
+        </div>
+
         <!--==== Frontend Dark Mode =====--->
         <div class="row dark-mode align-items-center ">
             <div class="col-lg-6 col-md-6 feature-image-feat">
@@ -9,7 +31,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Frontend <span>Dark Mode</span></h3>
+                    <h3>Frontend <span class="dark-text">Dark Mode</span></h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-image-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/frontend-dark-mode.png" alt="" class="img-fluid">
@@ -28,7 +50,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/admin-dashbord-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Admin Dashboard <span>Dark Mode</span></h3>
+                    <h3>Admin Dashboard <span class="dark-text">Dark Mode</span></h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-image-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/admin-dashbord-dark-mode.png" alt="" class="img-fluid">
@@ -109,7 +131,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Live Edit <span>Dark Mode</span></h3>
+                    <h3>Live Edit <span class="dark-text">Dark Mode</span></h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-image-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/live-edit-dark-mode.png" alt="" class="img-fluid">
@@ -132,7 +154,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode-icon.png" alt="" class="img-fluid">
-                    <h3>Page-Specific <span>Dark Mode</span> Appearance</h3>
+                    <h3>Page-Specific <span class="dark-text">Dark Mode</span> Appearance</h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-image-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/page-wish-dark-mode.png" alt="" class="img-fluid">
@@ -152,7 +174,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/dark-mode-usage-analytics-icon.png" alt="" class="img-fluid">
-                    <h3><span>Dark Mode</span> Usage Analytics</h3>
+                    <h3><span class="dark-text">Dark Mode</span> Usage Analytics</h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-image-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/dark-mode-usage-analytics.png" alt="" class="img-fluid">

@@ -324,13 +324,27 @@
       color: #fff;
       padding: 20px 0;
 
-      span {
+      .dark-text {
         background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
       }
+
     }
+
+    .new-text {
+      border-radius: 6px;
+      border: 1.028px solid #85859F;
+      background: linear-gradient(180deg, #8F87F3 -0.25%, #7469FA 99.83%);
+      padding: 7px 18px;
+      margin-left: 10px;
+      padding-right: 10px;
+      font-size: 14px;
+      color: #fff !important;
+    }
+
+
 
     p {
       font-weight: 400;
@@ -829,6 +843,7 @@
         font-size: 2.6rem;
       }
     }
+
     .testi-main {
       .testi-head {
         .man-img {

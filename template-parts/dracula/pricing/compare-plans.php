@@ -339,6 +339,12 @@ $features = [
 		'descriptions' => 'Frontend dark mode refers to the implementation of a dark color scheme on a website backend while admins and moderators interact. This feature is highly beneficial for the admins, moderators, and users offering a comfortable viewing experience',
 		'pro'         => true,
 	],
+	'reading-mode' => [
+		'title'       => 'Reading Mode ',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/-eL20lz83Ec?si=3Rw4IZ6QACoIirNx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'descriptions' => 'Reading Mode enhances user experience by providing a distraction-free environment, removing clutter from articles and posts for improved focus. It prioritizes readability, accessibility, and ease of navigation, making it an invaluable tool for engaging and effortless content interaction.',
+		'pro'         => false,
+	],
 	'admin-dashboard-dark-mode' => [
 		'title'       => 'Admin Dashboard Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/qOuFxLoinuE?si=iE23R-1pIRBgRfwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
