@@ -4,7 +4,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="section-head">
 
-                    <h1>AI-powered <span>Dark Mode </span>Plugin for WordPress</h1>
+                    <h1>Smooth <span>Dark Mode </span>& Enhanced <span>Accessibility</span> for WordPress</h1>
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image text-center">

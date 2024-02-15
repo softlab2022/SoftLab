@@ -26,7 +26,7 @@
     }
 
     p {
-      font-size: 1rem;
+      font-size: 1.1rem;
       margin-bottom: 2.5rem;
       font-weight: 400;
       color: #fff;
@@ -298,6 +298,10 @@
 #feature {
   padding: 100px 0;
   padding-bottom: 0;
+
+  .reading-mode-content {
+    padding-right: 50px;
+  }
 
   .feature-content {
     background: url("../images/dracula/home/feature/frame.png") no-repeat;

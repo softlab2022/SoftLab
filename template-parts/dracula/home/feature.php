@@ -4,8 +4,8 @@
         <!--==== Reading Mode – Distraction-Free Content Reading =====--->
         <div class="row dark-mode align-items-center admin-dashbord-dark-mode ">
 
-            <div class="col-lg-6 col-md-6">
-                <div class="feature-content">
+            <div class="col-lg-7 col-md-6">
+                <div class="feature-content reading-mode-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/reading-mode-icon.png" alt="" class="img-fluid"> <span class="new-text">New⚡</span>
                     <h3> <span class="dark-text">Reading Mode </span></h3>
                     <?php if (wp_is_mobile()) { ?>
@@ -17,7 +17,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 feature-image-feat">
+            <div class="col-lg-5 col-md-6 feature-image-feat">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/reading-mode.png" alt="" class="img-fluid">
             </div>
 
