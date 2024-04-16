@@ -6,6 +6,7 @@ class SoftLa {
 
 	public function __construct() {
 		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_scripts' ] );
+		add_action( 'admin_enqueue_scripts', [ $this, 'admin_enqueue_scripts' ] );
 	}
 
 
@@ -154,6 +155,16 @@ class SoftLa {
 		if ( $is_pricing_page ) {
 			wp_enqueue_script( 'freemius-checkout', 'https://checkout.freemius.com/checkout.min.js', [ 'jquery' ], false, true );
 		}
+	}
+
+	/**
+	 * Admin Assets
+	 */
+	function admin_enqueue_scripts(){
+		wp_enqueue_style('onclick-admin', get_theme_file_uri("assets/css/admin.css"), array(), time(), 'all');
+		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3' );
+
+		wp_enqueue_script( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.bundle.min.js' ), array(), '5.1.3', true );
 	}
 
 	public static function instance() {

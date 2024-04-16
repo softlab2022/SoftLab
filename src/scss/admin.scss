@@ -1,0 +1,64 @@
+.shortcodes-wrapar {
+  width: 600px;
+  background-color: aqua;
+}
+
+// body {
+//   background-color: black!important;
+// }
+
+.accordion {
+  .accordion-item {
+    .accordion-header {
+      .accordion-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: .5rem .75rem;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+
+        h1 {
+          padding: 0;
+        }
+      }
+    }
+
+    .accordion-body {
+      .form-table {
+        .heading_lable {
+          display: block;
+          margin: 10px 0;
+        }
+
+        .input_field {
+          width: 100%;
+        }
+
+        .skins {
+          border: 1px solid rgba(0, 0, 0, .125);
+          padding: 10px;
+
+          .styles {
+            border: 1px solid rgba(0, 0, 0, .125);
+            padding: 7px;
+          }
+        }
+      }
+
+      p.submit {
+        text-align: right;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

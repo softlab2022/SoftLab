@@ -39,7 +39,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item ">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_1']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_1']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin1_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin1_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin1_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -76,7 +82,14 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item bar-player-style ">
                         <div class="skin-img  text-center">
-                            <?php echo do_shortcode( $skins['skin_2']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_2']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin2_shortcode_style_1' )); ?>
+
+                            <?php
+                                if (!empty(get_option( 'skin2_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin2_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -86,7 +99,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item audio-visua">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_3']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_3']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin3_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin3_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin3_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -122,7 +141,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_4']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_4']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin4_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin4_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin4_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -132,7 +157,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_5']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_5']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin5_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin5_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin5_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -169,7 +200,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item bar-player-style ">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_6']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_6']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin6_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin6_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin6_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -179,7 +216,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item player-skin-7">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_7']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_7']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin7_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin7_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin7_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -216,7 +259,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_8']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_8']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin8_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin8_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin8_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -226,7 +275,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item audio-visua">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_9']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_9']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin9_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin9_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin9_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -262,7 +317,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_10']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_10']['style_2'] ); ?>
+                            <?php echo do_shortcode(get_option( 'skin10_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin10_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin10_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -272,7 +333,13 @@ if ( function_exists( 'get_field' ) ) {
                 <div class="col-lg-5">
                     <div class="skin-item player-skin-7">
                         <div class="skin-img text-center">
-                            <?php echo do_shortcode( $skins['skin_11']['style_2'] ); ?>
+                            <?php //echo do_shortcode( $skins['skin_11']['style_2'] ); ?>
+                            <?php //echo do_shortcode(get_option( 'skin11_shortcode_style_1' )); ?>
+                            <?php
+                                if (!empty(get_option( 'skin11_shortcode_style_1' ))) {
+                                    echo do_shortcode(get_option( 'skin11_shortcode_style_1' ));
+                                }
+                            ?>
                         </div>
                     </div>
                 </div>
