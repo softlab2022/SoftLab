@@ -318,13 +318,14 @@ if ( function_exists( 'get_field' ) ) {
                     <div class="skin-item player-skin-4">
                         <div class="skin-img text-center">
                             <?php //echo do_shortcode( $skins['skin_10']['style_2'] ); ?>
-                            <?php echo do_shortcode(get_option( 'skin10_shortcode_style_1' )); ?>
+                            <?php //echo do_shortcode(get_option( 'skin10_shortcode_style_1' )); ?>
                             <?php
                                 if (!empty(get_option( 'skin10_shortcode_style_1' ))) {
                                     echo do_shortcode(get_option( 'skin10_shortcode_style_1' ));
                                 }
                             ?>
                         </div>
+                        
                     </div>
                 </div>
             </div>

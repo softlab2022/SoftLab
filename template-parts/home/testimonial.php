@@ -51,7 +51,7 @@ $testimonials = [
 
 	[
 		'title'       => 'Most Useful Dark Mode Plugin',
-		'description' => 'Being a user of Dracula Dark Mode on my website made with WordPress, I can say that it is a must-have plugin for your platform. Integration of such a dark mode plugin was highly important for the improved user experience of my visitors. It helped them have a comfortable browsing environment and made it look friendly and interesting. <a href="https://fixthephoto.com/best-dark-mode-plugins-for-wordpress.html">Read more</a>',
+		'description' => 'Being a user of Dracula Dark Mode on my website made with WordPress, I can say that it is a must-have plugin for your platform. Integration of such a dark mode plugin was highly important for the improved user experience of my visitors. It helped them have a comfortable browsing environment and made it look friendly and interesting. <a target="_blank" href="https://fixthephoto.com/best-dark-mode-plugins-for-wordpress.html">Read more</a>',
 		'image'       => get_template_directory_uri() . '/assets/images/home/testimonial/eva-williams.png',
 		'name'        => 'Eva Williams',
 		'designation' => 'Manager at Fixthephoto.com',
@@ -62,7 +62,7 @@ $testimonials = [
 
 ?>
 
-<section class="testimonial">
+<section id="testimonial" class="testimonial">
 	<div class="container">
 
 		<div class="row">

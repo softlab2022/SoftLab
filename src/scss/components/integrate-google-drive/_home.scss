@@ -587,6 +587,9 @@
 
     &.feature-page-builder {
       margin: 0;
+      .feature-item-img {
+        text-align: center;
+      }
     }
 
     &.feature-form {
@@ -792,9 +795,9 @@
           .feature-item-img-mobile {
             overflow: hidden;
 
-            img {
-              margin-left: -40px;
-            }
+            // img {
+            //   margin-left: -40px;
+            // }
           }
         }
       }
@@ -805,9 +808,9 @@
           .feature-item-img-mobile {
             overflow: hidden;
 
-            img {
-              margin-right: 32px;
-            }
+            // img {
+            //   margin-right: 32px;
+            // }
           }
         }
       }
@@ -818,9 +821,9 @@
           .feature-item-img-mobile {
             overflow: hidden;
 
-            img {
-              margin-right: -40px;
-            }
+            // img {
+            //   margin-right: -40px;
+            // }
           }
         }
       }
@@ -831,9 +834,9 @@
           .feature-item-img-mobile {
             overflow: hidden;
 
-            img {
-              margin-left: -23px;
-            }
+            // img {
+            //   margin-left: -23px;
+            // }
           }
         }
       }
