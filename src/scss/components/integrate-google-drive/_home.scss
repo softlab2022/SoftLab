@@ -401,7 +401,7 @@
 
   .feature-google-photos {
     .feature-item-img {
-      margin-right: 60px;
+      //margin-right: 60px;
     }
   }
 
@@ -438,7 +438,6 @@
     }
 
     .feature-item-img {
-      display: block;
       // img {
       //   box-shadow: 6px 6px 20px rgb(0, 187, 0.7);
       // }
@@ -532,7 +531,7 @@
 
     &.feature-media-library {
       .feature-item-content {
-        padding-left: 5rem;
+        //padding-left: 5rem;
       }
     }
 
@@ -556,7 +555,7 @@
       }
 
       .feature-item-content {
-        padding-left: 3rem;
+        //padding-left: 3rem;
       }
 
 
@@ -564,25 +563,25 @@
 
     &.feature-file-uploader {
       .feature-item-content {
-        padding-left: 3rem;
+        //padding-left: 3rem;
       }
     }
 
     &.feature-shortcode-builder {
       .feature-item-content {
-        padding-left: 3rem;
+        //padding-left: 3rem;
       }
     }
 
     &.feature-photo-gallery {
       .feature-item-img {
-        padding-left: 3rem;
+        //padding-left: 3rem;
       }
     }
 
     &.feature-multiple-accounts {
       background: #F5FCF4;
-      padding: 3rem;
+      //padding: 3rem;
       border-radius: 1.5rem;
     }
 
@@ -602,8 +601,8 @@
 
     &.flex-row-reverse {
       .feature-item-content {
-        padding-left: 0;
-        padding-right: 20%;
+        //padding-left: 0;
+        //padding-right: 20%;
       }
     }
 
