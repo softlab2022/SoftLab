@@ -18,6 +18,7 @@
       font-weight: 600;
       line-height: 120%;
     }
+
     p {
       font-size: 1.1rem;
       margin-bottom: 30px;
@@ -36,10 +37,12 @@
         transition: all linear .4s;
       }
     }
+
     .hero-image-mobile {
       display: none;
     }
   }
+
   .hero-image {
     display: block;
   }
@@ -67,6 +70,7 @@
 
     .hero-content {
       margin-bottom: 40px;
+
       h1 {
         font-size: 2rem;
       }
@@ -95,11 +99,13 @@
         font-size: 1rem;
         margin-bottom: 30px;
       }
+
       .hero-image-mobile {
         display: block;
       }
     }
-    .hero-image{
+
+    .hero-image {
       display: none;
     }
   }
@@ -133,7 +139,7 @@
   }
 
   .products-icon {
-    margin: 20px 0 10px 0;  
+    margin: 20px 0 10px 0;
     transition: all .3s ease-in-out;
     width: 85px;
     height: 85px;
@@ -349,10 +355,12 @@
 
     .products-item {
       margin-bottom: 20px;
+
       .products-icon {
         padding-top: 1rem;
         width: auto;
       }
+
       .product-title {
         font-size: 1.4rem;
         margin-top: 15px;
@@ -745,6 +753,7 @@
 
     .feature-item {
       height: auto;
+
       .feat-content {
         h3 {
           font-size: 1.4rem;
@@ -865,13 +874,23 @@
           border: 1px solid #eee;
         }
 
-
-        span {
-          text-transform: capitalize;
-          color: $h1_color;
-          font-weight: 600;
-          font-size: 1.2rem;
+        .testimonial-user-text {
+          .testimonial-name {
+            text-transform: capitalize;
+            color: $h1_color;
+            font-weight: 600;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: left;
+          }
+          .testimonial-designation {
+            color: $p_color;
+            font-weight: 600;
+            font-size: .98rem;
+            display: block;
+          }
         }
+
 
         p {
           color: $p_color;
@@ -886,6 +905,7 @@
   @media (max-width: 767.98px) {
     padding: 50px 0;
     min-height: 600px;
+
     .section-head {
       h2 {
         font-size: 1.5rem;
@@ -1057,11 +1077,12 @@
           span {
             font-size: 1.5rem;
           }
+
           h5 {
             font-size: 1.5rem;
           }
         }
-       
+
 
         .fact-item-desc {
           font-size: .785rem;
@@ -1164,6 +1185,7 @@
       p {
         font-size: .785rem;
       }
+
       .solution-butt {
         a {
           font-size: .9rem;

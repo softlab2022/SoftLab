@@ -1,6 +1,10 @@
 <?php
 
 $features = [
+    'google-photos' => [
+        'title'       => 'Google Photos Integration',
+        'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
+    ],
     'media-library' => [
         'title'       => 'Google Drive Integration with Media Library',
         'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
@@ -70,7 +74,7 @@ $features = [
         foreach ($features as $key => $feature) {
             $is_odd         = $i % 2 == 0;
             $is_integration = in_array($key, ['page-builder', 'form', 'media-library']);
-            $is_integrations = in_array($key, ['media-library']);
+            $is_integrations = in_array($key, ['media-library', 'google-photos']);
 
             $image_class   = $is_odd ? 'col-md-7' : 'col-md-5';
             $content_class = $is_odd ? 'col-md-5' : 'col-md-7';
@@ -93,12 +97,13 @@ $features = [
                     <div class="feature-item-content text-center text-md-start">
 
                         <?php if (!$is_integration) { ?>
-                            <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
+                            <img class="img-fluid <?php echo $key; ?>-icon feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
                         <?php } ?> 
 
                         <?php if ($is_integrations) { ?>
                             <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
                             <span class="new-text" >New⚡</span>
+                            
                         <?php } ?>
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
@@ -145,6 +150,7 @@ $features = [
                         <?php if (!$is_integration && !in_array($key, [
                             'multiple-accounts',
                             'shortcode-builder',
+                            'google-photos'
                         ])) { ?>
                             <a href="/integrate-google-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
                         <?php } ?>
