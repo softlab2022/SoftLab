@@ -619,11 +619,14 @@ function softlab_change_privacy_policy_menu_link( $sorted_menu_items, $args ) {
 	// Get the current page template
 	$current_template = basename( get_page_template_slug() );
 
-	foreach ( $sorted_menu_items as $item ) {
+	foreach ( $sorted_menu_items as $key => $item ) {
+        
 		// Check if the current page uses a specific template and the menu item ID matches
-		if ( 'integrate-google-drive.php' == $current_template && $item->ID == 164 ) {
+		if ( str_contains($current_template, 'integrate-google-drive' ) && str_contains( $item->url, '/privacy-policy' ) ) {
 			$item->url = 'https://softlabbd.com/integrate-google-drive-privacy-policy/';
 		}
+
+		$sorted_menu_items[ $key ] = $item;
 	}
 
 	return $sorted_menu_items;
