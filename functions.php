@@ -3,8 +3,7 @@
 
 include_once get_theme_file_path( 'inc/class-enqueue.php' );
 include_once get_theme_file_path( 'inc/class-nav.php' );
-// include_once get_theme_file_path( 'theme-option/theme-option.php' );
-require_once ( 'theme-option/theme-option.php' );
+require_once( 'theme-option/theme-option.php' );
 
 
 /**
@@ -599,14 +598,35 @@ function display_update_date() {
 }
 
 
-//show the category of singe page 
-
+//show the category of singe page
 function softlab_post_date_and_category() {
 	if ( is_single() ) {
 		echo '<p>';
 		the_category( '  ' );
 		echo '  </p> ';
 	}
+}
+
+// Change privacy policy link in Google Drive pages
+add_filter( 'wp_nav_menu_objects', 'softlab_change_privacy_policy_menu_link', 10, 2 );
+
+function softlab_change_privacy_policy_menu_link( $sorted_menu_items, $args ) {
+
+	if ( $args->menu->slug != 'footer-menu' ) {
+		return $sorted_menu_items;
+	}
+
+	// Get the current page template
+	$current_template = basename( get_page_template_slug() );
+
+	foreach ( $sorted_menu_items as $item ) {
+		// Check if the current page uses a specific template and the menu item ID matches
+		if ( 'integrate-google-drive.php' == $current_template && $item->ID == 164 ) {
+			$item->url = 'https://softlabbd.com/integrate-google-drive-privacy-policy/';
+		}
+	}
+
+	return $sorted_menu_items;
 }
 
 
