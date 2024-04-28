@@ -72,7 +72,7 @@ $features = [
 		'title'       => 'Gallery',
 		'description' => 'Display your images in a lightbox grid photo gallery. The gallery will be automatically created from the selected folders.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GE1vRI1iOK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-		'pro'         => true,
+		'pro'         => false,
 
 	],
 	[
@@ -188,7 +188,7 @@ $features = [
 		'title'       => 'Contact Form 7 Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Contact Form 7. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/UIRswwNcIY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-		'pro'         => true,
+		'pro'         => false,
 
 	],
 	[

@@ -1,7 +1,7 @@
 <?php
 
 $free_features = [
-    'Gallery Module',
+    
     'Embed Documents Module',
     'Download Links Module',
     'View Links Module',
@@ -10,7 +10,7 @@ $free_features = [
     'Classic Editor Integrations',
     'Gutenberg Integrations',
     'Elementor Integrations',
-    'Contact Form 7 Integrations',
+    
     'Link Own Google App',
     'Full-Text Search',
     'Zip Download',
@@ -31,6 +31,7 @@ $free_features = [
 $pro_features = [
     'All Free Features',
     'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Gallery Module',
     'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
 
     'Slider Carousel Module',
@@ -39,7 +40,8 @@ $pro_features = [
     'Add Multiple Google Drive Accounts',
 
     'Media Library Integration <span class="new">New⚡</span>',
-
+    
+    'Contact Form 7 Integrations',
     'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Easy Digital Downloads Integration',
     'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
