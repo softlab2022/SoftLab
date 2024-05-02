@@ -1,10 +1,10 @@
 <?php
 
 $features = [
-	'google-photos' => [
-		'title'       => 'Google Photos Integration',
-		'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
-	],
+	// 'google-photos' => [
+	// 	'title'       => 'Google Photos Integration',
+	// 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
+	// ],
 	'media-library' => [
 		'title'       => 'Google Drive Integration with Media Library',
 		'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
@@ -80,7 +80,7 @@ $features = [
 			$is_integrations = in_array( $key, [ 'media-library', 'google-photos' ] );
 
 			?>
-            <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
+            <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? '' : 'flex-row-reverse' ?>">
 
                 <div class="col-md-6">
                     <div class="feature-item-img  <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
