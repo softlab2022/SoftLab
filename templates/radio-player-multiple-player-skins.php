@@ -59,7 +59,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 1</h1>
+                        <h3>Player Skin 1</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 2</h1>
+                        <h3>Player Skin 2</h3>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -119,7 +119,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 3</h1>
+                        <h3>Player Skin 3</h3>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 4</h1>
+                        <h3>Player Skin 4</h3>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -177,7 +177,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 5</h1>
+                        <h3>Player Skin 5</h3>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 6</h1>
+                        <h3>Player Skin 6</h3>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -236,7 +236,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 7</h1>
+                        <h3>Player Skin 7</h3>
                     </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 8</h1>
+                        <h3>Player Skin 8</h3>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -295,7 +295,7 @@ if ( function_exists( 'get_field' ) ) {
                     <div class="section-head-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 9</h1>
+                        <h3>Player Skin 9</h3>
                     </div>
                 </div>
             </div>
@@ -306,7 +306,7 @@ if ( function_exists( 'get_field' ) ) {
                     <div class="section-head-img text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 10</h1>
+                        <h3>Player Skin 10</h3>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -354,7 +354,7 @@ if ( function_exists( 'get_field' ) ) {
                         <div class="section-head-img">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/skin-elements.png">
                         </div>
-                        <h1>Player Skin 11</h1>
+                        <h3>Player Skin 11</h3>
                     </div>
                 </div>
             </div>
