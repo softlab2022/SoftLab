@@ -7,7 +7,7 @@ $features = [
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/easy.png',
 	],
 	'details-documentation' => [
-		'title'       => 'Details Documentation',
+		'title'       => 'Detailed Documentation',
 		'description' => 'Check out our detailed online documentation and video tutorials to find out more about what you can do.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/features/documentation.png',
 	],
@@ -53,7 +53,7 @@ $features = [
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="feature-head text-center">
-                    <h2 class="feature-title">What's so special about SofLab?</h2>
+                    <h2 class="feature-title">What's So Special about SofLab?</h2>
                     <p class="feature-description">We help growing and solving small businesses around the world with our unique products and solutions</p>
                 </div>
             </div>

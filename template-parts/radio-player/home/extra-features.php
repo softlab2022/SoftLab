@@ -28,7 +28,7 @@ $features = [
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/notification.png',
 	],
 	[
-		'title'       => 'Multiple Instance',
+		'title'       => 'Multiple Instances',
 		'description' => 'Multiple players can be displayed and played at the same time on the same page.',
 		'image'       => get_template_directory_uri() . '/assets/images/radio-player/ex-feature/multiple-lnstance.png',
 	],
@@ -74,7 +74,7 @@ $features = [
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="ex-head text-center">
-                    <h1>Never Miss a Single Valuable Feature.</h1>
+                    <h1>Never Miss a Single Valuable Feature</h1>
                     <p>Let's explore which features are absolute you can add to stand out and give even more value</p>
                 </div>
             </div>

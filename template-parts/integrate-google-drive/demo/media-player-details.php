@@ -2,10 +2,10 @@
 
 $features = [
     [
-        'title'       => 'Easy to manage your media player',
+        'title'       => 'Easy to Manage Your Media Player',
         'description' => 'You can play your Google Drive audio & video files with a playlist into your website. Audio and video can be played in a single player.',
         'image'       => get_template_directory_uri() . "/assets/images/google-drive/media-demo/media-player.png",
-        'features'    => ['Manage media files', 'Preview media files', 'Download any files ', 'Import Media & delete',]
+        'features'    => ['Manage Media Files', 'Preview Media Files', 'Download Any Files ', 'Import Media & Delete',]
     ],
 ];
 ?>

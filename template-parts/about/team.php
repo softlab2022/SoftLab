@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
-                    <h1>Meet With Our Creative Team</h1>
+                    <h1>Meet with Our Creative Team</h1>
                     <p>We are a team of WordPress developers who love to build awesome products.</p>
                 </div>
             </div>

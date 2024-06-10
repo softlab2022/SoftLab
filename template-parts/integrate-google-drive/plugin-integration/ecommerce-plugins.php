@@ -26,7 +26,7 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/woocommerce.png" alt="woocommerce">
                         <div class="ecommerce-plugins-area-text text-center">
                             <span class="ecommerce-plugins-text">
-                                Woocommerce
+                                WooCommerce
                             </span>
                         </div>
                     </div>
@@ -259,7 +259,7 @@
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/tutor-lms.png" alt="tutor-lms">
 
 
-                    <h3 class="wooco-title">Tutor Lms</h3>
+                    <h3 class="wooco-title">Tutor LMS</h3>
                     <p class="wooco-description">The integration of the Google Drive plugin within Tutor LMS presents a powerful solution for instructors seeking a more efficient approach to managing their course materials. With this plugin, instructors can link their Google accounts to Tutor LMS, enabling them to easily access and manage their Google Drive course files within the platform. See how it works!</p>
                 </div>
 

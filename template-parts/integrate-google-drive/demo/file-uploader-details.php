@@ -1,22 +1,22 @@
 <?php
 $features = [
 	[
-		'title'       => 'One click file uploader',
+		'title'       => 'One-Click File Uploader',
 		'description' => 'You and also your users can upload files directly to your Google Drive account from your site.',
 		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/one-click.png",
-		'features'    => [ 'Create perfect Upload', 'Customize uploader', 'Easily Upload Documents ', 'Close uploaded files', ],
+		'features'    => [ 'Create Perfect Upload', 'Customize Uploader', 'Easily Upload Documents ', 'Close Uploaded Files', ],
 	],
 	[
-		'title'       => 'Switch to change uploader style',
+		'title'       => 'Switch to Change Uploader Style',
 		'description' => 'You and also your users can upload files directly to your Google Drive account from your site.',
 		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/uploader-style.png",
-		'features'    => [ 'Easy to upload files', 'Customize uploader', 'Drag and drop', 'Skip uploaded files', ],
+		'features'    => [ 'Easy to Upload Files', 'Customize Uploader', 'Drag and Drop', 'Skip Uploaded Files', ],
 	],
 	[
-		'title'       => 'Popular Forms Connect & Easy to use',
+		'title'       => 'Popular Forms Connect & Easy to Use',
 		'description' => 'Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.',
-		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/form-contact.png",
-		'features'    => [ 'Contact Form 7', 'WPForms', 'GravityForms', ],
+		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/form-illustration.png",
+		'features'    => [ 'Contact Form 7', 'WPForms', 'Gravity Forms', 'Ninja Forms', 'Fluent Forms', 'Formidable Forms', 'Elementor Form', 'MetForm' ],
 	],
 
 ];

@@ -22,7 +22,7 @@ $products = [
 			],
 
 			[
-				'title' => 'Photo Gallery',
+				'title' => 'Gallery',
 				'image' => get_template_directory_uri() . '/assets/images/products//google-drive/drive-feat-icon2.png',
 			],
 
@@ -270,7 +270,7 @@ $products = [
             <div class="row align-items-center">
                 <div class="col-lg-7 m-auto">
                     <div class="header-content text-center">
-                        <h2>Empower your business with our next level solutions.</h2>
+                        <h2>Empower Your Business with Our Next Level Solutions</h2>
                         <p>Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Champion!</p>
                     </div>
                 </div>

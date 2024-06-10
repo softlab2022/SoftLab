@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="amazing-head text-center">
-                    <h2>Amazing fact about SoftLab</h2>
+                    <h2>Amazing Facts about SoftLab</h2>
                 </div>
             </div>
         </div>

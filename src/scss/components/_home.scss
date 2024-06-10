@@ -954,7 +954,7 @@
       font-size: 3rem;
       line-height: 120%;
       color: $h1_color;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       padding-bottom: 2rem;
       font-family: "Inter", sans-serif;
     }
@@ -1109,6 +1109,7 @@
       font-weight: 700;
       font-size: 3rem;
       line-height: 120%;
+      text-transform: capitalize;
     }
 
     p {

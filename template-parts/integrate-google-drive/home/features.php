@@ -44,7 +44,7 @@ $features = [
 	],
 
 	'page-builder' => [
-		'title'       => 'Popular Page Builder Supports',
+		'title'       => 'Popular Page Builder Support',
 		'description' => 'We provide a wide & popular page builder supports all over the world. That means Integrate Google Drive is 100% compatible with the most popular page builders. So you are up to go with whatever page builders are you using.',
 	],
 
@@ -63,7 +63,7 @@ $features = [
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
-                    <h1>Amazing Drive </br> Integration <span>Features</span></h1>
+                    <h1>Amazing Google Drive </br> Integration <span>Features</span></h1>
                     <p>We provide the best and most productive integrations for Google Drive. You are near to
                         discovering some coolest features of Integrate Google Drive & easiest way to connect with us.
                         Join the party now!</p>
@@ -180,7 +180,7 @@ $features = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="feature-head text-center">
-                    <h1>WooCommerce Supports</h1>
+                    <h1>WooCommerce Support</h1>
                     <p>You can serve your downloadable product's files directly from Google Drive, and also you can let
                         your customers upload files to your Google Drive account when they purchase your products.</p>
                     <div class="vector4">

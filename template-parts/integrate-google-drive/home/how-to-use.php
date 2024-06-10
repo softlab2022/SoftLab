@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="how-to-use-head text-center">
-                    <h1>Let's know how to use Integrate <span>Google Drive</span></h1>
+                    <h1>Discover how to use Integrate <span>Google Drive</span></h1>
                     <p>Now that you can install, enable and disable plugins.The Google Drive Services plugin is a simple and easy to use plugin</p>
                 </div>
             </div>

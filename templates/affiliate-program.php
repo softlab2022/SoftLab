@@ -163,7 +163,7 @@ get_header();
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h2>Everything is managed by Freemius </h2>
+                        <h2>Everything is Managed by Freemius </h2>
                         <p>As an example, one of our highest commission earner spenthis 
                             earnings for a family vacation in Maldives. Imagine what you can do!</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/freemius.png" alt="">
@@ -213,7 +213,7 @@ get_header();
             <div class="row">
                 <div class="col-12">
                     <div class="works text-center">
-                        <h2>How it works</h2>
+                        <h2>How It Works?</h2>
                         <p>Earning money through affiliate commissions is easy for you!</p>
                     </div>
                 </div>
@@ -223,23 +223,23 @@ get_header();
                     <div class="works-box text-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/thubnail-1.png"
                              class="img-fluid" alt="">
-                        <p>Register As Affiliate</p>
+                        <p>Register as Affiliate</p>
                     </div>
                     <div class="works-box text-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/thumbnail-2.png"
                              class="img-fluid" alt="">
-                        <p>Get to know Us & Our Product</p>
+                        <p>Get to know us & our products</p>
                     </div>
                     <div class="works-box text-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/thumbnai-3.png"
                              class="img-fluid" alt="">
-                        <p>Help People With Our
-                            Products</p>
+                        <p>Help people with our
+                            products</p>
                     </div>
                     <div class="works-box text-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/affiliat/thumbnail-4.png"
                              class="img-fluid" alt="">
-                        <p>Earn Commission</p>
+                        <p>Earn commission</p>
                     </div>
                 </div>
             </div>
@@ -407,7 +407,7 @@ get_header();
                 <div class="col-md-12">
                     <div class="comparison-title text-center">
                         <h2>Guidelines</h2>
-                        <p>Learn what you can do and not</p>
+                        <p>Learn what you can do and don't</p>
                     </div>
                 </div>
             </div>
@@ -480,7 +480,7 @@ get_header();
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-xmark"></i>
-                                        Don’t use any black hat method to promote our products. Your commissions won’t
+                                        Don’t use any black-hat method to promote our products. Your commissions won’t
                                         be approved.
                                     </li>
                                     <li>
@@ -506,7 +506,7 @@ get_header();
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
                     <div class="ctp text-center">
-                        <h2>Partner Up With SoftLab And Start Making People's Lives Better</h2>
+                        <h2>Partner Up with SoftLab and Start Making People's Lives Better</h2>
                         <p>Discover our high-converting products and star promoting</p>
                         <a href="/affiliate-register/" class="cpt-btn">
                         Become Our Affiliate Partner 

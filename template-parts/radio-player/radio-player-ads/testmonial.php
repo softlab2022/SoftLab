@@ -58,7 +58,7 @@ $testimonials = [
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/log.png" alt="image-1">
                     </div>
                     <span>Recent Feedback</span>
-                    <h1>What People Think About Our Products</h1>
+                    <h1>What People Think about Our Product</h1>
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                 </div>
             </div>

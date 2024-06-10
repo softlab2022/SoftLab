@@ -2,19 +2,19 @@
 
 $features = [
 	[
-		'title'       => 'Optimized your photo gallery',
+		'title'       => 'Optimized Your Gallery',
 		'description' => 'The gallery will be generated based on the folders that you select.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/optimized.png",
-		'features'    => ['Galleries in the Cloud', 'Increase loading performance', 'Inline preview Galleries', 'Automatically Set Thumbnails'],
+		'features'    => ['Galleries in the Cloud', 'Increase Loading Performance', 'Inline Preview Galleries', 'Automatically Set Thumbnails'],
 	],
 	[
-		'title'       => 'Awesome looking masonry Grid',
+		'title'       => 'Awesome Looking Masonry Grid',
 		'description' => 'You see something which looks visually like a masonry layout for our google drive cloud.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/masonry-grid.png",
-		'features'    => ['Control the Grid size', 'Available horizontal space', 'Automatically place file', 'Auto row height setup '],
+		'features'    => ['Control the Grid Size', 'Available Horizontal Space', 'Automatically Place File', 'Auto Row Height Setup '],
 	],
 	[
-		'title'       => 'Inline Lightbox file Preview',
+		'title'       => 'Inline Lightbox File Preview',
 		'description' => 'You see something which looks visually like a masonry layout for our google drive cloud.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/lightbox.png",
 		'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],

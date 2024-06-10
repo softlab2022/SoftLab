@@ -591,9 +591,9 @@ add_action( 'wp_ajax_nopriv_affiliate_register', 'softlab_affiliate_register_bac
 //update date on the blog page
 function display_update_date() {
 	$date_format = get_option( 'date_format' );
-	$update_date = get_the_modified_date( $date_format );
-	if ( get_the_modified_time() != get_the_time() ) {
-		echo '<span class="update-date">' . $update_date . '</span>';
+	$update_date = esc_html( get_the_modified_date( $date_format ) );
+	if ( get_the_modified_time() !== get_the_date() ) {
+		return sprintf('<span class="update-date">%s</span>', $update_date);
 	}
 }
 

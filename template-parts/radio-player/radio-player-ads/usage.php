@@ -45,7 +45,7 @@
                 <div class="usage-item d-flex align-items-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-station/usage/new-ad.png" alt="new-ad">
                     <div class="text">
-                        <span>Add new AD</span>
+                        <span>Add New Ad</span>
                         <p>To add a new menu navigate to the Radio Ads > Ad New Ad page.</p>
                     </div>
                 </div>

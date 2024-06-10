@@ -445,14 +445,14 @@ $features = [
                         <div class="hedding">
                             <h6>Pricing</h6>
                             <span class="head">Annual</span>
-                            <p>Pro 1 site ($19)</p>
-                            <p>Pro 5 site ($39)</p>
-                            <p>Ultimated ($99)</p>
+                            <p>Pro 1 site ($29)</p>
+                            <p>Pro 5 site ($49)</p>
+                            <p>Ultimated ($129)</p>
 
                             <span class="head">Lifetime</span>
-                            <p>Pro Lifetime 1 site ($39)</p>
-                            <p>Lifetime 5 site ($99)</p>
-                            <p>Ultimated Lifetime ($199)</p>
+                            <p>Pro Lifetime 1 site ($49)</p>
+                            <p>Lifetime 5 site ($129)</p>
+                            <p>Ultimated Lifetime ($299)</p>
                             <!-- <p class="last"> </p> -->
                         </div>
                     </div>
@@ -517,7 +517,7 @@ $features = [
         <div class="row">
             <div class="col-lg-12 m-auto">
                 <div class="update-date text-center">
-                    <span>Last Modified : October 03, 2023</span>
+                    <span>Last Modified : June 09, 2024</span>
                 </div>
             </div>
         </div>

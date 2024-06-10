@@ -3,7 +3,7 @@
 $features = [
 
     [
-        'title'       => 'Inline Lightbox file Preview',
+        'title'       => 'Inline Lightbox File Preview',
         'description' => 'You see something which looks visually like a masonry layout for our google drive cloud.',
         'image'       => get_template_directory_uri() . "/assets/images/google-drive/slider-carousel/lightbox.png",
         'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],

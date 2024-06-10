@@ -264,7 +264,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/display-toggle-button-menu-icon.png" alt="" class="img-fluid">
-                    <h3>Display Toggle Button In Menu</h3>
+                    <h3>Display Toggle Button in Menu</h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="more-feat-img-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/display-toggle-button-menu.png" alt="" class="img-fluid">
@@ -288,7 +288,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="feature-content">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/imageandvideo-icon.png" alt="" class="img-fluid">
-                    <h3>Image & Video Replacements</h3>
+                    <h3>Image & Video Replacement</h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="more-feat-img-mobile">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/feature/imageandvideo.png" alt="" class="img-fluid">

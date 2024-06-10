@@ -21,7 +21,7 @@ if ( function_exists( 'get_field' ) ) {
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="multiple-head text-center">
-                        <h1>10+ Player Skins With Different Layouts And Styles</h1>
+                        <h1>10+ Player Skins with Different Layouts and Styles</h1>
                         <p>Radio Player provides 10+ player skins with different layouts and styles to choose from. You
                             can choose any player skin from the skins library and display it anywhere on your website
                             using the shortcode.</p>

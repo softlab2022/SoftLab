@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 m-auto">
                 <div class="browser-demo-head text-center">
-                    <h1>File Browser</h1>
+                    <h1><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/file-browser-icon.png"alt="">File Browser</h1>
                     <p>Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list
                         view and can have a file uploader.</p>
                 </div>

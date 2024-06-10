@@ -2,27 +2,27 @@
 
 $features = [
 	[
-		'title'       => 'Manage your documents easily',
+		'title'       => 'Manage Your Documents Easily',
 		'description' => 'File Browser and manage your Documents easily via your favorite cloud platform. The File Browser will make sure that your files are automatically shown on your WordPress site.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/documents.png",
-		'features'    => [ 'List and Grid View', 'Search and Filter', 'Live Preview files', 'Import Media in file', ]
+		'features'    => [ 'List and Grid View', 'Search and Filter', 'Live Preview Files', 'Import Media in File', ]
 	],
 	[
-		'title'       => 'Link multiple Google Drive accounts',
+		'title'       => 'Link Multiple Google Drive Accounts',
 		'description' => 'You can add and manage multiple Google Drive cloud accounts from your site using this plugin.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/multiple.png",
 		'features'    => [
-			'Use your own account',
-			'Add Multiple account',
-			'Remove any account',
-			'Manage your own drive',
+			'Use Your Own Account',
+			'Add Multiple Account',
+			'Remove Any Accounts',
+			'Manage Your Own Drive',
 		],
 	],
 	[
-		'title'       => 'Customize appearance',
+		'title'       => 'Customize Appearance',
 		'description' => 'You can change its colors, and Background colors as needed, save them with the current style.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/appearance.png",
-		'features'    => [ 'Live Preview style', 'Colors customize', 'Use Custom CSS', 'Background Color changes', ],
+		'features'    => [ 'Live Preview Style', 'Colors Customize', 'Use Custom CSS', 'Background Color Changes', ],
 	]
 ];
 

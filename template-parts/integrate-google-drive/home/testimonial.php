@@ -67,7 +67,7 @@ $icons = ['icon-green', 'icon-pink', 'icon-purple'];
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="section-head text-center">
-                    <h2>What People Think About<br><span>Integrate Google Drive</span></h2>
+                    <h2>What People Thinks about<br><span>Integrate Google Drive</span></h2>
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                 </div>
             </div>
