@@ -24,3 +24,120 @@
 .softdocs-wrap {
   padding-top: 150px;
 }
+
+/* support page css here  */
+.page-template-default {
+  .entry-content {
+    text-align: -webkit-center;
+    background: #fff;
+    box-shadow: rgba(53, 53, 53, 0.10) 0px 2px 8px 0px;
+    margin-bottom: 90px!important;
+    border-radius: 10px;
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+
+    &:before {
+      content: "";
+      background: url("../images/support-vector-left.png");
+      width: 90px;
+      height: 85px;
+      position: absolute;
+      z-index: -1;
+      top: -20px;
+      right: -18px;
+      background-repeat: no-repeat;
+    }
+
+    &:after {
+      content: "";
+      background: url(../images/support-vector-left.png);
+      width: 90px;
+      height: 85px;
+      position: absolute;
+      z-index: -1;
+      bottom: -22px;
+      left: -19px;
+      background-repeat: no-repeat;
+    }
+
+    p {
+      color: #5C637E;
+    }
+
+    .fst_login_form_auth_wrapper {
+      .fst_registration_wrapper {
+        .fs_registration_form {
+          text-align: justify;
+
+          .fst_field_group {
+            .fst_field_label {
+              label {
+                color: $h1_color;
+                font-weight: 500;
+                font-size: 1.1rem;
+              }
+            }
+
+            .fs_input_wrap {
+              input {
+                background: #F9FAFF;
+                border: 1px solid #bababa;
+                border-radius: 8px;
+                padding: 15px;
+              }
+            }
+          }
+
+          #fst_submit {
+            background: linear-gradient(180deg, #6E6DFF 0%, #7788FF 100%);
+            border: 0;
+            border-radius: 5px;
+            color: #fff;
+            padding: 15px;
+            width: 100%;
+          }
+        }
+
+      }
+    }
+
+    .fst_login_form_auth_wrapper {
+      .fst_login_wrapper {
+        text-align: justify;
+
+        label {
+          color: $h1_color;
+          font-weight: 500;
+          font-size: 1.1rem;
+        }
+
+        input {
+          background: #F9FAFF;
+          border: 1px solid #bababa;
+          border-radius: 8px;
+          padding: 15px;
+        }
+
+        .login-remember {
+          text-align: center;
+        }
+
+        .error {
+          text-align: center;
+        }
+
+        .login-submit {
+          #wp-submit {
+            background: linear-gradient(180deg, #6E6DFF 0%, #7788FF 100%);
+            border: 0;
+            border-radius: 5px;
+            color: #fff;
+            padding: 15px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

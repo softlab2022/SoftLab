@@ -589,6 +589,7 @@
 
     &.feature-page-builder {
       margin: 0;
+
       .feature-item-img {
         text-align: center;
       }
@@ -677,7 +678,7 @@
     }
 
     .feature-google-photos {
-      .feature-item-img{
+      .feature-item-img {
         margin-right: 0px;
       }
     }
@@ -734,9 +735,10 @@
     }
 
     .feature-google-photos {
-      .feature-item-img{
+      .feature-item-img {
         margin-right: 0px;
       }
+
       .feature-item-img-mobile {
         img {
           margin-right: -35px;
@@ -821,6 +823,7 @@
           }
         }
       }
+
       &.feature-gallery {
         .feature-item-content {
 
@@ -863,6 +866,7 @@
       &.feature-multiple-accounts {
         padding: 1rem;
         border-radius: 1rem;
+
         .feature-item-content {
 
           .feature-item-img-mobile {
