@@ -51,13 +51,13 @@
                                 </div>
                                 <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
-                                        <a href="/wp-radio">
+                                        <a href="/radio-player/">
                                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon2.png" alt="j-icon2">
                                         </a>
                                     </div>
                                     <div class="products-content">
                                         <div class="text-item d-flex justify-content-between">
-                                            <a href="/wp-radio">Radio Player</a>
+                                            <a href="/radio-player/">Radio Player</a>
                                             <h5>2020</h5>
                                         </div>
                                         <p>A simple, easy to use, user-friendly and fully customizable web radio player.</p>
@@ -78,13 +78,13 @@
                                 </div>
                                 <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
-                                        <a href="/wp-radio">
+                                        <a href="/integrate-google-drive/">
                                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon3.png" alt="j-icon3">
                                         </a>
                                     </div>
                                     <div class="products-content">
                                         <div class="text-item d-flex justify-content-between">
-                                            <a href="/wp-radio">Integrate Google Drive</a>
+                                            <a href="/integrate-google-drive/">Integrate Google Drive</a>
                                             <h5>2021</h5>
                                         </div>
                                         <p>Integrate Google Drive – is the best and easy-to-use Google Drive cloud solution.</p>

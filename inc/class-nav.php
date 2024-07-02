@@ -21,6 +21,7 @@ class SoftLaB_Nav {
 					'dracula-menu'            	=> 'Dracula Menu',
 					'integrate-dropbox-menu'  	=> 'Integrate Dropbox Menu',
 					'wp-froms-menu'  	=> 'WP Froms Menu',
+					'cf7-extended-menu'  	=> 'CF7 Extended Menu',
 				)
 			);
 		}

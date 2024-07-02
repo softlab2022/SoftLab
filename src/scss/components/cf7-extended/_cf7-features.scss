@@ -1,0 +1,118 @@
+/**---------- Hero Area ----------**/
+.cf7-features-hero-area {
+    // background: url("../images/home/hero-bg.png") #EEF2FE no-repeat left center;
+    // background-size: contain;
+    background: linear-gradient(rgba(30, 97, 185, 0.2) 100%, #fff 0%), url("../images/cf7-extended/cf7-extended-bg-side.png") no-repeat left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 120px 0 120px 0;
+
+    .hero-content {
+        h1 {
+            font-size: 3.4rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            line-height: 120%;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            line-height: 120%;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            line-height: 150%;
+        }
+
+        .view-products-btn {
+            // margin-top: 1.5rem;
+            padding: 15px 30px;
+            transition: all linear .4s;
+
+            &:hover {
+                background: #fff;
+                color: $color_primary;
+                border-color: $color_primary;
+                transition: all linear .4s;
+            }
+        }
+
+        .hero-image-mobile {
+            display: none;
+        }
+    }
+
+    .hero-image {
+        display: block;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        //Laptop
+        padding: 180px 0 0px 0;
+
+        .hero-content {
+
+            h1 {
+                font-size: 2.8rem;
+                padding-top: 30px;
+            }
+
+            p {
+                font-size: .785rem;
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        //Tablet
+        padding: 110px 0 0px 0;
+
+        .hero-content {
+            margin-bottom: 40px;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: .9rem;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        padding: 100px 0 60px 0;
+        background-size: cover;
+        // background-position: top;
+
+        .hero-content {
+            text-align: center;
+
+            h1 {
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+
+            p {
+                font-size: 1rem;
+                margin-bottom: 30px;
+            }
+
+            .hero-image-mobile {
+                display: block;
+            }
+        }
+
+        .hero-image {
+            display: none;
+        }
+    }
+
+}

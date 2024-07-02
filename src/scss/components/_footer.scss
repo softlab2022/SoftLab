@@ -369,8 +369,8 @@
     background: url("../images/dracula/home/footer-shape.png") no-repeat 0 8rem #2E3161 !important;
     padding: 60px 0 0 0;
     background-position: center;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 
     .footer-contant {
       p {
@@ -464,5 +464,20 @@
         color: #D8D8D8;
       }
     }
+  }
+}
+
+.page-template-templatescf7-extended-php,
+.page-template-templatescf7-pricing-php,
+.page-template-templatescf7-integrations-php {
+  .footer {
+    // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png") no-repeat 0 8rem !important;
+    // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png")  !important;
+
+    background: linear-gradient(rgba(166, 205, 255, 0.7) 100%, #fff 0%), url("../images/cf7-extended/cf7-footer-bg.png") no-repeat center bottom;
+    padding: 60px 0 0 0;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
   }
 }

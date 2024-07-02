@@ -190,6 +190,10 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/products/wp-forms.png';
 						$description = 'The Revolutionary Dark Mode Plugin For WordPress';
 					}
+					elseif ( 'cf7 extended' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/cf7-extended-icon.png';
+						$description = 'Extend Capabilities & Custom Functionalities for Contact Form 7';
+					}
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );
 					$item_output .= sprintf( '<div class="product-link-content"><span class="link-title">%s</span><span class="link-description">%s</span> </div>', $title, $description );

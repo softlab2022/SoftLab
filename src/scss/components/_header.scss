@@ -1014,6 +1014,29 @@
   }
 }
 
+.page-template-templatescf7-extended-php,
+.page-template-templatescf7-pricing-php,
+.page-template-templatescf7-integrations-php {
+  .navbar-navs {
+    display: flex;
+    align-items: center;
+  }
+  .brand-cf7-extended {
+    img {
+      width: 240px;
+    }
+  }
+
+  @media (max-width: 767.98px){
+    .brand-cf7-extended {
+      img {
+        width: 186px;
+      }
+    }
+  }
+
+}
+
 
 /**---------- sticky-banner ----------**/
 

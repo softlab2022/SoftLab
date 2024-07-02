@@ -110,6 +110,48 @@ import "./components/sticky-banner";
                     },
                 ],
             });
+
+            //testimonial-items-cf7
+            $(".testimonial-items-cf7").slick({
+                centerMode: false,
+                centerPadding: "60px",
+                slidesToShow: 3,
+                dots: true,
+                autoplay: true,
+                arrows: true,
+                autoplaySpeed: 3000,
+                nextArrow: ".right",
+                prevArrow: ".left",
+                responsive: [
+                    {
+                        breakpoint: 1199.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: "40px",
+                            slidesToShow: 3,
+                        },
+                    },
+                    {
+                        breakpoint: 991.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: "40px",
+                            slidesToShow: 2,
+                        },
+                    },
+                    {
+                        breakpoint: 767.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: "40px",
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+            });
             //about slider
             $(".slider-main").slick({
                 slidesToShow: 3,
