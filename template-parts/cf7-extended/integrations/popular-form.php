@@ -3,30 +3,30 @@
 $features = [
     'google-drive' => [
         'title'       => 'Google Drive',
-        'description' => 'Add Google Drive module, embed documentsand insert file view links and download links using the Google Drive button on the classic editor',
+        'description' => 'The Google Drive integration for the Contact Form 7 Extended plugin adds an upload field toContact Form 7. This allows users to upload filesdirectly to a connected Google Drive account.',
         'video'        => '<iframe src="https://www.youtube.com/embed/UIRswwNcIY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
     'mailchimp' => [
         'title'       => 'Mailchimp',
-        'description' => 'Add Google Drive module, embed documentsand insert file view links and download links using the Google Drive button on the classic editor',
+        'description' => 'The Mailchimp integration for the Contact Form 7 Extended plugin enables website admins to store specific data from Contact Form 7 submissions directly in Mailchimp.',
         'video'        => '<iframe src="https://www.youtube.com/embed/D687aswuMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
     'telegram' => [
         'title'       => 'Telegram',
-        'description' => 'Add Google Drive module, embed documentsand insert file view links and download links using the Google Drive button on the classic editor',
+        'description' => 'The Telegram integration for the Contact Form 7 Extended plugin forwards form submission data to a specific Telegram account allocated by the admin.',
         'video'        => '<iframe src="https://www.youtube.com/embed/zweGYyzWSHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
     'webhooks' => [
         'title'       => 'Webhooks',
-        'description' => 'Add Google Drive module, embed documentsand insert file view links and download links using the Google Drive button on the classic editor',
+        'description' => 'The Webhooks integration for the Contact Form 7 Extended plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services.',
         'video'        => '<iframe src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
     'zapier' => [
         'title'       => 'Zapier',
-        'description' => 'Add Google Drive module, embed documentsand insert file view links and download links using the Google Drive button on the classic editor',
+        'description' => 'The Zapier integration for the Contact Form 7 Extended plugin transfers form data to an allocated Zapier account upon form submission.',
         'video'        => '<iframe src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
@@ -142,15 +142,15 @@ $features = [
 
                 <div class="<?php echo $image_class; ?>">
                     <div class="feature-item-img">
-                        <!-- <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>"> -->
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>">
 
-                        <div class="feature-video">
+                        <!-- <div class="feature-video">
                             <?php
                             if (!wp_is_mobile()) {
                                 echo $feature['video'];
                             }
                             ?>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
