@@ -39,8 +39,8 @@
                         Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Contact Form 7 Extended
                     </p>
 
-                    <a href="/cf7-extended-pricing/" class="get">Get Started</a>
                     <a href="" class="get1">Check Demo</a>
+                    <a href="/cf7-extended-pricing/" class="get">Get Started</a>
                 </div>
             </div>
         </div>

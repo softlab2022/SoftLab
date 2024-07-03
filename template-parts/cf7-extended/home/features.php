@@ -93,7 +93,7 @@ $features = [
         <div class="row">
             <div class=" col-md-3 m-auto">
                 <div class="integration-btn">
-                    <a href="/integrate-cf7-extended-integrations/" class="feature-integration-btn"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated-icon.png" alt="integrated-icon">View Integrations</a>
+                    <a href="/cf7-extended-integrations/" class="feature-integration-btn"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated-icon.png" alt="integrated-icon">View All Integrations</a>
                 </div>
             </div>
         </div>

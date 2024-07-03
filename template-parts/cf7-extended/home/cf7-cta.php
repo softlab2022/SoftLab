@@ -10,10 +10,11 @@
 
             <div class="col-lg-5 text-center text-lg-end">
                 <div class="cta-actions mt-5 mt-lg-0">
-                    <a href="" class="bt">Try Live Demo</a>
-                    <a href="/cf7-extended-pricing/" class="bt1">Buy Now</a>
+                    <a href="" class="bt1">Try Live Demo</a>
+                    <a href="/cf7-extended-pricing/" class="bt">Buy Now</a>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>

@@ -9,15 +9,21 @@
             </div>
         </div>
 
-            <div class="row">
+        <div class="row">
             <div class="col-lg-8 m-auto">
-                    <div class="demo-header-bg text-center">
+                <div class="demo-header-bg text-center">
 
-                    <?php echo do_shortcode('[integrate_google_drive id="3"]'); ?>
-                    
-                    </div>
+                    <!-- <?php //echo do_shortcode('[integrate_google_drive id="3"]'); 
+                            ?> -->
+                    <?php
+                    if (!empty(get_option('gallery_shortcode'))) {
+                        echo do_shortcode(get_option('gallery_shortcode'));
+                    }
+                    ?>
+
                 </div>
             </div>
+        </div>
 
     </div>
 </section>

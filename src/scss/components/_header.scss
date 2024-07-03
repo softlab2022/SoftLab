@@ -815,10 +815,11 @@
   width: 100%;
   z-index: 1330;
   background-color: #DFE6FE;
-  box-shadow: 0 13px 22px -5px rgba(0,0,0,.06);
+  box-shadow: 0 13px 22px -5px rgba(0, 0, 0, .06);
   transition: transform .25s ease-in-out;
   padding: 0 0 3px;
 }
+
 /**---------- Scrolling Header Css end----------**/
 
 
@@ -843,6 +844,7 @@
       }
     }
   }
+
   .fixed-header {
     background: #848FFF;
   }
@@ -868,7 +870,7 @@
       }
     }
   }
-  
+
 }
 
 .page-template-templatesreader-mode-php {
@@ -951,12 +953,13 @@
     background: transparent;
   }
 }
+
 .page-template-templatesintegrate-google-drive-php,
 .page-template-templatesradio-player-php,
 .page-template-templatesradio-player-pricing-php,
 .page-template-templatesintegrate-google-drive-media-library-php,
 .page-template-templatesintegrate-google-drive-pricing-php,
-.page-template-templatesintegrate-google-drive-integrations-php  {
+.page-template-templatesintegrate-google-drive-integrations-php {
   .fixed-header {
     background: #BBE6C6;
   }
@@ -1009,6 +1012,7 @@
 
     // }
   }
+
   .fixed-header {
     background: #10151C;
   }
@@ -1021,13 +1025,36 @@
     display: flex;
     align-items: center;
   }
+
   .brand-cf7-extended {
     img {
       width: 240px;
     }
   }
 
-  @media (max-width: 767.98px){
+  .site-header {
+    .primary-nav {
+      .buy-now-btn {
+        a {
+          text-decoration: none;
+          background: #1E62B9;
+          padding: 15px 30px;
+          transition: linear 0.4s;
+          border-radius: 8px;
+          border: 1px solid transparent;
+          color: #fff;
+          white-space: nowrap;
+          &:hover {
+            background: #fff;
+            color: #1E62B9;
+          }
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 767.98px) {
     .brand-cf7-extended {
       img {
         width: 186px;
@@ -1608,7 +1635,8 @@
     }
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px){
+
+@media (min-width: 768px) and (max-width: 991.98px) {
 
   body:has(.black-friday-sticky-banner) {
     .site-header {
@@ -1616,7 +1644,8 @@
     }
   }
 }
-@media (min-width: 320px) and (max-width: 767.98px){
+
+@media (min-width: 320px) and (max-width: 767.98px) {
 
   body:has(.black-friday-sticky-banner) {
     .site-header {

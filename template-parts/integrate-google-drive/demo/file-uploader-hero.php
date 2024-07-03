@@ -15,7 +15,12 @@
             <div class="col-md-6 m-auto">
                 <div class="demo-header-bg text-center">
 
-                    <?php echo do_shortcode('[integrate_google_drive id="2"]'); ?>
+                    <!-- <?php //echo do_shortcode('[integrate_google_drive id="2"]'); ?> -->
+                    <?php
+                    if (!empty(get_option('file_uploader_shortcode'))) {
+                        echo do_shortcode(get_option('file_uploader_shortcode'));
+                    }
+                    ?>
 
                 </div>
             </div>
