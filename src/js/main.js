@@ -15,6 +15,9 @@ import "./components/sticky-banner";
 
             //Handle contact form tabs
             $(".contact-form .tab-item").on("click", app.handleContactForm);
+            //Handle modal video
+            $("#open-modal").on("click", app.handleModalVideo);
+            $(".modal-btn-close").on("click", app.handleModalVideoClose);
 
             //Handle popup img
             app.handlePopupimg();
@@ -310,7 +313,7 @@ import "./components/sticky-banner";
 
 
         handleToTop: function () {
-            $("html, body").animate({scrollTop: 0}, "fast");
+            $("html, body").animate({ scrollTop: 0 }, "fast");
         },
 
         handlePricingItem: function () {
@@ -449,9 +452,24 @@ import "./components/sticky-banner";
             }
         },
 
+        handleModalVideo: function () {
+            const modalContent = ``;
+            const targetElement = $(".hero-how-butt");
+            targetElement.append(modalContent);
+
+
+        },
+
+        handleModalVideoClose: function () {
+            const targetElement = $(".hero-how-butt").closest('#staticBackdrop');
+            console.log(targetElement);
+            targetElement.empty();
+
+        },
+
+
 
     };
-
 
     $(document).ready(app.init);
 })(jQuery);

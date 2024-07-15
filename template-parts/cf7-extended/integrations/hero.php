@@ -1,5 +1,12 @@
 <section class="cf7-integrations-hero-area">
     <div class="container">
+        <div class="box">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
         <div class="row align-items-center">
 
             <div class="col-lg-6 col-md-6">
@@ -8,7 +15,7 @@
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image-mobile text-center mb-5">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/integrations-illustration.png" alt="" class="img-fluid w-75 w-md-100 ">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/integrations-illustration.png" alt="" class="img-fluid w-75 w-md-100 autoRatio">
                         </div>
                     <?php } ?>
 
@@ -22,7 +29,7 @@
 
             <div class="col-lg-6 col-md-6">
                 <div class="hero-image text-center text-md-end mt-5 mt-md-0">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/integrations-illustration.png" alt="" class="img-fluid w-75 w-md-100 ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/integrations-illustration.png" alt="" class="img-fluid w-75 w-md-100 autoRatio">
                 </div>
 
             </div>

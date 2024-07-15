@@ -251,7 +251,7 @@ $features = [
 	<div class="container">
 
 		<div class="row">
-			<div class="col-lg-5 m-auto">
+			<div class="col-lg-6 m-auto">
 				<div class="section-header text-center">
 					<h2>Choose the best plan that fits your needs</h2>
 					<p>we’ve created several packages with different features in them. These are priced according to the

@@ -33,6 +33,30 @@ $features = [
         'title'       => 'Form Styler',
         'description' => 'Provides tools for customizing the look of your forms without needing CSS skills. You can change colors, adjust margins, and style buttons and fonts easily.',
     ],
+    'pdf-generator' => [
+        'title'       => 'PDF Generator',
+        'description' => 'Automatically converts submitted data into a PDF document and sends it to the admin. This helps in keeping organized records of submissions',
+    ],
+    'placeholder-styler' => [
+        'title'       => 'Placeholder Styler',
+        'description' => 'Allows for simple customization of form placeholders, changing things like text and background color directly (no need of CSS coding)',
+    ],
+    'post-submission' => [
+        'title'       => 'Post Submission',
+        'description' => 'After a form is submitted, it can automatically create a new post with custom fields and display it on the website backend. This feature publishes content instantly',
+    ],
+    'user-registration' => [
+        'title'       => 'User Registration',
+        'description' => 'Helps create custom registration forms with fields like name and email. This makes user sign-up straightforward and customized',
+    ],
+    'redirection' => [
+        'title'       => 'Redirection',
+        'description' => 'Each form submission is given a unique ID for easy tracking. This ID can be included in the subject line of emails for quick reference',
+    ],
+    'submission-id' => [
+        'title'       => 'Submission ID',
+        'description' => 'Provides tools for customizing the look of your forms without needing CSS skills. You can change colors, adjust margins, and style buttons and fonts easily',
+    ],
 
 
 ];
@@ -82,21 +106,13 @@ $features = [
                         <?php } ?>
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
-                        
-
+                        <a href="#" class="btn btn-primary view-products-btn"> <span></span> View Demo</a>
                     </div>
                 </div>
             </div>
         <?php
             $i++;
         } ?>
-        <div class="row">
-            <div class=" col-md-3 m-auto">
-                <div class="integration-btn">
-                    <a href="/cf7-extended-features/" class="feature-integration-btn"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated-icon.png" alt="integrated-icon">View All Integrations</a>
-                </div>
-            </div>
-        </div>
 
     </div>
 </section>

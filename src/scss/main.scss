@@ -27,7 +27,8 @@
 
 /* support page css here  start*/
 
-.page-id-2432 {
+.page-id-2432,
+.page-id-105 {
   .entry-content {
     text-align: center;
     background: #fff;
@@ -197,3 +198,16 @@
 }
 
 /* support page css here end */
+
+.page-template-templatesdemo-php {
+  .demo-box-wrap {
+    .demo-box {
+      .mp-start-demo {
+        .mp-recaptcha {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -30,7 +30,7 @@ $features = [
         'video'        => '<iframe src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
-    
+
 
 ];
 
@@ -54,11 +54,11 @@ $features = [
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
             </div>
         </div>
-        <!----===== Contact Form 7, Ninja Forms, WP Forms =====------>
+        <!----===== Google Drive, Mailchimp, Telegram , Webhooks, Zapier=====------>
 
         <div class="row justify-content-center feat-shadw">
 
-            <div class="col-lg-2 col-3 col-md-2">
+            <div class="col-lg-2 col-2 col-md-2">
                 <a href="#feature-google-drive">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/google-drive.png" alt="Google Drive">
@@ -71,7 +71,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-3 col-md-2">
+            <div class="col-lg-2 col-2 col-md-2">
                 <a href="#feature-mailchimp">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/mailchimp.png" alt="mailchimp">
@@ -84,7 +84,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-3 col-md-2">
+            <div class="col-lg-2 col-2 col-md-2">
                 <a href="#feature-telegram">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/telegram.png" alt="telegram">
@@ -97,7 +97,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-3 col-md-2">
+            <div class="col-lg-2 col-2 col-md-2">
                 <a href="#feature-webhooks">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/webhooks.png" alt="Webhooks">
@@ -110,7 +110,7 @@ $features = [
                 </a>
             </div>
 
-            <div class="col-lg-2 col-3 col-md-2">
+            <div class="col-lg-2 col-2 col-md-2">
                 <a href="#feature-zapier">
                     <div class="popular-form-area text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/zapier.png" alt="Zapier">
@@ -144,13 +144,13 @@ $features = [
                     <div class="feature-item-img">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>">
 
-                        <!-- <div class="feature-video">
+                        <div class="feature-video">
                             <?php
-                            if (!wp_is_mobile()) {
-                                echo $feature['video'];
-                            }
+                            // if (!wp_is_mobile()) {
+                            //     echo $feature['video'];
+                            // }
                             ?>
-                        </div> -->
+                        </div>
 
                     </div>
                 </div>
@@ -165,12 +165,12 @@ $features = [
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
                         <?php
-                        if (wp_is_mobile()) {
-                            echo $feature['video'];
-                        }
+                            if (wp_is_mobile()) {
+                                echo $feature['video'];
+                            }
                         ?>
 
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://demo.softlabbd.com/?product=" class="feature-demo-btn">Try Live demo</a>
 
                     </div>
                 </div>
