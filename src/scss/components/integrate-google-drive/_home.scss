@@ -376,10 +376,12 @@
   padding: 100px 0;
 
   .section-head {
+    // margin-bottom: 50px;
     h1 {
       font-weight: 700;
       font-size: 3.5rem;
       color: $h1_color;
+      margin-bottom: 20px;
 
       & span {
         color: #01AA47;
@@ -390,7 +392,8 @@
       font-weight: 400;
       font-size: 1.1rem;
       color: $p_color;
-      padding: 2rem 5rem;
+      // padding: 2rem 5rem;
+      max-width: 700px;
     }
 
   }
@@ -924,6 +927,7 @@
   }
 
   .feature-head {
+    margin-bottom: 50px;
     position: relative;
 
     h1 {
@@ -931,6 +935,7 @@
       font-size: 3rem;
       line-height: 120%;
       color: $h1_color;
+      margin-bottom: 20px;
     }
 
     p {
@@ -938,7 +943,8 @@
       font-size: 1rem;
       line-height: 150%;
       color: $p_color;
-      padding: 15px 5rem;
+      // padding: 15px 5rem;
+      max-width: 700px;
     }
   }
 
@@ -1042,6 +1048,7 @@
       font-weight: 400;
       font-size: 1rem;
       color: $p_color;
+      max-width: 700px;
     }
   }
 
@@ -1178,6 +1185,7 @@
   padding: 100px 0;
 
   .how-to-use-head {
+    margin-bottom: 50px;
     h1 {
       font-weight: 700;
       font-size: 3.5rem;
@@ -1194,7 +1202,7 @@
       font-size: 1rem;
       line-height: 150%;
       color: $p_color;
-      padding: 2% 15%;
+      max-width: 700px;
     }
   }
 
@@ -1204,14 +1212,21 @@
     padding: 15px;
     height: 150px;
     margin-bottom: 20px;
+    // filter: drop-shadow(0px 2px 13px rgba(0, 0, 0, 0.25));
+
+    box-shadow: (0px 1px 9px rgba(0, 0, 0, 0.1));
 
     .use-img {
+      width: 13%;
       img {
         width: 75px;
       }
     }
 
+   
+
     .use-text {
+      width: 87%;
       padding-left: 20px;
 
       h4 {
@@ -1227,9 +1242,77 @@
         font-size: 1rem;
         line-height: 150%;
         color: $p_color;
+        margin-bottom: 0;
       }
     }
 
+  }
+
+  .use-main {
+    position: relative;
+
+    &::after {
+      content: url("../images/google-drive/how-to-use/line3.png");
+      background-repeat: no-repeat;
+
+      position: absolute;
+      top: -22px;
+      left: 125px;
+      z-index: -1;
+    }
+  }
+  .use-imgs {
+    img {
+      width: 85%;
+    }
+  }
+
+  .how-to-use-download-install {
+    .use-item {
+      border-right: 6px solid var(--Linear, #BBE897);
+      background: linear-gradient(154deg, rgba(187, 232, 151, 0.10) 3.43%, rgba(8, 205, 135, 0.10) 90.47%);
+    }
+
+  }
+
+  .how-to-use-link-google-account {
+    .use-item {
+      border-right: 6px solid var(--Linear, #FFBEA9);
+      background: linear-gradient(154deg, rgba(254, 180, 156, 0.10) 3.43%, rgba(253, 107, 135, 0.10) 90.47%);
+
+    }
+
+  }
+
+  .how-to-use-manage-browse-files {
+    .use-item {
+      border-right: 6px solid var(--Linear, #BCDDFF);
+      background: linear-gradient(154deg, rgba(188, 221, 255, 0.10) 3.43%, rgba(115, 140, 246, 0.10) 90.47%);
+    }
+
+  }
+
+  .how-to-use-shortcode-builder {
+    .use-item {
+      border-right: 6px solid var(--Linear, #6AD9FF);
+      background: linear-gradient(176deg, rgba(169, 233, 255, 0.10) -2.91%, rgba(119, 194, 247, 0.10) 91.81%);
+    }
+
+  }
+
+  .how-to-use-explore-enjoy-features {
+    .use-item {
+      border-right: 6px solid var(--Linear, #FFE97E);
+      background: linear-gradient(180deg, rgba(255, 232, 118, 0.10) 0%, rgba(243, 166, 65, 0.10) 100%);
+    }
+
+  }
+
+  .how-to-use-download-install,
+  .how-to-use-link-google-account,
+  .how-to-use-manage-browse-files,
+  .how-to-use-shortcode-builder {
+    margin-bottom: 28px;
   }
 
   .use-item2 {
@@ -1244,15 +1327,29 @@
     background-color: #EFF9FF;
   }
 
-  @media (max-width: 1199.98px) {
+  @media (min-width: 992px) and (max-width: 1199.98px) {
     .how-to-use-head {
       h1 {
         font-size: 3rem;
       }
     }
+    
   }
-
-  @media (max-width: 991.98px) {
+  @media (min-width: 1200px) and (max-width: 1366px) {
+    .use-main {
+      &::after {
+        left: 107px;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .use-main {
+      &::after {
+        left: 88px;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
     .how-to-use-head {
       h1 {
         font-size: 3rem;
@@ -1262,6 +1359,22 @@
         padding: 2% 5%;
       }
     }
+    // .use-item {
+    //   height: 190px;
+    // }
+
+    .use-main {
+      &::after {
+        top: -22px;
+        left: 36px;
+      }
+      .use-imgs {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    
   }
 
   @media (max-width: 767.98px) {
@@ -1291,6 +1404,14 @@
         }
       }
 
+    }
+    .use-main {
+      .use-imgs {
+        display: none;
+      }
+      &::after {
+        display: none;
+      }
     }
   }
 

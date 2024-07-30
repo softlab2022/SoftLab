@@ -52,89 +52,89 @@
         display: block;
     }
 
-    .autoRatio {
-        animation: bg-animate 60s linear infinite;
-    }
+    // .autoRatio {
+    //     animation: bg-animate 60s linear infinite;
+    // }
 
-    @keyframes bg-animate {
-        0% {
-            transform: rotate(360deg);
-        }
+    // @keyframes bg-animate {
+    //     0% {
+    //         transform: rotate(360deg);
+    //     }
 
-        50% {
-            transform: rotate(180deg);
-        }
+    //     50% {
+    //         transform: rotate(180deg);
+    //     }
 
-        100% {
-            transform: rotate(0deg);
-        }
+    //     100% {
+    //         transform: rotate(0deg);
+    //     }
 
-        100% {
-            transform: rotate(360deg);
-        }
+    //     100% {
+    //         transform: rotate(360deg);
+    //     }
 
-        50% {
-            transform: rotate(180deg);
-        }
+    //     50% {
+    //         transform: rotate(180deg);
+    //     }
 
-        0% {
-            transform: rotate(0);
-        }
-    }
+    //     0% {
+    //         transform: rotate(0);
+    //     }
+    // }
 
     /*======== animation css gose here ==========*/
-    .box {
-        .line {
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            background-color: transparent;
-            border: 6px solid #1B447E;
+    // .box {
+    //     .line {
+    //         position: absolute;
+    //         width: 60px;
+    //         height: 60px;
+    //         background-color: transparent;
+    //         border: 6px solid #1B447E;
 
-            &:nth-child(1) {
-                top: 12%;
-                left: 42%;
-                animation: animate 10s linear infinite;
-            }
+    //         &:nth-child(1) {
+    //             top: 12%;
+    //             left: 42%;
+    //             animation: animate 10s linear infinite;
+    //         }
 
-            &:nth-child(2) {
-                top: 70%;
-                left: 50%;
-                animation: animate 8s linear infinite;
-            }
+    //         &:nth-child(2) {
+    //             top: 70%;
+    //             left: 50%;
+    //             animation: animate 8s linear infinite;
+    //         }
 
-            &:nth-child(3) {
-                top: 17%;
-                left: 6%;
-                animation: animate 11s linear infinite;
-            }
+    //         &:nth-child(3) {
+    //             top: 17%;
+    //             left: 6%;
+    //             animation: animate 11s linear infinite;
+    //         }
 
-            &:nth-child(4) {
-                top: 67%;
-                left: 10%;
-                animation: animate 6s linear infinite;
-            }
+    //         &:nth-child(4) {
+    //             top: 67%;
+    //             left: 10%;
+    //             animation: animate 6s linear infinite;
+    //         }
 
-            &:nth-child(5) {
-                top: 20%;
-                left: 80%;
-                animation: animate 7s linear infinite;
-            }
-        }
+    //         &:nth-child(5) {
+    //             top: 20%;
+    //             left: 80%;
+    //             animation: animate 7s linear infinite;
+    //         }
+    //     }
 
-        @keyframes animate {
-            0% {
-                transform: scale(0) translateY(0) rotate(0);
-                opacity: 1;
-            }
+    //     @keyframes animate {
+    //         0% {
+    //             transform: scale(0) translateY(0) rotate(0);
+    //             opacity: 1;
+    //         }
 
-            100% {
-                transform: scale(1.3) translateY(-90px) rotate(360deg);
-                opacity: 0;
-            }
-        }
+    //         100% {
+    //             transform: scale(1.3) translateY(-90px) rotate(360deg);
+    //             opacity: 0;
+    //         }
+    //     }
 
-    }
+    // }
 
     // .autoRatio {
     //     animation: autoRatioAnimation;
