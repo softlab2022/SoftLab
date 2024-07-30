@@ -23,7 +23,7 @@ $features = [
 	],
 
 	[
-		'title'       => 'Embed Document',
+		'title'       => 'Embed Documents',
 		'description' => 'Embed any Google Drive files to your page/ post.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/LsXK0XWqLyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
@@ -62,35 +62,35 @@ $features = [
 	],
 
 	[
-		'title'       => 'Media Player',
+		'title'       => 'Media Player - Module',
 		'description' => 'Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/L_uAvKuIEL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Gallery',
+		'title'       => 'Gallery - Module',
 		'description' => 'Display your images in a lightbox grid photo gallery. The gallery will be automatically created from the selected folders.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GE1vRI1iOK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Slider Carousel',
+		'title'       => 'Slider Carousel - Module',
 		'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/dZw0z84t-5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Media Importer',
+		'title'       => 'Import to Media Library',
 		'description' => 'Import the cloud media files to the media library by one click.',
 		'video'		  => '',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Private Folders',
+		'title'       => 'User Private Folders',
 		'description' => 'Using Private Folders you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZUJBjQdYy4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
@@ -98,7 +98,7 @@ $features = [
 	],
 
 	[
-		'title'       => 'Multiple Accounts',
+		'title'       => 'Multiple Google Accounts',
 		'description' => 'You can add and manage multiple Google Drive cloud accounts from your site using this plugin.',
 		'video'		  => '',
 		'pro'         => false,
@@ -192,7 +192,7 @@ $features = [
 
 	],
 	[
-		'title'       => 'Elementor Form Integration',
+		'title'       => 'Elementor Form Widget Integration',
 		'description' => 'Allows effortless file uploads from Elementor PRO Form widget to Google Drive for quick and efficient storage.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/53FP34HQZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
@@ -206,14 +206,14 @@ $features = [
 
 	],
 	[
-		'title'       => 'WPForm Integration',
+		'title'       => 'WPForms Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in WPForms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/QvRuNCcUjic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Gravity Form Integration',
+		'title'       => 'Gravity Forms Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Gravity Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
@@ -226,13 +226,13 @@ $features = [
 		'pro'         => false,
 	],
 	[
-		'title'       => 'Formidable Form Integration',
+		'title'       => 'Formidable Forms Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Formidable Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[
-		'title'       => 'Fluent Form Integration',
+		'title'       => 'Fluent Forms Integration',
 		'description' => 'You can get more flexibility than the Upload form that is included in Fluent Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lE7i66t_7Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
@@ -243,6 +243,12 @@ $features = [
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
+	],
+	[
+		'title'       => 'Usage Limit Control',
+		'description' => 'Control file downloads and bandwidth usage limits for users.',
+		'video'       => '',
+		'pro'         => true,
 	],
 ];
 ?>

@@ -1,47 +1,38 @@
 <?php
 
 $free_features = [
-    
+	'Shortcode Builder',
+	'Gallery Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Embed Documents Module',
     'Download Links Module',
     'View Links Module',
-    'Shortcode Builder',
-    'Inline Preview',
-    'Classic Editor Integrations',
-    'Gutenberg Integrations',
-    'Elementor Integrations',
-    
-    'Link Own Google App',
-    'Full-Text Search',
-    'Zip Download',
+    'Classic Editor Integration',
+	'Gutenberg Integration',
+	'Elementor Integration',
+	'Divi Integration',
+	'Contact Form 7 Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+	'Inline Preview',
+	'Gallery Lightbox Preview',
     'On Demand Assets Loading',
     'Responsive Design',
     'Multi-Language Support',
-    'Share Files',
+    'File Sharing',
     'Custom CSS',
     'Export/ Import Data',
-    'File Browser Preloader - 2 FREE',
-    'Rename, Move, Copy Files & Folders',
-    'Exclude Files by Names & Extensions',
-    'Multiple File Download',
     'Allow others to use plugin by user roles',
-    'Direct File View Link for All Users & Admins',
 ];
 
 $pro_features = [
     'All Free Features',
     'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Gallery Module',
     'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-
     'Slider Carousel Module',
     'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'File Search Module',
+    'Import to Media Library',
+	'Media Library <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Add Multiple Google Drive Accounts',
-
     'Media Library Integration <span class="new">New⚡</span>',
-    
-    'Contact Form 7 Integrations',
     'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Easy Digital Downloads Integration',
     'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
@@ -50,18 +41,14 @@ $pro_features = [
     'Formidable Forms Integration',
     'Elementor Form Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'MetForm Integration',
-
-    'WP Forms Integration',
+    'WPForms Integration',
     'Ninja Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'User Private Files <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Automatic Private Folders',
+    'User Private Folders <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Statistics & Email Report',
     'Email Notifications',
-    '18+ File Browser Preloaders',
     'Appearance Color Customizations',
-    'Gallery Lightbox Preview',
-    'Module Size Customization',
     'Auto Synchronize Cloud Files',
+	'Usage Limit Control <span class="new">New⚡</span>',
 ];
 
 ?>
