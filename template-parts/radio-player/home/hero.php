@@ -15,24 +15,7 @@
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
                             <div class="hero-how-butt ripple">
 
-                                <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    <i class="fa fa-play"></i>
-                                </a>
-
-                                <!-- Modal -->
-                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/60puFspgnK8?si=5LKisb6pi4NOvb8F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                                                    <iframe width="900" height="500" src="https://www.youtube.com/embed/fB602AMIJ6M?si=8zx2VPCkHBF4KthV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a class="my-btn-primary" href="https://www.youtube.com/embed/fB602AMIJ6M?si=8zx2VPCkHBF4KthV" data-lity><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     <?php } ?>
@@ -51,24 +34,8 @@
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/radio-img.png" alt="radio-img">
                     <div class="hero-how-butt ripple">
 
-                        <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            <i class="fa fa-play"></i>
-                        </a>
+                        <a class="my-btn-primary" href="https://www.youtube.com/embed/fB602AMIJ6M?si=8zx2VPCkHBF4KthV" data-lity><i class="fa fa-play"></i></a>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/60puFspgnK8?si=5LKisb6pi4NOvb8F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                                            <iframe width="900" height="500" src="https://www.youtube.com/embed/fB602AMIJ6M?si=8zx2VPCkHBF4KthV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                

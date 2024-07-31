@@ -110,6 +110,7 @@ class SoftLa {
 		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3' );
 		wp_enqueue_style( 'fontawesome', get_theme_file_uri( 'assets/vendor/fontawesome/css/all.min.css' ), array(), $theme_version );
 		wp_enqueue_style( 'twenty-twenty', get_theme_file_uri( 'assets/vendor/twenty/twentytwenty.css' ), array(), $theme_version );
+		wp_enqueue_style( 'lity', get_theme_file_uri( 'assets/vendor/lity/lity.min.css' ), array(), $theme_version );
 		wp_enqueue_style( 'style', get_stylesheet_uri(), array( 'bootstrap' ), $theme_version );
 
 
@@ -120,6 +121,7 @@ class SoftLa {
 		wp_enqueue_script( 'waypoint', get_theme_file_uri( 'assets/vendor/counter/waypoints.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'event', get_theme_file_uri( 'assets/vendor/twenty/jquery.event.move.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'twenty-twenty', get_theme_file_uri( 'assets/vendor/twenty/jquery.twentytwenty.js' ), array(), $theme_version, true );
+		wp_enqueue_script( 'lity', get_theme_file_uri( 'assets/vendor/lity/lity.min.js' ), array(), $theme_version, true );
 		wp_enqueue_script( 'masonary', get_theme_file_uri( 'assets/vendor/masonary.js' ), array(), '4.2.2', true );
 
 
@@ -131,10 +133,10 @@ class SoftLa {
 
 
 		//popup img Scripts
-		if ( is_single() ) {
-			wp_enqueue_style( 'magnific-popup', get_theme_file_uri( 'assets/vendor/magnific-popup/magnific-popup.css' ), array(), '1.1.0' );
-			wp_enqueue_script( 'magnific-popup', get_theme_file_uri( 'assets/vendor/magnific-popup/jquery.magnific-popup.min.js' ), array('main'), '1.1.0', true );
-		}
+		// if ( is_single() ) {
+		// 	wp_enqueue_style( 'magnific-popup', get_theme_file_uri( 'assets/vendor/magnific-popup/magnific-popup.css' ), array(), '1.1.0' );
+		// 	wp_enqueue_script( 'magnific-popup', get_theme_file_uri( 'assets/vendor/magnific-popup/jquery.magnific-popup.min.js' ), array('main'), '1.1.0', true );
+		// }
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );

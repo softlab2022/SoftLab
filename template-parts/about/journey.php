@@ -52,7 +52,7 @@
                                 <div class="slider-content d-flex align-items-center">
                                     <div class="products-img">
                                         <a href="/radio-player/">
-                                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/j-icon2.png" alt="j-icon2">
+                                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/footer-radio.png" alt="radio-icon">
                                         </a>
                                     </div>
                                     <div class="products-content">

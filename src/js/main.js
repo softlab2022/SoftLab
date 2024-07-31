@@ -16,8 +16,8 @@ import "./components/sticky-banner";
             //Handle contact form tabs
             $(".contact-form .tab-item").on("click", app.handleContactForm);
             //Handle modal video
-            $("#open-modal").on("click", app.handleModalVideo);
-            $(".modal-btn-close").on("click", app.handleModalVideoClose);
+            // $("#open-modal").on("click", app.handleModalVideo);
+            // $(".modal-btn-close").on("click", app.handleModalVideoClose);
 
             //Handle popup img
             app.handlePopupimg();
@@ -284,24 +284,32 @@ import "./components/sticky-banner";
 
 
         //Handle popup img js
+        // handlePopupimg: function () {
+        //     $('.single article img').click(function () {
+        //         var src = $(this).attr('src');
+
+        //         $.magnificPopup.open({
+        //             items: {
+        //                 src: src
+        //             },
+        //             type: 'image',
+        //             closeOnContentClick: true,
+        //             mainClass: 'mfp-img-mobile',
+        //             image: {
+        //                 verticalFit: true
+        //             }
+        //         });
+        //     });
+        // },
+
+        //Handle popup img js
         handlePopupimg: function () {
             $('.single article img').click(function () {
                 var src = $(this).attr('src');
-
-                $.magnificPopup.open({
-                    items: {
-                        src: src
-                    },
-                    type: 'image',
-                    closeOnContentClick: true,
-                    mainClass: 'mfp-img-mobile',
-                    image: {
-                        verticalFit: true
-                    }
-                });
+                lity(src);
             });
         },
-
+        //Handle popup img js end 
 
         handleContactForm: function () {
             $(".contact-form .tab-item").removeClass("active");
@@ -452,24 +460,25 @@ import "./components/sticky-banner";
             }
         },
 
-        handleModalVideo: function () {
-            const modalContent = ``;
-            const targetElement = $(".hero-how-butt");
-            targetElement.append(modalContent);
+        // handleModalVideo: function () {
+        //     const modalContent = ``;
+        //     const targetElement = $(".hero-how-butt");
+        //     targetElement.append(modalContent);
 
 
-        },
+        // },
 
-        handleModalVideoClose: function () {
-            const targetElement = $(".hero-how-butt").closest('#staticBackdrop');
-            console.log(targetElement);
-            targetElement.empty();
+        // handleModalVideoClose: function () {
+        //     const targetElement = $(".hero-how-butt").closest('#staticBackdrop');
+        //     console.log(targetElement);
+        //     targetElement.empty();
 
-        },
+        // },
 
 
 
     };
+    $(document).on('click', '[data-lightbox]', lity);
 
     $(document).ready(app.init);
 })(jQuery);

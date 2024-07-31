@@ -12,24 +12,8 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/hero-dark.png" class="dracula-hero-image img-fluid w-75 w-md-100 ">
                                 <div class="hero-how-butt ripple">
 
-                                    <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                        <i class="fa fa-play"></i>
-                                    </a>
+                                    <a class="my-btn-primary" href="https://www.youtube.com/embed/yHs8OdK-TQo?si=NY1g0_wmL7-JzUTY" data-lity><i class="fa fa-play"></i></a>
 
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/OHpY6X1Ha9g?si=nn0wvtK4188yPYjp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                                                    <iframe width="900" height="500" src="https://www.youtube.com/embed/yHs8OdK-TQo?si=NY1g0_wmL7-JzUTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
@@ -57,24 +41,7 @@
                     <div class="header-img text-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/home/hero-dark.png" class="dracula-hero-image img-fluid w-75 w-md-100 ">
                         <div class="hero-how-butt ripple">
-
-                            <a class="my-btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                <i class="fa fa-play"></i>
-                            </a>
-
-                            <!-- Modal -->
-                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <iframe width="900" height="500" src="https://www.youtube.com/embed/yHs8OdK-TQo?si=NY1g0_wmL7-JzUTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <a class="my-btn-primary" href="https://www.youtube.com/embed/yHs8OdK-TQo?si=NY1g0_wmL7-JzUTY" data-lity><i class="fa fa-play"></i></a>
                         </div>
                     </div>
 
