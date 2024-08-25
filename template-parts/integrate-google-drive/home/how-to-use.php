@@ -15,11 +15,11 @@ $howtouses = [
     ],
     'shortcode-builder' => [
         'title'       => 'Shortcode Builder',
-        'description' => 'You can create various types of module (File browser, Photo Gallery, Media player etc.) with different configurations with the shortcode builder and can use them anywhere using the shortcode.',
+        'description' => 'You can create various types of module (File browser, Photo Gallery, Media player etc.) with different configurations with the shortcode builder and can use them anywhere using the shortcode',
     ],
     'explore-enjoy-features' => [
         'title'       => 'Explore and Enjoy Features',
-        'description' => 'You can create various types of module (File browser, Photo Gallery, Media player etc.) with different configurations with the shortcode builder and can use them anywhere using the shortcode.',
+        'description' => 'Explore effortless file management with the “Integrate Google Drive” WordPress plugin. Enjoy seamless uploads, real-time syncing, and direct Drive access right from your dashboard',
     ],
 
 ];
@@ -46,7 +46,7 @@ $howtouses = [
                 <div class="use-main">
                    <?php foreach ( $howtouses as $key => $howtouse ) { ?>
                     <div class="row how-to-use-<?php echo $key; ?> justify-content-center align-items-center">
-                        <div class="col-lg-3 col-md-3">
+                        <div class="col-lg-2 col-md-3">
                             <div class="use-imgs">
                                 <img class="img-fluid <?php echo $key; ?>-icon feature-icon"
                                  src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/<?php echo $key; ?>-number.png"
