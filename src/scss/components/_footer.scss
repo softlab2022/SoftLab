@@ -482,3 +482,69 @@
     background-size: cover !important;
   }
 }
+
+// footer massenger css start
+
+.footer-massenger {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  a {
+    background: rgb(105, 95, 232);
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+
+    i {
+      color: #fff;
+      font-size: 24px;
+    }
+  }
+
+  .massenger {
+    position: relative;
+  }
+
+  .on-hover-text {
+    position: absolute;
+    left: -112px;
+    top: 69%;
+    transform: translateY(-50%);
+
+    .hover-text {
+      position: relative;
+      padding: 5px 15px;
+      border-radius: 10px;
+      background: #fff;
+      color: #333;
+      box-shadow: -3px 0px 7.73859px rgba(0, 0, 0, 0.15);
+      font-size: 17px;
+      display: none;
+      transition: all linear .3s;
+
+      &::after {
+        width: 13px;
+        height: 13px;
+        background: #fff;
+        position: absolute;
+        content: "";
+        right: -6px;
+        top: 33%;
+        // transform: translateY(-50%);
+        transform: rotate(47deg);
+        box-shadow: 0 1.93465px 7.73859px rgb(0 0 0 / 15%);
+        z-index: -1;
+      }
+    }
+  }
+
+  &:hover {
+    .hover-text {
+      display: block;
+    }
+  }
+}

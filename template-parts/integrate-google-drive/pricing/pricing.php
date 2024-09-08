@@ -5,7 +5,7 @@ $free_features = [
 	'Gallery Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
     'Embed Documents Module',
     'Download Links Module',
-    'View Links Module',
+    'File View Links Module',
     'Classic Editor Integration',
 	'Gutenberg Integration',
 	'Elementor Integration',
