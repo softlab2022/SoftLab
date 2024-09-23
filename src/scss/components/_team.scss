@@ -408,9 +408,13 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 30px 0;
     .section-head {
+      margin-bottom: 30px;
       h1 {
         font-size: 2rem;
+        padding-top: 0;
+        line-height: 36px;
       }
     }
   }

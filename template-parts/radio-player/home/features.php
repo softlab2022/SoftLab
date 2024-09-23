@@ -132,7 +132,7 @@
 
                         <h3>Multiple Stations Playlist</h3>
                         <?php if (wp_is_mobile()) { ?>
-                            <div class="feature-item-img-mobile text-center">
+                            <div class="feature-item-img-mobile radio-stations-playlist text-center">
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
                             </div>
                         <?php } ?>
@@ -174,7 +174,8 @@
                             </div>
                         <?php } ?>
                         <div class="feature-description">
-                            <p>
+                            <p class="multiple-description">
+                                
                                 Personalize your radio experience with our expansive range of player skins. Each design is meticulously crafted, ensuring both style and functionality, to cater to every aesthetic preference.
                             </p>
                         </div>

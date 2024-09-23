@@ -29,7 +29,7 @@
                 
                 <div class="contant">
                         <div class="te-count d-flex align-items-center">
-                            <span class="counter" >5</span> <h5>k+</h5>
+                            <span class="counter" >6</span> <h5>k+</h5>
                         </div>
                         <h6>Active installation</h6>
                 </div>
@@ -55,7 +55,7 @@
                 
                 <div class="contant">
                     <div class="te-count d-flex align-items-center">
-                        <span class="counter" >50</span> <h5>+</h5>
+                        <span class="counter" >70</span> <h5>+</h5>
                         </div>
                     <h6>5 star positive rating</h6>
                 </div>

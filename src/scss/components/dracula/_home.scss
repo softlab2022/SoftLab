@@ -222,16 +222,19 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 140px 0 60px 0;
+    padding: 100px 0 0px 0;
 
     .section-head {
+      padding-top: 0;
       text-align: center;
       margin-bottom: 40px;
 
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
-
+      p {
+        font-size: .9rem;
+      }
       .free-btn {
         padding: 15px 17px;
         margin-right: 3px;
@@ -451,9 +454,10 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 30px 0;
     .feature-content {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 0px;
 
       h3 {
         font-size: 1.2rem;
@@ -463,14 +467,17 @@
       p {
         padding-bottom: 0;
         font-size: .9rem;
+        margin-bottom: 0;
       }
 
       .feature-image-mobile {
         display: block;
-        padding: 30px 0;
+        padding: 10px 0;
       }
     }
-
+    .reading-mode-content {
+      padding-right: 0;
+    }
     .feature-image-feat {
       display: none;
     }
@@ -481,7 +488,7 @@
 
     .more-feat-img-mobile {
       img {
-        margin: 30px 0;
+        margin: 10px 0;
       }
     }
 
@@ -495,7 +502,7 @@
     }
 
     .dark-mode {
-      margin-bottom: 50px;
+      margin-bottom: 20px;
     }
   }
 }
@@ -609,7 +616,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 60px 0 0 0;
+    padding: 30px 0 0 0;
 
     .section-head {
       h1 {
@@ -618,7 +625,7 @@
 
       p {
         font-size: .9rem;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
       }
     }
 
@@ -928,11 +935,15 @@
   }
 
   @media (max-width: 767px) {
-    padding-bottom: 100px;
+    padding: 30px 0;
 
     .section-head {
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+      }
+      p{
+        margin-bottom: 20px;
+        font-size: .9rem;
       }
     }
 
@@ -1172,8 +1183,9 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 0 0 30px 0;
     .cta-dracula {
-      padding: 40px;
+      padding: 20px;
 
       &:after {
         left: 8%;
@@ -1183,11 +1195,12 @@
 
     .section-head {
       h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
 
       p {
         font-size: .9rem;
+        margin-bottom: 20px;
       }
 
       .cta-button {

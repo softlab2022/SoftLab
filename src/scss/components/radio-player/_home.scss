@@ -11,6 +11,7 @@
       position: absolute;
       top: 43%;
       left: 46%;
+
       .my-btn-primary {
         i {
           background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
@@ -115,6 +116,7 @@
         position: absolute;
         top: 43%;
         left: 46%;
+
         .my-btn-primary {
           i {
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
@@ -128,30 +130,30 @@
             cursor: pointer;
           }
         }
-  
-  
+
+
         /**---------- popup video area scss start ----------**/
         .modal {
           top: 4%;
         }
-  
+
         .modal-dialog {
           max-width: 950px;
           height: auto;
           margin: 1.75rem auto;
-  
+
           .modal-content {
             background-color: transparent;
             border: none;
-  
+
             .modal-header {
               border: none;
-  
+
               .btn-close {
                 background-color: #fff;
               }
             }
-  
+
             .modal-body {
               iframe {
                 border-radius: 10px;
@@ -159,10 +161,10 @@
             }
           }
         }
-  
+
         /**---------- popup video area scss end ----------**/
       }
-  
+
       .ripple {
         text-decoration: none;
         color: #fff;
@@ -173,25 +175,25 @@
         -webkit-animation: ripple 1s linear infinite;
         animation: ripple 1s linear infinite;
       }
-  
+
       @-webkit-keyframes ripple {
         0% {
           -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
           box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
         }
-  
+
         100% {
           -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
           box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
         }
       }
-  
+
       @keyframes ripple {
         0% {
           -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
           box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
         }
-  
+
         100% {
           -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
           box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
@@ -289,15 +291,17 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 
     .hero-content {
       h2 {
         font-size: 2rem;
+        margin-bottom: 10px;
+
       }
 
       p {
-        padding-right: 0;
+        padding: 0;
       }
 
       a {
@@ -307,15 +311,17 @@
 
       .radio-header-bg-mobile {
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+
         .hero-how-butt {
           position: absolute;
           top: 40%;
           left: 43%;
-  
+
           .my-btn-primary {
-            margin: 0!important;
-            padding: 0!important;
+            margin: 0 !important;
+            padding: 0 !important;
+
             i {
               width: 50px;
               height: 50px;
@@ -323,14 +329,14 @@
               font-size: 1rem;
             }
           }
-  
+
           .modal-dialog {
             max-width: 450px;
             height: auto;
             margin: 1.75rem auto;
-  
+
             .modal-content {
-  
+
               .modal-body {
                 iframe {
                   max-width: 300px;
@@ -340,7 +346,7 @@
             }
           }
         }
-  
+
         .ripple {
           width: 50px;
           height: 50px;
@@ -359,12 +365,11 @@
 /**--------- radio-player-feature-area scss ---------**/
 
 #radio-player-features {
-  .feat-items-sec {
     .feature-item-img {
       text-align: right !important;
       display: block;
     }
-  }
+
 
   .embed-code {
     img {
@@ -468,6 +473,8 @@
       position: absolute;
       top: -50px;
       left: 50%;
+      transform: translateX(-50%);
+
     }
 
     span {
@@ -517,8 +524,9 @@
       }
 
     }
-    
+
   }
+
   .preview-item-img {
     img {
       width: 500px;
@@ -607,8 +615,6 @@
 
   @media (max-width: 767.98px) {
     .feature-item-img {
-      margin-bottom: 20px;
-      text-align: center;
       display: none;
     }
 
@@ -616,11 +622,6 @@
       margin-bottom: 80px;
     }
 
-    .feature-item-img {
-      text-align: center;
-      margin-bottom: 90px;
-
-    }
 
     .embed-code {
       img {
@@ -628,14 +629,20 @@
       }
     }
 
+
     .feature-item {
       text-align: center;
 
       .file-text {
-
+        .feature-header {
+          .element {
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
         .feature-item-img-mobile {
           display: block;
-          margin-bottom: 30px;
+          margin-bottom: 10px;
         }
 
         margin-bottom: 0px;
@@ -650,15 +657,20 @@
 
         h3 {
           font-size: 1.5rem;
-          padding-bottom: 20px;
+          padding: 10px 0 0 0;
         }
 
         p {
           padding: 0;
-          margin-bottom: 30px;
+          margin-bottom: 0px;
           font-size: .785rem;
         }
-
+        .feature-description {
+          margin-bottom: 0;
+        }
+        .multiple-description {
+          padding-bottom: 20px;
+        }
       }
     }
 
@@ -669,6 +681,7 @@
 
       h2 {
         font-size: 1.8rem;
+        padding: 10px 0;
       }
 
       p {
@@ -688,6 +701,11 @@
           padding: 0;
         }
 
+      }
+    }
+    .radio-stations-playlist {
+      img {
+        margin-right: -40px;
       }
     }
   }
@@ -816,23 +834,32 @@
   }
 
   @media (max-width: 767.98px) {
-
+    padding: 30px 0;
     //Mobile
     .ex-head {
       h1 {
         font-size: 1.5rem;
+        padding-bottom: 0;
       }
 
       p {
         padding: 0;
         font-size: .785rem;
+        margin-bottom: 20px;
       }
     }
 
     .ex-feature-item {
       height: auto;
-
+      .item-logo {
+        img {
+          width: 62px;
+        }
+      }
       .item-text {
+        h5 {
+          padding-bottom: 0;
+        }
         p {
           padding: 0 3px;
         }
@@ -881,6 +908,7 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 30px 0;
     .section-head {
       h1 {
         font-size: 1.5rem;
@@ -888,6 +916,7 @@
 
       p {
         font-size: .8rem;
+        margin-bottom: 10px;
       }
     }
 
@@ -1178,7 +1207,34 @@
     }
 
   }
+  @media (max-width: 767.98px) {
+    padding: 30px 0 0 0;
+    .test-head {
+      h2 {
+        font-size: 1.5rem;
+      }
 
+      p {
+        padding: 0;
+        margin-bottom: 10px;
+      }
+    }
+    .test-item{
+      margin-top: 0;
+      padding: 10px;
+      margin-bottom: 20px;
+      .testimonial-header {
+        h6 {
+          font-size: 1rem;
+        }
+        span {
+          .fa-quote-right {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 /**-----funfact area------**/
@@ -1267,11 +1323,12 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 0px 0 60px 0;
+    padding: 30px 0 0px 0;
 
     .funfact-head {
       h2 {
         font-size: 1.5rem;
+        margin-bottom: 10px;
       }
     }
 
@@ -1406,14 +1463,37 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 30px 0 0 0;
+    .section-head {
+      margin-bottom: 20px;
+  
+      h5 {
+        color: $radio_player_color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 120%;
+      }
+  
+      h2 {
+        font-size: 22px;
+      }
+  
+      p {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
     .addons-item {
       display: block !important;
       text-align: center;
       margin-bottom: 30px;
+      padding: 20px;
 
       .addons-img {
         img {
           margin-bottom: 20px;
+          padding: 0;
+          width: 75px;
         }
       }
     }
@@ -1493,7 +1573,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 50px 0;
+    padding: 30px 0;
 
     .cta-content {
       h3 {

@@ -60,6 +60,7 @@ body.page-template-about {
       text-align: center;
       h1 {
         font-size: 2rem;
+        margin-bottom: 0;
       }
       p {
         margin-right: 0;
@@ -390,7 +391,7 @@ body.page-template-about {
 
   @media (max-width: 767px) {
     //Mobile
-    padding: 110px 0 70px 0;
+    padding: 30px 0 30px 0;
     .journey-head {
       text-align: center;
 

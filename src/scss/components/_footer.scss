@@ -286,6 +286,7 @@
   }
 
   @media (max-width: 767px) {
+    padding-top: 30px;
     .footer-contant {
       p {
         padding-right: 0;
@@ -297,6 +298,15 @@
         display: flex;
         align-items: center;
       }
+    }
+    .footer-menu {
+      margin-bottom: 20px;
+    }
+    .footer-social {
+      padding-top: 0;
+    }
+    .mb-5 {
+      margin-bottom: 1.5rem !important;
     }
   }
 
@@ -415,7 +425,11 @@
         color: rgba(255, 255, 255, 0.8);
       }
     }
+    @media (max-width: 767px) {
+      padding-top: 30px;
+    }
   }
+
 }
 
 
