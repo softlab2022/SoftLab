@@ -494,7 +494,9 @@
             padding-top: 0rem;
             padding-bottom: 1rem;
         }
-
+        .vector-crcel-left {
+            top: 18%;
+        }
         .page-builder-area {
             img {
                 box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.25);
@@ -1586,9 +1588,11 @@
         // }
         .feature-btn {
             margin-top: 20px;
+            margin-bottom: 20px;
         }
         .tutor-lms-feat {
             margin-bottom: 20px !important;
+            margin-top: 30px;
         }
 
         .ecommerce-plugins-area {
@@ -1666,11 +1670,11 @@
         }
 
         .vector-crcel-right {
-            top: 14%;
+            top: 8%;
         }
 
         .vector-crcel-left {
-            top: 14%;
+            top: 8%;
         }
 
         .last-feature {

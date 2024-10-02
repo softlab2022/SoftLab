@@ -101,7 +101,7 @@
 
                         <h3>Continuous Playback Window</h3>
                         <?php if (wp_is_mobile()) { ?>
-                            <div class="feature-item-img-mobile text-center">
+                            <div class="feature-item-img-mobile popup-player text-center">
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/popup-img.png" alt="Popup Player">
                             </div>
                         <?php } ?>

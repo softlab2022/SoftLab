@@ -3,23 +3,23 @@ $howtouses = [
      
     'download-install' => [
         'title'       => 'Download & Install',
-        'description' => 'Download the WordPress plugin from WordPress repo and install the plugin from your admin dashboard',
+        'description' => 'Download the plugin from WordPress repository and install it via admin dashboard',
     ],
     'link-google-account' => [
-        'title'       => 'Link A Google Account',
-        'description' => 'After activating the plugin, you need to link your Google account to it in order to access your Google Drive files from WordPress admin dashboard',
+        'title'       => 'Link Google Account',
+        'description' => 'After activating the plugin, link your Google account to access Google Drive files',
     ],
     'manage-browse-files' => [
         'title'       => 'Manage & Browse Files',
-        'description' => 'Browse files via the plugin\'s File Browser to manage them efficiently. You can copy, edit, rename, and delete files directly within the plugin. This integration simplifies organizing your files without leaving WordPress',
+        'description' => 'Plugin\'s File Browser manages files efficiently. You can copy, edit, rename, and delete files directly without leaving WordPress',
     ],
     'shortcode-builder' => [
         'title'       => 'Shortcode Builder',
-        'description' => 'You can create various types of module (File browser, Photo Gallery, Media player etc.) with different configurations with the shortcode builder and can use them anywhere using the shortcode',
+        'description' => 'Create various modules using the Shortcode builder, and place them anywhere with the Shortcode',
     ],
     'explore-enjoy-features' => [
         'title'       => 'Explore and Enjoy Features',
-        'description' => 'Explore effortless file management with the “Integrate Google Drive” WordPress plugin. Enjoy seamless uploads, real-time syncing, and direct Drive access right from your dashboard',
+        'description' => 'Enjoy fast uploads, real-time syncing, and direct Drive access from your WordPress dashboard',
     ],
 
 ];
@@ -35,7 +35,7 @@ $howtouses = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="how-to-use-head text-center">
-                    <h1>Let's learn how to Integrate <span>Google Drive</span></h1>
+                    <h3>Let's learn how to Integrate <span>Google Drive</span></h3>
                     <p>Enhance your productivity by installing the Integrate Google Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.</p>
                 </div>
             </div>

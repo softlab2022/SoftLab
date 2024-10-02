@@ -87,7 +87,11 @@ body.search {
       }
     }
   }
-
+  @media (max-width: 767.98px) { 
+    .page {
+      padding: 1rem;
+    }
+  }
 }
 
 

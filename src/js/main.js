@@ -479,6 +479,23 @@ import "./components/sticky-banner";
 
     };
     $(document).on('click', '[data-lightbox]', lity);
+    //mobile menu close js
+    $(document).ready(function () {
+        const $menu = $('.mobile-menu');
+        const $closeBtn = $('#close_btn');
+        const $toggleMenuBtn = $('#menu-toggle'); 
+        $toggleMenuBtn.click(function () {
+            $menu.addClass('show');
+        });
+        $(document).click(function (e) {
+            if (!$menu.is(e.target) && $menu.has(e.target).length === 0 && !$toggleMenuBtn.is(e.target)) {
+                $menu.removeClass('show');
+            }
+        });
+        $closeBtn.click(function () {
+            $menu.removeClass('show');
+        });
+    });
 
     $(document).ready(app.init);
 })(jQuery);

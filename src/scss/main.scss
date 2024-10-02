@@ -195,6 +195,24 @@
       }
     }
   }
+  @media (max-width: 767.98px) {
+    .entry-content {
+      width: 100%;
+      margin-bottom: 45px !important;
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+      }
+      .fst_login_form_auth_wrapper  {
+        .fst_login_wrapper  {
+          label {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 /* support page css here end */

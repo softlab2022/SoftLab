@@ -3,7 +3,7 @@
         <div class="row">
         <div class="col-lg-6 m-auto">
             <div class="funfact-head text-center">
-                <h2>Amazing Fact about Radio Player</h2>
+                <h2>Amazing Fact about <span>Radio Player</span></h2>
             </div>
         </div>
         </div>

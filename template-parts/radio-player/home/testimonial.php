@@ -41,7 +41,7 @@ $testimonials = [
         <div class="row">
             <div class="col-lg-10 m-auto">
                 <div class="test-head text-center">
-                    <h2>What Customers Say about Radio Player</h2>
+                    <h2>What Customers Say about <span>Radio Player</span></h2>
                     <p>We asked our customers for feedback about the Radio Player and they say</p>
                 </div>
             </div>

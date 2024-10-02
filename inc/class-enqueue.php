@@ -170,13 +170,17 @@ class SoftLa {
 
 	/**
 	 * Admin Assets
+	 * @since 1.0.72
 	 */
-	function admin_enqueue_scripts(){
-		wp_enqueue_style('onclick-admin', get_theme_file_uri("assets/css/admin.css"), array(), time(), 'all');
-		wp_enqueue_style( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.min.css' ), array(), '5.1.3' );
-
-		wp_enqueue_script( 'bootstrap', get_theme_file_uri( 'assets/vendor/bootstrap/bootstrap.bundle.min.js' ), array(), '5.1.3', true );
+	function admin_enqueue_scripts($hook) {
+		if ( $hook === 'appearance_page_theme-option' ) {
+			wp_enqueue_style('softlab-admin', get_theme_file_uri("assets/css/admin.css"), array(), time(), 'all');
+			wp_enqueue_style('bootstrap', get_theme_file_uri('assets/vendor/bootstrap/bootstrap.min.css'), array(), '5.1.3');
+			
+			wp_enqueue_script('bootstrap', get_theme_file_uri('assets/vendor/bootstrap/bootstrap.bundle.min.js'), array(), '5.1.3', true);
+		}
 	}
+	
 
 	public static function instance() {
 		if ( null === self::$instance ) {
