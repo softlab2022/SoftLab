@@ -7,6 +7,12 @@ $features = [
 		'pro'         => true,
 	],
 	[
+		'title'       => 'Allow Specific Folders',
+		'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
+		'video'		  => '',
+		'pro'         => false,
+	],
+	[
 		'title'       => 'Admin File Browser',
 		'description' => 'Display & manage your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.',
 		'video'		  => '',

@@ -5,6 +5,10 @@ $features = [
     // 	'title'       => 'Google Photos Integration',
     // 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
     // ],
+    'allow-specific-folders' => [
+        'title'       => 'Allow Specific Folders',
+        'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
+    ],
     'media-library' => [
         'title'       => 'Google Drive Integration with Media Library',
         'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
@@ -76,11 +80,11 @@ $features = [
         foreach ($features as $key => $feature) {
             $is_odd = $i % 2 == 0;
 
-            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library']);
-            $is_integrations = in_array($key, ['media-library', 'google-photos']);
+            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders']);
+            $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders']);
 
         ?>
-            <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? '' : 'flex-row-reverse' ?>">
+            <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
                 <div class="col-md-6">
                     <div class="feature-item-img  <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">

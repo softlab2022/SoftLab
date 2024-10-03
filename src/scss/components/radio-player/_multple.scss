@@ -54,15 +54,16 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 120px 0 60px 0;
+    padding: 120px 0 40px 0;
 
     .multiple-head {
       h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
       }
 
       p {
         font-size: .785rem;
+        margin-bottom: 0;
       }
     }
   }
@@ -194,7 +195,7 @@
 
   @media (min-width: 768px) and (max-width: 991.98px) {
     .section-head {
-      h1 {
+      h3 {
         font-size: 1.9rem;
       }
     }
@@ -210,12 +211,13 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 20px 0;
+    padding: 10px 0;
 
     .section-head {
-      margin-top: 40px;
+      margin-top: 0px;
+      margin-bottom: 20px;
 
-      h1 {
+      h3 {
         font-size: 1.8rem;
         margin-bottom: 10px;
       }
