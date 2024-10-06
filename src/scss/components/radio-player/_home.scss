@@ -365,10 +365,10 @@
 /**--------- radio-player-feature-area scss ---------**/
 
 #radio-player-features {
-    .feature-item-img {
-      text-align: right !important;
-      display: block;
-    }
+  .feature-item-img {
+    text-align: right !important;
+    display: block;
+  }
 
 
   .embed-code {
@@ -641,6 +641,7 @@
             transform: translateX(-50%);
           }
         }
+
         .feature-item-img-mobile {
           display: block;
           margin-bottom: 10px;
@@ -667,9 +668,11 @@
           font-size: .785rem;
           margin-top: 15px;
         }
+
         .feature-description {
           margin-bottom: 0;
         }
+
         .multiple-description {
           padding-bottom: 20px;
         }
@@ -706,11 +709,13 @@
 
       }
     }
+
     .radio-stations-playlist {
       img {
         margin-right: -40px;
       }
     }
+
     .popup-player {
       img {
         margin-left: -11px;
@@ -843,6 +848,7 @@
 
   @media (max-width: 767.98px) {
     padding: 30px 0;
+
     //Mobile
     .ex-head {
       h1 {
@@ -859,15 +865,18 @@
 
     .ex-feature-item {
       height: auto;
+
       .item-logo {
         img {
           width: 62px;
         }
       }
+
       .item-text {
         h5 {
           padding-bottom: 0;
         }
+
         p {
           padding: 0 3px;
         }
@@ -917,6 +926,7 @@
 
   @media (max-width: 767.98px) {
     padding: 30px 0;
+
     .section-head {
       h1 {
         font-size: 1.5rem;
@@ -1093,6 +1103,7 @@
       font-size: 2.9rem;
       color: #151826;
       line-height: 120%;
+
       span {
         color: $radio_player_color;
       }
@@ -1218,8 +1229,10 @@
     }
 
   }
+
   @media (max-width: 767.98px) {
     padding: 30px 0 0 0;
+
     .test-head {
       h2 {
         font-size: 1.5rem;
@@ -1233,14 +1246,17 @@
         margin-bottom: 10px;
       }
     }
-    .test-item{
+
+    .test-item {
       margin-top: 0;
       padding: 10px;
       margin-bottom: 20px;
+
       .testimonial-header {
         h6 {
           font-size: 1rem;
         }
+
         span {
           .fa-quote-right {
             font-size: 1.5rem;
@@ -1262,121 +1278,123 @@
       font-size: 2.8rem;
       line-height: 120%;
       color: #151826;
-      padding: 0 30px;
-      margin-bottom: 60px;
+      max-width: 561px;
+      margin: auto;
+      padding-bottom: 60px;
+
+    span {
+      color: $radio_player_color;
+    }
+  }
+}
+
+.fun-item {
+  background: #F9FAFF;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+
+  img {
+    margin-right: 15px;
+  }
+
+  .contant {
+
+    .te-count {
       span {
-        color: $radio_player_color;
+        font-weight: 700;
+        font-size: 1.7rem;
+        line-height: 120%;
+        color: #000;
       }
+
+      h5 {
+        font-weight: 700;
+        font-size: 1.7rem;
+        line-height: 120%;
+        color: #000;
+        margin-bottom: 0;
+      }
+    }
+
+    h6 {
+      font-weight: 400;
+      font-size: .9rem;
+      line-height: 150%;
+      color: #5c637e;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  padding: 50px 0;
+
+  .funfact-head {
+    h2 {
+      font-size: 2rem;
+      padding-bottom: 30px;
     }
   }
 
   .fun-item {
-    background: #F9FAFF;
-    border-radius: 20px;
-    padding: 10px;
-    align-items: center;
-
-    img {
-      margin-right: 15px;
-    }
+    margin-bottom: 15px;
 
     .contant {
-
       .te-count {
         span {
-          font-weight: 700;
-          font-size: 1.7rem;
-          line-height: 120%;
-          color: #000;
+          font-size: 1.5rem;
         }
 
         h5 {
-          font-weight: 700;
-          font-size: 1.7rem;
-          line-height: 120%;
-          color: #000;
-          margin-bottom: 0;
+          font-size: 1.5rem;
         }
       }
 
       h6 {
-        font-weight: 400;
-        font-size: .9rem;
-        line-height: 150%;
-        color: #5c637e;
+        font-size: .8rem;
       }
     }
   }
+}
 
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    padding: 50px 0;
+@media (max-width: 767.98px) {
+  padding: 30px 0 0px 0;
 
-    .funfact-head {
-      h2 {
-        font-size: 2rem;
-        margin-bottom: 30px;
-      }
-    }
-
-    .fun-item {
-      margin-bottom: 15px;
-
-      .contant {
-        .te-count {
-          span {
-            font-size: 1.5rem;
-          }
-
-          h5 {
-            font-size: 1.5rem;
-          }
-        }
-
-        h6 {
-          font-size: .8rem;
-        }
-      }
+  .funfact-head {
+    h2 {
+      font-size: 1.5rem;
+      padding-bottom: 10px !important;
+      max-width: 350px;
+      margin: 0 auto;
     }
   }
 
-  @media (max-width: 767.98px) {
-    padding: 30px 0 0px 0;
+  .fun-item {
+    margin-bottom: 10px;
 
-    .funfact-head {
-      h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px !important;
-        max-width: 350px;
-        margin: 0 auto;
-      }
+    img {
+      margin-right: 7px;
+      width: 31px;
+      height: auto;
     }
 
-    .fun-item {
-      margin-bottom: 10px;
+    .contant {
+      .te-count {
+        span {
+          font-size: 1.1rem;
+        }
 
-      img {
-        margin-right: 7px;
-        width: 31px;
-        height: auto;
+        h5 {
+          font-size: 1.1rem;
+        }
       }
 
-      .contant {
-        .te-count {
-          span {
-            font-size: 1.1rem;
-          }
-
-          h5 {
-            font-size: 1.1rem;
-          }
-        }
-
-        h6 {
-          font-size: .8rem;
-        }
+      h6 {
+        font-size: .8rem;
       }
     }
   }
+}
 
 }
 
@@ -1400,7 +1418,7 @@
       color: $h1_color;
       font-weight: 700;
       line-height: 120%;
-    
+
     }
 
     p {
@@ -1484,26 +1502,28 @@
 
   @media (max-width: 767.98px) {
     padding: 30px 0 0 0;
+
     .section-head {
       margin-bottom: 20px;
-  
+
       h5 {
         color: $radio_player_color;
         font-size: 24px;
         font-weight: 700;
         line-height: 120%;
       }
-  
+
       h2 {
         font-size: 22px;
-       
+
       }
-  
+
       p {
         font-size: 14px;
         margin-bottom: 0;
       }
     }
+
     .addons-item {
       display: block !important;
       text-align: center;
