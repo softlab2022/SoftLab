@@ -1,6 +1,5 @@
 <?php
 
-
 include_once get_theme_file_path( 'inc/class-enqueue.php' );
 include_once get_theme_file_path( 'inc/class-nav.php' );
 require_once( 'theme-option/theme-option.php' );
@@ -593,7 +592,7 @@ function display_update_date() {
 	$date_format = get_option( 'date_format' );
 	$update_date = esc_html( get_the_modified_date( $date_format ) );
 	if ( get_the_modified_time() !== get_the_date() ) {
-		return sprintf('<span class="update-date">%s</span>', $update_date);
+		return sprintf( '<span class="update-date">%s</span>', $update_date );
 	}
 }
 
@@ -620,9 +619,9 @@ function softlab_change_privacy_policy_menu_link( $sorted_menu_items, $args ) {
 	$current_template = basename( get_page_template_slug() );
 
 	foreach ( $sorted_menu_items as $key => $item ) {
-        
+
 		// Check if the current page uses a specific template and the menu item ID matches
-		if ( str_contains($current_template, 'integrate-google-drive' ) && str_contains( $item->url, '/privacy-policy' ) ) {
+		if ( str_contains( $current_template, 'integrate-google-drive' ) && str_contains( $item->url, '/privacy-policy' ) ) {
 			$item->url = 'https://softlabbd.com/integrate-google-drive-privacy-policy/';
 		}
 
@@ -631,6 +630,33 @@ function softlab_change_privacy_policy_menu_link( $sorted_menu_items, $args ) {
 
 	return $sorted_menu_items;
 }
+
+// Support login form notice
+add_filter( 'login_form_bottom', 'softlab_support_login_form_notice', 10, 2 );
+
+function softlab_support_login_form_notice( $login_form_bottom, $args ) {
+
+	// Check if the FluentSupport Helper class exists
+	if ( ! class_exists( 'FluentSupport\App\Services\Helper' ) ) {
+		return $login_form_bottom;
+	}
+
+	$redirect = FluentSupport\App\Services\Helper::getPortalBaseUrl();
+
+	// Verify that the redirect matches FluentSupport's portal URL
+	if ( $args['redirect'] != $redirect ) {
+		return $login_form_bottom;
+	}
+
+	// Add a styled notice with FontAwesome icon and updated message
+	$login_form_bottom .= '<div class="alert alert-info d-flex align-items-center" role="alert">';
+	$login_form_bottom .= '<i class="fas fa-info-circle me-2"></i>';
+	$login_form_bottom .= 'Please note that your Freemius login details cannot be used here. You need to create a new account on this site to submit a support ticket.';
+	$login_form_bottom .= '</div>';
+
+	return $login_form_bottom;
+}
+
 
 
 
