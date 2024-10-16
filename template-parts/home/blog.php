@@ -1,99 +1,73 @@
 <section id="our-blog">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-5 m-auto">
                 <div class="our-blog-head text-center">
-                    <h2>Latest blog & News</h2>
+                    <h2>Latest Blog & News</h2>
                     <p>Read the latest updates about us, which new Features coming to help your website.</p>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-9 m-auto">
-                <div class="our-blog-main">
-                    <div class="our-blog-item">
-                        <div class="our-blog-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/blog/our-blog-img1.png" alt="our-blog-img1">
-                        </div>
-                        <div class="bolg-item">
-                            <div class="our-blog-content d-flex d-flex justify-content-between align-items-center">
-                                <h5>Wordpress</h5> <h5>02 June 2022</h5>
-                            </div>
-                            <div class="our-blog-content-item ">
-                                <h4>12 Best WordPress Plugins for Blogs in 2022</h4>
-                            </div>
-                            <div class="our-blog-content-butt">
-                                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php
+            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
-            <div class="col-lg-3 col-md-6 col-sm-9 m-auto">
-                <div class="our-blog-main">
-                    <div class="our-blog-item">
-                        <div class="our-blog-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/blog/our-blog-img2.png" alt="our-blog-img1">
-                        </div>
-                        <div class="bolg-item">
-                            <div class="our-blog-content d-flex d-flex justify-content-between align-items-center">
-                                <h5>Wordpress</h5> <h5>02 June 2022</h5>
-                            </div>
-                            <div class="our-blog-content-item ">
-                                <h4>12 Best WordPress Plugins for Blogs in 2022</h4>
-                            </div>
-                            <div class="our-blog-content-butt">
-                                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            $args = array(
+                'post_type'      => 'post',
+                'posts_per_page' => 3,
+                'paged'          => $paged
+            );
 
-            <div class="col-lg-3 col-md-6 col-sm-9 m-auto">
-                <div class="our-blog-main">
-                    <div class="our-blog-item">
-                        <div class="our-blog-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/blog/our-blog-img3.png" alt="our-blog-img1">
-                        </div>
-                        <div class="bolg-item">
-                            <div class="our-blog-content d-flex d-flex justify-content-between align-items-center">
-                                <h5>Wordpress</h5> <h5>02 June 2022</h5>
-                            </div>
-                            <div class="our-blog-content-item ">
-                                <h4>12 Best WordPress Plugins for Blogs in 2022</h4>
-                            </div>
-                            <div class="our-blog-content-butt">
-                                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            $query = new WP_Query($args);
 
-            <div class="col-lg-3 col-md-6 col-sm-9 m-auto">
-                <div class="our-blog-main">
-                    <div class="our-blog-item">
-                        <div class="our-blog-img text-center">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/blog/our-blog-img1.png" alt="our-blog-img1">
-                        </div>
-                        <div class="bolg-item">
-                            <div class="our-blog-content d-flex d-flex justify-content-between align-items-center">
-                                <h5>Wordpress</h5> <h5>02 June 2022</h5>
+            if ($query->have_posts()) {
+                while ($query->have_posts()) {
+                    $query->the_post();
+            ?>
+                    <div class="col-lg-4 col-md-6 col-sm-9 m-auto">
+                        <div class="our-blog-main">
+                            <div class="our-blog-item">
+
+
+                                <div class="our-blog-img text-center">
+                                    <a href="<?php the_permalink(); ?>">
+                                        <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                                    </a>
+                                </div>
+                                <div class="bolg-item">
+                                    <div class="our-blog-content d-flex d-flex justify-content-between align-items-center">
+                                        <span class="blog-item-meta-category"><?php the_category(); ?></span>
+                                        <span class="blog-item-meta-date">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            <?php echo display_update_date(); ?>
+                                        </span>
+                                    </div>
+                                    <div class="our-blog-content-item ">
+                                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                    </div>
+                                    <div class="our-blog-content-butt">
+                                        <a href="<?php the_permalink(); ?>" class="read-more">
+                                            <span>Read More</span>
+                                            <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="our-blog-content-item ">
-                                <h4>12 Best WordPress Plugins for Blogs in 2022</h4>
-                            </div>
-                            <div class="our-blog-content-butt">
-                                <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
+
                         </div>
                     </div>
-                </div>
-            </div>
-            
+            <?php
+                }
+            }
+
+            wp_reset_postdata();
+
+            ?>
+
+
+
         </div>
     </div>
 </section>

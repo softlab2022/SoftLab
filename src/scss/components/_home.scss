@@ -45,37 +45,28 @@
 
   .hero-image {
     display: block;
+    position: relative;
   }
 
-  // .autoRatio {
-  //   animation: bg-animate 60s linear infinite;
-  // }
+  .hero-img-rocket img {
+    position: absolute;
+    top: 95px;
+    left: 44%;
+    width: 40%;
+    transform: rotate(4deg);
+    animation: 5s ease-in-out infinite alternate-reverse rocket_up_down;
+  }
 
-  // @keyframes bg-animate {
-  //   0% {
-  //     transform: rotate(360deg);
-  //   }
+  @keyframes rocket_up_down {
+    0% {
+      transform: rotate(4deg) translateY(0px);
+    }
 
-  //   50% {
-  //     transform: rotate(180deg);
-  //   }
+    100% {
+      transform: rotate(4deg) translateY(14px);
+    }
+  }
 
-  //   100% {
-  //     transform: rotate(0deg);
-  //   }
-
-  //   100% {
-  //     transform: rotate(360deg);
-  //   }
-
-  //   50% {
-  //     transform: rotate(180deg);
-  //   }
-
-  //   0% {
-  //     transform: rotate(0);
-  //   }
-  // }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
     //Laptop
@@ -91,6 +82,9 @@
       p {
         font-size: .785rem;
       }
+    }
+    .hero-img-rocket img {
+      top: 66px;
     }
   }
 
@@ -109,6 +103,9 @@
         font-size: .9rem;
         margin-bottom: 30px;
       }
+    }
+    .hero-img-rocket img {
+      top: 46px;
     }
   }
 
@@ -141,6 +138,10 @@
 
     .mb-5 {
       margin-bottom: 1.5rem !important;
+    }
+    .hero-img-rocket img {
+      top: 239px;
+      left: 32%;
     }
   }
 
@@ -1162,8 +1163,8 @@
 
 /**-------solution Area -----**/
 #solution {
-  background: url("../images/home/cta.png"), linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
-  background-position: 0 0;
+  background: url("../images/home/cta-new.png"), linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5rem 0;
@@ -1196,6 +1197,7 @@
       color: #6E6DFF;
       font-weight: 700;
       transition: all linear .4s;
+      border-radius: 10px;
 
       &:hover {
         box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
@@ -1242,6 +1244,7 @@
 
   @media (max-width: 767.98px) {
     padding: 1rem 0;
+
     //Mobile
     .solution-content {
       h3 {
@@ -1281,37 +1284,77 @@
     }
 
     p {
-      color: $p_color;
+      color: #5C637E;
       font-weight: 400;
       font-size: 1rem;
       line-height: 150%;
-      margin-bottom: 50px;
+      // margin-bottom: 50px;
+      max-width: 350px;
+      margin: auto;
+      padding-bottom: 50px;
     }
   }
 
   .our-blog-main {
     background-color: #fff;
     border-radius: 20px;
+    height: 400px;
+
+    .our-blog-item {
+      .our-blog-img {
+        a {
+          img {
+            border-radius: 12px;
+          }
+        }
+      }
+    }
 
     .bolg-item {
       padding: 20px;
 
       .our-blog-content {
-        h5 {
+
+        .blog-item-meta-category {
+          ul {
+            margin-bottom: 0;
+            padding-left: 0;
+            list-style-type: none;
+
+            li {
+              a {
+                font-weight: 500;
+                font-size: .8rem;
+                line-height: 150%;
+                color: $p_color;
+              }
+            }
+          }
+        }
+
+        .blog-item-meta-date {
           font-weight: 500;
           font-size: .8rem;
           line-height: 150%;
           color: $p_color;
-          ;
         }
+
       }
 
       .our-blog-content-item {
         h4 {
-          color: $h1_color;
-          font-weight: 600;
-          font-size: 1.1rem;
-          line-height: 150%;
+          padding-top: 10px;
+
+          a {
+            color: $h1_color;
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 150%;
+
+            &:hover {
+              color: #3C4FF4;
+            }
+          }
         }
       }
 
@@ -1366,7 +1409,7 @@
     }
   }
 
-  @media (min-width: 420px) and (max-width: 767px) {
+  @media (max-width: 767.98px) {
 
     //Mobile
     .our-blog-head {
@@ -1376,6 +1419,8 @@
 
       p {
         font-size: .785rem;
+        padding-bottom: 0px;
+        max-width: 260px;
       }
     }
 

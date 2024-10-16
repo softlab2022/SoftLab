@@ -22,7 +22,7 @@
                     </p>
 
                     <a href="" class="get1">Check Demo</a>
-                    <a href="/cf7-extended-pricing/" class="get">Get Started</a>
+                    <a href="/essential-addons-for-contact-form-7-pricing/" class="get">Get Started</a>
                 </div>
             </div>
         </div>

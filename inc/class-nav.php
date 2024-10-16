@@ -21,7 +21,7 @@ class SoftLaB_Nav {
 					'dracula-menu'            	=> 'Dracula Menu',
 					'integrate-dropbox-menu'  	=> 'Integrate Dropbox Menu',
 					'wp-froms-menu'  	=> 'WP Froms Menu',
-					'cf7-extended-menu'  	=> 'CF7 Extended Menu',
+					'essential-addons-for-contact-form-7-menu'  	=> 'Essential Addons for Contact Form 7 Menu',
 				)
 			);
 		}

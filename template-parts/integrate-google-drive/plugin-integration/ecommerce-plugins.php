@@ -295,7 +295,7 @@
         </div>
         <!----===== Tutor Lms area =====------>
 
-        <div class="row feat-shadw">
+        <div class="row feat-shadw background-hide">
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head tutor-lms vector-area text-center">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library-icon.png" alt="media-library-icon">

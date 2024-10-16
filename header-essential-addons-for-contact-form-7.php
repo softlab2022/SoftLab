@@ -72,8 +72,8 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="white-site-icon">
                             </a>
 
-                            <a class="navbar-brand brand-cf7-extended" href="/cf7-extended/" title="CF7 Extended" rel="home">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-new.png" alt="CF7 Extended">
+                            <a class="navbar-brand brand-cf7-extended" href="/essential-addons-for-contact-form-7/" title="Essential Addons for Contact Form 7" rel="home">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-new.png" alt="essential addons for contact form 7">
                             </a>
                         </div>
 
@@ -86,8 +86,8 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
                             <?php if (wp_is_mobile()) { ?>
                                 <span class="mobile-close-btn d-flex justify-content-between align-items-center">
-                                    <a class="navbar-brand brand-dracula logo-btn" href="/cf7-extended/" title="CF7 Extended" rel="home">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-new.png" alt="CF7 Extended">
+                                    <a class="navbar-brand brand-dracula logo-btn" href="/essential-addons-for-contact-form-7/" title="Essential Addons for Contact Form 7" rel="home">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-withe.png" alt="Essential Addons for Contact Form 7">
                                     </a>
                                     <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                                 </span>
@@ -96,7 +96,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             <?php
                             wp_nav_menu(
                                 array(
-                                    'theme_location' => 'cf7-extended-menu',
+                                    'theme_location' => 'essential-addons-for-contact-form-7-menu',
                                     'container'      => '',
                                     'menu_class'     => 'navbar-nav ms-auto cf7-extended-nav',
                                     'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
@@ -106,7 +106,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             ?>
 
                             <div class="buy-now-btn buy-now-btn-cf7-extended ms-auto">
-                            <a href="/cf7-extended-pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                            <a href="/essential-addons-for-contact-form-7-pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                             </div>
 
                         </div><!-- /.navbar-collapse -->

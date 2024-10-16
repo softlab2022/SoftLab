@@ -190,8 +190,8 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/products/wp-forms.png';
 						$description = 'The Revolutionary Dark Mode Plugin For WordPress';
 					}
-					elseif ( 'cf7 extended' == strtolower( $title ) ) {
-						$image_url   = get_template_directory_uri() . '/assets/images/cf7-extended-icon.png';
+					elseif ( 'essential addons for contact form 7' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/essential-addons-for-contact-form-7-icon.png';
 						$description = 'Extend Capabilities & Custom Functionalities for Contact Form 7';
 					}
 

@@ -1,68 +1,94 @@
 <?php
-
+// Free Features
 $free_features = [
+    // 'AI Form Generator',
+    // 'Column Layout',
+    // 'Conditional Logic',
+    // 'Database Entries',
+    // 'Form Styler',
+    'Mailchimp Integration',
+    // 'Multi Step Form',
+    'Telegram',
+    'Zapier',
 
-    'Embed Documents Module',
-    'Download Links Module',
-    'View Links Module',
-    'Shortcode Builder',
-    'Inline Preview',
-    'Classic Editor Integrations',
-    'Gutenberg Integrations',
-    'Elementor Integrations',
-
-    'Link Own Google App',
-    'Full-Text Search',
-    'Zip Download',
-    'On Demand Assets Loading',
-    'Responsive Design',
-    'Multi-Language Support',
-    'Share Files',
-    'Custom CSS',
-    'Export/ Import Data',
-    'File Browser Preloader - 2 FREE',
-    'Rename, Move, Copy Files & Folders',
-    'Exclude Files by Names & Extensions',
-    'Multiple File Download',
-    'Allow others to use plugin by user roles',
-    'Direct File View Link for All Users & Admins',
+    'Pabbly',
+    'Webhook',
+    'Pre-populate Field',
+    // 'PDF Generate',
+    'Redirection',
+    // 'Submission ID',
 ];
 
+// pro Features
 $pro_features = [
     'All Free Features',
-    'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Gallery Module',
-    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-
-    'Slider Carousel Module',
-    'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'File Search Module',
-    'Add Multiple Google Drive Accounts',
-
-    'Media Library Integration <span class="new">New⚡</span>',
-
-    'Contact Form 7 Integrations',
-    'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Easy Digital Downloads Integration',
-    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Gravity Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Fluent Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Formidable Forms Integration',
-    'Elementor Form Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'MetForm Integration',
-
-    'WP Forms Integration',
-    'Ninja Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'User Private Files <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
-    'Automatic Private Folders',
-    'Statistics & Email Report',
-    'Email Notifications',
-    '18+ File Browser Preloaders',
-    'Appearance Color Customizations',
-    'Gallery Lightbox Preview',
-    'Module Size Customization',
-    'Auto Synchronize Cloud Files',
+    'AI Form Generator',
+    'Column Layout',
+    'Booking/Appointment Form',
+    'Conditional Logic',
+    'Database Entries',
+    'Form Styler',
+    'Multi Step Form',
+    'PDF Generate',
+    'Redirection(Tag Support)',
+    'Submission ID',
+    'Post Submission Actions',
+    'Popup Form',
+    // 'Media Library Integration <span class="new">New⚡</span>',
+    // 'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
 ];
+
+// Free Fields
+$free_fields = [
+
+    'Country List',
+    // 'Digital Signature',
+    'Dynamic Text',
+    // 'Range Slider',
+    // 'Star Rating',
+    // 'WooCommerce Product Dropdown',
+    'Custom HTML',
+    // 'Date Time',
+    'Honeypot',
+    'Phone',
+    'Section Break',
+    'Submission ID',
+];
+// Pro Fields
+$pro_fields = [
+
+    'Digital Signature',
+    'Range Slider',
+    'Star Rating',
+    'WooCommerce Product Dropdown',
+    'Repeater Field',
+    'Address',
+    'Date Time',
+    'Hidden Field',
+    'Leads Info',
+    'Mask Input',
+    'Math Captcha',
+    'Rich Text Editor',
+    'Shortcode',
+    'Color Picker',
+];
+
+// Free Integrations
+$free_integrations = [
+
+    'Mailchimp Integrations',
+    'Telegram Integrations',
+    'Webhooks Integrations',
+    'Pabbly Integrations',
+];
+
+// Pro Integrations
+$pro_integrations = [
+
+    'Google Drive Integrations',
+    'WhatsApp Integrations',
+];
+
 
 ?>
 
@@ -120,6 +146,9 @@ $pro_features = [
                             <li>
                                 <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="#" data-license="unlimited">Unlimited Sites License</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -140,7 +169,26 @@ $pro_features = [
                     </div>
 
                     <div class="price-features align-items-center">
+                    <h3 class="free-title" >Free Features</h3>
                         <?php foreach ($free_features as $feature) { ?>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span><?php echo $feature; ?></span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <div class="price-features align-items-center">
+                        <h3 class="free-title" >Free Fields</h3>
+                        <?php foreach ($free_fields as $feature) { ?>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span><?php echo $feature; ?></span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <div class="price-features align-items-center">
+                        <h3 class="free-title" >Free Integrations</h3>
+                        <?php foreach ($free_integrations as $feature) { ?>
                             <div class="feature-item">
                                 <i class="fa-solid fa-check"></i>
                                 <span><?php echo $feature; ?></span>
@@ -165,45 +213,60 @@ $pro_features = [
 
                             <div class="offer-price annual single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$50 </p>
+                                    <p class="price-off">$37 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price annual five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$167 </p>
+                                    <p class="price-off">$128 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price annual hundred">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$323 </p>
+                                    <p class="price-off">$258 </p>
+                                    <span class="price-dis">30%OFF</span>
+                                </div>
+
+                            </div>
+                            <div class="offer-price annual unlimited">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$388 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
 
-                            <span class="price-value annual single">39</span>
-                            <span class="price-value annual five">129</span>
-                            <span class="price-value annual hundred">249</span>
+                            <span class="price-value annual single">29</span>
+                            <span class="price-value annual five">99</span>
+                            <span class="price-value annual hundred">199</span>
+                            <span class="price-value annual unlimited ">299</span>
 
                             <div class="offer-price lifetime single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$167 </p>
+                                    <p class="price-off">$128 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price lifetime five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
-                                    <p class="price-off">$323 </p>
+                                    <p class="price-off">$258 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
                             </div>
                             <div class="offer-price lifetime hundred">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$518 </p>
+                                    <span class="price-dis">30%OFF</span>
+                                </div>
+
+                            </div>
+                            <div class="offer-price lifetime unlimited ">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$648 </p>
                                     <span class="price-dis">30%OFF</span>
@@ -211,9 +274,10 @@ $pro_features = [
 
                             </div>
 
-                            <span class="price-value lifetime single">129</span>
-                            <span class="price-value lifetime five">249</span>
-                            <span class="price-value lifetime hundred">499</span>
+                            <span class="price-value lifetime single">99</span>
+                            <span class="price-value lifetime five">199</span>
+                            <span class="price-value lifetime hundred">399</span>
+                            <span class="price-value lifetime unlimited">499</span>
 
                             <span class="price-suffix annual">/ Per year</span>
                             <span class="price-suffix lifetime">/ Billed once</span>
@@ -223,7 +287,26 @@ $pro_features = [
                     </div>
 
                     <div class="price-features align-items-center">
+                    <h3 class="pro-title" >Pro Features</h3>
                         <?php foreach ($pro_features as $feature) { ?>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span><?php echo $feature; ?></span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <div class="price-features align-items-center">
+                        <h3 class="pro-title" >Pro Fields</h3>
+                        <?php foreach ($pro_fields as $feature) { ?>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-check"></i>
+                                <span><?php echo $feature; ?></span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <div class="price-features align-items-center">
+                        <h3 class="pro-title" >Pro Integrations</h3>
+                        <?php foreach ($pro_integrations as $feature) { ?>
                             <div class="feature-item">
                                 <i class="fa-solid fa-check"></i>
                                 <span><?php echo $feature; ?></span>
@@ -244,17 +327,17 @@ $pro_features = [
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '9618',
-                plan_id: '16186',
-                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
+                plugin_id: '16650',
+                plan_id: '27778',
+                public_key: 'pk_a223a352b97599f958e06405bad79',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/cf7-logo.png",
             });
 
             $('.buy-btn-pro').on('click', function(e) {
                 e.preventDefault();
 
                 handler.open({
-                    name: 'Integrate Google Drive',
+                    name: 'Essential Addons for Contact Form 7',
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
                     // You can consume the response for after purchase logic.

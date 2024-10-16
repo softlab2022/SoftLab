@@ -48,7 +48,7 @@ $features = [
 	[
 		'title'       => 'Allow Specific Folders',
 		'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
-		'video'		  => '',
+		'video'		  => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/YI5pC6m80DQ?si=w1ya-QTNKHXI6poA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[

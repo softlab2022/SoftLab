@@ -8,7 +8,7 @@
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image-mobile text-center mb-5">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/integrations-illustration.png" alt="" class="img-fluid w-75 w-md-100 ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/features/feat-hero-bg.png" alt="" class="img-fluid w-75 w-md-100 ">
                         </div>
                     <?php } ?>
 

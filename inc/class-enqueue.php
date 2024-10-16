@@ -91,10 +91,10 @@ class SoftLa {
 
 		
 		} else if ( in_array( $file_name, [
-			'cf7-extended',
-			'cf7-pricing',
-			'cf7-integrations',
-			'cf7-features',
+			'essential-addons-for-contact-form-7',
+			'essential-addons-for-contact-form-7-pricing',
+			'essential-addons-for-contact-form-7-integrations',
+			'essential-addons-for-contact-form-7-features',
 		] ) ) {
 			wp_enqueue_style( 'cf7-extended-main', get_theme_file_uri( 'assets/css/cf7-extended-main.css' ), array(), $theme_version, 'all' );
 		} else {
@@ -160,7 +160,7 @@ class SoftLa {
 			'offers',
 			'offers-black-friday',
 			'integrate-google-drive-media-library',
-			'cf7-pricing',
+			'essential-addons-for-contact-form-7-pricing',
 		] );
 
 		if ( $is_pricing_page ) {

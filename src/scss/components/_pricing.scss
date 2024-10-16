@@ -73,6 +73,7 @@
       h2 {
         font-size: 1.4rem;
       }
+
       p {
         padding-bottom: 60px;
       }
@@ -265,6 +266,12 @@
             }
           }
 
+          &.license-unlimited {
+            .price-value.unlimited.annual {
+              display: inline-block;
+            }
+          }
+
           .price-suffix.annual {
             display: inline-block;
           }
@@ -286,6 +293,12 @@
 
           &.license-100 {
             .price-value.hundred.lifetime {
+              display: inline-block;
+            }
+          }
+
+          &.license-unlimited {
+            .price-value.unlimited.lifetime {
               display: inline-block;
             }
           }
@@ -339,6 +352,12 @@
             }
           }
 
+          &.license-unlimited {
+            .offer-price.unlimited.annual {
+              display: block;
+            }
+          }
+
           .price-suffix.annual {
             display: inline-block;
           }
@@ -360,6 +379,12 @@
 
           &.license-100 {
             .offer-price.hundred.lifetime {
+              display: block;
+            }
+          }
+
+          &.license-unlimited {
+            .offer-price.unlimited.lifetime {
               display: block;
             }
           }
@@ -507,14 +532,16 @@
 
   @media(max-width: 767.98px) {
     margin-bottom: 30px;
+
     .pricing-switcher {
       margin-bottom: 1rem;
     }
+
     .price-table {
       box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
-        padding: 20px 20px 20px 20px;
-        height: auto;
-    
+      padding: 20px 20px 20px 20px;
+      height: auto;
+
       .price-features {
         padding: 1rem 1rem 3rem 1rem;
 
@@ -524,6 +551,7 @@
           }
         }
       }
+
       .buy-btn {
         margin: 0 auto 0 auto;
       }
@@ -533,6 +561,7 @@
       box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
       margin-top: 30px;
     }
+
     .site {
       margin: 10px 0 20px 0;
     }
@@ -592,6 +621,7 @@
 
   @media(max-width: 767px) {
     padding: 30px 0 20px 0;
+
     .industry-head {
       h2 {
         font-size: 1.5rem;
@@ -882,8 +912,10 @@
 
   @media(max-width: 767px) {
     padding: 0 0 20px 0;
+
     .section-header {
       margin-bottom: 1rem;
+
       h2 {
         font-size: 1.5rem;
       }
@@ -2321,6 +2353,7 @@
           font-size: 1.8rem;
 
         }
+
         p {
           margin-bottom: 20px;
         }
@@ -3368,10 +3401,12 @@
 
     @media(max-width: 767.98px) {
       padding: 0;
+
       .industry-dracula {
         border-radius: 20px;
         padding: 20px;
       }
+
       .industry-head {
         h2 {
           font-size: 2rem;
@@ -3556,11 +3591,12 @@
         h2 {
           color: #fff;
         }
-  
+
         p {
-          margin:10px 20px;
+          margin: 10px 20px;
         }
       }
+
       .accordion-button {
         padding: 1rem;
         font-size: 1rem;
@@ -3748,13 +3784,14 @@
       }
     }
   }
+
 }
 
-.page-template-templatescf7-pricing-php {
+.page-template-essential-addons-for-contact-form-7-pricing {
   #pricing-hero {
     // background: url("../images/wp-froms/home/header-bg-shapes.png") no-repeat bottom / cover;
 
-    background: linear-gradient(rgba(30, 97, 185, 0.2) 100%, #fff 0%), url("../images/cf7-extended/cf7-extended-bg-side.png") no-repeat left top;
+    background: linear-gradient(181deg, rgba(30, 98, 185, 0.16) -37.99%, rgba(255, 255, 255, 0.40) 99.16%), url("../images/cf7-extended/cf7-extended-bg-side.png") no-repeat left top;
     background-size: contain;
     background-repeat: no-repeat;
     border-bottom-left-radius: 50%;
@@ -3778,7 +3815,11 @@
 
       @media(max-width: 767px) {
         h2 {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
+        }
+
+        p {
+          padding-bottom: 60px;
         }
       }
     }
@@ -3842,6 +3883,18 @@
         }
       }
 
+      .free-title {
+        border-radius: 8px;
+        background: #1E62B9;
+        color: #fff;
+        // font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 8px 10px;
+        line-height: 120%;
+        max-width: max-content;
+      }
+
       .buy-btn {
         color: #1E62B9;
         border: 1px solid #1E62B9;
@@ -3853,31 +3906,133 @@
         }
 
         &-pro {
-          color: #fff;
-          background: #1E62B9;
+          color: #1E62B9;
+          background: #fff;
+          border: 1px solid #fff;
+          position: relative;
+          z-index: 1;
+          margin-top: 30px;
 
           &:hover {
-            color: #1E62B9;
-            background: #fff;
+            color: #fff;
+            background: #1E62B9;
           }
         }
       }
     }
 
     .table-pro {
-      .pricing-head-title {
-        color: #1E62B9;
+      background: #1E62B9;
+      border-top: 5px solid rgba(255, 255, 255, 0.589);
+      position: relative;
+      width: 100%;
+      height: max-content;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        /* Set width */
+        height: 100%;
+        /* Set height */
+        background: url("../images/pricing-ellipse-top.png") no-repeat;
+        background-size: contain;
+        /* Ensure it fits */
       }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 150px;
+        /* Set width */
+        height: 150px;
+        /* Set height */
+        background: url("../images/pricing-ellipse-bottom.png") no-repeat;
+        background-size: contain;
+        /* Ensure it fits */
+      }
+
+      .pricing-head {
+        position: relative;
+        z-index: 1;
+
+        .pricing-head-title {
+          color: #fff;
+        }
+
+        .pricing-head-description {
+          color: #fff;
+        }
+      }
+
+      .price-text {
+        .offer-price {
+          .price-offer {
+            .price-off {
+              color: #fff;
+            }
+          }
+        }
+
+        .price-value {
+          color: #fff;
+        }
+
+        .price-suffix {
+          color: #fff;
+        }
+      }
+
+      .support-text {
+        color: #fff;
+      }
+
+      .price-features {
+        position: relative;
+        z-index: 1;
+
+        .pro-title {
+          border-radius: 8px;
+          background: #fff;
+          color: #1E62B9;
+          // font-family: Inter;
+          font-size: 16px;
+          font-weight: 700;
+          padding: 8px 10px;
+          line-height: 120%;
+          max-width: max-content;
+        }
+
+        .feature-item {
+          i {
+            background: #fff;
+            color: #1E62B9;
+          }
+
+          span {
+            color: #fff;
+          }
+        }
+      }
+
 
     }
 
     .price-features {
+      padding: 1rem 3rem 1rem 3rem;
+
       .feature-item {
         i {
           background: #1E62B9;
         }
       }
+
     }
+
   }
 
   #industry {

@@ -475,8 +475,6 @@ import "./components/sticky-banner";
 
         // },
 
-
-
     };
     $(document).on('click', '[data-lightbox]', lity);
     //mobile menu close js
@@ -499,4 +497,5 @@ import "./components/sticky-banner";
 
     $(document).ready(app.init);
 })(jQuery);
+
 

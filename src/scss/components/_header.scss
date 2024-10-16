@@ -12,6 +12,10 @@
   transition: transform .25s ease-in-out;
 
   .primary-nav {
+    .navbar-navs {
+      display: flex;
+    align-items: center;
+    }
     .navbar-nav {
       .nav-link {
         padding-right: 0;
@@ -253,8 +257,8 @@
             height: 30px;
           }
 
-          margin-right: 4px;
-          padding-right: 1px;
+          margin-right: 3px;
+          padding-right: 4px;
         }
 
         &.brand-integrate-google-drive {
@@ -952,6 +956,26 @@
   .fixed-header {
     background: transparent;
   }
+  .navbar-dracula {
+    .navbar-navs {
+      display: flex;
+      align-items: center;
+      .brand-softlab {
+        img {
+          height: 35px;
+        }
+        border-right: 1px solid rgba(255, 255, 255, 0.507) !important;
+        padding-right: 6px !important;
+        margin-right: 7px !important;
+      }
+      .brand-dracula {
+        img {
+          height: 38px;
+        }
+      }
+    }
+    
+  }
 }
 
 .page-template-templatesintegrate-google-drive-php,
@@ -1018,10 +1042,10 @@
   }
 }
 
-.page-template-templatescf7-extended-php,
-.page-template-templatescf7-pricing-php,
-.page-template-templatescf7-integrations-php,
-.page-template-templatescf7-features-php {
+.page-template-templatesessential-addons-for-contact-form-7-php,
+.page-template-templatesessential-addons-for-contact-form-7-pricing-php,
+.page-template-templatesessential-addons-for-contact-form-7-integrations-php,
+.page-template-essential-addons-for-contact-form-7-features {
   .navbar-navs {
     display: flex;
     align-items: center;

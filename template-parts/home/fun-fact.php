@@ -54,7 +54,7 @@
 
                     <div class="amazing-item-content d-flex flex-column align-items-center align-items-md-start">
                         <div class="te-count d-flex align-items-center">
-                            <span class="counter" >20</span> <h5>k+</h5>
+                            <span class="counter" >30</span> <h5>k+</h5>
                         </div>
                         <span class="fact-item-desc">Happy Customers</span>
                     </div>
