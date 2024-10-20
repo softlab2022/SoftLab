@@ -409,17 +409,21 @@
 /**---------- halloween css Area start----------**/
 
 #halloween-offers {
-    background: url("../images/offer-hero-bg.png"), no-repeat center top / cover;
+    background: url("../images/offer-hero-bg-new.png");
     padding: 180px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0 0;
 
     .halloween-sec {
         img {
             width: 50%;
             height: auto;
         }
+
     }
+
+ 
 
     .promo-code-sec {
         margin-top: 25px;
@@ -441,7 +445,8 @@
             position: relative;
 
             .promo-text {
-                color: #EDBB08;
+                color: #fff;
+                // color: #EDBB08;
                 font-size: 20px;
                 font-weight: 700;
                 border: 1px dashed #fff;
@@ -610,7 +615,17 @@
 #halloween-offers-main {
     position: relative;
     padding: 100px 0;
-
+    .offers-headers {
+        padding-bottom: 80px;
+        h3 {
+            color:  #151826;
+            text-align: center;
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 120%;
+        }
+    }
     .offer-item {
         background: #fff;
         padding: 20px;

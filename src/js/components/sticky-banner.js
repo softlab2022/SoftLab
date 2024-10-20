@@ -31,11 +31,11 @@
             const updateTimer = () => {
                 const now = new Date().getTime();
                 //let countDownDate = new Date().getTime() + 8.5 * DAY;
-                let countDownDate = new Date('2024-12-05T23:59:00').getTime();
+                let countDownDate = new Date('2024-11-05T23:59:00').getTime();
 
 
                 // Check if there is a time in local storage
-                if (localStorage.getItem('bf_offers_time')) {
+                if ( localStorage.getItem('bf_offers_time')) {
                     countDownDate = localStorage.getItem('bf_offers_time');
                 }
 

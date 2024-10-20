@@ -52,7 +52,7 @@ $features = [
 
         <div class="row">
             <div class="col-lg-6 m-auto">
-                <div class="feature-head text-center">
+                <div class="feature-head autoShow text-center">
                     <h2 class="feature-title">What's So Special about SofLab?</h2>
                     <p class="feature-description">We help growing and solving small businesses around the world with our unique products and solutions</p>
                 </div>
@@ -62,7 +62,7 @@ $features = [
         <div class="row">
 			<?php foreach ( $features as $key => $feature ) { ?>
                 <div class="col-lg-4 col-md-6 m-auto">
-                    <div class="feature-item text-center feature-<?php echo $key; ?>">
+                    <div class="feature-item autoShow text-center feature-<?php echo $key; ?>">
                         <div class="feat-icon">
                             <img class="img-fluid" src="<?php echo $feature['image']; ?>"
                                  alt="<?php echo $feature['title']; ?>">

@@ -40,7 +40,7 @@ $products = [
 
         <div class="row">
             <div class="col-lg-5 m-auto">
-                <div class="products-head text-center">
+                <div class="products-head autoShow text-center">
                     <h1>Our Solutions</h1>
                     <p>Empower your business with our next level solutions.</p>
 
@@ -60,7 +60,7 @@ $products = [
 
 			<?php foreach ( $products as $key => $product ) { ?>
                 <div class="col-lg-4 col-md-6">
-                    <a href="/<?php echo $key; ?>" class="products-item text-center product-<?php echo $key; ?>">
+                    <a href="/<?php echo $key; ?>" class="products-item autoShow text-center product-<?php echo $key; ?>">
 
                         <img class="products-icon img-fluid" src="<?php echo $product['image']; ?>" alt="WP Radio">
 

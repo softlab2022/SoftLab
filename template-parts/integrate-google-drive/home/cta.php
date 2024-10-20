@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="cta-content text-center text-lg-start">
-                    <h3>Ready to Integrate the Google Drive in Your website?</h3>
+                    <h3>Ready to Integrate Google Drive into Your Website?</h3>
                     <p>Best Google Drive cloud solution plugin for WordPress to integrate your Google Drive files
                         directly into your WordPress Website.</p>
                 </div>

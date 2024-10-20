@@ -3,14 +3,14 @@
         <div class="banner-wrap">
             <!-- Banner Vector -->
             <div class="banner-vector vector-left">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-left.png" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-left-new.png" />
             </div>
 
             <div class="banner-vector vector-right">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-right.png" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-right-new.png" />
             </div>
             <a class="banner-product summer" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween.png" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween-new.png" />
             </a>
              <!-- Banner Countdown -->
              <div class="banner-countdown">
@@ -31,10 +31,10 @@
 
             <!-- Banner Product -->
             <a class="banner-products" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-text.png" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween-new-text.png" />
             </a>
             <a class="banner-product offer" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-sticky.png" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-sticky-new.png" />
             </a>
 
 

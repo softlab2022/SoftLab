@@ -128,13 +128,13 @@ $features = [
 		'pro'         => true,
 
 	],
-	[
-		'title'       => 'Submission ID',
-		'description' => ' Each form submission is given a unique ID for easy tracking. This ID can be included in the subject line of emails for quick reference',
-		'video'		  => '',
-		'pro'         => true,
+	// [
+	// 	'title'       => 'Submission ID',
+	// 	'description' => ' Each form submission is given a unique ID for easy tracking. This ID can be included in the subject line of emails for quick reference',
+	// 	'video'		  => '',
+	// 	'pro'         => true,
 
-	],
+	// ],
 	[
 		'title'       => 'WooCommerce Checkout',
 		'description' => ' Integrates custom forms with WooCommerce, allowing users to select products, submit forms, and automatically add products to the cart. This simplifies the WooCommerce checkout process',
@@ -262,12 +262,12 @@ $features = [
 		'video'       => '',
 		'pro'         => false,
 	],
-	[
-		'title'       => 'Repeater Fields',
-		'description' => 'Enables users to duplicate any given form field as needed (allocated by admin)',
-		'video'       => '',
-		'pro'         => false,
-	],
+	// [
+	// 	'title'       => 'Repeater Fields',
+	// 	'description' => 'Enables users to duplicate any given form field as needed (allocated by admin)',
+	// 	'video'       => '',
+	// 	'pro'         => false,
+	// ],
 	[
 		'title'       => 'Shortcode',
 		'description' => 'Generates a shortcode to embed the form on different pages',

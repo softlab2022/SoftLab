@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-md-7 m-auto">
-                <div class="business-img text-center text-md-start">
+                <div class="business-img autoShow text-center text-md-start">
                     <img class="img-fluid"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/home/business/business-illustration.png"
                         alt="business-illustration">
@@ -11,7 +11,7 @@
             </div>
 
             <div class="col-md-5">
-                <div class="business-head">
+                <div class="business-head autoShow">
 
                     <div class="vector-business">
                         <img class="img-fluid"
