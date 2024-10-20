@@ -413,7 +413,7 @@
     padding: 180px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
+    background-position: bottom;
 
     .halloween-sec {
         img {
@@ -423,7 +423,7 @@
 
     }
 
- 
+
 
     .promo-code-sec {
         margin-top: 25px;
@@ -615,10 +615,13 @@
 #halloween-offers-main {
     position: relative;
     padding: 100px 0;
+    background: #200731;
+
     .offers-headers {
         padding-bottom: 80px;
+
         h3 {
-            color:  #151826;
+            color: #fff;
             text-align: center;
             font-family: Inter;
             font-size: 48px;
@@ -626,11 +629,12 @@
             line-height: 120%;
         }
     }
+
     .offer-item {
-        background: #fff;
         padding: 20px;
         border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.20);
+        background: #3B2848;
         display: flex;
         flex-direction: column;
         position: relative;
@@ -686,7 +690,7 @@
 
         .offer-content {
             h5 {
-                color: #000;
+                color: #fff;
                 font-size: 24px;
                 font-weight: 600;
                 line-height: 120%;
@@ -695,7 +699,7 @@
             }
 
             p {
-                color: rgba(0, 0, 0, 0.60);
+                color: #B7B7B7;
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 150%;
@@ -734,7 +738,7 @@
             // }
 
             .sub-text {
-                color: #4D4D4D;
+                color: #fff;
                 font-size: 1.5rem;
                 font-weight: 600;
                 line-height: 150%;
@@ -861,14 +865,14 @@
         padding: 100px 0 0 0;
 
         .titles {
-            color: #000;
+            color: #fff;
             font-size: 24px;
             font-weight: 600;
         }
 
         .descripition {
             display: inline-block;
-            color: #444;
+            color: rgba(255, 255, 255, 0.70);
             font-size: 16px;
             font-weight: 400;
             margin-left: 18px;
@@ -880,13 +884,13 @@
         padding: 50px 0 0 0;
 
         .titles {
-            color: #272727;
+            color: #fff;
             font-size: 24px;
             font-weight: 600;
         }
 
         .descripition {
-            color: #444;
+            color: rgba(255, 255, 255, 0.70);
             font-size: 16px;
             font-weight: 400;
             margin-left: 18px;
@@ -895,7 +899,7 @@
 
         span {
             display: inline-block;
-            color: #444;
+            color: rgba(255, 255, 255, 0.70);
             font-size: 16px;
             font-weight: 400;
             margin-top: 17px;
@@ -984,14 +988,17 @@
 
     @media (max-width: 767.98px) {
         padding: 30px 0 50px 0;
+
         .offers-headers {
             h3 {
                 font-size: 28px;
             }
         }
+
         .offers-content {
             padding: 30px 0 0px 0;
         }
+
         .offer-item {
             margin-bottom: 67px;
 
@@ -1002,7 +1009,7 @@
             }
 
             .offer-content {
-                
+
                 h5 {
                     font-size: 20px;
                     padding-right: 40px;

@@ -96,7 +96,7 @@ $testimonials = [
 
 								<div class="testimonial-content">
 									<h4 class="testimonial-title"><?php echo $testimonial['title']; ?></h4>
-									<p class="testimonial-desc"><?php echo $testimonial['description']; ?></p>
+									<p class="testimonial-desc"><?php echo wp_trim_words($testimonial['description'], 34, "..."); ?></p>
 								</div>
 
 								<div class="testimonial-user d-flex justify-content-center align-items-center">

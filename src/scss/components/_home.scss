@@ -83,6 +83,7 @@
         font-size: .785rem;
       }
     }
+
     .hero-img-rocket img {
       top: 66px;
     }
@@ -104,6 +105,7 @@
         margin-bottom: 30px;
       }
     }
+
     .hero-img-rocket img {
       top: 46px;
     }
@@ -139,6 +141,7 @@
     .mb-5 {
       margin-bottom: 1.5rem !important;
     }
+
     .hero-img-rocket img {
       top: 283px;
       left: 32%;
@@ -1012,7 +1015,7 @@
 /**------- Fun-fact-------**/
 #amazing {
   background-color: rgba(249, 250, 255, 0.44);
-  padding: 100px 0;
+  padding: 70px 0;
 
   .amazing-head {
 
@@ -1272,8 +1275,7 @@
 
 /**-------our-blog Area -----**/
 #our-blog {
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding: 70px 0;
 
   .our-blog-head {
     h2 {
@@ -1410,6 +1412,7 @@
   }
 
   @media (max-width: 767.98px) {
+    padding: 30px 0;
 
     //Mobile
     .our-blog-head {
@@ -1447,7 +1450,7 @@
 @keyframes autoShowanimation {
   from {
     opacity: 0;
-    transform: translateY(200px) scale(0.3);
+    transform: translateY(100px) scale(0.7);
   }to {
     opacity: 1;
     transform: translateY(0px) scale(1);

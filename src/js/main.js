@@ -69,7 +69,7 @@ import "./components/sticky-banner";
                 contentPadding: "30px",
                 nextArrow: ".right",
                 prevArrow: ".left",
-                adaptiveHeight: true,
+                // adaptiveHeight: true,
             });
 
             //google drive
