@@ -614,7 +614,7 @@
 
 #halloween-offers-main {
     position: relative;
-    padding: 100px 0;
+    padding: 0px 0 100px 0;
     background: #200731;
 
     .offers-headers {
@@ -877,6 +877,9 @@
             font-weight: 400;
             margin-left: 18px;
             margin-top: 17px;
+        }
+        b {
+            color: #fff;
         }
     }
 
