@@ -132,8 +132,7 @@ $tabs = [
                     </div>
                     <div class="info-content">
                         <h5>Our Location</h5>
-                        <address>Flat-A, 4th floor, Holding-1336, Kosai Potti Goli, Shalgaria, Pabna 6600,
-                            Bangladesh
+                        <address>Maktob More, Radhanagar, Pabna 6600, Bangladesh
                         </address>
                     </div>
                 </div>

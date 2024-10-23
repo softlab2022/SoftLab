@@ -3,7 +3,7 @@
 
         <div class="row">
             <div class="col-lg-8 m-auto">
-                <div class="section-head text-center">
+                <div class="section-head autoShow text-center">
                     <h1>Meet with Our Creative Team</h1>
                     <p>We are a team of WordPress developers who love to build awesome products.</p>
                 </div>
@@ -12,7 +12,7 @@
 
         <div class="row align-items-center">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team">
+                <div class="our-team autoShow">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png" alt="" class="img-fluid ">
                     </div>
@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team">
+                <div class="our-team autoShow">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash.png" alt="" class="img-fluid ">
                     </div>
@@ -38,7 +38,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team">
+                <div class="our-team autoShow">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid ">
 
@@ -52,7 +52,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team">
+                <div class="our-team autoShow">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid ">
 
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team">
+                <div class="our-team autoShow">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/monzur-alam.png" alt="" class="img-fluid ">
 

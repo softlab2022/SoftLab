@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 m-auto">
-                <div class="journey-head">
+                <div class="journey-head autoShow">
                     <h2>Our <span>journey</span> so far</h2>
                     <p>As we start a new chapter this 2021, we are glad to share with you the result of our journey to
                         provide you with the most qualitative wordpress solution to boost anykind website.</p>
@@ -12,7 +12,7 @@
             <div class="col-lg-7 col-md-8 slider-icon">
                 <i class="fa-solid fa-chevron-up up"></i>
                 <i class="fa-solid fa-chevron-down down"></i>
-                <div class="slider-main">
+                <div class="slider-main autoShow">
                     
                     <!-- <div class="slider-item">
                         <div class="row">
