@@ -163,6 +163,8 @@
       font-weight: 700;
       color: $h1_color;
       line-height: 120%;
+
+   
     }
 
     p {
@@ -200,6 +202,15 @@
       color: $h1_color;
       text-decoration: none;
       text-transform: capitalize;
+      .e-addons-title {
+        color: #4D4D4D;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 140.1%;
+        display: block;
+      }
     }
 
     .product-description {
@@ -273,6 +284,19 @@
       &:hover {
         .products-butt {
           color: #675ED5;
+        }
+      }
+
+    }
+    &.product-essential-addons-for-contact-form-7 {
+
+      .product-title {
+        color: #1E62B9;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #1E62B9;
         }
       }
 
@@ -1451,7 +1475,9 @@
   from {
     opacity: 0;
     transform: translateY(100px) scale(0.7);
-  }to {
+  }
+
+  to {
     opacity: 1;
     transform: translateY(0px) scale(1);
   }

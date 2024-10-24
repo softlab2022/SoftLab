@@ -63,6 +63,13 @@
         span {
           color: #08CD87;
         }
+
+        .cf7 {
+          color: #4D4D4D;
+          font-size: 25px;
+          font-style: italic;
+          font-weight: 400;
+        }
       }
     }
 
@@ -74,6 +81,15 @@
 
       span {
         color: #08CD87;
+      }
+      .title-cf7 {
+        color: #1E62B9;
+      }
+      .title-drak {
+        background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
       }
     }
 
@@ -180,6 +196,7 @@
 
   @media (min-width: 768px) and (max-width: 991.98px) {
     padding: 3rem 0 0 0;
+
     .product-content {
       .product-name {
         h3 {
@@ -195,6 +212,7 @@
         font-size: .8rem;
       }
     }
+
     &:last-child {
       padding-bottom: 3rem;
     }
@@ -261,9 +279,10 @@
     .product-content {
       .product-images {
         overflow: hidden;
+
         img {
           margin-right: -30px;
-         
+
         }
       }
     }

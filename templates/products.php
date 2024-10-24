@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Products Page
  *
@@ -8,7 +9,7 @@ get_header();
 
 
 $products = [
-	
+
 	'integrate-google-drive' => [
 		'name'        => '<span>Integrate</span> Google Drive',
 		'title'       => 'Complete <span>Google Drive</span> Cloud Solution For WordPress',
@@ -115,7 +116,7 @@ $products = [
 
 	'dracula-dark-mode' => [
 		'name'        => 'Dracula Dark Mode',
-		'title'       => 'The Revolutionary Dark Mode Plugin For WordPress',
+		'title'       => 'The Revolutionary <span class="title-drak">Dark Mode</span> Plugin For WordPress',
 		'description' => 'Dracula Dark Mode is a highly customizable and easy-to-use dark mode plugin for WordPress. It offers an elegant dark mode version of your website',
 		'image'       => get_template_directory_uri() . '/assets/images/products//dracula/frontend-dark-mode.png',
 		'logo'        => get_template_directory_uri() . '/assets/images/products//dracula/dracula-icon.png',
@@ -262,76 +263,130 @@ $products = [
 	// 		],
 	// 	]
 	// ],
+
+
+
+	'essential-addons-for-contact-form-7' => [
+		'name'        => 'Essential Addons </br> <span class="cf7" >for Contact Form 7</span>',
+		'title'       => 'All-in-one Enhancement Suite for <span class="title-cf7" > Contact Form 7</span>',
+		'description' => 'Essential Addons for Contact Form 7 is an advanced plugin that dramatically enhances the capabilities of Contact Form 7.</br></br>
+
+		Featuring over 20 versatile fields and more than 15 useful features, Essential Addons for Contact Form 7 is designed to expand limitations of Contact Form 7.',
+		'image'       => get_template_directory_uri() . '/assets/images/products//cf7-extended/essential-addons-for-contact-form-7-illus.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/products//cf7-extended/essential-addons-for-contact-form-7.png',
+		'features'    => [
+			[
+				'title' => 'Conditional Fields',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/conditional-fields.png',
+			],
+
+			[
+				'title' => 'Drag & Drop File Upload',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/drag-drop-file-upload.png',
+			],
+
+			[
+				'title' => 'Multistep Form',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/multistep-form.png',
+			],
+
+
+			[
+				'title' => 'Form Styler',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/form-styler.png',
+			],
+
+			[
+				'title' => 'Multi-Column Layout',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/multi-column-layout.png',
+			],
+
+			[
+				'title' => 'Database Entries',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/database-entries.png',
+			],
+
+			[
+				'title' => 'PDF Generator',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/pdf-generator.png',
+			],
+
+			[
+				'title' => 'Repeater Field',
+				'image' => get_template_directory_uri() . '/assets/images/products//cf7-extended/repeater-field.png',
+			],
+		]
+	],
 ];
 
 ?>
-    <section class="title-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 m-auto">
-                    <div class="header-content text-center">
-                        <h2>Empower Your Business with Our Next Level Solutions</h2>
-                        <p>Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Champion!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="title-header">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-7 m-auto">
+				<div class="header-content text-center">
+					<h2>Empower Your Business with Our Next Level Solutions</h2>
+					<p>Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Champion!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-<?php foreach ( $products as $key => $product ) { ?>
-    <section class="product-item product-<?php echo $key; ?>">
-        <div class="container">
+<?php foreach ($products as $key => $product) { ?>
+	<section class="product-item product-<?php echo $key; ?>">
+		<div class="container">
 
-            <div class="row">
+			<div class="row">
 
-                <div class="col-md-6 m-auto product-image">
-						
-                    <img class="img-fluid" src="<?php echo $product['image']; ?>"
-                         alt="<?php echo esc_html( $product['name'] ); ?>"/>
-                </div>
+				<div class="col-md-6 m-auto product-image">
 
-                <div class="col-md-6 product-content">
+					<img class="img-fluid" src="<?php echo $product['image']; ?>"
+						alt="<?php echo esc_html($product['name']); ?>" />
+				</div>
 
-                    <div class="product-name d-flex  align-items-center">
-                        <img class="img-fluid" src="<?php echo $product['logo']; ?>" alt="Product Logo">
-                        <h3><?php echo $product['name']; ?></h3>
-                    </div>
+				<div class="col-md-6 product-content">
 
-                    <h4 class="product-subtitle"><?php echo $product['title']; ?></h4>
-					<?php if ( wp_is_mobile() ) { ?>
-					<div class="product-images">
-                    	<img class="img-fluid" src="<?php echo $product['image']; ?>"
-                         alt="<?php echo esc_html( $product['name'] ); ?>"/>
-                	</div>
+					<div class="product-name d-flex  align-items-center">
+						<img class="img-fluid" src="<?php echo $product['logo']; ?>" alt="Product Logo">
+						<h3><?php echo $product['name']; ?></h3>
+					</div>
+
+					<h4 class="product-subtitle"><?php echo $product['title']; ?></h4>
+					<?php if (wp_is_mobile()) { ?>
+						<div class="product-images">
+							<img class="img-fluid" src="<?php echo $product['image']; ?>"
+								alt="<?php echo esc_html($product['name']); ?>" />
+						</div>
 					<?php } ?>
 
-                    <p class="product-description"><?php echo $product['description']; ?></p>
+					<p class="product-description"><?php echo $product['description']; ?></p>
 
-                    <div class="row features-wrap">
+					<div class="row features-wrap">
 
-						<?php foreach ( $product['features'] as $feature ) { ?>
-                            <div class="col-lg-3 col-6 m-auto">
-                                <div class="feature-item text-center <?php echo sanitize_key( $feature['title'] ); ?>">
-                                    <img class="img-fluid" src="<?php echo $feature['image']; ?>"
-                                         alt="<?php echo $feature['title']; ?>">
-                                    <span class="feature-title"><?php echo $feature['title']; ?></span>
-                                </div>
-                            </div>
+						<?php foreach ($product['features'] as $feature) { ?>
+							<div class="col-lg-3 col-6 m-auto">
+								<div class="feature-item text-center <?php echo sanitize_key($feature['title']); ?>">
+									<img class="img-fluid" src="<?php echo $feature['image']; ?>"
+										alt="<?php echo $feature['title']; ?>">
+									<span class="feature-title"><?php echo $feature['title']; ?></span>
+								</div>
+							</div>
 						<?php } ?>
 
-                    </div>
+					</div>
 
-                    <a href="/<?php echo $key; ?>" class="btn product-explore-btn btn-primary">
-                        <span>Explore more</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
+					<a href="/<?php echo $key; ?>" class="btn product-explore-btn btn-primary">
+						<span>Explore more</span>
+						<i class="fa-solid fa-arrow-right"></i>
+					</a>
 
-                </div>
+				</div>
 
-            </div>
+			</div>
 
-        </div>
-    </section>
+		</div>
+	</section>
 <?php } ?>
 
 <?php

@@ -30,6 +30,11 @@ $products = [
 		'description' => 'Experience a user-friendly AI-powered dark mode solution for WordPress. Instantly give your website an elegant look.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
 	],
+	'essential-addons-for-contact-form-7'               => [
+		'title'       => 'Essential Addons <span class="e-addons-title">for Contact Form 7</span>',
+		'description' => 'Essential Addons for Contact Form 7 enhances Contact Form 7\'s capabilities.',
+		'image'       => get_template_directory_uri() . '/assets/images/home/products/essential-addons-for-contact-form-7-icon.png',
+	],
 
 ];
 
