@@ -43,7 +43,7 @@ $features = [
 <section id="cf7-features">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 m-auto">
+            <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
                     <h2>Never Miss Top-notch Powerful <span>Features</span></h2>
                     <p>Explore the advanced functionalities that extend Contact Form 7, enhancing your form capabilities and optimizing user interactions</p>

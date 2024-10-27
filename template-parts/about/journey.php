@@ -147,6 +147,31 @@
                         </div>
                     </div>
 
+                    <div class="slider-item">
+                        <div class="row">
+                            <div class="col-lg-12 d-flex justify-content-start align-items-center">
+                                <div class="slider-img">                                   
+                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/line1.png" alt="line1">                                   
+                                </div>
+                                <div class="slider-content d-flex align-items-center">
+                                    <div class="products-img">
+                                        <a href="/essential-addons-for-contact-form-7">
+                                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/about/essential-addons-for-contact-form-7.png" alt="Essential Addons for Contact Form 7">
+                                        </a>
+                                    </div>
+                                    <div class="products-content">
+                                        <div class="text-item d-flex justify-content-between">
+                                            <a href="/essential-addons-for-contact-form-7">Essential Addons for Contact Form 7</a>
+                                            <h5>2024</h5>
+                                        </div>
+                                        <p>Redefine Your Contact Form 7 with Advanced Fields & Features</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>

@@ -100,7 +100,7 @@ $ex_features = [
 <section id="ex-features">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 m-auto">
+            <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
                     <h2>Capture Specialized Data with Next-level <span>Custom Fields</span></h2>
                     <p>Maximize efficiency in your data collection processes with Contact Form 7's enhanced custom field options. Designed to capture detailed and specialized information effortlessly while submitting the form</p>

@@ -54,7 +54,7 @@ $faqs = [
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-8 m-auto">
+            <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
                     <h2>Frequently Asked Questions</h2>
                     <p>Creating a Frequently Asked Questions (FAQ) paragraph is a great way to address common queries in a concise and clear manner</p>

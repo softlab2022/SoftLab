@@ -152,7 +152,11 @@ body.page-template-about {
         border-radius: 11px;
         width: 600px;
         .products-img {
+          width: 70px;
           margin-right: 15px;
+          img {
+            width: 65px;
+          }
         }
         .products-content {
           padding-right: 15px;

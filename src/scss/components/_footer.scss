@@ -53,7 +53,8 @@
       font-size: 1rem;
       color: #5c637e;
       margin-top: 1rem;
-
+      display: flex;
+      align-items: center;
       &.product-integrate-google-drive:hover {
         color: $igd_color;
       }

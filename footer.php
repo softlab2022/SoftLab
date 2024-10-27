@@ -82,6 +82,7 @@
                 // 'wp-radio'               => 'WP Radio',
                 // 'reader-mode'            => 'Reader Mode',
                 'dracula-dark-mode'            => 'Dracula Dark Mode',
+                'essential-addons-for-contact-form-7'            => 'Essential Addons for Contact Form 7',
             ];
             ?>
             <div class="col-lg-3 col-6 col-md-6">

@@ -13,7 +13,7 @@
                         <div class="hero-image text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-hero-image.png" alt="cf7-extended-hero-image">
                             <div class="hero-how-butt ripple">
-                                <a class="my-btn-primary" href="https://www.youtube.com/watch?v=fB602AMIJ6M" data-lity><i class="fa fa-play"></i></a>
+                                <a class="my-btn-primary" href="https://www.youtube.com/watch?v=atF3iq7Lrc8" data-lity><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     <?php } ?>
@@ -21,7 +21,7 @@
                         Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Contact Form 7 Extended
                     </p>
 
-                    <a href="" class="get1">Check Demo</a>
+                    <a href="https://wordpress.org/plugins/essential-addons-for-contact-form-7/" class="get1">Check Demo</a>
                     <a href="/essential-addons-for-contact-form-7-pricing/" class="get">Get Started</a>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                         <!-- <a class="my-btn-primary" id="open-modal" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <i class="fa fa-play"></i>
                         </a> -->
-                        <a class="my-btn-primary" href="https://www.youtube.com/watch?v=fB602AMIJ6M" data-lity><i class="fa fa-play"></i></a>
+                        <a class="my-btn-primary" href="https://www.youtube.com/watch?v=atF3iq7Lrc8" data-lity><i class="fa fa-play"></i></a>
                         <!-- Modal -->
                         <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog">
