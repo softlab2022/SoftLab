@@ -32,10 +32,15 @@ $pro_features = [
     'PDF Generate',
     'Redirection(Tag Support)',
     'Submission ID',
+    'WooCommerce Checkout <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
     'Post Submission Actions',
+    'Action Hook <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
     'Popup Form',
+    'User Registration <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
+    'Entry Restrictions <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
+
+    'Save Form Progress <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
     // 'Media Library Integration <span class="new">New⚡</span>',
-    // 'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
 ];
 
 // Free Fields
@@ -61,10 +66,11 @@ $pro_fields = [
     'Range Slider',
     'Star Rating',
     'WooCommerce Product Dropdown',
-    'Repeater Field',
+    'Repeater Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"> </span>',
     'Address',
     'Date Time',
-    'Hidden Field',
+
+    'Hidden Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
     'Leads Info',
     'Mask Input',
     'Math Captcha',

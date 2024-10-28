@@ -4,7 +4,7 @@
             <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
                     <h2><span>Integrated</span> with the Tools Your Love</h2>
-                    <p>Contact Form 7 seamlessly integrates with a wide range of tools that you already love and use daily, enhancing its functionality and making it a versatile choice for any website</p>
+                    <p>Essential Addons for Contact Form 7 seamlessly integrates with a wide range of tools that you already love and use daily, enhancing its functionality and making it a versatile choice for any website</p>
                 </div>
             </div>
         </div>

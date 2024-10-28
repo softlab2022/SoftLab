@@ -3,30 +3,35 @@
 $features = [
     'google-drive' => [
         'title'       => 'Google Drive',
-        'description' => 'The Google Drive integration for the Contact Form 7 Extended plugin adds an upload field toContact Form 7. This allows users to upload filesdirectly to a connected Google Drive account.',
+        'description' => 'The Google Drive integration for the Essential Addons for Contact Form 7 plugin adds an upload field toContact Form 7. This allows users to upload filesdirectly to a connected Google Drive account.',
+        'video'        => '<iframe src="https://www.youtube.com/embed/UIRswwNcIY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+    ],
+    'whatsapp' => [
+        'title'       => 'WhatsApp',
+        'description' => 'You can auto-pass form submission data to WhatsApp upon form submission. With our innovative feature, every submission from Contact Form 7 is instantly sent to your WhatsApp, transforming the way you connect with customers.',
         'video'        => '<iframe src="https://www.youtube.com/embed/UIRswwNcIY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
     'mailchimp' => [
         'title'       => 'Mailchimp',
-        'description' => 'The Mailchimp integration for the Contact Form 7 Extended plugin enables website admins to store specific data from Contact Form 7 submissions directly in Mailchimp.',
+        'description' => 'The Mailchimp integration for the Essential Addons for Contact Form 7 plugin enables website admins to store specific data from Contact Form 7 submissions directly in Mailchimp.',
         'video'        => '<iframe src="https://www.youtube.com/embed/D687aswuMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
     'telegram' => [
         'title'       => 'Telegram',
-        'description' => 'The Telegram integration for the Contact Form 7 Extended plugin forwards form submission data to a specific Telegram account allocated by the admin.',
+        'description' => 'The Telegram integration for the Essential Addons for Contact Form 7 plugin forwards form submission data to a specific Telegram account allocated by the admin.',
         'video'        => '<iframe src="https://www.youtube.com/embed/zweGYyzWSHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
     'webhooks' => [
         'title'       => 'Webhooks',
-        'description' => 'The Webhooks integration for the Contact Form 7 Extended plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services.',
+        'description' => 'The Webhooks integration for the Essential Addons for Contact Form 7 plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services.',
         'video'        => '<iframe src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
     'zapier' => [
         'title'       => 'Zapier',
-        'description' => 'The Zapier integration for the Contact Form 7 Extended plugin transfers form data to an allocated Zapier account upon form submission.',
+        'description' => 'The Zapier integration for the Essential Addons for Contact Form 7 plugin transfers form data to an allocated Zapier account upon form submission.',
         'video'        => '<iframe src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
     ],
 
@@ -65,6 +70,18 @@ $features = [
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Google Drive
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-2 col-md-2">
+                <a href="#feature-whatsapp">
+                    <div class="popular-form-area text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrations/whatsapp.png" alt="WhatsApp">
+                        <div class="popular-form-area-text text-center">
+                            <span class="popular-form-text">
+                            WhatsApp
                             </span>
                         </div>
                     </div>

@@ -2,48 +2,48 @@
 
 $faqs = [
 	[
-		'question' => 'Do I need coding knowledge to use Contact Form 7 Extended?',
-		'answer'   => 'No, you do not need any coding knowledge to use Contact Form 7 Extended. A basic understanding of WordPress and form creation is sufficient to utilize its features.',
+		'question' => 'Do I need coding knowledge to use Essential Addons for Contact Form 7?',
+		'answer'   => 'No, you do not need any coding knowledge to use Essential Addons for Contact Form 7. A basic understanding of WordPress and form creation is sufficient to utilize its features.',
 	],
 	[
-		'question' => 'Why do I need the Contact Form 7 Extended plugin?',
-		'answer'   => 'The Contact Form 7 Extended plugin provides additional features and functionalities that are not available in the standard Contact Form 7 plugin. It enhances form-building capabilities, including advanced field types, integrations, and conditional logic.',
+		'question' => 'Why do I need the Essential Addons for Contact Form 7 plugin?',
+		'answer'   => 'The Essential Addons for Contact Form 7 plugin provides additional features and functionalities that are not available in the standard Essential Addons for Contact Form 7 plugin. It enhances form-building capabilities, including advanced field types, integrations, and conditional logic.',
 	],
 	[
-		'question' => 'Will Contact Form 7 Extended slow down my website?',
-		'answer'   => 'No, Contact Form 7 Extended is designed to be lightweight and optimized for performance. When properly configured, it should not noticeably impact your website\'s loading speed.',
+		'question' => 'Will Essential Addons for Contact Form 7 slow down my website?',
+		'answer'   => 'No, Essential Addons for Contact Form 7 is designed to be lightweight and optimized for performance. When properly configured, it should not noticeably impact your website\'s loading speed.',
 	],
 	[
-		'question' => 'Can I use a Google Drive uploader in Contact Form 7?',
-		'answer'   => 'Yes, you can use drag & drop Google Drive uploader in Contact Form 7 by integrating the Contact Form 7 Extended plugin. This allows users to upload files directly to your connected Google Drive account.',
+		'question' => 'Can I use a Google Drive uploader in Essential Addons for Contact Form 7?',
+		'answer'   => 'Yes, you can use drag & drop Google Drive uploader in Essential Addons for Contact Form 7 by integrating the Essential Addons for Contact Form 7 plugin. This allows users to upload files directly to your connected Google Drive account.',
 	],
 	[
-		'question' => 'Can I build multi-column forms using Contact Form 7 Extended?',
-		'answer'   => 'Yes, Contact Form 7 Extended allows you to create multi-column forms. This feature helps in designing more organized and visually appealing forms by arranging fields in multiple columns.',
+		'question' => 'Can I build multi-column forms using Essential Addons for Contact Form 7?',
+		'answer'   => 'Yes, Essential Addons for Contact Form 7 allows you to create multi-column forms. This feature helps in designing more organized and visually appealing forms by arranging fields in multiple columns.',
 	],
 	[
 		'question' => 'Can I use conditional logic when building a contact form?',
-		'answer'   => 'Yes, conditional logic is supported in Contact Form 7 Extended. This means you can show or hide fields, sections, or entire forms based on user input, making your forms more dynamic and responsive.',
+		'answer'   => 'Yes, conditional logic is supported in Essential Addons for Contact Form 7. This means you can show or hide fields, sections, or entire forms based on user input, making your forms more dynamic and responsive.',
 	],
 	[
 		'question' => 'Can I Store & View submission data on the database?',
-		'answer'   => 'Yes, Contact Form 7 Extended allows you to store form submission data in your WordPress database. You can view and manage this data from your WordPress admin panel, providing easy access to form entries.',
+		'answer'   => 'Yes, Essential Addons for Contact Form 7 allows you to store form submission data in your WordPress database. You can view and manage this data from your WordPress admin panel, providing easy access to form entries.',
 	],
 	[
-		'question' => 'Can I redirect contact Form 7 after form submission?',
-		'answer'   => 'Yes, you can set up a redirection after a form submission in Contact Form 7. This feature allows you to direct users to a specific page or URL after they submit a form.',
+		'question' => 'Can I redirect Essential Addons for Contact Form 7 after form submission?',
+		'answer'   => 'Yes, you can set up a redirection after a form submission in Essential Addons for Contact Form 7. This feature allows you to direct users to a specific page or URL after they submit a form.',
 	],
 	[
-		'question' => 'Can I integrate Contact Form 7 with Email Marketing Services?',
-		'answer'   => 'Yes, Contact Form 7 can be integrated with various email marketing services such as MailChimp, and others. This integration allows you to automatically add form submissions to your email lists.',
+		'question' => 'Can I integrate Essential Addons for Contact Form 7 with Email Marketing Services?',
+		'answer'   => 'Yes, Essential Addons for Contact Form 7 can be integrated with various email marketing services such as MailChimp, and others. This integration allows you to automatically add form submissions to your email lists.',
 	],
 	[
-		'question' => 'Can I customize the form style in Contact Form 7?',
-		'answer'   => 'Yes, you can customize the form style in Contact Form 7 by using the “Form Styler” feature for Contact Form 7 Extended.',
+		'question' => 'Can I customize the form style in Essential Addons for Contact Form 7?',
+		'answer'   => 'Yes, you can customize the form style in Essential Addons for Contact Form 7 by using the “Form Styler” feature for Essential Addons for Contact Form 7.',
 	],
 	[
-		'question' => 'How can I access all features of Contact Form 7 Extended?',
-		'answer'   => 'To access all features of Contact Form 7 Extended, you will need the PRO version of the Contact Form 7 Extended plugin.',
+		'question' => 'How can I access all features of Essential Addons for Contact Form 7?',
+		'answer'   => 'To access all features of Essential Addons for Contact Form 7, you will need the PRO version of the Essential Addons for Contact Form 7 plugin.',
 	],
 ];
 

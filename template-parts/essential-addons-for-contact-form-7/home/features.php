@@ -46,7 +46,7 @@ $features = [
             <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
                     <h2>Never Miss Top-notch Powerful <span>Features</span></h2>
-                    <p>Explore the advanced functionalities that extend Contact Form 7, enhancing your form capabilities and optimizing user interactions</p>
+                    <p>Explore the advanced functionalities that extend Essential Addons for Contact Form 7, enhancing your form capabilities and optimizing user interactions</p>
                 </div>
             </div>
         </div>

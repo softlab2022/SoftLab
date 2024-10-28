@@ -11,7 +11,7 @@
 
             <div class="col-lg-6 col-md-6">
                 <div class="hero-content">
-                    <h1>Contact Form 7 Extended Integrations</h1>
+                    <h1>Essential Addons for Contact Form 7 Integrations</h1>
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image-mobile text-center mb-5">
@@ -20,7 +20,7 @@
                     <?php } ?>
 
                     <p>
-                        Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Contact Form 7 Extended
+                        Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Essential Addons for Contact Form 7
                     </p>
                     <!-- <a href="/products" class="btn btn-primary view-products-btn"> <span></span> View Products</a> -->
 

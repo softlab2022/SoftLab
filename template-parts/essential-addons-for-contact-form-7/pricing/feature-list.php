@@ -314,14 +314,14 @@ $features = [
 
 	[
 		'title'       => 'Google Drive Integrations',
-		'description' => 'The Google Drive integration for the Contact Form 7 Extended plugin adds an upload field to Contact Form 7. This allows users to upload files directly to a connected Google Drive account.',
+		'description' => 'The Google Drive integration for the Essential Addons for Contact Form 7 plugin adds an upload field to Contact Form 7. This allows users to upload files directly to a connected Google Drive account.',
 		'video'       => '',
 		'pro'         => false,
 
 	],
 	[
 		'title'       => 'WhatsApp Integrations',
-		'description' => 'The Google Drive integration for the Contact Form 7 Extended plugin adds an upload field to Contact Form 7. This allows users to upload files directly to a connected Google Drive account.',
+		'description' => 'The Google Drive integration for the Essential Addons for Contact Form 7 plugin adds an upload field to Contact Form 7. This allows users to upload files directly to a connected Google Drive account.',
 		'video'       => '',
 		'pro'         => false,
 
@@ -329,28 +329,28 @@ $features = [
 
 	[
 		'title'       => 'Mailchimp Integrations',
-		'description' => 'The Mailchimp integration for the Contact Form 7 Extended plugin enables website admins to store specific data from Contact Form 7 submissions directly in Mailchimp',
+		'description' => 'The Mailchimp integration for the Essential Addons for Contact Form 7 plugin enables website admins to store specific data from Contact Form 7 submissions directly in Mailchimp',
 		'video'       => '',
 		'pro'         => true,
 
 	],
 	[
 		'title'       => 'Telegram Integrations',
-		'description' => 'The Telegram integration for the Contact Form 7 Extended plugin forwards form submission data to a specific Telegram account allocated by the admin',
+		'description' => 'The Telegram integration for the Essential Addons for Contact Form 7 plugin forwards form submission data to a specific Telegram account allocated by the admin',
 		'video'       => '',
 		'pro'         => true,
 
 	],
 	[
 		'title'       => 'Webhooks Integrations',
-		'description' => 'he Webhooks integration for the Contact Form 7 Extended plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services',
+		'description' => 'he Webhooks integration for the Essential Addons for Contact Form 7 plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services',
 		'video'       => '',
 		'pro'         => true,
 
 	],
 	[
 		'title'       => 'Zapier Integrations',
-		'description' => 'The Zapier integration for the Contact Form 7 Extended plugin transfers form data to an allocated Zapier account upon form submission',
+		'description' => 'The Zapier integration for the Essential Addons for Contact Form 7 plugin transfers form data to an allocated Zapier account upon form submission',
 		'video'       => '',
 		'pro'         => true,
 

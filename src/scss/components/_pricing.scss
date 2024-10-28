@@ -4015,6 +4015,27 @@
 
           span {
             color: #fff;
+
+          }
+
+          .coming-soon {
+            border-radius: 3px;
+            // background: #ffe7d6;
+            background: #fff;
+            padding: 1px 4px;
+            // color: #ce0404;
+            color: #1E62B9;
+            font-size: 0.9rem;
+            font-weight: 400;
+            border: 1px solid #ffe7d6;
+            margin-left: 5px;
+            display: inline-flex;
+            align-items: center;
+            text-transform: uppercase;
+
+            img {
+              width: 16px;
+            }
           }
         }
       }
@@ -4023,7 +4044,7 @@
     }
 
     .price-features {
-      padding: 1rem 3rem 1rem 3rem;
+      padding: 1rem;
 
       .feature-item {
         i {

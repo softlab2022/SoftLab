@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="cta-content text-center text-lg-start">
-                    <h3>Ready to Enhance Your Contact Form 7 Functionality?</h3>
+                    <h3>Ready to Enhance Your Essential Addons for Contact Form 7 Functionality?</h3>
                     <p>Essential Addons for Contact Form 7, adds powerful fields, features and customization options to make your form more creative</p>
                 </div>
             </div>
