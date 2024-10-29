@@ -34,18 +34,30 @@
             <div class="col-lg-3 col-md-3">
                 <div class="integrate-items inte-item">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated/insightly.png" alt="insightly">
+                    <div class="coming-soon-text">
+                        <span>Coming Soon <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.svg" alt="fire"></span>
+                    </div>
                 </div>
                 <div class="integrate-items inte-items">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated/mailster.png" alt="mailster">
+                    <div class="coming-soon-text">
+                        <span>Coming Soon <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.svg" alt="fire"></span>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-3">
                 <div class="integrate-items inte-item">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated/twilio.png" alt="twilio">
+                    <div class="coming-soon-text">
+                        <span>Coming Soon <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.svg" alt="fire"></span>
+                    </div>
                 </div>
                 <div class="integrate-items inte-items">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated/pipedrive.png" alt="pipedrive">
+                    <div class="coming-soon-text">
+                        <span>Coming Soon <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.svg" alt="fire"></span>
+                    </div>
                 </div>
             </div>
 
@@ -61,12 +73,18 @@
                 </div>
                 <div class="integrate-items inte-items">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated/buddyboss.png" alt="buddyboss">
+                    <div class="coming-soon-text">
+                        <span>Coming Soon <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.svg" alt="fire"></span>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-3">
                 <div class="integrate-item">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated/mautic.png" alt="mautic">
+                    <div class="coming-soon-text">
+                        <span>Coming Soon <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.svg" alt="fire"></span>
+                    </div>
                 </div>
             </div>
 
