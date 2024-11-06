@@ -481,7 +481,7 @@ import "./components/sticky-banner";
     $(document).ready(function () {
         const $menu = $('.mobile-menu');
         const $closeBtn = $('#close_btn');
-        const $toggleMenuBtn = $('#menu-toggle'); 
+        const $toggleMenuBtn = $('#menu-toggle');
         $toggleMenuBtn.click(function () {
             $menu.addClass('show');
         });
@@ -499,3 +499,75 @@ import "./components/sticky-banner";
 })(jQuery);
 
 
+// let $items = $('.slider-main .slider-item .item');
+// let $next = $('#next');
+// let $prev = $('#prev');
+
+// let active = 3;
+// let autoSlideInterval;
+
+// function loadShow() {
+//     let stt = 0;
+
+//     // Setting style for the active item
+//     $items.eq(active).css({
+//         transform: 'none',
+//         zIndex: 1,
+//         filter: 'none',
+//         opacity: 1
+//     });
+
+//     // For items after the active item
+//     for (let i = active + 1; i < $items.length; i++) {
+//         stt++;
+//         $items.eq(i).css({
+//             transform: `translateX(${120 * stt}px) scale(${1 - 0.2 * stt}) perspective(16px) rotateY(-1deg)`,
+//             zIndex: -stt,
+//             filter: 'blur(5px)',
+//             opacity: stt > 2 ? 0 : 0.6
+//         });
+//     }
+
+//     // Reset `stt` for items before the active item
+//     stt = 0;
+//     for (let i = active - 1; i >= 0; i--) {
+//         stt++;
+//         $items.eq(i).css({
+//             transform: `translateX(${-120 * stt}px) scale(${1 - 0.2 * stt}) perspective(16px) rotateY(1deg)`,
+//             zIndex: -stt,
+//             filter: 'blur(5px)',
+//             opacity: stt > 2 ? 0 : 0.6
+//         });
+//     }
+// }
+// loadShow();
+
+// $next.on('click', function() {
+//     stopAutoSlide();
+//     active = active + 1 < $items.length ? active + 1 : 0;
+//     loadShow();
+//     startAutoSlide();
+// });
+
+// $prev.on('click', function() {
+//     stopAutoSlide();
+//     active = active - 1 >= 0 ? active - 1 : $items.length - 1;
+//     loadShow();
+//     startAutoSlide();
+// });
+
+// // Auto slide function
+// function startAutoSlide() {
+//     autoSlideInterval = setInterval(function() {
+//         active = active + 1 < $items.length ? active + 1 : 0;
+//         loadShow();
+//     }, 3000);
+// }
+
+// // Stop auto slide on user interaction
+// function stopAutoSlide() {
+//     clearInterval(autoSlideInterval);
+// }
+
+// // Start auto-slide when the page loads
+// startAutoSlide();

@@ -39,7 +39,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
 
     <!-- Sticky Notification -->
-<?php get_template_part( 'template-parts/halloween-offer-sticky-banner' ); ?>
+<?php //get_template_part( 'template-parts/halloween-offer-sticky-banner' ); ?>
 
     <?php
     $page_template = get_page_template_slug();

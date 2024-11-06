@@ -117,3 +117,85 @@ $testimonials = [
 	</div>
 
 </section>
+
+<!-- 
+<section id="sliders">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="slider-mains">
+					<div class="slider-items">
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						<div class="items">
+							<h1>Works nicely</h1>
+							<p>We’ve been using a fairly expensive file sharing service for our website members and looking for an alternative. Integrate Google drive was easy to setup and keeps everything on our site. I had to contact support, they were responsive and addressed my concerns.</p>
+							<div class="user">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/testimonial/avatar2.png" alt="" class="img-fluid">
+								<p>brianray</p>
+							</div>
+						</div>
+						
+						<button id="nexts">></button>
+						<button id="prevs">
+							< </button> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
