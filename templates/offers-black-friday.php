@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: black-friday Offers page
+ * Template Name: black friday Offers page new
  *
  */
 
@@ -16,12 +16,12 @@ get_header();
         <div class="row">
             <div class="col-lg-8 col-md-7 m-auto">
                 <div class="halloween-sec text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-friday.png" />
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-friday-new-bg.png" />
                 </div>
                 <div class="col-lg-6 m-auto">
 
                     <div class="promo-code-sec text-center">
-                        <span class="sub-text">Coupon Code : FSBFCM2023</span>
+                        <span class="sub-text">Coupon Code : <b>FSBFCM2024</b></span>
                         <!-- <div class="cupon">
                             <span class="promo-text">HALLOWEEN2023</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc.png" />
@@ -71,7 +71,7 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text">FSBFCM2023</span>
+                            <span class="promo-text">FSBFCM2024 </span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-igd.png" />
                         </div>
 
@@ -106,7 +106,7 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text text-rp">FSBFCM2023</span>
+                            <span class="promo-text text-rp">FSBFCM2024</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-rp.png" />
                         </div>
 
@@ -141,7 +141,7 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text text-dm">FSBFCM2023</span>
+                            <span class="promo-text text-dm">FSBFCM2024</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-dm.png" />
                         </div>
 
@@ -164,14 +164,14 @@ get_header();
                     </h4>
                     <span class="descripition">1. Visit the SoftLab offers page: <a href="/offers/">https://softlabbd.com/offers</a></span>
                     <span class="descripition">2. Choose the product you want to buy and click on the "Buy Now" button.</span>
-                    <span class="descripition">3. Click on the "Have a promotional code?" button and apply the coupon code <b>"FSBFCM2023"</b>.</span>
+                    <span class="descripition">3. Click on the "Have a promotional code?" button and apply the coupon code <b>"FSBFCM2024"</b>.</span>
                     <span class="descripition">4. Instantly enjoy a 30% discount – it’s that simple!</span>
                 </div>
                 <div class="offers-conten">
                     <h4 class="titles">
                     What are the conditions of the Black Friday & Cyber Monday coupon?
                     </h4>
-                    <li class="descripition">Use coupon: <b>"FSBFCM2023"</b></li>
+                    <li class="descripition">Use coupon: <b>"FSBFCM2024"</b></li>
                     <li class="descripition">The coupon is available from November 25th to 05th December.</li>
                     <li class="descripition">Coupon applies to all our plugins membership, renewals, and upgrades.</li>
                     <span>Hurry the coupon is just available for few days only!</span>
