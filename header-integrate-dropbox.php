@@ -1,5 +1,3 @@
-<!-- <?php echo get_template_part( 'template-parts/halloween-offer-sticky-banner' ); ?> -->
-<!-- <?php echo get_template_part( 'template-parts/black-friday-sticky-banner' ); ?> -->
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -40,10 +38,10 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
     <?php wp_body_open(); ?>
 
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
-
+ <!-- Sticky Notification -->
+ <?php get_template_part( 'template-parts/black-friday-sticky-banner' ); ?>
 
     <div id="wrapper">
-
 
         <header class="site-header">
             <div class="container">
