@@ -253,6 +253,11 @@
               display: inline-block;
             }
           }
+          &.license-2 {
+            .price-value.two.annual {
+              display: inline-block;
+            }
+          }
 
           &.license-5 {
             .price-value.five.annual {
@@ -281,6 +286,11 @@
         &.lifetime {
           &.license-1 {
             .price-value.single.lifetime {
+              display: inline-block;
+            }
+          }
+          &.license-2 {
+            .price-value.two.lifetime {
               display: inline-block;
             }
           }
@@ -339,6 +349,11 @@
               display: block;
             }
           }
+          &.license-2 {
+            .offer-price.two.annual {
+              display: block;
+            }
+          }
 
           &.license-5 {
             .offer-price.five.annual {
@@ -367,6 +382,11 @@
         &.lifetime {
           &.license-1 {
             .offer-price.single.lifetime {
+              display: block;
+            }
+          }
+          &.license-2 {
+            .offer-price.two.lifetime {
               display: block;
             }
           }

@@ -122,10 +122,16 @@ $pro_features = [
                                     <a class="dropdown-item active" href="#" data-license="1">Single Site License</a>
                                 </li>
                                 <li>
+                                    <a class="dropdown-item " href="#" data-license="2">2 Site License</a>
+                                </li>
+                                <li>
                                     <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" data-license="unlimited">Unlimited Sites License</a>
                                 </li>
                             </ul>
                         </div>
@@ -191,9 +197,16 @@ $pro_features = [
                                             </div>
 
                                         </div>
+                                        <div class="offer-price annual two">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$50</p>
+                                                <span class="price-dis">30%OFF</span>
+                                            </div>
+
+                                        </div>
                                         <div class="offer-price annual five">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$63</p>
+                                                <p class="price-off">$102</p>
                                                 <span class="price-dis">30%OFF</span>
                                             </div>
 
@@ -205,16 +218,32 @@ $pro_features = [
                                             </div>
 
                                         </div>
+                                        <div class="offer-price annual unlimited">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$258</p>
+                                                <span class="price-dis">30%OFF</span>
+                                            </div>
+
+                                        </div>
 
                                         <!-- Sale Price -->
                                         <span class="price-value annual single">29</span>
-                                        <span class="price-value annual five">49</span>
+                                        <span class="price-value annual two">39</span>
+                                        <span class="price-value annual five">79</span>
                                         <span class="price-value annual hundred">129</span>
+                                        <span class="price-value annual unlimited">199</span>
 
                                         <!-- Regular Price -->
                                         <div class="offer-price lifetime single">
                                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                                <p class="price-off">$63</p>
+                                                <p class="price-off">$76</p>
+                                                <span class="price-dis">30%OFF</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="offer-price lifetime two">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$102</p>
                                                 <span class="price-dis">30%OFF</span>
                                             </div>
 
@@ -233,11 +262,20 @@ $pro_features = [
                                             </div>
 
                                         </div>
+                                        <div class="offer-price lifetime unlimited">
+                                            <div class="price-offer d-flex justify-content-center align-items-center">
+                                                <p class="price-off">$518</p>
+                                                <span class="price-dis">30%OFF</span>
+                                            </div>
+
+                                        </div>
 
                                         <!-- Sale Price -->
-                                        <span class="price-value lifetime single">49</span>
+                                        <span class="price-value lifetime single">59</span>
+                                        <span class="price-value lifetime two">79</span>
                                         <span class="price-value lifetime five">129</span>
                                         <span class="price-value lifetime hundred">299</span>
+                                        <span class="price-value lifetime unlimited">399</span>
 
                                         <span class="price-suffix annual">/ Year</span>
                                         <span class="price-suffix lifetime">/ Billed once</span>

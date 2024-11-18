@@ -102,10 +102,17 @@ $pro_features = [
                                             License</a>
                                     </li>
                                     <li>
+                                        <a class="dropdown-item" href="#" data-license="2">2 Site
+                                            License</a>
+                                    </li>
+                                    <li>
                                         <a class="dropdown-item" href="#" data-license="5">5 Sites License</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item" href="#" data-license="100">100 Sites License</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#" data-license="unlimited">Unlimited Sites License</a>
                                     </li>
                                 </ul>
                             </div>
@@ -157,6 +164,13 @@ $pro_features = [
                                 </div>
 
                             </div>
+                            <div class="offer-price annual two">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$76 </p>
+                                    <span class="price-dis">30%OFF</span>
+                                </div>
+
+                            </div>
                             <div class="offer-price annual five">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$167 </p>
@@ -171,14 +185,30 @@ $pro_features = [
                                 </div>
 
                             </div>
+                            <div class="offer-price annual unlimited">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$518 </p>
+                                    <span class="price-dis">30%OFF</span>
+                                </div>
+
+                            </div>
 
                             <span class="price-value annual single">39</span>
+                            <span class="price-value annual two">59</span>
                             <span class="price-value annual five">129</span>
                             <span class="price-value annual hundred">249</span>
+                            <span class="price-value annual unlimited">399</span>
 
                             <div class="offer-price lifetime single">
                                 <div class="price-offer d-flex justify-content-center align-items-center">
                                     <p class="price-off">$167 </p>
+                                    <span class="price-dis">30%OFF</span>
+                                </div>
+
+                            </div>
+                            <div class="offer-price lifetime two">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$232 </p>
                                     <span class="price-dis">30%OFF</span>
                                 </div>
 
@@ -197,10 +227,19 @@ $pro_features = [
                                 </div>
 
                             </div>
+                            <div class="offer-price lifetime unlimited">
+                                <div class="price-offer d-flex justify-content-center align-items-center">
+                                    <p class="price-off">$908 </p>
+                                    <span class="price-dis">30%OFF</span>
+                                </div>
+
+                            </div>
 
                             <span class="price-value lifetime single">129</span>
+                            <span class="price-value lifetime two">179</span>
                             <span class="price-value lifetime five">249</span>
                             <span class="price-value lifetime hundred">499</span>
+                            <span class="price-value lifetime unlimited ">699</span>
 
                             <span class="price-suffix annual">/ Per year</span>
                             <span class="price-suffix lifetime">/ Billed once</span>
