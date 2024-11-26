@@ -99,7 +99,8 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             );
                             ?>
 
-                            <a class="nav-link btn text-white view-products-btn" href="/account/"><i class="fa-sharp fa-solid fa-user"></i> CUSTOMER AREA</a>
+                            <a class="nav-link btn text-white view-products-btn" target="_blank" href="https://users.freemius.com/store/1760"><i class="fa-sharp fa-solid fa-user"></i> CUSTOMER AREA</a>
+                            
 
                         </div><!-- /.navbar-collapse -->
 

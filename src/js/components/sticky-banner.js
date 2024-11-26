@@ -61,7 +61,8 @@
 
 // })(jQuery);
 
-;(function ($) {
+
+(function ($) {
     "use strict";
 
     $(document).ready(function () {
@@ -82,13 +83,19 @@
             const HOUR = 60 * MINUTE;
             const DAY = 24 * HOUR;
 
-            const formatTime = (distance) => {
-                const days = Math.floor(distance / DAY);
-                const hours = Math.floor((distance % DAY) / HOUR);
-                const minutes = Math.floor((distance % HOUR) / MINUTE);
-                const seconds = Math.floor((distance % MINUTE) / SECOND);
+            const padZero = (num) => (num < 10 ? `0${num}` : num);
 
-                return `<span class="days">${days}d</span> <span class="hours">${hours}h</span> <span class="minutes">${minutes}m</span> <span class="seconds">${seconds}s</span>`;
+            const formatTime = (distance) => {
+                const days = padZero(Math.floor(distance / DAY));
+                const hours = padZero(Math.floor((distance % DAY) / HOUR));
+                const minutes = padZero(Math.floor((distance % HOUR) / MINUTE));
+                const seconds = padZero(Math.floor((distance % MINUTE) / SECOND));
+
+                return `<div class="countdown"><span class="days">${days}</span> <p>Day</p></div> 
+                <div class="countdown"><span class="hours">${hours}</span> <p>Hour</p> </div>
+                <div class="countdown"><span class="minutes">${minutes}</span> <p>Min</p></div>
+                <div class="countdown"><span class="seconds">${seconds}</span> <p>Sec</p>
+                </div>`;
             };
 
             const updateTimer = () => {
@@ -99,7 +106,6 @@
                 if (localStorage.getItem('bf_offers_time')) {
                     countDownDate = localStorage.getItem('bf_offers_time');
                 }
-
                 const distance = countDownDate - now;
 
                 if (distance < 0) {

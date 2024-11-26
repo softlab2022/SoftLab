@@ -2,24 +2,19 @@
     <div class="container">
         <div class="banner-wrap">
             <!-- Banner Vector -->
-            <!-- <div class="banner-vector vector-left">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-left.png" />
+            <div class="banner-vector vector-left">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-friday-new-vector-left.png" />
             </div>
 
             <div class="banner-vector vector-right">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-right.png" />
-            </div> -->
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-friday-new-vector-right.png" />
+            </div>
             <!-- <a class="banner-product summer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween.png" />
             </a> -->
-            <!-- Banner Product -->
-            <a class="banner-products" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new1.png" />
-                <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
-            </a>
-            
-             <!-- Banner Countdown -->
-             <div class="banner-countdown">
+
+               <!-- Banner Countdown -->
+               <div class="banner-countdown">
                 <div class="timer"></div>
 
                 <!--                <div class="timer-labels">-->
@@ -30,9 +25,22 @@
                 <!--                </div>-->
             </div>
 
-            <a class="banner-product offer" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky-new.png" />
+            <a class="banner-product black-text-offer" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new3.png" />
             </a>
+            <a class="banner-product offer" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky-new1.png" />
+            </a>
+            <!-- Banner Product -->
+            <a class="banner-products" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new2.png" />
+                <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
+            </a>
+            
+          
+
+           
+            
             
             <!-- Banner Title -->
             <!-- <div class="banner-title">
