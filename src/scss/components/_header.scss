@@ -1783,7 +1783,7 @@
       background: #4036B4;
       text-decoration: none;
       color: #fff;
-      padding: 10px 20px;
+      padding: 15px 20px;
       transition: all .3s ease;
       font-weight: 600;
 
@@ -1960,7 +1960,7 @@
   .banner-vector {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     z-index: 0;
     pointer-events: none;
@@ -1972,7 +1972,7 @@
     }
 
     img {
-      width: 82px;
+      width: 116px;
       height: auto;
     }
   }
@@ -2005,6 +2005,14 @@
     //   }
     // }
     
+    .banner-vector {
+  
+      img {
+        width: 86px;
+        height: auto;
+      }
+    }
+
     .banner-countdown {
       display: none;
     }
@@ -2048,15 +2056,21 @@
 
     .banner-product {
       img {
-        width: 85px;
-        height: 30px;
+        width: 78px;
+        height: 27px;
+      }
+    }
+
+    .black-text-offer {
+      img {
+        display: none;
       }
     }
 
     .banner-products {
       img {
-        width: 110px;
-        height: 37px;
+        width: 138px;
+        height: 40px;
       }
     }
 

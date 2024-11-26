@@ -12,9 +12,11 @@
             <!-- <a class="banner-product summer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween.png" />
             </a> -->
-
-               <!-- Banner Countdown -->
-               <div class="banner-countdown">
+            <a class="banner-product black-text-offer" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new3.png" />
+            </a>
+            <!-- Banner Countdown -->
+            <div class="banner-countdown">
                 <div class="timer"></div>
 
                 <!--                <div class="timer-labels">-->
@@ -25,9 +27,7 @@
                 <!--                </div>-->
             </div>
 
-            <a class="banner-product black-text-offer" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new3.png" />
-            </a>
+
             <a class="banner-product offer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky-new1.png" />
             </a>
@@ -36,18 +36,18 @@
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new2.png" />
                 <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
             </a>
-            
-          
 
-           
-            
-            
+
+
+
+
+
             <!-- Banner Title -->
             <!-- <div class="banner-title">
                 <p>Unbeatable Summer Deals</p>
             </div> -->
 
-            
+
 
             <!-- Banner Offer -->
             <!-- <div class="banner-offer">
