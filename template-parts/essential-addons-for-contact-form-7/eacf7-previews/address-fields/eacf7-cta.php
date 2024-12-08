@@ -19,7 +19,7 @@
     </div>
 </section>
 
-<script>
+<!-- <script>
    document.addEventListener("DOMContentLoaded", function () {
     const ctaSection = document.querySelector('#eacf7-cta');
     const footerSection = document.querySelector('footer');
@@ -50,4 +50,4 @@
     if (ctaSection) observer.observe(ctaSection);
 });
 
-</script>
+</script> -->

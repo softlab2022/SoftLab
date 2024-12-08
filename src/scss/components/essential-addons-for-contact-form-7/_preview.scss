@@ -52,10 +52,14 @@
 
         a {
             text-decoration: none;
-            margin: 0 10px;
-            padding: 15px 35px;
-            font-size: .9rem;
-            font-weight: 600;
+            // margin: 0 10px;
+            margin-right: 15px;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            i {
+                margin-right: 10px;
+            }
         }
 
         .get {
@@ -344,7 +348,7 @@
             }
 
             a {
-                padding: 10px 24px;
+                padding: 10px 16px;
                 margin: 0 1px;
             }
 
@@ -359,6 +363,13 @@
                     i {
                         color: #fff;
                         font-size: 20px;
+                        /* margin-right: 0; */
+                        /* line-height: 40px; */
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        text-align: center;
                     }
                 }
 
@@ -420,8 +431,12 @@
                 line-height: 150%;
                 padding: 5px 10px;
                 border-radius: 6px;
+                background: transparent;
                 border: 1px solid #1E62B9;
                 transition: linear .4s;
+                i {
+                    margin-right: 10px;
+                }
 
                 &:hover {
                     background: #1E62B9;
@@ -439,7 +454,9 @@
                 background: #1E62B9;
                 border: 1px solid #1E62B9;
                 transition: linear .4s;
-
+                i {
+                    margin-right: 10px;
+                }
                 &:hover {
                     background: #fff;
                     color: #1E62B9;
@@ -514,6 +531,13 @@
     .form-code {
         display: none;
         /* Code hidden by default */
+        margin-top: 20px;
+        .code-content {
+            border-radius: 10px;
+        }
+        pre {
+            margin-bottom: 0;
+        }
     }
 
     @media (min-width: 768px) and (max-width: 991.98px) {
@@ -893,13 +917,16 @@
     .cta-actions {
         a {
             text-decoration: none;
-            padding: 15px 36px;
+            padding: 15px 25px;
             border-radius: 5px;
             font-weight: 600;
-            font-size: .9rem;
+            font-size: 1rem;
             line-height: 120%;
             transition: linear .4s;
             margin: 0 10px;
+            i {
+                margin-right: 10px;
+            }
         }
 
         .bt {

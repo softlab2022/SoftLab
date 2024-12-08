@@ -540,42 +540,183 @@ import "./components/sticky-banner";
 
     // eacf7 preview js 
 
-    $(document).ready(function() {
-        // Ensure unique show/hide behavior for each form
-        $(".show-buttons").on("click", function() {
+    // $(document).ready(function() {
+    //     // Ensure unique show/hide behavior for each form
+    //     $(".show-buttons").on("click", function() {
+    //         var index = $(this).data("index"); // Get the index from the data attribute
+    //         var $formArea = $('.form-area[data-index="' + index + '"]');
+    //         var $formCodeContainer = $formArea.find(".form-code");
+    //         var $eacf7Form = $formArea.find(".eacf7-form");
+    
+    //         // Toggle visibility of the code and form
+    //         $formCodeContainer.toggle();
+    //         $eacf7Form.toggle();
+    //     });
+    
+    //     // Copy code to clipboard for each form
+    //     $(".copy-buttons").on("click", function() {
+    //         var index = $(this).data("index"); // Get the index from the data attribute
+    //         var $formArea = $('.form-area[data-index="' + index + '"]');
+    //         var codeText = $formArea.find(".form-code").text().trim();
+    
+    //         // Check if Clipboard API is supported
+    //         if (navigator.clipboard) {
+    //             navigator.clipboard.writeText(codeText)
+    //                 .then(function() {
+    //                     alert("Form code copied to clipboard!");
+    //                 })
+    //                 .catch(function(err) {
+    //                     console.error("Failed to copy code: ", err);
+    //                 });
+    //         } else {
+    //             // Fallback to document.execCommand if Clipboard API is not available
+    //             var textArea = document.createElement('textarea');
+    //             textArea.value = codeText;
+    //             document.body.appendChild(textArea);
+    //             textArea.select();
+    //             try {
+    //                 var successful = document.execCommand('copy');
+    //                 if (successful) {
+    //                     alert("Form code copied to clipboard!");
+    //                 } else {
+    //                     alert("Copy failed.");
+    //                 }
+    //             } catch (err) {
+    //                 alert("Unable to copy text.");
+    //             } finally {
+    //                 document.body.removeChild(textArea);
+    //             }
+    //         }
+    //     });
+    // });
+    
+    // $(document).ready(function () {
+    //     // Handle Show Code button click
+    //     $(".show-buttons").on("click", function () {
+    //         var index = $(this).data("index"); // Get the index from the data attribute
+    //         var $formArea = $('.form-area[data-index="' + index + '"]');
+    //         var $formCodeContainer = $formArea.find(".form-code");
+    //         var $eacf7Form = $formArea.find(".eacf7-form");
+    //         var $copyButton = $formArea.find(".copy-buttons");
+    
+    //         // Check if form code is currently visible
+    //         if ($formCodeContainer.is(":visible")) {
+    //             $formCodeContainer.hide();
+    //             $eacf7Form.show();
+    //             $copyButton.hide();
+    //         } else {
+    //             $formCodeContainer.show();
+    //             $eacf7Form.hide();
+    //             $copyButton.show();
+    //         }
+    //     });
+    
+    //     // Handle Copy Code button click
+    //     $(".copy-buttons").on("click", function () {
+    //         var index = $(this).data("index"); // Get the index from the data attribute
+    //         var $formArea = $('.form-area[data-index="' + index + '"]');
+    //         var codeText = $formArea.find(".form-code").text().trim();
+    
+    //         // Copy the code to the clipboard
+    //         if (navigator.clipboard) {
+    //             navigator.clipboard.writeText(codeText)
+    //                 .then(function () {
+    //                     alert("Form code copied to clipboard!");
+    //                 })
+    //                 .catch(function (err) {
+    //                     console.error("Failed to copy code: ", err);
+    //                 });
+    //         } else {
+    //             // Fallback for unsupported Clipboard API
+    //             var textArea = document.createElement("textarea");
+    //             textArea.value = codeText;
+    //             document.body.appendChild(textArea);
+    //             textArea.select();
+    //             try {
+    //                 var successful = document.execCommand("copy");
+    //                 if (successful) {
+    //                     alert("Form code copied to clipboard!");
+    //                 } else {
+    //                     alert("Copy failed.");
+    //                 }
+    //             } catch (err) {
+    //                 alert("Unable to copy text.");
+    //             } finally {
+    //                 document.body.removeChild(textArea);
+    //             }
+    //         }
+    
+    //         // Keep the form code visible but hide the Copy button
+          
+    //     });
+    // });
+
+    $(document).ready(function () {
+        // Handle Show Code button click
+        $(".show-buttons").on("click", function () {
             var index = $(this).data("index"); // Get the index from the data attribute
             var $formArea = $('.form-area[data-index="' + index + '"]');
             var $formCodeContainer = $formArea.find(".form-code");
             var $eacf7Form = $formArea.find(".eacf7-form");
+            var $copyButton = $formArea.find(".copy-buttons");
+            var $showButton = $(this); // Current Show Code button
     
-            // Toggle visibility of the code and form
-            $formCodeContainer.toggle();
-            $eacf7Form.toggle();
+            // Toggle visibility of the form code and associated elements
+            if ($formCodeContainer.is(":visible")) {
+                $formCodeContainer.hide();
+                $eacf7Form.show();
+                $copyButton.hide();
+                $showButton.html('<i class="fa-solid fa-code"></i> Show Code'); // Change text to Show Code
+            } else {
+                $formCodeContainer.show();
+                $eacf7Form.hide();
+                $copyButton.show();
+                $showButton.html('<i class="fa-solid fa-code"></i> Hide Code'); // Change text to Hide Code
+            }
         });
     
-        // Copy code to clipboard for each form
-        $(".copy-buttons").on("click", function() {
+        // Handle Copy Code button click
+        $(".copy-buttons").on("click", function () {
             var index = $(this).data("index"); // Get the index from the data attribute
             var $formArea = $('.form-area[data-index="' + index + '"]');
             var codeText = $formArea.find(".form-code").text().trim();
     
-            // Check if Clipboard API is supported
+            copyToClipboard(codeText);
+        });
+    
+        // Handle code content click to copy and select all
+        $(document).on("click", ".form-code code", function () {
+            var codeText = $(this).text().trim();
+    
+            // Select all text in the code block
+            var range = document.createRange();
+            range.selectNodeContents(this);
+            var selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+    
+            // Copy the code to the clipboard
+            copyToClipboard(codeText);
+        });
+    
+        // Copy to clipboard function
+        function copyToClipboard(text) {
             if (navigator.clipboard) {
-                navigator.clipboard.writeText(codeText)
-                    .then(function() {
+                navigator.clipboard.writeText(text)
+                    .then(function () {
                         alert("Form code copied to clipboard!");
                     })
-                    .catch(function(err) {
+                    .catch(function (err) {
                         console.error("Failed to copy code: ", err);
                     });
             } else {
-                // Fallback to document.execCommand if Clipboard API is not available
-                var textArea = document.createElement('textarea');
-                textArea.value = codeText;
+                // Fallback for unsupported Clipboard API
+                var textArea = document.createElement("textarea");
+                textArea.value = text;
                 document.body.appendChild(textArea);
                 textArea.select();
                 try {
-                    var successful = document.execCommand('copy');
+                    var successful = document.execCommand("copy");
                     if (successful) {
                         alert("Form code copied to clipboard!");
                     } else {
@@ -587,11 +728,10 @@ import "./components/sticky-banner";
                     document.body.removeChild(textArea);
                 }
             }
-        });
+        }
     });
     
     
-
     $(document).ready(app.init);
 })(jQuery);
 

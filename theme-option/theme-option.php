@@ -625,7 +625,7 @@ function sanitize_callback($input) {
  * @return void
  */
 function sl_metabox() {
-    add_meta_box('sl-page-id', 'softlab page meta box', 'wpl_sl_pages_function', 'page', 'side', 'default');
+    add_meta_box('sl-page-id', 'softlab page meta box', 'wpl_sl_pages_function', 'page', 'normal', 'default');
 }
 
 add_action('add_meta_boxes', 'sl_metabox');

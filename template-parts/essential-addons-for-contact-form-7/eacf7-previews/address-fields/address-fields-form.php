@@ -1,6 +1,5 @@
+
 <section class="address-fields-form-area">
-
-
     <div class="container">
         <?php
         if (is_singular('page')) {
@@ -16,7 +15,7 @@
                                     <?php
                                     if (!empty($field['title'])) {
                                         echo esc_html($field['title']);
-                                    }else {
+                                    } else {
                                         echo '<p>no title found.</p>';
                                     }
                                     ?>
@@ -25,7 +24,7 @@
                                     <?php
                                     if (!empty($field['description'])) {
                                         echo esc_html($field['description']);
-                                    }else {
+                                    } else {
                                         echo '<p>no description found.</p>';
                                     }
                                     ?>
@@ -38,10 +37,11 @@
                                     <button class="show-buttons" data-index="<?php echo $index; ?>">
                                         <i class="fa-solid fa-code"></i> Show Code
                                     </button>
-                                    <button class="copy-buttons" data-index="<?php echo $index; ?>">
+                                    <button class="copy-buttons" data-index="<?php echo $index; ?>" style="display: none;">
                                         <i class="fa-solid fa-copy"></i> Copy
                                     </button>
                                 </div>
+
                                 <div class="eacf7-form" data-index="<?php echo $index; ?>">
                                     <?php
                                     if (!empty($field['shortcode'])) {
@@ -65,25 +65,26 @@
                                         $form_cleaned = strip_tags($form_raw, '<label><text><textarea><email><submit>');
 
                                         // Display the cleaned form content
-                                        echo '<pre>' . esc_html($form_cleaned) . '</pre>';
+                                        echo '<pre><code class="code-content">' . esc_html($form_cleaned) . '</code></pre>';
                                     } else {
                                         echo 'No Code found.';
                                     }
-
                                     ?>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-        <?php
+  
+<?php
                 }
             } else {
                 echo '<p>No demo fields available.</p>';
             }
         }
-        ?>
-    </div>
-
-
+?>
+</div>
 </section>
-
+<script>
+    hljs.highlightAll();
+</script>
