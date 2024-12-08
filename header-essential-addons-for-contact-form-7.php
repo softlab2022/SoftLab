@@ -75,7 +75,8 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             </a>
 
                             <a class="navbar-brand brand-cf7-extended" href="/essential-addons-for-contact-form-7/" title="Essential Addons for Contact Form 7" rel="home">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-new.png" alt="essential addons for contact form 7">
+                                <img class="img-fluid logo-black" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-new.png" alt="essential addons for contact form 7">
+                                <img class="img-fluid logo-white" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-logo-withe.png" alt="Essential Addons for Contact Form 7">
                             </a>
                         </div>
 

@@ -1057,6 +1057,9 @@
   }
 
   .brand-cf7-extended {
+    .logo-white {
+      display: none;
+    }
     img {
       width: 200px;
     }
@@ -1095,6 +1098,81 @@
 
 }
 
+.page-template-templateseacf7-address-fields-php {
+  .navbar-navs {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand.brand-softlab {
+    border-right: 1px solid rgba(255, 255, 255, 0.24);
+    padding-right: 15px;
+}
+
+  .brand-cf7-extended {
+    .logo-black {
+      display: none;
+    }
+    img {
+      width: 200px;
+    }
+  }
+
+  .site-header {
+    .primary-nav {
+      .navbar-nav {
+        .nav-item {
+          a {
+            color: #fff;
+            &:hover {
+              color: #111;
+            }
+          }
+        }
+      }
+
+      .buy-now-btn {
+        a {
+          text-decoration: none;
+          background: #fff;
+          padding: 15px 30px;
+          transition: linear 0.4s;
+          border-radius: 8px;
+          border: 1px solid transparent;
+          color: #1E62B9;
+          font-weight: 700;
+          white-space: nowrap;
+
+          &:hover {
+            background: #1E62B9;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .brand-cf7-extended {
+      img {
+        width: 186px;
+      }
+    }
+  }
+
+  .fixed-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1330;
+    // background-color: rgba(17, 17, 17, 0.8);
+    background: linear-gradient(90deg, #FFF -66.83%, #1E62B9 104.49%);
+    box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease-in-out;
+    padding: 0 0 3px;
+}
+}
 
 /**---------- sticky-banner ----------**/
 
@@ -2004,9 +2082,9 @@
     //     }
     //   }
     // }
-    
+
     .banner-vector {
-  
+
       img {
         width: 86px;
         height: auto;

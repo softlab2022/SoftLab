@@ -95,6 +95,7 @@ class SoftLa {
 			'essential-addons-for-contact-form-7-pricing',
 			'essential-addons-for-contact-form-7-integrations',
 			'essential-addons-for-contact-form-7-features',
+			'eacf7-address-fields',
 		] ) ) {
 			wp_enqueue_style( 'cf7-extended-main', get_theme_file_uri( 'assets/css/cf7-extended-main.css' ), array(), $theme_version, 'all' );
 		} else {
@@ -173,15 +174,26 @@ class SoftLa {
 	 * @since 1.0.72
 	 */
 	function admin_enqueue_scripts($hook) {
+		// For the 'Appearance > Theme Options' page
 		if ( $hook === 'appearance_page_theme-option' ) {
-			wp_enqueue_style('softlab-admin', get_theme_file_uri("assets/css/admin.css"), array(), time(), 'all');
+			wp_enqueue_style('softlab-admin', get_theme_file_uri("assets/css/admin.css"), array(), null, 'all');
 			wp_enqueue_style('bootstrap', get_theme_file_uri('assets/vendor/bootstrap/bootstrap.min.css'), array(), '5.1.3');
-			
 			wp_enqueue_script('bootstrap', get_theme_file_uri('assets/vendor/bootstrap/bootstrap.bundle.min.js'), array(), '5.1.3', true);
 		}
+	
+		// For the Post editing pages
+		if ($hook === 'post.php' || $hook === 'post-new.php') {
+			wp_enqueue_style('softlab-preview-admin', get_theme_file_uri("assets/css/preview-admin.css"), array(), null, 'all');
+			wp_enqueue_script('sl-admin-script', get_template_directory_uri() . '/assets/admin-js/sl-admin.js', array('jquery'), time(), true);
+		}
+		
 	}
 	
-
+	
+	/**
+	 * Summary of instance
+	 * @return SoftLa
+	 */
 	public static function instance() {
 		if ( null === self::$instance ) {
 			self::$instance = new self;

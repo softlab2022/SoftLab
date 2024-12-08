@@ -10,6 +10,7 @@
 .accordion {
   .accordion-item {
     margin-bottom: 30px;
+
     .accordion-header {
       .accordion-button {
         position: relative;
@@ -41,6 +42,7 @@
 
         .input_field {
           width: 100%;
+          border: none;
         }
 
         .skins {
@@ -63,3 +65,4 @@
     }
   }
 }
+

@@ -155,6 +155,49 @@ import "./components/sticky-banner";
                     },
                 ],
             });
+
+            //preview eacf7-testimonial-items
+            $(".eacf7-testimonial-items").slick({
+                centerMode: false,
+                centerPadding: "60px",
+                slidesToShow: 3,
+                dots: true,
+                autoplay: true,
+                arrows: true,
+                autoplaySpeed: 3000,
+                nextArrow: ".eacf7-right",
+                prevArrow: ".eacf7-left",
+                responsive: [
+                    {
+                        breakpoint: 1199.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: "40px",
+                            slidesToShow: 3,
+                        },
+                    },
+                    {
+                        breakpoint: 991.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: "40px",
+                            slidesToShow: 2,
+                        },
+                    },
+                    {
+                        breakpoint: 767.98,
+                        settings: {
+                            arrows: false,
+                            centerMode: false,
+                            centerPadding: "40px",
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+            });
+            
             //about slider
             $(".slider-main").slick({
                 slidesToShow: 3,
@@ -495,6 +538,60 @@ import "./components/sticky-banner";
         });
     });
 
+    // eacf7 preview js 
+
+    $(document).ready(function() {
+        // Ensure unique show/hide behavior for each form
+        $(".show-buttons").on("click", function() {
+            var index = $(this).data("index"); // Get the index from the data attribute
+            var $formArea = $('.form-area[data-index="' + index + '"]');
+            var $formCodeContainer = $formArea.find(".form-code");
+            var $eacf7Form = $formArea.find(".eacf7-form");
+    
+            // Toggle visibility of the code and form
+            $formCodeContainer.toggle();
+            $eacf7Form.toggle();
+        });
+    
+        // Copy code to clipboard for each form
+        $(".copy-buttons").on("click", function() {
+            var index = $(this).data("index"); // Get the index from the data attribute
+            var $formArea = $('.form-area[data-index="' + index + '"]');
+            var codeText = $formArea.find(".form-code").text().trim();
+    
+            // Check if Clipboard API is supported
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(codeText)
+                    .then(function() {
+                        alert("Form code copied to clipboard!");
+                    })
+                    .catch(function(err) {
+                        console.error("Failed to copy code: ", err);
+                    });
+            } else {
+                // Fallback to document.execCommand if Clipboard API is not available
+                var textArea = document.createElement('textarea');
+                textArea.value = codeText;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    var successful = document.execCommand('copy');
+                    if (successful) {
+                        alert("Form code copied to clipboard!");
+                    } else {
+                        alert("Copy failed.");
+                    }
+                } catch (err) {
+                    alert("Unable to copy text.");
+                } finally {
+                    document.body.removeChild(textArea);
+                }
+            }
+        });
+    });
+    
+    
+
     $(document).ready(app.init);
 })(jQuery);
 
@@ -571,3 +668,4 @@ import "./components/sticky-banner";
 
 // // Start auto-slide when the page loads
 // startAutoSlide();
+
