@@ -13,17 +13,17 @@
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="header-img-mobile">
-                    <img class="img-fluid " src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/hero-image.png" alt="hero-image">
-                    <a class="my-btn-primary ripple" href="<?php
-                        if (is_singular('page')) {
-                            $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
-
-                            if (!empty($meta_value)) {
-                                echo esc_html($meta_value);
-                            }
-                        }
-                        ?>" data-lity><i class="fa fa-play"></i></a>
-                </div>
+                            <img class="img-fluid " src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/hero-image.png" alt="hero-image">
+                            <a class="my-btn-primary ripple" href="<?php
+                                if (is_singular('page')) {
+                                    $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
+                                    if (!empty($meta_value)) {
+                                        echo esc_url($meta_value);
+                                    }
+                                }
+                                ?>" data-lity><i class="fa fa-play"></i>
+                            </a>
+                        </div>
                     <?php } ?>
 
                     <p><?php echo get_the_excerpt(); ?></p>
@@ -44,14 +44,14 @@
                 <div class="header-img">
                     <img class="img-fluid " src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/hero-image.png" alt="hero-image">
                     <a class="my-btn-primary ripple" href="<?php
-                        if (is_singular('page')) {
-                            $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
+                                                            if (is_singular('page')) {
+                                                                $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
+                                                                if (!empty($meta_value)) {
+                                                                    echo esc_url($meta_value);
+                                                                }
+                                                            }
+                                                            ?>" data-lity><i class="fa fa-play"></i></a>
 
-                            if (!empty($meta_value)) {
-                                echo esc_html($meta_value);
-                            }
-                        }
-                        ?>" data-lity><i class="fa fa-play"></i></a>
                 </div>
             </div>
         </div>
