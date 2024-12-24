@@ -4,7 +4,7 @@ Theme URI: https://them.es/starter
 Author: SoftLab
 Author URI: https://softlabbd.com
 Description: Official theme for SoftLab
-Version: 1.0.87
+Version: 1.0.88
 Requires at least: 5.0
 Tested up to: 6.5
 Requires PHP: 7.0
@@ -60,7 +60,8 @@ a img.aligncenter {
 }
 
 .wp-caption {
-    max-width: 96%; /* Image does not overflow the content area */
+    max-width: 96%;
+    /* Image does not overflow the content area */
     padding: 5px 3px 10px;
     text-align: center;
 }
@@ -206,11 +207,10 @@ a img.aligncenter {
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000; /* Above WP toolbar. */
+    z-index: 100000;
+    /* Above WP toolbar. */
 }
 
 a {
     text-decoration: none;
 }
-
-

@@ -1,5 +1,3 @@
-
-
 <section class="eacf7-address-fields-hero-area">
     <div class="hero-title-image">
         <img class="img-fluid vector-left" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/vector-left.png" alt="icon1">
@@ -16,15 +14,24 @@
                     <?php if (wp_is_mobile()) { ?>
                         <div class="header-img-mobile">
                             <img class="img-fluid " src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/hero-image.png" alt="hero-image">
-                            <a class="my-btn-primary ripple" href="<?php
-                                if (is_singular('page')) {
-                                    $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
-                                    if (!empty($meta_value)) {
-                                        echo esc_url($meta_value);
-                                    }
+                            <?php
+                            if (is_singular('page')) {
+                                $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
+                                if (!empty($meta_value)) {
+                            ?>
+                                    <a class="my-btn-primary ripple" href="<?php echo esc_url($meta_value); ?>" data-lity>
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                <?php
+                                } else {
+                                ?>
+                                    <a class="my-btn-primary ripple no-video" href="javascript:void(0);">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                            <?php
                                 }
-                                ?>" data-lity><i class="fa fa-play"></i>
-                            </a>
+                            }
+                            ?>
                         </div>
                     <?php } ?>
 
@@ -44,19 +51,66 @@
             </div>
             <div class="col-lg-5 col-md-6 ms-auto">
                 <div class="header-img">
-                    <img class="img-fluid " src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/hero-image.png" alt="hero-image">
-                    <a class="my-btn-primary ripple" href="<?php
-                                                            if (is_singular('page')) {
-                                                                $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
-                                                                if (!empty($meta_value)) {
-                                                                    echo esc_url($meta_value);
-                                                                }
-                                                            }
-                                                            ?>" data-lity><i class="fa fa-play"></i></a>
-
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/hero-image.png" alt="hero-image">
+                    <?php
+                    if (is_singular('page')) {
+                        $meta_value = get_post_meta(get_the_ID(), 'sl_meta_field_url', true);
+                        if (!empty($meta_value)) {
+                    ?>
+                            <a class="my-btn-primary ripple" href="<?php echo esc_url($meta_value); ?>" data-lity>
+                                <i class="fa fa-play"></i>
+                            </a>
+                        <?php
+                        } else {
+                        ?>
+                            <a class="my-btn-primary ripple no-video" href="javascript:void(0);">
+                                <i class="fa fa-play"></i>
+                            </a>
+                    <?php
+                        }
+                    }
+                    ?>
                 </div>
+
             </div>
         </div>
     </div>
 
 </section>
+
+
+<!-- Modal for "Video Not Found" -->
+<div id="videoNotFoundModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-area">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/preview/video-not-found-illus.png" alt="video-not-found-illus">
+            <p>No Video Found!</p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const noVideoButtons = document.querySelectorAll('.no-video');
+        const modal = document.getElementById('videoNotFoundModal');
+        const closeModal = modal.querySelector('.close');
+
+        noVideoButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                modal.style.display = 'block';
+            });
+        });
+
+        closeModal.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+
+        window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
+</script>

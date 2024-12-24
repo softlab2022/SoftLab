@@ -57,6 +57,7 @@
             padding: 15px 25px;
             font-size: 1.2rem;
             font-weight: 400;
+
             i {
                 margin-right: 10px;
             }
@@ -337,6 +338,7 @@
 
         .eacf7-extended-hero-content {
             text-align: center;
+
             h1 {
                 font-size: 1.5rem;
                 margin-bottom: 30px;
@@ -389,6 +391,65 @@
 
 }
 
+/* Modal styles for video not show start*/
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        width: auto;
+
+        .modal-content-area {
+            p {
+                margin: 0;
+                color: #151826;
+                // font-family: Inter;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 120%;
+                padding-top: 20px;
+            }
+        }
+
+        .close {
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            font-size: 28px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .modal-content{
+            .modal-content-area {
+                p {
+                    font-size: 19px;
+                }
+             }
+        }
+        
+    }
+
+}
+/* Modal styles for video not show end*/
+
 /**---------- address fields form Area start----------**/
 .address-fields-form-area {
     padding: 50px 0 100px 0;
@@ -416,7 +477,7 @@
     .form-area {
         padding: 40px;
         border-radius: 20px;
-        border: 1px solid #939CA9;
+        border: 1px solid #ddd;
 
         .form-button-area {
             display: flex;
@@ -434,6 +495,7 @@
                 background: transparent;
                 border: 1px solid #1E62B9;
                 transition: linear .4s;
+
                 i {
                     margin-right: 10px;
                 }
@@ -454,9 +516,11 @@
                 background: #1E62B9;
                 border: 1px solid #1E62B9;
                 transition: linear .4s;
+
                 i {
                     margin-right: 10px;
                 }
+
                 &:hover {
                     background: #fff;
                     color: #1E62B9;
@@ -532,9 +596,11 @@
         display: none;
         /* Code hidden by default */
         margin-top: 20px;
+
         .code-content {
             border-radius: 10px;
         }
+
         pre {
             margin-bottom: 0;
         }
@@ -878,10 +944,9 @@
     }
 
 }
-
 /**---------- testimonial scss end----------**/
 
-/**---------- cta area scss ----------**/
+/**---------- cta area scss start ----------**/
 .eacf7-cta {
     //     background: #1E3F69 url("../images/cf7-extended/inner-page-cta.png") no-repeat 0 0;
     // background-size: cover;
@@ -924,6 +989,7 @@
             line-height: 120%;
             transition: linear .4s;
             margin: 0 10px;
+
             i {
                 margin-right: 10px;
             }
@@ -993,9 +1059,9 @@
     }
 
 }
+/**---------- cta area scss end ----------**/
 
-
-
+/**---------- cta hight light area scss start ----------**/
 body {
     background: transparent;
     transition: linear 0.4s;
@@ -1041,41 +1107,43 @@ body.active-bg .eacf7-cta {
             /* margin: 0 10px; */
             margin-left: 10px;
         }
-    
 
-    // .bt {
 
-    // }
+        // .bt {
 
-    .bt1 {
-        margin-left: 0px;
-    }
-}
-
-@media(max-width: 767.98px) {
-    padding: 30px 0;
-
-    .cta-content {
-        h3 {
-            font-size: 1.5rem;
-        }
-
-        p {
-            padding-right: 0;
-            font-size: .9rem;
-        }
-    }
-
-    .cta-actions {
-        a {
-            padding: 10px 18px;
-            margin-left: 0;
-        }
+        // }
 
         .bt1 {
             margin-left: 0px;
-            margin-right: 4px;
+        }
+    }
+
+    @media(max-width: 767.98px) {
+        padding: 30px 0;
+
+        .cta-content {
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                padding-right: 0;
+                font-size: .9rem;
+            }
+        }
+
+        .cta-actions {
+            a {
+                padding: 10px 18px;
+                margin-left: 0;
+            }
+
+            .bt1 {
+                margin-left: 0px;
+                margin-right: 4px;
+            }
         }
     }
 }
-}
+
+/**---------- cta hight light area scss end ----------**/

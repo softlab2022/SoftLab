@@ -133,6 +133,9 @@ class SoftLa {
 			wp_enqueue_style(
 				'softlab-highlight-atom',
 				get_theme_file_uri('assets/vendor/highlight/atom-one-dark.min.css'), array(), $theme_version);
+			// wp_enqueue_style(
+			// 	'softlab-toastify',
+			// 	get_theme_file_uri('assets/vendor/toastify/toastify.css'), array(), $theme_version);
 	
 			// Enqueue the JavaScript for highlight.js
 			wp_enqueue_script(
@@ -141,6 +144,12 @@ class SoftLa {
 				$theme_version,
 				false
 			);
+			// wp_enqueue_script(
+			// 	'softlab-toastify',
+			// 	get_theme_file_uri('assets/vendor/toastify/toastify.js'), array(),
+			// 	$theme_version,
+			// 	false
+			// );
 		}
 
 

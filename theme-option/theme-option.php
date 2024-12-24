@@ -635,55 +635,6 @@ add_action('add_meta_boxes', 'sl_metabox');
  * @param mixed $post
  * @return void
  */
-// function wpl_sl_pages_function($post) {
-
-//     // Retrieve saved meta data
-//     $sl_meta_fields = get_post_meta($post->ID, 'sl_meta_fields', true);
-//     if (empty($sl_meta_fields)) {
-//         $sl_meta_fields = [['title' => '', 'description' => '', 'shortcode' => '']]; // Default empty field
-//     }
-
-//     echo '<div id="sl-metabox-container">';
-//     foreach ($sl_meta_fields as $index => $field) {
-//         echo '<div class="sl-metabox-fields">';
-//         echo '<h3>Demo Fields</h3>';
-//         echo '<label for="sl_meta_field_' . $index . '">Title: </label>';
-//         echo '<input type="text" id="sl_meta_field_' . $index . '" name="sl_meta_fields[' . $index . '][title]" value="' . esc_attr($field['title']) . '">';
-
-//         echo '<br>';
-//         echo '<label for="sl_meta_field_description_' . $index . '">Description: </label>';
-//         echo '<input type="text" id="sl_meta_field_description_' . $index . '" name="sl_meta_fields[' . $index . '][description]" value="' . esc_attr($field['description']) . '">';
-        
-//         echo '<br>';
-//         echo '<label for="sl_meta_field_shortcode_' . $index . '">Form Shortcode: </label>';
-//         echo '<input type="text" id="sl_meta_field_shortcode_' . $index . '" name="sl_meta_fields[' . $index . '][shortcode]" value="' . esc_attr($field['shortcode']) . '">';
-//         echo '<br>';
-//         echo '</div>';
-//     }
-//     echo '</div>';
-
-//     // Button group
-//     echo '<div class="sl-button-group">';
-//     echo '<button type="button" id="add-new-demo">Add New</button>';
-//     echo '<button type="button" id="remove-new-demo">Remove</button>';
-//     echo '</div>';
-
-//     // Add your meta box content here
-//     $meta_value = get_post_meta($post->ID, 'sl_meta_field_url', true);
-
-//     echo '<div class="sl-metabox-field">';
-//     echo '<br>';
-//     echo '<div>';
-//     echo '<label for="sl_meta_field_url">Video Url: </label>';
-//     echo '<input type="url" id="sl_meta_field_url" name="sl_meta_field_url" value="' . esc_attr(get_post_meta($post->ID, 'sl_meta_field_url', true)) . '">';
-//     echo '</div>';
-
-//     echo '<br>';
-//     echo '<div>';
-//     echo '<label for="sl_meta_field_documentation_link">Documentation Link: </label>';
-//     echo '<input type="url" id="sl_meta_field_documentation_link" name="sl_meta_field_documentation_link" value="' . esc_attr(get_post_meta($post->ID, 'sl_meta_field_documentation_link', true)) . '">';
-//     echo '</div>';
-// }
 function wpl_sl_pages_function($post) {
     // Retrieve saved meta data for multiple fields
     $sl_meta_fields = get_post_meta($post->ID, 'sl_meta_fields', true);
@@ -693,8 +644,9 @@ function wpl_sl_pages_function($post) {
 
     echo '<div id="sl-metabox-container">';
     foreach ($sl_meta_fields as $index => $field) {
+        $field_number = $index + 1;
         echo '<div class="sl-metabox-fields">';
-        echo '<h3>Demo Fields</h3>';
+        echo '<h3>Demo Fields <span>' . $field_number . '</span></h3>';
         echo '<label for="sl_meta_field_' . $index . '">Title: </label>';
         echo '<input type="text" id="sl_meta_field_' . $index . '" name="sl_meta_fields[' . $index . '][title]" value="' . esc_attr($field['title']) . '">';
 
@@ -734,36 +686,6 @@ function wpl_sl_pages_function($post) {
  * @param mixed $post_id
  * @return void
  */
-// function sl_save_meta_box_data($post_id) {
-//     if (isset($_POST['sl_meta_fields'])) {
-//         $meta_fields = array_filter($_POST['sl_meta_fields'], function ($field) {
-           
-//             return !empty($field['title']) || !empty($field['description']) || !empty($field['shortcode']);
-//         });
-
-//         update_post_meta($post_id, 'sl_meta_fields', $meta_fields);
-//     }
-//     if (!isset($_POST['sl_meta_field_url'])) {
-
-//         // update_post_meta($post_id, 'sl_meta_field_url', sanitize_text_field($_POST['sl_meta_field_url']));
-//         update_post_meta($post_id, 'sl_meta_field_url', esc_url_raw($_POST['sl_meta_field_url']));
-
-//         update_post_meta($post_id, 'sl_meta_field_documentation_link', sanitize_text_field($_POST['sl_meta_field_documentation_link']));
-
-//     }
-
-//     if (isset($_POST['sl_meta_fields']) && is_array($_POST['sl_meta_fields'])) {
-//         $sanitized_fields = array_map(function ($field) {
-//             return [
-//                 'title' => sanitize_text_field($field['title']),
-//                 'description' => sanitize_text_field($field['description']),
-//                 'shortcode' => wp_kses_post($field['shortcode']),
-//             ];
-//         }, $_POST['sl_meta_fields']);
-//         update_post_meta($post_id, 'sl_meta_fields', $sanitized_fields);
-//     }
-// }
-
 function sl_save_meta_box_data($post_id) {
     // Check for nonce, autosave, and permissions.
     if (!isset($_POST['sl_meta_field_url']) || defined('DOING_AUTOSAVE') && DOING_AUTOSAVE || !current_user_can('edit_post', $post_id)) {

@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
 
         const template = `
             <div class="sl-metabox-fields">
-                <h3>Demo Fields</h3>
+                <h3>Demo Fields <span>${currentItem}</span></h3>
                 <label>Title: </label>
                 <input type="text" name="sl_meta_fields[${currentItem}][title]">
                 <br>
