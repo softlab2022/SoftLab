@@ -33,7 +33,14 @@ $features = [
         'title'       => 'Form Styler',
         'description' => 'Provides tools for customizing the look of your forms without needing CSS skills. You can change colors, adjust margins, and style buttons and fonts easily.',
     ],
-
+    'form-generator' => [
+        'title'       => 'Form Generator',
+        'description' => 'The Form Generator feature lets you create stunning & customized forms in a flash. With just one-click, transform your ideas into ready-to-use forms that saves time and manual effort. Perfect for any need, anytime!',
+    ],
+    'form-template' => [
+        'title'       => 'Form Templates',
+        'description' => 'Easily choose from pre-designed form templates to improve the look and functionality of your forms. These templates help you create visually appealing and professional forms with just 1 click.',
+    ],
 
 ];
 
@@ -93,7 +100,7 @@ $features = [
         <div class="row">
             <div class=" col-md-3 m-auto">
                 <div class="integration-btn">
-                    <a href="/essential-addons-for-contact-form-7-integrations/" class="feature-integration-btn"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated-icon.png" alt="integrated-icon">View All Integrations</a>
+                <a href="/essential-addons-for-contact-form-7-features/" class="feature-integration-btn">View All Features</a>
                 </div>
             </div>
         </div>

@@ -89,7 +89,8 @@
             </div>
 
             <div class="more-button text-center">
-                <a href="" class="view-button">View All</a>
+                
+                <a href="/essential-addons-for-contact-form-7-integrations/" class="view-button"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/integrated-icon.png" alt="integrated-icon">View All Integrations</a>
             </div>
 
         </div>
