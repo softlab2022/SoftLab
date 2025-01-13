@@ -11,10 +11,11 @@
         </div>
 
         <div class="row align-items-center">
+            
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our-team autoShow">
                     <div class="picture">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil.png" alt="" class="img-fluid ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil1.png" alt="" class="img-fluid ">
                     </div>
                     <div class="team-content">
                         <h3 class="name">prince Ahmed</h3>
@@ -27,7 +28,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our-team autoShow">
                     <div class="picture">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash.png" alt="" class="img-fluid ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash3.png" alt="" class="img-fluid ">
                     </div>
                     <div class="team-content">
                         <h3 class="name">Akash Ahmed</h3>
@@ -54,7 +55,7 @@
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="our-team autoShow">
                     <div class="picture">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan.png" alt="" class="img-fluid ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan1.png" alt="" class="img-fluid ">
 
                     </div>
                     <div class="team-content">
@@ -77,6 +78,32 @@
 
                 </div>
             </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team autoShow">
+                    <div class="picture">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/Sazzad-Hossain.png" alt="" class="img-fluid ">
+
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Sazzad Hossain</h3>
+                        <h4 class="title">Jr. Support Engineer</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="our-team autoShow">
+                    <div class="picture">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/Zubayer-Ahamad.png" alt="" class="img-fluid ">
+
+                    </div>
+                    <div class="team-content">
+                        <h3 class="name">Zubaer Ahamad</h3>
+                        <h4 class="title">Jr. WordPress Engineer</h4>
+                    </div>
+                </div>
+            </div>
+            
 
             <!-- <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
                 <div class=" team-butt join-us text-center">
