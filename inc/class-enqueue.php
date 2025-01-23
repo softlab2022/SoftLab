@@ -98,6 +98,10 @@ class SoftLa {
 			'eacf7-preview',
 		])) {
 			wp_enqueue_style('cf7-extended-main', get_theme_file_uri('assets/css/cf7-extended-main.css'), array(), $theme_version, 'all');
+		} else if (in_array($file_name, [
+			'career-page',
+		])) {
+			wp_enqueue_style('career-page-main', get_theme_file_uri('assets/css/career-page-main.css'), array(), $theme_version, 'all');
 		} else {
 			wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 		}

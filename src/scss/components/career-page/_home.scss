@@ -1,0 +1,524 @@
+/*==== hero css area start ====*/
+.career-hero {
+  padding: 200px 0 100px 0;
+  background:
+    url("../images/career-page/header-bg-shape.png") no-repeat right top,
+    linear-gradient(184deg, rgba(211, 199, 255, 0.05) 4.05%, rgba(104, 97, 255, 0.24) 96.48%);
+  background-size: auto;
+
+  .content {
+    h1 {
+      color: $h1_color;
+      // font-family: Inter;
+      font-size: 64px;
+      font-weight: 700;
+    }
+
+    p {
+      color: $p_color;
+      // font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      margin-top: 20px;
+    }
+
+    .btn {
+      border-radius: 10px;
+      background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+
+      &:hover {
+        box-shadow: 5px 16px 20px 0px rgba(111, 113, 255, 0.20);
+        transform: scale(1.05);
+      }
+    }
+
+    .hero-image-portal {
+      position: absolute;
+      top: 150px;
+      left: 50%;
+      animation: jump 2s ease-in-out infinite alternate;
+    }
+
+    .hero-image-geometric-shapes {
+      position: absolute;
+      bottom: 200px;
+      left: 40%;
+      animation: jump 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes jump {
+      70% {
+
+        transform: translateZ(-2rem) scale(1.3);
+      }
+    }
+  }
+
+  .illustration {
+    z-index: 2;
+    position: relative;
+  }
+
+
+}
+
+.containers {
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 23%;
+    right: -112px;
+    width: 57%;
+    height: 57%;
+    background: linear-gradient(225deg, #D3C7FF 25.61%, #6861FF 106.1%);
+    /* clip-path: polygon(20% 0, 70% 0, 70% 70%, 0 70%); */
+    z-index: 1;
+    transform: translateY(-50%);
+    border-radius: 265px 0px 0px 285px;
+    transform: rotate(-20deg);
+  }
+
+}
+
+/*==== hero css area end ====*/
+
+/*==== feature css area start====*/
+#feature {
+  // background-color: #EEF2FE;
+  padding: 70px 0;
+  position: relative;
+
+  .feature-head {
+    margin-bottom: 3rem;
+
+    .feature-title {
+      color: $h1_color;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 120%;
+    }
+
+    .feature-description {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      margin: auto;
+      max-width: 500px;
+    }
+  }
+
+  .feature-item {
+    border-radius: 1.1rem;
+    padding: 1.7rem;
+    margin-bottom: 1.4rem;
+    transition: all 0.3s ease-in-out;
+    // background-color: #fff;
+    height: 320px;
+
+    .feat-icon {
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+      box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+      border-radius: 20px;
+
+      .feat-icon {
+        transform: translateY(-8px);
+      }
+    }
+
+    .feat-content {
+      h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 120%;
+        color: $h1_color;
+        padding-top: 10%;
+      }
+
+      p {
+        color: $p_color;
+        font-weight: 400;
+        font-size: .9rem;
+        line-height: 150%;
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  .feature-friendly-environment {
+    border: 1px solid rgba(188, 221, 255, 1);
+  }
+
+  .feature-competitive-salary {
+    border: 1px solid #BBE897;
+  }
+
+  .feature-performance-bonus {
+    border: 1px solid #FEB49C;
+  }
+
+  .feature-special-bonuses {
+    border: 1px solid #FFC95B;
+  }
+
+  .feature-annual-tour {
+    border: 1px solid #FDAEFF;
+  }
+
+  .feature-carry-forward-leave {
+    border: 1px solid #7788FF;
+  }
+
+  .feature-open-communication {
+    border: 1px solid #6FB9FF;
+  }
+
+  .feature-carrom-board {
+    border: 1px solid #FEB49C;
+  }
+
+  .feature-unlimited-tea-coffee {
+    border: 1px solid #BBE897;
+  }
+
+  .feature-head {
+    position: relative;
+  }
+
+  .feature-vector {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+  }
+
+  .feature-vector1 {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: -1;
+  }
+
+
+  @media (min-width: 1200px) {
+    //Extra large
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    //Laptop
+    .feature-head {
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      p {
+        font-size: .885rem;
+      }
+    }
+
+    .feature-item {
+      .feat-content {
+        h3 {
+          font-size: 1.3rem;
+        }
+
+        p {
+          padding: 1% 6%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+    //Tablet
+    .feature-head {
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      p {
+        font-size: .885rem;
+      }
+    }
+
+    .feature-vector2 {
+      top: 3%;
+      right: 0%;
+
+      img {
+        width: 60%;
+      }
+    }
+
+    .feature-vector {
+      top: 3%;
+      left: 3%;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 0;
+
+    //Mobile
+    .feature-head {
+      margin-top: 0px;
+
+      .feature-title {
+
+        font-size: 1.5rem;
+        padding: 0;
+      }
+
+      .feature-description {
+        font-size: .9rem;
+        padding: 0;
+      }
+    }
+
+    .feature-item {
+      height: auto;
+
+      .feat-icon {
+        img {
+          width: 60px;
+        }
+      }
+
+      .feat-content {
+        h3 {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .feature-vector2 {
+      top: 3%;
+      right: 0%;
+
+      img {
+        width: 50%;
+      }
+    }
+
+    .feature-vector {
+      top: 3%;
+      left: 3%;
+    }
+  }
+
+}
+
+/*==== feature css area end ====*/
+
+/*==== annual-tour-memories css area start====*/
+.annual-tour-memories-head {
+  padding: 70px 0 30px 0;
+
+  .memories-head {
+    margin-bottom: 3rem;
+
+    .memories-title {
+      color: $h1_color;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 120%;
+    }
+
+    .memories-description {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      margin: auto;
+      max-width: 500px;
+    }
+  }
+}
+
+.annual-tour-memories {
+  padding: 70px 0;
+  background: linear-gradient(154deg, rgba(211, 199, 255, 0.16) 3.43%, rgba(104, 97, 255, 0.16) 90.47%);
+
+  .img-top {
+    margin-top: -29px;
+  }
+
+  .img-1 {
+    margin-bottom: 10px;
+  }
+}
+
+/*==== annual-tour-memories css area end ====*/
+
+/*==== hero css area start====*/
+.job-categori {
+  padding: 70px 0;
+
+  .job-categori-head {
+    margin-bottom: 3rem;
+
+    .job-categori-title {
+      color: $h1_color;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 120%;
+    }
+
+    .job-categori-description {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      margin: auto;
+      max-width: 500px;
+    }
+  }
+
+  .job-categori-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 16px;
+    padding: 15px;
+    border: 1px solid #D3C7FF;
+    margin-bottom: 25px;
+
+    p {
+      margin-bottom: 0;
+      color: #151826;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}
+
+/*==== hero css area end ====*/
+
+/*==== hero css area start====*/
+.part-our-journey {
+  padding: 70px 0;
+
+  .job-categori-head {
+
+    .job-categori-title {
+      color: $h1_color;
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 120%;
+    }
+
+    .job-categori-description {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: $p_color;
+      margin: auto;
+      max-width: 500px;
+    }
+  }
+}
+
+.part-our-journey-item {
+  padding: 70px 0;
+  background: url("../images/career-page/our-journey/our-journey-bg-shape.png") no-repeat left center, linear-gradient(154deg, rgba(211, 199, 255, 0.08) 3.43%, rgba(104, 97, 255, 0.08) 90.47%);
+  background-size: auto;
+
+  .journey-item {
+    border-radius: 16px;
+    border: 1px solid #D3C7FF;
+    background: #FFF;
+    box-shadow: 0px 1px 16px 0px rgba(85, 85, 85, 0.25);
+    padding: 24px;
+    margin-bottom: 20px;
+
+    p {
+      color: #151826;
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px 0 20px 0;
+
+    }
+
+    .date-time {
+
+      span {
+        border-radius: 4px;
+        background: linear-gradient(147deg, rgba(119, 136, 255, 0.16) 11.6%, rgba(110, 109, 255, 0.16) 89.24%);
+        color: #6E6DFF;
+        padding: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+    }
+
+    a {
+      border-radius: 7px;
+      padding: 7px 12px;
+      background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 40px;
+      display: inline-block;
+
+      i {
+        transform: rotate(46deg);
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+/*==== hero css area end ====*/
+
+/*==== hero css area start====*/
+.cta {
+  padding: 70px 0;
+
+  .cta-mask-section {
+    border-radius: 20px;
+    padding: 60px 40px;
+    background: url("../images/career-page/mask-group.png") no-repeat, linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+    background-size: cover;
+    background-position: center;
+
+
+    .cta-content {
+      h5 {
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 600;
+        margin-right: 30px;
+      }
+    }
+    .cta-button {
+      a {
+        padding: 16px 26px;
+        background-color: #fff;
+        font-weight: 700;
+        border-radius: 10px;
+        color: #6E6DFF;
+      }
+    }
+  }
+}
+
+/*==== hero css area end ====*/
