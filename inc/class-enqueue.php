@@ -215,11 +215,14 @@ class SoftLa {
 		// For the Post editing pages
 		if ($hook === 'post.php' || $hook === 'post-new.php') {
 			wp_enqueue_style('softlab-preview-admin', get_theme_file_uri("assets/css/preview-admin.css"), array(), null, 'all');
+			wp_enqueue_style('soft-custom-post-admin', get_theme_file_uri("assets/css/soft-custom-post-admin.css"), array(), null, 'all');
 
 
-
+			wp_enqueue_media();
 			wp_enqueue_script('sl-admin-script', get_template_directory_uri() . '/assets/admin-js/sl-admin.js', array('jquery'), time(), true);
+			wp_enqueue_script('softlab_custom_post-admin-script', get_template_directory_uri() . '/assets/admin-js/softla-admin.js', array('jquery'), time(), true);
 		}
+	
 	}
 
 

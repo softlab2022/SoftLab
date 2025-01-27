@@ -1,0 +1,192 @@
+.softlab_custom_post-metabox-field {
+
+    label {
+        display: block;
+        color: #212121;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid rgba(147, 156, 169, 0.70);
+        background: #EEF3FA;
+        padding: 14px 5px;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        border: 1px solid rgba(147, 156, 169, 0.70);
+        background: #EEF3FA;
+    }
+}
+
+#softlab_custom_post-metabox-container {
+    .softlab_custom_post-metabox-fields {
+        margin-bottom: 20px;
+
+        label {
+            display: block;
+            color: #212121;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 150%;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid rgba(147, 156, 169, 0.70);
+            background: #EEF3FA;
+            padding: 14px 5px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 350px;
+            border-radius: 10px;
+            border: 1px solid rgba(147, 156, 169, 0.70);
+            background: #EEF3FA;
+        }
+    }
+}
+
+
+.softlab_custom_post-metabox-fields {
+    margin-bottom: 20px;
+    border: 1px solid rgba(147, 156, 169, 0.70);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    label {
+        display: block;
+        color: #212121;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 150%;
+        margin-bottom: 10px;
+    }
+
+    .soft-metabox-fields-button {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .s-upload-image {
+            color: #1E62B9;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 150%;
+            padding: 5px 10px;
+            border-radius: 6px;
+            border: 1px solid #1E62B9;
+            transition: linear 0.4s;
+            cursor: pointer;
+
+            &:hover {
+                background: #1E62B9;
+                color: #fff;
+            }
+        }
+
+        .s-remove-image {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 150%;
+            padding: 5px 10px;
+            border-radius: 6px;
+            background: #c00;
+            border: 1px solid #c00;
+            transition: linear 0.4s;
+            cursor: pointer;
+
+            &:hover {
+                background: #fff;
+                color: #c00;
+            }
+        }
+    }
+
+    input {
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid rgba(147, 156, 169, 0.70);
+        background: #EEF3FA;
+        padding: 14px 5px;
+        margin-bottom: 10px;
+    }
+
+    #soft_job_expiration_date {
+        cursor: pointer;
+    }
+
+    textarea {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        border: 1px solid rgba(147, 156, 169, 0.70);
+        background: #EEF3FA;
+    }
+}
+
+.softlab_custom_post-button-group {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    gap: 10px;
+
+    #add-new-demo {
+        color: #1E62B9;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+        padding: 5px 10px;
+        border-radius: 6px;
+        border: 1px solid #1E62B9;
+        transition: linear .4s;
+        cursor: pointer;
+
+        &:hover {
+            background: #1E62B9;
+            color: #fff;
+        }
+    }
+
+    #remove-new-demo {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+        padding: 5px 10px;
+        border-radius: 6px;
+        background: #c00;
+        border: 1px solid #c00;
+        transition: linear .4s;
+        cursor: pointer;
+
+        &:hover {
+            background: #fff;
+            color: #c00;
+        }
+    }
+}
+
+#editor .postbox>.postbox-header .hndle {
+    border-bottom: none;
+    color: #111;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}

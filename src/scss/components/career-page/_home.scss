@@ -456,7 +456,12 @@
 
     }
 
+    .journey-item-img {
+      margin-bottom: 20px;
+    }
+
     .date-time {
+      margin-top: 18px;
 
       span {
         border-radius: 4px;
@@ -466,10 +471,12 @@
         font-size: 16px;
         font-weight: 600;
         text-transform: capitalize;
+        margin-right: 5px;
       }
+
     }
 
-    a {
+    .read-more {
       border-radius: 7px;
       padding: 7px 12px;
       background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
@@ -480,9 +487,12 @@
       display: inline-block;
 
       i {
-        transform: rotate(46deg);
+        transform: rotate(-34deg);
         margin-left: 10px;
       }
+    }
+    .expiration-date {
+      font-size: 16px;
     }
   }
 }
@@ -509,6 +519,7 @@
         margin-right: 30px;
       }
     }
+
     .cta-button {
       a {
         padding: 16px 26px;

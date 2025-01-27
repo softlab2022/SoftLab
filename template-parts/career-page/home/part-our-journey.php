@@ -13,94 +13,83 @@
 <section class="part-our-journey-item">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/email-marketing.png">
-                    <p>Email Marketing</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/visual-designer.png">
-                    <p>Visual Designer</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-           
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/data-analyst.png">
-                    <p>Data Analyst</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/content-writer.png">
-                    <p>Content Writer</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/product-designer.png">
-                    <p>Product Designer</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/frontend-developer.png">
-                    <p>Frontend Developer</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/plugin-developer.png">
-                    <p>Plugin Developer</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 m-auto">
-                <div class="journey-item">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/career-page/our-journey/digital-marketer.png">
-                    <p>Digital Marketer</p>
-                    <div class="date-time">
-                        <span>Full time</span>
-                        <span>In house</span>
-                    </div>
-                    <a href="#">More Details <i class="fa-solid fa-arrow-up"></i></a>
-                </div>
+            <?php
+            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
+            $args = array(
+                'post_type'      => 'soft_job',
+                'posts_per_page' => 8,
+                'paged'          => $paged,
+                'orderby'        => 'id',
+                'order'          => 'ASC',
+                'meta_query'     => array(
+                    array(
+                        'key'     => 'soft_job_expiration_date',
+                        'value'   => date('Y-m-d'),
+                        'compare' => '>=',
+                        'type'    => 'DATE',
+                    ),
+                ),
+            );
+
+            $query = new WP_Query($args);
+
+            if ($query->have_posts()) {
+                while ($query->have_posts()) {
+                    $query->the_post();
+                    $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_fields', true) ?: [];
+
+                    if (!empty($softlab_custom_post_meta_fields)) {
+                        foreach ($softlab_custom_post_meta_fields as $index => $field) {
+            ?>
+                            <div class="col-lg-3 col-md-6 col-sm-9">
+                                <div class="journey-item">
+                                    <div class="journey-item-img">
+                                        <a href="<?php the_permalink(); ?>">
+                                            <img class="img-fluid" src="<?php echo !empty($field['image']) ? esc_url($field['image']) : ''; ?>" alt="Image">
+                                        </a>
+                                    </div>
+
+                                    <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                    <div class="date-time">
+                                        <span><?php echo !empty($field['title']) ? esc_html($field['title']) : 'No title'; ?></span>
+                                        <span><?php echo !empty($field['description']) ? esc_html($field['description']) : 'No description'; ?></span>
+                                    </div>
+                                    <a href="<?php the_permalink(); ?>" class="read-more">
+                                        <span>More Details</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    <?php
+                                    // Display expiration date
+                                    $expiration_date = get_post_meta(get_the_ID(), 'soft_job_expiration_date', true);
+                                    if ($expiration_date) {
+                                        echo '<p class="expiration-date">Expires on: ' . date('F j, Y', strtotime($expiration_date)) . '</p>';
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+            <?php
+                        }
+                    }
+                }
+            } else {
+                echo '<div class="col-12"><p>No custom posts found.</p></div>';
+            }
+
+            wp_reset_postdata();
+            ?>
+            <div class="posts-pagination">
+                <?php
+                $big = 999999999;
+                echo paginate_links(array(
+                    'base'      => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+                    'format'    => '?paged=%#%',
+                    'current'   => max(1, get_query_var('paged')),
+                    'total'     => $query->max_num_pages,
+                    'prev_text' => '<i class="fas fa-arrow-left"></i>',
+                    'next_text' => '<i class="fas fa-arrow-right"></i>',
+                ));
+                ?>
             </div>
         </div>
     </div>

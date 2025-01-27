@@ -20,6 +20,8 @@
 
 @import "components/404";
 
+@import "components/career-single";
+
 //DOCS
 .softdocs-wrap {
   padding-top: 0px;
@@ -219,6 +221,7 @@
         top: -8px;
         right: -7px;
       }
+
       &:after {
         top: -8px;
         right: -7px;
@@ -240,3 +243,5 @@
     }
   }
 }
+
+

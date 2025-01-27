@@ -1,0 +1,188 @@
+.job-header {
+    padding: 100px 0 300px 0;
+    background: url("../images/career-page/career-single-page/header-bg.png") no-repeat center top, linear-gradient(184deg, rgba(211, 199, 255, 0.05) 4.05%, rgba(104, 97, 255, 0.24) 96.48%);
+    background-size: cover;
+
+}
+
+.job-header-details-main {
+    position: relative;
+    margin: -250px 0 0 0px;
+
+    .header-details-main {
+        padding: 30px;
+        border-radius: 16px;
+        border: 1px solid #eee;
+        background: #FFF;
+
+        .job-details-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .title-details {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .job-details-head-button {
+                a {
+                    color: #FFF;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    padding: 15px 30px;
+                    border-radius: 10px;
+                    background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+                }
+            }
+
+        }
+
+        // .our-team-image {
+        //     img {
+        //         width: 100%;
+        //     }
+        // }
+
+        .our-team-content {
+            h3 {
+                color: #151826;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 25px;
+            }
+
+            p {
+                color: #5C637E;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+            }
+        }
+    }
+}
+
+
+.our-team-about {
+    padding: 70px 0;
+
+    .about-us-main {
+        border-radius: 16px;
+        border: 1px solid #ddd;
+        padding: 30px;
+        margin-bottom: 20px;
+
+        h3 {
+            color: #151826;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #5C637E;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 150%;
+        }
+    }
+
+    .deadline {
+        h5 {
+            color: #5C637E;
+            font-size: 24px;
+            font-weight: 500;
+
+            span {
+                color: #5C637E;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .apply-now-button {
+        margin-top: 40px;
+
+        a {
+            border-radius: 10px;
+            background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+            color: #FFF;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+    }
+
+    .career-form {
+        margin-top: 50px;
+    }
+}
+
+// sidebar css heare
+.sidebar-main {
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    padding: 15px;
+
+    h5 {
+        color: #151826;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .sidebar-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+
+        i.fa-location-dot {
+            color: rgba(255, 80, 80, 1);
+            font-size: 20px;
+        }
+        i.fa-briefcase {
+            color: rgba(236, 142, 0, 1);
+            font-size: 20px;
+        }
+        i.fa-calendar-days {
+            color: rgba(0, 146, 39, 1);
+            font-size: 20px;
+        }
+        i.fa-user-check {
+            color: rgba(122, 49, 212, 1);
+            font-size: 20px;
+        }
+        i.fa-clock {
+            color: rgba(0, 156, 173, 1);
+            font-size: 20px;
+        }
+        i.fa-money-check {
+            color: rgba(39, 128, 255, 1);
+            font-size: 20px;
+        }
+
+        .item-content {
+            span {
+                color: #5C637E;
+                font-size: 16px;
+                font-weight: 400;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
+            h6 {
+                color: #151826;
+                font-size: 18px;
+                font-weight: 500;
+
+            }
+        }
+    }
+    .sidebar-item:last-child {
+        margin-bottom: 0;
+    }
+}

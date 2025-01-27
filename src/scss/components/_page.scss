@@ -87,12 +87,14 @@ body.search {
       }
     }
   }
-  @media (max-width: 767.98px) { 
+
+  @media (max-width: 767.98px) {
     .page {
       padding: 1rem;
     }
   }
 }
+
 
 
 .post-thumbnail {
@@ -388,4 +390,10 @@ figure {
       }
     }
   }
+}
+
+
+.single-soft_job {
+  background: transparent !important;
+
 }
