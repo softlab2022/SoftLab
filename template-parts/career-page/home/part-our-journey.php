@@ -42,7 +42,7 @@
                     if (!empty($softlab_custom_post_meta_fields)) {
                         foreach ($softlab_custom_post_meta_fields as $index => $field) {
             ?>
-                            <div class="col-lg-3 col-md-6 col-sm-9">
+                            <div class="col-lg-3 col-md-6 ">
                                 <div class="journey-item">
                                     <div class="journey-item-img">
                                         <a href="<?php the_permalink(); ?>">
@@ -52,20 +52,21 @@
 
                                     <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                     <div class="date-time">
-                                        <span><?php echo !empty($field['title']) ? esc_html($field['title']) : 'No title'; ?></span>
-                                        <span><?php echo !empty($field['description']) ? esc_html($field['description']) : 'No description'; ?></span>
+                                        <span><?php echo !empty($field['title']) ? esc_html($field['title']) : 'Full Time'; ?></span>
+                                        <span><?php echo !empty($field['description']) ? esc_html($field['description']) : 'In House'; ?></span>
                                     </div>
-                                    <a href="<?php the_permalink(); ?>" class="read-more">
-                                        <span>More Details</span>
-                                        <i class="fas fa-arrow-right"></i>
-                                    </a>
                                     <?php
                                     // Display expiration date
                                     $expiration_date = get_post_meta(get_the_ID(), 'soft_job_expiration_date', true);
                                     if ($expiration_date) {
-                                        echo '<p class="expiration-date">Expires on: ' . date('F j, Y', strtotime($expiration_date)) . '</p>';
+                                        echo '<p class="expiration-date">Expires on: <span>' . date('F j, Y', strtotime($expiration_date)) . '</span></p>';
                                     }
                                     ?>
+                                    <a href="<?php the_permalink(); ?>" class="read-more">
+                                        <span>More Details</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </a>
+                                    
                                 </div>
                             </div>
             <?php

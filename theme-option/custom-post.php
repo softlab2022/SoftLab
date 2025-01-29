@@ -83,8 +83,8 @@ function wpl_softlab_custom_post_pages_function($post)
         echo '<img id="softlab_image_preview_' . $index . '" src="' . esc_url($image_url) . '" style="max-width: 200px; display: ' . (empty($image_url) ? 'none' : 'block') . ';" />';
         echo '<br>';
         echo '<div class="soft-metabox-fields-button">';
-        echo '<button type="button" class="button s-upload-image softlab-upload-image" data-target="#softlab_custom_post_meta_field_image_' . $index . '" data-preview="#softlab_image_preview_' . $index . '">Upload Image</button>';
-        echo '<button type="button" class="button s-remove-image softlab-icon-remove-image" data-target="#softlab_custom_post_meta_field_image_' . $index . '" data-preview="#softlab_image_preview_' . $index . '" style="">Remove Image</button>';
+        echo '<button type="button" class="button s-upload-image softlab-upload-image" data-target="#softlab_custom_post_meta_field_image_' . $index . '" data-preview="#softlab_image_preview_' . $index . '">Upload Icon</button>';
+        echo '<button type="button" class="button s-remove-image softlab-icon-remove-image" data-target="#softlab_custom_post_meta_field_image_' . $index . '" data-preview="#softlab_image_preview_' . $index . '" style="">Remove Icon</button>';
         echo '</div>';
         echo '<br>';
         //  Job Type field
