@@ -51,45 +51,49 @@ $faqs = [
 
 
 <section id="cf7-faq">
-    <div class="container">
+	<div class="container">
 
-        <div class="row">
-            <div class="col-lg-10 m-auto">
-                <div class="feature-heading text-center">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Creating a Frequently Asked Questions (FAQ) paragraph is a great way to address common queries in a concise and clear manner</p>
-                </div>
-            </div>
-        </div>
+		<div class="row">
+			<div class="col-lg-10 m-auto">
+				<div class="feature-heading text-center">
+					<h2>Frequently Asked Questions</h2>
+					<p>Creating a Frequently Asked Questions (FAQ) paragraph is a great way to address common queries in a concise and clear manner</p>
+				</div>
+			</div>
+		</div>
 
-        <div class="row">
-            <div class="col-lg-8 m-auto">
-                <div class="accordion" id="faq-accordion">
+		<div class="row">
+			<div class="col-lg-8 m-auto">
+				<div class="accordion" id="faq-accordion">
 
-					<?php foreach ( $faqs as $key => $faq ) { ?>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading-<?php echo $key; ?>">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-<?php echo $key; ?>"
-                                        aria-controls="collapse-<?php echo $key; ?>" aria-expanded="false">
+					<?php foreach ($faqs as $key => $faq) { ?>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="faq-heading-<?php echo $key; ?>">
+								<button class="accordion-button collapsed" type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#faq-collapse-<?php echo $key; ?>"
+									aria-controls="faq-collapse-<?php echo $key; ?>"
+									aria-expanded="false">
 									<?php echo $faq['question']; ?>
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </button>
-                            </h2>
+									<i class="fa-solid fa-chevron-down"></i>
+								</button>
+							</h2>
 
-                            <div id="collapse-<?php echo $key; ?>" class="accordion-collapse collapse"
-                                 aria-labelledby="collapse-<?php echo $key; ?>" data-bs-parent="#faq-accordion">
-                                <div class="accordion-body">
+							<div id="faq-collapse-<?php echo $key; ?>" class="accordion-collapse collapse"
+								aria-labelledby="faq-heading-<?php echo $key; ?>"
+								data-bs-parent="#faq-accordion">
+								<div class="accordion-body">
 									<?php echo $faq['answer']; ?>
-                                </div>
-                            </div>
-                        </div>
+								</div>
+							</div>
+
+						</div>
 					<?php } ?>
 
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
 
 
-    </div>
+	</div>
 </section>

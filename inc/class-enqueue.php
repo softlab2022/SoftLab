@@ -1,10 +1,12 @@
 <?php
 
-class SoftLa {
+class SoftLa
+{
 
 	private static $instance = null;
 
-	public function __construct() {
+	public function __construct()
+	{
 		add_action('wp_enqueue_scripts', [$this, 'enqueue_scripts']);
 		add_action('admin_enqueue_scripts', [$this, 'admin_enqueue_scripts']);
 	}
@@ -15,7 +17,8 @@ class SoftLa {
 	 *
 	 * @since v1.0
 	 */
-	function enqueue_scripts($hook) {
+	function enqueue_scripts($hook)
+	{
 		$theme_version = wp_get_theme()->get('Version');
 
 		$page_template = get_page_template_slug();
@@ -102,6 +105,11 @@ class SoftLa {
 			'career-page',
 		])) {
 			wp_enqueue_style('career-page-main', get_theme_file_uri('assets/css/career-page-main.css'), array(), $theme_version, 'all');
+		} else if (in_array($file_name, [
+			'soft-accordion',
+			'soft-accordion-pricing',
+		])) {
+			wp_enqueue_style('soft-accordion-main', get_theme_file_uri('assets/css/soft-accordion-main.css'), array(), $theme_version, 'all');
 		} else {
 			wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 		}
@@ -136,15 +144,19 @@ class SoftLa {
 			// Enqueue the CSS for highlight.js
 			wp_enqueue_style(
 				'softlab-highlight-atom',
-				get_theme_file_uri('assets/vendor/highlight/atom-one-dark.min.css'), array(), $theme_version);
+				get_theme_file_uri('assets/vendor/highlight/atom-one-dark.min.css'),
+				array(),
+				$theme_version
+			);
 			// wp_enqueue_style(
 			// 	'softlab-toastify',
 			// 	get_theme_file_uri('assets/vendor/toastify/toastify.css'), array(), $theme_version);
-	
+
 			// Enqueue the JavaScript for highlight.js
 			wp_enqueue_script(
 				'softlab-highlight',
-				get_theme_file_uri('assets/vendor/highlight/highlight.min.js'), array(),
+				get_theme_file_uri('assets/vendor/highlight/highlight.min.js'),
+				array(),
 				$theme_version,
 				false
 			);
@@ -193,6 +205,7 @@ class SoftLa {
 			'offers-black-friday',
 			'integrate-google-drive-media-library',
 			'essential-addons-for-contact-form-7-pricing',
+			'soft-accordion-pricing',
 		]);
 
 		if ($is_pricing_page) {
@@ -204,7 +217,8 @@ class SoftLa {
 	 * Admin Assets
 	 * @since 1.0.72
 	 */
-	function admin_enqueue_scripts($hook) {
+	function admin_enqueue_scripts($hook)
+	{
 		// For the 'Appearance > Theme Options' page
 		if ($hook === 'appearance_page_theme-option') {
 			wp_enqueue_style('softlab-admin', get_theme_file_uri("assets/css/admin.css"), array(), null, 'all');
@@ -222,7 +236,6 @@ class SoftLa {
 			wp_enqueue_script('sl-admin-script', get_template_directory_uri() . '/assets/admin-js/sl-admin.js', array('jquery'), time(), true);
 			wp_enqueue_script('softlab_custom_post-admin-script', get_template_directory_uri() . '/assets/admin-js/softla-admin.js', array('jquery'), time(), true);
 		}
-	
 	}
 
 
@@ -230,7 +243,8 @@ class SoftLa {
 	 * Summary of instance
 	 * @return SoftLa
 	 */
-	public static function instance() {
+	public static function instance()
+	{
 		if (null === self::$instance) {
 			self::$instance = new self;
 		}

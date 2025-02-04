@@ -37,9 +37,7 @@
 					<span class="blog-item-meta-category"><?php the_category(); ?></span>
 						<span class="blog-item-meta-date">
 							<i class="fas fa-calendar-alt"></i>
-							<?php
-						display_update_date(); 
-					//echo get_the_date(); ?>
+							<?php echo display_update_date(); ?>
 					</span>
 				</div>
 				<h2 class="card-title">

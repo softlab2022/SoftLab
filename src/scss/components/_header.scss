@@ -1175,6 +1175,56 @@
 }
 
 /**---------- sticky-banner ----------**/
+.page-template-templatessoft-accordion-php,
+.page-template-templatessoft-accordion-pricing-php {
+  .navbar-navs {
+    display: flex;
+    align-items: center;
+  }
+
+  .brand-soft-accordion {
+    .logo-white {
+      display: none;
+    }
+    img {
+      width: 200px;
+    }
+  }
+
+  .site-header {
+    .primary-nav {
+      .buy-now-btn {
+        a {
+          text-decoration: none;
+          background: #1E62B9;
+          padding: 15px 30px;
+          transition: linear 0.4s;
+          border-radius: 8px;
+          border: 1px solid transparent;
+          color: #fff;
+          white-space: nowrap;
+
+          &:hover {
+            background: #fff;
+            color: #1E62B9;
+          }
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 767.98px) {
+    .brand-soft-accordion {
+      img {
+        width: 186px;
+      }
+    }
+  }
+
+}
+
+/**---------- sticky-banner ----------**/
 
 @media (min-width: 992px) {
 

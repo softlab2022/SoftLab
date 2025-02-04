@@ -107,7 +107,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             );
                             ?>
 
-                            <div class="buy-now-btn buy-now-btn-cf7-extended ms-auto">
+                            <div class="buy-now-btn buy-now-btn-cf7-extended ">
                             <a href="/essential-addons-for-contact-form-7-pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                             </div>
 

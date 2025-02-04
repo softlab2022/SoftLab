@@ -22,6 +22,7 @@ class SoftLaB_Nav {
 					'integrate-dropbox-menu'  	=> 'Integrate Dropbox Menu',
 					'wp-froms-menu'  	=> 'WP Froms Menu',
 					'essential-addons-for-contact-form-7-menu'  	=> 'Essential Addons for Contact Form 7 Menu',
+					'soft-accordion-menu'  	=> 'Soft Accordion Menu',
 				)
 			);
 		}

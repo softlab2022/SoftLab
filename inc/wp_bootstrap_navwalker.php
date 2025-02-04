@@ -194,6 +194,10 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/essential-addons-for-contact-form-7-icon.png';
 						$description = 'Extend Capabilities & Custom Functionalities for Contact Form 7';
 					}
+					elseif ( 'soft accordion' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/soft-accordion/logo.png';
+						$description = 'Best accordion plugin for WordPress designed to transform your FAQ section into an eye-catching, interactive experience';
+					}
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );
 					$item_output .= sprintf( '<div class="product-link-content"><span class="link-title">%s</span><span class="link-description">%s</span> </div>', $title, $description );
