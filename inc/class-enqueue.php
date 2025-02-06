@@ -28,6 +28,7 @@ class SoftLa
 		if (in_array($file_name, [
 			'integrate-google-drive',
 			'integrate-google-drive-pricing',
+			'integrate-google-drive-pricing-update',
 			'integrate-google-drive-file-browser',
 			'integrate-google-drive-file-uploader',
 			'integrate-google-drive-photo-gallery',
@@ -190,6 +191,7 @@ class SoftLa
 		//If pricing page, enqueue the freemius script
 		$is_pricing_page = in_array($file_name, [
 			'integrate-google-drive-pricing',
+			'integrate-google-drive-pricing-update',
 			'radio-player-pricing',
 			'reader-mode-pricing',
 			'wp-radio-pricing',

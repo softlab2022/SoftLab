@@ -55,6 +55,7 @@
       margin-top: 1rem;
       display: flex;
       align-items: center;
+
       &.product-integrate-google-drive:hover {
         color: $igd_color;
       }
@@ -288,6 +289,7 @@
 
   @media (max-width: 767px) {
     padding-top: 30px;
+
     .footer-contant {
       p {
         padding-right: 0;
@@ -300,12 +302,15 @@
         align-items: center;
       }
     }
+
     .footer-menu {
       margin-bottom: 20px;
     }
+
     .footer-social {
       padding-top: 0;
     }
+
     .mb-5 {
       margin-bottom: 1.5rem !important;
     }
@@ -426,6 +431,7 @@
         color: rgba(255, 255, 255, 0.8);
       }
     }
+
     @media (max-width: 767px) {
       padding-top: 30px;
     }
@@ -482,11 +488,11 @@
   }
 }
 
-.page-template-templatescf7-extended-php,
-.page-template-templatescf7-pricing-php,
-.page-template-templatescf7-integrations-php,
-.page-template-templatescf7-features-php,
-.page-template-templateseacf7-preview-php {
+.page-template-templatesessential-addons-for-contact-form-7-php,
+.page-template-templatesessential-addons-for-contact-form-7-pricing-php,
+.page-template-templatesessential-addons-for-contact-form-7-integrations-php,
+.page-template-templatesessential-addons-for-contact-form-7-features-php,
+.page-template-templatesessential-addons-for-contact-form-7-preview-php {
   .footer {
     // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png") no-repeat 0 8rem !important;
     // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png")  !important;
@@ -559,6 +565,7 @@
   right: 30px;
   bottom: 30px;
   z-index: 999;
+
   a {
     background: rgb(105, 95, 232);
     width: 50px;
@@ -614,6 +621,55 @@
   &:hover {
     .hover-text {
       display: block;
+    }
+  }
+}
+
+.page-template-templatesintegrate-google-drive-php,
+.page-template-templatesintegrate-google-drive-pricing-php,
+.page-template-templatesintegrate-google-drive-file-browser-php,
+.page-template-templatesintegrate-google-drive-file-uploader-php,
+.page-template-templatesintegrate-google-drive-photo-gallery-php,
+.page-template-templatesintegrate-google-drive-media-player-php,
+.page-template-templatesintegrate-google-drive-pricing-update-php,
+.page-template-templatesintegrate-google-drive-integrations-php {
+  .footer-massenger {
+    a {
+      background: #00BB45;
+    }
+  }
+}
+
+.page-template-templatesradio-player-php,
+.page-template-templatesradio-player-pricing-php,
+.page-template-templateshttp-streaming-php,
+.page-template-templatesmultiple-php {
+  .footer-massenger {
+    a {
+      background: #00BB45;
+    }
+  }
+}
+
+.page-template-templatesdracula-php,
+.page-template-dracula-pricing,
+.page-template-dracula-features,
+.page-template-dracula-compare {
+  .footer-massenger {
+    a {
+      background: rgba(102, 92, 224, 1);
+    }
+  }
+}
+
+.page-template-templatesessential-addons-for-contact-form-7-php,
+.page-template-templatesessential-addons-for-contact-form-7-pricing-php,
+.page-template-templatesessential-addons-for-contact-form-7-integrations-php,
+.page-template-templatesessential-addons-for-contact-form-7-features-php,
+.page-template-templatesessential-addons-for-contact-form-7-preview-php {
+  .footer-massenger {
+    a {
+      background: #1E62B9;
     }
   }
 }
