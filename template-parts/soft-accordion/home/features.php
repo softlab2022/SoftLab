@@ -1,61 +1,35 @@
 <?php
 
 $features = [
-    // 'google-photos' => [
-    // 	'title'       => 'Google Photos Integration',
-    // 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
-    // ],
-    // 'allow-specific-folders' => [
-    //     'title'       => 'Allow Specific Folders',
-    //     'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
-    // ],
-    // 'media-library' => [
-    //     'title'       => 'Google Drive Integration with Media Library',
-    //     'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
-    // ],
+
     'drag-drop-according'  => [
         'title'       => 'Drag & Drop Accordion Sorting',
         'description' => 'Rearranging your accordion items has never been this easy! With the Drag & Drop Accordion Sorting feature, you can effortlessly organize your content with just a simple drag—no coding, no hassle. Whether you\'re fine-tuning a layout or making quick updates, this feature should be your go-to solution. Say hello to an organized design in no time!',
     ],
 
-    // 'file-uploader' => [
-    //     'title'       => 'File Uploader',
-    //     'description' => 'Integrate Google Drive features a user-friendly file uploader to upload files into the Google Drive cloud platform from your website. Users can see an upload progress bar, file name, cancel uploading action, and media preview for improved interactions.',
-    // ],
+    'multiple-accordion-events' => [
+        'title'       => 'Multiple Accordion Events (Click, Mouse Hover & Autoplay)',
+        'description' => 'Want to make your accordion even more interactive? With Multiple Accordion Events, you can choose how your content unfolds—whether by a simple click, a smooth mouse hover, or an autoplay effect that flows seamlessly. This feature lets you customize your WordPress site’s user experience, offering just the right interaction to surprise your audience.',
+    ],
 
-    // 'gallery'         => [
-    //     'title'       => 'Gallery',
-    //     'description' => 'The Photo Gallery Module feature of the plugin can display your Google Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you create a stunning photo gallery and display it to your users.',
-    // ],
-    // 'slider-carousel' => [
-    //     'title'       => 'Slider Carousel',
-    //     'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
-    // ],
+    'color-size-position-customizations'         => [
+        'title'       => 'Color, Size & Position Customizations',
+        'description' => 'With color, size, and position customization, you can make your accordion truly yours! Capture every detail to match your site\'s style, whether you adjust colors to match your branding, resize for the perfect fit, or reposition for optimal layout. With these customization options, you have full creative control to transform your brand into something alive!',
+    ],
+    '20premium-themes' => [
+        'title'       => '20+ Premium Themes',
+        'description' => 'With 20+ modern premium themes & styles, you\'ll find the perfect look for your accordion in no time. Each theme is designed to be fully customizable, so you can adjust everything to match your style. Whether you\'re looking for something professional, bold, or creative, these themes have you covered.',
+    ],
 
-    // 'media-player' => [
-    //     'title'       => 'Media Player',
-    //     'description' => 'Play Google Drive audio and video files in a single player using the Media Player module from your website. This feature will also create a stunning playlist for all selected media files. All in all, you can save your hosting space by using this feature.',
-    // ],
+    'woocommerce-product-faqs' => [
+        'title'       => 'WooCommerce Product FAQs',
+        'description' => 'Make shopping easier for your customers with WooCommerce Product FAQs. By adding a FAQ section to each product, you can quickly address common questions and clear up any uncertainties—right on the product page. This helps your customers feel more confident in their purchase decisions while reducing the need for extra support. It’s a simple way to provide a better shopping experience, build trust, and boost conversions—all in one place!',
+    ],
 
-    // 'shortcode-builder' => [
-    //     'title'       => 'Shortcode Builder',
-    //     'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
-    // ],
-
-    // 'multiple-accounts' => [
-    //     'title'       => 'Multiple Google Accounts',
-    //     'description' => 'Linking multiple Google Accounts can be sometimes necessary for you. We provide you full freedom to link multiple Google Accounts and share files from your specific accounts.',
-    // ],
-
-    // 'page-builder' => [
-    //     'title'       => 'Popular Page Builder Support',
-    //     'description' => 'We provide a wide & popular page builder supports all over the world. That means Integrate Google Drive is 100% compatible with the most popular page builders. So you are up to go with whatever page builders are you using.',
-    // ],
-
-    // 'form' => [
-    //     'title'       => 'Popular Forms Connect & Easy to Use',
-    //     'description' => 'Integrate your favorite services and add advanced features with the official Form plugin integration feature. It’s time to build a powerful module for popular forms by using Integrate Google Drive plugin.',
-    // ],
+    'faq-schema-support' => [
+        'title'       => 'FAQ Schema Support',
+        'description' => 'FAQ Schema makes your FAQs shine in search results by displaying them directly in rich snippets. This helps potential customers find answers faster, boosting your click-through rates. By structuring your questions and answers with FAQ Schema, you’re not just improving user experience—you’re also giving your SEO a powerful boost.',
+    ],
 
 ];
 
@@ -67,10 +41,10 @@ $features = [
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="section-head text-center">
-                    <h1>Amazing Soft Accordion </br> Integration <span>Features</span></h1>
-                    <p>We provide the best and most productive integrations for Google Drive. You are near to
+                    <h1>Explore the standout features of <span>Soft Accordion</span></h1>
+                    <!-- <p>We provide the best and most productive integrations for Google Drive. You are near to
                         discovering some coolest features of Integrate Google Drive & easiest way to connect with us.
-                        Join the party now!</p>
+                        Join the party now!</p> -->
                 </div>
             </div>
         </div>
@@ -80,13 +54,13 @@ $features = [
         foreach ($features as $key => $feature) {
             $is_odd = $i % 2 == 0;
 
-            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders']);
+            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library', 'allow-specific-folders']);
             $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders']);
 
         ?>
             <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="feature-item-img  <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
                         <img class="img-fluid"
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/home/feature/<?php echo $key; ?>-illustration.png"
@@ -94,22 +68,29 @@ $features = [
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="feature-item-content text-center text-md-start">
 
                         <?php if (! $is_integration) { ?>
-                            <img class="img-fluid <?php echo $key; ?>-icon feature-icon"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/home/feature/<?php echo $key; ?>-icon.png"
-                                alt="<?php echo $feature['title']; ?>">
+                            <!-- <img class="img-fluid <?php //echo $key; 
+                                                        ?>-icon feature-icon"
+                                src="<?php //echo get_template_directory_uri(); 
+                                        ?>/assets/images/soft-accordion/home/feature/<?php //echo $key; 
+                                                                                        ?>-icon.png"
+                                alt="<?php //echo $feature['title']; 
+                                        ?>"> -->
                         <?php } ?>
 
                         <?php if ($is_integrations) { ?>
-                            <div class="feature-icon-new">
+                            <!-- <div class="feature-icon-new">
                                 <img class="img-fluid feature-icon"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/home/feature/<?php echo $key; ?>-icon.png"
-                                    alt="<?php echo $feature['title']; ?>">
+                                    src="<?php //echo get_template_directory_uri(); 
+                                            ?>/assets/images/soft-accordion/home/feature/<?php //echo $key; 
+                                                                                            ?>-icon.png"
+                                    alt="<?php //echo $feature['title']; 
+                                            ?>">
                                 <span class="new-text">New⚡</span>
-                            </div>
+                            </div> -->
                         <?php } ?>
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
@@ -160,7 +141,9 @@ $features = [
                             'shortcode-builder',
                             'google-photos'
                         ])) { ?>
-                            <a href="/soft-accordion-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
+                            <a href="#" class="feature-demo-btn">View demo</a>
+                            <!-- <a href="/soft-accordion-<?php //echo $key; 
+                                                            ?>" class="feature-demo-btn">View demo</a> -->
                         <?php } ?>
 
                     </div>

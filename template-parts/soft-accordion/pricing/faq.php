@@ -3,31 +3,65 @@
 $faqs = [
     [
         'question' => 'Is Soft Accordion Responsive?',
-        'answer'   => 'Yes',
+        'answer'   => 'Yes, Soft Accordion is fully responsive, ensuring it looks great on all devices, from desktops to mobiles.',
     ],
-    // [
-    // 	'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
-    // 	'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link a Google Drive folder to a user when they are registering on your site. You can also link a Google Drive folder to a user when they are registering on your site.',
-    // ],
-    // [
-    // 	'question' => 'Can I use multiple Google Drive accounts?',
-    // 	'answer'   => 'Yes, you can link to multiple Google Drive accounts to Integrate Google Drive plugin.',
-    // ],
-    // [
-    // 	'question' => 'Are there any usage limits?',
-    // 	'answer'   => 'If you want to stream any media files (Audio, Video), the files will be streamed directly from Google Drive. So there are no bandwidth or file size issues for your web host.But, when you download any zip files, these files will be downloaded to your site and can generate some traffic.',
-    // ],
-    // [
-    // 	'question' => 'Documents preview not working?',
-    // 	'answer'   => 'In order to preview documents, the files should have the sharing permission “Anyone with link can view”. The plugin will automatically change the sharing permission.
-
-    //     However, in some case the plugin isn’t able to manage the sharing permissions even with those setting enabled. In that case, please try to set the sharing permissions manually via the native Google Drive interface',
-    // ],
-    // [
-    // 	'question' => 'Why search module search results are slow?',
-    // 	'answer'   => 'The search module search results may take some time to show the search results. The time depends on the number of files that are selected for the search module.
-    //     If your selected folders for the search module have a lot of children files then the search module search results may take some time to show the search results.',
-    // ],
+    [
+    	'question' => 'Is Soft Accordion Compatible with Popular Themes?',
+    	'answer'   => 'Yes, Soft Accordion is fully compatible with popular themes (Divi, Astra, Kadence, Generatepress, and others), ensuring smooth integration and seamless functionality.',
+    ],
+    [
+    	'question' => 'Can I display multiple accordions on one page?',
+    	'answer'   => 'Yes, you can display multiple accordions on one page!',
+    ],
+    [
+    	'question' => 'Does this plugin offer FAQ Schema?',
+    	'answer'   => 'Yes, this plugin offers FAQ Schema support to help your FAQs appear in rich snippets on search engines.',
+    ],
+    [
+    	'question' => 'Can I re-order my FAQ accordions?',
+    	'answer'   => 'Yes, you can easily re-order your FAQ accordions using a simple drag-and-drop feature.',
+    ],
+    [
+    	'question' => 'Can I customize accordion colors & styles?',
+    	'answer'   => 'Yes, you can customize the accordion colors and styles to match your site’s design, giving you full control over its look and feel. Also, you can choose our pre-designed templates to fit your design.',
+    ],
+    [
+    	'question' => 'Is there a Gutenberg block to display FAQs?',
+    	'answer'   => 'A Gutenberg block to display FAQs is coming soon. This new feature will allow you to easily create and customize FAQ sections directly within the Gutenberg editor. You’ll be able to add, organize, and style your FAQs without any hassle, making it simpler to provide helpful information to your website visitors.',
+    ],
+    [
+    	'question' => 'Are the accordions searchable?',
+    	'answer'   => 'Yes, the accordions are searchable. They include a feature that allows users to search for any content within the accordion, making it easier to find specific information quickly.',
+    ],
+    [
+    	'question' => 'Is Soft Accordion Translation Ready?',
+    	'answer'   => 'Yes, Soft Accordion is translation-ready. This means it is designed to support multiple languages, allowing users to easily translate its content and interface to different languages for a global audience.',
+    ],
+    [
+    	'question' => 'Can I keep the accordion items active on load?',
+    	'answer'   => 'Yes, you can keep the accordion items active on load. This allows specific items to be opened by default when the page is loaded, providing a better user experience.',
+    ],
+    [
+    	'question' => 'Can I animate the accordions?',
+    	'answer'   => 'Yes, you can animate the accordions. The accordion items can be animated for smooth transitions, adding a dynamic and engaging effect when they open or close.',
+    ],
+    [
+    	'question' => 'Can I insert custom CSS if required?',
+    	'answer'   => 'Yes, you can insert custom CSS if required. This allows you to further customize the appearance of the accordion to match your site\'s design and styling preferences.',
+    ],
+    [
+    	'question' => 'Does Soft Accordion support Shortcode?',
+    	'answer'   => 'Yes, Soft Accordion supports shortcodes. This feature allows you to easily insert and display accordions anywhere on your site using simple shortcodes.',
+    ],
+    [
+    	'question' => 'Is Soft Accordion compatible with the multisite network?',
+    	'answer'   => 'Yes, Soft Accordion is compatible with multisite networks. It works smoothly across multiple sites within a network, allowing you to use the accordion functionality on all sites without issues.',
+    ],
+    [
+    	'question' => 'Will Soft Accordion slow down my site?',
+    	'answer'   => 'No, Soft Accordion will not slow down your site. The code is optimized for performance, ensuring that it runs smoothly without affecting your site’s speed.',
+    ],
+    
 ];
 
 ?>

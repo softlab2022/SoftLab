@@ -7,7 +7,7 @@ $products = [
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png',
 	],
 
-	'radio-player'           => [
+	'radio-player' => [
 		'title'       => 'Radio Player',
 		'description' => 'Radio Player is a WordPress plugin that allows you to create a radio station with a custom player.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/radio-icon.png',
@@ -25,15 +25,20 @@ $products = [
 	// 	'image'       => get_template_directory_uri() . '/assets/images/home/products/reader-mode.png',
 	// ],
 
-	'dracula-dark-mode'               => [
+	'dracula-dark-mode' => [
 		'title'       => 'Dracula Dark Mode',
 		'description' => 'Experience a user-friendly AI-powered dark mode solution for WordPress. Instantly give your website an elegant look.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
 	],
-	'essential-addons-for-contact-form-7'               => [
+	'essential-addons-for-contact-form-7'=> [
 		'title'       => 'Essential Addons <span class="e-addons-title">for Contact Form 7</span>',
 		'description' => 'Essential Addons for Contact Form 7 enhances Contact Form 7\'s capabilities.',
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/essential-addons-for-contact-form-7-icon.png',
+	],
+	'soft-accordion' => [
+		'title'       => 'Soft Accordion',
+		'description' => 'Create stylish, responsive & interactive FAQ accordion for WordPress website',
+		'image'       => get_template_directory_uri() . '/assets/images/home/products/soft-accordion.png',
 	],
 
 ];
@@ -64,10 +69,10 @@ $products = [
         <div class="row">
 
 			<?php foreach ( $products as $key => $product ) { ?>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6 products-items">
                     <a href="/<?php echo $key; ?>" class="products-item autoShow text-center product-<?php echo $key; ?>">
 
-                        <img class="products-icon img-fluid" src="<?php echo $product['image']; ?>" alt="WP Radio">
+                        <img class="products-icon img-fluid" src="<?php echo $product['image']; ?>" alt="Product Image">
 
                         <h5 class="product-title"><?php echo $product['title']; ?></h5>
                         <p class="product-description"><?php echo $product['description']; ?></p>

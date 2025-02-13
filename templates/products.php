@@ -317,6 +317,51 @@ $products = [
 			],
 		]
 	],
+
+	'soft-accordion' => [
+		'name'        => 'Soft Accordion',
+		'title'       => 'Interactive Features & Functionalities',
+		'description' => 'Soft Accordion offers interactive features to transform basic FAQs into modern, stylish, and user-friendly sections. With its collapsible design, this plugin ensures a responsive FAQ experience for your visitors on any device. Perfect for enhancing your WordPress site’s FAQ section with ease.',
+		'image'       => get_template_directory_uri() . '/assets/images/products//soft-accordion/soft-accordion-illus.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/products//soft-accordion/soft-accordion.png',
+		'features'    => [
+			[
+				'title' => 'Classic Editor (WYSIWYG) Support',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/classic-editor.png',
+			],
+
+			[
+				'title' => 'Drag & Drop Sorting',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/drag-drop.png',
+			],
+			[
+				'title' => 'WooCommerce Product FAQs',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/WooCommerce.png',
+			],
+			[
+				'title' => '16+ Premium Themes',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/premium-themes.png',
+			],
+			[
+				'title' => 'FAQ Schema Support',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/schema-support.png',
+			],
+			[
+				'title' => 'Ajax Pagination',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/ajax-pagination.png',
+			],
+			[
+				'title' => '50+ Animation Effects',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/animation-effects.png',
+			],
+			[
+				'title' => 'Google Fonts',
+				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/google-fonts.png',
+			],
+
+
+		]
+	],
 ];
 
 ?>
@@ -347,7 +392,7 @@ $products = [
 
 				<div class="col-md-6 product-content">
 
-					<div class="product-name d-flex  align-items-center">
+					<div class="product-name product-logo-<?php echo $key ?> d-flex  align-items-center">
 						<img class="img-fluid" src="<?php echo $product['logo']; ?>" alt="Product Logo">
 						<h3><?php echo $product['name']; ?></h3>
 					</div>

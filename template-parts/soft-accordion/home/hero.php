@@ -10,7 +10,7 @@
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/home/hero-img.png" alt="radio-img">
                             <div class="hero-how-butt ripple">
 
-                                <a class="my-btn-primary" href="https://www.youtube.com/embed/fB602AMIJ6M?si=8zx2VPCkHBF4KthV" data-lity><i class="fa fa-play"></i></a>
+                                <a class="my-btn-primary" href="https://youtu.be/pJUleqZG06Q?feature=shared" data-lity><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     <?php } ?>
@@ -18,7 +18,8 @@
                         Looking for an easy way to add a responsive FAQ accordion to your WordPress site? Meet Soft Accordion, the best accordion plugin for WordPress designed to transform your FAQ section into an eye-catching, interactive experience.
                     </p>
 
-                    <a href="#" class="btn get1">Try Live Demo</a>
+
+                    <a href="https://demo.softlabbd.com/?product=soft-accordion" class="btn get1">Try Live Demo</a>
                     <a href="/soft-accordion-pricing" class="btn get">Get Started</a>
                 </div>
             </div>
@@ -28,7 +29,7 @@
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/home/hero-img.png" alt="radio-img">
                     <div class="hero-how-butt ripple">
 
-                        <a class="my-btn-primary" href="https://www.youtube.com/embed/fB602AMIJ6M?si=8zx2VPCkHBF4KthV" data-lity><i class="fa fa-play"></i></a>
+                        <a class="my-btn-primary" href="https://youtu.be/pJUleqZG06Q?feature=shared" data-lity><i class="fa fa-play"></i></a>
 
                     </div>
                 </div>

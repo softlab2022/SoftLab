@@ -1,6 +1,7 @@
 /**---------- all section heding css Area ----------**/
 .section-head {
-margin-bottom: 50px;
+    margin-bottom: 50px;
+
     // margin-bottom: 50px;
     h1 {
         font-weight: 700;
@@ -22,6 +23,34 @@ margin-bottom: 50px;
         margin: auto;
     }
 
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            // padding: 2rem 0;
+            font-size: .9rem;
+        }
+
+    }
+
+    @media(max-width: 767.98px) {
+
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            // padding: 2rem 0;
+            font-size: .9rem;
+        }
+
+    }
 }
 
 /**---------- Hero Area ----------**/
@@ -382,7 +411,7 @@ margin-bottom: 50px;
 /**---------- soft-accordion-feature-area scss ----------**/
 
 .soft-accordion-features {
-    padding: 100px 0;
+    padding: 70px 0;
 
 
 
@@ -716,11 +745,14 @@ margin-bottom: 50px;
 
     @media(max-width: 767.98px) {
         padding: 0 0 20px 0;
-        margin-top: -100px;
+        margin-top: 50px;
 
         .section-head {
+            margin-bottom: 0;
+
             h1 {
                 font-size: 1.5rem;
+                margin-bottom: 0;
             }
 
             p {
@@ -945,199 +977,194 @@ margin-bottom: 50px;
 /**---------- ex-feature scss ----------**/
 #ex-feature {
     // background-color: #F5FCF4;
-    padding: 90px 0 90px 0;
+    padding: 0px 0 70px 0;
     position: relative;
-  
+
     .vector {
-      position: absolute;
-      top: 40%;
-      left: 0;
+        position: absolute;
+        top: 40%;
+        left: 0;
     }
-  
+
     .vector1 {
-      position: absolute;
-      top: 40%;
-      right: 0;
+        position: absolute;
+        top: 40%;
+        right: 0;
     }
-  
+
     .ex-feature-head {
-      margin-bottom: 5rem;
-      position: relative;
-  
-      h1 {
-        font-weight: bold;
-        font-size: 3.5rem;
-        color: $h1_color;
-  
-        span {
-          color: #01AA47;
-        }
-      }
-  
-      p {
-        margin: 2rem 0;
-        font-weight: 400;
-        font-size: 1rem;
-        color: $p_color;
-        max-width: 700px;
-      }
-    }
-  
-    .vector5 {
-      position: absolute;
-      top: 50%;
-      left: -25%;
-    }
-  
-    .ex-feature-item {
-      position: relative;
-      z-index: 99;
-      background-color: #fff;
-      box-shadow: 0px 1px 10px 0px rgba(85, 85, 85, 0.25);
-      padding: 10px;
-      border-radius: 8px;
-      min-height: 100%;
-      margin-bottom: 25px;
-      transition: all 0.3s ease-in-out;
-      padding: 20px;
-      text-align: start;
-  
-    //   &:hover {
-    //     box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
-    //     border-radius: 20px;
-  
-    //     .ex-logo {
-    //       transform: translateY(-8px);
-    //     }
-    //   }
-  
-      .ex-logo {
-        transition: all 0.3s ease-in-out;
-        margin-bottom: 10px;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-  
-        img {
-          width: 15%;
-        }
-        h4 {
-            font-weight: 700;
-            font-size: 1.2rem;
+        margin-bottom: 5rem;
+        position: relative;
+
+        h1 {
+            font-weight: bold;
+            font-size: 3.5rem;
             color: $h1_color;
-            line-height: 120%;
-            text-transform: capitalize;
-            margin-bottom: 0;
-          }
-      }
-  
-      .ex-text {
 
-  
+            span {
+                color: #01AA47;
+            }
+        }
+
         p {
-          font-weight: 400;
-          font-size: .9rem;
-          line-height: 150%;
-          color: $p_color;
+            margin: 2rem 0;
+            font-weight: 400;
+            font-size: 1rem;
+            color: $p_color;
+            max-width: 700px;
         }
-      }
     }
-  
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-      .ex-feature-head {
-        h1 {
-          font-size: 3rem;
-        }
-      }
-  
-      .ex-feature-item {
-  
-        .ex-text {
-          h4 {
-            margin-bottom: 15px;
-          }
-  
-          p {
-            padding: 0 5%;
-          }
-        }
-      }
+
+    .vector5 {
+        position: absolute;
+        top: 50%;
+        left: -25%;
     }
-  
-    @media (min-width: 768px) and (max-width: 991.98px) {
-      .ex-feature-head {
-  
-        h1 {
-          font-size: 2.5rem;
-        }
-      }
-  
-      .ex-feature-item {
-  
-        .ex-text {
-          h4 {
-            margin-bottom: 15px;
-          }
-  
-          p {
-            padding: 0 5%;
-          }
-        }
-      }
-    }
-  
-    @media (max-width: 767.98px) {
-      padding: 0;
-  
-      .ex-feature-head {
-        margin-bottom: 0;
-  
-        h1 {
-          font-size: 1.5rem;
-        }
-  
-        p {
-          font-size: .9rem;
-        }
-      }
-  
-      .ex-feature-item {
-        height: auto;
+
+    .ex-feature-item {
+        position: relative;
+        z-index: 99;
+        background-color: #fff;
+        box-shadow: 0px 1px 10px 0px rgba(85, 85, 85, 0.25);
+        padding: 10px;
+        border-radius: 8px;
+        min-height: 100%;
+        margin-bottom: 25px;
+        transition: all 0.3s ease-in-out;
         padding: 20px;
-        text-align: center;
-  
+        text-align: start;
+
+        //   &:hover {
+        //     box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+        //     border-radius: 20px;
+
+        //     .ex-logo {
+        //       transform: translateY(-8px);
+        //     }
+        //   }
+
         .ex-logo {
-          img {
-            width: 70px;
-          }
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            img {
+                width: 15%;
+            }
+
+            h4 {
+                font-weight: 700;
+                font-size: 1.2rem;
+                color: $h1_color;
+                line-height: 120%;
+                text-transform: capitalize;
+                margin-bottom: 0;
+            }
         }
-  
+
         .ex-text {
-          h4 {
-            margin-bottom: 15px;
-          }
-  
-          p {
-            padding: 0;
-          }
+
+
+            p {
+                font-weight: 400;
+                font-size: .9rem;
+                line-height: 150%;
+                color: $p_color;
+                text-align: left;
+            }
         }
-      }
-  
     }
-  
-  }
-  
 
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .ex-feature-head {
+            h1 {
+                font-size: 3rem;
+            }
+        }
 
+        .ex-feature-item {
 
+            .ex-text {
+                h4 {
+                    margin-bottom: 15px;
+                }
 
+                p {
+                    padding: 0 5%;
+                }
+            }
+        }
+    }
 
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .ex-feature-head {
 
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
 
+        .ex-feature-item {
 
+            .ex-text {
+                h4 {
+                    margin-bottom: 15px;
+                }
 
+                p {
+                    padding: 0 5%;
+                }
+            }
+        }
+    }
 
+    @media (max-width: 767.98px) {
+        padding: 0;
+        padding-top: 30px;
 
+        .ex-feature-head {
+            margin-bottom: 0;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+        }
+
+        .ex-feature-item {
+            height: auto;
+            padding: 20px;
+            text-align: center;
+
+            .ex-logo {
+                img {
+                    width: 50px;
+                }
+
+                h4 {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .ex-text {
+                h4 {
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    padding: 0;
+                }
+            }
+        }
+
+    }
+
+}
 
 /**---------- cta area scss ----------**/
 .soft-accordion-cta {

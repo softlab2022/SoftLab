@@ -2,27 +2,97 @@
 // Free Features
 $free_features = [
     'All Free Features',
+    'Accordion Layout  (MultiColumn, Horizontal)',
+    'Accordion Mode (custom open)',
+    'Activator Event (autoplay)',
+    'Display FAQ Search',
+    'Expand/Collapse All Button',
+    '20+ themes',
+    'Title Background Color Type (gradiend)',
+    'Title Padding',
+    'Title Icon',
+    'Title Icon Size',
+    'Description Padding',
+    '50+ Animation Effects',
+    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
+    'Google Fonts',
 ];
 
 // pro Features
 $pro_features = [
     'All Free Features',
+    'Accordion Layout  (MultiColumn, Horizontal)',
+    'Accordion Mode (custom open)',
+    'Activator Event (autoplay)',
+    'Display FAQ Search',
+    'Expand/Collapse All Button',
+    '20+ themes',
+    'Title Background Color Type (gradiend)',
+    'Title Padding',
+    'Title Icon',
+    'Title Icon Size',
+    'Description Padding',
+    '50+ Animation Effects',
+    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
+    'Google Fonts',
     // 'WooCommerce Checkout <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
 
 
 ];
 $free_integrations = [
     'All Free Features',
+    'Accordion Layout  (MultiColumn, Horizontal)',
+    'Accordion Mode (custom open)',
+    'Activator Event (autoplay)',
+    'Display FAQ Search',
+    'Expand/Collapse All Button',
+    '20+ themes',
+    'Title Background Color Type (gradiend)',
+    'Title Padding',
+    'Title Icon',
+    'Title Icon Size',
+    'Description Padding',
+    '50+ Animation Effects',
+    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
+    'Google Fonts',
 
 ];
 
 // Free Fields
 $free_fields = [
     'All Free Features',
+    'Accordion Layout  (MultiColumn, Horizontal)',
+    'Accordion Mode (custom open)',
+    'Activator Event (autoplay)',
+    'Display FAQ Search',
+    'Expand/Collapse All Button',
+    '20+ themes',
+    'Title Background Color Type (gradiend)',
+    'Title Padding',
+    'Title Icon',
+    'Title Icon Size',
+    'Description Padding',
+    '50+ Animation Effects',
+    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
+    'Google Fonts',
 ];
 // Pro Fields
 $pro_fields = [
     'All Free Features',
+    'Accordion Layout  (MultiColumn, Horizontal)',
+    'Accordion Mode (custom open)',
+    'Activator Event (autoplay)',
+    'Display FAQ Search',
+    'Expand/Collapse All Button',
+    '20+ themes',
+    'Title Background Color Type (gradiend)',
+    'Title Padding',
+    'Title Icon',
+    'Title Icon Size',
+    'Description Padding',
+    '50+ Animation Effects',
+    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
+    'Google Fonts',
     // 'Repeater Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"> </span>',
 
 ];

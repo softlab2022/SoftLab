@@ -183,10 +183,11 @@
     width: 85px;
     height: 85px;
   }
-
+.products-items {
+  margin-bottom: 20px;
+}
   .products-item {
     background-color: #fff;
-    padding: 20px;
     border-radius: 20px;
     box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.04);
     transition: all .3s ease-in-out;
@@ -194,7 +195,8 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    margin-bottom: 30px;
+    min-height: 100%;
+    width: 100%;
 
     .product-title {
       font-size: 1.5rem;
@@ -220,6 +222,7 @@
       margin-bottom: .5rem;
       color: $p_color;
       padding: 1rem 2rem;
+      margin: 0;
     }
 
     &.product-wp-radio {
@@ -301,6 +304,19 @@
       }
 
     }
+    &.product-soft-accordion {
+
+      .product-title {
+        color: #1E62B9;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #1E62B9;
+        }
+      }
+
+    }
 
     &:hover {
       box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.06);
@@ -327,6 +343,7 @@
     padding-bottom: 2rem;
     color: #555;
     transition: all .3s ease-in-out;
+    margin-top: auto;
 
     span {
       text-decoration: none;

@@ -75,6 +75,12 @@
       &.product-dracula-dark-mode:hover {
         color: #574DCC;
       }
+      &.product-essential-addons-for-contact-form-7:hover {
+        color: #3D6EC9;
+      }
+      &.product-soft-accordion:hover {
+        color: #3D6EC9;
+      }
 
     }
 
@@ -505,6 +511,7 @@
   }
 }
 
+
 .page-template-templatesoffers-php {
   .footer {
     // background: #3B2848;
@@ -667,6 +674,29 @@
 .page-template-templatesessential-addons-for-contact-form-7-integrations-php,
 .page-template-templatesessential-addons-for-contact-form-7-features-php,
 .page-template-templatesessential-addons-for-contact-form-7-preview-php {
+  .footer-massenger {
+    a {
+      background: #1E62B9;
+    }
+  }
+}
+
+.page-template-templatessoft-accordion-php,
+.page-template-templatessoft-accordion-pricing-php {
+  .footer {
+    // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png") no-repeat 0 8rem !important;
+    // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png")  !important;
+
+    background: linear-gradient(rgba(166, 205, 255, 0.7) 100%, #fff 0%), url("../images/cf7-extended/cf7-footer-bg.png") no-repeat center bottom;
+    padding: 60px 0 0 0;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+}
+
+.page-template-templatessoft-accordion-php,
+.page-template-templatessoft-accordion-pricing-php{
   .footer-massenger {
     a {
       background: #1E62B9;

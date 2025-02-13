@@ -4191,6 +4191,8 @@
 
   #pricing {
     .pricing-switcher {
+      margin-bottom: 5rem;
+
       .switch-text {
 
         &.annual {
@@ -4290,17 +4292,38 @@
       // border-top: 5px solid rgba(255, 255, 255, 0.589);
       // position: relative;
       // width: 100%;
-      display: flex;
+      // display: flex;
+      // justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+      // gap: 20px;
+      // padding: 20px;
       justify-content: center;
+
+      .crad-profesion {
+        margin-top: -42px;
+        margin-bottom: 42px;
+
+        .card-profe {
+          background: #1E62B9;
+          padding: 10px 15px;
+
+          h3 {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 0;
+          }
+        }
+      }
 
       .pricing-card {
         background: white;
-        width: 260px;
+        // width: 260px;
         text-align: center;
-        padding: 20px;
-        border-right: 1px solid #E4E4E7;
+        padding: 17px;
+
         border-bottom: 1px solid #E4E4E7;
-        border-left: 1px solid #E4E4E7;
         transition: linear .4s;
         // border-radius: 12px;
         min-height: 100%;
@@ -4308,17 +4331,33 @@
         flex-direction: column;
         justify-content: space-between;
 
-        &:hover {
-          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-          margin-top: -30px;
-          margin-bottom: 30px;
+        // &:hover {
+        //   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        //   margin-top: -30px;
+        //   margin-bottom: 30px;
+        // }
+        .pricing-btn {
+
+
+          .features-btn {
+            color: #1E62B9;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: capitalize;
+            text-align: left;
+            /* margin-top: auto; */
+            padding-top: 30px;
+            /* margin-bottom: auto; */
+            padding-bottom: 15px;
+            display: block;
+          }
         }
 
         .plan-name {
           font-weight: bold;
           // margin-bottom: 15px;
-          border-top: 1px solid #ddd;
-          border-bottom: 1px solid #ddd;
+          border-top: 1px solid #EAEEFF;
+          border-bottom: 1px solid #EAEEFF;
           padding: 10px 0;
         }
 
@@ -4329,14 +4368,20 @@
           // margin: auto auto 0 auto;
           margin-top: auto;
           padding: 12px 25px;
+          width: 100%;
         }
 
         &.card-green {
-          border-top: 3px solid #01C034;
+          // border-top: 3px solid #01C034;
           transition: linear .4s;
+          border: 1px solid #1E62B9;
+          border-right: 1px solid #1E62B9;
+          border-left: 1px solid #1E62B9;
+          border-bottom: 1px solid #1E62B9;
+         box-shadow: 0px 4px 30px rgba(85, 85, 85, 0.25);
 
           .price-text {
-            color: #00BB45;
+            color: #1E62B9;
           }
 
           // .feature-item {
@@ -4346,18 +4391,18 @@
           //   }
           // }
           .plan-name {
-            color: #01C034;
+            color: #1E62B9;
 
           }
 
           .btn-green {
-            background: #28a745;
+            background: #1E62B9;
           }
 
-          &:hover {
-            border-top: 16px solid #01C034;
-            border-color: #01C034;
-          }
+          // &:hover {
+          //   border-top: 16px solid #01C034;
+          //   border-color: #01C034;
+          // }
 
         }
 
@@ -4384,23 +4429,25 @@
             background: #fd7e14;
           }
 
-          &:hover {
-            border-top: 16px solid orange;
-            border-color: orange;
-          }
+          // &:hover {
+          //   border-top: 16px solid orange;
+          //   border-color: orange;
+          // }
 
         }
 
         &.card-blue {
-          border-top: 3px solid blue;
+          border-top: 3px solid#2FB44B;
+          border-right: 1px solid #E4E4E7;
+          border-left: 1px solid #E4E4E7;
           transition: linear .4s;
 
           .price-text {
-            color: blue;
+            color:#2FB44B;
           }
 
           .plan-name {
-            color: blue;
+            color:#2FB44B;
 
           }
 
@@ -4411,22 +4458,24 @@
           //   }
           // }
           .btn-blue {
-            background: #007bff;
+            background: #2FB44B;
           }
 
-          &:hover {
-            border-top: 16px solid blue;
-            border-color: blue;
-          }
+          // &:hover {
+          //   border-top: 16px solid blue;
+          //   border-color: blue;
+          // }
 
         }
 
-        &.card-blueviolet {
-          border-top: 3px solid blueviolet;
+        &.card-sky-blue {
+          border-top: 3px solid #02C4F0;
+          border-right: 1px solid #E4E4E7;
+          border-left: 1px solid #E4E4E7;
           transition: linear .4s;
 
           .price-text {
-            color: blueviolet;
+            color: #02C4F0;
           }
 
           // .feature-item {
@@ -4436,18 +4485,18 @@
           //   }
           // }
           .plan-name {
-            color: blueviolet;
+            color: #02C4F0;
 
           }
 
-          .btn-blueviolet {
-            background: blueviolet;
+          .btn-sky-blue {
+            background: #02C4F0;
           }
 
-          &:hover {
-            border-top: 16px solid blueviolet;
-            border-color: blueviolet;
-          }
+          // &:hover {
+          //   border-top: 16px solid blueviolet;
+          //   border-color: blueviolet;
+          // }
         }
 
         &.card-pink {
@@ -4473,15 +4522,15 @@
             background: #e83e8c;
           }
 
-          &:hover {
-            border-top: 16px solid #E83E8C;
-            border-color: #E83E8C;
-          }
+          // &:hover {
+          //   border-top: 16px solid #E83E8C;
+          //   border-color: #E83E8C;
+          // }
         }
 
         .price-text {
           margin: 1rem 0;
-          color: #00BB45;
+          color: #1E62B9;
 
           .price-value {
             font-size: 3rem;
@@ -4685,15 +4734,15 @@
           display: flex;
           align-items: center;
 
-          &:last-of-type {
-            padding-bottom: 30px;
-          }
+          // &:last-of-type {
+          //   padding-bottom: 30px;
+          // }
 
           i {
             width: 20px;
             height: 20px;
             line-height: 20px;
-            background: rgba(61, 110, 201, 1);
+            background: #1E62B9;
             font-size: .8rem;
             color: #fff;
             border-radius: 5px;
@@ -4728,7 +4777,7 @@
 
             .new {
               border-radius: 3px;
-              background: #00BB45;
+              background: #1E62B9;
               padding: 1px 4px;
               color: #fff;
               padding-right: 0px;
@@ -4754,7 +4803,56 @@
       }
 
     }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .pricing-switcher {
+        margin-bottom: 1.5rem;
+      }
 
+      .pricing-container {
+
+        // grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        .crad-profesion {
+          margin-top: 0px;
+          margin-bottom: 42px;
+        }
+        .pricing-card {
+          &.card-orange {
+            border-right: 1px solid #EAEEFF;
+          }
+          &.card-pink {
+            border-right: 1px solid #EAEEFF;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .pricing-switcher {
+        margin-bottom: 1.5rem;
+      }
+
+      .pricing-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+
+        .crad-profesion {
+          margin-top: 0px;
+          margin-bottom: 42px;
+        }
+        .pricing-card {
+          &.card-orange {
+            border: 1px solid #EAEEFF;
+            border-top: 3px solid orange;
+          }
+          &.card-pink {
+            border: 1px solid #EAEEFF;
+            border-top: 3px solid #E83E8C;
+          }
+        }
+      }
+    }
 
   }
 
@@ -4808,6 +4906,7 @@
   }
 
   #faq {
+    background: rgba(30, 98, 185, 0.10);
     .accordion-button:not(.collapsed) {
       .fa-chevron-down {
         transform: rotate(180deg);
@@ -4827,45 +4926,10 @@
 
 // integrate google drive pricing update
 .page-template-templatesintegrate-google-drive-pricing-update-php {
-  // #pricing-hero {
-  //   // background: url("../images/wp-froms/home/header-bg-shapes.png") no-repeat bottom / cover;
-
-  //   background: linear-gradient(181deg, rgba(30, 98, 185, 0.16) -37.99%, rgba(255, 255, 255, 0.40) 99.16%), url("../images/soft-accordion/home/hero-bg-shape.png") no-repeat right top;
-  //   background-size: contain;
-  //   background-repeat: no-repeat;
-
-
-  //   .hero-content {
-  //     h2 {
-  //       font-weight: 700;
-  //       font-size: 3.5rem;
-  //       line-height: 120%;
-  //       color: #151826;
-  //     }
-
-  //     p {
-  //       font-weight: 400;
-  //       font-size: 1rem;
-  //       color: #5C637E;
-  //       line-height: 150%;
-  //       padding-bottom: 120px;
-  //     }
-
-  //     @media(max-width: 767px) {
-  //       h2 {
-  //         font-size: 1.4rem;
-  //       }
-
-  //       p {
-  //         padding-bottom: 60px;
-  //       }
-  //     }
-  //   }
-  // }
 
   #pricing {
     .pricing-switcher {
-      margin-bottom: 8rem;
+      margin-bottom: 5rem;
 
       // .switch-text {
 
@@ -4975,7 +5039,7 @@
       justify-content: center;
 
       .crad-profesion {
-        margin-top: -68px;
+        margin-top: -42px;
         margin-bottom: 42px;
 
         .card-profe {
@@ -4996,9 +5060,8 @@
         // width: 260px;
         text-align: center;
         padding: 20px;
-        border-right: 1px solid #E4E4E7;
+
         border-bottom: 1px solid #E4E4E7;
-        border-left: 1px solid #E4E4E7;
         transition: linear .4s;
         // border-radius: 12px;
         min-height: 100%;
@@ -5049,7 +5112,10 @@
         &.card-green {
           // border-top: 3px solid #01C034;
           transition: linear .4s;
-          border-color: #00BB45;
+          border: 1px solid #00BB45;
+          border-right: 1px solid #00BB45;
+          border-left: 1px solid #00BB45;
+          border-bottom: 1px solid #00BB45;
 
           .price-text {
             color: #00BB45;
@@ -5109,6 +5175,8 @@
 
         &.card-blue {
           border-top: 3px solid blue;
+          border-right: 1px solid #E4E4E7;
+          border-left: 1px solid #E4E4E7;
           transition: linear .4s;
 
           .price-text {
@@ -5139,6 +5207,8 @@
 
         &.card-sky-blue {
           border-top: 3px solid #02C4F0;
+          border-right: 1px solid #E4E4E7;
+          border-left: 1px solid #E4E4E7;
           transition: linear .4s;
 
           .price-text {
@@ -5502,65 +5572,6 @@
     }
 
   }
-
-  // #industry {
-  //   background: url("../images/cf7-extended/indrasty/indarsty-bg-shape.png"), #3D6EC9 no-repeat;
-  //   background-size: cover;
-
-  //   .indu-item {
-  //     border-radius: 20px;
-  //     background: linear-gradient(180deg, #1E3F69 0%, #1E3F69 100%);
-
-  //     span {
-  //       color: #fff;
-  //     }
-  //   }
-  // }
-
-
-  // #features {
-  //   .features-header {
-  //     border-bottom: 1px solid rgba(61, 110, 201, 0.301);
-  //   }
-
-  //   .accordion-button {
-  //     background-color: #ecf0ff;
-
-  //     .fa-check-square {
-  //       color: #3D6EC9;
-  //     }
-
-  //     &:after {
-  //       display: none;
-  //     }
-  //   }
-
-  //   .accordion-collapse {
-  //     background-color: #ecf0ff;
-  //   }
-
-  //   .accordion-body {
-  //     border-top: 1px solid rgba(67, 83, 255, 0.2);
-  //   }
-
-  //   .accordion-button:not(.collapsed) {
-  //     .fa-chevron-down {
-  //       transform: rotate(180deg);
-  //       background-color: #3D6EC9;
-  //       color: #fff;
-  //     }
-  //   }
-  // }
-
-  // #faq {
-  //   .accordion-button:not(.collapsed) {
-  //     .fa-chevron-down {
-  //       transform: rotate(180deg);
-  //       background-color: #3D6EC9;
-  //       color: #fff;
-  //     }
-  //   }
-  // }
 
   @media (max-width: 767px) {
     #pricing-hero {

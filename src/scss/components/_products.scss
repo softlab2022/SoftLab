@@ -40,6 +40,7 @@
 
   .product-content {
 
+
     .product-name {
       background-color: #EEF2FE;
       padding: 10px;
@@ -72,7 +73,9 @@
         }
       }
     }
-
+    .product-logo-soft-accordion {
+      padding-left: 20px;
+    }
     .product-subtitle {
       color: $h1_color;
       font-weight: 700;
@@ -82,9 +85,11 @@
       span {
         color: #08CD87;
       }
+
       .title-cf7 {
         color: #1E62B9;
       }
+
       .title-drak {
         background: linear-gradient(90.74deg, #738CF6 0.42%, #FD82FF 52.1%, #4200FF 104.86%);
         -webkit-background-clip: text;
