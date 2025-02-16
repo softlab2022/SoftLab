@@ -28,6 +28,7 @@ $current_slug = basename(get_permalink());
     document.addEventListener("DOMContentLoaded", function() {
         const ctaSection = document.querySelector('.google-drive-cta');
         const footerSection = document.querySelector('footer');
+        let lastScrollTop = window.scrollY;
         let targetSelector;
 
         switch ("<?php echo $current_slug; ?>") {
@@ -42,31 +43,41 @@ $current_slug = basename(get_permalink());
                 return;
         }
 
+        const targetElement = document.querySelector(targetSelector);
+
         // Function to handle intersection changes
         const observer = new IntersectionObserver((entries) => {
+            const scrollTop = window.scrollY;
+            const scrollingUp = scrollTop < lastScrollTop;
+            lastScrollTop = scrollTop;
+
             entries.forEach(entry => {
-                if (entry.target === ctaSection && entry.isIntersecting) {
-                    document.body.classList.add('active-bg');
-                    document.querySelector(targetSelector).style.opacity = 0;
-                    footerSection.style.opacity = 0;
-                } else if (entry.target === ctaSection && !entry.isIntersecting) {
-                    document.body.classList.remove('active-bg');
-                    document.querySelector(targetSelector).style.opacity = 1;
-                    footerSection.style.opacity = 1;
+                if (entry.target === ctaSection) {
+                    if (entry.isIntersecting) {
+                        document.body.classList.add('active-bg');
+                        targetElement?.style.setProperty('opacity', 0);
+                        footerSection?.style.setProperty('opacity', 0);
+                    } else {
+                        document.body.classList.remove('active-bg');
+                        targetElement?.style.setProperty('opacity', 1);
+                        footerSection?.style.setProperty('opacity', 1);
+                    }
                 }
 
-                if (entry.target === footerSection && entry.isIntersecting) {
-                    document.body.classList.remove('active-bg');
-                    document.querySelector(targetSelector).style.opacity = 1;
-                    footerSection.style.opacity = 1;
-                } else if (entry.target === footerSection && entry.isIntersecting) {
-                    document.body.classList.add('active-bg');
-                    document.querySelector(targetSelector).style.opacity = 0;
-                    footerSection.style.opacity = 0;
+                if (entry.target === footerSection) {
+                    if (entry.isIntersecting) {
+                        document.body.classList.remove('active-bg');
+                        targetElement?.style.setProperty('opacity', 1);
+                        footerSection?.style.setProperty('opacity', 1);
+                    } else if (!entry.isIntersecting && scrollingUp) {
+                        document.body.classList.add('active-bg');
+                        targetElement?.style.setProperty('opacity', 0);
+                        footerSection?.style.setProperty('opacity', 0);
+                    }
                 }
             });
         }, {
-            rootMargin: '0% 0px -10% 0px',
+            rootMargin: '0px 0px -10% 0px',
             threshold: 0.5
         });
 
@@ -74,5 +85,6 @@ $current_slug = basename(get_permalink());
         if (footerSection) observer.observe(footerSection);
     });
 </script>
+
 <?php
 ?>

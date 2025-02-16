@@ -28,97 +28,132 @@ switch ($current_slug) {
     case 'radio-player':
 
 ?>
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const ctaSection = document.querySelector('#cta');
-                const footerSection = document.querySelector('footer');
+       <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const ctaSection = document.querySelector('#cta');
+        const footerSection = document.querySelector('footer');
+        let lastScrollTop = window.scrollY;
+        let targetSelector;
 
-                // Function to handle intersection changes
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.target === ctaSection && entry.isIntersecting) {
-                            document.body.classList.add('active-bg');
-                            document.querySelector('#radio-addon').style.opacity = 0;
-                            // document.querySelector('#testimonial').style.opacity = 0;
-                            document.querySelector('footer').style.opacity = 0;
-                        } else if (entry.target === ctaSection && !entry.isIntersecting) {
-                            document.body.classList.remove('active-bg');
-                            document.querySelector('#radio-addon').style.opacity = 1;
-                            // document.querySelector('#testimonial').style.opacity = 1;
-                            document.querySelector('footer').style.opacity = 1;
-                        }
+        switch ("<?php echo $current_slug; ?>") {
+            case 'radio-player':
+                targetSelector = '#radio-addon';
+                break;
+            case 'radio-player-pricing':
+                targetSelector = '#testimonial';
+                break;
+            default:
+                return;
+        }
 
-                        if (entry.target === footerSection && entry.isIntersecting) {
-                            document.body.classList.remove('active-bg');
-                            // document.querySelector('footer').style.visibility = "visibile";
-                            document.querySelector('#radio-addon').style.opacity = 1;
-                            // document.querySelector('#testimonial').style.opacity = 1;
-                            document.querySelector('footer').style.opacity = 1;
-                        } else if (entry.target === footerSection && entry.isIntersecting) {
-                            document.body.classList.add('active-bg');
-                            // document.querySelector('footer').style.visibility = "visibile";
-                            document.querySelector('#radio-addon').style.opacity = 0;
-                            // document.querySelector('#testimonial').style.opacity = 0;
-                            document.querySelector('footer').style.opacity = 0;
-                        }
-                    });
-                }, {
-                    rootMargin: '0px 0px -10% 0px',
-                    threshold: 0.5
-                });
+        const targetElement = document.querySelector(targetSelector);
 
-                if (ctaSection) observer.observe(ctaSection);
-                if (footerSection) observer.observe(footerSection);
+        // Function to handle intersection changes
+        const observer = new IntersectionObserver((entries) => {
+            const scrollTop = window.scrollY;
+            const scrollingUp = scrollTop < lastScrollTop;
+            lastScrollTop = scrollTop;
+
+            entries.forEach(entry => {
+                if (entry.target === ctaSection) {
+                    if (entry.isIntersecting) {
+                        document.body.classList.add('active-bg');
+                        targetElement?.style.setProperty('opacity', 0);
+                        footerSection?.style.setProperty('opacity', 0);
+                    } else {
+                        document.body.classList.remove('active-bg');
+                        targetElement?.style.setProperty('opacity', 1);
+                        footerSection?.style.setProperty('opacity', 1);
+                    }
+                }
+
+                if (entry.target === footerSection) {
+                    if (entry.isIntersecting) {
+                        document.body.classList.remove('active-bg');
+                        targetElement?.style.setProperty('opacity', 1);
+                        footerSection?.style.setProperty('opacity', 1);
+                    } else if (!entry.isIntersecting && scrollingUp) {
+                        document.body.classList.add('active-bg');
+                        targetElement?.style.setProperty('opacity', 0);
+                        footerSection?.style.setProperty('opacity', 0);
+                    }
+                }
             });
-        </script>
+        }, {
+            rootMargin: '0px 0px -10% 0px',
+            threshold: 0.5
+        });
+
+        if (ctaSection) observer.observe(ctaSection);
+        if (footerSection) observer.observe(footerSection);
+    });
+</script>
+
     <?php
         break;
 
     case 'radio-player-pricing':
     ?>
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const ctaSection = document.querySelector('#cta');
-                const footerSection = document.querySelector('footer');
+     <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const ctaSection = document.querySelector('#cta');
+        const footerSection = document.querySelector('footer');
+        let lastScrollTop = window.scrollY;
+        let targetSelector;
 
-                // Function to handle intersection changes
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.target === ctaSection && entry.isIntersecting) {
-                            document.body.classList.add('active-bg');
-                            // document.querySelector('#radio-addon').style.opacity = 0;
-                            document.querySelector('#testimonial').style.opacity = 0;
-                            document.querySelector('footer').style.opacity = 0;
-                        } else if (entry.target === ctaSection && !entry.isIntersecting) {
-                            document.body.classList.remove('active-bg');
-                            // document.querySelector('#radio-addon').style.opacity = 1;
-                            document.querySelector('#testimonial').style.opacity = 1;
-                            document.querySelector('footer').style.opacity = 1;
-                        }
+        switch ("<?php echo $current_slug; ?>") {
+            case 'radio-player':
+                targetSelector = '#radio-addon';
+                break;
+            case 'radio-player-pricing':
+                targetSelector = '#testimonial';
+                break;
+            default:
+                return;
+        }
 
-                        if (entry.target === footerSection && entry.isIntersecting) {
-                            document.body.classList.remove('active-bg');
-                            // document.querySelector('footer').style.visibility = "visibile";
-                            // document.querySelector('#radio-addon').style.opacity = 1;
-                            document.querySelector('#testimonial').style.opacity = 1;
-                            document.querySelector('footer').style.opacity = 1;
-                        } else if (entry.target === footerSection && entry.isIntersecting) {
-                            document.body.classList.add('active-bg');
-                            // document.querySelector('footer').style.visibility = "visibile";
-                            // document.querySelector('#radio-addon').style.opacity = 0;
-                            document.querySelector('#testimonial').style.opacity = 0;
-                            document.querySelector('footer').style.opacity = 0;
-                        }
-                    });
-                }, {
-                    rootMargin: '0px 0px -10% 0px',
-                    threshold: 0.5
-                });
+        const targetElement = document.querySelector(targetSelector);
 
-                if (ctaSection) observer.observe(ctaSection);
-                if (footerSection) observer.observe(footerSection);
+        // Function to handle intersection changes
+        const observer = new IntersectionObserver((entries) => {
+            const scrollTop = window.scrollY;
+            const scrollingUp = scrollTop < lastScrollTop;
+            lastScrollTop = scrollTop;
+
+            entries.forEach(entry => {
+                if (entry.target === ctaSection) {
+                    if (entry.isIntersecting) {
+                        document.body.classList.add('active-bg');
+                        targetElement?.style.setProperty('opacity', 0);
+                        footerSection?.style.setProperty('opacity', 0);
+                    } else {
+                        document.body.classList.remove('active-bg');
+                        targetElement?.style.setProperty('opacity', 1);
+                        footerSection?.style.setProperty('opacity', 1);
+                    }
+                }
+
+                if (entry.target === footerSection) {
+                    if (entry.isIntersecting) {
+                        document.body.classList.remove('active-bg');
+                        targetElement?.style.setProperty('opacity', 1);
+                        footerSection?.style.setProperty('opacity', 1);
+                    } else if (!entry.isIntersecting && scrollingUp) {
+                        document.body.classList.add('active-bg');
+                        targetElement?.style.setProperty('opacity', 0);
+                        footerSection?.style.setProperty('opacity', 0);
+                    }
+                }
             });
-        </script>
+        }, {
+            rootMargin: '0px 0px -10% 0px',
+            threshold: 0.5
+        });
+
+        if (ctaSection) observer.observe(ctaSection);
+        if (footerSection) observer.observe(footerSection);
+    });
+</script>
 <?php
         break;
 

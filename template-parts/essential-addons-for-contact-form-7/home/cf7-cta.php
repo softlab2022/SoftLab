@@ -20,7 +20,6 @@
 </section>
 
 
-
 <?php
 $current_slug = basename(get_permalink());
 
@@ -30,27 +29,39 @@ function setupObserver($ctaSelector, $footerSelector, $toggleElement) {
         document.addEventListener("DOMContentLoaded", function() {
             const ctaSection = document.querySelector('<?php echo $ctaSelector; ?>');
             const footerSection = document.querySelector('<?php echo $footerSelector; ?>');
+            const toggleElement = document.querySelector('<?php echo $toggleElement; ?>');
+            let lastScrollTop = window.scrollY;
+
+            if (!ctaSection || !footerSection || !toggleElement) return;
 
             const observer = new IntersectionObserver((entries) => {
+                const scrollTop = window.scrollY;
+                const scrollingUp = scrollTop < lastScrollTop;
+                lastScrollTop = scrollTop;
+
                 entries.forEach(entry => {
-                    if (entry.target === ctaSection && entry.isIntersecting) {
-                        document.body.classList.add('active-bg');
-                        document.querySelector('<?php echo $toggleElement; ?>').style.opacity = 0;
-                        footerSection.style.opacity = 0;
-                    } else if (entry.target === ctaSection && !entry.isIntersecting) {
-                        document.body.classList.remove('active-bg');
-                        document.querySelector('<?php echo $toggleElement; ?>').style.opacity = 1;
-                        footerSection.style.opacity = 1;
+                    if (entry.target === ctaSection) {
+                        if (entry.isIntersecting) {
+                            document.body.classList.add('active-bg');
+                            toggleElement?.style.setProperty('opacity', 0);
+                            footerSection?.style.setProperty('opacity', 0);
+                        } else {
+                            document.body.classList.remove('active-bg');
+                            toggleElement?.style.setProperty('opacity', 1);
+                            footerSection?.style.setProperty('opacity', 1);
+                        }
                     }
 
-                    if (entry.target === footerSection && entry.isIntersecting) {
-                        document.body.classList.remove('active-bg');
-                        document.querySelector('<?php echo $toggleElement; ?>').style.opacity = 1;
-                        footerSection.style.opacity = 1;
-                    } else if (entry.target === footerSection && entry.isIntersecting) {
-                        document.body.classList.add('active-bg');
-                        document.querySelector('<?php echo $toggleElement; ?>').style.opacity = 0;
-                        footerSection.style.opacity = 0;
+                    if (entry.target === footerSection) {
+                        if (entry.isIntersecting) {
+                            document.body.classList.remove('active-bg');
+                            toggleElement?.style.setProperty('opacity', 1);
+                            footerSection?.style.setProperty('opacity', 1);
+                        } else if (!entry.isIntersecting && scrollingUp) {
+                            document.body.classList.add('active-bg');
+                            toggleElement?.style.setProperty('opacity', 0);
+                            footerSection?.style.setProperty('opacity', 0);
+                        }
                     }
                 });
             }, {
@@ -58,8 +69,8 @@ function setupObserver($ctaSelector, $footerSelector, $toggleElement) {
                 threshold: 0.5
             });
 
-            if (ctaSection) observer.observe(ctaSection);
-            if (footerSection) observer.observe(footerSection);
+            observer.observe(ctaSection);
+            observer.observe(footerSection);
         });
     </script>
 <?php

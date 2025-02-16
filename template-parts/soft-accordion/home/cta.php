@@ -15,7 +15,122 @@
                 </div>
             </div>
 
-            
+
         </div>
     </div>
 </section>
+
+
+<?php
+$current_slug = basename(get_permalink());
+
+
+switch ($current_slug) {
+    case 'soft-accordion':
+
+?>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const ctaSection = document.querySelector('.soft-accordion-cta');
+                const footerSection = document.querySelector('footer');
+                let lastScrollTop = window.scrollY;
+
+                // Function to handle intersection changes
+                const observer = new IntersectionObserver((entries) => {
+                    const scrollTop = window.scrollY;
+                    const scrollingUp = scrollTop < lastScrollTop;
+                    lastScrollTop = scrollTop;
+
+                    entries.forEach(entry => {
+                        if (entry.target === ctaSection) {
+                            if (entry.isIntersecting) {
+                                document.body.classList.add('active-bg');
+                                document.querySelector('#ex-feature')?.style.setProperty('opacity', 0);
+                                document.querySelector('footer')?.style.setProperty('opacity', 0);
+                            } else {
+                                document.body.classList.remove('active-bg');
+                                document.querySelector('#ex-feature')?.style.setProperty('opacity', 1);
+                                document.querySelector('footer')?.style.setProperty('opacity', 1);
+                            }
+                        }
+
+                        if (entry.target === footerSection) {
+                            if (entry.isIntersecting) {
+                                document.body.classList.remove('active-bg');
+                                document.querySelector('#ex-feature')?.style.setProperty('opacity', 1);
+                                document.querySelector('footer')?.style.setProperty('opacity', 1);
+                            } else if (!entry.isIntersecting && scrollingUp) {
+                                document.body.classList.add('active-bg');
+                                document.querySelector('#ex-feature')?.style.setProperty('opacity', 0);
+                                document.querySelector('footer')?.style.setProperty('opacity', 0);
+                            }
+                        }
+                    });
+                }, {
+                    rootMargin: '0px 0px -10% 0px',
+                    threshold: 0.5
+                });
+
+                if (ctaSection) observer.observe(ctaSection);
+                if (footerSection) observer.observe(footerSection);
+            });
+        </script>
+    <?php
+        break;
+
+    case 'soft-accordion-pricing':
+    ?>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const ctaSection = document.querySelector('.soft-accordion-cta');
+                const footerSection = document.querySelector('footer');
+                let lastScrollTop = window.scrollY;
+
+                // Function to handle intersection changes
+                const observer = new IntersectionObserver((entries) => {
+                    const scrollTop = window.scrollY;
+                    const scrollingUp = scrollTop < lastScrollTop;
+                    lastScrollTop = scrollTop;
+
+                    entries.forEach(entry => {
+                        if (entry.target === ctaSection) {
+                            if (entry.isIntersecting) {
+                                document.body.classList.add('active-bg');
+                                document.querySelector('#faq-accordion')?.style.setProperty('opacity', 0);
+                                document.querySelector('footer')?.style.setProperty('opacity', 0);
+                            } else {
+                                document.body.classList.remove('active-bg');
+                                document.querySelector('#faq-accordion')?.style.setProperty('opacity', 1);
+                                document.querySelector('footer')?.style.setProperty('opacity', 1);
+                            }
+                        }
+
+                        if (entry.target === footerSection) {
+                            if (entry.isIntersecting) {
+                                document.body.classList.remove('active-bg');
+                                document.querySelector('#faq-accordion')?.style.setProperty('opacity', 1);
+                                document.querySelector('footer')?.style.setProperty('opacity', 1);
+                            } else if (!entry.isIntersecting && scrollingUp) {
+                                document.body.classList.add('active-bg');
+                                document.querySelector('#faq-accordion')?.style.setProperty('opacity', 0);
+                                document.querySelector('footer')?.style.setProperty('opacity', 0);
+                            }
+                        }
+                    });
+                }, {
+                    rootMargin: '0px 0px -10% 0px',
+                    threshold: 0.5
+                });
+
+                if (ctaSection) observer.observe(ctaSection);
+                if (footerSection) observer.observe(footerSection);
+            });
+        </script>
+<?php
+        break;
+
+    default:
+        break;
+}
+
+?>
