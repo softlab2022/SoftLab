@@ -371,7 +371,7 @@ $pro_fields = [
                 plugin_id: '17606',
                 plan_id: '29293',
                 public_key: 'pk_2bab7a91a4885a97121c0b576b886',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/soft-accordion.png",
             });
 
             // Handle all buy button clicks dynamically
