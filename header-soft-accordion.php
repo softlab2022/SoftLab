@@ -89,7 +89,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             <?php if (wp_is_mobile()) { ?>
                                 <span class="mobile-close-btn d-flex justify-content-between align-items-center">
                                     <a class="navbar-brand brand-dracula logo-btn" href="/soft-accordion/" title="Soft Accordion" rel="home">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/soft-accordion-logo-withe.png" alt="Soft Accordion">
+                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/soft-accordion/soft-accordion-logo-white.png" alt="Soft Accordion">
                                     </a>
                                     <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
                                 </span>

@@ -57,16 +57,16 @@
     }
   }
 
-  @media (max-width: 1199.98px) {
+  @media (min-width: 768px) and (max-width: 1199.98px) {
 
     .hero-content {
       h2 {
-        font-size: 2rem;
+        font-size: 2.8rem;
       }
     }
   }
 
-  @media(max-width: 767px) {
+  @media(max-width: 767.98px) {
     padding: 110px 0 300px 0;
 
     .hero-content {
@@ -4159,34 +4159,6 @@
     background: linear-gradient(181deg, rgba(30, 98, 185, 0.16) -37.99%, rgba(255, 255, 255, 0.40) 99.16%), url("../images/soft-accordion/home/hero-bg-shape.png") no-repeat right top;
     background-size: contain;
     background-repeat: no-repeat;
-
-
-    .hero-content {
-      h2 {
-        font-weight: 700;
-        font-size: 3.5rem;
-        line-height: 120%;
-        color: #151826;
-      }
-
-      p {
-        font-weight: 400;
-        font-size: 1rem;
-        color: #5C637E;
-        line-height: 150%;
-        padding-bottom: 120px;
-      }
-
-      @media(max-width: 767px) {
-        h2 {
-          font-size: 1.4rem;
-        }
-
-        p {
-          padding-bottom: 60px;
-        }
-      }
-    }
   }
 
   #pricing {
@@ -4378,7 +4350,7 @@
           border-right: 1px solid #1E62B9;
           border-left: 1px solid #1E62B9;
           border-bottom: 1px solid #1E62B9;
-         box-shadow: 0px 4px 30px rgba(85, 85, 85, 0.25);
+          box-shadow: 0px 4px 30px rgba(85, 85, 85, 0.25);
 
           .price-text {
             color: #1E62B9;
@@ -4443,11 +4415,11 @@
           transition: linear .4s;
 
           .price-text {
-            color:#2FB44B;
+            color: #2FB44B;
           }
 
           .plan-name {
-            color:#2FB44B;
+            color: #2FB44B;
 
           }
 
@@ -4803,9 +4775,9 @@
       }
 
     }
-    @media (min-width: 992px) and (max-width: 1199.98px) {
-      
-    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+
     @media (min-width: 768px) and (max-width: 991.98px) {
       .pricing-switcher {
         margin-bottom: 1.5rem;
@@ -4818,10 +4790,12 @@
           margin-top: 0px;
           margin-bottom: 42px;
         }
+
         .pricing-card {
           &.card-orange {
             border-right: 1px solid #EAEEFF;
           }
+
           &.card-pink {
             border-right: 1px solid #EAEEFF;
           }
@@ -4841,11 +4815,13 @@
           margin-top: 0px;
           margin-bottom: 42px;
         }
+
         .pricing-card {
           &.card-orange {
             border: 1px solid #EAEEFF;
             border-top: 3px solid orange;
           }
+
           &.card-pink {
             border: 1px solid #EAEEFF;
             border-top: 3px solid #E83E8C;
@@ -4907,6 +4883,7 @@
 
   #faq {
     background: rgba(30, 98, 185, 0.10);
+
     .accordion-button:not(.collapsed) {
       .fa-chevron-down {
         transform: rotate(180deg);

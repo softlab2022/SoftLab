@@ -1281,7 +1281,7 @@
 /* Normal body background */
 body {
     // background: transparent;
-    transition: background 0.4s linear; 
+    transition: background 0.4s linear;
 }
 
 body.active-bg .soft-accordion-cta {
@@ -1316,6 +1316,14 @@ body.active-bg .soft-accordion-cta {
 
         .bt1 {
             margin-left: 0px;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .cta-actions {
+            a {
+                padding: 24px 34px;
+            }
         }
     }
 

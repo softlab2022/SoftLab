@@ -14,12 +14,12 @@
 
       .my-btn-primary {
         i {
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
+          background: #7CA4F4;
           width: 80px;
           height: 80px;
           line-height: 80px;
           border-radius: 50%;
-          border: 2px solid #BEAAC8;
+          border: 2px solid #7CA4F4;
           color: #fff;
           font-size: 25px;
           cursor: pointer;
@@ -65,33 +65,33 @@
       color: #fff;
       width: 80px;
       height: 80px;
-      background-color: #7249AC;
+      background-color: #777DF0;
       border-radius: 50%;
-      -webkit-animation: ripple 1s linear infinite;
-      animation: ripple 1s linear infinite;
+      -webkit-animation: ripples 1s linear infinite;
+      animation: ripples 1s linear infinite;
     }
 
-    @-webkit-keyframes ripple {
+    @-webkit-keyframes ripples {
       0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-        box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+        -webkit-box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
+        box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
       }
 
       100% {
-        -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-        box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+        -webkit-box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+        box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
       }
     }
 
-    @keyframes ripple {
+    @keyframes ripples {
       0% {
-        -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-        box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+        -webkit-box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
+        box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
       }
 
       100% {
-        -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-        box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+        -webkit-box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+        box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
       }
     }
   }
@@ -119,12 +119,12 @@
 
         .my-btn-primary {
           i {
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0.35) 100%);
+            background: #7CA4F4;
             width: 80px;
             height: 80px;
             line-height: 80px;
             border-radius: 50%;
-            border: 2px solid #BEAAC8;
+            border: 2px solid #7CA4F4;
             color: #fff;
             font-size: 25px;
             cursor: pointer;
@@ -170,33 +170,33 @@
         color: #fff;
         width: 80px;
         height: 80px;
-        background-color: #7249AC;
+        background-color: #7CA4F4;
         border-radius: 50%;
-        -webkit-animation: ripple 1s linear infinite;
-        animation: ripple 1s linear infinite;
+        -webkit-animation: ripples 1s linear infinite;
+        animation: ripples 1s linear infinite;
       }
 
-      @-webkit-keyframes ripple {
+      @-webkit-keyframes ripples {
         0% {
-          -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-          box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+          -webkit-box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
+          box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
         }
 
         100% {
-          -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-          box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+          -webkit-box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+          box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
         }
       }
 
-      @keyframes ripple {
+      @keyframes ripples {
         0% {
-          -webkit-box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
-          box-shadow: 0 0 0 0 rgba(189, 142, 210, 0.3), 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3);
+          -webkit-box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
+          box-shadow: 0 0 0 0 rgba(119, 125, 240, 0.3), 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3);
         }
 
         100% {
-          -webkit-box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
-          box-shadow: 0 0 0 10px rgba(189, 142, 210, 0.3), 0 0 0 30px rgba(189, 142, 210, 0.3), 0 0 0 60px rgba(189, 142, 210, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+          -webkit-box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
+          box-shadow: 0 0 0 10px rgba(119, 125, 240, 0.3), 0 0 0 30px rgba(119, 125, 240, 0.3), 0 0 0 60px rgba(119, 125, 240, 0.3), 0 0 0 90px rgba(189, 142, 210, 0);
         }
       }
     }
@@ -1282,119 +1282,119 @@
       margin: auto;
       padding-bottom: 60px;
 
-    span {
-      color: $radio_player_color;
-    }
-  }
-}
-
-.fun-item {
-  background: #F9FAFF;
-  border-radius: 20px;
-  padding: 10px;
-  align-items: center;
-
-  img {
-    margin-right: 15px;
-  }
-
-  .contant {
-
-    .te-count {
       span {
-        font-weight: 700;
-        font-size: 1.7rem;
-        line-height: 120%;
-        color: #000;
+        color: $radio_player_color;
       }
-
-      h5 {
-        font-weight: 700;
-        font-size: 1.7rem;
-        line-height: 120%;
-        color: #000;
-        margin-bottom: 0;
-      }
-    }
-
-    h6 {
-      font-weight: 400;
-      font-size: .9rem;
-      line-height: 150%;
-      color: #5c637e;
-    }
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  padding: 50px 0;
-
-  .funfact-head {
-    h2 {
-      font-size: 2rem;
-      padding-bottom: 30px;
     }
   }
 
   .fun-item {
-    margin-bottom: 15px;
-
-    .contant {
-      .te-count {
-        span {
-          font-size: 1.5rem;
-        }
-
-        h5 {
-          font-size: 1.5rem;
-        }
-      }
-
-      h6 {
-        font-size: .8rem;
-      }
-    }
-  }
-}
-
-@media (max-width: 767.98px) {
-  padding: 30px 0 0px 0;
-
-  .funfact-head {
-    h2 {
-      font-size: 1.5rem;
-      padding-bottom: 10px !important;
-      max-width: 350px;
-      margin: 0 auto;
-    }
-  }
-
-  .fun-item {
-    margin-bottom: 10px;
+    background: #F9FAFF;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
 
     img {
-      margin-right: 7px;
-      width: 31px;
-      height: auto;
+      margin-right: 15px;
     }
 
     .contant {
+
       .te-count {
         span {
-          font-size: 1.1rem;
+          font-weight: 700;
+          font-size: 1.7rem;
+          line-height: 120%;
+          color: #000;
         }
 
         h5 {
-          font-size: 1.1rem;
+          font-weight: 700;
+          font-size: 1.7rem;
+          line-height: 120%;
+          color: #000;
+          margin-bottom: 0;
         }
       }
 
       h6 {
-        font-size: .8rem;
+        font-weight: 400;
+        font-size: .9rem;
+        line-height: 150%;
+        color: #5c637e;
       }
     }
   }
-}
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 50px 0;
+
+    .funfact-head {
+      h2 {
+        font-size: 2rem;
+        padding-bottom: 30px;
+      }
+    }
+
+    .fun-item {
+      margin-bottom: 15px;
+
+      .contant {
+        .te-count {
+          span {
+            font-size: 1.5rem;
+          }
+
+          h5 {
+            font-size: 1.5rem;
+          }
+        }
+
+        h6 {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 30px 0 0px 0;
+
+    .funfact-head {
+      h2 {
+        font-size: 1.5rem;
+        padding-bottom: 10px !important;
+        max-width: 350px;
+        margin: 0 auto;
+      }
+    }
+
+    .fun-item {
+      margin-bottom: 10px;
+
+      img {
+        margin-right: 7px;
+        width: 31px;
+        height: auto;
+      }
+
+      .contant {
+        .te-count {
+          span {
+            font-size: 1.1rem;
+          }
+
+          h5 {
+            font-size: 1.1rem;
+          }
+        }
+
+        h6 {
+          font-size: .8rem;
+        }
+      }
+    }
+  }
 
 }
 
@@ -1650,35 +1650,37 @@ body.active-bg #cta {
   transition: linear 0.4s;
   transform: scale(.95);
   border-radius: 12px;
-  .cta-content {
-      h3 {
-          margin-bottom: 2rem;
-          font-size: 2.8rem;
-      }
 
-      p {
-          margin-bottom: 0;
-          font-size: 1.4rem;
-          padding-right: 0rem;
-      }
+  .cta-content {
+    h3 {
+      margin-bottom: 2rem;
+      font-size: 2.8rem;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: 1.4rem;
+      padding-right: 0rem;
+    }
   }
 
   .cta-actions {
-      a {
-          padding: 20px 33px;
-          border-radius: 5px;
-          font-size: 1.2rem;
-          // margin: 0 10px;
-      }
+    a {
+      padding: 20px 33px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      // margin: 0 10px;
+    }
 
-      .bt {
-        margin-right: 20px;
-      }
+    .bt {
+      margin-right: 20px;
+    }
 
-      .bt1 {
-          margin-left: 0px;
-      }
+    .bt1 {
+      margin-left: 0px;
+    }
   }
+
   @media (min-width: 768px) and (max-width: 991.98px) {
     padding: 50px 0;
 
@@ -1698,6 +1700,7 @@ body.active-bg #cta {
         font-size: 1.5rem;
         margin-bottom: 1rem;
       }
+
       p {
         font-size: 1rem;
       }

@@ -164,7 +164,7 @@
       color: $h1_color;
       line-height: 120%;
 
-   
+
     }
 
     p {
@@ -183,9 +183,11 @@
     width: 85px;
     height: 85px;
   }
-.products-items {
-  margin-bottom: 20px;
-}
+
+  .products-items {
+    margin-bottom: 20px;
+  }
+
   .products-item {
     background-color: #fff;
     border-radius: 20px;
@@ -204,6 +206,7 @@
       color: $h1_color;
       text-decoration: none;
       text-transform: capitalize;
+
       .e-addons-title {
         color: #4D4D4D;
         font-family: Inter;
@@ -291,6 +294,7 @@
       }
 
     }
+
     &.product-essential-addons-for-contact-form-7 {
 
       .product-title {
@@ -304,6 +308,7 @@
       }
 
     }
+
     &.product-soft-accordion {
 
       .product-title {
@@ -1341,7 +1346,8 @@
   .our-blog-main {
     background-color: #fff;
     border-radius: 20px;
-    height: 400px;
+    // height: 400px;
+    min-height: 100%;
 
     .our-blog-item {
       .our-blog-img {
