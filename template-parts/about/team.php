@@ -3,7 +3,7 @@
 
         <div class="row">
             <div class="col-lg-8 m-auto">
-                <div class="section-head autoShow text-center">
+                <div class="section-head  text-center">
                     <h1>Meet with Our Creative Team</h1>
                     <p>We are a team of WordPress developers who love to build awesome products.</p>
                 </div>
@@ -13,7 +13,7 @@
         <div class="row align-items-center">
             
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil1.png" alt="" class="img-fluid ">
                     </div>
@@ -26,7 +26,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash3.png" alt="" class="img-fluid ">
                     </div>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid ">
 
@@ -53,7 +53,7 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan1.png" alt="" class="img-fluid ">
 
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/monzur-alam.png" alt="" class="img-fluid ">
 
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/Sazzad-Hossain.png" alt="" class="img-fluid ">
 
@@ -92,7 +92,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team autoShow">
+                <div class="our-team ">
                     <div class="picture">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/Zubayer-Ahamad.png" alt="" class="img-fluid ">
 

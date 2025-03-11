@@ -8,42 +8,81 @@
         <div class="row footer-top">
 
             <?php
-            $socials = [
-                'facebook'  => [
-                    'title' => 'Facebook',
-                    'icon'  => 'fa-brands fa-facebook-f',
-                    'url'   => 'https://www.facebook.com/softlabbd',
+            $footer_logos = [
+                'main_logo'  => [
+                    'url'   => 'https://softlabbd.com/',
+                    'description' => 'We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth',
                 ],
-                'twitter'   => [
-                    'title' => 'Twitter',
-                    'icon'  => 'fa-brands fa-twitter',
-                    'url'   => 'https://twitter.com/softlab_',
+                'igd_logo'   => [
+                    'url'   => 'https://softlabbd.com/integrate-google-drive/',
+                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
                 ],
-                'youtube'   => [
-                    'title' => 'Youtube',
-                    'icon'  => 'fa-brands fa-youtube',
-                    'url'   => 'https://www.youtube.com/channel/UC6SI0Jlr9h-GyhER_EB-kBg',
+                'radio_logo'   => [
+                    'url'   => 'https://softlabbd.com/radio-player/',
+                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
                 ],
-                'wordpress' => [
-                    'title' => 'WordPress',
-                    'icon'  => 'fa-brands fa-wordpress',
-                    'url'   => 'https://profiles.wordpress.org/softlab/',
+                'dracula_logo' => [
+                    'url'   => 'https://softlabbd.com/dracula-dark-mode/',
+                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
+                ],
+                'eacf7_logo' => [
+                    'url'   => 'https://softlabbd.com/essential-addons-for-contact-form-7/',
+                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
+                ],
+                'soft_accordion_logo' => [
+                    'url'   => 'https://softlabbd.com/soft-accordion/',
+                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
+                ],
+                'radio_proxy_logo' => [
+                    'url'   => 'https://softlabbd.com/radio-player-proxy/',
+                    'description' => 'Radio Player Proxy Add-on for Radio Player facilitates the playback of Radio (non-SSL) Player Proxy on HTTPS-enabled websites.',
+                ],
+                'radio_ads_logo' => [
+                    'url'   => 'https://softlabbd.com/radio-player-ads/',
+                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
                 ],
             ];
             ?>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
-                <div class="footer-logo">
-                    <a href="https://softlabbd.com/">
-                        <img class="img-fluid"
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-logo.png"
-                            alt="footer-logo">
-                    </a>
-                </div>
+                <?php foreach ($footer_logos as $key => $footer_logo) { ?>
+                    <div class="footer-main footer-<?php echo $key; ?>">
+                        <div class="footer-logo">
+                            <a href="<?php echo $footer_logo['url']; ?>">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/<?php echo $key; ?>.png"
+                                    alt="footer-logo">
+                            </a>
+                        </div>
 
-                <div class="footer-contant">
-                    <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth</p>
-                </div>
-
+                        <div class="footer-contant">
+                            <p><?php echo $footer_logo['description']; ?></p>
+                        </div>
+                    </div>
+                <?php } ?>
+                <?php
+                $socials = [
+                    'facebook'  => [
+                        'title' => 'Facebook',
+                        'icon'  => 'fa-brands fa-facebook-f',
+                        'url'   => 'https://www.facebook.com/softlabbd',
+                    ],
+                    'twitter'   => [
+                        'title' => 'Twitter',
+                        'icon'  => 'fa-brands fa-twitter',
+                        'url'   => 'https://twitter.com/softlab_',
+                    ],
+                    'youtube'   => [
+                        'title' => 'Youtube',
+                        'icon'  => 'fa-brands fa-youtube',
+                        'url'   => 'https://www.youtube.com/channel/UC6SI0Jlr9h-GyhER_EB-kBg',
+                    ],
+                    'wordpress' => [
+                        'title' => 'WordPress',
+                        'icon'  => 'fa-brands fa-wordpress',
+                        'url'   => 'https://profiles.wordpress.org/softlab/',
+                    ],
+                ];
+                ?>
                 <div class="footer-social">
                     <?php foreach ($socials as $social) { ?>
                         <a href="<?php echo $social['url']; ?>" target="_blank" title="<?php echo $social['title']; ?>">
@@ -77,13 +116,13 @@
             <!-- Products -->
             <?php
             $products = [
-                'integrate-google-drive' => 'Integrate Google Drive',
-                'radio-player'           => 'Radio Player',
-                // 'wp-radio'               => 'WP Radio',
-                // 'reader-mode'            => 'Reader Mode',
-                'dracula-dark-mode'            => 'Dracula Dark Mode',
-                'essential-addons-for-contact-form-7'            => 'Essential Addons for Contact Form 7',
-                'soft-accordion'            => 'Soft Accordion',
+                'integrate-google-drive'              => 'Integrate Google Drive',
+                'radio-player'                        => 'Radio Player',
+                // 'wp-radio'                         => 'WP Radio',
+                // 'reader-mode'                      => 'Reader Mode',
+                'dracula-dark-mode'                   => 'Dracula Dark Mode',
+                'essential-addons-for-contact-form-7' => 'Essential Addons for Contact Form 7',
+                'soft-accordion'                      => 'Soft Accordion',
             ];
             ?>
             <div class="col-lg-3 col-6 col-md-6">

@@ -366,7 +366,7 @@
 
 #radio-player-features {
   .feature-item-img {
-    text-align: right !important;
+    // text-align: right !important;
     display: block;
   }
 
@@ -381,13 +381,15 @@
     margin: 0;
     margin-bottom: 130px;
 
-    &.flex-column-reverse {
-      .feature-item-img {
-        text-align: left;
-      }
-    }
+    // &.flex-column-reverse {
+    //   .feature-item-img {
+    //     text-align: left;
+    //   }
+    // }
   }
-
+.item-img-right {
+  text-align: right;
+}
   .feature-header {
     position: relative;
     display: inline-block;

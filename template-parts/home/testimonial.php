@@ -67,7 +67,7 @@ $testimonials = [
 
 		<div class="row">
 			<div class="col-lg-8 col-12  m-auto">
-				<div class="section-head autoShow text-center">
+				<div class="section-head  text-center">
 					<h2>What our users say</h2>
 					<p>See, how our users all over the world are getting benefit from using our products.</p>
 				</div>
@@ -77,7 +77,7 @@ $testimonials = [
 		<div class="row">
 			<div class="col-lg-7 col-11  m-auto">
 
-				<div class="slider-item autoShow">
+				<div class="slider-item ">
 					<div class="testimonial-support-item">
 						<i class="fa-solid fa-chevron-left left"></i>
 						<i class="fa-solid fa-chevron-right right"></i>

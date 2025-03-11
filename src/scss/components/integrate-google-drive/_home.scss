@@ -598,7 +598,8 @@
       margin: 0;
 
       .feature-item-img {
-        text-align: center;
+        // text-align: center;
+        display: flex;
       }
     }
 
@@ -606,9 +607,9 @@
       margin: 0;
       padding: 0;
 
-      .feature-item-img {
-        text-align: center;
-      }
+      // .feature-item-img {
+      //   text-align: center;
+      // }
 
     }
 
@@ -1308,29 +1309,125 @@
   }
 
   .use-main {
-    position: relative;
+    // position: relative;
 
-    &::after {
-      content: url("../images/google-drive/how-to-use/line14.png");
-      background-repeat: no-repeat;
-      position: absolute;
-      top: -17.5px;
-      left: 173px;
-      z-index: -1;
-    }
+    // &::after {
+    //   content: url("../images/google-drive/how-to-use/line14.png");
+    //   background-repeat: no-repeat;
+    //   position: absolute;
+    //   top: -17.5px;
+    //   left: 173px;
+    //   z-index: -1;
+    // }
   }
 
   .use-imgs {
+    .image-download-install {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -27px;
+        left: 9px;
+        width: 1px;
+        height: 70%;
+        background-color: #08CD87;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -74px;
+        left: 9px;
+        width: 1px;
+        height: 129%;
+        background-color: #08CD87;
+      }
+
+    }
+
+    // .image-link-google-account {
+    //   position: relative;
+    //   &::before {
+    //     content: "";
+    //     position: absolute;
+    //     top: -27px;
+    //     left: 9px;
+    //     width: 2px;
+    //     height: 70%;
+    //     background-color: #000;
+    //   }
+    //   &::after {
+    //     content: "";
+    //     position: absolute;
+    //     bottom: -74px;
+    //     left: 9px;
+    //     width: 2px;
+    //     height: 129%;
+    //     background-color: #000;
+    //   }
+
+    // }
+    .image-manage-browse-files {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -81px;
+        left: 9px;
+        width: 1px;
+        height: 137%;
+        background-color: #FF96AA;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -87px;
+        left: 9px;
+        width: 1px;
+        height: 145%;
+        background-color: #738CF6;
+      }
+
+    }
+
+    .image-explore-enjoy-features {
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -87px;
+        left: 9px;
+        width: 1px;
+        height: 143%;
+        background-color: #33ABFF;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -39px;
+        left: 9px;
+        width: 1px;
+        height: 86%;
+        background-color: #FFB758;
+      }
+
+    }
+
     img {
       width: 86%;
       top: 0px;
-      position: relative;
     }
   }
 
   .how-to-use-download-install {
     .use-item {
-      border-right: 6px solid var(--Linear, #BBE897);
+      border-right: 6px solid #BBE897;
       background: linear-gradient(154deg, rgba(187, 232, 151, 0.10) 3.43%, rgba(8, 205, 135, 0.10) 90.47%);
     }
 
@@ -1338,7 +1435,7 @@
 
   .how-to-use-link-google-account {
     .use-item {
-      border-right: 6px solid var(--Linear, #FFBEA9);
+      border-right: 6px solid #FFBEA9;
       background: linear-gradient(154deg, rgba(254, 180, 156, 0.10) 3.43%, rgba(253, 107, 135, 0.10) 90.47%);
 
     }
@@ -1347,7 +1444,7 @@
 
   .how-to-use-manage-browse-files {
     .use-item {
-      border-right: 6px solid var(--Linear, #BCDDFF);
+      border-right: 6px solid #BCDDFF;
       background: linear-gradient(154deg, rgba(188, 221, 255, 0.10) 3.43%, rgba(115, 140, 246, 0.10) 90.47%);
     }
 
@@ -1355,7 +1452,7 @@
 
   .how-to-use-shortcode-builder {
     .use-item {
-      border-right: 6px solid var(--Linear, #6AD9FF);
+      border-right: 6px solid #6AD9FF;
       background: linear-gradient(176deg, rgba(169, 233, 255, 0.10) -2.91%, rgba(119, 194, 247, 0.10) 91.81%);
     }
 
@@ -1363,7 +1460,7 @@
 
   .how-to-use-explore-enjoy-features {
     .use-item {
-      border-right: 6px solid var(--Linear, #FFE97E);
+      border-right: 6px solid #FFE97E;
       background: linear-gradient(180deg, rgba(255, 232, 118, 0.10) 0%, rgba(243, 166, 65, 0.10) 100%);
     }
 
@@ -1397,10 +1494,58 @@
 
   }
 
-  @media (min-width: 1200px) and (max-width: 1366px) {
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
     .use-main {
       &::after {
         left: 148px;
+      }
+
+      .use-imgs {
+
+        // img {
+        //   width: 100%;
+        // }
+        .image-download-install {
+
+          &::before {
+            top: -23px;
+            height: 72%;
+          }
+
+          &::after {
+            bottom: -95px;
+            height: 176%;
+          }
+
+        }
+
+        .image-manage-browse-files {
+
+          &::before {
+            top: -94px;
+            height: 175%;
+          }
+
+          &::after {
+            bottom: -95px;
+            height: 177%;
+          }
+
+        }
+
+        .image-explore-enjoy-features {
+
+          &::before {
+            top: -94px;
+            height: 176%;
+          }
+
+          &::after {
+            bottom: -33px;
+            height: 86%;
+          }
+
+        }
       }
     }
   }
@@ -1410,6 +1555,54 @@
       &::after {
         left: 124px;
         top: -24.5px;
+      }
+
+      .use-imgs {
+        img {
+          width: 100%;
+        }
+
+        .image-download-install {
+
+          &::before {
+            top: -23px;
+            height: 72%;
+          }
+
+          &::after {
+            bottom: -95px;
+            height: 182%;
+          }
+
+        }
+
+        .image-manage-browse-files {
+
+          &::before {
+            top: -108px;
+            height: 202%;
+          }
+
+          &::after {
+            bottom: -108px;
+            height: 201%;
+          }
+
+        }
+
+        .image-explore-enjoy-features {
+
+          &::before {
+            top: -96px;
+            height: 183%;
+          }
+
+          &::after {
+            bottom: -31px;
+            height: 86%;
+          }
+
+        }
       }
     }
   }
@@ -1437,6 +1630,48 @@
       .use-imgs {
         img {
           width: 100%;
+        }
+
+        .image-download-install {
+
+          &::before {
+            top: -27px;
+            height: 72%;
+          }
+
+          &::after {
+            bottom: -90px;
+            height: 156%;
+          }
+
+        }
+
+        .image-manage-browse-files {
+
+          &::before {
+            top: -102px;
+            height: 172%;
+          }
+
+          &::after {
+            bottom: -114px;
+            height: 189%;
+          }
+
+        }
+
+        .image-explore-enjoy-features {
+
+          &::before {
+            top: -102px;
+            height: 174%;
+          }
+
+          &::after {
+            bottom: -36px;
+            height: 86%;
+          }
+
         }
       }
     }

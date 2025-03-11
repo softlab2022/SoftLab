@@ -201,6 +201,8 @@ body.page-template-contact-us {
         font-size: 1.3rem;
         color: #5c637e;
         margin-top: 1rem;
+        display: flex;
+        align-items: center;
 
         &.product-integrate-google-drive:hover {
           color: $igd_color;
@@ -220,6 +222,12 @@ body.page-template-contact-us {
 
         &.product-dracula-dark-mode:hover {
           color: #574DCC;
+        }
+        &.product-essential-addons-for-contact-form-7:hover {
+          color: #1E62B9;
+        }
+        &.product-soft-accordion:hover {
+          color: #1E62B9;
         }
 
       }

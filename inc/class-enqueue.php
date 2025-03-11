@@ -100,6 +100,8 @@ class SoftLa
 			'essential-addons-for-contact-form-7-integrations',
 			'essential-addons-for-contact-form-7-features',
 			'eacf7-preview',
+			'contact-form-7-templates',
+			'eacf7-templates',
 		])) {
 			wp_enqueue_style('cf7-extended-main', get_theme_file_uri('assets/css/cf7-extended-main.css'), array(), $theme_version, 'all');
 		} else if (in_array($file_name, [

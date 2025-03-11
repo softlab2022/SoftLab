@@ -1,0 +1,59 @@
+{
+    "forms": [
+        {
+            "id": 608,
+            "title": "Personal Finance Application",
+            "status": "publish",
+            "_form": "[section_break section_break-695 \"Finance Application\"]\n\n[eacf7-row]\n    [eacf7-col col:3]\n    <label> Date <span class=\"required\">*</span>\n        [date_time* date_time-576 \"m/d/Y\"] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Sales Person <span class=\"required\">*</span>\n        [text* sales-person] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Choose One <span class=\"required\">*</span>\n        [select* sales-person first_as_label \"- select -\" \"Individual Credit\" \"Joint Credit\"] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[section_break section_break-1 \"Applicant Name:\"]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> First Name <span class=\"required\">*</span>\n        [text* f-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Last Name <span class=\"required\">*</span>\n        [text* l-name] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Social Security Number (SSN) <span class=\"required\">*</span>\n    [text* ssn] </label>\n\n[eacf7-row]\n    [eacf7-col col:3]\n    <label> Birth Date <span class=\"required\">*</span>\n        [date_time* date_time-897 \"m/d/Y\"] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Home Phone Number\n        [phone home-phone] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Cell Phone Number <span class=\"required\">*</span>\n        [phone* cell-phone] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:3]\n    <label> Applicant Email <span class=\"required\">*</span>\n        [email* applicant-email] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Number of Dependants\n        [number number-of-dependants] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Time at Resident <span class=\"required\">*</span>\n        [number* time-resident] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label>Present Address</label>\n[address present-address format:international required_fields:line1|city|state|zip|country]\n\n<label>Previous Address ( If less than 2 years at present address )</label>\n[address previous-address format:international required_fields:line1|city|state|zip|country]\n\n[eacf7-row]\n    [eacf7-col col:3]\n    <label> How Many Years <span class=\"required\">*</span>\n        [number* years] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Gross Annual Income <span class=\"required\">*</span>\n        [number* gross-annual-income] </label>\n    [/eacf7-col]\n    [eacf7-col col:3]\n    <label> Select please <span class=\"required\">*</span>\n        [select select-697 first_as_label \"- select -\" \"Military\" \"Spouse\" \"Single\"] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Military Unit Number\n        [number military-unit-number] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Military Rank\n        [number military-rank] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Work Phone Number <span class=\"required\">*</span>\n        [phone* phone-501 validation:1] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Amount <span class=\"required\">*</span>\n        [number* amount] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Source of Additional Income\n    [text source-additional-income] </label>\n\n[section_break section_break-266 \"Co-Applicant Information\"]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> First Name\n        [text co-f-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Last Name\n        [text co-l-name] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Email\n    [email co-mail] </label>\n\n<label> Cell Phone Number\n    [phone cell-phone] </label>\n\n<label> Address </label>\n[address co-address format:international required_fields:line1|city|state|zip|country]\n\n[checkbox checkbox-217 \"By clicking the submit button, I agree to terms & conditions\"]\n\n<p>I authorize the XXX to make whatever inquires it deems necessary in connection with this credit application and in the course of review or collection of any credit extended in reliance on this application. I further authorized any person or YYY to complete and finish to the XXX any information that it may have or obtain in response to such inquires and agree that such information along with this application shall remain the XXX's property, whether or not credit is extended. All information stated in this application is declared to be a true representation of the facts and made for the purpose of obtaining the credit request. I HAVE REVIEWED THE ABOVE DISCLOSURE.</p>\n\n[submit \"Submit\"]",
+            "_mail": {
+                "active": true,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[_site_admin_email]",
+                "body": "From: [your-name] [your-email]\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nThis is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).",
+                "additional_headers": "Reply-To: [your-email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_mail_2": {
+                "active": false,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[your-email]",
+                "body": "Message Body:\n[your-message]\n\n-- \nThis email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.",
+                "additional_headers": "Reply-To: [_site_admin_email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_messages": {
+                "mail_sent_ok": "Thank you for your message. It has been sent.",
+                "mail_sent_ng": "There was an error trying to send your message. Please try again later.",
+                "validation_error": "One or more fields have an error. Please check and try again.",
+                "spam": "There was an error trying to send your message. Please try again later.",
+                "accept_terms": "You must accept the terms and conditions before sending your message.",
+                "invalid_required": "Please fill out this field.",
+                "invalid_too_long": "This field has a too long input.",
+                "invalid_too_short": "This field has a too short input.",
+                "upload_failed": "There was an unknown error uploading the file.",
+                "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+                "upload_file_too_large": "The uploaded file is too large.",
+                "upload_failed_php_error": "There was an error uploading the file.",
+                "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+                "date_too_early": "This field has a too early date.",
+                "date_too_late": "This field has a too late date.",
+                "invalid_number": "Please enter a number.",
+                "number_too_small": "This field has a too small number.",
+                "number_too_large": "This field has a too large number.",
+                "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+                "invalid_email": "Please enter an email address.",
+                "invalid_url": "Please enter a URL.",
+                "invalid_tel": "Please enter a telephone number.",
+                "invalid_captcha": "Could not verify the reCaptcha response."
+            },
+            "_locale": "en_US",
+            "_hash": "9675392f88d8c31569d842f0b81a41b073c9a171"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "forms": [
+        {
+            "id": 607,
+            "title": "Partnership Enrollment Form",
+            "status": "publish",
+            "_form": "[section_break section_break \"Partnership Application Form\"] Thank you for your interests in our company. We are excited to have you on board as one of our esteemed partners. To get started, please complete all fields accordingly. We will review and get in touch with your shortly. If you are unsure about any of the answers, please use an estimation. [/section_break]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Company Name <span class=\"required\">*</span>\n        [text* company-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Company URL <span class=\"required\">*</span>\n        [url* company-url] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Number of Employees <span class=\"required\">*</span>\n        [number* company-employees] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Number of Customers <span class=\"required\">*</span>\n        [number* company-customers] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Place of Business <span class=\"required\">*</span>\n    [select* place-business first_as_label \"- select -\" \"Bangladesh\" \"HongKong\" \"Malaysia\" \"Singapore\"] </label>\n\n<label> Current Demand Generation Activities (you can select more than one)\n    [checkbox checkbox-595 \"Direct Mailer\" \"Website Optimization\" \"Email/Mobile Marketing\" \"Media Advertisement\" \"Social Media\" \"Paid Search / SEO\" \"Trade show/Workshop\"] </label>\n\n<p>[section_break section_break-630]</p>\n\n<label> Do you want us to publish your profile on our site? <span class=\"required\">*</span>\n    [select* publish-profile first_as_label \"- select -\" \"Yes\" \"No\"] </label>\n\n<label> Your Company Profile\n    [textarea company-profile x3] </label>\n\n<label> Company Specialization Keywords (Separated by comma)\n    [textarea company-specialization-keywords profile x3] </label>\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Sales Inquiry Number (Leave blank if unknown)\n        [phone sales-inquiry-number] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Sales Enquiry Email Address\n        [email sales-email] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Upload Logo (PNG, Transparent Background)\n    [image_upload upload-logo extensions:jpeg|jpg|png|webp max_files:1] </label>\n\n[section_break section_break-2 \"Point of Contact - Partnership\"]\n\n<label> Contact Name\n    [text contact-name] </label>\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Phone Number <span class=\"required\">*</span>\n        [phone phone-number] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Email <span class=\"required\">*</span>\n        [email* email] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[submit \"Submit\"]",
+            "_mail": {
+                "active": true,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[_site_admin_email]",
+                "body": "From: [your-name] [your-email]\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nThis is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).",
+                "additional_headers": "Reply-To: [your-email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_mail_2": {
+                "active": false,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[your-email]",
+                "body": "Message Body:\n[your-message]\n\n-- \nThis email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.",
+                "additional_headers": "Reply-To: [_site_admin_email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_messages": {
+                "mail_sent_ok": "Thank you for your message. It has been sent.",
+                "mail_sent_ng": "There was an error trying to send your message. Please try again later.",
+                "validation_error": "One or more fields have an error. Please check and try again.",
+                "spam": "There was an error trying to send your message. Please try again later.",
+                "accept_terms": "You must accept the terms and conditions before sending your message.",
+                "invalid_required": "Please fill out this field.",
+                "invalid_too_long": "This field has a too long input.",
+                "invalid_too_short": "This field has a too short input.",
+                "upload_failed": "There was an unknown error uploading the file.",
+                "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+                "upload_file_too_large": "The uploaded file is too large.",
+                "upload_failed_php_error": "There was an error uploading the file.",
+                "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+                "date_too_early": "This field has a too early date.",
+                "date_too_late": "This field has a too late date.",
+                "invalid_number": "Please enter a number.",
+                "number_too_small": "This field has a too small number.",
+                "number_too_large": "This field has a too large number.",
+                "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+                "invalid_email": "Please enter an email address.",
+                "invalid_url": "Please enter a URL.",
+                "invalid_tel": "Please enter a telephone number.",
+                "invalid_captcha": "Could not verify the reCaptcha response."
+            },
+            "_locale": "en_US",
+            "_hash": "3592493e7c49206047e1509d7cb8a545ff4a1862"
+        }
+    ]
+}

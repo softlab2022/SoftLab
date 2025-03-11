@@ -75,9 +75,11 @@
       &.product-dracula-dark-mode:hover {
         color: #574DCC;
       }
+
       &.product-essential-addons-for-contact-form-7:hover {
         color: #3D6EC9;
       }
+
       &.product-soft-accordion:hover {
         color: #3D6EC9;
       }
@@ -293,6 +295,16 @@
     }
   }
 
+  .footer-igd_logo,
+  .footer-radio_logo,
+  .footer-dracula_logo,
+  .footer-eacf7_logo,
+  .footer-radio_proxy_logo,
+  .footer-radio_ads_logo,
+  .footer-soft_accordion_logo {
+    display: none;
+  }
+
   @media (max-width: 767px) {
     padding-top: 30px;
 
@@ -329,14 +341,37 @@
 .page-template-templatesintegrate-google-drive-file-browser-php,
 .page-template-templatesintegrate-google-drive-file-uploader-php,
 .page-template-templatesintegrate-google-drive-photo-gallery-php,
-.page-template-templatesintegrate-google-drive-media-player-php {
+.page-template-templatesintegrate-google-drive-media-player-php,
+.page-template-templatesintegrate-google-drive-pricing-update-php {
   .footer {
+    background: linear-gradient(154deg, #F2FFF2 3.43%, #E2FEF0 90.47%);
+
     .newslatter-from {
       .input-group-append {
         a {
           background: #00BB45;
         }
       }
+    }
+
+    .footer-social {
+      i {
+        box-shadow: -20px 24px 60px rgba(0, 0, 0, 0.04);
+      }
+    }
+
+    .footer-main_logo,
+    .footer-radio_logo,
+    .footer-dracula_logo,
+    .footer-eacf7_logo,
+    .footer-radio_proxy_logo,
+    .footer-radio_ads_logo,
+    .footer-soft_accordion_logo {
+      display: none;
+    }
+
+    .footer-igd_logo {
+      display: block;
     }
   }
 }
@@ -346,12 +381,31 @@
 .page-template-templateshttp-streaming-php,
 .page-template-templatesmultiple-php {
   .footer {
+    background: url("../images/radio-player-footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     .newslatter-from {
       .input-group-append {
         a {
           background: #00BB45;
         }
       }
+    }
+
+    .footer-igd_logo,
+    .footer-main_logo,
+    .footer-dracula_logo,
+    .footer-eacf7_logo,
+    .footer-radio_proxy_logo,
+    .footer-radio_ads_logo,
+    .footer-soft_accordion_logo {
+      display: none;
+    }
+
+    .footer-radio_logo {
+      display: block;
     }
   }
 }
@@ -370,8 +424,57 @@
 
 .page-template-templatesproxy-player-php,
 .page-template-templateswp-radio-station-php,
-.page-template-templatesimage-importer-php {
+.page-template-templatesimage-importer-php,
+.page-template-templatesradio-player-proxy-player-php {
   .footer {
+    background: url("../images/radio-player-footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer-igd_logo,
+    .footer-main_logo,
+    .footer-dracula_logo,
+    .footer-eacf7_logo,
+    .footer-radio_ads_logo,
+    .footer-soft_accordion_logo {
+      display: none;
+    }
+
+    .footer-radio_proxy_logo {
+      display: block;
+    }
+
+    .newslatter-from {
+      .input-group-append {
+        a {
+          background: #00D1E1;
+        }
+      }
+    }
+  }
+}
+
+.page-template-templatesradio-player-ads-php {
+  .footer {
+    background: url("../images/radio-player-footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer-igd_logo,
+    .footer-main_logo,
+    .footer-dracula_logo,
+    .footer-eacf7_logo,
+    .footer-radio_proxy_logo,
+    .footer-soft_accordion_logo {
+      display: none;
+    }
+
+    .footer-radio_ads_logo {
+      display: block;
+    }
+
     .newslatter-from {
       .input-group-append {
         a {
@@ -393,6 +496,20 @@
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+
+    .footer-igd_logo,
+    .footer-radio_logo,
+    .footer-main_logo,
+    .footer-eacf7_logo,
+    .footer-radio_proxy_logo,
+    .footer-radio_ads_logo,
+    .footer-soft_accordion_logo {
+      display: none;
+    }
+
+    .footer-dracula_logo {
+      display: block;
+    }
 
     .footer-contant {
       p {
@@ -498,7 +615,9 @@
 .page-template-templatesessential-addons-for-contact-form-7-pricing-php,
 .page-template-templatesessential-addons-for-contact-form-7-integrations-php,
 .page-template-templatesessential-addons-for-contact-form-7-features-php,
-.page-template-templatesessential-addons-for-contact-form-7-preview-php {
+.page-template-templatesessential-addons-for-contact-form-7-preview-php,
+.page-template-templatescontact-form-7-templates-php,
+.single-form {
   .footer {
     // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png") no-repeat 0 8rem !important;
     // background: linear-gradient( #A6CDFF 3.43%, #A6CDFF 90.47%), url("../images/cf7-extended/cf7-footer-bg.png")  !important;
@@ -508,6 +627,20 @@
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+
+    .footer-igd_logo,
+    .footer-radio_logo,
+    .footer-dracula_logo,
+    .footer-main_logo,
+    .footer-radio_proxy_logo,
+    .footer-radio_ads_logo,
+    .footer-soft_accordion_logo {
+      display: none;
+    }
+
+    .footer-eacf7_logo {
+      display: block;
+    }
   }
 }
 
@@ -673,7 +806,8 @@
 .page-template-templatesessential-addons-for-contact-form-7-pricing-php,
 .page-template-templatesessential-addons-for-contact-form-7-integrations-php,
 .page-template-templatesessential-addons-for-contact-form-7-features-php,
-.page-template-templatesessential-addons-for-contact-form-7-preview-php {
+.page-template-templatesessential-addons-for-contact-form-7-preview-php,
+.page-template-templatescontact-form-7-templates-php {
   .footer-massenger {
     a {
       background: #1E62B9;
@@ -692,11 +826,33 @@
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+
+    .footer-main_logo,
+    .footer-igd_logo,
+    .footer-radio_logo,
+    .footer-dracula_logo,
+    .footer-radio_proxy_logo,
+    .footer-radio_ads_logo,
+    .footer-eacf7_logo {
+      display: none;
+    }
+
+    .footer-soft_accordion_logo {
+      display: block;
+    }
   }
 }
 
 .page-template-templatessoft-accordion-php,
-.page-template-templatessoft-accordion-pricing-php{
+.page-template-templatessoft-accordion-pricing-php {
+  .footer-massenger {
+    a {
+      background: #1E62B9;
+    }
+  }
+}
+
+.single-form {
   .footer-massenger {
     a {
       background: #1E62B9;

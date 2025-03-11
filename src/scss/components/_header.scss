@@ -1050,7 +1050,8 @@
 .page-template-templatesessential-addons-for-contact-form-7-php,
 .page-template-templatesessential-addons-for-contact-form-7-pricing-php,
 .page-template-templatesessential-addons-for-contact-form-7-integrations-php,
-.page-template-essential-addons-for-contact-form-7-features {
+.page-template-essential-addons-for-contact-form-7-features,
+.page-template-templatescontact-form-7-templates-php {
   .navbar-navs {
     display: flex;
     align-items: center;
@@ -1096,6 +1097,66 @@
     }
   }
 
+}
+
+.page-template-templatescontact-form-7-templates-php,
+.page-template-templateseacf7-templates-php,
+.single-form {
+  .brand-cf7-extended {
+    .logo-black{
+      display: none;
+    }
+    .logo-white {
+      display: block;
+    }
+    img {
+      width: 200px;
+    }
+  }
+  .site-header {
+    .primary-nav {
+      .navbar-nav {
+        .nav-item {
+          a {
+            color: rgba(255, 255, 255, 0.70);
+            &:hover {
+              color: #fff;
+            }
+            &.active {
+              color: #fff;
+            }
+          }
+        }
+      }
+      .buy-now-btn {
+        a {
+          text-decoration: none;
+          background: #fff;
+          padding: 15px 30px;
+          transition: linear 0.4s;
+          border-radius: 8px;
+          border: 1px solid transparent;
+          color: #1E62B9;
+          white-space: nowrap;
+
+          &:hover {
+            background: #1E62B9;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .fixed-header {
+    background-color: #5676e7;
+  }
+  @media (max-width: 767.98px) {
+    .brand-cf7-extended {
+      img {
+        width: 165px;
+      }
+    }
+  }
 }
 
 .page-template-templateseacf7-preview-php {

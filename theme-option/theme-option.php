@@ -710,3 +710,4 @@ function sl_save_meta_box_data($post_id) {
 }
 
 add_action('save_post', 'sl_save_meta_box_data');
+

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 m-auto">
-                <div class="our-blog-head autoShow text-center">
+                <div class="our-blog-head  text-center">
                     <h2>Latest Blog & News</h2>
                     <p>Read the latest updates about us, which new Features coming to help your website.</p>
                 </div>
@@ -26,7 +26,7 @@
                     $query->the_post();
             ?>
                     <div class="col-lg-4 col-md-6 col-sm-9 m-auto">
-                        <div class="our-blog-main autoShow">
+                        <div class="our-blog-main ">
                             <div class="our-blog-item">
 
 

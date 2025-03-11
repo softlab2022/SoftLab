@@ -81,6 +81,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'softlab'); ?>">
                             <span class="navbar-toggler-icon"></span>
+                            <!-- <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> -->
 
                         </button>
 

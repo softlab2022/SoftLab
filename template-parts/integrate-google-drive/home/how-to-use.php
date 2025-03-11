@@ -48,9 +48,11 @@ $howtouses = [
                     <div class="row how-to-use-<?php echo $key; ?> justify-content-center align-items-center">
                         <div class="col-lg-2 col-md-3">
                             <div class="use-imgs">
-                                <img class="img-fluid <?php echo $key; ?>-icon feature-icon"
-                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/<?php echo $key; ?>-number.png"
-                                 alt="<?php echo $howtouse['title']; ?>">
+                                <div class="image-<?php echo $key; ?>">
+                                    <img class="img-fluid <?php echo $key; ?>-icon feature-icon"
+                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/how-to-use/<?php echo $key; ?>-number.png"
+                                     alt="<?php echo $howtouse['title']; ?>">
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-8">

@@ -1,0 +1,59 @@
+{
+    "forms": [
+        {
+            "id": 612,
+            "title": "Private Morbidity Form",
+            "status": "publish",
+            "_form": "<h3>Provider Information</h3>\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> First Name <span class=\"required\">*</span>\n        [text* first-name autocomplete:first-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Last Name <span class=\"required\">*</span>\n        [text* last-name autocomplete:last-name] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Physician's Phone Number\n        [phone physician-phone validation:1 ] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Facility Phone\n        [phone facility-phone validation:1 ] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Facility Address </label>\n[address address-509 format:international required_fields:line1|city|state|zip|country]\n\n[section_break section_break-526 \"Patient Information\"]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Patient First Name <span class=\"required\">*</span>\n        [text* patient-first-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Patient Last Name\n        [text patient-last-name] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Date of Birth <span class=\"required\">*</span>\n     [date_time* dob \"m/d/Y\"]</label>\n\n<label> Patient Address </label>\n[address patient-address format:international required_fields:line1|city|state|zip|country]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Patient Email\n        [email patient-email] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Patient Phone\n        [phone patient-phone validation:1 ] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Race\n        [select race first_as_label \"- select -\" \"White\" \"Black\" \"Asian\" \"Native American\" \"Pacific Islander\" \"Other\"] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Ethnicity\n        [select ethnicity first_as_label \"- select -\" \"Hispanic\" \"Non-Hispanic\"] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Gender\n        [select gender first_as_label \"- select -\" \"Male\" \"Female\" \"Shemale\"] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Social Security Number\n        [text ssn] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Parent First Name <span class=\"required\">*</span>\n        [text* parent-first-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Parent Last Name\n        [text parent-last-name] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Parent/Guardian Phone\n    [phone parent-phone validation:1] </label>\n\n[section_break section_break-463 \"Disease\"]\n\n<label> Disease or Condition Name\n    [text disease] </label>\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Admission Date\n        [date_time admission-date \"m/d/Y\"] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Onset Date\n        [date_time onset-date \"m/d/Y\"] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n    <label> Diagnosis Date\n        [date_time diagnosis-date \"m/d/Y\"] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n    <label> Discharge Date\n        [date_time discharge-date \"m/d/Y\"] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Symptoms\n    [textarea symptoms x3] </label>\n\n<label> Was laboratory testing ordered?\n    [select laboratory-testing first_as_label \"- select -\" \"Yes\" \"No\"] </label>\n\n<label> If yes, attach the results:\n    [file_upload laboratory-testing-result max_files:1] </label>\n\n<label> What the patient treated?\n    [select patient-treated first_as_label \"- select -\" \"Yes\" \"No\"] </label>\n\n<label> If yes, attach the results:\n    [file_upload patient-treated max_files:1] </label>\n\n<label> Description of other illnesses/treatments\n    [textarea illness x3] </label>\n\n[submit \"Submit\"]",
+            "_mail": {
+                "active": true,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[_site_admin_email]",
+                "body": "From: [your-name] [your-email]\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nThis is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).",
+                "additional_headers": "Reply-To: [your-email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_mail_2": {
+                "active": false,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[your-email]",
+                "body": "Message Body:\n[your-message]\n\n-- \nThis email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.",
+                "additional_headers": "Reply-To: [_site_admin_email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_messages": {
+                "mail_sent_ok": "Thank you for your message. It has been sent.",
+                "mail_sent_ng": "There was an error trying to send your message. Please try again later.",
+                "validation_error": "One or more fields have an error. Please check and try again.",
+                "spam": "There was an error trying to send your message. Please try again later.",
+                "accept_terms": "You must accept the terms and conditions before sending your message.",
+                "invalid_required": "Please fill out this field.",
+                "invalid_too_long": "This field has a too long input.",
+                "invalid_too_short": "This field has a too short input.",
+                "upload_failed": "There was an unknown error uploading the file.",
+                "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+                "upload_file_too_large": "The uploaded file is too large.",
+                "upload_failed_php_error": "There was an error uploading the file.",
+                "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+                "date_too_early": "This field has a too early date.",
+                "date_too_late": "This field has a too late date.",
+                "invalid_number": "Please enter a number.",
+                "number_too_small": "This field has a too small number.",
+                "number_too_large": "This field has a too large number.",
+                "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+                "invalid_email": "Please enter an email address.",
+                "invalid_url": "Please enter a URL.",
+                "invalid_tel": "Please enter a telephone number.",
+                "invalid_captcha": "Could not verify the reCaptcha response."
+            },
+            "_locale": "en_US",
+            "_hash": "d53835008d2d351f47b55ad6f269c246bfa9f158"
+        }
+    ]
+}

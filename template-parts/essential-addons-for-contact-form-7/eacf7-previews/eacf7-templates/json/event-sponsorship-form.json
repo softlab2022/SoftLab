@@ -1,0 +1,59 @@
+{
+    "forms": [
+        {
+            "id": 597,
+            "title": "Event Sponsorship Form",
+            "status": "publish",
+            "_form": "[section_break section_break-743 \"Event Sponsorship Form\"]\n\n<label> Event Sponsor's Name (Business, Organization or Individual) <span class=\"required\">*</span>\n    [text* sponsor-name]</label>\n\n[eacf7-row]\n    [eacf7-col col:2]\n        <label> Contact Person's First Name <span class=\"required\">*</span>\n            [text* first-name] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n        <label> Contact Person's Last Name <span class=\"required\">*</span>\n            [text* last-name] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n        <label> Your email <span class=\"required\">*</span>\n            [email* your-email autocomplete:email] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n        <label> Your phone <span class=\"required\">*</span>\n            [phone* phone-550] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n[eacf7-row]\n    [eacf7-col col:2]\n        <label> Department <span class=\"required\">*</span>\n            [text* department] </label>\n    [/eacf7-col]\n    [eacf7-col col:2]\n        <label> Designation <span class=\"required\">*</span>\n            [text* designation] </label>\n    [/eacf7-col]\n[/eacf7-row]\n\n<label> Address\n    [address* address-150 format:international required_fields:line1|city|state|zip|country]</label>\n\n<label>  Please select the sponsorship level that best aligns with your support\n    [select* select-272 first_as_label \"Select\" \"Platinium Sponsor - $10,000\" \"Gold Sponsor - $5,000\" \"Silver Sponsor - $2,500\" \"Bronze Sponsor - $1,000\"] </label>\n\n<label> Please provide a high-resolution company logo for inclusion in event materials <span class=\"required\">*</span>\n    [image_upload* image_upload-891 max_files:1] </label>\n\n<label> Additional Comments\n    [textarea additional-comments x3] </label>\n\n[section_break section_break-412 \"Sponsor Agreement\"] By submitting this form, the sponsor agrees to the terms outlined in the sponsorship levels and commits to providing the selected sponsorship amount by 26/03/2025. The organizer reserves the right to allocate benefits based on the sponsorship level and payment received. [/section_break]\n\n<label> Signature <span class=\"required\">*</span>\n    [digital_signature* digital_signature-205] </label>\n\n<label> Date <span class=\"required\">*</span>\n    [date_time* date_time-259 \"m/d/Y\"] </label>\n\n[submit \"Submit\"]",
+            "_mail": {
+                "active": true,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[_site_admin_email]",
+                "body": "From: [your-name] [your-email]\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n-- \nThis is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).",
+                "additional_headers": "Reply-To: [your-email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_mail_2": {
+                "active": false,
+                "subject": "[_site_title] \"[your-subject]\"",
+                "sender": "[_site_title] <wordpress@softlab.local>",
+                "recipient": "[your-email]",
+                "body": "Message Body:\n[your-message]\n\n-- \nThis email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.",
+                "additional_headers": "Reply-To: [_site_admin_email]",
+                "attachments": "",
+                "use_html": false,
+                "exclude_blank": false
+            },
+            "_messages": {
+                "mail_sent_ok": "Thank you for your message. It has been sent.",
+                "mail_sent_ng": "There was an error trying to send your message. Please try again later.",
+                "validation_error": "One or more fields have an error. Please check and try again.",
+                "spam": "There was an error trying to send your message. Please try again later.",
+                "accept_terms": "You must accept the terms and conditions before sending your message.",
+                "invalid_required": "Please fill out this field.",
+                "invalid_too_long": "This field has a too long input.",
+                "invalid_too_short": "This field has a too short input.",
+                "upload_failed": "There was an unknown error uploading the file.",
+                "upload_file_type_invalid": "You are not allowed to upload files of this type.",
+                "upload_file_too_large": "The uploaded file is too large.",
+                "upload_failed_php_error": "There was an error uploading the file.",
+                "invalid_date": "Please enter a date in YYYY-MM-DD format.",
+                "date_too_early": "This field has a too early date.",
+                "date_too_late": "This field has a too late date.",
+                "invalid_number": "Please enter a number.",
+                "number_too_small": "This field has a too small number.",
+                "number_too_large": "This field has a too large number.",
+                "quiz_answer_not_correct": "The answer to the quiz is incorrect.",
+                "invalid_email": "Please enter an email address.",
+                "invalid_url": "Please enter a URL.",
+                "invalid_tel": "Please enter a telephone number.",
+                "invalid_captcha": "Could not verify the reCaptcha response."
+            },
+            "_locale": "en_US",
+            "_hash": "cc1ae8a18189cba491bf3b3efb3152fb7e113a7c"
+        }
+    ]
+}

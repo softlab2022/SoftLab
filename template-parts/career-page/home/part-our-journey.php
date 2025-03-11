@@ -74,7 +74,7 @@
                     }
                 }
             } else {
-                echo '<div class="col-12"><p>No custom posts found.</p></div>';
+                echo '<div class="col-12"><p>No Job post found.</p></div>';
             }
 
             wp_reset_postdata();

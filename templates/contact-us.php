@@ -82,11 +82,13 @@ $tabs = [
                     <h4>Our Products</h4>
                     <?php
                     $products = [
-                        'integrate-google-drive' => 'Integrate Google Drive',
-                        'radio-player'           => 'Radio Player',
-                        // 'wp-radio'               => 'WP Radio',
-                        'dracula-dark-mode'            => 'Dracula Dark Mode',
-                        // 'reader-mode'            => 'Reader Mode',
+                        'integrate-google-drive'              => 'Integrate Google Drive',
+                        'radio-player'                        => 'Radio Player',
+                        // 'wp-radio'                         => 'WP Radio',
+                        'dracula-dark-mode'                   => 'Dracula Dark Mode',
+                        'essential-addons-for-contact-form-7' => 'Essential Addons for Contact Form 7',
+                        'soft-accordion'                      => 'Soft Accordion',
+                        // 'reader-mode'                      => 'Reader Mode',
                     ];
                     ?>
 

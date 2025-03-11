@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="feature-item-img">
+                <div class="feature-item-img item-img-right">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/sticky-img.png" alt="Sticky Player">
                 </div>
             </div>
@@ -146,7 +146,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="feature-item-img">
+                <div class="feature-item-img item-img-right">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/station-img.png" alt="Stations Playlist">
                 </div>
             </div>
@@ -209,7 +209,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 ">
-                <div class="feature-item-img embed-code">
+                <div class="feature-item-img embed-code item-img-right">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/embed-code.png" alt="Embed Code">
                 </div>
             </div>
@@ -273,7 +273,7 @@
             </div>
 
             <div class="col-lg-6 col-md-6 ">
-                <div class="feature-item-img">
+                <div class="feature-item-img item-img-right">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-desplay-schedule.png" alt="player-desplay-schedule">
                 </div>
             </div>

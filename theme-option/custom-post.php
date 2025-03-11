@@ -106,10 +106,10 @@ function wpl_softlab_custom_post_pages_function($post)
     echo '</div>';
 
     // Button group
-    // echo '<div class="softlab_custom_post-button-group">';
-    // echo '<button type="button" id="add-new-demo">Add New</button>';
-    // echo '<button type="button" id="remove-new-demo">Remove</button>';
-    // echo '</div>';
+    echo '<div class="softlab_custom_post-button-group">';
+    echo '<button type="button" id="add-new-demo">Add New</button>';
+    echo '<button type="button" id="remove-new-demo">Remove</button>';
+    echo '</div>';
 
     // Image upload field
 
@@ -238,10 +238,6 @@ function wpl_softlab_custom_post_pages_function($post)
  */
 function softlab_custom_post_save_meta_box_data($post_id)
 {
-    // Check for nonce, autosave, and permissions.
-    // if (!isset($_POST['softlab_custom_post_meta_field_url']) || defined('DOING_AUTOSAVE') && DOING_AUTOSAVE || !current_user_can('edit_post', $post_id)) {
-    //     return;
-    // }
     if (!isset($_POST['softlab_image_nonce_field']) || !wp_verify_nonce($_POST['softlab_image_nonce_field'], 'softlab_image_nonce')) {
         return;
     }
