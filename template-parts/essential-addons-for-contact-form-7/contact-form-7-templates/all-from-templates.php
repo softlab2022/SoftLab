@@ -9,7 +9,7 @@
                     <div class="contact-form-7-templates-search-wrap">
                         <form id="contact-form-7-templates-search-form" class="contact-form-7-templates-search-form">
                             <div class="contact-form-7-templates-search-field-wrap">
-                                <input name="s" id="search-keyword" class="contact-form-7-templates-search-field" autocomplete="off" type="text" placeholder="Search for topics or questions....">
+                                <input name="s" id="search-keyword" class="contact-form-7-templates-search-field" autocomplete="off" type="text" placeholder="Search Preferred Form Templates">
 
                                 <div class="contact-form-7-templates-search-loader">
                                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

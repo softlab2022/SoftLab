@@ -342,7 +342,8 @@
 .page-template-templatesintegrate-google-drive-file-uploader-php,
 .page-template-templatesintegrate-google-drive-photo-gallery-php,
 .page-template-templatesintegrate-google-drive-media-player-php,
-.page-template-templatesintegrate-google-drive-pricing-update-php {
+.page-template-templatesintegrate-google-drive-pricing-update-php,
+.page-template-templatesintegrate-google-drive-integrations-php {
   .footer {
     background: linear-gradient(154deg, #F2FFF2 3.43%, #E2FEF0 90.47%);
 
@@ -360,19 +361,19 @@
       }
     }
 
-    .footer-main_logo,
-    .footer-radio_logo,
-    .footer-dracula_logo,
-    .footer-eacf7_logo,
-    .footer-radio_proxy_logo,
-    .footer-radio_ads_logo,
-    .footer-soft_accordion_logo {
-      display: none;
-    }
+    // .footer-main_logo,
+    // .footer-radio_logo,
+    // .footer-dracula_logo,
+    // .footer-eacf7_logo,
+    // .footer-radio_proxy_logo,
+    // .footer-radio_ads_logo,
+    // .footer-soft_accordion_logo {
+    //   display: none;
+    // }
 
-    .footer-igd_logo {
-      display: block;
-    }
+    // .footer-igd_logo {
+    //   display: block;
+    // }
   }
 }
 
@@ -394,19 +395,19 @@
       }
     }
 
-    .footer-igd_logo,
-    .footer-main_logo,
-    .footer-dracula_logo,
-    .footer-eacf7_logo,
-    .footer-radio_proxy_logo,
-    .footer-radio_ads_logo,
-    .footer-soft_accordion_logo {
-      display: none;
-    }
+    // .footer-igd_logo,
+    // .footer-main_logo,
+    // .footer-dracula_logo,
+    // .footer-eacf7_logo,
+    // .footer-radio_proxy_logo,
+    // .footer-radio_ads_logo,
+    // .footer-soft_accordion_logo {
+    //   display: none;
+    // }
 
-    .footer-radio_logo {
-      display: block;
-    }
+    // .footer-radio_logo {
+    //   display: block;
+    // }
   }
 }
 
@@ -432,18 +433,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    .footer-igd_logo,
-    .footer-main_logo,
-    .footer-dracula_logo,
-    .footer-eacf7_logo,
-    .footer-radio_ads_logo,
-    .footer-soft_accordion_logo {
-      display: none;
-    }
+    // .footer-igd_logo,
+    // .footer-main_logo,
+    // .footer-dracula_logo,
+    // .footer-eacf7_logo,
+    // .footer-radio_ads_logo,
+    // .footer-soft_accordion_logo {
+    //   display: none;
+    // }
 
-    .footer-radio_proxy_logo {
-      display: block;
-    }
+    // .footer-radio_proxy_logo {
+    //   display: block;
+    // }
 
     .newslatter-from {
       .input-group-append {
@@ -462,18 +463,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    .footer-igd_logo,
-    .footer-main_logo,
-    .footer-dracula_logo,
-    .footer-eacf7_logo,
-    .footer-radio_proxy_logo,
-    .footer-soft_accordion_logo {
-      display: none;
-    }
+    // .footer-igd_logo,
+    // .footer-main_logo,
+    // .footer-dracula_logo,
+    // .footer-eacf7_logo,
+    // .footer-radio_proxy_logo,
+    // .footer-soft_accordion_logo {
+    //   display: none;
+    // }
 
-    .footer-radio_ads_logo {
-      display: block;
-    }
+    // .footer-radio_ads_logo {
+    //   display: block;
+    // }
 
     .newslatter-from {
       .input-group-append {
@@ -497,19 +498,19 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
 
-    .footer-igd_logo,
-    .footer-radio_logo,
-    .footer-main_logo,
-    .footer-eacf7_logo,
-    .footer-radio_proxy_logo,
-    .footer-radio_ads_logo,
-    .footer-soft_accordion_logo {
-      display: none;
-    }
+    // .footer-igd_logo,
+    // .footer-radio_logo,
+    // .footer-main_logo,
+    // .footer-eacf7_logo,
+    // .footer-radio_proxy_logo,
+    // .footer-radio_ads_logo,
+    // .footer-soft_accordion_logo {
+    //   display: none;
+    // }
 
-    .footer-dracula_logo {
-      display: block;
-    }
+    // .footer-dracula_logo {
+    //   display: block;
+    // }
 
     .footer-contant {
       p {
@@ -628,19 +629,19 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
 
-    .footer-igd_logo,
-    .footer-radio_logo,
-    .footer-dracula_logo,
-    .footer-main_logo,
-    .footer-radio_proxy_logo,
-    .footer-radio_ads_logo,
-    .footer-soft_accordion_logo {
-      display: none;
-    }
+    // .footer-igd_logo,
+    // .footer-radio_logo,
+    // .footer-dracula_logo,
+    // .footer-main_logo,
+    // .footer-radio_proxy_logo,
+    // .footer-radio_ads_logo,
+    // .footer-soft_accordion_logo {
+    //   display: none;
+    // }
 
-    .footer-eacf7_logo {
-      display: block;
-    }
+    // .footer-eacf7_logo {
+    //   display: block;
+    // }
   }
 }
 
@@ -772,6 +773,7 @@
 .page-template-templatesintegrate-google-drive-photo-gallery-php,
 .page-template-templatesintegrate-google-drive-media-player-php,
 .page-template-templatesintegrate-google-drive-pricing-update-php,
+.page-template-templatesintegrate-google-drive-integrations-php,
 .page-template-templatesintegrate-google-drive-integrations-php {
   .footer-massenger {
     a {
@@ -827,19 +829,19 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
 
-    .footer-main_logo,
-    .footer-igd_logo,
-    .footer-radio_logo,
-    .footer-dracula_logo,
-    .footer-radio_proxy_logo,
-    .footer-radio_ads_logo,
-    .footer-eacf7_logo {
-      display: none;
-    }
+    // .footer-main_logo,
+    // .footer-igd_logo,
+    // .footer-radio_logo,
+    // .footer-dracula_logo,
+    // .footer-radio_proxy_logo,
+    // .footer-radio_ads_logo,
+    // .footer-eacf7_logo {
+    //   display: none;
+    // }
 
-    .footer-soft_accordion_logo {
-      display: block;
-    }
+    // .footer-soft_accordion_logo {
+    //   display: block;
+    // }
   }
 }
 
