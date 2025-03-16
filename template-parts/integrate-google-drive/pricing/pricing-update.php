@@ -2,97 +2,117 @@
 // Free Features
 $free_features = [
     'All Free Features',
-    'Accordion Layout  (MultiColumn, Horizontal)',
-    'Accordion Mode (custom open)',
-    'Activator Event (autoplay)',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ themes',
-    'Title Background Color Type (gradiend)',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
-    'Google Fonts',
+    'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Search Box Module',
+    'Slider Carousel Module',
+    'Import to Media Library',
+    'Add Multiple Google Drive Accounts',
+    'Media Library Integration <span class="new">New⚡</span>',
+    'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Easy Digital Downloads Integration',
+    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Popular Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+
+    'User Private Folders <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Statistics, Email Report & Notification',
+    'Appearance Color Customizations',
+    'Auto Synchronize Cloud Files',
+    'Usage Limit Control <span class="new">New⚡</span>',
 ];
 
 // pro Features
 $pro_features = [
     'All Free Features',
-    'Accordion Layout  (MultiColumn, Horizontal)',
-    'Accordion Mode (custom open)',
-    'Activator Event (autoplay)',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ themes',
-    'Title Background Color Type (gradiend)',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
-    'Google Fonts',
+    'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Search Box Module',
+    'Slider Carousel Module',
+    'Import to Media Library',
+    'Add Multiple Google Drive Accounts',
+    'Media Library Integration <span class="new">New⚡</span>',
+    'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Easy Digital Downloads Integration',
+    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Popular Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+
+    'User Private Folders <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Statistics, Email Report & Notification',
+    'Appearance Color Customizations',
+    'Auto Synchronize Cloud Files',
+    'Usage Limit Control <span class="new">New⚡</span>',
     // 'WooCommerce Checkout <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
 
 
 ];
 $free_integrations = [
     'All Free Features',
-    'Accordion Layout  (MultiColumn, Horizontal)',
-    'Accordion Mode (custom open)',
-    'Activator Event (autoplay)',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ themes',
-    'Title Background Color Type (gradiend)',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
-    'Google Fonts',
+    'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Search Box Module',
+    'Slider Carousel Module',
+    'Import to Media Library',
+    'Add Multiple Google Drive Accounts',
+    'Media Library Integration <span class="new">New⚡</span>',
+    'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Easy Digital Downloads Integration',
+    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Popular Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
 
+    'User Private Folders <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Statistics, Email Report & Notification',
+    'Appearance Color Customizations',
+    'Auto Synchronize Cloud Files',
+    'Usage Limit Control <span class="new">New⚡</span>',
 ];
 
 // Free Fields
 $free_fields = [
     'All Free Features',
-    'Accordion Layout  (MultiColumn, Horizontal)',
-    'Accordion Mode (custom open)',
-    'Activator Event (autoplay)',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ themes',
-    'Title Background Color Type (gradiend)',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
-    'Google Fonts',
+    'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Search Box Module',
+    'Slider Carousel Module',
+    'Import to Media Library',
+    'Add Multiple Google Drive Accounts',
+    'Media Library Integration <span class="new">New⚡</span>',
+    'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Easy Digital Downloads Integration',
+    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Popular Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+
+    'User Private Folders <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Statistics, Email Report & Notification',
+    'Appearance Color Customizations',
+    'Auto Synchronize Cloud Files',
+    'Usage Limit Control <span class="new">New⚡</span>',
 ];
 // Pro Fields
 $pro_fields = [
     'All Free Features',
-    'Accordion Layout  (MultiColumn, Horizontal)',
-    'Accordion Mode (custom open)',
-    'Activator Event (autoplay)',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ themes',
-    'Title Background Color Type (gradiend)',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination (Numeric, Load More & Infinity Scroll)',
-    'Google Fonts',
+    'File Browser Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'File Uploader Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Media Player Module <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Search Box Module',
+    'Slider Carousel Module',
+    'Import to Media Library',
+    'Add Multiple Google Drive Accounts',
+    'Media Library Integration <span class="new">New⚡</span>',
+    'WooCommerce Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Easy Digital Downloads Integration',
+    'Tutor LMS Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Popular Forms Integration <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+
+    'User Private Folders <span class="hot">Hot <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/google-drive/features/fire.svg" alt="fire"></span>',
+    'Statistics, Email Report & Notification',
+    'Appearance Color Customizations',
+    'Auto Synchronize Cloud Files',
+    'Usage Limit Control <span class="new">New ⚡</span>',
+
     // 'Repeater Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"> </span>',
 
 ];
@@ -216,7 +236,7 @@ $pro_fields = [
                     <span class="price-suffix lifetime">/ Billed once</span>
                 </div>
 
-                <div class="plan-name " data-license="2">2-site license</div>
+                <div class="plan-name " data-license="2">2-sites license</div>
                 <?php foreach ($free_fields as $feature) { ?>
                     <div class="feature-item">
                         <i class="fa-solid fa-check"></i>
@@ -265,7 +285,7 @@ $pro_fields = [
                         <span class="price-suffix lifetime">/ Billed once</span>
                     </div>
 
-                    <div class="plan-name " data-license="5">5-site license</div>
+                    <div class="plan-name " data-license="5">5-sites license</div>
                     <?php foreach ($free_integrations as $feature) { ?>
                         <div class="feature-item">
                             <i class="fa-solid fa-check"></i>
@@ -306,7 +326,7 @@ $pro_fields = [
                     <span class="price-suffix lifetime">/ Billed once</span>
                 </div>
 
-                <div class="plan-name " data-license="100">100-site license</div>
+                <div class="plan-name " data-license="100">100-sites license</div>
                 <?php foreach ($pro_features as $feature) { ?>
                     <div class="feature-item">
                         <i class="fa-solid fa-check"></i>
@@ -348,7 +368,7 @@ $pro_fields = [
                     <span class="price-suffix lifetime">/ Billed once</span>
                 </div>
 
-                <div class="plan-name " data-license="unlimited">Unlimited-site license</div>
+                <div class="plan-name " data-license="unlimited">Unlimited-sites license</div>
                 <?php foreach ($pro_fields as $feature) { ?>
                     <div class="feature-item">
                         <i class="fa-solid fa-check"></i>

@@ -146,8 +146,8 @@ Users can listen to your radio stream while browsing your website or doing other
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="section-header text-center">
-                    <h2>Features Comparison</h2>
-                    <p>Free vs PRO</p>
+                    <h2>Choose the best plan that fits your needs</h2>
+					<p>we’ve created several packages with different features in them. These are priced according to the value they deliver.</p>
                 </div>
             </div>
         </div>

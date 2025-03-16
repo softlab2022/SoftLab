@@ -2,101 +2,73 @@
 // Free Features
 $free_features = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Full-width Sticky Player',
+    'Sticky Player on Specific Pages',
+    'Multiple Stations in a Player',
+    'Multiple Player Skins',
+    'Stations Playlist',
+    'Play Statistics',
+    'Popup Player',
+    'Size Customizations',
+    'Color Customizations',
 ];
 
 // pro Features
 $pro_features = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Full-width Sticky Player',
+    'Sticky Player on Specific Pages',
+    'Multiple Stations in a Player',
+    'Multiple Player Skins',
+    'Stations Playlist',
+    'Play Statistics',
+    'Popup Player',
+    'Size Customizations',
+    'Color Customizations',
+    // 'WooCommerce Checkout <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
+
 
 ];
 $free_integrations = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
-
+    'Full-width Sticky Player',
+    'Sticky Player on Specific Pages',
+    'Multiple Stations in a Player',
+    'Multiple Player Skins',
+    'Stations Playlist',
+    'Play Statistics',
+    'Popup Player',
+    'Size Customizations',
+    'Color Customizations',
 ];
 
 // Free Fields
 $free_fields = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Full-width Sticky Player',
+    'Sticky Player on Specific Pages',
+    'Multiple Stations in a Player',
+    'Multiple Player Skins',
+    'Stations Playlist',
+    'Play Statistics',
+    'Popup Player',
+    'Size Customizations',
+    'Color Customizations',
 ];
 // Pro Fields
 $pro_fields = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
-    // 'Hidden Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
-
+    'Full-width Sticky Player',
+    'Sticky Player on Specific Pages',
+    'Multiple Stations in a Player',
+    'Multiple Player Skins',
+    'Stations Playlist',
+    'Play Statistics',
+    'Popup Player',
+    'Size Customizations',
+    'Color Customizations',
+    // 'Repeater Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"> </span>',
 ];
-
-
-
 
 ?>
 
@@ -150,25 +122,25 @@ $pro_fields = [
 
                     <div class="offer-price annual single">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$37 </p>
+                            <p class="price-off">$50 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
 
-                    <span class="price-value annual single">29</span>
+                    <span class="price-value annual single">39</span>
 
                     <div class="offer-price lifetime single">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$102 </p>
+                            <p class="price-off">$167 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
 
-                    <span class="price-value lifetime single">79</span>
+                    <span class="price-value lifetime single">129</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -195,23 +167,23 @@ $pro_fields = [
 
                     <div class="offer-price annual two">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$50 </p>
+                            <p class="price-off">$76 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value annual two">39</span>
+                    <span class="price-value annual two">59</span>
 
                     <div class="offer-price lifetime two">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$128</p>
+                            <p class="price-off">$232</p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value lifetime two">99</span>
+                    <span class="price-value lifetime two">179</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -333,7 +305,7 @@ $pro_fields = [
 
                     </div>
 
-                    <span class="price-value annual unlimited ">299</span>
+                    <span class="price-value annual unlimited ">259</span>
 
                     <div class="offer-price lifetime unlimited ">
                         <div class="price-offer d-flex justify-content-center align-items-center">
@@ -368,10 +340,10 @@ $pro_fields = [
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/soft-accordion.png",
+                plugin_id: '8684',
+                plan_id: '14508',
+                public_key: 'pk_6175576896c0d8c125d31e42287ab',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/radio-player-new.png",
             });
 
             // Handle all buy button clicks dynamically
@@ -386,10 +358,10 @@ $pro_fields = [
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        // console.log("Purchase Completed:", response);
+                        console.log("Purchase Completed:", response);
                     },
                     success: function(response) {
-                        // console.log("Purchase Successful:", response);
+                        console.log("Purchase Successful:", response);
                     }
                 });
             });
@@ -397,17 +369,35 @@ $pro_fields = [
     })(jQuery);
 </script>
 
+
 <!-- <script>
     ;
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
+                plugin_id: '9618',
+                plan_id: '16186',
+                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
                 image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
             });
 
+            $('.buy-btn-single').on('click', function(e) {
+                e.preventDefault();
+
+                handler.open({
+                    name: 'Integrate Google Drive',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {
+                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
+                    },
+
+                    success: function(response) {
+                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
+                    }
+                });
+            });
             $('.buy-btn-pro').on('click', function(e) {
                 e.preventDefault();
 
@@ -425,7 +415,6 @@ $pro_fields = [
                     }
                 });
             });
-           
         });
     })(jQuery);
 </script> -->

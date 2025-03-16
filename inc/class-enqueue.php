@@ -43,6 +43,7 @@ class SoftLa
 		} else if (in_array($file_name, [
 			'radio-player',
 			'radio-player-pricing',
+			'radio-player-pricing-update',
 			'radio-player-multiple-player-skins',
 			'radio-player-ads',
 			'radio-player-check-http-stream',
@@ -60,6 +61,7 @@ class SoftLa
 		} else if (in_array($file_name, [
 			'dracula',
 			'dracula-pricing',
+			'dracula-pricing-update',
 			'dracula-features',
 			'dracula-compare',
 		])) {
@@ -97,6 +99,7 @@ class SoftLa
 		} else if (in_array($file_name, [
 			'essential-addons-for-contact-form-7',
 			'essential-addons-for-contact-form-7-pricing',
+			'essential-addons-for-contact-form-7-pricing-update',
 			'essential-addons-for-contact-form-7-integrations',
 			'essential-addons-for-contact-form-7-features',
 			'eacf7-preview',
@@ -202,6 +205,7 @@ class SoftLa
 			'wp-radio-image-import',
 			'wp-radio-ads-player',
 			'dracula-pricing',
+			'dracula-pricing-update',
 			'radio-player-ads',
 			'integrate-dropbox-pricing',
 			'radio-player-proxy-player',
@@ -210,6 +214,8 @@ class SoftLa
 			'integrate-google-drive-media-library',
 			'essential-addons-for-contact-form-7-pricing',
 			'soft-accordion-pricing',
+			'essential-addons-for-contact-form-7-pricing-update',
+			'radio-player-pricing-update',
 		]);
 
 		if ($is_pricing_page) {

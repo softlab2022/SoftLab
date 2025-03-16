@@ -2,101 +2,155 @@
 // Free Features
 $free_features = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Math Captcha',
+    'Mask Input',
+    'Digital Signature',
+    'Leads Info',
+    'Rich Text Editor',
+    'Google Drive Upload',
+    'Image Choice',
+    'Custom HTML',
+    'Color Picker',
+    'Repeater Field',
+    'Shortcode',
+    'Action Hook',
+    'Woo Product Dropdown',
+    'Multi Step Form',
+    'Booking/Appointment Form',
+    'Conversational Forms',
+    'PDF Generator',
+    'Frontend Post Submission',
+    'Popup Form',
+    'User Registration',
+    'WooCommerce Checkout',
+    'Save Form Progress',
+    'Export / Import <span class="new">New⚡</span>',
+    'Google Drive',
+    'WhatsApp',
 ];
 
 // pro Features
 $pro_features = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Math Captcha',
+    'Mask Input',
+    'Digital Signature',
+    'Leads Info',
+    'Rich Text Editor',
+    'Google Drive Upload',
+    'Image Choice',
+    'Custom HTML',
+    'Color Picker',
+    'Repeater Field',
+    'Shortcode',
+    'Action Hook',
+    'Woo Product Dropdown',
+    'Multi Step Form',
+    'Booking/Appointment Form',
+    'Conversational Forms',
+    'PDF Generator',
+    'Frontend Post Submission',
+    'Popup Form',
+    'User Registration',
+    'WooCommerce Checkout',
+    'Save Form Progress',
+    'Export / Import <span class="new">New⚡</span>',
+    'Google Drive',
+    'WhatsApp',
+    // 'WooCommerce Checkout <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
+
 
 ];
 $free_integrations = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Math Captcha',
+    'Mask Input',
+    'Digital Signature',
+    'Leads Info',
+    'Rich Text Editor',
+    'Google Drive Upload',
+    'Image Choice',
+    'Custom HTML',
+    'Color Picker',
+    'Repeater Field',
+    'Shortcode',
+    'Action Hook',
+    'Woo Product Dropdown',
+    'Multi Step Form',
+    'Booking/Appointment Form',
+    'Conversational Forms',
+    'PDF Generator',
+    'Frontend Post Submission',
+    'Popup Form',
+    'User Registration',
+    'WooCommerce Checkout',
+    'Save Form Progress',
+    'Export / Import <span class="new">New⚡</span>',
+    'Google Drive',
+    'WhatsApp',
 
 ];
 
 // Free Fields
 $free_fields = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+    'Math Captcha',
+    'Mask Input',
+    'Digital Signature',
+    'Leads Info',
+    'Rich Text Editor',
+    'Google Drive Upload',
+    'Image Choice',
+    'Custom HTML',
+    'Color Picker',
+    'Repeater Field',
+    'Shortcode',
+    'Action Hook',
+    'Woo Product Dropdown',
+    'Multi Step Form',
+    'Booking/Appointment Form',
+    'Conversational Forms',
+    'PDF Generator',
+    'Frontend Post Submission',
+    'Popup Form',
+    'User Registration',
+    'WooCommerce Checkout',
+    'Save Form Progress',
+    'Export / Import <span class="new">New⚡</span>',
+    'Google Drive',
+    'WhatsApp',
 ];
 // Pro Fields
 $pro_fields = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
-    // 'Hidden Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
+    'Math Captcha',
+    'Mask Input',
+    'Digital Signature',
+    'Leads Info',
+    'Rich Text Editor',
+    'Google Drive Upload',
+    'Image Choice',
+    'Custom HTML',
+    'Color Picker',
+    'Repeater Field',
+    'Shortcode',
+    'Action Hook',
+    'Woo Product Dropdown',
+    'Multi Step Form',
+    'Booking/Appointment Form',
+    'Conversational Forms',
+    'PDF Generator',
+    'Frontend Post Submission',
+    'Popup Form',
+    'User Registration',
+    'WooCommerce Checkout',
+    'Save Form Progress',
+    'Export / Import <span class="new">New⚡</span>',
+    'Google Drive',
+    'WhatsApp',
+    // 'Repeater Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"> </span>',
 
 ];
-
-
-
 
 ?>
 
@@ -161,14 +215,14 @@ $pro_fields = [
 
                     <div class="offer-price lifetime single">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$102 </p>
+                            <p class="price-off">$76 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
 
-                    <span class="price-value lifetime single">79</span>
+                    <span class="price-value lifetime single">59</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -205,13 +259,13 @@ $pro_fields = [
 
                     <div class="offer-price lifetime two">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$128</p>
+                            <p class="price-off">$102</p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value lifetime two">99</span>
+                    <span class="price-value lifetime two">79</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -254,7 +308,7 @@ $pro_fields = [
 
                         <div class="offer-price lifetime five">
                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                <p class="price-off">$258 </p>
+                                <p class="price-off">$258</p>
                                 <span class="price-dis">30%OFF</span>
                             </div>
 
@@ -368,10 +422,10 @@ $pro_fields = [
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/soft-accordion.png",
+                plugin_id: '16650',
+                plan_id: '27778',
+                public_key: 'pk_a223a352b97599f958e06405bad79',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/cf7-logo.png",
             });
 
             // Handle all buy button clicks dynamically
@@ -386,10 +440,10 @@ $pro_fields = [
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        // console.log("Purchase Completed:", response);
+                        console.log("Purchase Completed:", response);
                     },
                     success: function(response) {
-                        // console.log("Purchase Successful:", response);
+                        console.log("Purchase Successful:", response);
                     }
                 });
             });
@@ -397,17 +451,35 @@ $pro_fields = [
     })(jQuery);
 </script>
 
+
 <!-- <script>
     ;
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
+                plugin_id: '9618',
+                plan_id: '16186',
+                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
                 image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
             });
 
+            $('.buy-btn-single').on('click', function(e) {
+                e.preventDefault();
+
+                handler.open({
+                    name: 'Integrate Google Drive',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {
+                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
+                    },
+
+                    success: function(response) {
+                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
+                    }
+                });
+            });
             $('.buy-btn-pro').on('click', function(e) {
                 e.preventDefault();
 
@@ -425,7 +497,6 @@ $pro_fields = [
                     }
                 });
             });
-           
         });
     })(jQuery);
 </script> -->

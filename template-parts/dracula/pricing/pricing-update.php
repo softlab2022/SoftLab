@@ -2,101 +2,107 @@
 // Free Features
 $free_features = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+     'From Dark to Light',
+    'Custom Toggle Button Builder',
+    'Dark Mode Live Edit Widget',
+    'Page-Specific Dark Mode ',
+    '24+ Color Presets',
+    '14+ Toggle Switch Styles',
+    'Reading Mode <span class="new">New⚡</span>',
+    'Image & Video Replacement',
+    'Performance Mode ',
+    'Dark Mode Based Typography',
+    'Exclude Posts/Pages',
+    'Excludes Elements',
+    'Draggable Switch',
+    'Usage Analytics',
+    'Page Transition Animation',
+    'Toggle Switch Attention Effect',
 ];
 
 // pro Features
 $pro_features = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
-
+     'From Dark to Light',
+    'Custom Toggle Button Builder',
+    'Dark Mode Live Edit Widget',
+    'Page-Specific Dark Mode ',
+    '24+ Color Presets',
+    '14+ Toggle Switch Styles',
+    'Reading Mode <span class="new">New⚡</span>',
+    'Image & Video Replacement',
+    'Performance Mode ',
+    'Dark Mode Based Typography',
+    'Exclude Posts/Pages',
+    'Excludes Elements',
+    'Draggable Switch',
+    'Usage Analytics',
+    'Page Transition Animation',
+    'Toggle Switch Attention Effect',
+    // 'WooCommerce Checkout <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
 ];
 $free_integrations = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
-
+     'From Dark to Light',
+    'Custom Toggle Button Builder',
+    'Dark Mode Live Edit Widget',
+    'Page-Specific Dark Mode ',
+    '24+ Color Presets',
+    '14+ Toggle Switch Styles',
+    'Reading Mode <span class="new">New⚡</span>',
+    'Image & Video Replacement',
+    'Performance Mode ',
+    'Dark Mode Based Typography',
+    'Exclude Posts/Pages',
+    'Excludes Elements',
+    'Draggable Switch',
+    'Usage Analytics',
+    'Page Transition Animation',
+    'Toggle Switch Attention Effect',
 ];
 
 // Free Fields
 $free_fields = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
+     'From Dark to Light',
+    'Custom Toggle Button Builder',
+    'Dark Mode Live Edit Widget',
+    'Page-Specific Dark Mode ',
+    '24+ Color Presets',
+    '14+ Toggle Switch Styles',
+    'Reading Mode <span class="new">New⚡</span>',
+    'Image & Video Replacement',
+    'Performance Mode ',
+    'Dark Mode Based Typography',
+    'Exclude Posts/Pages',
+    'Excludes Elements',
+    'Draggable Switch',
+    'Usage Analytics',
+    'Page Transition Animation',
+    'Toggle Switch Attention Effect',
 ];
 // Pro Fields
 $pro_fields = [
     'All Free Features',
-    'Accordion Layout',
-    'Accordion Mode',
-    'Activator Event',
-    'Display FAQ Search',
-    'Expand/Collapse All Button',
-    '20+ Themes',
-    'Title Background Color Customization',
-    'Title Padding',
-    'Title Icon',
-    'Title Icon Size',
-    'Description Padding',
-    '50+ Animation Effects',
-    'Ajax Pagination ',
-    'Google Fonts Compatibility',
-    // 'Hidden Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
+     'From Dark to Light',
+    'Custom Toggle Button Builder',
+    'Dark Mode Live Edit Widget',
+    'Page-Specific Dark Mode ',
+    '24+ Color Presets',
+    '14+ Toggle Switch Styles',
+    'Reading Mode <span class="new">New⚡</span>',
+    'Image & Video Replacement',
+    'Performance Mode ',
+    'Dark Mode Based Typography',
+    'Exclude Posts/Pages',
+    'Excludes Elements',
+    'Draggable Switch',
+    'Usage Analytics',
+    'Page Transition Animation',
+    'Toggle Switch Attention Effect',
+    // 'Repeater Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"> </span>',
 
 ];
-
-
-
 
 ?>
 
@@ -116,6 +122,7 @@ $pro_fields = [
             </div>
         </div> -->
 
+        <!-- 
         <div class="row align-items-center">
             <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
@@ -123,13 +130,21 @@ $pro_fields = [
                     <p>Join 10000+ User's Happy Community</p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </section>
 
 <section id="pricing">
     <div class="container">
+        <div class="row">
+            <div class="col-lg-9 m-auto">
+                <div class="hero-content text-center">
+                    <h1>Simple And Flexible Pricing</h1>
+                    <p>The Most Powerful WordPress Dark Mode Plugin, Without the High Costs</p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <div class="pricing-switcher">
@@ -161,14 +176,14 @@ $pro_fields = [
 
                     <div class="offer-price lifetime single">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$102 </p>
+                            <p class="price-off">$76 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
 
-                    <span class="price-value lifetime single">79</span>
+                    <span class="price-value lifetime single">59</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -183,7 +198,7 @@ $pro_fields = [
                     </div>
                 <?php } ?>
                 <div class="pricing-btn">
-                    <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#compare-features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
                     <a href="#" class="buy-btn-pro buy-btn-single btn-blue">Get Started</a>
                 </div>
             </div>
@@ -205,13 +220,13 @@ $pro_fields = [
 
                     <div class="offer-price lifetime two">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$128</p>
+                            <p class="price-off">$102</p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value lifetime two">99</span>
+                    <span class="price-value lifetime two">79</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -225,7 +240,7 @@ $pro_fields = [
                     </div>
                 <?php } ?>
                 <div class="pricing-btn">
-                    <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#compare-features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
                     <a href="#" class="buy-btn-pro buy-btn-two btn-orange">Get Started</a>
                 </div>
             </div>
@@ -244,23 +259,23 @@ $pro_fields = [
 
                         <div class="offer-price annual five">
                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                <p class="price-off">$128 </p>
+                                <p class="price-off">$102 </p>
                                 <span class="price-dis">30%OFF</span>
                             </div>
 
                         </div>
 
-                        <span class="price-value annual five">99</span>
+                        <span class="price-value annual five">79</span>
 
                         <div class="offer-price lifetime five">
                             <div class="price-offer d-flex justify-content-center align-items-center">
-                                <p class="price-off">$258 </p>
+                                <p class="price-off">$167 </p>
                                 <span class="price-dis">30%OFF</span>
                             </div>
 
                         </div>
 
-                        <span class="price-value lifetime five">199</span>
+                        <span class="price-value lifetime five">129</span>
 
                         <span class="price-suffix annual">/ Per year</span>
                         <span class="price-suffix lifetime">/ Billed once</span>
@@ -274,7 +289,7 @@ $pro_fields = [
                         </div>
                     <?php } ?>
                     <div class="pricing-btn">
-                        <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#compare-features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
                         <a href="#" class="buy-btn-pro buy-btn-five btn-green">Get Started</a>
                     </div>
                 </div>
@@ -287,21 +302,21 @@ $pro_fields = [
 
                     <div class="offer-price annual hundred">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$258 </p>
+                            <p class="price-off">$167 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value annual hundred">199</span>
+                    <span class="price-value annual hundred">129</span>
                     <div class="offer-price lifetime hundred">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$518 </p>
+                            <p class="price-off">$388 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
-                    <span class="price-value lifetime hundred">399</span>
+                    <span class="price-value lifetime hundred">299</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -315,7 +330,7 @@ $pro_fields = [
                     </div>
                 <?php } ?>
                 <div class="pricing-btn">
-                    <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#compare-features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
                     <a href="#" class="buy-btn-pro buy-btn-hundred btn-pink">Get Started</a>
                 </div>
             </div>
@@ -327,23 +342,23 @@ $pro_fields = [
 
                     <div class="offer-price annual unlimited">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$388 </p>
+                            <p class="price-off">$258 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value annual unlimited ">299</span>
+                    <span class="price-value annual unlimited ">199</span>
 
                     <div class="offer-price lifetime unlimited ">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$648 </p>
+                            <p class="price-off">$518 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value lifetime unlimited">499</span>
+                    <span class="price-value lifetime unlimited">399</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -357,7 +372,7 @@ $pro_fields = [
                     </div>
                 <?php } ?>
                 <div class="pricing-btn">
-                    <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#compare-features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
                     <a href="#" class="buy-btn-pro buy-btn-unlimited btn-sky-blue">Get Started</a>
                 </div>
             </div>
@@ -368,10 +383,10 @@ $pro_fields = [
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/soft-accordion.png",
+                plugin_id: '11821',
+                plan_id: '20144',
+                public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png",
             });
 
             // Handle all buy button clicks dynamically
@@ -386,10 +401,10 @@ $pro_fields = [
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        // console.log("Purchase Completed:", response);
+                        console.log("Purchase Completed:", response);
                     },
                     success: function(response) {
-                        // console.log("Purchase Successful:", response);
+                        console.log("Purchase Successful:", response);
                     }
                 });
             });
@@ -397,17 +412,35 @@ $pro_fields = [
     })(jQuery);
 </script>
 
+
 <!-- <script>
     ;
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
+                plugin_id: '9618',
+                plan_id: '16186',
+                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
                 image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
             });
 
+            $('.buy-btn-single').on('click', function(e) {
+                e.preventDefault();
+
+                handler.open({
+                    name: 'Integrate Google Drive',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {
+                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
+                    },
+
+                    success: function(response) {
+                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
+                    }
+                });
+            });
             $('.buy-btn-pro').on('click', function(e) {
                 e.preventDefault();
 
@@ -425,7 +458,6 @@ $pro_fields = [
                     }
                 });
             });
-           
         });
     })(jQuery);
 </script> -->

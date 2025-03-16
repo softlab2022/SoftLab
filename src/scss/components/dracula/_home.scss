@@ -787,6 +787,7 @@
     margin: 10px;
 
     .testi-head {
+      gap: 15px;
       .man-img {
         border-radius: 50px;
         width: 60px;
@@ -794,7 +795,7 @@
       }
 
       .name {
-        margin-left: -70px;
+        margin-left:0px;
 
         // margin-right: 40px;
         .star {

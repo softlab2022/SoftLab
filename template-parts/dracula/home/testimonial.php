@@ -42,7 +42,7 @@ $testimonials = [
         'images'       => get_template_directory_uri() . '/assets/images/dracula/home/testimonial/group.png',
         'names'        => 'edfhinton',
         'designation' => 'Web Developer',
-    ], 
+    ],
     [
         'title'       => 'The Best (7 Stars)',
         'description' => 'Simply the best Dark Mode plugin out there, especially since the latest update. No CSS hacks necessary (though the option is there and seems robust), no plugin incompatibilities, no bugs on refresh, great default colors and the options I cared about most are not pay walled.',
@@ -73,20 +73,22 @@ $testimonials = [
             <?php foreach ($testimonials as $testimonial) { ?>
                 <div class="col-lg-4 col-md-6">
                     <div class="testi-main">
-                        <div class="testi-head d-flex justify-content-between align-items-center">
-                            <img class="img-fluid man-img" src="<?php echo $testimonial['image']; ?>" alt="<?php echo $testimonial['title']; ?>">
-                            <div class="name">
-                                <div class="star d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <div class="review">
-                                        <span>5.00</span>
+                        <div class="testi-items  d-flex justify-content-between align-items-center">
+                            <div class="testi-head d-flex justify-content-between align-items-center">
+                                <img class="img-fluid man-img" src="<?php echo $testimonial['image']; ?>" alt="<?php echo $testimonial['title']; ?>">
+                                <div class="name">
+                                    <div class="star d-flex justify-content-center align-items-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <div class="review">
+                                            <span>5.00</span>
+                                        </div>
                                     </div>
+                                    <h3><?php echo $testimonial['names']; ?></h3>
                                 </div>
-                                <h3><?php echo $testimonial['names']; ?></h3>
                             </div>
                             <img class="img-fluid" src="<?php echo $testimonial['images']; ?>" alt="<?php echo $testimonial['title']; ?>">
                         </div>
