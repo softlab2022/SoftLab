@@ -8,7 +8,7 @@ function sl_ft_metabox()
 {
     add_meta_box(
         'sl-ft-page-id',
-        'Form Templates meta box',
+        'Form Shortcode',
         'wpl_sl_ft_pages_function',
         'form',
         'normal',
@@ -33,10 +33,9 @@ function wpl_sl_ft_pages_function($post)
 
     echo '<div id="sl-metabox-container">';
     echo '<div class="sl-metabox-fields">';
-    echo '<h3>Form Templates meta box</h3>';
 
     echo '<br>';
-    echo '<label for="sl_ft_meta_field_shortcode">Form Shortcode: </label>';
+    echo '<label for="sl_ft_meta_field_shortcode"></label>';
     echo '<input type="text" id="sl_ft_meta_field_shortcode" name="sl_ft_meta_fields[shortcode]" value="' . esc_attr($sl_ft_meta_fields['shortcode']) . '">';
     echo '<br>';
     echo '</div>';

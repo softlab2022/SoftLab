@@ -3,8 +3,8 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="cta-content text-center text-lg-start">
-                    <h3>Ready to Essential Addons for Contact Form 7 in Your website?</h3>
-                    <p>Best Contact Addons for Contact Form 7 plugin for WordPress to integrate, embed, download, browse, search, share your Google Drive </p>
+                    <h3>Supercharge Your Contact Form 7 Functionality</h3>
+                    <p>Essential Addons for Contact Form 7, adds powerful fields, features and customization options to make your form more creative</p>
                 </div>
             </div>
 

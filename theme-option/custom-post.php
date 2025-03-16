@@ -44,7 +44,7 @@ function softlab_custom_post_metabox()
 {
     add_meta_box(
         'softlab_custom_post-page-id',
-        'softlab page meta box',
+        'Softlab Career Page Meta Box',
         'wpl_softlab_custom_post_pages_function',
         'soft_job',
         'normal',
@@ -137,11 +137,10 @@ function wpl_softlab_custom_post_pages_function($post)
 
     // Save our_team_about_title fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>About Us</h3>';
-    echo '<label for="softlab_custom_post_meta_field_our_team_about_title">About Title: </label>';
-    echo '<input type="text" id="softlab_custom_post_meta_field_our_team_about_title" name="softlab_custom_post_meta_field_our_team_about_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_team_about_title', true)) . '">';
+    echo '<label for="softlab_custom_post_meta_field_our_team_about_title">About Us Title: </label>';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_post_meta_field_our_team_about_title" name="softlab_custom_post_meta_field_our_team_about_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_team_about_title', true)) . '">';
 
-    echo '<label for="softlab_custom_post_meta_field_our_team_about_description">About Description: </label>';
+    echo '<label for="softlab_custom_post_meta_field_our_team_about_description">About Us Description: </label>';
     echo '<textarea rows="4" cols="50" id="softlab_custom_post_meta_field_our_team_about_description" name="softlab_custom_post_meta_field_our_team_about_description">';
     echo esc_textarea(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_team_about_description', true));
     echo '</textarea>';
@@ -149,9 +148,8 @@ function wpl_softlab_custom_post_pages_function($post)
 
     // Save Job Responsibility fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Job Responsibility</h3>';
     echo '<label for="softlab_custom_job_responsibility_title">Job Responsibility Title: </label>';
-    echo '<input type="text" id="softlab_custom_job_responsibility_title" name="softlab_custom_job_responsibility_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_responsibility_title', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_job_responsibility_title" name="softlab_custom_job_responsibility_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_responsibility_title', true)) . '">';
 
     $value = get_post_meta($post->ID, 'softlab_custom_job_responsibility_description', true);
     echo '<label for="softlab_custom_job_responsibility_description">Job Responsibility Description:</label>';
@@ -161,9 +159,8 @@ function wpl_softlab_custom_post_pages_function($post)
     echo '</div>';
     // Save Job Requirements fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Job Requirements </h3>';
     echo '<label for="softlab_custom_job_requirements_title">Job Requirements Title: </label>';
-    echo '<input type="text" id="softlab_custom_job_requirements_title" name="softlab_custom_job_requirements_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_requirements_title', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_job_requirements_title" name="softlab_custom_job_requirements_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_requirements_title', true)) . '">';
 
     $value = get_post_meta($post->ID, 'softlab_custom_job_requirements_description', true);
     echo '<label for="softlab_custom_job_requirements_description">Job Requirements Description:</label>';
@@ -173,9 +170,8 @@ function wpl_softlab_custom_post_pages_function($post)
     echo '</div>';
     // Save Job Good to Have  fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Job Good to Have </h3>';
     echo '<label for="softlab_custom_job_good_have_title">Job Good to Have Title: </label>';
-    echo '<input type="text" id="softlab_custom_job_good_have_title" name="softlab_custom_job_good_have_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_good_have_title', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_job_good_have_title" name="softlab_custom_job_good_have_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_good_have_title', true)) . '">';
 
     $value = get_post_meta($post->ID, 'softlab_custom_job_good_have_description', true);
     echo '<label for="softlab_custom_job_good_have_description">Job Good to Have Description:</label>';
@@ -185,9 +181,8 @@ function wpl_softlab_custom_post_pages_function($post)
     echo '</div>';
     // Save Job Perks & Benefits  fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Job Perks & Benefits </h3>';
     echo '<label for="softlab_custom_job_perks_benefits_title">Job Perks & Benefits Title: </label>';
-    echo '<input type="text" id="softlab_custom_job_perks_benefits_title" name="softlab_custom_job_perks_benefits_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_perks_benefits_title', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_job_perks_benefits_title" name="softlab_custom_job_perks_benefits_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_job_perks_benefits_title', true)) . '">';
 
     $value = get_post_meta($post->ID, 'softlab_custom_job_perks_benefits_description', true);
     echo '<label for="softlab_custom_job_perks_benefits_description">Job Perks & Benefits Description:</label>';
@@ -198,9 +193,8 @@ function wpl_softlab_custom_post_pages_function($post)
 
     // Save Our Statement our_statement fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Our Statement</h3>';
     echo '<label for="softlab_custom_post_meta_field_our_statement_title">Our Statement Title: </label>';
-    echo '<input type="text" id="softlab_custom_post_meta_field_our_statement_title" name="softlab_custom_post_meta_field_our_statement_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_statement_title', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_post_meta_field_our_statement_title" name="softlab_custom_post_meta_field_our_statement_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_statement_title', true)) . '">';
 
     echo '<label for="softlab_custom_post_meta_field_our_statement_description">Our Statement Description: </label>';
     echo '<textarea rows="4" cols="50" id="softlab_custom_post_meta_field_our_statement_description" name="softlab_custom_post_meta_field_our_statement_description">';
@@ -209,24 +203,21 @@ function wpl_softlab_custom_post_pages_function($post)
     echo '</div>';
     // Save Experience  fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Experience</h3>';
     echo '<label for="softlab_custom_post_meta_field_experience">Experience Details: </label>';
-    echo '<input type="text" id="softlab_custom_post_meta_field_experience" name="softlab_custom_post_meta_field_experience" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_experience', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_post_meta_field_experience" name="softlab_custom_post_meta_field_experience" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_experience', true)) . '">';
     echo '</div>';
     // Save Salary  fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Salary</h3>';
     echo '<label for="softlab_custom_post_meta_field_salary">Salary Details: </label>';
-    echo '<input type="text" id="softlab_custom_post_meta_field_salary" name="softlab_custom_post_meta_field_salary" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_salary', true)) . '">';
+    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_post_meta_field_salary" name="softlab_custom_post_meta_field_salary" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_salary', true)) . '">';
     echo '</div>';
 
     // Save daedline date  fields.
     $expiration_date = esc_attr(get_post_meta($post->ID, 'soft_job_expiration_date', true));
     // Display the input field
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<h3>Date</h3>';
     echo '<label for="soft_job_expiration_date">Set Expiration Date:</label>';
-    echo '<input type="date" id="soft_job_expiration_date" name="soft_job_expiration_date" value="' . $expiration_date . '">';
+    echo '<input type="date" class="softlab_custom_input" id="soft_job_expiration_date" name="soft_job_expiration_date" value="' . $expiration_date . '">';
     echo '</div>';
 }
 

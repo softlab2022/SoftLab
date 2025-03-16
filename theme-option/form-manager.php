@@ -50,7 +50,7 @@ function slfm_metabox()
 {
     add_meta_box(
         'slfm-page-id',
-        'softlab Form Templates meta box for Description',
+        'Feature of this Template',
         'wpl_slfm_pages_function',
         'form',
         'normal',
@@ -135,7 +135,7 @@ function wpl_slfm_pages_function($post)
     $content = get_post_meta($post->ID, 'softlab_custom_template_description', true);
 
     echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<label for="softlab_custom_template_description">Feature of this Template:</label>';
+    echo '<label for="softlab_custom_template_description"></label>';
 
     // Add WYSIWYG editor
     wp_editor($content, 'softlab_custom_template_description', array(
