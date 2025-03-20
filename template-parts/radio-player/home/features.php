@@ -67,7 +67,7 @@
                         <?php } ?>
                         <div class="feature-description">
                             <p>
-                            Boost engagement with Radio Player's Sticky Player. Offered in versatile styles like Fullwidth, Mini-Fullwidth, and Floating, it ensures seamless listening across your site. Plus, customize its display on specific pages for tailored user experiences
+                                Boost engagement with Radio Player's Sticky Player. Offered in versatile styles like Fullwidth, Mini-Fullwidth, and Floating, it ensures seamless listening across your site. Plus, customize its display on specific pages for tailored user experiences
                             </p>
                             <!-- <p>
                                 Radio Player also provide the ability to display the Sticky Player on specific pages.
@@ -175,7 +175,7 @@
                         <?php } ?>
                         <div class="feature-description">
                             <p class="multiple-description">
-                                
+
                                 Personalize your radio experience with our expansive range of player skins. Each design is meticulously crafted, ensuring both style and functionality, to cater to every aesthetic preference.
                             </p>
                         </div>
@@ -262,7 +262,7 @@
                         <h3>Player Display Schedule</h3>
                         <?php if (wp_is_mobile()) { ?>
                             <div class="feature-item-img-mobile text-center">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/play-statistics.png" alt="play-statistics">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/feature/player-desplay-schedule.png" alt="player-desplay-schedule">
                             </div>
                         <?php } ?>
                         <div class="feature-description">

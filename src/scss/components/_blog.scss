@@ -1,6 +1,6 @@
 .blog-header {
   background: url("../images/blog/blog-bg.png") no-repeat center / cover;
-  padding: 176px 0px 28px 0;
+  padding: 120px 0px 88px 0;
 
   .news-letter-form {
 
@@ -71,8 +71,11 @@
 
   }
 
-  @media (max-width: 767.98px){
-    padding: 80px 0px 28px 0;
+  @media (min-width: 768px) and (max-width: 991px)  {
+    padding: 120px 0px 40px 0;
+  }
+  @media (max-width: 767.98px) {
+    padding: 80px 0px 40px 0;
   }
 
 }
@@ -85,6 +88,17 @@
   .buttons {
     margin-bottom: 3rem;
     position: relative;
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+
+    h2 {
+      color: $h1_color;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 120%;
+      /* 38.4px */
+    }
 
     .btn {
       font-weight: 400;
@@ -96,8 +110,13 @@
       padding: 10px 16px;
       background: #fff;
 
-      &:hover,
-      &.active {
+      &:hover {
+        background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+        border-color: #6E6DFF;
+        color: #fff;
+        box-shadow: (6px 6px 14px rgba(142, 170, 249, 0.4));
+      }
+     &.active {
         background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
         border-color: #6E6DFF;
         color: #fff;
@@ -112,14 +131,14 @@
       top: 5px;
 
       .search-form {
-       
+
 
         .search-box {
           position: relative;
           height: 45px;
           width: 60px;
           transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
-         
+
           .search-field {
             position: relative;
             width: 100%;
@@ -133,12 +152,13 @@
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             opacity: 0;
             transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
-            &:focus{
-             // border:2px solid #86b7fe!important;
+
+            &:focus {
+              // border:2px solid #86b7fe!important;
               background-color: #fff;
               border-color: #86b7fe;
               outline: 0;
-              box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25)
+              box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25)
             }
           }
 
@@ -305,6 +325,7 @@
         margin-bottom: 1rem;
         font-weight: 600;
         transition: all linear .4s;
+
         &:hover {
           color: #0d6efd;
           transition: all linear .4s;
@@ -461,7 +482,8 @@
       }
     }
   }
-  @media (max-width: 767.98px){
+
+  @media (max-width: 767.98px) {
     padding: 30px 0px 0px 0;
   }
 }
@@ -499,6 +521,10 @@
     position: absolute;
     right: 7px;
     top: 5.5px;
+
+    svg {
+      transform: rotateY(170deg);
+    }
   }
 }
 
@@ -564,13 +590,13 @@
 //     top:-86px !important;
 //     right: 134px !important;
 //     bottom: 0 !important;
-    
+
 //       .search-box {
 //         width: 350px !important;
 //       }
-  
+
 //     .search-box{
-      
+
 //         width:350px !important;
 //         .search-btn{
 //           display: none;
@@ -581,44 +607,52 @@
 //         .fm-search-btn{
 //           display:block !important;
 //         }
-      
+
 //     }
 //   }
 // }
 
-@media (max-width: 767.98px){
-  .buttons{
-    margin-top:80px;
+@media (max-width: 767.98px) {
+  .buttons {
+    margin-top: 10px;
     margin-bottom: 1rem !important;
-    .btn{
+
+    .btn {
       font-size: 11px !important;
-      padding:9px 11px !important;
+      padding: 9px 11px !important;
     }
   }
-  .blog-item-meta{
+
+  .blog-item-meta {
     flex-direction: column;
     gap: 20px;
   }
-  .search_container{
+
+  .search_container {
     top: -84px !important;
     right: 0px !important;
     bottom: 0 !important;
     width: 100%;
-    .cencel-btn{
-      display:none !important;
+
+    .cencel-btn {
+      display: none !important;
     }
-    .search-box{
-      width:100% !important;
-      .search-btn{
+
+    .search-box {
+      width: 100% !important;
+
+      .search-btn {
         display: none;
       }
-      .search-field{
+
+      .search-field {
         opacity: 1 !important;
       }
-      .fm-search-btn{
-        display:block !important;
+
+      .fm-search-btn {
+        display: block !important;
       }
     }
-   
+
   }
 }

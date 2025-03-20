@@ -24,7 +24,7 @@
 //         @media (min-width: 1200px) {
 //             //Extra large
 //           }
-          
+
 //             @media (min-width: 992px) and (max-width: 1199px) {
 //                 //Laptop
 //                 h1 {
@@ -34,7 +34,7 @@
 //                     font-size: .785rem;
 //                  }
 //             }
-        
+
 //           @media (min-width: 768px) and (max-width: 991px)  {
 //             //Tablet
 //             h1 {
@@ -44,7 +44,7 @@
 //                 font-size: .785rem;
 //              }
 //           }
-          
+
 //           @media (min-width: 420px) and (max-width: 767px) {
 //             //Mobile
 //                 h1 {
@@ -61,7 +61,7 @@
 //             display: inline-block;
 //             z-index: 1;
 //             padding: 0px 50px; 
-    
+
 //             &::after {
 //                 position: absolute;
 //                 width: 100%;
@@ -73,31 +73,31 @@
 //                 background-color: #000;
 //                 z-index: -1;            
 //             }
-    
+
 //             span {
-                  
+
 //                 display: block;
 //                 padding: 0px 10px;
 //             }
 //             @media (min-width: 1200px) {
 //                 //Extra large
 //               }
-              
+
 //                 @media (min-width: 992px) and (max-width: 1199px) {
 //                     //Laptop
 //                 }
-            
+
 //               @media (min-width: 768px) and (max-width: 991px)  {
 //                 //Tablet
 //               }
-              
+
 //               @media (min-width: 420px) and (max-width: 767px) {
 //                 //Mobile
-                
+
 //               }
-                        
+
 //         }  
-    
+
 //   }
 
 //   .single-team-member {
@@ -155,26 +155,26 @@
 //           @media (min-width: 1200px) {
 //               //Extra large
 //             }
-            
+
 //               @media (min-width: 992px) and (max-width: 1199px) {
 //                   //Laptop
 //                   margin-bottom: 10px;
 //               }
-          
+
 //             @media (min-width: 768px) and (max-width: 991px)  {
 //               //Tablet
-              
+
 //                   margin-bottom: 10px;
-              
+
 //             }
-            
+
 //             @media (min-width: 768px) and (max-width: 767px) {
 //               //Mobile
 //                   margin-bottom: 10px;
 //             }
-          
-          
-          
+
+
+
 //   }
 
 //   .sec-title-wrapper {
@@ -252,9 +252,9 @@
 //               margin-bottom: 15px;
 //           }
 
-    
+
 //       }
-      
+
 //   }
 
 //   .team-butt {
@@ -267,7 +267,7 @@
 //   @media (min-width: 1200px) {
 //     //Extra large
 //   }
-  
+
 //     @media (min-width: 992px) and (max-width: 1199px) {
 //         //Laptop
 //     }
@@ -279,10 +279,10 @@
 //         margin-bottom: 8%;
 //     }
 //   }
-  
+
 //   @media (min-width: 420px) and (max-width: 767px) {
 //     //Mobile
-    
+
 //     .team-butt {
 //         margin-top: 20%;
 //         margin-bottom: 8%;
@@ -295,20 +295,25 @@
 /*====== team css ======*/
 #our-team {
   padding: 100px 0;
+
   .section-head {
     margin-bottom: 80px;
-    h1{
+
+    h4 {
       text-transform: capitalize;
       font-size: 2.8rem;
       padding-top: 10px;
       color: $h1_color;
-  }
-  p {
+      font-weight: 700;
+    }
+
+    p {
       font-size: 1rem;
       color: $p_color;
-      
+
+    }
   }
-  }
+
   .our-team {
     padding: 30px 0 40px;
     margin-bottom: 30px;
@@ -316,17 +321,20 @@
     text-align: center;
     overflow: hidden;
     position: relative;
+
     .name {
       color: #353535;
       font-size: 27px;
       text-transform: capitalize;
     }
+
     .title {
       display: block;
       font-size: 15px;
       color: #4e5052;
       text-transform: capitalize;
     }
+
     .picture {
       display: inline-block;
       height: 130px;
@@ -334,6 +342,7 @@
       margin-bottom: 50px;
       z-index: 1;
       position: relative;
+
       img {
         width: 100%;
         height: auto;
@@ -341,6 +350,7 @@
         transform: scale(1);
         transition: all 0.9s ease 0s;
       }
+
       &::before {
         content: "";
         width: 100%;
@@ -355,6 +365,7 @@
         transform: scale(3);
         transition: all 0.3s linear 0s;
       }
+
       &::after {
         content: "";
         width: 100%;
@@ -367,7 +378,7 @@
         z-index: -1;
       }
     }
-    
+
     .social {
       width: 100%;
       padding: 0;
@@ -377,8 +388,10 @@
       bottom: -100px;
       left: 0;
       transition: all 0.5s ease 0s;
+
       li {
         display: inline-block;
+
         a {
           display: block;
           padding: 10px;
@@ -386,6 +399,7 @@
           color: #fff;
           transition: all 0.3s ease 0s;
           text-decoration: none;
+
           &:hover {
             color: #1369ce;
             background-color: #f7f5ec;
@@ -394,14 +408,16 @@
       }
     }
   }
+
   .our-team:hover .social {
     bottom: 0;
     display: none;
   }
+
   .our-team:hover .picture::before {
     height: 100%;
   }
-  
+
   .our-team:hover .picture img {
     box-shadow: 0 0 0 14px #f7f5ec;
     transform: scale(0.7);
@@ -409,9 +425,11 @@
 
   @media (max-width: 767.98px) {
     padding: 30px 0;
+
     .section-head {
       margin-bottom: 30px;
-      h1 {
+
+      h4 {
         font-size: 2rem;
         padding-top: 0;
         line-height: 36px;
@@ -422,3 +440,203 @@
 }
 
 
+
+$primary-color: #78F;
+$secondary-color: #6E6DFF;
+$text-color: #666;
+$background-light: #F9FAFF;
+$border-color: rgba(92, 99, 126, 0.24);
+$box-shadow: 0px 3px 10px 3px rgba(170, 170, 173, 0.5);
+
+.teams {
+  padding: 70px 0;
+
+
+  .teamWrapper {
+    text-align: center;
+  }
+
+  .heades {
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: $text-color;
+    }
+  }
+
+  .teamGrid {
+    margin-top: 100px;
+  }
+
+  .team-top {
+    margin-bottom: 130px;
+  }
+
+  .teamcol {
+    padding: 2px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 1s ease-in-out;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.17);
+
+
+    &:hover {
+      box-shadow: $box-shadow;
+      transition: transform 1s ease-in-out;
+
+      .membar-info {
+        background: linear-gradient(147deg, $primary-color 11.6%, $secondary-color 89.24%);
+        box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.20);
+        transition: background 1s ease-in-out;
+
+        .member-name {
+          h2 {
+            color: #fff;
+          }
+
+          p {
+            color: #fff;
+
+          }
+        }
+      }
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      width: 50%;
+      height: 50%;
+      position: absolute;
+      background: linear-gradient(147deg, $primary-color 11.6%, $secondary-color 89.24%);
+      transition: width 1s ease-in-out, height 1s ease-in-out;
+    }
+
+    &::before {
+      right: 0;
+      top: 0;
+      border-top-right-radius: 10px;
+      
+    }
+
+    &::after {
+      left: 0;
+      bottom: 0;
+      border-bottom-left-radius: 10px;
+    
+    }
+
+    &:hover {
+
+      &::before,
+      &::after {
+        width: 80%;
+        height: 80%;
+        transition: width 1s ease-in-out, height 1s ease-in-out;
+      }
+    }
+  }
+  .teamcolinner {
+    position: relative;
+    border: 1px dashed transparent;
+    min-height: 100px;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 9;
+  }
+
+  .avatar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -80px;
+    text-align: center;
+
+    img {
+      width: 150px;
+      margin: auto;
+      border-radius: 50%;
+      border: 1px solid rgba(170, 170, 173, 1);
+      box-shadow: $box-shadow;
+    }
+  }
+
+  .membar-info {
+    border-radius: 10px;
+    border: 1px solid $border-color;
+    background: $background-light;
+    padding: 20px 13px;
+    margin-top: 120px !important;
+    width: 245px;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: background 1s ease-in-out;
+    text-align: center;
+
+    .member-name {
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1rem;
+        color: $text-color;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .membar-info {
+      padding: 6px;
+      width: 200px;
+
+      .member-name {
+        h2 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .team-last {
+      margin-top: 130px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .team-top {
+      margin-bottom: 0px;
+    }
+
+    .teamcol {
+      margin-bottom: 130px;
+    }
+
+    .team-last {
+      margin-bottom: 0px;
+    }
+
+    .heades {
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

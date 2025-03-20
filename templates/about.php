@@ -25,8 +25,9 @@ get_header();
 <?php
 get_template_part('template-parts/about/about-hero');
 get_template_part('template-parts/about/journey');
-get_template_part('template-parts/about/team');
+get_template_part('template-parts/about/global-recognition');
 get_template_part('template-parts/home/fun-fact');
+get_template_part('template-parts/about/team');
 ?>
 
 

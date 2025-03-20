@@ -240,7 +240,7 @@ if (!empty($sl_meta_field)) {
                                 <img class="img-fluid" src="<?php echo esc_url(get_the_post_thumbnail_url() ?: 'https://via.placeholder.com/150'); ?>" alt="<?php the_title_attribute(); ?>">
                                 <div class="item-button">
                                     <div class="buttons-group">
-                                        <a href="<?php the_permalink(); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
+                                        <a href="<?php the_permalink(); ?>" class="button1" ><i class="fa-solid fa-eye"></i> View Demo</a>
                                     </div>
                                 </div>
                             </div>
