@@ -3,30 +3,30 @@
 $addons = [
 
     'radio-player-ads'    => [
-        'title'       => 'Radio Player Ads',
-        'logo'        => get_template_directory_uri() . '/assets/images/radio-player/radio-station/addon-logo.png',
-        'logo_withe'        => get_template_directory_uri() . '/assets/images/new-logo/radio-player-ads-withe-logo.png',
+        'title'      => 'Radio Player Ads',
+        'logo'       => get_template_directory_uri() . '/assets/images/radio-player/radio-station/addon-logo.png',
+        'logo_withe' => get_template_directory_uri() . '/assets/images/new-logo/radio-player-ads-withe-logo.png',
     ],
     'radio-player-proxy-player'    => [
-        'title'       => 'Radio Player Proxy Player',
-        'logo'        => get_template_directory_uri() . '/assets/images/radio-player/addons/http-stream-logo.png',
-        'logo_withe'        => get_template_directory_uri() . '/assets/images/radio-player/addons/http-stream-logo.png',
+        'title'      => 'Radio Player Proxy Player',
+        'logo'       => get_template_directory_uri() . '/assets/images/radio-player/addons/http-stream-logo.png',
+        'logo_withe' => get_template_directory_uri() . '/assets/images/radio-player/addons/http-stream-logo.png',
     ],
 ];
 
 $page_template = get_page_template_slug();
 $file_name     = basename($page_template, '.php');
 
-$is_addon = in_array($file_name, array_keys($addons));
+$is_addon      = in_array($file_name, array_keys($addons));
 
-$title = $is_addon ? $addons[$file_name]['title'] : 'Radio Player';
-$logo  = $is_addon ? $addons[$file_name]['logo'] : get_template_directory_uri() . '/assets/images/radio-player/radio-player-logo.png';
-$logo_withe  = $is_addon ? $addons[$file_name]['logo_withe'] : get_template_directory_uri() . '/assets/images/new-logo/radio-player-withe-logo.png';
-$link  = $is_addon ? '/' . $file_name : '/radio-player';
+$title         = $is_addon ? $addons[$file_name]['title'] : 'Radio Player';
+$logo          = $is_addon ? $addons[$file_name]['logo'] : get_template_directory_uri() . '/assets/images/radio-player/radio-player-logo.png';
+$logo_withe    = $is_addon ? $addons[$file_name]['logo_withe'] : get_template_directory_uri() . '/assets/images/new-logo/radio-player-withe-logo.png';
+$link          = $is_addon ? '/' . $file_name : '/radio-player';
 
-$nav_class = $is_addon ? $file_name . '-nav' : 'radio-player-nav';
+$nav_class     = $is_addon ? $file_name . '-nav' : 'radio-player-nav';
 
-$pricing_link = $is_addon ? '#pricing' : '/radio-player-pricing';
+$pricing_link  = $is_addon ? '#addon-pricing' : '/radio-player-pricing';
 
 ?>
 
@@ -136,7 +136,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
 
                             <div class="buy-now-btn buy-now-btn-radio-player">
-                                <a href="/radio-player-pricing"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                                <a href="<?php echo $pricing_link; ?>"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                             </div>
 
 

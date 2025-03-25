@@ -228,7 +228,7 @@
 
                         $args = array(
                             'post_type'      => 'form',
-                            'posts_per_page' => 23,
+                            'posts_per_page' => 30,
                             'orderby'        => 'title',
                             'order'          => 'ASC',
                             'tax_query'      => array(

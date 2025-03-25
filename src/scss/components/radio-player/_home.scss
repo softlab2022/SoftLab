@@ -2,7 +2,7 @@
 .radio-player-hero-area {
   background: url("../images/radio-player/hero-bg-shapes.png") no-repeat;
   background-size: cover;
-  padding: 200px 0 350px 0;
+  padding: 200px 0 200px 0;
 
   .radio-header-bg {
     position: relative;
@@ -387,9 +387,11 @@
     //   }
     // }
   }
-.item-img-right {
-  text-align: right;
-}
+
+  .item-img-right {
+    text-align: right;
+  }
+
   .feature-header {
     position: relative;
     display: inline-block;
@@ -399,6 +401,10 @@
       top: -50px;
       left: 100px;
     }
+  }
+
+  .feature-items {
+    margin-bottom: 80px;
   }
 
   .feature-item {
