@@ -19,7 +19,7 @@ class SoftLaB_Nav {
 					'wp-radio-menu'               => 'WP Radio Menu',
 					'reader-mode-menu'            => 'Reader Mode Menu',
 					'dracula-menu'            	=> 'Dracula Menu',
-					'integrate-dropbox-menu'  	=> 'Integrate Dropbox Menu',
+					'connect-dropbox-menu'  	=> 'Connect Dropbox Menu',
 					'wp-froms-menu'  	=> 'WP Froms Menu',
 					'essential-addons-for-contact-form-7-menu'  	=> 'Essential Addons for Contact Form 7 Menu',
 					'soft-accordion-menu'  	=> 'Soft Accordion Menu',

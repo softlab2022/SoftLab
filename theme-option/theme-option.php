@@ -5,7 +5,8 @@ if (!defined('ABSPATH')) {
 }
 
 if (!function_exists('sl_theme_option_submenu_register')) {
-    function sl_theme_option_submenu_register() {
+    function sl_theme_option_submenu_register()
+    {
         add_submenu_page(
             'themes.php',
             __('Theme Option', 'softlab'),
@@ -23,7 +24,8 @@ if (!function_exists('sl_theme_option_submenu_register')) {
  * Summary of sl_theme_option_custom_settings_init
  * @return void
  */
-function sl_theme_option_custom_settings_init() {
+function sl_theme_option_custom_settings_init()
+{
     register_setting(
         'sl-theme-option-custom-settings-group',
         'theme_option_shortcode_http_player',
@@ -116,6 +118,14 @@ function sl_theme_option_custom_settings_init() {
         'sl-theme-option-custom-settings-group',
         'skin11_shortcode_style_2',
     );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'skin12_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'skin12_shortcode_style_2',
+    );
 
 
     register_setting(
@@ -142,7 +152,8 @@ function sl_theme_option_custom_settings_init() {
 
 add_action('admin_init', 'sl_theme_option_custom_settings_init');
 
-function theme_option_callback() { ?>
+function theme_option_callback()
+{ ?>
     <div class="wrap">
         <h2>Theme Options</h2>
         <form method="post" action="options.php">
@@ -562,6 +573,30 @@ function theme_option_callback() { ?>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!--skin12-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin12', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="skin12_shortcode_style_1" value="<?php echo esc_attr(get_option('skin12_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="skin12_shortcode_style_2" value="<?php echo esc_attr(get_option('skin12_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
 
                                                     </div>
@@ -615,7 +650,8 @@ function theme_option_callback() { ?>
 <?php }
 
 // Sanitization callback function
-function sanitize_callback($input) {
+function sanitize_callback($input)
+{
     return $input;
 }
 
@@ -624,7 +660,8 @@ function sanitize_callback($input) {
  * Summary of softlab eacf7 preview metabox
  * @return void
  */
-function sl_metabox() {
+function sl_metabox()
+{
     add_meta_box('sl-page-id', 'softlab page meta box', 'wpl_sl_pages_function', 'page', 'normal', 'default');
 }
 
@@ -635,7 +672,8 @@ add_action('add_meta_boxes', 'sl_metabox');
  * @param mixed $post
  * @return void
  */
-function wpl_sl_pages_function($post) {
+function wpl_sl_pages_function($post)
+{
     // Retrieve saved meta data for multiple fields
     $sl_meta_fields = get_post_meta($post->ID, 'sl_meta_fields', true);
     if (empty($sl_meta_fields)) {
@@ -653,7 +691,7 @@ function wpl_sl_pages_function($post) {
         echo '<br>';
         echo '<label for="sl_meta_field_description_' . $index . '">Description: </label>';
         echo '<input type="text" id="sl_meta_field_description_' . $index . '" name="sl_meta_fields[' . $index . '][description]" value="' . esc_attr($field['description']) . '">';
-        
+
         echo '<br>';
         echo '<label for="sl_meta_field_shortcode_' . $index . '">Form Shortcode: </label>';
         echo '<input type="text" id="sl_meta_field_shortcode_' . $index . '" name="sl_meta_fields[' . $index . '][shortcode]" value="' . esc_attr($field['shortcode']) . '">';
@@ -662,7 +700,7 @@ function wpl_sl_pages_function($post) {
     }
     echo '</div>';
 
-        // Button group
+    // Button group
     echo '<div class="sl-button-group">';
     echo '<button type="button" id="add-new-demo">Add New</button>';
     echo '<button type="button" id="remove-new-demo">Remove</button>';
@@ -686,7 +724,8 @@ function wpl_sl_pages_function($post) {
  * @param mixed $post_id
  * @return void
  */
-function sl_save_meta_box_data($post_id) {
+function sl_save_meta_box_data($post_id)
+{
     // Check for nonce, autosave, and permissions.
     if (!isset($_POST['sl_meta_field_url']) || defined('DOING_AUTOSAVE') && DOING_AUTOSAVE || !current_user_can('edit_post', $post_id)) {
         return;
@@ -710,4 +749,3 @@ function sl_save_meta_box_data($post_id) {
 }
 
 add_action('save_post', 'sl_save_meta_box_data');
-
