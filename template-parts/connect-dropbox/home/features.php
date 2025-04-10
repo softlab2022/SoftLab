@@ -75,7 +75,7 @@ $features = [
             <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
                 <div class="<?php echo $image_class; ?>">
-                    <div class="feature-item-img">
+                    <div class="feature-item-img <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
                         <img class="img-fluid"
                              src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/features/<?php echo $key; ?>-illustration.png"
                              alt="<?php echo $feature['title']; ?>">
@@ -92,6 +92,13 @@ $features = [
 						<?php } ?>
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
+                        <?php if (wp_is_mobile()) { ?>
+                            <div class="feature-item-img-mobile">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/features/<?php echo $key; ?>-illustration.png"
+                                    alt="<?php echo $feature['title']; ?>">
+                            </div>
+                        <?php } ?>
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
 						<?php if ( 'page-builder' == $key ) { ?>
