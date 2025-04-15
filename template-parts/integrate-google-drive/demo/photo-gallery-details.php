@@ -2,20 +2,20 @@
 
 $features = [
 	[
-		'title'       => 'Optimized Your Gallery',
-		'description' => 'The gallery will be generated based on the folders that you select.',
+		'title'       => 'Optimize Your Gallery',
+		'description' => 'Customize and organize your Dropbox file gallery with flexible layout options, then effortlessly showcase it on your website for a seamless visual experience.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/optimized.png",
 		'features'    => ['Galleries in the Cloud', 'Increase Loading Performance', 'Inline Preview Galleries', 'Automatically Set Thumbnails'],
 	],
 	[
 		'title'       => 'Awesome Looking Masonry Grid',
-		'description' => 'You see something which looks visually like a masonry layout for our google drive cloud.',
+		'description' => 'Display your Dropbox cloud files in a visually striking masonry-style grid. This dynamic layout automatically arranges your content for a clean, organized, and modern look.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/masonry-grid.png",
 		'features'    => ['Control the Grid Size', 'Available Horizontal Space', 'Automatically Place File', 'Auto Row Height Setup '],
 	],
 	[
 		'title'       => 'Inline Lightbox File Preview',
-		'description' => 'You see something which looks visually like a masonry layout for our google drive cloud.',
+		'description' => 'Instantly preview your Dropbox files in a sleek lightbox, right within the grid layout—no need to open new tabs or leave the page. Clean, fast, and user-friendly.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/lightbox.png",
 		'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],
 	],

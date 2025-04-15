@@ -35,7 +35,7 @@ $howtouses = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="how-to-use-head text-center">
-                    <h3>Let's learn how to Integrate <span>Google Drive</span></h3>
+                    <h3>Let's learn how to use Integrate <span>Google Drive</span></h3>
                     <p>Enhance your productivity by installing the Integrate Google Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.</p>
                 </div>
             </div>

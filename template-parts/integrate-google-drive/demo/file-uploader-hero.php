@@ -6,7 +6,7 @@
                 <div class="uploader-demo-head text-center">
                     <h1><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/file-uploader-icon.png" alt="">File Uploader</h1>
                     <p>You and also your users can upload files directly to your Google Drive account from your
-                        site.</p>
+                    site.</p>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 #browser-demo {
-  background: url("../images/integrate-dropbox/file-bowser-demo/file-browser-demo-head-bg1.png") no-repeat bottom / cover;
+  background: url("../images/connect-dropbox/file-bowser-demo/file-browser-demo-head-bg1.png") no-repeat bottom / cover;
   padding: 160px 0 100px 0;
 
   .browser-demo-head {
@@ -91,6 +91,12 @@
         color: #5c637e;
         margin-bottom: 30px;
       }
+      .feature-item-img-mobile {
+        display: none;
+      }
+    }
+    .feature-item-img {
+      display: block;
     }
 
     .feature-list {
@@ -158,6 +164,12 @@
           text-align: center;
           font-size: .9rem;
         }
+        .feature-item-img-mobile {
+          display: block;
+        }
+      }
+      .feature-item-img {
+        display: none;
       }
       .feature-list {
         span {

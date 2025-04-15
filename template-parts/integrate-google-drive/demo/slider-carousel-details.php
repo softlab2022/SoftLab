@@ -4,7 +4,7 @@ $features = [
 
     [
         'title'       => 'Inline Lightbox File Preview',
-        'description' => 'You see something which looks visually like a masonry layout for our google drive cloud.',
+        'description' => 'Preview your Dropbox files in a beautiful lightbox, seamlessly integrated into a masonry-style layout. Enjoy quick, on-page file views without leaving your site.',
         'image'       => get_template_directory_uri() . "/assets/images/google-drive/slider-carousel/lightbox.png",
         'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],
     ],

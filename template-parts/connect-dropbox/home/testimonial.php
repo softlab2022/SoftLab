@@ -44,7 +44,7 @@ $icons = [ 'icon-green', 'icon-pink', 'icon-purple' ];
         <div class="row">
             <div class="col-lg-8 m-auto text-center">
                 <div class="section-head text-center">
-                    <h2>What People Think About <br> <span>Integrate Dropbox </span></h2>
+                    <h2>What People Think About <br> <span>Connect Dropbox </span></h2>
                     <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
                 </div>
             </div>

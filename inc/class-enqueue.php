@@ -74,6 +74,8 @@ class SoftLa
 			'connect-dropbox-file-uploader',
 			'connect-dropbox-photo-gallery',
 			'connect-dropbox-media-player',
+			'connect-dropbox-slider-carousel',
+			'connect-dropbox-integrations',
 		])) {
 
 			wp_enqueue_style('connect-dropbox-main', get_theme_file_uri('assets/css/connect-dropbox-main.css'), array(), $theme_version, 'all');

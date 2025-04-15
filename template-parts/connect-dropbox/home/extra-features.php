@@ -7,7 +7,7 @@
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/ex-feature/ellipse-1.png" alt="ellipse-1">
                         </div>
                     <h1>Never miss valuable</br> Extra <span>Features</span>.</h1>
-                    <p>Let's explore which features are absolute must-haves for any banking app and which ones you can add to stand out and give even more value</p>
+                    <p>Discover a range of powerful extra features to enhance your Dropbox integration for WordPress.</p>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Easy Setup</h4>
-                        <p>connect Google Drive has been developed to maintain an easy setup for all groups of people. If you using a plugin for the first time, still you can set up & maintain it properly. We made it that simple!</p>
+                        <p>Connect Dropbox is designed for easy setup, so whether you're a first-time user or an experienced pro, you can get started and manage it immediately.</p>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Private Folders</h4>
-                        <p>Securely share your Google Drive documents with your users/clients. This allows your users to view, download and manage their documents in their own private folders.</p>
+                        <p>Share Dropbox documents securely with clients, allowing them to view, download, and manage files in their own private folders.</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Audio & Video Player </h4>
-                        <p>Play audio and video in a single player using this module. The audio and video playlist will be created from the selected folders that you select.</p>
+                        <p>Stream audio and video from Dropbox, with auto-generated playlists from selected folders for smooth playback.</p>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Embed Document</h4>
-                        <p>We made embedding documents easy for you. Using the Embed Documents feature users can embed documents (files, docs, excels, pdf, mp3, mp4, etc) with read-only and editable modes.</p>
+                        <p>Easily embed documents (PDFs, Excel, MP3, MP4, etc.) on your site in both read-only and editable modes.</p>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>File View Links</h4>
-                        <p>File view links can be sometimes effective depending on the sector you are operating. Insert direct links on your website to view any Google Drive files & documents.</p>
+                        <p>Add direct links to your site, allowing users to view Dropbox files and documents without leaving the page.</p>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>File Download Links </h4>
-                        <p>You can insert direct links to your post/ page to download your Google Drive cloud files.</p>
+                        <p>Insert direct download links on your posts or pages to let users easily download your Dropbox files.</p>
                     </div>
                 </div>
             </div>
@@ -92,8 +92,8 @@
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/ex-feature/icon7.png" alt="icon7">
                     </div>
                     <div class="ex-text">
-                        <h4>Use Own Google App</h4>
-                        <p>What if you want to connect your own Google App with connect Google Drive? Our plugin gives you the freedom to link your own Google App and start playing with it.</p>
+                        <h4>Use Own Dropbox App</h4>
+                        <p>Integrate your own Dropbox app with Connect Dropbox, giving you full control over your cloud storage integration manually.</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="ex-text">
                         <h4>Statistics</h4>
-                        <p>View all the files downloads, uploads, streams and previews events logs in the statistics page.</p>
+                        <p>Track file downloads, uploads, streams, and previews with detailed event logs in the statistics dashboard.</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="ex-text">
                         <h4> Easy Digital Downloads support</h4>
-                        <p>View all the files downloads, uploads, streams and previews events logs in the statistics page.</p>
+                        <p>Track file downloads, uploads, and stream events for all your digital products with full Easy Digital Downloads integration.</p>
                     </div>
                 </div>
             </div>

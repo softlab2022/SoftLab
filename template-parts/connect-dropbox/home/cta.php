@@ -3,9 +3,8 @@
         <div class="row align-items-center">
             <div class="col-lg-7">
                 <div class="cta-content text-center text-lg-start">
-                    <h3>Ready to connect the Google Drive in Your website?</h3>
-                    <p>Best Google Drive cloud solution plugin for WordPress to connect your Google Drive files
-                        directly into your WordPress Website.</p>
+                    <h3> Ready to Integrate Dropbox to Your Website?</h3>
+                    <p>Best Dropbox cloud solution for WordPress to integrate & sync your Dropbox files directly into WordPress Website.</p>
                 </div>
             </div>
 

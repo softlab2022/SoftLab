@@ -13,7 +13,13 @@
             <div class="col-lg-8 m-auto">
                     <div class="demo-header-bg text-center">
 
-                    <?php echo do_shortcode('[integrate_google_drive id="3"]'); ?>
+                    <?php
+                    if (!empty(get_option('gallery_shortcode_dropbox'))) {
+                        echo do_shortcode(get_option('gallery_shortcode_dropbox'));
+                    }else {
+                        echo "No Shortcode Found!";
+                    }
+                    ?>
                     
                     </div>
                 </div>

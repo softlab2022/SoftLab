@@ -6,27 +6,24 @@ $faqs = [
 		'answer'   => 'No, there is no upload size limit for the File Uploader module. You can upload any file size.',
 	],
 	[
-		'question' => 'Can I link a Google Drive folder to a user on my site when they have been registered?',
-		'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link a Google Drive folder to a user when they are registering on your site. You can also link a Google Drive folder to a user when they are registering on your site.',
+		'question' => 'Can I link a Dropbox folder to a user on my site when they have been registered?',
+		'answer'   => 'Yes, you can link a Dropbox folder to a user on your site when they have been registered. You can also link a Dropbox folder to a user when they are registering on your site. You can also link a Dropbox folder to a user when they are registering on your site.',
 	],
 	[
-		'question' => 'Can I use multiple Google Drive accounts?',
-		'answer'   => 'Yes, you can link to multiple Google Drive accounts to Integrate Google Drive plugin.',
+		'question' => 'Can I use multiple Dropbox accounts?',
+		'answer'   => 'Yes, you can link to multiple Dropbox accounts to Connect Dropbox plugin.',
 	],
 	[
 		'question' => 'Are there any usage limits?',
-		'answer'   => 'If you want to stream any media files (Audio, Video), the files will be streamed directly from Google Drive. So there are no bandwidth or file size issues for your web host.But, when you download any zip files, these files will be downloaded to your site and can generate some traffic.',
+		'answer'   => 'If you want to stream any media files (Audio, Video), the files will be streamed directly from Dropbox. So there are no bandwidth or file size issues for your web host.But, when you download any zip files, these files will be downloaded to your site and can generate some traffic.',
 	],
 	[
 		'question' => 'Documents preview not working?',
-		'answer'   => 'In order to preview documents, the files should have the sharing permission “Anyone with link can view”. The plugin will automatically change the sharing permission.
-
-        However, in some case the plugin isn’t able to manage the sharing permissions even with those setting enabled. In that case, please try to set the sharing permissions manually via the native Google Drive interface',
+		'answer'   => 'In order to preview documents, the files should have the sharing permission “Anyone with link can view”. The plugin will automatically change the sharing permission.However, in some case the plugin isn’t able to manage the sharing permissions even with those setting enabled. In that case, please try to set the sharing permissions manually via the native Dropbox interface.',
 	],
 	[
 		'question' => 'Why search module search results are slow?',
-		'answer'   => 'The search module search results may take some time to show the search results. The time depends on the number of files that are selected for the search module.
-        If your selected folders for the search module have a lot of children files then the search module search results may take some time to show the search results.',
+		'answer'   => 'The search module search results may take some time to show. The time depends on the number of files that are selected for the search module. If your selected folders for the search module have a lot of children files, then the search module search results may take some time to show.',
 	],
 ];
 

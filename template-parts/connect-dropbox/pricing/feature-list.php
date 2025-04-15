@@ -2,7 +2,7 @@
 $features = [
 	[
 		'title'       => 'Easy setup',
-		'description' => 'You don’t need to create any custom Google app. You can sign-in to your Google account directly using this plugin.',
+		'description' => 'You don’t need to create any custom Dropbox app. You can sign-in to your Dropbox account directly using this plugin.',
 		'video'		  => '',
 		'pro'         => true,
 	],
@@ -24,7 +24,7 @@ $features = [
 
 	[
 		'title'       => 'Embed Document',
-		'description' => 'Embed any Google Drive files to your page/ post.',
+		'description' => 'Embed any Dropbox Drive files to any page/ post using the Embed Documents module.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/LsXK0XWqLyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
@@ -32,14 +32,21 @@ $features = [
 
 	[
 		'title'       => 'File View Links',
-		'description' => 'Insert direct links to view any Google Drive file.',
+		'description' => 'Insert direct links to view any Dropbox files.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/BukvXokpxto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
 	],
 	[
 		'title'       => 'File Download Links',
-		'description' => 'Insert any Google Drive file download link to yor page/ post.',
+		'description' => 'Insert any Dropbox file download link to any page/ post using File Download Links module.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/XZh6B58F9uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => true,
+
+	],
+	[
+		'title'       => 'Allow Specific Folders',
+		'description' => 'Connect Dropbox plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/XZh6B58F9uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
@@ -47,7 +54,7 @@ $features = [
 
 	[
 		'title'       => 'File Uploader - Module',
-		'description' => 'A standalone uploader box which allows You and also your users can upload files directly to your Google Drive account from your site. You can upload unlimited size of files.',
+		'description' => 'A standalone uploader box which allows You and also your users can upload files directly to your Dropbox account from your site. You can upload unlimited size of files.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/i0FHcM24z_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
@@ -55,7 +62,7 @@ $features = [
 
 	[
 		'title'       => 'File Search - Module',
-		'description' => 'Basically same as the file browser, But initially will show a search box. Users can search any Google Drive files from your website using this module.',
+		'description' => 'Basically same as the file browser, But initially will show a search box. Users can search any Dropbox files from your website using this module.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/Bj58tQHahwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
@@ -69,44 +76,51 @@ $features = [
 
 	],
 	[
-		'title'       => 'Photo Gallery',
+		'title'       => 'Gallery Module',
 		'description' => 'Display your images in a lightbox grid photo gallery. The gallery will be automatically created from the selected folders.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GE1vRI1iOK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Media Importer',
-		'description' => 'Import the cloud media files to the media library by one click.',
+		'title'       => 'Slider Carousel Module',
+		'description' => 'The Slider Carousel module in our Connect Dropbox plugin lets you create a slideshow of images or videos from your Dropbox.',
+		'video'		  => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Import to Media Library',
+		'description' => 'Import any Dropbox cloud media files to the WordPress media library with a few clicks.',
 		'video'		  => '',
 		'pro'         => false,
 
 	],
 	[
 		'title'       => 'Private Folders',
-		'description' => 'Using Private Folders you can easily and securely share your Google Drive documents with your users/clients. This allows your users/ clients to view, download and manage their documents in their own private folders.',
+		'description' => 'Using Private Folders you can easily and securely share your Dropbox files and documents with your users/clients.',
 		'video' => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZUJBjQdYy4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 
 	[
-		'title'       => 'Multiple Accounts',
-		'description' => 'You can add and manage multiple Google Drive cloud accounts from your site using this plugin.',
+		'title'       => 'Multiple Dropbox Accounts',
+		'description' => 'You can add and manage multiple Dropbox accounts from your site using this plugin.',
 		'video'		  => '',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Use Own Google App',
-		'description' => ' You can add your own Google app with this plugin.',
+		'title'       => 'Use Own Dropbox App',
+		'description' => ' You can add your own Dropbox app with this plugin.',
 		'video'		  => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/YWO6wWbNa5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
 		'title'       => 'Statistics',
-		'description' => ' View all the files downloads, uploads, streams and previews events logs in the statistics page.',
+		'description' => 'View all the files downloads, uploads, streams and previews events logs in the statistics page.',
 		'video'		  => '',
 		'pro'         => false,
 
@@ -121,93 +135,130 @@ $features = [
 
 	[
 		'title'       => 'Classic Editor Integration',
-		'description' => 'You can add any Google Drive module, embed documents and insert file view and download links using the Google Drive button on the classic editor.',
+		'description' => 'You can add any Dropbox module, embed documents and insert file view and download links using the Dropbox button on the classic editor.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/yfg7_JLsIUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
 	],
 	[
 		'title'       => 'Gutenberg Integration',
-		'description' => 'You can add any Google Drive module, embed documents and insert file view and download links using the Gutenberg blocks.',
+		'description' => 'You can add any Dropbox module, embed documents and insert file view and download links using the Gutenberg blocks.
+',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/qR01fo_LHoM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
 	],
 	[
 		'title'       => 'Elementor Integration',
-		'description' => 'You can add any Google Drive module, embed documents and insert file view and download links using Elementor widgets.',
+		'description' => 'You can add any Dropbox module, embed documents and insert file view and download links using Elementor widgets.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/swjiLPm4k-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
 	],
 	[
-		'title'       => 'Dokan Multi-vendor Integration',
-		'description' => 'You can allow your vendors to serve their downloadable product’s files directly from Google Drive, and also vendors can let their customers upload files for their products to the vendor’s Google Drive account when any customer purchase any products.',
-		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'title'       => 'Media Library Integration',
+		'description' => 'Use Dropbox files as WordPress media attachment and upload, import, and synchronize between WordPress and Dropbox.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/5Ekbe2AGfBI?si=yp8neq8SDl3rhtjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
-	[
-		'title'       => 'Advanced Custom Fields (ACF) Integration',
-		'description' => 'Allows you to select Google Drive files and folders using ACF field and display in theme template file.',
-		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-		'pro'         => false,
-
-	],
-
 	[
 		'title'       => 'WooCommerce Integration',
-		'description' => 'You can integrate your Google Drive files nicely into WooCommerce, and it allows you to serve your Digital Downloads directly from Google Drive.',
+		'description' => 'You can integrate your Dropbox files nicely into WooCommerce, and it allows you to serve your Digital Downloads directly from Dropbox.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/RLdOqLQLixk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
+		'title'       => 'Dokan Multi-vendor Integration',
+		'description' => 'You can allow your vendors to serve their downloadable product’s files directly from Dropbox, and also vendors can let their customers upload files for their products to the vendor’s Dropbox account when any customer purchase any products.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
+	
+	[
 		'title'       => 'Easy Digital Downloads Integration',
-		'description' => 'You can integrate your Google Drive files with EDD, and it allows you to serve your Digital Downloads directly from Google Drive.',
+		'description' => 'You can integrate your Dropbox files with EDD, and it allows you to serve your Digital Downloads directly from Dropbox.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZvkPsRn5-QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
+	
+	[
+		'title'       => 'Tutor LMS Integration',
+		'description' => 'With this plugin, instructors can link their Dropbox accounts to Tutor LMS, enabling them to easily access and manage their Dropbox course files within the platform. See how it works!',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/UTFgIKS64zA?si=qDTRP_Nt6vY2IYFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
 		'title'       => 'Contact Form 7 Integration',
-		'description' => 'You can get more flexibility than the Upload form that is included in Contact Form 7. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
+		'description' => 'You can get more flexibility than the Upload form that is included in Contact Form 7. The plugin seamlessly integrates with Dropbox and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/UIRswwNcIY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => true,
 
 	],
 	[
+		'title'       => 'Elementor Form Widget Integration',
+		'description' => 'Allows effortless file uploads from Elementor PRO Form widget to Dropbox for quick and efficient storage.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/53FP34HQZ3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => true,
+
+	],
+	[
+		'title'       => 'MetForm Integration',
+		'description' => 'Allows effortless file uploads from MetForm to Dropbox for quick and efficient storage.',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/kcxwp53VFZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => true,
+
+	],
+	[
 		'title'       => 'WPForms Integration',
-		'description' => 'You can get more flexibility than the Upload form that is included in WPForms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
+		'description' => 'You can get more flexibility than the Upload form that is included in WPForms. The plugin seamlessly integrates with Dropbox and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/QvRuNCcUjic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
 		'title'       => 'Gravity Forms Integration',
-		'description' => 'You can get more flexibility than the Upload form that is included in Gravity Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
+		'description' => 'You can get more flexibility than the Upload form that is included in Gravity Forms. The plugin seamlessly integrates with Dropbox and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZHdPFeWG3FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 
 	],
 	[
-		'title'       => 'Ninja Forms Integration',
-		'description' => 'You can get more flexibility than the Upload form that is included in Ninja Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
+		'title'       => 'Ninja Form Integration',
+		'description' => 'You can get more flexibility than the Upload form that is included in Ninja Forms. The plugin seamlessly integrates with Dropbox and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/D687aswuMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[
 		'title'       => 'Formidable Forms Integration',
-		'description' => 'You can get more flexibility than the Upload form that is included in Formidable Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
+		'description' => 'You can get more flexibility than the Upload form that is included in Formidable Forms. The plugin seamlessly integrates with Dropbox and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/BmqRNXnFTLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
 	],
 	[
 		'title'       => 'Fluent Forms Integration',
-		'description' => 'You can get more flexibility than the Upload form that is included in Fluent Forms. The plugin seamlessly integrates with Google Drive and allows you to upload your files directly from your form upload field.',
+		'description' => 'You can get more flexibility than the Upload form that is included in Fluent Forms. The plugin seamlessly integrates with Dropbox and allows you to upload your files directly from your form upload field.',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/lE7i66t_7Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
 		'pro'         => false,
-	]
+	],
+	[
+		'title'       => 'Advanced Custom Fields (ACF) Integration',
+		'description' => 'Allows you to select Dropbox files and folders using ACF field and display in theme template file.
+',
+		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Usage Limit Control',
+		'description' => 'Control file downloads and bandwidth usage limits for users.',
+		'video'       => '',
+		'pro'         => true,
+	],
 ];
 ?>
 

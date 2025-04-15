@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8 m-auto">
                 <div class="hero-content text-center">
-                    <h1>Complete <span>Dropbox</span> Cloud Solution for WordPress.</h1>
+                    <h1> All-in-One <span>Dropbox</span> Integration for WordPress</h1>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image hero-image-mobile text-center">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/update-hero-image.png" alt="connect Dropbox">
@@ -13,7 +13,7 @@
                         </div>
                     <?php } ?>
                     <p>
-                        connect Dropbox – is the best and easy-to-use Google Drive cloud solution plugin for WordPress to connect your Google Drive documents and media directly into your WordPress Website.
+                    Connect Dropbox is an all-in-one cloud file manager that brings your Dropbox files directly into WordPress. With zero coding knowledge, you can easily browse, upload, download, embed, preview, and share Dropbox content directly within any page or post. Perfect for creators, teams, and businesses looking to simplify their workflow and keep everything in sync with Dropbox.
                     </p>
 
                     <a href="/connect-dropbox-pricing" class="get">Get Started</a>
