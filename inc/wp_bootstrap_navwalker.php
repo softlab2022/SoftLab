@@ -184,7 +184,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					}
 					 elseif ( 'connect dropbox' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/integrate-dropbox.png';
-						$description = 'The Revolutionary Dark Mode Plugin For WordPress';
+						$description = 'All-in-One Dropbox Integration for WordPress';
 					}
 					elseif ( 'wp forms' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/products/wp-forms.png';

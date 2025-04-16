@@ -66,7 +66,7 @@ $features = [
                 </div>
             </div>
             <div class="vector-crcel-right">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
             </div>
         </div>
         <!----===== Contact Form 7, Ninja Forms, WP Forms =====------>
@@ -76,7 +76,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-contact-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/contact-form.png" alt="contact-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/contact-form.png" alt="contact-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Contact Form 7
@@ -89,7 +89,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-ninja-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/ninja-form.png" alt="ninja-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/ninja-form.png" alt="ninja-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Ninja Forms
@@ -102,7 +102,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-wp-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/wp-form.png" alt="wp-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/wp-form.png" alt="wp-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 WPForms
@@ -115,7 +115,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-gravity-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/gravity-form.png" alt="gravity-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/gravity-form.png" alt="gravity-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Gravity Forms
@@ -128,7 +128,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-fluent-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/fluent-form.png" alt="fluent-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/fluent-form.png" alt="fluent-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Fluent Forms
@@ -141,7 +141,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-formidable-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/formidable-form.png" alt="formidable-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/formidable-form.png" alt="formidable-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Formidable Forms
@@ -154,7 +154,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-elementor-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/elementor-form.png" alt="elementor-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/elementor-form.png" alt="elementor-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 Elementor Form
@@ -167,7 +167,7 @@ $features = [
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-met-form">
                     <div class="popular-form-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/met-form.png" alt="met-form">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/met-form.png" alt="met-form">
                         <div class="popular-form-area-text text-center">
                             <span class="popular-form-text">
                                 MetForm
@@ -196,13 +196,13 @@ $features = [
 
                 <div class="<?php echo $image_class; ?>">
                     <div class="feature-item-img">
-                        <!-- <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>"> -->
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>">
 
                         <div class="feature-video">
                             <?php
-                            if (!wp_is_mobile()) {
-                                echo $feature['video'];
-                            }
+                            // if (!wp_is_mobile()) {
+                            //     echo $feature['video'];
+                            // }
                             ?>
                         </div>
 
@@ -213,18 +213,18 @@ $features = [
                     <div class="feature-item-content text-center text-md-start">
 
 
-                        <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
+                        <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
                         <?php
-                        if (wp_is_mobile()) {
-                            echo $feature['video'];
-                        }
+                        // if (wp_is_mobile()) {
+                        //     echo $feature['video'];
+                        // }
                         ?>
 
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://demo.softlabbd.com/?product=connect-dropbox" class="feature-demo-btn">Try Live demo</a>
 
                     </div>
                 </div>

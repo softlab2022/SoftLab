@@ -1,5 +1,5 @@
 #plugin-integration {
-    background: url("../images/google-drive/plugin-integrations/plugin-integrations-bg.png") no-repeat bottom / cover;
+    background: url("../images/connect-dropbox/integration-hero-bg.png") no-repeat bottom / cover;
     padding: 200px 0 250px 0;
 
     .section-head {
@@ -17,13 +17,12 @@
             padding: 1rem 8rem;
             margin-bottom: 60px;
         }
-
     }
 
     .tab-area {
         a {
             padding: 20px 15px;
-            background: linear-gradient(360deg, rgba(191, 253, 204, 0.96) -25%, #FFFFFF 119.85%);
+            background: linear-gradient(180deg, rgba(203, 223, 255, 0.70) -4.67%, rgba(121, 172, 255, 0.70) 115.28%);
             box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             color: rgba(21, 24, 38, 0.9);
@@ -186,6 +185,7 @@
             margin-bottom: 40px;
         }
 
+        
         .feature-demo-btn {
             text-decoration: none;
             font-weight: 600;
@@ -193,7 +193,7 @@
             line-height: 19px;
             color: #fff;
             text-transform: capitalize;
-            background-color: #01AA47;
+            background-color: #0061FF;
             padding: 15px 30px;
             border-radius: 8px;
             margin-top: 2rem;
@@ -203,7 +203,7 @@
 
             &:hover {
                 background-color: #fff;
-                color: #01AA47;
+                color: #0061FF;
                 transition: all linear .4s;
                 box-shadow: $color_primary 0px 2px 8px 0px;
                 border-color: transparent;
@@ -494,9 +494,11 @@
             padding-top: 0rem;
             padding-bottom: 1rem;
         }
+
         .vector-crcel-left {
             top: 18%;
         }
+
         .page-builder-area {
             img {
                 box-shadow: 4px 3px 19px rgba(0, 0, 0, 0.25);
@@ -665,7 +667,7 @@
             line-height: 19px;
             color: #fff;
             text-transform: capitalize;
-            background-color: #01AA47;
+            background-color: #0061FF;
             padding: 15px 30px;
             border-radius: 8px;
             margin-top: 2rem;
@@ -675,7 +677,7 @@
 
             &:hover {
                 background-color: #fff;
-                color: #01AA47;
+                color: #0061FF;
                 transition: all linear .4s;
                 box-shadow: $color_primary 0px 2px 8px 0px;
                 border-color: transparent;
@@ -1264,7 +1266,7 @@
             line-height: 19px;
             color: #fff;
             text-transform: capitalize;
-            background-color: #01AA47;
+            background-color: #0061FF;
             padding: 15px 30px;
             border-radius: 8px;
             width: max-content;
@@ -1272,7 +1274,7 @@
 
             &:hover {
                 background-color: #fff;
-                color: #01AA47;
+                color: #0061FF;
                 transition: all linear .4s;
                 box-shadow: $color_primary 0px 2px 8px 0px;
                 border-color: transparent;
@@ -1590,6 +1592,7 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
+
         .tutor-lms-feat {
             margin-bottom: 20px !important;
             margin-top: 30px;

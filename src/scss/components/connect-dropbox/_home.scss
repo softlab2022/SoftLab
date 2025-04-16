@@ -280,7 +280,7 @@
 
   .hero-how-butt {
     position: absolute;
-    top: 47%;
+    top: 30%;
     left: 42%;
 
     .my-btn-primary {
@@ -957,7 +957,7 @@
 
 /**---------- WooCommerce Support ----------**/
 .woocommerce-support {
-  background-color: #F5FCF4;
+  background: rgba(203, 222, 255, 0.40);
   padding: 50px 0;
   position: relative;
 
@@ -1038,7 +1038,7 @@
 
 /**---------- ex-feature scss ----------**/
 #ex-feature {
-  background-color: #F5FCF4;
+  background: rgba(203, 222, 255, 0.40);
   padding: 0 0 50px 0;
   position: relative;
 
@@ -1189,7 +1189,7 @@
 
 /**---------- how to use scss ----------**/
 #how-to-use {
-  padding: 100px 0;
+  padding:70px 0 100px 0;
 
   .how-to-use-head {
     margin-bottom: 50px;
@@ -1281,7 +1281,7 @@
         left: 9px;
         width: 1px;
         height: 70%;
-        background-color: #08CD87;
+        background-color: #0B68FF;
       }
 
       &::after {
@@ -1291,7 +1291,7 @@
         left: 9px;
         width: 1px;
         height: 129%;
-        background-color: #08CD87;
+        background-color: #0B68FF;
       }
 
     }
@@ -1376,7 +1376,7 @@
 
   .how-to-use-download-install {
     .use-item {
-      border-right: 6px solid #BBE897;
+      border-right: 6px solid #0B68FF;
       background: linear-gradient(154deg, rgba(187, 232, 151, 0.10) 3.43%, rgba(8, 205, 135, 0.10) 90.47%);
     }
 
@@ -1706,7 +1706,7 @@
 
     li {
       list-style-type: none;
-      background-color: #E9F6F0;
+      background-color: rgba(0, 98, 255, 0.2);
       margin: 0 8px;
       width: 20px;
       height: 20px;

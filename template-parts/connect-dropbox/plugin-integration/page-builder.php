@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="vector-crcel-left">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
             </div>
         </div>
         <!----===== Classic Editor, Gutenberg, Elementor =====------>
@@ -52,7 +52,7 @@
             <div class="col-lg-2 col-3 col-md-4 ms-auto">
                 <a href="#feature-classic-editor">
                     <div class="page-builder-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/classic-editor.png" alt="classic-editor">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/page-builder/classic-editor.png" alt="classic-editor">
                         <div class="page-builder-area-text text-center">
                             <span class="page-builder-text">
                                 Classic Editor
@@ -65,7 +65,7 @@
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-gutenberg">
                     <div class="page-builder-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/gutenberg.png" alt="gutenberg">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/page-builder/gutenberg.png" alt="gutenberg">
                         <div class="page-builder-area-text text-center">
                             <span class="page-builder-text">
                                 Gutenberg
@@ -78,7 +78,7 @@
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#feature-elementor">
                     <div class="page-builder-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/elementor.png" alt="elementor">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/page-builder/elementor.png" alt="elementor">
                         <div class="page-builder-area-text text-center">
                             <span class="page-builder-text">
                                 Elementor
@@ -91,7 +91,7 @@
             <div class="col-lg-2 col-3 col-md-4 me-auto">
                 <a href="#feature-divi">
                     <div class="page-builder-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/divi.png" alt="divi">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/page-builder/divi.png" alt="divi">
                         <div class="page-builder-area-text text-center">
                             <span class="page-builder-text">
                                 Divi Page Builder
@@ -121,11 +121,11 @@
                 <div class="<?php echo $image_class; ?>">
                     <div class="feature-item-img">
                         <div class="feature-video">
-
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/page-builder/<?php echo $key; ?>-illustration.png" alt="<?php echo $feature['title']; ?>">
                             <?php
-                            if (!wp_is_mobile()) {
-                                echo $feature['video'];
-                            }
+                            // if (!wp_is_mobile()) {
+                            //     echo $feature['video'];
+                            // }
                             ?>
 
                         </div>
@@ -136,18 +136,18 @@
                     <div class="feature-item-content text-center text-md-start">
 
 
-                        <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/page-builder/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
+                        <img class="img-fluid feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/page-builder/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
 
                         <h3 class="feature-title"><?php echo $feature['title']; ?></h3>
                         <p class="feature-description"><?php echo $feature['description']; ?></p>
 
                         <?php
-                        if (wp_is_mobile()) {
-                            echo $feature['video'];
-                        }
+                        // if (wp_is_mobile()) {
+                        //     echo $feature['video'];
+                        // }
                         ?>
 
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live Demo</a>
+                        <a href="https://demo.softlabbd.com/?product=connect-dropbox" class="feature-demo-btn">Try Live Demo</a>
 
                     </div>
                 </div>

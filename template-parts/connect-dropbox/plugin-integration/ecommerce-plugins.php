@@ -12,7 +12,7 @@
             </div>
 
             <div class="vector-crcel-right">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
             </div>
 
         </div>
@@ -23,7 +23,7 @@
             <div class="col-lg-2 col-3 col-md-4 ms-auto">
                 <a href="#woocommerce">
                     <div class="ecommerce-plugins-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/woocommerce.png" alt="woocommerce">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/woocommerce.png" alt="woocommerce">
                         <div class="ecommerce-plugins-area-text text-center">
                             <span class="ecommerce-plugins-text">
                                 WooCommerce
@@ -36,7 +36,7 @@
             <div class="col-lg-2 col-3 col-md-4">
                 <a href="#dokan">
                     <div class="ecommerce-plugins-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/dokan.png" alt="dokan">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/dokan.png" alt="dokan">
                         <div class="ecommerce-plugins-area-text text-center">
                             <span class="ecommerce-plugins-text">
                                 Dokan
@@ -49,7 +49,7 @@
             <div class="col-lg-2 col-3 col-md-4 me-auto">
                 <a href="#easy-digital">
                     <div class="ecommerce-plugins-area text-center">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/easy-digital-download.png" alt="easy-digital-download">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/easy-digital-download.png" alt="easy-digital-download">
                         <div class="ecommerce-plugins-area-text text-center">
                             <span class="ecommerce-plugins-text">
                                 Easy Digital Downloads
@@ -67,18 +67,18 @@
 
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/woocommerce-icon.png" alt="woocommerce-icon">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/woocommerce-icon.png" alt="woocommerce-icon">
                     <h3 class="wooco-title">WooCommerce</h3>
                     <p class="wooco-description">The Connect Dropbox plugin with WooCommerce compatibility enables administrators to authorize users to upload and download files from various page locations.
                     </p>
                 </div>
 
                 <div class="vector-crcel-left">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
 
                 <div class="vector-crcel-right">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                 </div>
 
             </div>
@@ -88,8 +88,8 @@
 
 
                     <div class="feature-video">
-
-                        <iframe src="https://www.youtube.com/embed/RLdOqLQLixk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/download-products-illustration.png" alt="vector-2">
+                        <!-- <iframe src="https://www.youtube.com/embed/RLdOqLQLixk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     </div>
 
                     <h4 class="feature-title">Sell Downloadable Products</h4>
@@ -101,7 +101,8 @@
                 <div class="wooco-feature-area text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/_xqsBcHQgAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/_xqsBcHQgAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/woocommerce-file-upload-illustration.png" alt="vector-2">
                     </div>
 
                     <h4 class="feature-title">WooCommerce File Uploader</h4>
@@ -123,17 +124,17 @@
 
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/dokan-icon.png" alt="dokan-icon">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/dokan-icon.png" alt="dokan-icon">
                     <h3 class="wooco-title">Dokan</h3>
                     <p class="wooco-description">The Dokan compatibility allows store owners to enable download & upload on the specific product page. Also, they can allow Dokan Vendors to manage & monitor their allowed store access.</p>
                 </div>
 
                 <div class="vector-crcel-left">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
 
                 <div class="vector-crcel-right">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                 </div>
 
             </div>
@@ -142,7 +143,8 @@
                 <div class="wooco-feature-area text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/S7sc-qqEnUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/dokan-multi-vendor-illustration.png" alt="vector-2">
                     </div>
 
                     <h4 class="feature-title">Dokan Multi-vendor Downloads</h4>
@@ -154,7 +156,8 @@
                 <div class="wooco-feature-area text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/2GF3zaRBEUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/2GF3zaRBEUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/dokan-multi-illustration.png" alt="vector-2">
                     </div>
 
                     <h4 class="feature-title">Dokan Multi-vendor Uploads</h4>
@@ -175,7 +178,7 @@
         <div id="easy-digital" class="row feat-shadw">
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/easy-digital-download-icon.png" alt="easy-digital-download-icon">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/easy-digital-download-icon.png" alt="easy-digital-download-icon">
 
 
                     <h3 class="wooco-title">Easy Digital Downloads</h3>
@@ -183,10 +186,10 @@
                 </div>
 
                 <div class="vector-crcel-left">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
                 <div class="vector-crcel-right">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
 
             </div>
@@ -195,7 +198,8 @@
                 <div class="wooco-feature-area vector-area  text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/ZvkPsRn5-QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/ZvkPsRn5-QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/easy-digital-download-illustration.png" alt="vector-2">
                     </div>
 
                     <div class="feature-btn text-center">
@@ -203,10 +207,10 @@
                     </div>
 
                     <div class="fe-vector-left">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                     </div>
                     <div class="fe-vector-right">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                     </div>
 
                 </div>
@@ -218,12 +222,12 @@
         <div id="advanced" class="row feat-shadw">
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head vector-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/ecommerce-plugins/advanced-custom-fields-icon.png" alt="advanced-custom-fields-icon">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/advanced-custom-fields-icon.png" alt="advanced-custom-fields-icon">
                     <h3 class="wooco-title">Advanced Custom Fields (ACF)</h3>
                     <p class="wooco-description">With Advanced Custom Fields integration, you can completely control your WordPress custom field data and edit screens. Integrating the ACF with the Connect Dropbox plugin allows you to easily select files and folders stored in Dropbox to be used in your pages and posts.</p>
                 </div>
                 <div class="vector-crcel-left">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
             </div>
 
@@ -231,7 +235,8 @@
                 <div class="wooco-feature-area last-feature vector-area text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/advanced-custom-fields-illustration.png" alt="vector-2">
                     </div>
 
                     <div class="feature-btn text-center">
@@ -242,7 +247,7 @@
             </div>
 
             <div class="vector-left">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
             </div>
 
         </div>
@@ -252,7 +257,7 @@
         <div class="row feat-shadw">
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head tutor-lms vector-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/popular-form/tutor-lms.png" alt="tutor-lms">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/popular-form/tutor-lms.png" alt="tutor-lms">
 
 
                     <h3 class="wooco-title">Tutor LMS</h3>
@@ -260,10 +265,10 @@
                 </div>
 
                 <div class="vector-crcel-left">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
                 <div class="vector-crcel-right">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
 
             </div>
@@ -272,7 +277,8 @@
                 <div class="wooco-feature-area vector-area  text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/UTFgIKS64zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/UTFgIKS64zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/tutor-lms-illustration.png" alt="vector-2">
                     </div>
 
                     <div class="feature-btn tutor-lms-feat text-center">
@@ -280,10 +286,10 @@
                     </div>
 
                     <div class="fe-vector-left">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                     </div>
                     <div class="fe-vector-right">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                     </div>
 
                 </div>
@@ -294,7 +300,7 @@
         <div class="row feat-shadw background-hide">
             <div class="col-lg-7 m-auto">
                 <div class="woocommerce-head tutor-lms vector-area text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library-icon.png" alt="media-library-icon">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/media-library-icon.png" alt="media-library-icon">
 
 
                     <h3 class="wooco-title">Media Library</h3>
@@ -302,10 +308,10 @@
                 </div>
 
                 <div class="vector-crcel-left">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
                 <div class="vector-crcel-right">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-1.png" alt="vector-1">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-1.png" alt="vector-1">
                 </div>
 
             </div>
@@ -314,8 +320,8 @@
                 <div class="wooco-feature-area vector-area  text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/5Ekbe2AGfBI?si=yp8neq8SDl3rhtjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <!-- <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library.png" alt="media-library"> -->
+                        <!-- <iframe src="https://www.youtube.com/embed/5Ekbe2AGfBI?si=yp8neq8SDl3rhtjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/ecommerce-plugins/media-library-illustration.png" alt="vector-2">
                     </div>
 
                     <div class="feature-btn tutor-lms-feat text-center">
@@ -323,10 +329,10 @@
                     </div>
 
                     <div class="fe-vector-left">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                     </div>
                     <div class="fe-vector-right">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/vector-2.png" alt="vector-2">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-dropbox/plugin-integrations/vector-2.png" alt="vector-2">
                     </div>
 
                 </div>
