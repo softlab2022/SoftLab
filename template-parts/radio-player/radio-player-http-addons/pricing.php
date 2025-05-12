@@ -40,7 +40,7 @@
                     <span>Up to 100 Sites - $29.99 / Month</span>
                 </div>
 
-                <div class="buy-btn text-center">
+                <div class="buy-btn buy-btn-monthly text-center">
                     <a href="#">Buy now</a>
                 </div>
             </div>
