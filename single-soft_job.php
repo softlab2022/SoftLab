@@ -368,11 +368,12 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
                     <h5>Job Summary:</h5>
 
                     <div class="sidebar-item">
-                        <i class="fa-solid fa-location-dot"></i>
+                        <!-- <i class="fa-solid fa-location-dot"></i> -->
+                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/carbon_location-filled.png" class=" img-fluid">
                         <div class="item-content">
-                            <span>Location</span>
-                            <h6>Maktob More, Radhanagar, Pabna
-                                6600, Bangladesh</h6>
+                            <h6>Location</h6>
+                            <span>Maktob More, Radhanagar, Pabna
+                                6600, Bangladesh</span>
                         </div>
                     </div>
 
@@ -380,15 +381,15 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
                         <!-- <i class="fa-solid fa-briefcase"></i> -->
                         <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/job-type.svg" class=" img-fluid">
                         <div class="item-content">
-                            <span>Job Type</span>
-                            <h6><?php
+                            <h6>Job Type</h6>
+                            <span><?php
 
                                 if (!empty($custom_fields['title'])) {
                                     echo esc_html($custom_fields['title']);
                                 } else {
                                     echo 'Full Time';
                                 }
-                                ?></h6>
+                                ?></span>
                         </div>
                     </div>
 
@@ -406,13 +407,14 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
                                 return 'February 6, 2025';
                             }
                             ?>
-                            <span>Application Deadline</span>
-                            <h6><?php echo display_deadline_date(get_the_ID()); ?></h6>
+                            <h6>Application Deadline</h6>
+                            <span><?php echo display_deadline_date(get_the_ID()); ?></span>
                         </div>
                     </div>
 
                     <div class="sidebar-item">
-                        <i class="fa-solid fa-calendar-days"></i>
+                        <!-- <i class="fa-solid fa-calendar-days"></i> -->
+                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/lets-icons_date-range-fill.png" class=" img-fluid">
                         <div class="item-content">
                             <?php
                             // Function to display the time elapsed since the deadline
@@ -426,8 +428,8 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
                                 return 'Posted: 1 week ago';
                             }
                             ?>
-                            <span>Date Posted</span>
-                            <h6>Posted: <span><?php echo display_time_since_deadline(get_the_ID()); ?></span></h6>
+                            <h6>Date Posted</h6>
+                            <span>Posted: <span><?php echo display_time_since_deadline(get_the_ID()); ?></span></span>
                         </div>
                     </div>
 
@@ -435,56 +437,58 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
                         <!-- <i class="fa-solid fa-user-check"></i> -->
                         <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/experience.png" class=" img-fluid">
                         <div class="item-content">
-                            <span>Experience</span>
-                            <h6><?php
+                            <h6>Experience</h6>
+                            <span><?php
                                 $our_team_experience = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_field_experience', true);
                                 if (!empty($our_team_experience)) {
                                     echo nl2br(esc_html($our_team_experience)); // Convert newlines to <br> tags for better display
                                 } else {
                                     echo 'Experience: 2 Years';
                                 }
-                                ?></h6>
+                                ?></span>
 
                         </div>
                     </div>
 
                     <div class="sidebar-item">
-                        <i class="fa-solid fa-clock"></i>
+                        <!-- <i class="fa-solid fa-clock"></i> -->
+                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/mingcute_time-fill.png" class=" img-fluid">
                         <div class="item-content">
-                            <span>Working Hours</span>
-                            <h6>9:00 AM – 6:00 PM</h6>
+                            <h6>Working Hours</h6>
+                            <span>9:00 AM – 6:00 PM</span>
                         </div>
                     </div>
 
                     <div class="sidebar-item">
                         <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/working-days.png" class=" img-fluid">
                         <div class="item-content">
-                            <span>Working Days</span>
-                            <h6>Weekly: 5 days.</h6>
-                            <h6>Weekend: Friday, Saturday.</h6>
+                            <h6>Working Days</h6>
+                            <span>Weekly: 5 days.</span>
+                            <span>Weekend: Friday, Saturday.</span>
                         </div>
                     </div>
 
                     <div class="sidebar-item">
-                        <i class="fa-solid fa-money-check"></i>
+                        <!-- <i class="fa-solid fa-money-check"></i> -->
+                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/fluent_payment-48-filled.png" class=" img-fluid">
                         <div class="item-content">
-                            <span>Salary</span>
-                            <h6><?php
+                            <h6>Salary</h6>
+                            <span><?php
                                 $our_team_salary = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_field_salary', true);
                                 if (!empty($our_team_salary)) {
                                     echo nl2br(esc_html($our_team_salary)); // Convert newlines to <br> tags for better display
                                 } else {
                                     echo 'TK. 35,000 - 50,000 BDT (Depends on Skill and Experience)';
                                 }
-                                ?></h6>
+                                ?></span>
                         </div>
                     </div>
 
                     <div class="sidebar-item">
                         <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/frame.png" class=" img-fluid">
                         <div class="item-content">
-                            <span>Salary Review</span>
-                            <h6>Yearly</h6>
+                            <h6>Salary Review</h6>
+                            <span>Yearly</span>
                         </div>
                     </div>
 
