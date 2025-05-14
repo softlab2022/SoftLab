@@ -2,13 +2,13 @@
 $features = [
 	[
 		'title'       => 'One-Click File Uploader',
-		'description' => 'You and also your users can upload files directly to your Google Drive account from your site.',
+		'description' => 'You and your users can upload files directly to your Google Drive account from your site with just 1 click.',
 		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/one-click.png",
 		'features'    => [ 'Create Perfect Upload', 'Customize Uploader', 'Easily Upload Documents ', 'Close Uploaded Files', ],
 	],
 	[
 		'title'       => 'Switch to Change Uploader Style',
-		'description' => 'You and also your users can upload files directly to your Google Drive account from your site.',
+		'description' => 'Control multiple uploading abilities directly from your WordPress dashboard',
 		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/uploader-style.png",
 		'features'    => [ 'Easy to Upload Files', 'Customize Uploader', 'Drag and Drop', 'Skip Uploaded Files', ],
 	],

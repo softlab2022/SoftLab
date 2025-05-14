@@ -302,33 +302,33 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
 
                 </div>
                 <!-- Our Statement -->
-                <div class="about-us-main">
+                <!-- <div class="about-us-main">
                     <h3>
                         <?php
-                        $our_team_title = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_field_our_statement_title', true);
-                        if (!empty($our_team_title)) {
-                            echo nl2br(esc_html($our_team_title)); // Convert newlines to <br> tags for better display
-                        } else {
-                            echo 'Our Statement';
-                        }
+                        // $our_team_title = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_field_our_statement_title', true);
+                        // if (!empty($our_team_title)) {
+                        //     echo nl2br(esc_html($our_team_title)); // Convert newlines to <br> tags for better display
+                        // } else {
+                        //     echo 'Our Statement';
+                        // }
                         ?>
                     </h3>
                     <p>
                         <?php
-                        $our_team_description = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_field_our_statement_description', true);
-                        if (!empty($our_team_description)) {
-                            echo nl2br(esc_html($our_team_description)); // Convert newlines to <br> tags for better display
-                        } else {
-                            echo 'At SoftLab, we strive to create a workplace where happiness is not just a value but a way of life. Our mission is to foster an environment that empowers employees, encourages innovation, and celebrates individual contributions. We are deeply committed to being a company that people are proud to work for, offering a culture that values inclusivity, transparency, and mutual respect.
+                        // $our_team_description = get_post_meta(get_the_ID(), 'softlab_custom_post_meta_field_our_statement_description', true);
+                        // if (!empty($our_team_description)) {
+                        //     echo nl2br(esc_html($our_team_description)); // Convert newlines to <br> tags for better display
+                        // } else {
+                        //     echo 'At SoftLab, we strive to create a workplace where happiness is not just a value but a way of life. Our mission is to foster an environment that empowers employees, encourages innovation, and celebrates individual contributions. We are deeply committed to being a company that people are proud to work for, offering a culture that values inclusivity, transparency, and mutual respect.
 
-                            As champions of diversity, equity, and inclusion, we believe that everyone deserves an equal opportunity to thrive. SoftLab welcomes individuals from all backgrounds and walks of life, ensuring that our team reflects the diverse world we serve. 
+                        //     As champions of diversity, equity, and inclusion, we believe that everyone deserves an equal opportunity to thrive. SoftLab welcomes individuals from all backgrounds and walks of life, ensuring that our team reflects the diverse world we serve. 
 
-                            Join us at SoftLab, where we combine purpose with passion to create not just a company, but a community driven by happiness, equality, and excellence.';
-                        }
+                        //     Join us at SoftLab, where we combine purpose with passion to create not just a company, but a community driven by happiness, equality, and excellence.';
+                        // }
                         ?>
 
                     </p>
-                </div>
+                </div> -->
                 <!-- Apply Now Area -->
                 <div class="apply-now-button" id="apply-now-section">
                     <a href="javascript:void(0);" id="apply-now-btn">Apply now</a>
@@ -369,7 +369,7 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
 
                     <div class="sidebar-item">
                         <!-- <i class="fa-solid fa-location-dot"></i> -->
-                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/location-filled.png" class=" img-fluid">
+                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/carbon_location-filled.png" class=" img-fluid">
                         <div class="item-content">
                             <h6>Location</h6>
                             <span>Maktob More, Radhanagar, Pabna
@@ -382,7 +382,7 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
                         <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/job-type.svg" class=" img-fluid">
                         <div class="item-content">
                             <h6>Job Type</h6>
-                            <spa><?php
+                            <span><?php
 
                                 if (!empty($custom_fields['title'])) {
                                     echo esc_html($custom_fields['title']);
@@ -470,7 +470,7 @@ $softlab_custom_post_meta_fields = get_post_meta(get_the_ID(), 'softlab_custom_p
 
                     <div class="sidebar-item">
                         <!-- <i class="fa-solid fa-money-check"></i> -->
-                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/payment.png" class=" img-fluid">
+                        <img src="<?php echo get_template_directory_uri();  ?>/assets/images/career-page/career-single-page/fluent_payment-48-filled.png" class=" img-fluid">
                         <div class="item-content">
                             <h6>Salary</h6>
                             <span><?php

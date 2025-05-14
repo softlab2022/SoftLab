@@ -17,6 +17,8 @@
                     <?php
                     if (!empty(get_option('media_player_shortcode'))) {
                         echo do_shortcode(get_option('media_player_shortcode'));
+                    }else {
+                        echo "No Shortcode Found!";
                     }
                     ?>
                 </div>

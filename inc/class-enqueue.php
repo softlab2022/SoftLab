@@ -68,15 +68,17 @@ class SoftLa
 
 			wp_enqueue_style('dracula-main', get_theme_file_uri('assets/css/dracula-main.css'), array(), $theme_version, 'all');
 		} else if (in_array($file_name, [
-			'integrate-dropbox',
-			'integrate-dropbox-pricing',
-			'integrate-dropbox-file-browser',
-			'integrate-dropbox-file-uploader',
-			'integrate-dropbox-photo-gallery',
-			'integrate-dropbox-media-player',
+			'connect-dropbox',
+			'connect-dropbox-pricing',
+			'connect-dropbox-file-browser',
+			'connect-dropbox-file-uploader',
+			'connect-dropbox-photo-gallery',
+			'connect-dropbox-media-player',
+			'connect-dropbox-slider-carousel',
+			'connect-dropbox-integrations',
 		])) {
 
-			wp_enqueue_style('integrate-dropbox-main', get_theme_file_uri('assets/css/integrate-dropbox-main.css'), array(), $theme_version, 'all');
+			wp_enqueue_style('connect-dropbox-main', get_theme_file_uri('assets/css/connect-dropbox-main.css'), array(), $theme_version, 'all');
 		} else if (in_array($file_name, [
 			'wp-radio',
 			'wp-radio-pricing',
@@ -207,7 +209,7 @@ class SoftLa
 			'dracula-pricing',
 			'dracula-pricing-update',
 			'radio-player-ads',
-			'integrate-dropbox-pricing',
+			'connect-dropbox-pricing',
 			'radio-player-proxy-player',
 			'offers',
 			'offers-black-friday',

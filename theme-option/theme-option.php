@@ -5,7 +5,8 @@ if (!defined('ABSPATH')) {
 }
 
 if (!function_exists('sl_theme_option_submenu_register')) {
-    function sl_theme_option_submenu_register() {
+    function sl_theme_option_submenu_register()
+    {
         add_submenu_page(
             'themes.php',
             __('Theme Option', 'softlab'),
@@ -23,7 +24,8 @@ if (!function_exists('sl_theme_option_submenu_register')) {
  * Summary of sl_theme_option_custom_settings_init
  * @return void
  */
-function sl_theme_option_custom_settings_init() {
+function sl_theme_option_custom_settings_init()
+{
     register_setting(
         'sl-theme-option-custom-settings-group',
         'theme_option_shortcode_http_player',
@@ -116,8 +118,16 @@ function sl_theme_option_custom_settings_init() {
         'sl-theme-option-custom-settings-group',
         'skin11_shortcode_style_2',
     );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'skin12_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'skin12_shortcode_style_2',
+    );
 
-
+    //integrate Google Drive settings area
     register_setting(
         'sl-theme-option-custom-settings-group',
         'file_browser_shortcode',
@@ -138,16 +148,39 @@ function sl_theme_option_custom_settings_init() {
         'sl-theme-option-custom-settings-group',
         'media_player_shortcode',
     );
+    //connect dropbox settings area
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'file_browser_shortcode_dropbox',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'file_uploader_shortcode_dropbox',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'gallery_shortcode_dropbox',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'slider_carousel_shortcode_dropbox',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'media_player_shortcode_dropbox',
+    );
 }
 
 add_action('admin_init', 'sl_theme_option_custom_settings_init');
 
-function theme_option_callback() { ?>
+function theme_option_callback()
+{ ?>
     <div class="wrap">
         <h2>Theme Options</h2>
         <form method="post" action="options.php">
             <div class="row">
                 <div class=" col-lg-9">
+                    <!-- integrate google drive shortcode area -->
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingtwo">
@@ -261,6 +294,121 @@ function theme_option_callback() { ?>
                         </div>
 
                     </div>
+                    <!-- connect dropbox shortcode area -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingt">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapset" aria-expanded="true" aria-controls="panelsStayOpen-collapset">
+                                    <h1><?php _e('Connect Dropbox', 'softlab') ?></h1>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapset" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingt">
+                                <div class="accordion-body">
+
+                                    <?php settings_fields('sl-theme-option-custom-settings-group'); ?>
+                                    <?php do_settings_sections('sl-custom-submenu') ?>
+
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTw">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseT" aria-expanded="true" aria-controls="collapseT">
+                                                    <h6> <?php _e('Shortcodes', 'softlab') ?></h6>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseT" class="accordion-collapse collapse show" aria-labelledby="headingTw" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <div class="form-table">
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <label class="heading_lable" for=""><?php _e('Connect Dropbox Shortcode Builder', 'softlab') ?></label>
+                                                            </div>
+                                                        </div>
+                                                        <!---File Browser--->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('File Browser', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <!-- <label class="heading_lable" for=""><?php _e('File Browser', 'softlab') ?></label> -->
+
+                                                                        <input class="input_field" type="text" name="file_browser_shortcode_dropbox" value="<?php echo esc_attr(get_option('file_browser_shortcode_dropbox')) ?>" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--File Uploader-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('File Uploader', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <!-- <label class="heading_lable" for=""><?php _e('File Uploader', 'softlab') ?></label> -->
+
+                                                                        <input class="input_field" type="text" name="file_uploader_shortcode_dropbox" value="<?php echo esc_attr(get_option('file_uploader_shortcode_dropbox')) ?>" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Gallery-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Gallery', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <!-- <label class="heading_lable" for=""><?php _e('Gallery', 'softlab') ?></label> -->
+
+                                                                        <input class="input_field" type="text" name="gallery_shortcode_dropbox" value="<?php echo esc_attr(get_option('gallery_shortcode_dropbox')) ?>" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Slider Carousel-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Slider Carousel', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <!-- <label class="heading_lable" for=""><?php _e('Slider Carousel', 'softlab') ?></label> -->
+
+                                                                        <input class="input_field" type="text" name="slider_carousel_shortcode_dropbox" value="<?php echo esc_attr(get_option('slider_carousel_shortcode_dropbox')) ?>" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Media Player-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Media Player', 'softlab') ?></label>
+                                                                    <div class="styles">
+
+                                                                        <!-- <label class="heading_lable" for=""><?php _e('Media Player', 'softlab') ?></label> -->
+
+                                                                        <input class="input_field" type="text" name="media_player_shortcode_dropbox" value="<?php echo esc_attr(get_option('media_player_shortcode_dropbox')) ?>" />
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <?php //submit_button();
+                                    ?>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- radio player skins shortcode area -->
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -562,6 +710,30 @@ function theme_option_callback() { ?>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!--skin12-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin12', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="skin12_shortcode_style_1" value="<?php echo esc_attr(get_option('skin12_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="skin12_shortcode_style_2" value="<?php echo esc_attr(get_option('skin12_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
 
                                                     </div>
@@ -615,7 +787,8 @@ function theme_option_callback() { ?>
 <?php }
 
 // Sanitization callback function
-function sanitize_callback($input) {
+function sanitize_callback($input)
+{
     return $input;
 }
 
@@ -624,7 +797,8 @@ function sanitize_callback($input) {
  * Summary of softlab eacf7 preview metabox
  * @return void
  */
-function sl_metabox() {
+function sl_metabox()
+{
     add_meta_box('sl-page-id', 'softlab page meta box', 'wpl_sl_pages_function', 'page', 'normal', 'default');
 }
 
@@ -635,7 +809,8 @@ add_action('add_meta_boxes', 'sl_metabox');
  * @param mixed $post
  * @return void
  */
-function wpl_sl_pages_function($post) {
+function wpl_sl_pages_function($post)
+{
     // Retrieve saved meta data for multiple fields
     $sl_meta_fields = get_post_meta($post->ID, 'sl_meta_fields', true);
     if (empty($sl_meta_fields)) {
@@ -653,7 +828,7 @@ function wpl_sl_pages_function($post) {
         echo '<br>';
         echo '<label for="sl_meta_field_description_' . $index . '">Description: </label>';
         echo '<input type="text" id="sl_meta_field_description_' . $index . '" name="sl_meta_fields[' . $index . '][description]" value="' . esc_attr($field['description']) . '">';
-        
+
         echo '<br>';
         echo '<label for="sl_meta_field_shortcode_' . $index . '">Form Shortcode: </label>';
         echo '<input type="text" id="sl_meta_field_shortcode_' . $index . '" name="sl_meta_fields[' . $index . '][shortcode]" value="' . esc_attr($field['shortcode']) . '">';
@@ -662,7 +837,7 @@ function wpl_sl_pages_function($post) {
     }
     echo '</div>';
 
-        // Button group
+    // Button group
     echo '<div class="sl-button-group">';
     echo '<button type="button" id="add-new-demo">Add New</button>';
     echo '<button type="button" id="remove-new-demo">Remove</button>';
@@ -686,7 +861,8 @@ function wpl_sl_pages_function($post) {
  * @param mixed $post_id
  * @return void
  */
-function sl_save_meta_box_data($post_id) {
+function sl_save_meta_box_data($post_id)
+{
     // Check for nonce, autosave, and permissions.
     if (!isset($_POST['sl_meta_field_url']) || defined('DOING_AUTOSAVE') && DOING_AUTOSAVE || !current_user_can('edit_post', $post_id)) {
         return;
@@ -710,4 +886,3 @@ function sl_save_meta_box_data($post_id) {
 }
 
 add_action('save_post', 'sl_save_meta_box_data');
-

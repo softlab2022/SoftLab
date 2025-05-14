@@ -647,6 +647,10 @@ function softlab_change_privacy_policy_menu_link($sorted_menu_items, $args)
 			$item->url = 'https://softlabbd.com/integrate-google-drive-privacy-policy/';
 		}
 
+		if (str_contains($current_template, 'connect-dropbox') && str_contains($item->url, '/privacy-policy')) {
+			$item->url = 'https://softlabbd.com/connect-dropbox-privacy-policy/';
+		}
+
 		$sorted_menu_items[$key] = $item;
 	}
 
@@ -686,54 +690,55 @@ function softlab_support_login_form_notice($login_form_bottom, $args)
 /**
  * Get posts by category via AJAX
  */
-function get_category_posts() {
-    $category_id = intval($_POST['category_id']);
+function get_category_posts()
+{
+	$category_id = intval($_POST['category_id']);
 
-    $args = array(
-        'post_type'      => 'form',
-        'posts_per_page' => -1,
-        'orderby'        => 'title',
-        'order'          => 'ASC',
-        'tax_query'      => array(
-            array(
-                'taxonomy'         => 'form_category',
-                'field'            => 'term_id',
-                'terms'            => $category_id,
-                'include_children' => true,
-            ),
-        ),
-    );
+	$args = array(
+		'post_type'      => 'form',
+		'posts_per_page' => -1,
+		'orderby'        => 'title',
+		'order'          => 'ASC',
+		'tax_query'      => array(
+			array(
+				'taxonomy'         => 'form_category',
+				'field'            => 'term_id',
+				'terms'            => $category_id,
+				'include_children' => true,
+			),
+		),
+	);
 
-    $query = new WP_Query($args);
+	$query = new WP_Query($args);
 
-    if ($query->have_posts()) :
-        while ($query->have_posts()) : $query->the_post();
-            $post_id = get_the_ID();
-            ?>
-            <div class="col-lg-4 col-md-6">
-                <div class="main-item">
-                    <div class="item-img">
-                        <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php the_title_attribute(); ?>">
-                        <div class="item-button">
-                            <div class="buttons-group">
-                                <a href="<?php echo get_permalink($post_id); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-content">
-                        <h4><?php the_title(); ?></h4>
-                        <p><?php the_excerpt(); ?></p>
-                    </div>
-                </div>
-            </div>
-        <?php
-        endwhile;
-        wp_reset_postdata();
-    else :
-        echo '<div class="col-12"><p>No posts found in this category.</p></div>';
-    endif;
+	if ($query->have_posts()) :
+		while ($query->have_posts()) : $query->the_post();
+			$post_id = get_the_ID();
+				?>
+				<div class="col-lg-4 col-md-6">
+					<div class="main-item">
+						<div class="item-img">
+							<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php the_title_attribute(); ?>">
+							<div class="item-button">
+								<div class="buttons-group">
+									<a href="<?php echo get_permalink($post_id); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="item-content">
+							<h4><?php the_title(); ?></h4>
+							<p><?php the_excerpt(); ?></p>
+						</div>
+					</div>
+				</div>
+			<?php
+		endwhile;
+		wp_reset_postdata();
+	else :
+		echo '<div class="col-12"><p>No posts found in this category.</p></div>';
+	endif;
 
-    wp_die();
+	wp_die();
 }
 add_action('wp_ajax_get_category_posts', 'get_category_posts');
 add_action('wp_ajax_nopriv_get_category_posts', 'get_category_posts');
@@ -741,101 +746,103 @@ add_action('wp_ajax_nopriv_get_category_posts', 'get_category_posts');
 /**
  * Get single post content via AJAX
  */
-function get_form_content() {
-    $post_id = intval($_POST['post_id']);
-    $post = get_post($post_id);
+function get_form_content()
+{
+	$post_id = intval($_POST['post_id']);
+	$post = get_post($post_id);
 
-    if ($post) :
-        ?>
-        <div class="col-lg-4 col-md-6">
-            <div class="main-item">
-                <div class="item-img">
-                    <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($post->post_title); ?>">
-                    <div class="item-button">
-                        <div class="buttons-group">
-                            <a href="<?php echo get_permalink($post_id); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-content">
-                    <h4><?php echo esc_html($post->post_title); ?></h4>
-                    <p><?php echo esc_html($post->post_content); ?></p>
-                </div>
-            </div>
-        </div>
-    <?php
-    else :
-        echo '<div class="col-12"><p>Post not found.</p></div>';
-    endif;
+	if ($post) :
+			?>
+			<div class="col-lg-4 col-md-6">
+				<div class="main-item">
+					<div class="item-img">
+						<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($post->post_title); ?>">
+						<div class="item-button">
+							<div class="buttons-group">
+								<a href="<?php echo get_permalink($post_id); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
+							</div>
+						</div>
+					</div>
+					<div class="item-content">
+						<h4><?php echo esc_html($post->post_title); ?></h4>
+						<p><?php echo esc_html($post->post_content); ?></p>
+					</div>
+				</div>
+			</div>
+			<?php
+		else :
+			echo '<div class="col-12"><p>Post not found.</p></div>';
+		endif;
 
-    wp_die();
-}
-add_action('wp_ajax_get_form_content', 'get_form_content');
-add_action('wp_ajax_nopriv_get_form_content', 'get_form_content');
+		wp_die();
+	}
+	add_action('wp_ajax_get_form_content', 'get_form_content');
+	add_action('wp_ajax_nopriv_get_form_content', 'get_form_content');
 
-/**
- * Search posts via AJAX
- */
-function contact_form_7_templates_search() {
-    $search   = !empty($_POST['search']) ? sanitize_text_field($_POST['search']) : '';
-    $category = !empty($_POST['category']) ? sanitize_text_field($_POST['category']) : '';
+	/**
+	 * Search posts via AJAX
+	 */
+	function contact_form_7_templates_search()
+	{
+		$search   = !empty($_POST['search']) ? sanitize_text_field($_POST['search']) : '';
+		$category = !empty($_POST['category']) ? sanitize_text_field($_POST['category']) : '';
 
-    $args = [
-        'post_type'      => 'form',
-        'post_status'    => 'publish',
-        'posts_per_page' => -1,
-        's'              => $search,
-    ];
+		$args = [
+			'post_type'      => 'form',
+			'post_status'    => 'publish',
+			'posts_per_page' => -1,
+			's'              => $search,
+		];
 
-    if (!empty($category)) {
-        $args['tax_query'] = [
-            [
-                'taxonomy' => 'form_category',
-                'field'    => 'slug',
-                'terms'    => $category,
-            ],
-        ];
-    }
+		if (!empty($category)) {
+			$args['tax_query'] = [
+				[
+					'taxonomy' => 'form_category',
+					'field'    => 'slug',
+					'terms'    => $category,
+				],
+			];
+		}
 
-    $posts = get_posts($args);
+		$posts = get_posts($args);
 
-    ob_start();
-    if (!empty($posts)) {
-        foreach ($posts as $post) {
-            $post_id = $post->ID;
-            $permalink = get_permalink($post_id);
-            $title     = esc_html($post->post_title);
-            $terms = get_the_terms($post_id, 'form_category');
-            $term_title = !empty($terms) && is_array($terms) ? esc_html($terms[0]->name) : 'Uncategorized';
-            ?>
-            <div class="col-lg-4 col-md-6">
-                <div class="main-item">
-                    <div class="item-img">
-                        <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($title); ?>">
-                        <div class="item-button">
-                            <div class="buttons-group">
-                                <a href="<?php echo $permalink; ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-content">
-                        <h4><?php echo esc_html($title); ?></h4>
-                        <p><?php echo get_the_excerpt($post_id); ?></p>
-                    </div>
-                </div>
-            </div>
-        <?php
-        }
-    } else {
-        ?>
-        <div class="col-12">
-            <p>No results found</p>
-        </div>
-    <?php
-    }
+		ob_start();
+		if (!empty($posts)) {
+			foreach ($posts as $post) {
+				$post_id = $post->ID;
+				$permalink = get_permalink($post_id);
+				$title     = esc_html($post->post_title);
+				$terms = get_the_terms($post_id, 'form_category');
+				$term_title = !empty($terms) && is_array($terms) ? esc_html($terms[0]->name) : 'Uncategorized';
+			?>
+				<div class="col-lg-4 col-md-6">
+					<div class="main-item">
+						<div class="item-img">
+							<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($title); ?>">
+							<div class="item-button">
+								<div class="buttons-group">
+									<a href="<?php echo $permalink; ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
+								</div>
+							</div>
+						</div>
+						<div class="item-content">
+							<h4><?php echo esc_html($title); ?></h4>
+							<p><?php echo get_the_excerpt($post_id); ?></p>
+						</div>
+					</div>
+				</div>
+			<?php
+			}
+		} else {
+			?>
+			<div class="col-12">
+				<p>No results found</p>
+			</div>
+	<?php
+		}
 
-    $html = ob_get_clean();
-    wp_send_json_success($html);
-}
-add_action('wp_ajax_contact_form_7_templates_search', 'contact_form_7_templates_search');
-add_action('wp_ajax_nopriv_contact_form_7_templates_search', 'contact_form_7_templates_search');
+		$html = ob_get_clean();
+		wp_send_json_success($html);
+	}
+	add_action('wp_ajax_contact_form_7_templates_search', 'contact_form_7_templates_search');
+	add_action('wp_ajax_nopriv_contact_form_7_templates_search', 'contact_form_7_templates_search');

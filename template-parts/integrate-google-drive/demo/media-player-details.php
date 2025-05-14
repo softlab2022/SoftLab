@@ -3,7 +3,7 @@
 $features = [
     [
         'title'       => 'Easy to Manage Your Media Player',
-        'description' => 'You can play your Google Drive audio & video files with a playlist into your website. Audio and video can be played in a single player.',
+        'description' => 'Automatically play your Dropbox audio and video files directly on your website using a unified media player with playlist support. Manage and showcase all your media in one place with ease.',
         'image'       => get_template_directory_uri() . "/assets/images/google-drive/media-demo/media-player.png",
         'features'    => ['Manage Media Files', 'Preview Media Files', 'Download Any Files ', 'Import Media & Delete',]
     ],
