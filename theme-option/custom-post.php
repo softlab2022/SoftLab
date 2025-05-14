@@ -192,15 +192,15 @@ function wpl_softlab_custom_post_pages_function($post)
     echo '</div>';
 
     // Save Our Statement our_statement fields.
-    echo '<div class="softlab_custom_post-metabox-fields">';
-    echo '<label for="softlab_custom_post_meta_field_our_statement_title">Our Statement Title: </label>';
-    echo '<input type="text" class="softlab_custom_input" id="softlab_custom_post_meta_field_our_statement_title" name="softlab_custom_post_meta_field_our_statement_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_statement_title', true)) . '">';
+    // echo '<div class="softlab_custom_post-metabox-fields">';
+    // echo '<label for="softlab_custom_post_meta_field_our_statement_title">Our Statement Title: </label>';
+    // echo '<input type="text" class="softlab_custom_input" id="softlab_custom_post_meta_field_our_statement_title" name="softlab_custom_post_meta_field_our_statement_title" value="' . esc_attr(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_statement_title', true)) . '">';
 
-    echo '<label for="softlab_custom_post_meta_field_our_statement_description">Our Statement Description: </label>';
-    echo '<textarea rows="4" cols="50" id="softlab_custom_post_meta_field_our_statement_description" name="softlab_custom_post_meta_field_our_statement_description">';
-    echo esc_textarea(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_statement_description', true));
-    echo '</textarea>';
-    echo '</div>';
+    // echo '<label for="softlab_custom_post_meta_field_our_statement_description">Our Statement Description: </label>';
+    // echo '<textarea rows="4" cols="50" id="softlab_custom_post_meta_field_our_statement_description" name="softlab_custom_post_meta_field_our_statement_description">';
+    // echo esc_textarea(get_post_meta($post->ID, 'softlab_custom_post_meta_field_our_statement_description', true));
+    // echo '</textarea>';
+    // echo '</div>';
     // Save Experience  fields.
     echo '<div class="softlab_custom_post-metabox-fields">';
     echo '<label for="softlab_custom_post_meta_field_experience">Experience Details: </label>';
@@ -320,21 +320,21 @@ function softlab_custom_post_save_meta_box_data($post_id)
         );
     }
     // Save Our Statement fields.
-    if (isset($_POST['softlab_custom_post_meta_field_our_statement_title'])) {
-        update_post_meta(
-            $post_id,
-            'softlab_custom_post_meta_field_our_statement_title',
-            sanitize_text_field($_POST['softlab_custom_post_meta_field_our_statement_title'])
-        );
-    }
+    // if (isset($_POST['softlab_custom_post_meta_field_our_statement_title'])) {
+    //     update_post_meta(
+    //         $post_id,
+    //         'softlab_custom_post_meta_field_our_statement_title',
+    //         sanitize_text_field($_POST['softlab_custom_post_meta_field_our_statement_title'])
+    //     );
+    // }
 
-    if (isset($_POST['softlab_custom_post_meta_field_our_statement_description'])) {
-        update_post_meta(
-            $post_id,
-            'softlab_custom_post_meta_field_our_statement_description',
-            sanitize_textarea_field($_POST['softlab_custom_post_meta_field_our_statement_description'])
-        );
-    }
+    // if (isset($_POST['softlab_custom_post_meta_field_our_statement_description'])) {
+    //     update_post_meta(
+    //         $post_id,
+    //         'softlab_custom_post_meta_field_our_statement_description',
+    //         sanitize_textarea_field($_POST['softlab_custom_post_meta_field_our_statement_description'])
+    //     );
+    // }
     // Experience
     if (isset($_POST['softlab_custom_post_meta_field_experience'])) {
         update_post_meta(
