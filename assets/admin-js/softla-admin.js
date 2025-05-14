@@ -90,8 +90,7 @@ jQuery(document).ready(function ($) {
         targetInput.val(''); // Clear hidden input value
         previewImage.attr('src', '').hide(); // Hide preview image
     });
-    
-    //remove icon
+     //remove icon
     $('.softlab-icon-remove-image').click(function(e) {
         e.preventDefault();
 
@@ -102,5 +101,4 @@ jQuery(document).ready(function ($) {
         targetInput.val(''); // Clear hidden input value
         previewImage.attr('src', '').hide(); // Hide preview image
     });
-
 });
