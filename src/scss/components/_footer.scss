@@ -565,6 +565,22 @@
 
 }
 
+.page-template-templatesmultimedia-player-php {
+
+  .footer {
+    background: url("../images/multimedia-player/bg-shape1.png") no-repeat !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    .newslatter-from {
+      .input-group-append {
+        a {
+          background: #0056D7;
+        }
+      }
+    }
+  }
+}
 
 .page-template-templatesoffers-black-friday-php {
   .footer {

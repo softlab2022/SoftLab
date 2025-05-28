@@ -198,6 +198,11 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/soft-accordion/logo.png';
 						$description = 'Best accordion plugin for WordPress to elevate your FAQ section with style';
 					}
+					elseif ( 'multimedia player' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/logo.png';
+						$description = 'Best accordion plugin for WordPress to elevate your FAQ section with style';
+					}
+
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );
 					$item_output .= sprintf( '<div class="product-link-content"><span class="link-title">%s</span><span class="link-description">%s</span> </div>', $title, $description );
