@@ -33,7 +33,7 @@ $current_slug = basename(get_permalink());
         switch ("<?php echo $current_slug; ?>") {
             case 'multimedia-player':
             case 'multimedia-player-pricing':
-                targetSelector = '#ex-feature';
+                targetSelector = '#faq';
                 break;
             case 'multimedia-player-integrations':
                 targetSelector = '#ecommerce-plugins';

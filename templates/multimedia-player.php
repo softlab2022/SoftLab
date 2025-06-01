@@ -12,6 +12,7 @@ get_template_part( 'template-parts/multimedia-player/home/active-user' );
 get_template_part( 'template-parts/multimedia-player/home/playlist' );
 get_template_part( 'template-parts/multimedia-player/home/features' );
 get_template_part( 'template-parts/multimedia-player/home/extra-features' );
+get_template_part( 'template-parts/multimedia-player/pricing/faq' );
 // get_template_part( 'template-parts/multimedia-player/home/testimonial' );
 get_template_part( 'template-parts/multimedia-player/home/cta' );
 ?>

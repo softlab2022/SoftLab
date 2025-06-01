@@ -121,6 +121,7 @@ class SoftLa
 		} 
 		 else if (in_array($file_name, [
 			'multimedia-player',
+			'multimedia-player-pricing',
 		])) {
 			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
 		} else {
@@ -223,6 +224,7 @@ class SoftLa
 			'soft-accordion-pricing',
 			'essential-addons-for-contact-form-7-pricing-update',
 			'radio-player-pricing-update',
+			'multimedia-player-pricing',
 		]);
 
 		if ($is_pricing_page) {
