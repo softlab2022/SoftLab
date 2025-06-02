@@ -35,8 +35,8 @@ $current_slug = basename(get_permalink());
             case 'multimedia-player-pricing':
                 targetSelector = '#faq';
                 break;
-            case 'multimedia-player-integrations':
-                targetSelector = '#ecommerce-plugins';
+            case 'multimedia-player-skin':
+                targetSelector = '#skins-main';
                 break;
             default:
                 return;

@@ -122,6 +122,7 @@ class SoftLa
 		 else if (in_array($file_name, [
 			'multimedia-player',
 			'multimedia-player-pricing',
+			'multimedia-player-skins',
 		])) {
 			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
 		} else {
