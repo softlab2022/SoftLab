@@ -46,7 +46,7 @@ if (function_exists('get_field')) {
                                     <p>Stylish, pre-built audio skins that enhance playback and match your site’s design professionally</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -57,7 +57,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -68,7 +68,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -79,7 +79,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -90,7 +90,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -101,7 +101,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -112,7 +112,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -123,7 +123,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -134,7 +134,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -145,7 +145,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -156,7 +156,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -167,7 +167,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -192,7 +192,7 @@ if (function_exists('get_field')) {
                                     <p>Modern video player skins with clean layouts and user-friendly controls, designed to compatible with any theme</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -203,7 +203,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -214,7 +214,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -225,7 +225,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -236,7 +236,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -247,7 +247,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -258,7 +258,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -269,7 +269,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -294,7 +294,7 @@ if (function_exists('get_field')) {
                                     <p>Accessible and visually clean pre-designed podcast skins, built for readability and ideal for any environments</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -305,7 +305,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -316,7 +316,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -327,7 +327,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -338,7 +338,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
@@ -349,7 +349,7 @@ if (function_exists('get_field')) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php

@@ -6,9 +6,9 @@ $free_features = [
     'Supports Multiple Sources',
     'Multiple Player Skins',
     'Advanced Playback Controls',
-    'Live Preview',
     'Customize Appearance & Typography',
     'Statistics',
+    
 ];
 
 // pro Features
@@ -18,7 +18,6 @@ $pro_features = [
     'Supports Multiple Sources',
     'Multiple Player Skins',
     'Advanced Playback Controls',
-    'Live Preview',
     'Customize Appearance & Typography',
     'Statistics',
 
@@ -29,7 +28,6 @@ $free_integrations = [
     'Supports Multiple Sources',
     'Multiple Player Skins',
     'Advanced Playback Controls',
-    'Live Preview',
     'Customize Appearance & Typography',
     'Statistics',
 
@@ -42,7 +40,6 @@ $free_fields = [
     'Supports Multiple Sources',
     'Multiple Player Skins',
     'Advanced Playback Controls',
-    'Live Preview',
     'Customize Appearance & Typography',
     'Statistics',
 ];
@@ -53,7 +50,6 @@ $pro_fields = [
     'Supports Multiple Sources',
     'Multiple Player Skins',
     'Advanced Playback Controls',
-    'Live Preview',
     'Customize Appearance & Typography',
     'Statistics',
     // 'Hidden Field <span class="coming-soon">Coming Soon <img class="img-fluid" src="' .  get_template_directory_uri() . '/assets/images/fire.svg" alt="fire"></span>',
