@@ -6,7 +6,7 @@ $features = [
 		'video'		  => '',
 		'pro'         => true,
 	],
-	
+
 	[
 		'title'       => 'Admin File Browser',
 		'description' => 'Display & manage your cloud files via a File Browser. The file browser can have a grid thumbnail and list view and can have a file uploader.',
@@ -49,6 +49,18 @@ $features = [
 		'title'       => 'Allow Specific Folders',
 		'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
 		'video'		  => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/YI5pC6m80DQ?si=w1ya-QTNKHXI6poA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+		'pro'         => false,
+	],
+	[
+		'title'       => 'Review & Approve Module',
+		'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
+		'video'		  => '',
+		'pro'         => false,
+	],
+	[
+		'title'       => 'List Files',
+		'description' => 'The List Files module offers a clean, organized interface to display your Google Drive files, allowing users to preview and download files directly from the list.',
+		'video'		  => '',
 		'pro'         => false,
 	],
 	[
@@ -174,7 +186,7 @@ $features = [
 		'pro'         => false,
 
 	],
-	
+
 	[
 		'title'       => 'Easy Digital Downloads Integration',
 		'description' => 'You can integrate your Google Drive files with EDD, and it allows you to serve your Digital Downloads directly from Google Drive.',
@@ -182,7 +194,7 @@ $features = [
 		'pro'         => false,
 
 	],
-	
+
 	[
 		'title'       => 'Tutor LMS Integration',
 		'description' => 'The integration of the Google Drive plugin within Tutor LMS presents a powerful solution for instructors seeking a more efficient approach to managing their course materials. With this plugin, instructors can link their Google accounts to Tutor LMS, enabling them to easily access and manage their Google Drive course files within the platform. See how it works!',
@@ -316,6 +328,7 @@ $features = [
 
 				</div>
 			</div>
+			
 		</div>
 
 	</div>

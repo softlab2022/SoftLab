@@ -464,6 +464,10 @@
     .google-photos-icon {
       display: none;
     }
+    .review-approve-module-icon,
+    .list-files-icon {
+      display: none;
+    }
 
     .feature-title {
       font-weight: 700;
@@ -1056,7 +1060,57 @@
     }
 
   }
+// .circle-container {
+//   position: relative;
+//   width: 300px;
+//   height: 300px;
+// }
 
+// .center-play {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   width: 80px;
+//   height: 80px;
+//   background-color: #007bff;
+//   border-radius: 50%;
+//   transform: translate(-50%, -50%);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+// }
+
+// .play-icon {
+//   font-size: 30px;
+//   color: white;
+// }
+
+// .orbit {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   animation: rotate 12s linear infinite;
+//   transform-origin: center;
+// }
+
+// .icon {
+//   position: absolute;
+//   width: 40px;
+//   height: 40px;
+//   object-fit: contain;
+// }
+
+// .youtube    { top: 100%; left: 50%; transform: translate(-50%, -50%); }
+// .facebook   { top: 75%; left: 90%; transform: translate(-50%, -50%); }
+// .vimeo      { top: 25%; left: 10%; transform: translate(-50%, -50%); }
+// .soundcloud { top: 0%;  left: 50%; transform: translate(-50%, -50%); }
+// .dailymotion{ top: 25%; left: 90%; transform: translate(-50%, -50%); }
+
+// @keyframes rotate {
+//   0% { transform: rotate(0deg); }
+//   100% { transform: rotate(360deg); }
+// }
 }
 
 /**---------- ex-feature scss ----------**/

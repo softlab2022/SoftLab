@@ -5,6 +5,14 @@ $features = [
     // 	'title'       => 'Google Photos Integration',
     // 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
     // ],
+    'review-approve-module' => [
+        'title'       => 'Review & Approve Module',
+        'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
+    ],
+    'list-files' => [
+        'title'       => 'List Files',
+        'description' => 'The List Files module offers a clean, organized interface to display your Google Drive files, allowing users to preview and download files directly from the list.',
+    ],
     'allow-specific-folders' => [
         'title'       => 'Allow Specific Folders',
         'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
@@ -80,8 +88,8 @@ $features = [
         foreach ($features as $key => $feature) {
             $is_odd = $i % 2 == 0;
 
-            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders']);
-            $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders']);
+            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders' , 'list-files', 'review-approve-module']);
+            $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders', 'list-files', 'review-approve-module']);
 
         ?>
             <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
@@ -196,6 +204,20 @@ $features = [
                 </div>
 
             </div>
+            <!-- <div class="col-lg-7">
+				<div class="circle-container">
+					<div class="center-play">
+						<div class="play-icon">▶</div>
+					</div>
+					<div class="orbit">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_social_white_squircle_(2017).svg" class="icon youtube" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_(2019).png" class="icon facebook" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Vimeo_Logo_2021.svg" class="icon vimeo" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Soundcloud_logo.svg" class="icon soundcloud" />
+						<img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Dailymotion_logo.svg" class="icon dailymotion" />
+					</div>
+				</div>
+			</div> -->
         </div>
 
         <div class="row">
