@@ -8,61 +8,74 @@ $features = [
     'review-approve-module' => [
         'title'       => 'Review & Approve Module',
         'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
+        'video' => '',
     ],
     'list-files' => [
         'title'       => 'List Files',
         'description' => 'The List Files module offers a clean, organized interface to display your Google Drive files, allowing users to preview and download files directly from the list.',
+        'video' => '',
     ],
     'allow-specific-folders' => [
         'title'       => 'Allow Specific Folders',
         'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
+        'video' => 'https://www.youtube.com/watch?v=YI5pC6m80DQ',
     ],
     'media-library' => [
         'title'       => 'Google Drive Integration with Media Library',
         'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
+        'video' => 'https://www.youtube.com/watch?v=5Ekbe2AGfBI',
     ],
     'file-browser'  => [
         'title'       => 'File Browser',
         'description' => 'Display your cloud files via an interactive File Browser. The file browser can have a grid thumbnail and list view for the Google Drive files you are browsing. It’s the simplest solution to manage your cloud files easily & efficiently.',
+        'video' => 'https://www.youtube.com/watch?v=yNx0Xg4lNlY',
     ],
 
     'file-uploader' => [
         'title'       => 'File Uploader',
         'description' => 'Integrate Google Drive features a user-friendly file uploader to upload files into the Google Drive cloud platform from your website. Users can see an upload progress bar, file name, cancel uploading action, and media preview for improved interactions.',
+        'video' => 'https://www.youtube.com/watch?v=i0FHcM24z_s',
     ],
 
     'gallery'         => [
         'title'       => 'Gallery',
         'description' => 'The Photo Gallery Module feature of the plugin can display your Google Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you create a stunning photo gallery and display it to your users.',
+        'video' => 'https://www.youtube.com/watch?v=GE1vRI1iOK0',
     ],
     'slider-carousel' => [
         'title'       => 'Slider Carousel',
         'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
+        'video' => 'https://www.youtube.com/watch?v=dZw0z84t-5Q',
     ],
 
     'media-player' => [
         'title'       => 'Media Player',
         'description' => 'Play Google Drive audio and video files in a single player using the Media Player module from your website. This feature will also create a stunning playlist for all selected media files. All in all, you can save your hosting space by using this feature.',
+        'video' => 'https://www.youtube.com/watch?v=L_uAvKuIEL8',
     ],
 
     'shortcode-builder' => [
         'title'       => 'Shortcode Builder',
         'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
+        'video' => 'https://www.youtube.com/watch?v=8M84lcvfCiI',
     ],
 
     'multiple-accounts' => [
         'title'       => 'Multiple Google Accounts',
         'description' => 'Linking multiple Google Accounts can be sometimes necessary for you. We provide you full freedom to link multiple Google Accounts and share files from your specific accounts.',
+        'video' => 'https://www.youtube.com/watch?v=i26bBw_G7MM',
     ],
 
     'page-builder' => [
         'title'       => 'Popular Page Builder Support',
         'description' => 'We provide a wide & popular page builder supports all over the world. That means Integrate Google Drive is 100% compatible with the most popular page builders. So you are up to go with whatever page builders are you using.',
+        'video' => '',
     ],
 
     'form' => [
         'title'       => 'Popular Forms Connect & Easy to Use',
         'description' => 'Integrate your favorite services and add advanced features with the official Form plugin integration feature. It’s time to build a powerful module for popular forms by using Integrate Google Drive plugin.',
+        'video' => '',
     ],
 
 ];
@@ -169,8 +182,9 @@ $features = [
                             'google-photos'
                         ])) { ?>
                             <a href="/integrate-google-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
-                        <?php } ?>
-
+                            <?php } ?>
+                            <a href="<?php echo $feature['video']; ?>" data-lity class="feature-video-btn"><i class="fa fa-play"></i> Watch Video</a>
+                            
                     </div>
                 </div>
             </div>
@@ -180,8 +194,7 @@ $features = [
         <div class="row">
             <div class="col-lg-2 col-md-3 m-auto">
                 <div class="integration-btn">
-                    <a href="/integrate-google-drive-integrations/" class="feature-integration-btn">See All
-                        Integrations</a>
+                    <a href="/integrate-google-drive-integrations/" class="feature-integration-btn">See All Integrations</a>
                 </div>
             </div>
         </div>
@@ -204,20 +217,6 @@ $features = [
                 </div>
 
             </div>
-            <!-- <div class="col-lg-7">
-				<div class="circle-container">
-					<div class="center-play">
-						<div class="play-icon">▶</div>
-					</div>
-					<div class="orbit">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_social_white_squircle_(2017).svg" class="icon youtube" />
-						<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_(2019).png" class="icon facebook" />
-						<img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Vimeo_Logo_2021.svg" class="icon vimeo" />
-						<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Soundcloud_logo.svg" class="icon soundcloud" />
-						<img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Dailymotion_logo.svg" class="icon dailymotion" />
-					</div>
-				</div>
-			</div> -->
         </div>
 
         <div class="row">
