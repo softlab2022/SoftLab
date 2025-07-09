@@ -196,8 +196,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin1_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin1_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin1_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin1_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -207,8 +207,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin2_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin2_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin2_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin2_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -218,8 +218,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin3_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin3_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin3_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin3_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -229,8 +229,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin4_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin4_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin4_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin4_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -240,8 +240,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin5_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin5_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin5_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin5_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -251,8 +251,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin6_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin6_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin6_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin6_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -262,8 +262,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin7_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin7_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin7_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin7_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -273,8 +273,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin8_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin8_shortcode_style_1'));
+                                        if (!empty(get_option('mvp_skin8_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mvp_skin8_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -298,8 +298,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin1_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin1_shortcode_style_1'));
+                                        if (!empty(get_option('mpp_skin1_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mpp_skin1_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -309,8 +309,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin2_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin2_shortcode_style_1'));
+                                        if (!empty(get_option('mpp_skin2_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mpp_skin2_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -320,8 +320,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin3_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin3_shortcode_style_1'));
+                                        if (!empty(get_option('mpp_skin3_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mpp_skin3_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -331,8 +331,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin4_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin4_shortcode_style_1'));
+                                        if (!empty(get_option('mpp_skin4_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mpp_skin4_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -342,8 +342,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin5_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin5_shortcode_style_1'));
+                                        if (!empty(get_option('mpp_skin5_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mpp_skin5_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>
@@ -353,8 +353,8 @@ if (function_exists('get_field')) {
                                 <div class="skin-item ">
                                     <div class="skin-img text-center">
                                         <?php
-                                        if (!empty(get_option('map_skin6_shortcode_style_1'))) {
-                                            echo do_shortcode(get_option('map_skin6_shortcode_style_1'));
+                                        if (!empty(get_option('mpp_skin6_shortcode_style_1'))) {
+                                            echo do_shortcode(get_option('mpp_skin6_shortcode_style_1'));
                                         }
                                         ?>
                                     </div>

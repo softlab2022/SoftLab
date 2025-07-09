@@ -33,7 +33,7 @@ $multimedia_player_heros = [
                                 <div class="hero-image text-center">
                                     <img class="img-fluid" src="<?php echo $multimedia_player_hero['image']; ?>" alt="multimedia player image">
                                     <div class="hero-how-butt ripple">
-                                        <a class="my-btn-primary" href="https://www.youtube.com/embed/6DrYur4KGLA?si=f9GFhgplgivy0gag" data-lity><i class="fa fa-play"></i></a>
+                                        <a class="my-btn-primary" href="#" data-lity><i class="fa fa-play"></i></a>
                                     </div>
                                 </div>
                             <?php } ?>
@@ -53,7 +53,7 @@ $multimedia_player_heros = [
                         <div class="hero-image text-center">
                             <img class="img-fluid" src="<?php echo $multimedia_player_hero['image']; ?>" alt="multimedia player image">
                             <div class="hero-how-butt ripple">
-                                <a class="my-btn-primary" href="https://www.youtube.com/embed/6DrYur4KGLA?si=f9GFhgplgivy0gag" data-lity><i class="fa fa-play"></i></a>
+                                <a class="my-btn-primary" href="https://www.youtube.com/watch?v=JKbMmM2-WUU" data-lity><i class="fa fa-play"></i></a>
                             </div>
                         </div>
                     <?php } ?>

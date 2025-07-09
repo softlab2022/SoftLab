@@ -6,7 +6,7 @@ $howtouses = [
         'description' => 'Download the plugin from WordPress repository and install it via admin dashboard',
     ],
     'link-google-account' => [
-        'title'       => 'Link Google Account',
+        'title'       => 'Connect Google Account',
         'description' => 'After activating the plugin, link your Google account to access Google Drive files',
     ],
     'manage-browse-files' => [
@@ -24,6 +24,8 @@ $howtouses = [
 
 ];
 
+$how_to_use_heading = 'Let\'s learn how to use Integrate <span>Google Drive</span>';
+$how_to_use_description = 'Enhance your productivity by installing the Integrate Google Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.';
 ?>
 
 
@@ -35,8 +37,8 @@ $howtouses = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="how-to-use-head text-center">
-                    <h3>Let's learn how to use Integrate <span>Google Drive</span></h3>
-                    <p>Enhance your productivity by installing the Integrate Google Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.</p>
+                    <h3><?php echo $how_to_use_heading; ?></h3>
+                    <p><?php echo $how_to_use_description; ?></p>
                 </div>
             </div>
         </div>

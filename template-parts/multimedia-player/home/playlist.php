@@ -39,7 +39,7 @@ $playlists = [
 
 			<?php foreach ( $playlists as $key => $playlist ) { ?>
                 <div class="col-lg-4 col-md-6 playlist-items">
-                    <a href="/<?php echo $key; ?>" class="playlist-item  playlist-<?php echo $key; ?>">
+                    <a href="#" class="playlist-item  playlist-<?php echo $key; ?>">
 
                         <img class="playlist-icon img-fluid" src="<?php echo $playlist['image']; ?>" alt="playlist Image">
 

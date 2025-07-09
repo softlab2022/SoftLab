@@ -8,7 +8,7 @@
             </div>
             <div class="col-lg-3 col-md-4">
                 <div class="cta-button text-center">
-                    <a href="#">Contact Us</a>
+                    <a href="/contact/">Contact Us</a>
                 </div>
             </div>
         </div>

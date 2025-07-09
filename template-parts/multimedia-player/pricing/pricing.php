@@ -329,10 +329,10 @@ $pro_fields = [
     (function($) {
         $(document).on('ready', function() {
             var handler = FS.Checkout.configure({
-                plugin_id: '17606',
-                plan_id: '29293',
-                public_key: 'pk_2bab7a91a4885a97121c0b576b886',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/soft-accordion.png",
+                plugin_id: '19544',
+                plan_id: '32371',
+                public_key: 'pk_748528da58fc7c9adc04c7db011a1',
+                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/logo.png",
             });
 
             // Handle all buy button clicks dynamically
