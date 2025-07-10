@@ -14,8 +14,12 @@ $howtouses = [
         'description' => 'Plugin\'s File Browser manages files efficiently. You can copy, edit, rename, and delete files directly without leaving WordPress',
     ],
     'shortcode-builder' => [
-        'title'       => 'Shortcode Builder',
-        'description' => 'Create various modules using the Shortcode builder, and place them anywhere with the Shortcode',
+        'title'       => 'Module Builder',
+        'description' => 'Create various modules using the Module builder, and place them anywhere with the Shortcode',
+    ],
+    'share-files' => [
+        'title'       => 'Share Files',
+        'description' => 'Share Files: Easily share files on any page or post using the module you’ve created',
     ],
     'explore-enjoy-features' => [
         'title'       => 'Explore and Enjoy Features',

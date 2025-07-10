@@ -8443,7 +8443,11 @@
         padding: 15px 20px 30px 20px;
         text-align: center;
       }
-
+ .live-demo-button {
+        a {
+          padding: 12px 14px;
+        }
+      }
       .section-content {
         h2 {
           font-size: 1.5rem;
@@ -8463,6 +8467,20 @@
   }
 
   @media (max-width: 767px) {
+    #pricing {
+      padding: 40px 0 0 0;
+      .hero-content {
+        h1 {
+          font-size: 1.6rem;
+        }
+
+        // p {
+        //   padding-bottom: 60px;
+        // }
+      }
+    }
+
+
     #faq {
       .section-header {
         h2 {
@@ -9962,7 +9980,7 @@
 
     .title-10,
     .title-29,
-    .title-30{
+    .title-30 {
       .fa-check-square {
         display: none;
       }

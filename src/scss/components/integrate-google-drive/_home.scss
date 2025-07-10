@@ -846,6 +846,7 @@
 
       .feature-integrations {
         justify-content: center;
+        margin-top: 15px;
 
         span {
           margin-right: .5rem;
@@ -856,6 +857,13 @@
       .feature-demo-btn {
         margin-left: auto;
         margin-right: auto;
+        padding: 12px 20px;
+         margin-right: 10px;
+      }
+
+      .feature-video-btn {
+        padding: 6px 12px;
+       
       }
 
       .feature-item-content {
@@ -873,6 +881,32 @@
           // img {
           //   margin-left: -35px;
           // }
+        }
+      }
+
+      &.feature-review-approve-module {
+        .feature-item-content {
+
+          .feature-item-img-mobile {
+            overflow: hidden;
+
+            img {
+              margin-right: -34px;
+            }
+          }
+        }
+      }
+
+      &.feature-list-files {
+        .feature-item-content {
+
+          .feature-item-img-mobile {
+            overflow: hidden;
+
+            img {
+              margin-left: -45px;
+            }
+          }
         }
       }
 
@@ -1001,9 +1035,10 @@
     }
 
     .feature-item {
-      .feature-description{
+      .feature-description {
         margin-bottom: 0px;
       }
+
       &:after {
         left: 0px;
       }
@@ -1458,7 +1493,7 @@
 
     }
 
-    .image-explore-enjoy-features {
+    .image-share-files {
       position: relative;
 
       &::before {
@@ -1470,6 +1505,31 @@
         height: 143%;
         background-color: #33ABFF;
       }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -87px;
+        left: 9px;
+        width: 1px;
+        height: 144%;
+        background-color: #F7CCDC;
+      }
+
+    }
+
+    .image-explore-enjoy-features {
+      position: relative;
+
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: -87px;
+      //   left: 9px;
+      //   width: 1px;
+      //   height: 143%;
+      //   background-color: #33ABFF;
+      // }
 
       &::after {
         content: "";
@@ -1522,6 +1582,14 @@
 
   }
 
+  .how-to-use-share-files {
+    .use-item {
+      border-right: 6px solid #F7CCDC;
+      background: linear-gradient(144deg, rgba(247, 204, 220, 0.10) 11.16%, rgba(253, 128, 210, 0.10) 94.07%);
+    }
+
+  }
+
   .how-to-use-explore-enjoy-features {
     .use-item {
       border-right: 6px solid #FFE97E;
@@ -1533,7 +1601,8 @@
   .how-to-use-download-install,
   .how-to-use-link-google-account,
   .how-to-use-manage-browse-files,
-  .how-to-use-shortcode-builder {
+  .how-to-use-shortcode-builder,
+  .how-to-use-share-files {
     margin-bottom: 28px;
   }
 
@@ -1654,6 +1723,20 @@
 
         }
 
+        .image-share-files {
+
+          &::before {
+            top: -96px;
+            height: 185%;
+          }
+
+          &::after {
+            top: 41px;
+            height: 184%;
+          }
+
+        }
+
         .image-explore-enjoy-features {
 
           &::before {
@@ -1720,6 +1803,20 @@
           &::after {
             bottom: -114px;
             height: 189%;
+          }
+
+        }
+
+        .image-share-files {
+
+          &::before {
+            top: -114px;
+            height: 190%;
+          }
+
+          &::after {
+            top: 48px;
+            height: 172%;
           }
 
         }
