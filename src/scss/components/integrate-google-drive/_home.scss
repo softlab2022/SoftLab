@@ -806,7 +806,9 @@
         font-size: .9rem;
       }
     }
-
+.feature-icon {
+  width: 50px;
+}
     .feature-google-photos {
       .feature-item-img {
         margin-right: 0px;
@@ -833,7 +835,9 @@
 
     .feature-item {
       padding: 20px 0;
-
+.new-text {
+  padding: 5px 12px;
+}
       .feature-item-img {
         display: none !important;
       }
@@ -1031,6 +1035,7 @@
     .integration-btn {
       .feature-integration-btn {
         margin: 0 auto;
+        padding: 12px 18px;
       }
     }
 
@@ -1318,7 +1323,7 @@
 
       .ex-logo {
         img {
-          width: 70px;
+          width: 55px;
         }
       }
 

@@ -474,8 +474,7 @@
   background: url("../images/home/business/business-shape.png");
   background-repeat: no-repeat;
   background-position: 0 0;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 80px 0;
   background-size: contain;
 
   .business-head {
@@ -613,6 +612,8 @@
 
   @media (max-width: 767.98px) {
     background: none;
+    padding-top: 0px;
+    padding-bottom: 40px;
 
     .business-img {
       display: none;
@@ -653,8 +654,7 @@
 /**---------- feature Area ----------**/
 #feature {
   background-color: #EEF2FE;
-  padding-top: 8%;
-  padding-bottom: 8%;
+   padding: 80px 0;
   position: relative;
 
   .feature-head {
@@ -836,7 +836,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding-bottom: 0;
+    padding: 40px 0;
 
     //Mobile
     .feature-head {
@@ -1013,7 +1013,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 20px 0;
+    padding: 40px 0;
     min-height: 600px;
 
     .section-head {
@@ -1292,7 +1292,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 1rem 0;
+    padding: 1.8rem 0;
 
     //Mobile
     .solution-content {

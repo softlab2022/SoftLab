@@ -7,19 +7,19 @@ $faqs = [
                     website. But, this plugin use a proxy system to play most of the HTTP streams in your HTTPS website.', 'softlab'),
     ],
     [
-        'question' => 'Can I add multiple radio stations in the same player?',
-        'answer'   => 'Yes, you can add multiple radio stations in the same player. While you create a new player, you can add multiple radio stations with Title, Stream URL and Image from the stations tab. They will display as stations playlist in the player.',
+        'question' => __('Can I add multiple radio stations in the same player?', 'softlab'),
+        'answer'   => __('Yes, you can add multiple radio stations in the same player. While you create a new player, you can add multiple radio stations with Title, Stream URL and Image from the stations tab. They will display as stations playlist in the player.', 'softlab'),
     ],
     [
-        'question' => 'How Can I display the full-width sticky player?',
-        'answer'   => 'While you are in the player edit screen, you have to enable the Use as Full-width Sticky Player option to display the player in full-width.',
+        'question' => __('How Can I display the full-width sticky player?', 'softlab'),
+        'answer'   => __('While you are in the player edit screen, you have to enable the Use as Full-width Sticky Player option to display the player in full-width.', 'softlab'),
     ],
     [
-        'question' => 'How Can I display the full-width sticky player only on specific pages?',
-        'answer'   => 'By default the sticky player will be displayed on all pages. But, You can also display the sticky player only on the specific pages by excluding the pages from the settings page. You can find the settings page under the Radio Player > Settings menu.',
+        'question' => __('How Can I display the full-width sticky player only on specific pages?', 'softlab'),
+        'answer'   => __('By default the sticky player will be displayed on all pages. But, You can also display the sticky player only on the specific pages by excluding the pages from the settings page. You can find the settings page under the Radio Player > Settings menu.', 'softlab'),
     ],
     [
-        'question' => 'Can I embed a radio player on another website?',
+        'question' => __('Can I embed a radio player on another website?', 'softlab'),
         'answer'   => __('Yes, you can embed a radio player on another website. You can find the embed code from the player listing page. Just click on the Embed button and copy the embed code. Then paste the embed code on your website.', 'softlab'),
     ],
 ];
@@ -33,7 +33,7 @@ $faqs = [
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="section-header text-center">
-                    <h2>Frequently asked questions</h2>
+                    <h2><?php _e('Frequently Asked Questions', 'softlab'); ?></h2>
                 </div>
             </div>
         </div>

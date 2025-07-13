@@ -96,7 +96,7 @@
             <!-- Resources Menu -->
             <div class="col-lg-2 col-6 col-md-6 mb-md-5">
                 <div class="footer-menu-head">
-                    <h4>Resources</h4>
+                    <h4><?php _e('Resources', 'softlab'); ?></h4>
                 </div>
                 <div class="footer-menu">
                     <?php
@@ -127,7 +127,7 @@
             ?>
             <div class="col-lg-3 col-6 col-md-6">
                 <div class="footer-menu-head pro">
-                    <h4>Our Products</h4>
+                    <h4><?php _e('Our Products', 'softlab'); ?></h4>
                 </div>
 
                 <div class="footer-menu-products">
@@ -145,16 +145,16 @@
             <!-- Newsletter -->
             <div class="col-lg-3 col-10 col-md-6 mx-auto text-center text-md-start">
                 <div class="footer-menu-head">
-                    <h4>Subscribe to Our Newsletter</h4>
+                    <h4><?php _e('Subscribe to Our Newsletter', 'softlab'); ?></h4>
                 </div>
 
                 <div class="news-letter-form">
-                    <p>Stay up to date with all the recent news, updates and great discounts</p>
+                    <p><?php _e('Stay up to date with all the recent news, updates and great discounts', 'softlab'); ?></p>
 
 
                     <?php echo do_shortcode('[fluentform id="4"]'); ?>
 
-                    <p>We promise we will never spam you</p>
+                    <p><?php _e('We promise we will never spam you', 'softlab'); ?></p>
                 </div>
 
             </div>
@@ -167,7 +167,7 @@
                 <i class="fa-brands fa-facebook-messenger"></i>
             </a>
             <div class="on-hover-text">
-                <p class="hover-text">Live Chat</p>
+                <p class="hover-text"><?php _e('Live Chat', 'softlab'); ?></p>
             </div>
         </div>
         <!-- Footer messenger end-->
