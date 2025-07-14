@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="section-head  text-center">
-                    <h4>Global Recognition</h4>
+                    <h4><?php _e('Global Recognition', 'softlab'); ?></h4>
                     <div class="global-iamages-mbile">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/global-recognition.png" alt="" class="img-fluid">
                 </div>
-                    <p>SoftLab’s WordPress solutions power websites across the world! Trusted by businesses and creators, our solutions make WordPress easier to earn us global recognition. Check out the impact we’ve made on the map!</p>
+                    <p><?php _e('SoftLab’s WordPress solutions power websites across the world! Trusted by businesses and creators, our solutions make WordPress easier to earn us global recognition. Check out the impact we’ve made on the map!', 'softlab'); ?></p>
                 </div>
 
             </div>
