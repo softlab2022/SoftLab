@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="memories-head autoShow text-center">
-                    <h2 class="memories-title">SoftLab Annual Tour Memories</h2>
-                    <p class="memories-description">Celebrate teamwork and adventure with unforgettable moments from our annual tours, where we explore, connect, and create lasting bonds.</p>
+                    <h2 class="memories-title"><?php _e('SoftLab Annual Tour Memories', 'softlab'); ?></h2>
+                    <p class="memories-description"><?php _e('Celebrate teamwork and adventure with unforgettable moments from our annual tours, where we explore, connect, and create lasting bonds.', 'softlab'); ?></p>
                 </div>
             </div>
         </div>

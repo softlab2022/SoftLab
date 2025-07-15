@@ -119,9 +119,7 @@ $features = [
                     <div class="feature-item-content text-center text-md-start">
 
                         <?php if (! $is_integration) { ?>
-                            <img class="img-fluid <?php echo $key; ?>-icon feature-icon"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png"
-                                alt="<?php echo $feature['title']; ?>">
+                            <img class="img-fluid <?php echo $key; ?>-icon feature-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/features/<?php echo $key; ?>-icon.png" alt="<?php echo $feature['title']; ?>">
                         <?php } ?>
 
                         <?php if ($is_integrations) { ?>

@@ -308,6 +308,14 @@
     padding-right: 50px;
   }
 
+  .reading-mode {
+    .feature-item-img {
+      img {
+        width: 85%;
+      }
+    }
+  }
+
   .feature-content {
     background: url("../images/dracula/home/feature/frame.png") no-repeat;
     position: relative;
@@ -409,20 +417,19 @@
     margin-bottom: 130px;
   }
 
-  .admin-dashbord-dark-mode {
+  .reading-mode,
+  .admin-dashbord-dark-mode,
+  .live-edit-dark-mode,
+  .toggle-button-style,
+  .dark-mode-usage-analytics,
+  .auto-match-os-theme,
+  .display-toggle-button-menu,
+  .gutenberg {
     background: linear-gradient(92.72deg, rgba(92, 66, 255, 0.4) -17.53%, rgba(83, 69, 255, 0.06) 22.48%, rgba(83, 69, 255, 0.15) 54.86%, rgba(205, 197, 255, 0.1) 83.22%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     border-radius: 30px;
     padding: 66px;
-  }
-
-  .color-adjustments {
-    background: linear-gradient(132.96deg, rgba(255, 255, 255, 0.16) 1.79%, rgba(255, 255, 255, 0) 100%);
-    backdrop-filter: blur(60px);
-    border-radius: 40px;
-    padding: 66px;
-
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -440,12 +447,14 @@
       }
     }
 
-    .admin-dashbord-dark-mode {
-      padding: 22px;
-      padding-bottom: 40px;
-    }
-
-    .color-adjustments {
+    .reading-mode,
+    .admin-dashbord-dark-mode,
+    .live-edit-dark-mode,
+    .toggle-button-style,
+    .dark-mode-usage-analytics,
+    .auto-match-os-theme,
+    .display-toggle-button-menu,
+    .gutenberg {
       padding: 22px;
       padding-bottom: 40px;
     }
@@ -497,12 +506,14 @@
       }
     }
 
-    .admin-dashbord-dark-mode {
-      padding: 22px;
-      border-radius: 0;
-    }
-
-    .color-adjustments {
+    .reading-mode,
+    .admin-dashbord-dark-mode,
+    .live-edit-dark-mode,
+    .toggle-button-style,
+    .dark-mode-usage-analytics,
+    .auto-match-os-theme,
+    .display-toggle-button-menu,
+    .gutenberg {
       padding: 22px;
       border-radius: 0;
     }
@@ -1032,9 +1043,10 @@
 
   }
 
-  .img-size {
+  .newspaper,
+  .jannah {
     img {
-      height: 23px;
+      height: 40px;
     }
   }
 
