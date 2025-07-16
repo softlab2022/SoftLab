@@ -1,10 +1,6 @@
 <?php
 
 $features = [
-    // 'google-photos' => [
-    // 	'title'       => 'Google Photos Integration',
-    // 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
-    // ],
     'playlist-support' => [
         'title'       => 'Playlist Support',
         'description' => 'Whether you\'re setting the vibe for a chill evening, curating a podcast series, or building a music journey—your playlists should work the way you think. With such feature built for creators, you can quickly build, organize, and fine-tune your playlists without missing a beat.',

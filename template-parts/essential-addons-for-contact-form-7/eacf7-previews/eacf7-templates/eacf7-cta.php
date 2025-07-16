@@ -21,36 +21,3 @@
         </div>
     </div>
 </section>
-
-<!-- <script>
-   document.addEventListener("DOMContentLoaded", function () {
-    const ctaSection = document.querySelector('#eacf7-cta');
-    const footerSection = document.querySelector('footer');
-    const radioAddon = document.querySelector('.address-fields-form-area');
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.target === ctaSection) {
-                if (entry.isIntersecting) {
-                    // Add the background when #eacf7-cta is in view
-                    document.body.classList.add('active-bg');
-                    if (radioAddon) radioAddon.style.opacity = 0;
-                    if (footerSection) footerSection.style.opacity = 0;
-                } else {
-                    // Remove the background when #eacf7-cta is out of view
-                    document.body.classList.remove('active-bg');
-                    if (radioAddon) radioAddon.style.opacity = 1;
-                    if (footerSection) footerSection.style.opacity = 1;
-                }
-            }
-        });
-    }, {
-        rootMargin: '0px 0px -10% 0px', // Adjust the margin as needed
-        threshold: 0.5, // Trigger when 50% of the section is visible
-    });
-
-    // Observe #eacf7-cta if it exists
-    if (ctaSection) observer.observe(ctaSection);
-});
-
-</script> -->
