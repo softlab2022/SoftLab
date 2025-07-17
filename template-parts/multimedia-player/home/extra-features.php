@@ -45,8 +45,6 @@ $ex_features = [
 ];
 ?>
 
-
-
 <section id="ex-feature">
     <div class="container">
         <div class="row">

@@ -1,3 +1,34 @@
+<?php
+$compatibilitys = [
+
+    'shoutcast' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'icecast' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'radionomy' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'airtime' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'radio-co' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'live-365' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'shoutcasts' => [
+        'title'       => 'Shortcode Generator',
+    ],
+    'radionomys' => [
+        'title'       => 'Shortcode Generator',
+    ],
+
+];
+?>
+
 <section id="compat">
     <div class="container">
         <div class="row">
@@ -10,46 +41,14 @@
         </div>
 
         <div class="row compat-slider">
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/shoutcast.png" alt="">
+            <?php foreach ($compatibilitys as $key => $compatibility) { ?>
+                <div class="col-lg-2 m-auto">
+                    <div class="item-img text-center">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/<?php echo $key; ?>.png" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/icecast.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/radionomy.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/airtime.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/radio-co.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/live-365.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/shoutcast.png" alt="">
-                </div>
-            </div>
-            <div class="col-lg-2 m-auto">
-                <div class="item-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/radio-player/compat/live-365.png" alt="">
-                </div>
-            </div>
+            <?php } ?>
+
         </div>
 
     </div>

@@ -24,7 +24,7 @@ $features = [
         'description' => 'No matter where your media lives, it plays beautifully here. Stream from local files, direct URLs, or platforms like YouTube, Vimeo, or SoundCloud—all from one unified player.',
     ],
     'multiple-player-skins'         => [
-        'title'       => '20+ Multiple Player Skins',
+        'title'       => '25+ Multiple Player Skins',
         'description' => 'Looks matter—especially when your player is part of your brand. Choose from 20+ professionally designed skins, each built to match a different mood, message, or aesthetic.',
     ],
 ];
@@ -54,7 +54,7 @@ $features = [
             <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
                 <div class="col-md-6">
-                    <div class="feature-item-img  <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
+                    <div class="feature-item-img  d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
                         <img class="img-fluid"
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/multimedia-player/features/<?php echo $key; ?>-illustration.png"
                             alt="<?php echo $feature['title']; ?>">

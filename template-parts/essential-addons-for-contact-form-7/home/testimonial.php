@@ -1,9 +1,9 @@
 <?php
 $testimonials = [
     [
-        'title'       => '"Just what we need"',
-        'description' => '“We have looked high and low for a document library plug-in that offers a folder interface and easy uploads/downloads. We’re really excited to incorporate it into our site!”',
-        'name'        => 'intranet17',
+        'title'       => '"Amazing plugin, Great support"',
+        'description' => '“Just bought this plugin as it had a feature we needed that the other plugins didn’t have by default (multiple image choice selection). Even if at the beginning there seemed to be a bug with the conditional logic field and the multiple image choice, the support team quickly came to our help and fixed the problem. Since this a new plugin, I can only imagine that it will get even better with time. I recommend this plugin – we also did a little bit of CSS/JS customization and everything was smooth.”',
+        'name'        => 'althausstudios',
     ],
     [
         'title'       => '"Top Plugin, Top Team"',

@@ -47,7 +47,6 @@ $products = [
 
 <section id="products">
     <div class="container">
-
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="products-head  text-center">
