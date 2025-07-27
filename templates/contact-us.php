@@ -30,8 +30,8 @@ $tabs = [
         <div class="row align-items-center">
             <div class="col-lg-7 m-auto">
                 <div class="header-content text-center">
-                    <h2>Contact Us</h2>
-                    <p>Whether you have a question about features, trials, pricing, or anything else, our team is ready to answer all of them.</p>
+                    <h2><?php _e('Contact Us', 'softlab'); ?></h2>
+                    <p><?php _e('Whether you have a question about features, trials, pricing, or anything else, our team is ready to answer all of them.', 'softlab'); ?></p>
                 </div>
             </div>
         </div>
@@ -73,8 +73,8 @@ $tabs = [
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="contact-sidebar text-center">
-                    <h4>I have a Technical Question</h4>
-                    <a href="/support/" class="support-btn">Submit a Ticket</a>
+                    <h4><?php _e('I have a Technical Question', 'softlab'); ?></h4>
+                    <a href="/support/" class="support-btn"><?php _e('Submit a Ticket', 'softlab'); ?></a>
                 </div>
 
                 <!-- Products -->
@@ -119,22 +119,20 @@ $tabs = [
             </div>
             <div class="col-lg-4 col-sm-6 m-auto">
 
-                <h3 class="contact-details-title">Fast and Easy to reach out us</h3>
+                <h3 class="contact-details-title"><?php _e('Fast and Easy to reach out us', 'softlab'); ?></h3>
                 <?php if (wp_is_mobile()) { ?>
                     <div class="contact-frame-img-mobile">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-frame.png" alt="Illustration">
                     </div>
                 <?php } ?>
-                <p class="contact-details-description">Your thoughtful suggestions and sincere feedback is important
-                    to us. Please, feel free to let us
-                    know anything you have in your mind.</p>
+                <p class="contact-details-description"><?php _e('Your thoughtful suggestions and sincere feedback is important to us. Please, feel free to let us know anything you have in your mind.', 'softlab'); ?></p>
                 <div class="con-info d-flex justify-content-start align-items-center">
                     <div class="info-icon">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div class="info-content">
-                        <h5>Our Location</h5>
-                        <address>Maktob More, Radhanagar, Pabna 6600, Bangladesh
+                        <h5><?php _e('Our Location', 'softlab'); ?></h5>
+                        <address><?php _e('Maktob More, Radhanagar, Pabna 6600, Bangladesh', 'softlab'); ?>
                         </address>
                     </div>
                 </div>
@@ -144,8 +142,8 @@ $tabs = [
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
                     <div class="info-content">
-                        <h5>Phone Number</h5>
-                        <a href="tel:+8801741-920985">+8801741-920985</a>
+                        <h5><?php _e('Phone Number', 'softlab'); ?></h5>
+                        <a href="tel:+8801741-920985"><?php _e('+8801741-920985', 'softlab'); ?></a>
                     </div>
                 </div>
 
@@ -154,8 +152,8 @@ $tabs = [
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="info-content">
-                        <h5>Email Address</h5>
-                        <a href="mailto:contact@softlabbd.com">contact@softlabbd.com</a>
+                        <h5><?php _e('Email Address', 'softlab'); ?></h5>
+                        <a href="mailto:contact@softlabbd.com"><?php _e('contact@softlabbd.com', 'softlab'); ?></a>
                     </div>
                 </div>
             </div>

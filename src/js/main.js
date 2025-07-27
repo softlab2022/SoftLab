@@ -71,6 +71,18 @@ import "./components/sticky-banner";
                 prevArrow: ".left",
                 // adaptiveHeight: true,
             });
+            //multimedia player hero slider
+            $(".hero-image-main").slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                arrows: false,
+                 dots: true,
+                autoplaySpeed: 3000,
+                speed: 2000,
+                contentPadding: "30px",
+                // adaptiveHeight: true,
+            });
 
             //google drive
             $(".testimonial-items").slick({

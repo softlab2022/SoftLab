@@ -1,0 +1,178 @@
+/**---------- http-area scss ----------**/
+#multiple {
+  background: url("../images/multimedia-player/bg-shape1.png") no-repeat bottom / cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 100px 0;
+
+  .multiple-head {
+    h1 {
+      font-weight: 700;
+      color: #151826;
+      line-height: 120%;
+      font-size: 3.1rem;
+      padding-bottom: 20px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 150%;
+      color: #5c637e;
+      padding: 0 30px;
+    }
+  }
+
+  .skin-item {
+    // background-color: #E6EEFB;
+    // padding: 10px;
+    // border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .player-head {
+    h4 {
+      color: #151826;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 120%;
+      padding-bottom: 20px;
+    }
+
+    p {
+      color: #5C637E;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    padding-bottom: 60px;
+
+    .multiple-head {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: .9rem;
+      }
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 120px 0 60px 0;
+    .multiple-head {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: .9rem;
+      }
+    }
+
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 100px 0 40px 0;
+
+    .multiple-head {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      p {
+        font-size: .785rem;
+        margin-bottom: 0;
+      }
+    }
+
+    .player-head {
+      h4 {
+        font-size: 22px;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+
+}
+
+/*---------- skins-main scss ----------**/
+#skins-main {
+
+  background: linear-gradient(135deg,
+      rgba(255, 192, 203, 0.8),
+      /* Light Pink */
+      rgba(173, 216, 230, 0.8),
+      /* Light Blue */
+      rgba(255, 255, 224, 0.8),
+      /* Light Yellow */
+      rgba(221, 160, 221, 0.8)
+      /* Plum */
+    ),
+    radial-gradient(circle,
+      rgba(255, 182, 193, 0.8),
+      /* Pink */
+      rgba(230, 230, 250, 0.8),
+      /* Lavender */
+      rgba(255, 250, 205, 0.8)
+      /* Lemon Chiffon */
+    );
+  background-blend-mode: screen;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+
+  .skin-item {
+    // background-color: #E6EEFB;
+    // padding: 10px;
+    // border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .player-head {
+    h4 {
+      color: #151826;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 120%;
+      padding-bottom: 20px;
+    }
+
+    p {
+      color: #5C637E;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 35px 0;
+
+    .player-head {
+      h4 {
+        font-size: 22px;
+        padding-bottom: 0px;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+}

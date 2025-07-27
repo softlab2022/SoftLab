@@ -118,6 +118,13 @@ class SoftLa
 			'soft-accordion-pricing',
 		])) {
 			wp_enqueue_style('soft-accordion-main', get_theme_file_uri('assets/css/soft-accordion-main.css'), array(), $theme_version, 'all');
+		} 
+		 else if (in_array($file_name, [
+			'multimedia-player',
+			'multimedia-player-pricing',
+			'multimedia-player-skins',
+		])) {
+			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
 		} else {
 			wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 		}
@@ -218,6 +225,7 @@ class SoftLa
 			'soft-accordion-pricing',
 			'essential-addons-for-contact-form-7-pricing-update',
 			'radio-player-pricing-update',
+			'multimedia-player-pricing',
 		]);
 
 		if ($is_pricing_page) {

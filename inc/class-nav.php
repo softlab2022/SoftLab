@@ -23,6 +23,7 @@ class SoftLaB_Nav {
 					'wp-froms-menu'  	=> 'WP Froms Menu',
 					'essential-addons-for-contact-form-7-menu'  	=> 'Essential Addons for Contact Form 7 Menu',
 					'soft-accordion-menu'  	=> 'Soft Accordion Menu',
+					'multimedia-player-menu'  	=> 'Multimedia Player Menu',
 				)
 			);
 		}

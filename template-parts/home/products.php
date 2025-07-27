@@ -2,14 +2,14 @@
 
 $products = [
 	'integrate-google-drive' => [
-		'title'       => 'Integrate Google Drive',
-		'description' => 'Integrate Google Drive is a WordPress plugin that allows you to integrate Google Drive with your WordPress site.',
+		'title'       => __('Integrate Google Drive','softlab'),
+		'description' => __('Integrate Google Drive is a WordPress plugin that allows you to integrate Google Drive with your WordPress site.','softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png',
 	],
 
 	'radio-player' => [
-		'title'       => 'Radio Player',
-		'description' => 'Radio Player is a WordPress plugin that allows you to create a radio station with a custom player.',
+		'title'       => __('Radio Player','softlab'),
+		'description' => __('Radio Player is a WordPress plugin that allows you to create a radio station with a custom player.','softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/radio-icon.png',
 	],
 
@@ -26,18 +26,18 @@ $products = [
 	// ],
 
 	'dracula-dark-mode' => [
-		'title'       => 'Dracula Dark Mode',
-		'description' => 'Experience a user-friendly AI-powered dark mode solution for WordPress. Instantly give your website an elegant look.',
+		'title'       => __('Dracula Dark Mode','softlab'),
+		'description' => __('Experience a user-friendly AI-powered dark mode solution for WordPress. Instantly give your website an elegant look.','softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
 	],
 	'essential-addons-for-contact-form-7'=> [
-		'title'       => 'Essential Addons <span class="e-addons-title">for Contact Form 7</span>',
-		'description' => 'Essential Addons for Contact Form 7 enhances Contact Form 7\'s capabilities.',
+		'title'       => __('Essential Addons <span class="e-addons-title">for Contact Form 7</span>','softlab'),
+		'description' => __('Essential Addons for Contact Form 7 enhances Contact Form 7\'s capabilities.','softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/essential-addons-for-contact-form-7-icon.png',
 	],
 	'soft-accordion' => [
-		'title'       => 'Soft Accordion',
-		'description' => 'Create stylish, responsive & interactive FAQ accordion for WordPress website',
+		'title'       => __('Soft Accordion','softlab'),
+		'description' => __('Create stylish, responsive & interactive FAQ accordion for WordPress website','softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/soft-accordion.png',
 	],
 
@@ -47,12 +47,11 @@ $products = [
 
 <section id="products">
     <div class="container">
-
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="products-head  text-center">
-                    <h1>Our Solutions</h1>
-                    <p>Empower your business with our next level solutions.</p>
+                    <h1><?php _e('Our Solutions', 'softlab'); ?></h1>
+                    <p><?php _e('Empower your business with our next level solutions.', 'softlab'); ?></p>
 
                     <div class="products-vector">
                         <img class="img-fluid"

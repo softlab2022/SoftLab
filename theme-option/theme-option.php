@@ -126,6 +126,217 @@ function sl_theme_option_custom_settings_init()
         'sl-theme-option-custom-settings-group',
         'skin12_shortcode_style_2',
     );
+    //multiple audio player
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin1_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin1_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin2_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin2_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin3_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin3_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin4_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin4_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin5_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin5_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin6_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin6_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin7_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin7_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin8_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin8_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin9_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin9_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin10_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin10_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin11_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin11_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin12_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'map_skin12_shortcode_style_2',
+    );
+    //multiple Video player
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin1_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin1_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin2_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin2_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin3_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin3_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin4_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin4_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin5_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin5_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin6_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin6_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin7_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin7_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin8_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mvp_skin8_shortcode_style_2',
+    );
+    //multiple Podcast player
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin1_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin1_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin2_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin2_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin3_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin3_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin4_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin4_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin5_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin5_shortcode_style_2',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin6_shortcode_style_1',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'mpp_skin6_shortcode_style_2',
+    );
 
     //integrate Google Drive settings area
     register_setting(
@@ -735,6 +946,770 @@ function theme_option_callback()
                                                             </div>
                                                         </div>
 
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <?php //submit_button();
+                                    ?>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- multiple audio player skins shortcode area -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingMAP">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseMAP" aria-expanded="true" aria-controls="panelsStayOpen-collapseMAP">
+                                    <h1><?php _e('Audio Player ', 'softlab') ?></h1>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseMAP" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingMAP">
+                                <div class="accordion-body">
+
+                                    <?php settings_fields('sl-theme-option-custom-settings-group'); ?>
+                                    <?php do_settings_sections('sl-custom-submenu') ?>
+
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingMAPTwo">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMAPTwo" aria-expanded="true" aria-controls="collapseMAPTwo">
+                                                    <h6> <?php _e('Shortcodes', 'softlab') ?></h6>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseMAPTwo" class="accordion-collapse collapse show" aria-labelledby="headingMAPTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <div class="form-table">
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <label class="heading_lable" for=""><?php _e('Multiple Player Skins Shortcodes', 'softlab') ?></label>
+                                                            </div>
+                                                        </div>
+                                                        <!---Skin1--->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin1', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin1_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin1_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin1_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin1_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin2-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin2', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin2_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin2_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin2_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin2_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin3-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin3', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin3_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin3_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin3_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin3_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin4-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin4', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin4_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin4_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin4_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin4_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin5-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin5', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin5_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin5_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin5_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin5_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin6-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin6', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin6_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin6_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin6_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin6_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin7-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin7', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin7_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin7_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin7_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin7_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin8-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin8', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin8_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin8_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin8_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin8_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin9-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin9', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin9_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin9_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin9_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin9_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin10-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin10', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin10_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin10_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin10_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin10_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin11-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin11', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin11_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin11_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin11_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin11_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin12-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin12', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin12_shortcode_style_1" value="<?php echo esc_attr(get_option('map_skin12_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="map_skin12_shortcode_style_2" value="<?php echo esc_attr(get_option('map_skin12_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <?php //submit_button();
+                                    ?>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- multiple Video player skins shortcode area -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingMVP">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseMVP" aria-expanded="true" aria-controls="panelsStayOpen-collapseMVP">
+                                    <h1><?php _e('Video Player ', 'softlab') ?></h1>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseMVP" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingMVP">
+                                <div class="accordion-body">
+
+                                    <?php settings_fields('sl-theme-option-custom-settings-group'); ?>
+                                    <?php do_settings_sections('sl-custom-submenu') ?>
+
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingMVPTwo">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMVPTwo" aria-expanded="true" aria-controls="collapseMVPTwo">
+                                                    <h6> <?php _e('Shortcodes', 'softlab') ?></h6>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseMVPTwo" class="accordion-collapse collapse show" aria-labelledby="headingMVPTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <div class="form-table">
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <label class="heading_lable" for=""><?php _e('Multiple Player Skins Shortcodes', 'softlab') ?></label>
+                                                            </div>
+                                                        </div>
+                                                        <!---Skin1--->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin1', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin1_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin1_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin1_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin1_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin2-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin2', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin2_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin2_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin2_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin2_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin3-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin3', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin3_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin3_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin3_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin3_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin4-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin4', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin4_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin4_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin4_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin4_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin5-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin5', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin5_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin5_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin5_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin5_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin6-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin6', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin6_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin6_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin6_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin6_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin7-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin7', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin7_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin7_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin7_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin7_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin8-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin8', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin8_shortcode_style_1" value="<?php echo esc_attr(get_option('mvp_skin8_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mvp_skin8_shortcode_style_2" value="<?php echo esc_attr(get_option('mvp_skin8_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <?php //submit_button();
+                                    ?>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- multiple Podcast player skins shortcode area -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingMPP">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseMPP" aria-expanded="true" aria-controls="panelsStayOpen-collapseMPP">
+                                    <h1><?php _e('Podcast Player ', 'softlab') ?></h1>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseMPP" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingMPP">
+                                <div class="accordion-body">
+
+                                    <?php settings_fields('sl-theme-option-custom-settings-group'); ?>
+                                    <?php do_settings_sections('sl-custom-submenu') ?>
+
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingMPPTwo">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMPPTwo" aria-expanded="true" aria-controls="collapseMPPTwo">
+                                                    <h6> <?php _e('Shortcodes', 'softlab') ?></h6>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseMPPTwo" class="accordion-collapse collapse show" aria-labelledby="headingMPPTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <div class="form-table">
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <label class="heading_lable" for=""><?php _e('Multiple Player Skins Shortcodes', 'softlab') ?></label>
+                                                            </div>
+                                                        </div>
+                                                        <!---Skin1--->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin1', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin1_shortcode_style_1" value="<?php echo esc_attr(get_option('mpp_skin1_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin1_shortcode_style_2" value="<?php echo esc_attr(get_option('mpp_skin1_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin2-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin2', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin2_shortcode_style_1" value="<?php echo esc_attr(get_option('mpp_skin2_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin2_shortcode_style_2" value="<?php echo esc_attr(get_option('mpp_skin2_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin3-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin3', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin3_shortcode_style_1" value="<?php echo esc_attr(get_option('mpp_skin3_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin3_shortcode_style_2" value="<?php echo esc_attr(get_option('mpp_skin3_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin4-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin4', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin4_shortcode_style_1" value="<?php echo esc_attr(get_option('mpp_skin4_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin4_shortcode_style_2" value="<?php echo esc_attr(get_option('mpp_skin4_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin5-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin5', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin5_shortcode_style_1" value="<?php echo esc_attr(get_option('mpp_skin5_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin5_shortcode_style_2" value="<?php echo esc_attr(get_option('mpp_skin5_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--skin6-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Skin6', 'softlab') ?></label>
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style1', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin6_shortcode_style_1" value="<?php echo esc_attr(get_option('mpp_skin6_shortcode_style_1')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-6">
+                                                                                <label class="heading_lable" for=""><?php _e('Style2', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="mpp_skin6_shortcode_style_2" value="<?php echo esc_attr(get_option('mpp_skin6_shortcode_style_2')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 </div>

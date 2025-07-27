@@ -1,127 +1,46 @@
-<!-- <section id="our-team">
-    <div class="container">
+<?php
 
-        <div class="row">
-            <div class="col-lg-8 m-auto">
-                <div class="section-head  text-center">
-                    <h4>Meet with Our Creative Team</h4>
-                    <p>We are a team of WordPress developers who love to build awesome products.</p>
-                </div>
-            </div>
-        </div>
+$team_members = [
+    'israil' => [
+        'name'       => __('Israil Ahmed', 'softlab'),
+        'degination' => __('CEO & Founder', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/israil1.png',
+    ],
+    'akash' => [
+        'name'       => __('Md Akash Ahmed', 'softlab'),
+        'degination' => __('Frontend Developer', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/akash3.png',
+    ],
+    'naziur' => [
+        'name'       => __('Md. Naziur Rahman', 'softlab'),
+        'degination' => __('Digital Marketing Executive', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/naziur.png',
+    ],
+    'rezoan' => [
+        'name'       => __('Rezoan Khan', 'softlab'),
+        'degination' => __('UI/UX Designer', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/rezoan1.png',
+    ],
+    'monzur_alam' => [
+        'name'       => __('Monzur Alam', 'softlab'),
+        'degination' => __('Software Engineer', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/monzur-alam.png',
+    ],
+    'sazzad_hossain' => [
+        'name'       => __('Sazzad Hossain', 'softlab'),
+        'degination' => __('Jr. Support Engineer', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/Sazzad-Hossain.png',
+    ],
+    'zubayer_ahamad' => [
+        'name'       => __('Sazzad Hossain', 'softlab'),
+        'degination' => __('Jr. Support Engineer', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/Zubayer-Ahamad.png',
+    ],
 
-        <div class="row align-items-center">
-            
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/israil1.png" alt="" class="img-fluid ">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">prince Ahmed</h3>
-                        <h4 class="title">CEO & Founder</h4>
-                    </div>
+];
 
-                </div>
-            </div>
+?>
 
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/akash3.png" alt="" class="img-fluid ">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">Akash Ahmed</h3>
-                        <h4 class="title">Frontend Developer</h4>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid ">
-
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">Md. Naziur Rahman</h3>
-                        <h4 class="title">Digital Marketer</h4>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/rezoan1.png" alt="" class="img-fluid ">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">Rezoan Khan</h3>
-                        <h4 class="title">UI & UX Designer</h4>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/monzur-alam.png" alt="" class="img-fluid ">
-
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">Monzur Alam </h3>
-                        <h4 class="title">Software Engineer</h4>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/Sazzad-Hossain.png" alt="" class="img-fluid ">
-
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">Sazzad Hossain</h3>
-                        <h4 class="title">Jr. Support Engineer</h4>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="our-team ">
-                    <div class="picture">
-                        <img src="<?php //echo get_template_directory_uri(); 
-                                    ?>/assets/images/home/team/Zubayer-Ahamad.png" alt="" class="img-fluid ">
-
-                    </div>
-                    <div class="team-content">
-                        <h3 class="name">Zubaer Ahamad</h3>
-                        <h4 class="title">Jr. WordPress Engineer</h4>
-                    </div>
-                </div>
-            </div>
-            
-
-           <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
-                <div class=" team-butt join-us text-center">
-                    <a href="/create-account/" class="btn">Join with us</a>
-                </div>
-            </div> -
-
-
-        </div>
-
-    </div>
-</section> -->
 
 
 <section class="teams">
@@ -130,115 +49,34 @@
             <div class="col-lg-12">
                 <div class="teamWrapper">
                     <div class="heades text-center" style="margin-bottom: 120px;">
-                        <h1>Meet with Our Creative Team</h1>
-                        <p>We are a team of WordPress developers who love to build awesome products.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="teamcol team-top">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/israil1.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Prince Ahmed</h2>
-                                        <p>CEO & Founder</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="teamcol team-top">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/akash3.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Akash Ahmed</h2>
-                                        <p>Frontend Developer</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Repeat for other team members -->
-                        <div class="teamcol team-top">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/naziur.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Md. Naziur Rahman</h2>
-                                        <p>Digital Marketing Executive</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="teamcol team-top">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/rezoan1.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Rezoan Khan</h2>
-                                        <p>UI/UX Designer</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="teamcol">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/monzur-alam.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Monzur Alam</h2>
-                                        <p>Software Engineer</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="teamcol">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/Sazzad-Hossain.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Sazzad Hossain</h2>
-                                        <p>Jr. Support Engineer</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="teamcol team-last">
-                            <div class="teamcolinner">
-                                <div class="avatar"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/team/Zubayer-Ahamad.png" alt="" class="img-fluid"></div>
-                                <div class="membar-info">
-                                    <div class="member-name">
-                                        <h2>Zubaer Ahamad</h2>
-                                        <p>Jr. WordPress Engineer</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
+                        <h1><?php _e('Meet with Our Creative Team', 'softlab'); ?></h1>
+                        <p><?php _e('We are a team of WordPress developers who love to build awesome teams.', 'softlab'); ?></p>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <?php foreach ($team_members as $key => $team) {
+                
+                ?>
+                <div class="col-lg-3 col-md-6 teams-items">
+                    <div class="teamcol team-<?php echo $key; ?>">
+                        <div class="teamcolinner">
+                            <div class="avatar">
+                                <img class="teams-icon img-fluid" src="<?php echo $team['image']; ?>" alt="<?php echo $team['name']; ?>">
+                            </div>
+                            <div class="membar-info">
+                                <div class="member-name">
+                                    <h2><?php echo $team['name']; ?></h2>
+                                    <p><?php echo $team['degination']; ?></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+
         </div>
     </div>
 </section>

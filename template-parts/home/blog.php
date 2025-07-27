@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="our-blog-head  text-center">
-                    <h2>Latest Blog & News</h2>
-                    <p>Read the latest updates about us, which new Features coming to help your website.</p>
+                    <h2><?php _e('Latest Blog & News', 'softlab'); ?></h2>
+                    <p><?php _e('Read the latest updates about us, which new Features coming to help your website.', 'softlab'); ?></p>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="our-blog-content-butt">
                                         <a href="<?php the_permalink(); ?>" class="read-more">
-                                            <span>Read More</span>
+                                            <span><?php _e('Read More', 'softlab'); ?></span>
                                             <i class="fas fa-arrow-right"></i>
                                         </a>
                                     </div>

@@ -36,10 +36,11 @@
             font-size: 1.5rem;
             margin-bottom: 0px;
         }
-
+        
         p {
             padding: 1rem 0;
             font-size: .9rem;
+            margin-bottom: 0;
         }
     }
 
@@ -416,7 +417,7 @@
 
     .hero-how-butt {
         position: absolute;
-        top: 33%;
+        top: 45%;
         left: 42%;
 
         .my-btn-primary {
@@ -624,7 +625,7 @@
     }
 
     @media (max-width: 767.98px) {
-        padding: 30px 0;
+        padding: 0 0 30px 0;
 
         .feature-heading {
             p {
@@ -654,15 +655,17 @@
                 margin-top: 0px;
             }
         }
-.feature-form-template {
-    .feature-item-con-form-template{
-        .feature-item-img-mobile {
-            img {
-                margin-right: -30px;
+
+        .feature-form-template {
+            .feature-item-con-form-template {
+                .feature-item-img-mobile {
+                    img {
+                        margin-right: -30px;
+                    }
+                }
             }
         }
-    }
-}
+
         .feature-item-con-multistep-form,
         .feature-item-con-repeater-fields,
         .feature-item-con-conversational-forms {
@@ -1347,9 +1350,11 @@ body.active-bg .cf7-cta {
             border-radius: 5px;
             font-size: 1.2rem;
             margin: 0 10px;
+
             i {
                 margin-right: 10px;
             }
+
             svg {
                 margin-right: 10px;
             }

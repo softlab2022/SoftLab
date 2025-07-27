@@ -63,8 +63,8 @@ $features = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="feature-head autoShow text-center">
-                    <h2 class="feature-title">Benefits of Joining Our Creative Team</h2>
-                    <p class="feature-description">Discover SoftLab’s benefits, where creativity is valued, and your skills are elevated to the next level.</p>
+                    <h2 class="feature-title"><?php _e('Benefits of Joining Our Creative Team', 'softlab'); ?></h2>
+                    <p class="feature-description"><?php _e('Discover SoftLab’s benefits, where creativity is valued, and your skills are elevated to the next level.', 'softlab'); ?></p>
                 </div>
             </div>
         </div>

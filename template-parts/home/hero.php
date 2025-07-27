@@ -4,7 +4,7 @@
 
             <div class="col-lg-6 col-md-6">
                 <div class="hero-content">
-                    <h1>We Build Awesome Solutions for WordPress</h1>
+                    <h1><?php _e('We Build Awesome Solutions for WordPress', 'softlab'); ?></h1>
 
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image-mobile text-center mb-5">
@@ -16,10 +16,10 @@
                     <?php } ?>
 
                     <p>
-                        We Develop Identical & Creative Products to Make WordPress Better, Faster, and Easier. Over 30K+
-                        Happy Customers Who Exhibited Business to Next-Level from Our Products.
+                        <?php _e('We Develop Identical & Creative Products to Make WordPress Better, Faster, and Easier. Over 30K+
+                        Happy Customers Who Exhibited Business to Next-Level from Our Products.', 'softlab'); ?>
                     </p>
-                    <a href="/products" class="btn btn-primary view-products-btn"> <span></span> View Products</a>
+                    <a href="/products" class="btn btn-primary view-products-btn"> <span></span> <?php _e('View Products', 'softlab'); ?></a>
 
                 </div>
             </div>

@@ -6,7 +6,7 @@ $howtouses = [
         'description' => 'Download the plugin from WordPress repository and install it via admin dashboard',
     ],
     'link-google-account' => [
-        'title'       => 'Link Google Account',
+        'title'       => 'Connect Google Account',
         'description' => 'After activating the plugin, link your Google account to access Google Drive files',
     ],
     'manage-browse-files' => [
@@ -14,8 +14,12 @@ $howtouses = [
         'description' => 'Plugin\'s File Browser manages files efficiently. You can copy, edit, rename, and delete files directly without leaving WordPress',
     ],
     'shortcode-builder' => [
-        'title'       => 'Shortcode Builder',
-        'description' => 'Create various modules using the Shortcode builder, and place them anywhere with the Shortcode',
+        'title'       => 'Module Builder',
+        'description' => 'Create various modules using the Module builder, and place them anywhere with the Shortcode',
+    ],
+    'share-files' => [
+        'title'       => 'Share Files',
+        'description' => 'Share Files: Easily share files on any page or post using the module you’ve created',
     ],
     'explore-enjoy-features' => [
         'title'       => 'Explore and Enjoy Features',
@@ -24,6 +28,8 @@ $howtouses = [
 
 ];
 
+$how_to_use_heading = 'Let\'s learn how to use Integrate <span>Google Drive</span>';
+$how_to_use_description = 'Enhance your productivity by installing the Integrate Google Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.';
 ?>
 
 
@@ -35,8 +41,8 @@ $howtouses = [
         <div class="row">
             <div class="col-lg-7 m-auto">
                 <div class="how-to-use-head text-center">
-                    <h3>Let's learn how to use Integrate <span>Google Drive</span></h3>
-                    <p>Enhance your productivity by installing the Integrate Google Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.</p>
+                    <h3><?php echo $how_to_use_heading; ?></h3>
+                    <p><?php echo $how_to_use_description; ?></p>
                 </div>
             </div>
         </div>

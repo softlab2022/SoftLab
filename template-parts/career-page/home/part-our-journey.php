@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-8 m-auto">
                 <div class="job-categori-head autoShow text-center">
-                    <h2 class="job-categori-title">Do You Want to be Part of Our Journey?</h2>
-                    <p class="job-categori-description">Be a part of our exciting journey and contribute to shaping the future together. Let’s achieve greatness as a team!</p>
+                    <h2 class="job-categori-title"><?php _e('Do You Want to be Part of Our Journey?', 'softlab'); ?></h2>
+                    <p class="job-categori-description"><?php _e('Be a part of our exciting journey and contribute to shaping the future together. Let’s achieve greatness as a team!', 'softlab'); ?></p>
                 </div>
             </div>
         </div>
