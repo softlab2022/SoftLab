@@ -35,10 +35,15 @@ $products = [
 		'description' => __('Essential Addons for Contact Form 7 enhances Contact Form 7\'s capabilities.','softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/essential-addons-for-contact-form-7-icon.png',
 	],
-	'soft-accordion' => [
-		'title'       => __('Soft Accordion','softlab'),
-		'description' => __('Create stylish, responsive & interactive FAQ accordion for WordPress website','softlab'),
-		'image'       => get_template_directory_uri() . '/assets/images/home/products/soft-accordion.png',
+	// 'soft-accordion' => [
+	// 	'title'       => __('Soft Accordion','softlab'),
+	// 	'description' => __('Create stylish, responsive & interactive FAQ accordion for WordPress website','softlab'),
+	// 	'image'       => get_template_directory_uri() . '/assets/images/home/products/soft-accordion.png',
+	// ],
+	'soft-multimedia-player' => [
+		'title'       => __('Multimedia Player','softlab'),
+		'description' => __('Most useful & Flexible audio, video, and podcast player for WordPress','softlab'),
+		'image'       => get_template_directory_uri() . '/assets/images/home/products/soft-multimedia-player.png',
 	],
 
 ];

@@ -322,6 +322,19 @@
       }
 
     }
+    &.product-soft-multimedia-player {
+
+      .product-title {
+        color: #1E62B9;
+      }
+
+      &:hover {
+        .products-butt {
+          color: #1E62B9;
+        }
+      }
+
+    }
 
     &:hover {
       box-shadow: 20px 24px 60px rgba(0, 0, 0, 0.06);
