@@ -25,13 +25,33 @@ $ex_features = [
         'title'       => 'Color Customization',
         'description' => 'Fully personalize your player’s colors to match your brand’s style and create a visually cohesive experience.',
     ],
+    'track-metadata-customization' => [
+        'title'       => 'Track Metadata Customization',
+        'description' => 'Easily edit and display custom metadata for each track, including title, artist, album, and more. Tailor how track details appear to create a polished, professional listening experience.',
+    ],
+    'typography-customization' => [
+        'title'       => 'Typography Customization',
+        'description' => 'Fine-tune every detail of your player’s text with customizable typography settings. Choose your preferred fonts, sizes, weights, and spacing to ensure visual harmony with your website’s',
+    ],
+    'autoplay' => [
+        'title'       => 'Autoplay',
+        'description' => 'Enable autoplay for seamless playback as soon as the page loads. Whether you’re showcasing a featured track or podcast episode, autoplay helps engage visitors instantly.',
+    ],
     'custom-css' => [
         'title'       => 'Custom CSS',
         'description' => 'Apply custom CSS to fine-tune the look and feel of your player, giving you full control over its design.',
     ],
+    'tools' => [
+        'title'       => 'Statistics',
+        'description' => 'Quickly manage your player settings with built-in options to auto-save changes, export or import configurations, and reset everything to default when needed. Simple, fast, and built for everyday use.',
+    ],
     'statistics' => [
         'title'       => 'Statistics',
         'description' => 'Track player performance with detailed statistics on usage, engagement, and playback data.',
+    ],
+    'classic-widget' => [
+        'title'       => 'Classic Widget',
+        'description' => 'Still using the Classic WordPress Widgets interface? No problem. Add and configure your media player with ease using our Classic Widget, offering full functionality without the need to switch editors.',
     ],
     'gutenberg-block' => [
         'title'       => 'Gutenberg Block',

@@ -235,7 +235,7 @@
                 <div class="wooco-feature-area last-feature vector-area text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/CiiNR26_DLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/BR7Z1iQgkcs?si=f6XJg7Jbgp9sZXa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                     <div class="feature-btn text-center">
@@ -276,7 +276,7 @@
                 <div class="wooco-feature-area vector-area  text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/UTFgIKS64zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/VWlhllnRjC8?si=YdNoTzYlzsssQs8l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
 
                     <div class="feature-btn tutor-lms-feat text-center">
@@ -293,7 +293,7 @@
                 </div>
             </div>
         </div>
-        <!----===== Tutor Lms area =====------>
+        <!----===== Media Library area =====------>
 
         <div class="row feat-shadw background-hide">
             <div class="col-lg-7 m-auto">
@@ -318,7 +318,7 @@
                 <div class="wooco-feature-area vector-area  text-center">
 
                     <div class="feature-video">
-                        <iframe src="https://www.youtube.com/embed/5Ekbe2AGfBI?si=yp8neq8SDl3rhtjK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/to2poups1jE?si=hj5NfeV006rCjnzB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <!-- <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/plugin-integrations/media-library.png" alt="media-library"> -->
                     </div>
 

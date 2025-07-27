@@ -3,19 +3,19 @@
 $playlists = [
 	'audio-player' => [
 		'title'       => 'Audio Player',
-		'description' => 'This feature allows users to choose from different player types, each with unique abilities',
+		'description' => 'A dedicated player for non-stop audio playback, designed for the best listening experience.',
 		'image'       => get_template_directory_uri() . '/assets/images/multimedia-player/audio-player.png',
 	],
 
 	'video-player' => [
 		'title'       => 'Video Player',
-		'description' => 'This feature allows users to choose from different player types, each with unique abilities',
+		'description' => 'A dedicated player for smooth video playback, optimized for an immersive viewing experience.',
 		'image'       => get_template_directory_uri() . '/assets/images/multimedia-player/video-player.png',
 	],
 
 	'podcast-player' => [
 		'title'       => 'Podcast Player',
-		'description' => 'This feature allows users to choose from different player types, each with unique abilities',
+		'description' => 'Dedicated player for professional podcast playback for a long-lasting listening experience.',
 		'image'       => get_template_directory_uri() . '/assets/images/multimedia-player/podcast-player.png',
 	],
 

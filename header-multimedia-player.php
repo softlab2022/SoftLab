@@ -73,7 +73,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/site-logo.png" alt="white-site-icon">
                             </a>
 
-                            <a class="navbar-brand brand-multimedia-player" href="/multimedia-player/" title="Multimedia Player" rel="home">
+                            <a class="navbar-brand brand-multimedia-player" href="/soft-multimedia-player/" title="Multimedia Player" rel="home">
                                 <img class="img-fluid logo-black" src="<?php echo get_template_directory_uri(); ?>/assets/images/multimedia-player/multimedia-player-logo.png" alt="Multimedia Player">
                                 <img class="img-fluid logo-white" src="<?php echo get_template_directory_uri(); ?>/assets/images/multimedia-player/multimedia-player-logo-withe.png" alt="Multimedia Player">
                             </a>
@@ -88,7 +88,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
                             <?php if (wp_is_mobile()) { ?>
                                 <span class="mobile-close-btn d-flex justify-content-between align-items-center">
-                                    <a class="navbar-brand brand-dracula logo-btn" href="/multimedia-player/" title="Multimedia Player" rel="home">
+                                    <a class="navbar-brand brand-dracula logo-btn" href="/soft-multimedia-player/" title="Multimedia Player" rel="home">
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/multimedia-player/multimedia-player-logo-withe.png" alt="Multimedia Player">
                                     </a>
                                     <button id="close_btn" data-bs-toggle="collapse" data-bs-target="#navbar" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
@@ -108,7 +108,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             ?>
 
                             <div class="buy-now-btn buy-now-btn-multimedia-player">
-                                <a href="/multimedia-player-pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                                <a href="/soft-multimedia-player-pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                             </div>
 
                         </div><!-- /.navbar-collapse -->

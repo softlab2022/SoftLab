@@ -67,8 +67,8 @@ $icons = ['icon-green', 'icon-pink', 'icon-purple'];
         <div class="row">
             <div class="col-lg-10 m-auto text-center">
                 <div class="section-head text-center">
-                    <h2>What People Think About Our Products<span></span></h2>
-                    <p>We Ensuring high-quality products is one way to help you get consumers to appreciate</p>
+                    <h2><?php _e('What People Think About Our Products', 'softlab'); ?><span></span></h2>
+                    <p><?php _e('We Ensuring high-quality products is one way to help you get consumers to appreciate', 'softlab'); ?></p>
                 </div>
             </div>
         </div>

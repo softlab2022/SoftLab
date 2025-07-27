@@ -8,7 +8,7 @@
         <div class="row align-items-center">
             <div class="col-lg-9 m-auto">
                 <div class="cf7-extended-hero-content text-center">
-                    <h1>Redefine Your <span>Essential Addons for Contact Form 7</span> with Advanced Fields & Features</h1>
+                    <h1><?php _e('Redefine Your <span>Essential Addons for Contact Form 7</span> with Advanced Fields & Features', 'softlab'); ?></h1>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/cf7-extended/cf7-extended-hero-image.png" alt="cf7-extended-hero-image">
@@ -18,7 +18,7 @@
                         </div>
                     <?php } ?>
                     <p>
-                        Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Essential Addons for Contact Form 7
+                        <?php _e('Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Essential Addons for Contact Form 7', 'softlab'); ?>
                     </p>
 
                     <a href="https://wordpress.org/plugins/essential-addons-for-contact-form-7/" class="get1">Check Demo</a>
