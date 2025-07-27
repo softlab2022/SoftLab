@@ -11,7 +11,7 @@
             <div class="col-lg-5 text-center text-lg-end">
                 <div class="cta-actions mt-5 mt-lg-0">
                     <a href="https://wordpress.org/plugins/soft-multimedia-player//" target="_blank" class="bt"><i class="fa-solid fa-download"></i> Download FREE</a>
-                    <a href="/multimedia-player-pricing" class="bt1"><i class="fa-solid fa-crown"></i> Get PRO</a>
+                    <a href="/soft-multimedia-player-pricing" class="bt1"><i class="fa-solid fa-crown"></i> Get PRO</a>
                 </div>
             </div>
         </div>
@@ -31,11 +31,11 @@ $current_slug = basename(get_permalink());
         let targetSelector;
 
         switch ("<?php echo $current_slug; ?>") {
-            case 'multimedia-player':
-            case 'multimedia-player-pricing':
+            case 'soft-multimedia-player':
+            case 'soft-multimedia-player-pricing':
                 targetSelector = '#faq';
                 break;
-            case 'multimedia-player-skin':
+            case 'soft-multimedia-player-skin':
                 targetSelector = '#skins-main';
                 break;
             default:

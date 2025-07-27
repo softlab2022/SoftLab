@@ -3,7 +3,7 @@
 $faqs = [
     [
         'question' => 'How many player types does the Multimedia Player offer?',
-        'answer'   => 'The Multimedia Player offers 3 distinct player types to suit different media formats: Audio Player for music and sound files, Video Player for visual media, and Podcast Player specifically designed for streaming podcast episodes.',
+        'answer'   => 'The Multimedia Player offers <a href="/soft-multimedia-player-skins/">3 distinct player types</a> to suit different media formats: Audio Player for music and sound files, Video Player for visual media, and Podcast Player specifically designed for streaming podcast episodes.',
     ],
     [
     	'question' => 'Is the Multimedia Player responsive and mobile-friendly?',
@@ -35,11 +35,11 @@ $faqs = [
     ],
     [
     	'question' => 'Does the Multimedia Player offer multiple skins?',
-    	'answer'   => 'Yes, the Multimedia Player offers multiple pre-designed modern skins for the audio, video, and podcast players. These skins provide stylish, ready-to-use designs that enhance the user experience and can be easily applied without custom coding.',
+    	'answer'   => 'Yes, the Multimedia Player offers multiple <a href="/soft-multimedia-player-skins/">pre-designed modern skins</a>  for the audio, video, and podcast players. These skins provide stylish, ready-to-use designs that enhance the user experience and can be easily applied without custom coding.',
     ],
     [
     	'question' => 'If I need support, what should I do?',
-    	'answer'   => 'If you need support, simply create a support ticket describing the issue you\'re experiencing. Be sure to include any relevant details or steps to reproduce the problem to help the support team assist you more efficiently.',
+    	'answer'   => 'If you need support, simply <a href="/support/">create a support ticket</a>  describing the issue you\'re experiencing. Be sure to include any relevant details or steps to reproduce the problem to help the support team assist you more efficiently.',
     ],
     
 ];

@@ -102,8 +102,8 @@ $ex_features = [
         <div class="row">
             <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
-                    <h2>Capture Specialized Data with Next-level <span>Custom Fields</span></h2>
-                    <p>Maximize efficiency in your data collection processes with Essential Addons for Contact Form 7 enhanced custom field options. Designed to capture detailed and specialized information effortlessly while submitting the form</p>
+                    <h2><?php _e('Capture Specialized Data with Next-level <span>Custom Fields</span>', 'softlab'); ?></h2>
+                    <p><?php _e('Maximize efficiency in your data collection processes with Essential Addons for Contact Form 7 enhanced custom field options. Designed to capture detailed and specialized information effortlessly while submitting the form', 'softlab'); ?></p>
                 </div>
             </div>
         </div>

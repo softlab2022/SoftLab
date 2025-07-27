@@ -52,8 +52,8 @@ $features = [
         <div class="row">
             <div class="col-lg-10 m-auto">
                 <div class="feature-heading text-center">
-                    <h2>Never Miss Top-notch Powerful <span>Features</span></h2>
-                    <p>Explore the advanced functionalities that extend Essential Addons for Contact Form 7, enhancing your form capabilities and optimizing user interactions</p>
+                    <h2><?php _e('Never Miss Top-notch Powerful <span>Features</span>', 'softlab'); ?></h2>
+                    <p><?php _e('Explore the advanced functionalities that extend Essential Addons for Contact Form 7, enhancing your form capabilities and optimizing user interactions', 'softlab'); ?></p>
                 </div>
             </div>
         </div>
