@@ -200,7 +200,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					}
 					elseif ( 'multimedia player' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/logo.png';
-						$description = 'Best accordion plugin for WordPress to elevate your FAQ section with style';
+						$description = 'Most useful & Flexible audio, video, and podcast player for WordPress';
 					}
 
 
