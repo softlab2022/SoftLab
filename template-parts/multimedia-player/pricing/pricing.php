@@ -111,25 +111,25 @@ $pro_fields = [
 
                     <div class="offer-price annual single">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$37 </p>
+                            <p class="price-off">$50 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
 
-                    <span class="price-value annual single">29</span>
+                    <span class="price-value annual single">39</span>
 
                     <div class="offer-price lifetime single">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$102 </p>
+                            <p class="price-off">$167 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
 
-                    <span class="price-value lifetime single">79</span>
+                    <span class="price-value lifetime single">129</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>
@@ -156,23 +156,23 @@ $pro_fields = [
 
                     <div class="offer-price annual two">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$50 </p>
+                            <p class="price-off">$76 </p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value annual two">39</span>
+                    <span class="price-value annual two">59</span>
 
                     <div class="offer-price lifetime two">
                         <div class="price-offer d-flex justify-content-center align-items-center">
-                            <p class="price-off">$128</p>
+                            <p class="price-off">$232</p>
                             <span class="price-dis">30%OFF</span>
                         </div>
 
                     </div>
 
-                    <span class="price-value lifetime two">99</span>
+                    <span class="price-value lifetime two">179</span>
 
                     <span class="price-suffix annual">/ Per year</span>
                     <span class="price-suffix lifetime">/ Billed once</span>

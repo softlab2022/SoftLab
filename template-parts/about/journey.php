@@ -29,11 +29,18 @@ $journeys = [
         'image'       => get_template_directory_uri() . '/assets/images/about/essential-addons-for-contact-form-7.png',
         'line_image'       => get_template_directory_uri() . '/assets/images/about/line1.png',
     ],
-    'soft-accordion' => [
-        'name'       => __('Soft Accordion', 'softlab'),
+    // 'soft-accordion' => [
+    //     'name'       => __('Soft Accordion', 'softlab'),
+    //     'year'       => __('2025', 'softlab'),
+    //     'description' => __('Create stylish, responsive & interactive FAQ accordion for WordPress website', 'softlab'),
+    //     'image'       => get_template_directory_uri() . '/assets/images/about/soft-accordion.png',
+    //     'line_image'       => get_template_directory_uri() . '/assets/images/about/line1.png',
+    // ],
+    'soft-multimedia-player' => [
+        'name'       => __('Multimedia Player', 'softlab'),
         'year'       => __('2025', 'softlab'),
-        'description' => __('Create stylish, responsive & interactive FAQ accordion for WordPress website', 'softlab'),
-        'image'       => get_template_directory_uri() . '/assets/images/about/soft-accordion.png',
+        'description' => __('Most useful & Flexible audio, video, and podcast player for WordPress', 'softlab'),
+        'image'       => get_template_directory_uri() . '/assets/images/products/soft-multimedia-player.png',
         'line_image'       => get_template_directory_uri() . '/assets/images/about/line1.png',
     ],
 

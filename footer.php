@@ -122,7 +122,8 @@
                 // 'reader-mode'                      => 'Reader Mode',
                 'dracula-dark-mode'                   => 'Dracula Dark Mode',
                 'essential-addons-for-contact-form-7' => 'Essential Addons for Contact Form 7',
-                'soft-accordion'                      => 'Soft Accordion',
+                // 'soft-accordion'                      => 'Soft Accordion',
+                'soft-multimedia-player'                      => 'Multimedia Player',
             ];
             ?>
             <div class="col-lg-3 col-6 col-md-6">
