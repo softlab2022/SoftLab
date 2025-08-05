@@ -36,6 +36,8 @@ class SoftLa
 			'integrate-googlle-drive-slider-carousel',
 			'integrate-google-drive-integrations',
 			'integrate-google-drive-media-library',
+			'integrate-google-drive-review-approve',
+			'integrate-google-drive-list-files',
 
 		])) {
 
@@ -122,7 +124,9 @@ class SoftLa
 		 else if (in_array($file_name, [
 			'multimedia-player',
 			'multimedia-player-pricing',
-			'multimedia-player-skins',
+			'multimedia-audio-player-skins',
+			'multimedia-video-player-skins',
+			'multimedia-podcast-player-skins',
 		])) {
 			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
 		} else {

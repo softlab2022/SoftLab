@@ -359,6 +359,14 @@ function sl_theme_option_custom_settings_init()
         'sl-theme-option-custom-settings-group',
         'media_player_shortcode',
     );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'review_approve_shortcode',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'list_files_shortcode',
+    );
     //connect dropbox settings area
     register_setting(
         'sl-theme-option-custom-settings-group',
@@ -483,6 +491,32 @@ function theme_option_callback()
                                                                         <!-- <label class="heading_lable" for=""><?php _e('Media Player', 'softlab') ?></label> -->
 
                                                                         <input class="input_field" type="text" name="media_player_shortcode" value="<?php echo esc_attr(get_option('media_player_shortcode')) ?>" />
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--Review Approve  Module-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('Review Approve Module', 'softlab') ?></label>
+                                                                    <div class="styles">
+
+                                                                        <input class="input_field" type="text" name="review_approve_shortcode" value="<?php echo esc_attr(get_option('review_approve_shortcode')) ?>" />
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--List Files-->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <label class="heading_lable" for=""><?php _e('List Files Module', 'softlab') ?></label>
+                                                                    <div class="styles">
+
+                                                                        <input class="input_field" type="text" name="list_files_shortcode" value="<?php echo esc_attr(get_option('list_files_shortcode')) ?>" />
 
                                                                     </div>
                                                                 </div>

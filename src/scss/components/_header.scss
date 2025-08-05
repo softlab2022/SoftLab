@@ -1063,6 +1063,7 @@
     .logo-white {
       display: none;
     }
+
     img {
       width: 200px;
     }
@@ -1105,31 +1106,37 @@
 .page-template-templateseacf7-templates-php,
 .single-form {
   .brand-cf7-extended {
-    .logo-black{
+    .logo-black {
       display: none;
     }
+
     .logo-white {
       display: block;
     }
+
     img {
       width: 200px;
     }
   }
+
   .site-header {
     .primary-nav {
       .navbar-nav {
         .nav-item {
           a {
             color: rgba(255, 255, 255, 0.70);
+
             &:hover {
               color: #fff;
             }
+
             &.active {
               color: #fff;
             }
           }
         }
       }
+
       .buy-now-btn {
         a {
           text-decoration: none;
@@ -1149,9 +1156,11 @@
       }
     }
   }
+
   .fixed-header {
     background-color: #5676e7;
   }
+
   @media (max-width: 767.98px) {
     .brand-cf7-extended {
       img {
@@ -1170,12 +1179,13 @@
   .navbar-brand.brand-softlab {
     border-right: 1px solid rgba(255, 255, 255, 0.24);
     padding-right: 15px;
-}
+  }
 
   .brand-cf7-extended {
     .logo-black {
       display: none;
     }
+
     img {
       width: 200px;
     }
@@ -1187,6 +1197,7 @@
         .nav-item {
           a {
             color: #fff;
+
             &:hover {
               color: #111;
             }
@@ -1234,7 +1245,7 @@
     box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
     transition: transform 0.25s ease-in-out;
     padding: 0 0 3px;
-}
+  }
 }
 
 /**---------- sticky-banner ----------**/
@@ -1249,6 +1260,7 @@
     .logo-white {
       display: none;
     }
+
     img {
       width: 200px;
     }
@@ -1286,9 +1298,109 @@
   }
 
 }
+
 .page-template-templatesmultimedia-player-php,
 .page-template-templatesmultimedia-player-pricing-php,
-.page-template-templatesmultimedia-player-skins-php {
+.page-template-templatesmultimedia-player-skins-php,
+.page-template-templatesmultimedia-audio-player-skins-php,
+.page-template-templatesmultimedia-video-player-skins-php,
+.page-template-templatesmultimedia-podcast-player-skins-php {
+  .primary-nav {
+    .dropdown-menu {
+      padding: 10px;
+      // padding-bottom: 0;
+      width: 240px;
+      left: -80px;
+      border-radius: 10px;
+      border: none;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 120px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+      }
+
+      &>li {
+        margin-bottom: 0rem;
+        padding-bottom: 0px;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      .dropdown-item {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        white-space: pre-wrap;
+        border-radius: 0.5rem;
+        padding: .4rem;
+        transition: all .3s ease;
+
+        // &:hover {
+        //   background-color: #e9ecef;
+        // }
+
+        .product-link-content {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          flex: 1;
+        }
+
+        .link-image {
+          width: 35px;
+          height: 35px;
+          margin-right: 15px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .link-title {
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 120%;
+          color: #333;
+          text-transform: capitalize;
+          margin-bottom: 5px;
+        }
+
+        .link-description {
+          font-weight: 400;
+          font-size: .875rem;
+          color: #5c637e;
+        }
+
+        &.active,
+        &:active {
+          background-color: #e9ecef;
+        }
+
+      }
+
+      @media (max-width: 767.98px) {
+        width: auto;
+        padding: 0px;
+
+        .dropdown-item {
+          padding: 10px;
+        }
+      }
+
+    }
+  }
+
   .navbar-navs {
     display: flex;
     align-items: center;
@@ -1298,6 +1410,7 @@
     .logo-white {
       display: none;
     }
+
     img {
       width: 200px;
     }

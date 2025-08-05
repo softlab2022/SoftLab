@@ -44,7 +44,7 @@ $multimedia_player_heros = [
                     </p>
 
                     <a href="https://demo.softlabbd.com/?product=soft-multimedia-player" class="get1">Check Demo</a>
-                    <a href="/soft-multimedia-player-pricing" class="get">Get Started</a>
+                    <a href="/pricing" class="get">Get Started</a>
                 </div>
             </div>
             <div class="col-md-6  m-auto">

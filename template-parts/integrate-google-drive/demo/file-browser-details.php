@@ -8,8 +8,8 @@ $features = [
 		'features'    => [ 'List and Grid View', 'Search and Filter', 'Live Preview Files', 'Import Media in File', ]
 	],
 	[
-		'title'       => 'Link Multiple Dropbox Accounts',
-		'description' => 'You can add and manage multiple Dropbox cloud accounts from your site using this plugin.',
+		'title'       => 'Link Multiple Google Drive Accounts',
+		'description' => 'You can add and manage multiple Google Drive cloud accounts from your site using this plugin.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/multiple.png",
 		'features'    => [
 			'Use Your Own Account',
@@ -19,11 +19,23 @@ $features = [
 		],
 	],
 	[
-		'title'       => 'Customize Appearance',
-		'description' => 'You can change its colors and Background colors as needed and save them with the current style.',
+		'title'       => 'Customize Using by Appearance',
+		'description' => 'You can change its colors, and Background colors as needed, save them with the current style.',
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/appearance.png",
 		'features'    => [ 'Live Preview Style', 'Colors Customize', 'Use Custom CSS', 'Background Color Changes', ],
-	]
+	],
+	[
+		'title'       => 'Use ACF field Files',
+		'description' => 'Easily connect your ACF File fields with the Google Drive File Browser module to display files dynamically across your site. Whether you\'re using single or repeater fields, files linked via ACF are automatically rendered—no manual setup required.',
+		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/use-acf-field-files.png",
+		'features'    => [ 'Automatically pulls files from Google Drive', 'Ideal for dynamic file rendering', 'Auto-sync with ACF File fields', 'No manual linking needed', ],
+	],
+	[
+		'title'       => 'Useful Interactions',
+		'description' => 'The File Browser module offers powerful Google Drive file management capabilities directly from the WordPress platform. Users can seamlessly interact with files—view, upload, download, or delete based on their permissions.',
+		'image'       => get_template_directory_uri() . "/assets/images/google-drive/file-bowser-demo/useful-interactions.png",
+		'features'    => [ 'View files in real-time', 'Upload new files', 'Download with one click', 'Delete files securely','Role-based access control' ],
+	],
 ];
 
 ?>

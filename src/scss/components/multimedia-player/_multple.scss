@@ -4,7 +4,7 @@
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 160px 0 100px 0;
+  padding: 160px 0 50px 0;
 
   .multiple-head {
     h1 {
@@ -21,6 +21,7 @@
       line-height: 150%;
       color: #5c637e;
       padding: 0 30px;
+      
     }
   }
 
@@ -155,7 +156,9 @@
       font-size: 18px;
       font-weight: 400;
       line-height: 150%;
-      margin-bottom: 50px;
+      padding-bottom: 50px;
+      max-width: 560px;
+      margin: auto;
     }
   }
 
@@ -170,7 +173,8 @@
 
       p {
         font-size: 16px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
+        max-width: 100%;
       }
     }
 

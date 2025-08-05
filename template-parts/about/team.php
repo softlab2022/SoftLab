@@ -9,7 +9,7 @@ $team_members = [
     'akash' => [
         'name'       => __('Md Akash Ahmed', 'softlab'),
         'degination' => __('Frontend Developer', 'softlab'),
-        'image'       => get_template_directory_uri() . '/assets/images/home/team/akash3.png',
+        'image'       => get_template_directory_uri() . '/assets/images/home/team/akash1.png',
     ],
     'naziur' => [
         'name'       => __('Md. Naziur Rahman', 'softlab'),
@@ -32,8 +32,8 @@ $team_members = [
         'image'       => get_template_directory_uri() . '/assets/images/home/team/Sazzad-Hossain.png',
     ],
     'zubayer_ahamad' => [
-        'name'       => __('Sazzad Hossain', 'softlab'),
-        'degination' => __('Jr. Support Engineer', 'softlab'),
+        'name'       => __('Zubaer Ahamad', 'softlab'),
+        'degination' => __('Jr. WordPress Engineer', 'softlab'),
         'image'       => get_template_directory_uri() . '/assets/images/home/team/Zubayer-Ahamad.png',
     ],
 
@@ -48,7 +48,7 @@ $team_members = [
         <div class="row">
             <div class="col-lg-12">
                 <div class="teamWrapper">
-                    <div class="heades text-center" style="margin-bottom: 120px;">
+                    <div class="heades text-center">
                         <h1><?php _e('Meet with Our Creative Team', 'softlab'); ?></h1>
                         <p><?php _e('We are a team of WordPress developers who love to build awesome teams.', 'softlab'); ?></p>
                     </div>
@@ -59,7 +59,7 @@ $team_members = [
             <?php foreach ($team_members as $key => $team) {
                 
                 ?>
-                <div class="col-lg-3 col-md-6 teams-items">
+                <div class="col-lg-3 col-md-6 tinfo-<?php echo $key; ?> teams-items">
                     <div class="teamcol team-<?php echo $key; ?>">
                         <div class="teamcolinner">
                             <div class="avatar">
@@ -80,3 +80,17 @@ $team_members = [
         </div>
     </div>
 </section>
+
+<div class="hiring">
+    <div class="container">
+        <div class="row hiring-row">
+            <div class="col-md-6 m-auto">
+                <div class="hiring-text text-center">
+                    <h5><?php _e('We’re Hiring!', 'softlab'); ?></h5>
+                    <p><?php _e('Join us on the journey to build a better future.', 'softlab'); ?></p>
+                    <a href="/career/" class="btn btn-primary"><?php _e('View Open Positions', 'softlab'); ?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

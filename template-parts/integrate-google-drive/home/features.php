@@ -101,7 +101,7 @@ $features = [
         foreach ($features as $key => $feature) {
             $is_odd = $i % 2 == 0;
 
-            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders' , 'list-files', 'review-approve-module']);
+            $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders']);
             $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders', 'list-files', 'review-approve-module']);
 
         ?>
@@ -223,6 +223,7 @@ $features = [
                     <img class="img-fluid"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/support-img.png"
                         alt="support-img">
+                        <!-- <a href="#" class="woo-view-demo-btn">View Demo</a> -->
                 </div>
             </div>
         </div>
