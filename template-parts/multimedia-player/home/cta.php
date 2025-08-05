@@ -11,7 +11,7 @@
             <div class="col-lg-5 text-center text-lg-end">
                 <div class="cta-actions mt-5 mt-lg-0">
                     <a href="https://wordpress.org/plugins/soft-multimedia-player//" target="_blank" class="bt"><i class="fa-solid fa-download"></i> Download FREE</a>
-                    <a href="/soft-multimedia-player-pricing" class="bt1"><i class="fa-solid fa-crown"></i> Get PRO</a>
+                    <a href="/pricing" class="bt1"><i class="fa-solid fa-crown"></i> Get PRO</a>
                 </div>
             </div>
         </div>

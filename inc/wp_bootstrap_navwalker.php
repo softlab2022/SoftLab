@@ -202,6 +202,18 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/logo.png';
 						$description = 'Most useful & Flexible audio, video, and podcast player for WordPress';
 					}
+					elseif ( 'audio player skins' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/audio-player-icon.png';
+						// $description = 'Most useful & Flexible audio, video, and podcast player for WordPress';
+					}
+					elseif ( 'video player skins' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/video-player-icon.png';
+						// $description = 'Most useful & Flexible audio, video, and podcast player for WordPress';
+					}
+					elseif ( 'podcast player skins' == strtolower( $title ) ) {
+						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/podcast-player-icon.png';
+						// $description = 'Most useful & Flexible audio, video, and podcast player for WordPress';
+					}
 
 
 					$item_output .= sprintf( '<div class="link-image"><img src="%s" alt="%s" /></div>', $image_url, $title );

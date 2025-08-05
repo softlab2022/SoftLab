@@ -46,10 +46,10 @@ $playlists = [
                         <h5 class="playlist-title"><?php echo $playlist['title']; ?></h5>
                         <p class="playlist-description"><?php echo $playlist['description']; ?></p>
 
-                        <div class="playlist-butt">
+                        <!-- <div class="playlist-butt">
                             <span>Explore</span>
                             <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div> -->
                     </a>
                 </div>
 			<?php } ?>

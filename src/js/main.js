@@ -45,6 +45,8 @@ import "./components/sticky-banner";
             $(".search-btn").on("click", app.openSearch);
             $(".cencel-btn").on("click", app.cancelSearch);
 
+            app.handleChangeDotText();
+
         },
 
         openSearch: function (e) {
@@ -77,7 +79,7 @@ import "./components/sticky-banner";
                 slidesToScroll: 1,
                 autoplay: true,
                 arrows: false,
-                 dots: true,
+                dots: true,
                 autoplaySpeed: 3000,
                 speed: 2000,
                 contentPadding: "30px",
@@ -209,7 +211,7 @@ import "./components/sticky-banner";
                     },
                 ],
             });
-            
+
             //about slider
             $(".slider-main").slick({
                 slidesToShow: 3,
@@ -335,6 +337,12 @@ import "./components/sticky-banner";
 
                 lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
             });
+        },
+
+        handleChangeDotText: function () {
+            $('.slick-dots li:nth-child(1) button').text('Audio Player');
+            $('.slick-dots li:nth-child(2) button').text('Video Player');
+            $('.slick-dots li:nth-child(3) button').text('Podcast Player');
         },
 
 
@@ -550,6 +558,8 @@ import "./components/sticky-banner";
         });
     });
 
+
+
     // eacf7 preview js start
     $(document).ready(function () {
         // Handle Show Code button click
@@ -560,7 +570,7 @@ import "./components/sticky-banner";
             var $eacf7Form = $formArea.find(".eacf7-form");
             var $copyButton = $formArea.find(".copy-buttons");
             var $showButton = $(this); // Current Show Code button
-    
+
             // Toggle visibility of the form code and associated elements
             if ($formCodeContainer.is(":visible")) {
                 $formCodeContainer.hide();
@@ -574,31 +584,31 @@ import "./components/sticky-banner";
                 $showButton.html('<i class="fa-solid fa-code"></i> Hide Code'); // Change text to Hide Code
             }
         });
-    
+
         // Handle Copy Code button click
         $(".copy-buttons").on("click", function () {
             var index = $(this).data("index"); // Get the index from the data attribute
             var $formArea = $('.form-area[data-index="' + index + '"]');
             var codeText = $formArea.find(".form-code").text().trim();
-    
+
             copyToClipboard(codeText);
         });
-    
+
         // Handle code content click to copy and select all
         $(document).on("click", ".form-code code", function () {
             var codeText = $(this).text().trim();
-    
+
             // Select all text in the code block
             var range = document.createRange();
             range.selectNodeContents(this);
             var selection = window.getSelection();
             selection.removeAllRanges();
             selection.addRange(range);
-    
+
             // Copy the code to the clipboard
             copyToClipboard(codeText);
         });
-    
+
         // Copy to clipboard function
         function copyToClipboard(text) {
             if (navigator.clipboard) {
@@ -630,7 +640,7 @@ import "./components/sticky-banner";
             }
         }
     });
-     // eacf7 preview js end
+    // eacf7 preview js end
     $(document).ready(app.init);
 })(jQuery);
 

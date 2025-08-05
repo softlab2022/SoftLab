@@ -19,6 +19,12 @@ $features = [
 		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/lightbox.png",
 		'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],
 	],
+	[
+		'title'       => 'Photoproofing',
+		'description' => 'Let clients review, select, and submit their favorite photos directly from the gallery. The Gallery Module’s built-in proofing feature simplifies the approval process and eliminates back-and-forth emails.',
+		'image'       => get_template_directory_uri() . "/assets/images/google-drive/photo-demo/photoproofing.png",
+		'features'    => ['Clients can select photos for approval', 'One-click submission from the gallery', 'Works seamlessly with Google Drive images', 'Ideal for photographers, designers, and agencies','Integrated with review and tagging workflow'],
+	],
 ];
 ?>
 

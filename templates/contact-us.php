@@ -87,7 +87,8 @@ $tabs = [
                         // 'wp-radio'                         => 'WP Radio',
                         'dracula-dark-mode'                   => 'Dracula Dark Mode',
                         'essential-addons-for-contact-form-7' => 'Essential Addons for Contact Form 7',
-                        'soft-accordion'                      => 'Soft Accordion',
+                        // 'soft-accordion'                      => 'Soft Accordion',
+                        'soft-multimedia-player'                      => 'Multimedia Player',
                         // 'reader-mode'                      => 'Reader Mode',
                     ];
                     ?>

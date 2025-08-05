@@ -34,7 +34,7 @@
                
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="about-hero-content">
+                <div class="about-hero-content our-goal">
                     <h3><?php _e('Our <span>Goal</span>', 'softlab'); ?></h3>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="feature-item-img-mobile">

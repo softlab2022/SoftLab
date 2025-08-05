@@ -6,17 +6,30 @@ $features = [
 		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/one-click.png",
 		'features'    => [ 'Create Perfect Upload', 'Customize Uploader', 'Easily Upload Documents ', 'Close Uploaded Files', ],
 	],
-	[
-		'title'       => 'Switch to Change Uploader Style',
-		'description' => 'Control multiple uploading abilities directly from your WordPress dashboard',
-		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/uploader-style.png",
-		'features'    => [ 'Easy to Upload Files', 'Customize Uploader', 'Drag and Drop', 'Skip Uploaded Files', ],
-	],
+	
 	[
 		'title'       => 'Popular Forms Connect & Easy to Use',
 		'description' => 'Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.',
 		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/form-illustration.png",
 		'features'    => [ 'Contact Form 7', 'WPForms', 'Gravity Forms', 'Ninja Forms', 'Fluent Forms', 'Formidable Forms', 'Elementor Form', 'MetForm' ],
+	],
+	[
+		'title'       => 'Upload to Google Drive',
+		'description' => 'Allow users to upload files directly to your connected Google Drive from the WordPress platform. It’s a fast, secure, and seamless way to collect files without needing external access to Google Drive.',
+		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/uploader-style.png",
+		'features'    => [ 'Direct upload to Google Drive', 'Supports multiple file types and sizes', 'Secure uploads with permission control', 'Role and permission-based uploads', ],
+	],
+	[
+		'title'       => 'Specific Folder Selector',
+		'description' => 'Easily choose the exact Google Drive folder where files will be uploaded or displayed. With the Specific Folder Selector, you have full control over file organization for each module—no need to hardcode folder IDs.',
+		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/specific-folder-selector.png",
+		'features'    => [ 'Select Google Drive folders visually from WordPress', 'Avoids manual folder ID entry', 'Supports nested folders', 'Saves time and improves accuracy', ],
+	],
+	[
+		'title'       => 'Uploaded File Description',
+		'description' => 'Allow users to enter a custom description when uploading files through the File Uploader module. The description is saved to Google Drive and can be viewed directly from Drive or used in your file display modules.',
+		'image'       => get_template_directory_uri() ."/assets/images/google-drive/uploader-demo/uploaded-file-description.png",
+		'features'    => [ 'Add file description during upload', 'Description saved in Google Drive metadata', 'Enhances file context and organization', 'An optional and user-friendly input field', ],
 	],
 
 ];
