@@ -38,6 +38,7 @@ class SoftLa
 			'integrate-google-drive-media-library',
 			'integrate-google-drive-review-approve',
 			'integrate-google-drive-list-files',
+			'woocommerce-integration',
 
 		])) {
 

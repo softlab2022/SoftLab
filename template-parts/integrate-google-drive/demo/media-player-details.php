@@ -2,6 +2,12 @@
 
 $features = [
     [
+        'title'       => 'Play Audio/Video  Files in Single Player',
+        'description' => 'Group and play multiple media files in one unified player with playlist support. Users can easily navigate between tracks or videos without switching players.',
+        'image'       => get_template_directory_uri() . "/assets/images/google-drive/media-demo/play-multiple-media-files-single-player.png",
+        'features'    => ['Seamless playlist playback in one player', 'Supports audio and video files','Auto-play the next file in queue','Clean, user-friendly interface']
+    ],
+    [
         'title'       => 'Easy to Manage Your Media Player',
         'description' => 'You can play your Google Drive audio & video files with a playlist into your website. Audio and video can be played in a single player.',
         'image'       => get_template_directory_uri() . "/assets/images/google-drive/media-demo/media-player.png",
@@ -14,17 +20,12 @@ $features = [
         'features'    => ['Play audio/video directly from the list', 'View file descriptions and details', 'Supports Google Drive-hosted media', 'Clean, responsive playlist UI',]
     ],
     [
-        'title'       => 'Multiple Media Player Types',
+        'title'       => 'Flexible Video Playback Modes',
         'description' => 'Support both embedded and direct media playback with flexible player options. Whether it\'s a YouTube video, MP3 file, or a Google Drive-hosted file, the Media Player module handles it all seamlessly.',
         'image'       => get_template_directory_uri() . "/assets/images/google-drive/media-demo/multiple-media-player-types.png",
         'features'    => ['Embed', 'Direct Media',]
     ],
-    [
-        'title'       => 'Play Multiple Media Files in Single Player',
-        'description' => 'Group and play multiple media files in one unified player with playlist support. Users can easily navigate between tracks or videos without switching players.',
-        'image'       => get_template_directory_uri() . "/assets/images/google-drive/media-demo/play-multiple-media-files-single-player.png",
-        'features'    => ['Seamless playlist playback in one player', 'Supports audio and video files','Auto-play the next file in queue','Clean, user-friendly interface']
-    ],
+    
 ];
 ?>
 

@@ -223,7 +223,7 @@ $features = [
                     <img class="img-fluid"
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/support-img.png"
                         alt="support-img">
-                        <!-- <a href="#" class="woo-view-demo-btn">View Demo</a> -->
+                        <a href="woocommerce-integration" class="woo-view-demo-btn">View Demo</a>
                 </div>
             </div>
         </div>
