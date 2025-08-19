@@ -6,59 +6,21 @@
     <div class="container">
 
         <div class="row footer-top">
-
-            <?php
-            $footer_logos = [
-                'main_logo'  => [
-                    'url'   => 'https://softlabbd.com/',
-                    'description' => 'We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth',
-                ],
-                'igd_logo'   => [
-                    'url'   => 'https://softlabbd.com/integrate-google-drive/',
-                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
-                ],
-                'radio_logo'   => [
-                    'url'   => 'https://softlabbd.com/radio-player/',
-                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
-                ],
-                'dracula_logo' => [
-                    'url'   => 'https://softlabbd.com/dracula-dark-mode/',
-                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
-                ],
-                'eacf7_logo' => [
-                    'url'   => 'https://softlabbd.com/essential-addons-for-contact-form-7/',
-                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
-                ],
-                'soft_accordion_logo' => [
-                    'url'   => 'https://softlabbd.com/soft-accordion/',
-                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
-                ],
-                'radio_proxy_logo' => [
-                    'url'   => 'https://softlabbd.com/radio-player-proxy/',
-                    'description' => 'Radio Player Proxy Add-on for Radio Player facilitates the playback of Radio (non-SSL) Player Proxy on HTTPS-enabled websites.',
-                ],
-                'radio_ads_logo' => [
-                    'url'   => 'https://softlabbd.com/radio-player-ads/',
-                    'description' => 'Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.',
-                ],
-            ];
-            ?>
+            
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
-                <?php foreach ($footer_logos as $key => $footer_logo) { ?>
                     <div class="footer-main footer-<?php echo $key; ?>">
                         <div class="footer-logo">
-                            <a href="<?php echo $footer_logo['url']; ?>">
+                            <a href="<?php echo home_url() ?>">
                                 <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/<?php echo $key; ?>.png"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/softlab-logo.png"
                                     alt="footer-logo">
                             </a>
                         </div>
 
                         <div class="footer-contant">
-                            <p><?php echo $footer_logo['description']; ?></p>
+                            <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth</p>
                         </div>
                     </div>
-                <?php } ?>
                 <?php
                 $socials = [
                     'facebook'  => [
