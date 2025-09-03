@@ -846,3 +846,20 @@ function get_form_content()
 	}
 	add_action('wp_ajax_contact_form_7_templates_search', 'contact_form_7_templates_search');
 	add_action('wp_ajax_nopriv_contact_form_7_templates_search', 'contact_form_7_templates_search');
+
+	/**
+	 * Restrict search to blog posts
+	 */
+	function restrict_search_to_blog_posts($query)
+	{
+		if (!is_admin() && $query->is_main_query() && $query->is_search()) {
+			$query->set('post_type', 'post');
+			if (isset($_GET['cat']) && !empty($_GET['cat'])) {
+				$query->set('cat', absint($_GET['cat']));
+			}
+			if (isset($_GET['tag_id']) && !empty($_GET['tag_id'])) {
+				$query->set('tag_id', absint($_GET['tag_id']));
+			}
+		}
+	}
+	add_action('pre_get_posts', 'restrict_search_to_blog_posts');

@@ -318,50 +318,97 @@ $products = [
 		]
 	],
 
-	'soft-accordion' => [
-		'name'        => 'Soft Accordion',
-		'title'       => 'Interactive Features & Functionalities',
-		'description' => 'Soft Accordion offers interactive features to transform basic FAQs into modern, stylish, and user-friendly sections. With its collapsible design, this plugin ensures a responsive FAQ experience for your visitors on any device. Perfect for enhancing your WordPress site’s FAQ section with ease.',
-		'image'       => get_template_directory_uri() . '/assets/images/products//soft-accordion/soft-accordion-illus.png',
-		'logo'        => get_template_directory_uri() . '/assets/images/products//soft-accordion/soft-accordion.png',
+	'soft-multimedia-player' => [
+		'name'        => 'Multimedia Player',
+		'title'       => 'All-in-One Player – Stream Audio, Video & Podcasts Effortlessly!',
+		'description' => 'A Comprehensive and Powerful Platform for All Your Audio, Video, and Podcast Needs — Empowering You to Create, Manage, and Share Content Seamlessly.',
+		'image'       => get_template_directory_uri() . '/assets/images/products//multimedia-player/multimedia-player-illus.png',
+		'logo'        => get_template_directory_uri() . '/assets/images/products//multimedia-player/soft-multimedia-player.png',
 		'features'    => [
 			[
-				'title' => 'Classic Editor (WYSIWYG) Support',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/classic-editor.png',
+				'title' => 'Audio Player',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/audio-player.png',
+			],
+			[
+				'title' => 'Video Player',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/video-player.png',
+			],
+			[
+				'title' => 'Podcast Player',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/podcast-player.png',
+			],
+			[
+				'title' => 'Multi-Source Support',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/multi-source-support.png',
 			],
 
 			[
-				'title' => 'Drag & Drop Sorting',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/drag-drop.png',
+				'title' => 'Playlist Support',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/playlist-support.png',
 			],
 			[
-				'title' => 'WooCommerce Product FAQs',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/WooCommerce.png',
+				'title' => '25+ Skins',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/25-skins.png',
+			],
+			
+			[
+				'title' => 'Popup Player',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/popup-player.png',
 			],
 			[
-				'title' => '16+ Premium Themes',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/premium-themes.png',
-			],
-			[
-				'title' => 'FAQ Schema Support',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/schema-support.png',
-			],
-			[
-				'title' => 'Ajax Pagination',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/ajax-pagination.png',
-			],
-			[
-				'title' => '50+ Animation Effects',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/animation-effects.png',
-			],
-			[
-				'title' => 'Google Fonts',
-				'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/google-fonts.png',
+				'title' => 'Sticky Player',
+				'image' => get_template_directory_uri() . '/assets/images/products//multimedia-player/sticky-player.png',
 			],
 
 
 		]
 	],
+
+
+	// 'soft-accordion' => [
+	// 	'name'        => 'Soft Accordion',
+	// 	'title'       => 'Interactive Features & Functionalities',
+	// 	'description' => 'Soft Accordion offers interactive features to transform basic FAQs into modern, stylish, and user-friendly sections. With its collapsible design, this plugin ensures a responsive FAQ experience for your visitors on any device. Perfect for enhancing your WordPress site’s FAQ section with ease.',
+	// 	'image'       => get_template_directory_uri() . '/assets/images/products//soft-accordion/soft-accordion-illus.png',
+	// 	'logo'        => get_template_directory_uri() . '/assets/images/products//soft-accordion/soft-accordion.png',
+	// 	'features'    => [
+	// 		[
+	// 			'title' => 'Classic Editor (WYSIWYG) Support',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/classic-editor.png',
+	// 		],
+
+	// 		[
+	// 			'title' => 'Drag & Drop Sorting',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/drag-drop.png',
+	// 		],
+	// 		[
+	// 			'title' => 'WooCommerce Product FAQs',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/WooCommerce.png',
+	// 		],
+	// 		[
+	// 			'title' => '16+ Premium Themes',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/premium-themes.png',
+	// 		],
+	// 		[
+	// 			'title' => 'FAQ Schema Support',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/schema-support.png',
+	// 		],
+	// 		[
+	// 			'title' => 'Ajax Pagination',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/ajax-pagination.png',
+	// 		],
+	// 		[
+	// 			'title' => '50+ Animation Effects',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/animation-effects.png',
+	// 		],
+	// 		[
+	// 			'title' => 'Google Fonts',
+	// 			'image' => get_template_directory_uri() . '/assets/images/products//soft-accordion/google-fonts.png',
+	// 		],
+
+
+	// 	]
+	// ],
 ];
 
 ?>

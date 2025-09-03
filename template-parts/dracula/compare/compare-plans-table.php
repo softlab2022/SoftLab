@@ -21,6 +21,18 @@ $features = [
         'droit'      => 'Yes',
         'darkmysite' => 'Yes',
     ],
+    'Reading Mode' => [
+        'dracula'    => 'Pro',
+        'wpdarkmode' => 'No',
+        'droit'      => 'No',
+        'darkmysite' => 'No',
+    ],
+    'Multiple Color Generator Algorithms' => [
+        'dracula'    => 'Pro',
+        'wpdarkmode' => 'No',
+        'droit'      => 'No',
+        'darkmysite' => 'No',
+    ],
 
     'Time-based Dark Mode' => [
         'dracula'    => 'Yes',
@@ -446,13 +458,17 @@ $features = [
                             <h6>Pricing</h6>
                             <span class="head">Annual</span>
                             <p>Pro 1 site ($29)</p>
-                            <p>Pro 5 site ($49)</p>
+                            <p>Pro 2 site ($39)</p>
+                            <p>Pro 5 site ($79)</p>
+                            <p>Pro 5 site ($129)</p>
                             <p>Ultimated ($129)</p>
 
                             <span class="head">Lifetime</span>
-                            <p>Pro Lifetime 1 site ($49)</p>
+                            <p>Lifetime 1 site ($59)</p>
+                            <p>Lifetime 2 site ($79)</p>
                             <p>Lifetime 5 site ($129)</p>
-                            <p>Ultimated Lifetime ($299)</p>
+                            <p>Lifetime 100 site ($299)</p>
+                            <p>Ultimated Lifetime ($399)</p>
                             <!-- <p class="last"> </p> -->
                         </div>
                     </div>
@@ -517,7 +533,7 @@ $features = [
         <div class="row">
             <div class="col-lg-12 m-auto">
                 <div class="update-date text-center">
-                    <span>Last Modified : June 09, 2024</span>
+                    <span>Last Modified : August 28, 2025</span>
                 </div>
             </div>
         </div>

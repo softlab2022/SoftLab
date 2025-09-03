@@ -388,6 +388,15 @@ function sl_theme_option_custom_settings_init()
         'sl-theme-option-custom-settings-group',
         'media_player_shortcode_dropbox',
     );
+    //contact us settings area
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'eacf7_shortcode_contact_us_pre_sales',
+    );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'eacf7_shortcode_contact_us_others',
+    );
 }
 
 add_action('admin_init', 'sl_theme_option_custom_settings_init');
@@ -1744,6 +1753,71 @@ function theme_option_callback()
                                                                 </div>
                                                             </div>
                                                         </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <?php //submit_button();
+                                    ?>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- contact us page shortcode area -->
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingEACF7">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEACF7" aria-expanded="true" aria-controls="panelsStayOpen-collapseEACF7">
+                                    <h1><?php _e('Contact Us Page Form Shortcodes', 'softlab') ?></h1>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseEACF7" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingEACF7">
+                                <div class="accordion-body">
+
+                                    <?php settings_fields('sl-theme-option-custom-settings-group'); ?>
+                                    <?php do_settings_sections('sl-custom-submenu') ?>
+
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingEACF7Two">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEACF7Two" aria-expanded="true" aria-controls="collapseEACF7Two">
+                                                    <h6> <?php _e('Shortcodes', 'softlab') ?></h6>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseEACF7Two" class="accordion-collapse collapse show" aria-labelledby="headingEACF7Two" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <div class="form-table">
+                                                        <!--- Contact us --->
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="skins">
+                                                                    <div class="styles">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-12">
+                                                                                <label class="heading_lable" for=""><?php _e('Pre Sales', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="eacf7_shortcode_contact_us_pre_sales" value="<?php echo esc_attr(get_option('eacf7_shortcode_contact_us_pre_sales')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-12">
+                                                                                <label class="heading_lable" for=""><?php _e('Others', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="eacf7_shortcode_contact_us_others" value="<?php echo esc_attr(get_option('eacf7_shortcode_contact_us_others')) ?>" />
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
 
                                                     </div>
                                                 </div>

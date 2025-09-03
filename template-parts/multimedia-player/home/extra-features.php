@@ -42,7 +42,7 @@ $ex_features = [
         'description' => 'Apply custom CSS to fine-tune the look and feel of your player, giving you full control over its design.',
     ],
     'tools' => [
-        'title'       => 'Statistics',
+        'title'       => 'Tools',
         'description' => 'Quickly manage your player settings with built-in options to auto-save changes, export or import configurations, and reset everything to default when needed. Simple, fast, and built for everyday use.',
     ],
     'statistics' => [

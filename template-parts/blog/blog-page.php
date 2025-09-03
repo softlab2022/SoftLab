@@ -134,17 +134,20 @@
             <div class="col-lg-4 col-md-5">
                 <div class="search-area">
                     <div class="search_containers">
-                        <form role="search" method="get" class="search-forms"
-                            action="<?php echo esc_url(home_url('/')); ?>">
-
+                        <form role="search" method="get" class="search-forms" action="<?php echo esc_url(home_url('/')); ?>">
                             <div class="search-boxs">
                                 <input type="text" class="search-fields" placeholder="Search.."
                                     value="<?php echo get_search_query(); ?>" name="s" required />
 
+                                <input type="hidden" name="post_type" value="post">
 
-                                <!-- <div class="search-btns">
-                                    <i class="fa fa-search search-icon"></i>
-                                </div> -->
+                                <?php if (is_category()) : ?>
+                                    <input type="hidden" name="cat" value="<?php echo get_query_var('cat'); ?>">
+                                <?php endif; ?>
+
+                                <?php if (is_tag()) : ?>
+                                    <input type="hidden" name="tag_id" value="<?php echo get_queried_object_id(); ?>">
+                                <?php endif; ?>
 
                                 <div class="cencel-btns">
                                     <i class="fa fa-close close-icon"></i>
@@ -154,11 +157,10 @@
                                     <i class="fa fa-search search-icon"></i>
                                 </button>
                             </div>
-
                         </form>
-
                     </div>
                 </div>
+
                 <div class="most-popular-section">
                     <h4>Most Popular</h4>
                     <?php

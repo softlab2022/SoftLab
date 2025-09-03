@@ -328,7 +328,10 @@
     }
 
     .lst {
-      padding-bottom: 38px;
+      padding-bottom: 115px;
+    }
+    .lasts {
+      padding-bottom: 76px;
     }
 
     .head {
@@ -427,8 +430,11 @@
     }
 
     .hedding {
+      .lst {
+        padding-bottom: 133px;
+      }
       .lasts {
-        padding-bottom: 20px;
+        padding-bottom: 115px;
       }
     }
   }
@@ -503,11 +509,11 @@
       }
 
       .lasts {
-        padding-bottom: 68px;
+        padding-bottom: 84px;
       }
 
       .lst {
-        padding-bottom: 68px;
+        padding-bottom: 151px;
       }
 
     }
