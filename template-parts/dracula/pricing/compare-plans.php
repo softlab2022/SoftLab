@@ -217,6 +217,12 @@ $features = [
 		'descriptions' => 'Reading Mode enhances user experience by providing a distraction-free environment, removing clutter from articles and posts for improved focus. It prioritizes readability, accessibility, and ease of navigation, making it an invaluable tool for engaging and effortless content interaction.',
 		'pro'         => false,
 	],
+	'multiple-color-generator-algorithms' => [
+		'title'       => 'Multiple Color Generator Algorithms',
+		'video'       => '',
+		'descriptions' => 'Dynamic automatically adapts to your website’s main color for a personalized dark mode, and Static uses a fixed formula with customizable options for a consistent and balanced dark mode look.',
+		'pro'         => false,
+	],
 	'admin-dashboard-dark-mode' => [
 		'title'       => 'Admin Dashboard Dark Mode',
 		'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/qOuFxLoinuE?si=iE23R-1pIRBgRfwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',

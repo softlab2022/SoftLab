@@ -57,13 +57,29 @@ $tabs = [
                         <div class="col-md-12 content-form-tab">
 
                             <div class="contact-form-wrap form-pre-sales active">
-                                <?php echo do_shortcode('[fluentform id="3"]'); ?>
+                                <?php //echo do_shortcode('[contact-form-7 id="b2a7bbc" title="Pre Sales"]'); ?>
+                                <?php //echo do_shortcode('[contact-form-7 id="df79255" title="Pre Sales"]'); 
+                                ?>
+
+                                <?php
+                                if (!empty(get_option('eacf7_shortcode_contact_us_pre_sales'))) {
+                                    echo do_shortcode(get_option('eacf7_shortcode_contact_us_pre_sales'));
+                                }
+                                ?>
+
                             </div>
                             <div class="contact-form-wrap form-technical-support">
                                 <?php echo do_shortcode('[fluentform id="5"]'); ?>
                             </div>
                             <div class="contact-form-wrap form-others">
-                                <?php echo do_shortcode('[fluentform id="6"]'); ?>
+                                <?php //echo do_shortcode('[contact-form-7 id="5a49c73" title="Others"]'); ?>
+                                <?php //echo do_shortcode('[contact-form-7 id="723a52c" title="Others"]'); ?>
+
+                                 <?php
+                                if (!empty(get_option('eacf7_shortcode_contact_us_others'))) {
+                                    echo do_shortcode(get_option('eacf7_shortcode_contact_us_others'));
+                                }
+                                ?>
                             </div>
                         </div>
 

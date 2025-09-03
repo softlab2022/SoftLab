@@ -2,8 +2,12 @@
 
 $features = [
 
+    'multiple-color-generator-algorithms' => [
+        'title'       => '<span class="multiple-color-generator-algorithms">Multiple Color Generator Algorithms</span>',
+        'description' => 'Dracula offers two dark mode color generation algorithms : Dynamic and Static.</br> Dynamic automatically adapts to your website’s main color for a personalized dark mode, and Static uses a fixed formula with customizable options for a consistent and balanced dark mode look.',
+    ],
     'reading-mode' => [
-        'title'       => 'Reading Mode',
+        'title'       => '<span class="multiple-color-generator-algorithms">Reading Mode </span>',
         'description' => 'Reading Mode enhances user experience by providing a distraction-free environment, removing clutter from articles and posts for improved focus. It prioritizes readability, accessibility, and ease of navigation, making it an invaluable tool for engaging and effortless content interaction.',
     ],
     'frontend-dark-mode' => [
@@ -81,7 +85,7 @@ $features = [
 
             $is_integration  = in_array($key, ['frontend-dark-mode', 'admin-dashbord-dark-mode', 'dynamic-presets-custom-color', 'live-edit-dark-mode', 'toggle-button-style', 'custom-toggle-button-builder', 'page-specific-dark-mode', 'page-wish-dark-mode', 'dark-mode-usage-analytics', 'color-adjustments', 'auto-match-os-theme', 'floating-dark-mode', 'display-toggle-button-menu', 'imageandvideos', 'gutenberg', 'custom-css']);
 
-            $is_integrations = in_array($key, ['reading-mode']);
+            $is_integrations = in_array($key, ['reading-mode', 'multiple-color-generator-algorithms']);
         ?>
             <div class="row feature-items dark-mode align-items-center <?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
