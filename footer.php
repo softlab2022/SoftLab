@@ -8,7 +8,7 @@
         <div class="row footer-top">
             
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
-                    <div class="footer-main footer-<?php echo $key; ?>">
+                    <div class="footer-main ">
                         <div class="footer-logo">
                             <a href="<?php echo home_url() ?>">
                                 <img class="img-fluid"

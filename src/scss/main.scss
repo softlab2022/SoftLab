@@ -29,10 +29,27 @@
 
 /* support page css here  start*/
 
+.fs_client_portal .fs_submit_button_container .el-form-item__content {
+    display: flex!important;
+    justify-content: center;
+}
+
+.fs_client_portal {
+  .fs_customer_response_actions {
+    justify-content: center !important;
+    display: flex !important;
+}
+}
+
+.el-form-item__content {
+  .fs_tk_help {
+    font-size: 14px;
+  }
+}
 .page-id-2432,
 .page-id-105 {
   .entry-content {
-    text-align: center;
+    // text-align: center;
     background: #fff;
     box-shadow: rgba(53, 53, 53, 0.10) 0px 2px 8px 0px;
     margin-bottom: 90px !important;
