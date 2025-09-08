@@ -209,6 +209,10 @@ body.page-template-contact-us {
       }
     }
 
+    .wpcf7-spinner {
+      top: 16px;
+    }
+
     .wpcf7-submit {
       margin-top: 1rem;
       background: linear-gradient(to right, #78f, #6e6dff);
@@ -234,6 +238,7 @@ body.page-template-contact-us {
         background: linear-gradient(to right, #6e6dff, #78f);
       }
     }
+
     // eacf7 css end
 
   }
