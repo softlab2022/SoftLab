@@ -130,7 +130,13 @@ class SoftLa
 			'multimedia-podcast-player-skins',
 		])) {
 			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
-		} else {
+		} else if(in_array($file_name, [
+			'demo'])){
+			wp_enqueue_style('demo', get_theme_file_uri('assets/css/demo.css'), array(), $theme_version, 'all');
+			wp_enqueue_style('sweetalert2', get_theme_file_uri('assets/vendor/sweetalert2/sweetalert2.min.css'), array(), $theme_version, 'all');
+
+			wp_enqueue_script('sweetalert2', get_theme_file_uri('assets/vendor/sweetalert2/sweetalert2.min.js'), array('jquery'), $theme_version, true);
+		}else {
 			wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 		}
 
@@ -193,6 +199,8 @@ class SoftLa
 
 		wp_localize_script('main', 'softlab', [
 			'ajax_url' => admin_url('admin-ajax.php'),
+			'assets_url' => get_theme_file_uri('assets/'),
+			'nonce' => wp_create_nonce('softlab'),
 		]);
 
 

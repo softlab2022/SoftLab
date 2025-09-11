@@ -9,7 +9,7 @@
   // background: #f5f5f5;
   z-index: 99;
   padding: 1rem 0px;
-  transition: transform .25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 
   .primary-nav {
     .navbar-navs {
@@ -27,7 +27,7 @@
         margin: 0 1rem;
 
         a {
-          color: #5C637E;
+          color: #5c637e;
 
           &:hover {
             color: $color_primary;
@@ -36,7 +36,6 @@
 
         .dropdown-menu {
           display: none;
-
         }
 
         &:hover .dropdown-menu {
@@ -47,8 +46,6 @@
         .dropdown-item:active {
           // background-color: rgba(0, 0, 0, 0.5) !important;
           background-color: #e9ecef !important;
-
-
         }
 
         .arrow {
@@ -66,14 +63,11 @@
             color: $color_primary;
           }
         }
-
       }
 
       // WP Radio Header
       &.wp-radio-nav {
-
         .nav-item {
-
           a {
             color: #fff;
 
@@ -89,7 +83,6 @@
           }
         }
 
-
         .navbar-toggler-icon {
           i {
             color: #fff;
@@ -98,9 +91,8 @@
 
         @media (max-width: 767.98px) {
           .nav-item {
-
             a {
-              color: #5C637E;
+              color: #5c637e;
 
               &:hover {
                 color: #333;
@@ -119,9 +111,7 @@
       // WP Radio User Frontend Header
       &.wp-radio-user-frontend-nav {
         .nav-item {
-
           a {
-
             &:hover {
               color: $wp_radio_user_frontend_color;
             }
@@ -148,9 +138,7 @@
               color: $igd_color;
             }
           }
-
         }
-
       }
 
       &.reader-mode-nav {
@@ -168,17 +156,15 @@
               color: rgba(255, 255, 255, 0.7);
             }
           }
-
         }
 
-
-        @media (min-width: 768px) and (max-width: 991.98px) {}
+        @media (min-width: 768px) and (max-width: 991.98px) {
+        }
 
         @media (max-width: 767.98px) {
           .nav-item {
-
             a {
-              color: #5C637E;
+              color: #5c637e;
 
               &:hover {
                 color: #333;
@@ -209,8 +195,6 @@
           }
         }
       }
-
-
     }
 
     @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -253,6 +237,17 @@
         padding-right: 15px;
       }
 
+      &.brand-demo {
+        span {
+          color: #151826;
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%;
+        }
+      }
+
       @media (max-width: 767.98px) {
         &.brand-softlab {
           img {
@@ -264,7 +259,6 @@
         }
 
         &.brand-integrate-google-drive {
-
           img {
             height: auto;
             width: 170px;
@@ -292,7 +286,6 @@
           }
         }
       }
-
     }
 
     .dropdown-menu {
@@ -303,7 +296,7 @@
       border: none;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: -10px;
         left: 175px;
@@ -314,7 +307,7 @@
         border-bottom: 10px solid #fff;
       }
 
-      &>li {
+      & > li {
         margin-bottom: 1rem;
         padding-bottom: 0px;
 
@@ -329,8 +322,8 @@
         flex-wrap: wrap;
         white-space: pre-wrap;
         border-radius: 0.5rem;
-        padding: .8rem;
-        transition: all .3s ease;
+        padding: 0.8rem;
+        transition: all 0.3s ease;
 
         // &:hover {
         //   background-color: #e9ecef;
@@ -366,7 +359,7 @@
 
         .link-description {
           font-weight: 400;
-          font-size: .875rem;
+          font-size: 0.875rem;
           color: #5c637e;
         }
 
@@ -374,7 +367,6 @@
         &:active {
           background-color: #e9ecef;
         }
-
       }
 
       @media (max-width: 767.98px) {
@@ -385,23 +377,21 @@
           padding: 10px;
         }
       }
-
     }
 
     .view-products-btn {
       margin-left: 2rem;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       background: $button_bg_color;
-      padding: .5rem 1rem;
+      padding: 0.5rem 1rem;
     }
 
     .buy-now-btn {
-
       a {
         text-decoration: none;
         background: #fff;
         padding: 15px 30px;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         border-radius: 100px;
         border: 1px solid transparent;
         white-space: nowrap;
@@ -431,11 +421,11 @@
       &-integrate-dropbox {
         a {
           color: #fff;
-          background-color: #0061FF;
-          border-color: #0061FF;
+          background-color: #0061ff;
+          border-color: #0061ff;
 
           &:hover {
-            color: #0061FF;
+            color: #0061ff;
             background: #fff;
           }
         }
@@ -451,7 +441,6 @@
             color: $radio_player_color;
             border-color: $radio_player_color;
           }
-
         }
       }
 
@@ -465,7 +454,6 @@
             color: #fff;
             border-color: $wp_radio_color;
           }
-
         }
       }
 
@@ -479,7 +467,6 @@
             color: $wp_radio_color;
             border-color: $wp_radio_color;
           }
-
         }
       }
 
@@ -493,10 +480,8 @@
             color: $wp_radio_user_frontend_color;
             border-color: $wp_radio_user_frontend_color;
           }
-
         }
       }
-
 
       &-wp-radio-proxy-player,
       &-wp-radio-ads-player,
@@ -510,14 +495,11 @@
             color: $proxy_player_color;
             border-color: $proxy_player_color;
           }
-
         }
       }
-
     }
 
     .mobile-menu {
-
       .mobile-close-btn {
         display: none !important;
       }
@@ -602,7 +584,7 @@
               color: #fff;
 
               &.active {
-                color: #7788FF;
+                color: #7788ff;
               }
             }
           }
@@ -614,8 +596,6 @@
           margin-right: auto;
           width: max-content;
         }
-
-
       }
 
       .buy-now-btn {
@@ -649,7 +629,7 @@
           display: none;
         }
 
-        &>li {
+        & > li {
           margin-bottom: 1rem;
           border-bottom: 0.3px solid #3c3b3b;
           padding-bottom: 0px;
@@ -667,8 +647,8 @@
           flex-wrap: wrap;
           white-space: pre-wrap;
           border-radius: 0;
-          padding: .8rem;
-          transition: all .3s ease;
+          padding: 0.8rem;
+          transition: all 0.3s ease;
 
           &:hover {
             background-color: transparent;
@@ -704,7 +684,7 @@
 
           .link-description {
             font-weight: 400;
-            font-size: .875rem;
+            font-size: 0.875rem;
             color: #a3a3a3;
           }
 
@@ -712,7 +692,6 @@
           &:active {
             background-color: #e9ecef;
           }
-
         }
 
         @media (max-width: 767.98px) {
@@ -723,7 +702,6 @@
             padding: 10px;
           }
         }
-
       }
 
       .navbar-toggler {
@@ -745,11 +723,16 @@
         }
       }
     }
-
   }
 
   .navbar-dracula {
-    background: linear-gradient(92.72deg, rgba(92, 66, 255, 0.4) -17.53%, rgba(83, 69, 255, 0.06) 22.48%, rgba(83, 69, 255, 0.15) 54.86%, rgba(205, 197, 255, 0.1) 83.22%);
+    background: linear-gradient(
+      92.72deg,
+      rgba(92, 66, 255, 0.4) -17.53%,
+      rgba(83, 69, 255, 0.06) 22.48%,
+      rgba(83, 69, 255, 0.15) 54.86%,
+      rgba(205, 197, 255, 0.1) 83.22%
+    );
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     border-radius: 10px;
@@ -775,17 +758,16 @@
         }
       }
     }
-
   }
 
   .buy-now-btn-dracula {
     a {
-      background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%) !important;
+      background: linear-gradient(180deg, #9088f3 0%, #7367fb 100%) !important;
       border-radius: 10px !important;
       text-decoration: none;
       color: #fff;
       padding: 15px 30px;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
 
       &:hover {
         box-shadow: drop-shadow(4px 8px 24px rgba(118, 107, 250, 0.14));
@@ -820,14 +802,13 @@
   top: 0;
   width: 100%;
   z-index: 1330;
-  background-color: #DFE6FE;
-  box-shadow: 0 13px 22px -5px rgba(0, 0, 0, .06);
-  transition: transform .25s ease-in-out;
+  background-color: #dfe6fe;
+  box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease-in-out;
   padding: 0 0 3px;
 }
 
 /**---------- Scrolling Header Css end----------**/
-
 
 .page-template-templateswp-radio-php {
   .navbar {
@@ -852,7 +833,7 @@
   }
 
   .fixed-header {
-    background: #848FFF;
+    background: #848fff;
   }
 }
 
@@ -876,12 +857,11 @@
       }
     }
   }
-
 }
 
 .page-template-templatesreader-mode-php {
   .fixed-header {
-    background: #3C3498;
+    background: #3c3498;
   }
 }
 
@@ -906,9 +886,7 @@
   .primary-nav {
     .navbar-nav {
       .nav-item {
-
         a {
-
           &:hover {
             color: $wp_radio_user_frontend_color;
           }
@@ -923,12 +901,11 @@
     }
 
     .buy-now-btn {
-
       a {
         text-decoration: none;
         background: $wp_radio_user_frontend_color;
         padding: 15px 30px;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         border-radius: 100px;
         border: 1px solid transparent;
         white-space: nowrap;
@@ -944,11 +921,8 @@
           margin-right: 5px;
         }
       }
-
     }
   }
-
-
 }
 
 .page-template-templatesdracula-php,
@@ -982,7 +956,6 @@
         }
       }
     }
-
   }
 }
 
@@ -993,7 +966,7 @@
 .page-template-templatesintegrate-google-drive-pricing-update-php,
 .page-template-templatesintegrate-google-drive-integrations-php {
   .fixed-header {
-    background: #BBE6C6;
+    background: #bbe6c6;
   }
 }
 
@@ -1002,7 +975,6 @@
   .primary-nav {
     .navbar-nav {
       .nav-item {
-
         a {
           color: #fff;
 
@@ -1046,7 +1018,7 @@
   }
 
   .fixed-header {
-    background: #10151C;
+    background: #10151c;
   }
 }
 
@@ -1076,7 +1048,7 @@
       .buy-now-btn {
         a {
           text-decoration: none;
-          background: #1E62B9;
+          background: #1e62b9;
           padding: 15px 30px;
           transition: linear 0.4s;
           border-radius: 8px;
@@ -1086,13 +1058,12 @@
 
           &:hover {
             background: #fff;
-            color: #1E62B9;
+            color: #1e62b9;
           }
         }
       }
     }
   }
-
 
   @media (max-width: 767.98px) {
     .brand-cf7-extended {
@@ -1101,7 +1072,6 @@
       }
     }
   }
-
 }
 
 .page-template-templatescontact-form-7-templates-php,
@@ -1126,7 +1096,7 @@
       .navbar-nav {
         .nav-item {
           a {
-            color: rgba(255, 255, 255, 0.70);
+            color: rgba(255, 255, 255, 0.7);
 
             &:hover {
               color: #fff;
@@ -1147,11 +1117,11 @@
           transition: linear 0.4s;
           border-radius: 8px;
           border: 1px solid transparent;
-          color: #1E62B9;
+          color: #1e62b9;
           white-space: nowrap;
 
           &:hover {
-            background: #1E62B9;
+            background: #1e62b9;
             color: #fff;
           }
         }
@@ -1215,12 +1185,12 @@
           transition: linear 0.4s;
           border-radius: 8px;
           border: 1px solid transparent;
-          color: #1E62B9;
+          color: #1e62b9;
           font-weight: 700;
           white-space: nowrap;
 
           &:hover {
-            background: #1E62B9;
+            background: #1e62b9;
             color: #fff;
           }
         }
@@ -1243,7 +1213,7 @@
     width: 100%;
     z-index: 1330;
     // background-color: rgba(17, 17, 17, 0.8);
-    background: linear-gradient(90deg, #FFF -66.83%, #1E62B9 104.49%);
+    background: linear-gradient(90deg, #fff -66.83%, #1e62b9 104.49%);
     box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
     transition: transform 0.25s ease-in-out;
     padding: 0 0 3px;
@@ -1273,7 +1243,7 @@
       .buy-now-btn {
         a {
           text-decoration: none;
-          background: #1E62B9;
+          background: #1e62b9;
           padding: 15px 30px;
           transition: linear 0.4s;
           border-radius: 8px;
@@ -1283,13 +1253,12 @@
 
           &:hover {
             background: #fff;
-            color: #1E62B9;
+            color: #1e62b9;
           }
         }
       }
     }
   }
-
 
   @media (max-width: 767.98px) {
     .brand-soft-accordion {
@@ -1298,7 +1267,6 @@
       }
     }
   }
-
 }
 
 .page-template-templatesmultimedia-player-php,
@@ -1317,7 +1285,7 @@
       border: none;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: -10px;
         left: 120px;
@@ -1328,7 +1296,7 @@
         border-bottom: 10px solid #fff;
       }
 
-      &>li {
+      & > li {
         margin-bottom: 0rem;
         padding-bottom: 0px;
 
@@ -1343,8 +1311,8 @@
         flex-wrap: wrap;
         white-space: pre-wrap;
         border-radius: 0.5rem;
-        padding: .4rem;
-        transition: all .3s ease;
+        padding: 0.4rem;
+        transition: all 0.3s ease;
 
         // &:hover {
         //   background-color: #e9ecef;
@@ -1380,7 +1348,7 @@
 
         .link-description {
           font-weight: 400;
-          font-size: .875rem;
+          font-size: 0.875rem;
           color: #5c637e;
         }
 
@@ -1388,7 +1356,6 @@
         &:active {
           background-color: #e9ecef;
         }
-
       }
 
       @media (max-width: 767.98px) {
@@ -1399,7 +1366,6 @@
           padding: 10px;
         }
       }
-
     }
   }
 
@@ -1423,7 +1389,7 @@
       .buy-now-btn {
         a {
           text-decoration: none;
-          background: #1E62B9;
+          background: #1e62b9;
           padding: 15px 30px;
           transition: linear 0.4s;
           border-radius: 8px;
@@ -1433,13 +1399,12 @@
 
           &:hover {
             background: #fff;
-            color: #1E62B9;
+            color: #1e62b9;
           }
         }
       }
     }
   }
-
 
   @media (max-width: 767.98px) {
     .brand-soft-accordion {
@@ -1448,13 +1413,11 @@
       }
     }
   }
-
 }
 
 /**---------- sticky-banner ----------**/
 
 @media (min-width: 992px) {
-
   body:has(.sticky-banner) {
     .site-header {
       padding-top: 80px;
@@ -1463,7 +1426,7 @@
 }
 
 .sticky-banner {
-  background: #3D34A4;
+  background: #3d34a4;
   // padding: .3rem 0;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
   width: 100%;
@@ -1514,12 +1477,12 @@
   .buy-now-btn-dracula {
     a {
       // background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
-      background: linear-gradient(147deg, #FCCC26 0%, #F69421 100%);
+      background: linear-gradient(147deg, #fccc26 0%, #f69421 100%);
       border-radius: 10px;
       text-decoration: none;
       color: #fff;
       padding: 15px 30px;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
 
       i {
         margin-right: 5px;
@@ -1617,7 +1580,6 @@
 
   @media (max-width: 991px) and (min-width: 768px) {
     .banner-countdown {
-
       .timer {
         span {
           font-size: 1rem;
@@ -1638,12 +1600,10 @@
     }
 
     .buy-now-btn-dracula {
-
       a {
         padding: 15px 22px;
       }
     }
-
   }
 
   @media (max-width: 767px) {
@@ -1664,7 +1624,7 @@
 
       a {
         padding: 5px;
-        font-size: .7rem;
+        font-size: 0.7rem;
 
         i {
           display: none;
@@ -1693,16 +1653,12 @@
     .banner-vector {
       display: none;
     }
-
   }
-
 }
 
 /**---------- halloween sticky-banner ----------**/
 
-
 @media (min-width: 992px) {
-
   body:has(.halloween-sticky-banner) {
     .site-header {
       padding-top: 80px;
@@ -1713,10 +1669,17 @@
 .halloween-sticky-banner {
   // background: #633A89;
   background-image: url("../images/halloween-new-bg-shape.png"),
-    radial-gradient(156.23% 87.88% at 28.36% 49.34%,
-      #5B0636 0%, #5B0636 10.01%, #5B0636 23.81%,
-      #5B0636 38.02%, #410634 52.5%, #2F0732 67.37%,
-      #240731 82.87%, #200731 100%);
+    radial-gradient(
+      156.23% 87.88% at 28.36% 49.34%,
+      #5b0636 0%,
+      #5b0636 10.01%,
+      #5b0636 23.81%,
+      #5b0636 38.02%,
+      #410634 52.5%,
+      #2f0732 67.37%,
+      #240731 82.87%,
+      #200731 100%
+    );
   background-position: center;
   background-repeat: no-repeat;
   // background: radial-gradient(156.23% 87.88% at 28.36% 49.34%, #5B0636 0%, #5B0636 10.01%, #5B0636 23.81%, #5B0636 38.02%, #410634 52.5%, #2F0732 67.37%, #240731 82.87%, #200731 100%);
@@ -1726,7 +1689,6 @@
   position: fixed;
   z-index: 999999;
   margin-bottom: 0px;
-
 
   &.active {
     display: none;
@@ -1787,11 +1749,16 @@
       // background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
       // border: 1px solid rgba(255, 255, 255, 0.56);
       border-radius: 7px;
-      background: linear-gradient(180deg, #BE1622 -0.04%, #CC2820 38.15%, #E94E1B 99.95%);
+      background: linear-gradient(
+        180deg,
+        #be1622 -0.04%,
+        #cc2820 38.15%,
+        #e94e1b 99.95%
+      );
       text-decoration: none;
       color: #fff;
       padding: 10px 15px;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
 
       i {
         margin-right: 5px;
@@ -1799,20 +1766,16 @@
 
       &:hover {
         background: #fff;
-        color: #BE1622;
+        color: #be1622;
       }
     }
   }
 
   /**---------- countdown ----------**/
   .banner-countdown {
-
     text-align: center;
 
-
-
     .timer {
-
       position: relative;
       z-index: 1;
       display: flex;
@@ -1880,7 +1843,6 @@
       color: #fff;
       cursor: pointer;
     }
-
   }
 
   .banner-vector {
@@ -1935,7 +1897,6 @@
     }
 
     .banner-countdown {
-
       .timer {
         span {
           font-size: 1rem;
@@ -1971,12 +1932,10 @@
     }
 
     .buy-now-btn-dracula {
-
       a {
         padding: 8px 8px;
       }
     }
-
   }
 
   @media (max-width: 767px) {
@@ -2003,7 +1962,7 @@
 
       a {
         padding: 5px;
-        font-size: .7rem;
+        font-size: 0.7rem;
 
         i {
           display: none;
@@ -2032,16 +1991,12 @@
     .banner-vector {
       display: none;
     }
-
   }
-
 }
 
 /**---------- halloween sticky-banner ----------**/
 
-
 @media (min-width: 992px) {
-
   body:has(.black-friday-sticky-banner) {
     .site-header {
       padding-top: 100px;
@@ -2050,7 +2005,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
   body:has(.black-friday-sticky-banner) {
     .site-header {
       padding-top: 72px;
@@ -2059,7 +2013,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-
   body:has(.black-friday-sticky-banner) {
     .site-header {
       padding-top: 50px;
@@ -2068,7 +2021,19 @@
 }
 
 .black-friday-sticky-banner {
-  background: url("../images/black-text-new-vector.png"), linear-gradient(90deg, #4036B4 0%, #17040A 13.76%, #17040A 29.53%, #17040A 34.72%, #17040A 45.43%, #17040A 57.92%, #17040A 73.52%, #17040A 84.65%, #4036B4 100%);
+  background: url("../images/black-text-new-vector.png"),
+    linear-gradient(
+      90deg,
+      #4036b4 0%,
+      #17040a 13.76%,
+      #17040a 29.53%,
+      #17040a 34.72%,
+      #17040a 45.43%,
+      #17040a 57.92%,
+      #17040a 73.52%,
+      #17040a 84.65%,
+      #4036b4 100%
+    );
   // padding: .3rem 0;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
   width: 100%;
@@ -2077,8 +2042,6 @@
   padding: 8px 0;
   background-repeat: no-repeat;
   background-position: left;
-
-
 
   &.active {
     display: none;
@@ -2102,7 +2065,6 @@
       max-width: 450px;
       height: 60px;
     }
-
   }
 
   .offer {
@@ -2135,11 +2097,11 @@
       // background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
       border-radius: 7px;
       // border: 1px solid rgba(255, 255, 255, 0.56);
-      background: #4036B4;
+      background: #4036b4;
       text-decoration: none;
       color: #fff;
       padding: 15px 20px;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       font-weight: 600;
 
       i {
@@ -2148,20 +2110,16 @@
 
       &:hover {
         background: #fff;
-        color: #38394D;
+        color: #38394d;
       }
     }
   }
 
   /**---------- countdown ----------**/
   .banner-countdown {
-
     text-align: center;
 
-
-
     .timer {
-
       position: relative;
       z-index: 1;
       display: flex;
@@ -2210,27 +2168,29 @@
         // border: 2px solid transparent;
         // background: #17040A;
         // border-image: linear-gradient(180deg, #AD043C 0%, #1A050C 100%);
-        // border-image-slice: 1; 
+        // border-image-slice: 1;
         // display: inline-block;
         // overflow: hidden;
         background: white;
         border-radius: 15px;
         z-index: 1;
-        background: #17040A;
+        background: #17040a;
 
         &:before {
-          content: '';
+          content: "";
           position: absolute;
           top: 0;
           left: 0;
           right: 0;
           bottom: 0;
-          background: linear-gradient(to bottom, #AD043C 0%, #1A050C 100%);
+          background: linear-gradient(to bottom, #ad043c 0%, #1a050c 100%);
           border-radius: 9px;
           z-index: -1;
           padding: 2px;
-          -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
-          mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+          -webkit-mask: linear-gradient(white, white) content-box,
+            linear-gradient(white, white);
+          mask: linear-gradient(white, white) content-box,
+            linear-gradient(white, white);
           -webkit-mask-composite: xor;
           mask-composite: exclude;
         }
@@ -2267,15 +2227,12 @@
           align-items: center;
           // border-radius: 7px;
           // border: 2px solid #A1A1A1;
-
-
-
         }
 
         p {
           display: block;
           padding-bottom: 0;
-          color: #FFB41B;
+          color: #ffb41b;
           margin-bottom: 0;
         }
       }
@@ -2300,7 +2257,7 @@
     top: 5px;
     width: 24px;
     height: 24px;
-    background: #210832CC;
+    background: #210832cc;
     text-align: center;
     border-radius: 3px;
 
@@ -2309,7 +2266,6 @@
       color: #fff;
       cursor: pointer;
     }
-
   }
 
   .banner-vector {
@@ -2361,7 +2317,6 @@
     // }
 
     .banner-vector {
-
       img {
         width: 86px;
         height: auto;
@@ -2398,12 +2353,10 @@
     }
 
     .buy-now-btn-dracula {
-
       a {
         padding: 15px 22px;
       }
     }
-
   }
 
   @media (max-width: 767px) {
@@ -2438,7 +2391,7 @@
 
       a {
         padding: 5px;
-        font-size: .7rem;
+        font-size: 0.7rem;
 
         i {
           display: none;
@@ -2467,14 +2420,11 @@
     .banner-vector {
       display: none;
     }
-
   }
-
 }
 
 .page-template-templatesoffers-black-friday-php {
   .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-
   }
 }

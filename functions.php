@@ -2,6 +2,7 @@
 
 include_once get_theme_file_path('inc/class-enqueue.php');
 include_once get_theme_file_path('inc/class-nav.php');
+include_once get_theme_file_path('inc/class-ajax.php');
 require_once('theme-option/theme-option.php');
 require_once('theme-option/custom-post.php');
 require_once('theme-option/form-manager.php');
