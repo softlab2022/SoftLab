@@ -131,7 +131,23 @@ class SoftLa
 		])) {
 			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
 		} else if(in_array($file_name, [
-			'demo'])){
+			'demo'])){	
+			// Contact Form 7
+			softlab_dequeue_plugin_assets('contact-form-7');
+
+			// EACF7
+			softlab_dequeue_plugin_assets('essential-addons-for-contact-form-7');
+
+			// Multimedia Player
+			softlab_dequeue_plugin_assets('soft-multimedia-player-premium');
+
+			// Soft Docs
+			softlab_dequeue_plugin_assets('soft-docs');
+
+			// Fluent form
+			softlab_dequeue_plugin_assets('fluentform');
+
+			// Enqueue style & script
 			wp_enqueue_style('demo', get_theme_file_uri('assets/css/demo.css'), array(), $theme_version, 'all');
 			wp_enqueue_style('sweetalert2', get_theme_file_uri('assets/vendor/sweetalert2/sweetalert2.min.css'), array(), $theme_version, 'all');
 
@@ -162,8 +178,6 @@ class SoftLa
 		wp_enqueue_script('twenty-twenty', get_theme_file_uri('assets/vendor/twenty/jquery.twentytwenty.js'), array(), $theme_version, true);
 		wp_enqueue_script('lity', get_theme_file_uri('assets/vendor/lity/lity.min.js'), array(), $theme_version, true);
 		wp_enqueue_script('masonary', get_theme_file_uri('assets/vendor/masonary.js'), array(), '4.2.2', true);
-
-		print_r($hook);
 
 		// Check if the current page is using the specific template
 		if (is_page_template('templates/eacf7-preview.php')) {

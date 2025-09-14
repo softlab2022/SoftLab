@@ -753,114 +753,137 @@ function get_form_content()
 	$post = get_post($post_id);
 
 	if ($post) :
-			?>
+		?>
+		<div class="col-lg-4 col-md-6">
+			<div class="main-item">
+				<div class="item-img">
+					<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($post->post_title); ?>">
+					<div class="item-button">
+						<div class="buttons-group">
+							<a href="<?php echo get_permalink($post_id); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
+						</div>
+					</div>
+				</div>
+				<div class="item-content">
+					<h4><?php echo esc_html($post->post_title); ?></h4>
+					<p><?php echo esc_html($post->post_content); ?></p>
+				</div>
+			</div>
+		</div>
+		<?php
+	else :
+		echo '<div class="col-12"><p>Post not found.</p></div>';
+	endif;
+
+	wp_die();
+}
+add_action('wp_ajax_get_form_content', 'get_form_content');
+add_action('wp_ajax_nopriv_get_form_content', 'get_form_content');
+
+/**
+ * Search posts via AJAX
+ */
+function contact_form_7_templates_search()
+{
+	$search   = !empty($_POST['search']) ? sanitize_text_field($_POST['search']) : '';
+	$category = !empty($_POST['category']) ? sanitize_text_field($_POST['category']) : '';
+
+	$args = [
+		'post_type'      => 'form',
+		'post_status'    => 'publish',
+		'posts_per_page' => -1,
+		's'              => $search,
+	];
+
+	if (!empty($category)) {
+		$args['tax_query'] = [
+			[
+				'taxonomy' => 'form_category',
+				'field'    => 'slug',
+				'terms'    => $category,
+			],
+		];
+	}
+
+	$posts = get_posts($args);
+
+	ob_start();
+	if (!empty($posts)) {
+		foreach ($posts as $post) {
+			$post_id = $post->ID;
+			$permalink = get_permalink($post_id);
+			$title     = esc_html($post->post_title);
+			$terms = get_the_terms($post_id, 'form_category');
+			$term_title = !empty($terms) && is_array($terms) ? esc_html($terms[0]->name) : 'Uncategorized';
+		?>
 			<div class="col-lg-4 col-md-6">
 				<div class="main-item">
 					<div class="item-img">
-						<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($post->post_title); ?>">
+						<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($title); ?>">
 						<div class="item-button">
 							<div class="buttons-group">
-								<a href="<?php echo get_permalink($post_id); ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
+								<a href="<?php echo $permalink; ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
 							</div>
 						</div>
 					</div>
 					<div class="item-content">
-						<h4><?php echo esc_html($post->post_title); ?></h4>
-						<p><?php echo esc_html($post->post_content); ?></p>
+						<h4><?php echo esc_html($title); ?></h4>
+						<p><?php echo get_the_excerpt($post_id); ?></p>
 					</div>
 				</div>
 			</div>
-			<?php
-		else :
-			echo '<div class="col-12"><p>Post not found.</p></div>';
-		endif;
-
-		wp_die();
-	}
-	add_action('wp_ajax_get_form_content', 'get_form_content');
-	add_action('wp_ajax_nopriv_get_form_content', 'get_form_content');
-
-	/**
-	 * Search posts via AJAX
-	 */
-	function contact_form_7_templates_search()
-	{
-		$search   = !empty($_POST['search']) ? sanitize_text_field($_POST['search']) : '';
-		$category = !empty($_POST['category']) ? sanitize_text_field($_POST['category']) : '';
-
-		$args = [
-			'post_type'      => 'form',
-			'post_status'    => 'publish',
-			'posts_per_page' => -1,
-			's'              => $search,
-		];
-
-		if (!empty($category)) {
-			$args['tax_query'] = [
-				[
-					'taxonomy' => 'form_category',
-					'field'    => 'slug',
-					'terms'    => $category,
-				],
-			];
+		<?php
 		}
-
-		$posts = get_posts($args);
-
-		ob_start();
-		if (!empty($posts)) {
-			foreach ($posts as $post) {
-				$post_id = $post->ID;
-				$permalink = get_permalink($post_id);
-				$title     = esc_html($post->post_title);
-				$terms = get_the_terms($post_id, 'form_category');
-				$term_title = !empty($terms) && is_array($terms) ? esc_html($terms[0]->name) : 'Uncategorized';
-			?>
-				<div class="col-lg-4 col-md-6">
-					<div class="main-item">
-						<div class="item-img">
-							<img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post_id) ?: 'https://via.placeholder.com/150'; ?>" alt="<?php echo esc_attr($title); ?>">
-							<div class="item-button">
-								<div class="buttons-group">
-									<a href="<?php echo $permalink; ?>" class="button1" target="_blank"><i class="fa-solid fa-eye"></i> View Demo</a>
-								</div>
-							</div>
-						</div>
-						<div class="item-content">
-							<h4><?php echo esc_html($title); ?></h4>
-							<p><?php echo get_the_excerpt($post_id); ?></p>
-						</div>
-					</div>
-				</div>
-			<?php
-			}
-		} else {
-			?>
-			<div class="col-12">
-				<p>No results found</p>
-			</div>
-	<?php
-		}
-
-		$html = ob_get_clean();
-		wp_send_json_success($html);
+	} else {
+		?>
+		<div class="col-12">
+			<p>No results found</p>
+		</div>
+<?php
 	}
-	add_action('wp_ajax_contact_form_7_templates_search', 'contact_form_7_templates_search');
-	add_action('wp_ajax_nopriv_contact_form_7_templates_search', 'contact_form_7_templates_search');
 
-	/**
-	 * Restrict search to blog posts
-	 */
-	function restrict_search_to_blog_posts($query)
-	{
-		if (!is_admin() && $query->is_main_query() && $query->is_search()) {
-			$query->set('post_type', 'post');
-			if (isset($_GET['cat']) && !empty($_GET['cat'])) {
-				$query->set('cat', absint($_GET['cat']));
-			}
-			if (isset($_GET['tag_id']) && !empty($_GET['tag_id'])) {
-				$query->set('tag_id', absint($_GET['tag_id']));
-			}
+	$html = ob_get_clean();
+	wp_send_json_success($html);
+}
+add_action('wp_ajax_contact_form_7_templates_search', 'contact_form_7_templates_search');
+add_action('wp_ajax_nopriv_contact_form_7_templates_search', 'contact_form_7_templates_search');
+
+/**
+ * Restrict search to blog posts
+ */
+function restrict_search_to_blog_posts($query)
+{
+	if (!is_admin() && $query->is_main_query() && $query->is_search()) {
+		$query->set('post_type', 'post');
+		if (isset($_GET['cat']) && !empty($_GET['cat'])) {
+			$query->set('cat', absint($_GET['cat']));
+		}
+		if (isset($_GET['tag_id']) && !empty($_GET['tag_id'])) {
+			$query->set('tag_id', absint($_GET['tag_id']));
 		}
 	}
-	add_action('pre_get_posts', 'restrict_search_to_blog_posts');
+}
+add_action('pre_get_posts', 'restrict_search_to_blog_posts');
+
+/**
+ * Dequeue all styles and scripts registered by a plugin with the given folder name.
+ *
+ * This function is useful when you want to disable all assets of a plugin.
+ *
+ * @param string $plugin_folder The folder name of the plugin to dequeue all assets from.
+ */
+function softlab_dequeue_plugin_assets( $plugin_folder ) {
+    global $wp_styles, $wp_scripts;
+
+    foreach ( $wp_styles->registered as $handle => $style ) {
+        if ( strpos( $style->src, '/plugins/' . $plugin_folder . '/' ) !== false ) {
+            wp_dequeue_style( $handle );
+        }
+    }
+
+    foreach ( $wp_scripts->registered as $handle => $script ) {
+        if ( strpos( $script->src, '/plugins/' . $plugin_folder . '/' ) !== false ) {
+            wp_dequeue_script( $handle );
+        }
+    }
+}

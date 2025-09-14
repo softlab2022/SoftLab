@@ -312,6 +312,9 @@
         font-weight: 500;
         line-height: 150%;
         background: linear-gradient(147deg, #78f 11.6%, #6e6dff 89.24%);
+        &:focus {
+          box-shadow: none; 
+        }
       }
 
       .success {

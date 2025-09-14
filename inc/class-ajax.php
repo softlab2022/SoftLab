@@ -74,6 +74,32 @@ class SoftLab_Ajax {
             $data = $products[$product];
         }
 
+        // Extract first and last name from email address
+        list($first_name, $last_name) = explode('@', $email);
+        $first_name = ucfirst(str_replace('.', '', $first_name));
+        $last_name = ucfirst(str_replace('.', '', $last_name));
+
+        $api_url = 'https://softlabbd.com/wp-json/fluent-crm/v2/subscribers';
+
+        $options = array(
+            'headers' => array(
+                'Authorization' => 'Basic ' . base64_encode('demo_api:viOp lOGv xzq4 7nDj WfR7 vikr'),
+                'Content-Type'  => 'application/json',
+            ),
+            'body'    => wp_json_encode(array(
+                'first_name'    => $first_name,
+                'last_name'     => $last_name,
+                'email'         => $email,
+                'status'        => 'subscribed',
+                'phone'         => '',
+                'tags'          => array(3),
+                'lists'         => array(8),
+            )),
+        );
+
+        // Send REST request to store subscriber
+        wp_remote_post( $api_url, $options );
+
         // Send mail
         $to      = $email;
         $subject = sprintf('SoftLab Demo Request for %s', esc_html($data['title']));
