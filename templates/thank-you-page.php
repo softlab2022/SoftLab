@@ -14,8 +14,8 @@ if (! isset($_GET['data'])) {
             <div class="row">
                 <div class="col-md-8 m-auto">
                     <div class="thank-you-header-content text-center">
-                        <h1 class="t-title"> <?php _e('🛒 Please Purchase first.', 'softlab'); ?> </h1>
-                        <p class="t-description"> <?php _e('We appreciate your trust in us.', 'softlab'); ?> </p>
+                        <h1 class="t-title"> <?php _e('🛒 Please Purchase First', 'softlab'); ?> </h1>
+                        <p class="t-description"> <?php _e('You can only access this page after completing your purchase', 'softlab'); ?> </p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ if (! isset($_GET['data'])) {
             <div class="row">
                 <div class="col-md-8 m-auto">
                     <div class="thank-you-header-content text-center">
-                        <h1 class="t-title"> <?php _e(' 🎉 Thank You for Your Purchase!', 'softlab'); ?> </h1>
+                        <h1 class="t-title"> <?php _e('🎉 Thank You for Your Purchase!', 'softlab'); ?> </h1>
                         <p class="t-description"> We appreciate your trust in us. Your order has been successfully placed, and you're now one step closer to unlocking powerful features of <?php echo esc_html($product_name); ?> </p>
                     </div>
                 </div>
@@ -199,67 +199,6 @@ if (! isset($_GET['data'])) {
             </div>
         </div>
     </div>
-
-    <script>
-        // jQuery(document).ready(function($) {
-        //     const urlParams = new URLSearchParams(window.location.search);
-        //     const data = urlParams?.get('data');
-
-        //     // Check if data exists
-        //     if (!data) {
-        //         return;
-        //     }
-
-        //     let dataObj = window.atob(data);
-        //     dataObj = JSON.parse(dataObj);
-
-        //     // image 
-        //     const image = dataObj?.image;
-        //     const imageElement = document.querySelector('.t-products-content img');
-        //     imageElement.src = image;
-
-        //     // product name
-        //     const productName = dataObj?.productName;
-        //     const productNameElement = document.querySelector('.product-details td:nth-child(1)');
-        //     const productNameTitleElement = document.querySelector('.order-product-details-title');
-        //     productNameElement.textContent = productName;
-        //     productNameTitleElement.textContent = productName;
-
-        //     // plan name
-        //     const planName = dataObj?.planName;
-        //     const planNameElement = document.querySelector('.product-details td:nth-child(2)');
-        //     planNameElement.textContent = planName;
-
-        //     // order date
-        //     const orderDateElement = document.querySelector('.order-details-date span');
-        //     orderDateElement.textContent = new Date().toLocaleDateString();
-
-
-        //     // Update Purchase Details
-        //     const purchase = dataObj?.purchase || {};
-        //     const planId = purchase?.plan_id;
-        //     const billingCycle = purchase?.billing_cycle == '12' ? 'Yearly' : 'Lifetime';
-        //     const amount = purchase?.amount_per_cycle;
-
-        //     document.querySelector('.product-details td:nth-child(3)').textContent = `$${amount}`;
-        //     document.querySelector('.product-details td:nth-child(4)').textContent = `$${amount}`;
-        //     document.querySelector('.order-details-amount span').textContent = `$${amount}`;
-
-        //     // Update customer details
-        //     const user = dataObj?.user || {};
-        //     const email = user.email;
-        //     const name = `${user.first} ${user.last}`;
-
-        //     document.querySelector('.customer-details td:nth-child(1)').textContent = name;
-        //     document.querySelector('.customer-details td:nth-child(2)').textContent = email;
-
-        //     // plan cycle
-        //     const planCycle = `${planName} - ${billingCycle}`;
-        //     document.querySelector('.order-details-plan span').textContent = planCycle;
-
-        //     console.log(dataObj);
-        // });
-    </script>
 
 <?php
 }
