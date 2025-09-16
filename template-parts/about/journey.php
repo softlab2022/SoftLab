@@ -5,8 +5,7 @@
                 <div class="journey-head text-center">
                     <h2><?php _e('Our <span>journey</span> so far', 'softlab');
                         ?></h2>
-                    <p><?php _e('As we start a new chapter this 2021, we are glad to share with you the result of our journey to
-                        provide you with the most qualitative wordpress solution to boost anykind website.', 'softlab');
+                    <p><?php _e('Our journey has always been about one thing — creating reliable, user-friendly WordPress solutions that help websites of all types reach their full potential.', 'softlab');
                         ?></p>
                 </div>
             </div>

@@ -6,7 +6,7 @@
     h1 {
       font-weight: 700;
       font-size: 3.4rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #151826;
       padding-bottom: 20px;
     }
@@ -14,7 +14,7 @@
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #5c637e;
       padding: 0 20px;
       margin-bottom: 60px;
@@ -79,7 +79,7 @@
       h3 {
         font-weight: 700;
         font-size: 3rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #151826;
         margin-bottom: 30px;
       }
@@ -87,7 +87,7 @@
       p {
         font-weight: 400;
         font-size: 1rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #5c637e;
         margin-bottom: 30px;
       }
@@ -107,7 +107,7 @@
       span {
         font-weight: 600;
         font-size: 1rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #151826;
         display: inline-flex;
         align-items: center;

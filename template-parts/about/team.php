@@ -50,7 +50,7 @@ $team_members = [
                 <div class="teamWrapper">
                     <div class="heades text-center">
                         <h1><?php _e('Meet with Our Creative Team', 'softlab'); ?></h1>
-                        <p><?php _e('We are a team of WordPress developers who love to build awesome teams.', 'softlab'); ?></p>
+                        <p><?php _e('Meet the passionate minds bringing creative ideas to life', 'softlab'); ?></p>
                     </div>
                 </div>
             </div>

@@ -393,14 +393,17 @@ $pro_fields = [
         </div>
     </div>
 </section>
+
 <script>
     (function($) {
         $(document).on('ready', function() {
+            const productIcon = '<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png';
+
             var handler = FS.Checkout.configure({
                 plugin_id: '9618',
                 plan_id: '16186',
                 public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
+                image: productIcon,
             });
 
             // Handle all buy button clicks dynamically
@@ -411,11 +414,30 @@ $pro_fields = [
                 var license = $card.find('[data-license]').attr('data-license');
                 var planName = $card.find('h3').text();
 
+                // assign product info
+                const productInfo = {
+                    productIcon: productIcon,
+                    planName: planName,
+                    productName: "Integrate Google Drive",
+                    docs: "https://softlabbd.com/docs-category/integrate-google-drive-docs/",
+                    video: "https://www.youtube.com/watch?v=3RqCA7J9HB4&list=PLaR5hjDXnXZyQI6LU-1Ijz_x9vkXQop7I",
+                    productDescription: "Complete Google Drive Cloud Solution For WordPress.",
+                };
+
                 handler.open({
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        console.log("Purchase Completed:", response);
+                        setTimeout(function() {
+                            // assign productInfo to response
+                            response.productInfo = productInfo;
+
+                            // data 
+                            const data = window.btoa(JSON.stringify(response));
+
+                            // redirect
+                            window.location.href = "<?php echo site_url('/thank-you'); ?>?data=" + data;
+                        }, 2000);
                     },
                     success: function(response) {
                         console.log("Purchase Successful:", response);
@@ -425,53 +447,3 @@ $pro_fields = [
         });
     })(jQuery);
 </script>
-
-
-<!-- <script>
-    ;
-    (function($) {
-        $(document).on('ready', function() {
-            var handler = FS.Checkout.configure({
-                plugin_id: '9618',
-                plan_id: '16186',
-                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-google-drive-new.png",
-            });
-
-            $('.buy-btn-single').on('click', function(e) {
-                e.preventDefault();
-
-                handler.open({
-                    name: 'Integrate Google Drive',
-                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
-
-                    // You can consume the response for after purchase logic.
-                    purchaseCompleted: function(response) {
-                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
-                    },
-
-                    success: function(response) {
-                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
-                    }
-                });
-            });
-            $('.buy-btn-pro').on('click', function(e) {
-                e.preventDefault();
-
-                handler.open({
-                    name: 'Integrate Google Drive',
-                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
-
-                    // You can consume the response for after purchase logic.
-                    purchaseCompleted: function(response) {
-                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
-                    },
-
-                    success: function(response) {
-                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
-                    }
-                });
-            });
-        });
-    })(jQuery);
-</script> -->

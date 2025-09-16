@@ -141,7 +141,7 @@
           a {
               font-weight: 700;
               font-size: 1rem;
-              line-height: 120%;
+              line-height: $line_height_h1;
               color: $p_color;
               margin-bottom: 0;
               text-decoration: none;
@@ -171,7 +171,7 @@
                 margin-top: 25px;
                 font-weight: 500;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: $p_color;
                 text-decoration: none;
                 display: inline-block;
@@ -186,7 +186,7 @@
             a {
                 font-weight: 500;
                 font-size: 1.1rem;
-                line-height: 150%;
+                line-height: $line_height_p;
                 color: #727BFF;
                 border: 1px solid #E5EDFF;
                 border-radius: 10px;
@@ -347,7 +347,7 @@
             h6 {
                 font-weight: 700;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: #fff;
                 margin-bottom: 0;
             }
@@ -369,7 +369,7 @@
                 margin-top: 25px;
                 font-weight: 500;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: $p_color;
                 text-decoration: none;
                 display: block;
@@ -392,7 +392,7 @@
                   a {
                     font-weight: 500;
                     font-size: 1rem;
-                    line-height: 120%;
+                    line-height: $line_height_h1;
                     color: $p_color;
                     display: inline-block;
                     i {
@@ -403,7 +403,7 @@
                 h5 {
                     font-weight: 600;
                     font-size: 1.5rem;
-                    line-height: 120%;
+                    line-height: $line_height_h1;
                     color: $p_color;
                     padding-top: 24px;
                     padding-bottom: 17px;
@@ -411,7 +411,7 @@
                 p {
                     font-weight: 400;
                     font-size: .9rem;
-                    line-height: 150%;
+                    line-height: $line_height_p;
                     color: $p_color;
                 }
             }
@@ -420,7 +420,7 @@
                 margin-top: 25px;
                 font-weight: 500;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: $p_color;
                 text-decoration: none;
                 display: block;
@@ -568,7 +568,7 @@
             h6 {
                 font-weight: 700;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: #fff;
                 margin-bottom: 0;
             }
@@ -580,7 +580,7 @@
                 margin-top: 25px;
                 font-weight: 500;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: $p_color;
                 text-decoration: none;
                 display: block;
@@ -603,7 +603,7 @@
                 a {
                     font-weight: 500;
                     font-size: 1rem;
-                    line-height: 120%;
+                    line-height: $line_height_h1;
                     color: $p_color;
                     display: inline-block;
                     i {
@@ -614,7 +614,7 @@
                 h5 {
                     font-weight: 600;
                     font-size: 1.5rem;
-                    line-height: 120%;
+                    line-height: $line_height_h1;
                     color: $p_color;
                     padding-top: 24px;
                     padding-bottom: 17px;
@@ -622,7 +622,7 @@
                 p {
                     font-weight: 400;
                     font-size: .9rem;
-                    line-height: 150%;
+                    line-height: $line_height_p;
                     color: $p_color;
                 }
                 img {
@@ -632,7 +632,7 @@
                 .add-unlimited {
                     font-weight: 400;
                     font-size: .9rem;
-                    line-height: 150%;
+                    line-height: $line_height_p;
                     color: $p_color;
                     margin-top: 25px;
                 }
@@ -642,7 +642,7 @@
                 margin-top: 25px;
                 font-weight: 500;
                 font-size: 1rem;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 color: $p_color;
                 text-decoration: none;
                 display: block;
@@ -658,7 +658,7 @@
                 span {
                   font-weight: 400;
                   font-size: 1.2rem;
-                  line-height: 150%;
+                  line-height: $line_height_p;
                   color: $h1_color;
                 }
                 .like {
@@ -696,7 +696,7 @@
                       margin-top: 0;
                       font-weight: 600;
                       font-size: 1.2rem;
-                      line-height: 150%;
+                      line-height: $line_height_p;
                       color: $p_color;
                     }
                     .help {

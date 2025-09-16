@@ -26,7 +26,7 @@
         color: #0056D7;
         font-size: 32px;
         font-weight: 700;
-        line-height: 120%;
+        line-height: $line_height_h1;
       }
     }
 
@@ -44,7 +44,7 @@
       font-weight: 400;
       font-size: 1.2rem;
       color: $p_color;
-      line-height: 150%;
+      line-height: $line_height_p;
       margin: 1rem 0rem 2rem 0rem;
     }
 
@@ -507,7 +507,7 @@
       color: #FFF;
       font-size: 18px;
       font-weight: 400;
-      line-height: 150%;
+      line-height: $line_height_p;
       margin-bottom: 0;
 
       span {
@@ -597,14 +597,14 @@
       span {
         font-weight: 700;
         font-size: 1.7rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #fff;
       }
 
       h5 {
         font-weight: 700;
         font-size: 1.7rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #fff;
         margin-bottom: 0;
       }
@@ -613,7 +613,7 @@
     .fact-item-desc {
       font-weight: 400;
       font-size: 1.2rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       text-transform: capitalize;
       color: #fff;
     }
@@ -646,7 +646,7 @@
       margin-bottom: .5rem;
       font-weight: 700;
       color: $h1_color;
-      line-height: 120%;
+      line-height: $line_height_h1;
 
 
     }
@@ -657,7 +657,7 @@
       margin-bottom: 2.5rem;
       padding: 0 11%;
       color: $p_color;
-      line-height: 150%;
+      line-height: $line_height_p;
     }
   }
 
@@ -691,7 +691,7 @@
       color: #5C637E;
       font-size: 24px;
       font-weight: 600;
-      line-height: 120%;
+      line-height: $line_height_h1;
       margin-bottom: 0;
       margin-top: 10px;
     }
@@ -930,7 +930,7 @@
     .feature-title {
       font-weight: 700;
       font-size: 3rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: $h1_color;
       // text-transform: capitalize;
       padding-top: 20px;
@@ -976,7 +976,7 @@
       span {
         font-weight: 500;
         font-size: .9rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: $h1_color;
         text-transform: capitalize;
         margin-right: 1rem;
@@ -1280,14 +1280,14 @@
         font-weight: 700;
         font-size: 1.2rem;
         color: $h1_color;
-        line-height: 120%;
+        line-height: $line_height_h1;
         text-transform: capitalize;
       }
 
       p {
         font-weight: 400;
         font-size: .9rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: $p_color;
         padding: 0 6%;
       }
@@ -1392,7 +1392,7 @@
     h2 {
       font-weight: 700;
       font-size: 3.5rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: $h1_color;
 
       span {
@@ -1517,7 +1517,7 @@
             span {
               font-weight: 400;
               font-size: .8rem;
-              line-height: 150%;
+              line-height: $line_height_p;
               color: #fff;
               margin-left: 10px;
               display: block;
@@ -1528,7 +1528,7 @@
         h3 {
           font-weight: 500;
           font-size: 1rem;
-          line-height: 150%;
+          line-height: $line_height_p;
           color: #000;
           margin-top: 10px;
         }
@@ -1564,7 +1564,7 @@
       color: $p_color;
       font-weight: 400;
       font-style: italic;
-      line-height: 150%;
+      line-height: $line_height_p;
       margin-top: 10px;
       overflow: hidden;
       display: -webkit-box;
@@ -1588,7 +1588,7 @@
       span {
         font-weight: 700;
         font-size: 1rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         padding-left: 10px;
         padding-top: 0px;
@@ -1687,7 +1687,7 @@
       font-weight: 700;
       font-size: 2.5rem;
       color: #fff;
-      line-height: 120%;
+      line-height: $line_height_h1;
     }
 
     p {
@@ -1706,7 +1706,7 @@
       border-radius: 5px;
       font-weight: 600;
       font-size: .9rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
 
       i {
         margin-right: 10px;

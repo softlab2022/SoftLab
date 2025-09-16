@@ -2,7 +2,7 @@
 // Free Features
 $free_features = [
     'All Free Features',
-     'From Dark to Light',
+    'From Dark to Light',
     'Custom Toggle Button Builder',
     'Dark Mode Live Edit Widget',
     'Page-Specific Dark Mode ',
@@ -24,7 +24,7 @@ $free_features = [
 // pro Features
 $pro_features = [
     'All Free Features',
-     'From Dark to Light',
+    'From Dark to Light',
     'Custom Toggle Button Builder',
     'Dark Mode Live Edit Widget',
     'Page-Specific Dark Mode ',
@@ -45,7 +45,7 @@ $pro_features = [
 ];
 $free_integrations = [
     'All Free Features',
-     'From Dark to Light',
+    'From Dark to Light',
     'Custom Toggle Button Builder',
     'Dark Mode Live Edit Widget',
     'Page-Specific Dark Mode ',
@@ -67,7 +67,7 @@ $free_integrations = [
 // Free Fields
 $free_fields = [
     'All Free Features',
-     'From Dark to Light',
+    'From Dark to Light',
     'Custom Toggle Button Builder',
     'Dark Mode Live Edit Widget',
     'Page-Specific Dark Mode ',
@@ -88,7 +88,7 @@ $free_fields = [
 // Pro Fields
 $pro_fields = [
     'All Free Features',
-     'From Dark to Light',
+    'From Dark to Light',
     'Custom Toggle Button Builder',
     'Dark Mode Live Edit Widget',
     'Page-Specific Dark Mode ',
@@ -387,11 +387,12 @@ $pro_fields = [
 <script>
     (function($) {
         $(document).on('ready', function() {
+            const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png";
             var handler = FS.Checkout.configure({
                 plugin_id: '11821',
                 plan_id: '20144',
                 public_key: 'pk_ccbb1ab247a8d4b30a84b68c27ecf',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/dracula-dark-mode.png",
+                image: productIcon,
             });
 
             // Handle all buy button clicks dynamically
@@ -402,11 +403,30 @@ $pro_fields = [
                 var license = $card.find('[data-license]').attr('data-license');
                 var planName = $card.find('h3').text();
 
+                // assign product info
+                const productInfo = {
+                    productIcon: productIcon,
+                    planName: planName,
+                    productName: "Dracula Dark Mode",
+                    docs: "https://softlabbd.com/docs-category/dracula-dark-mode-docs/",
+                    video: "https://www.youtube.com/watch?v=OHpY6X1Ha9g&list=PLaR5hjDXnXZzB_t1OoEGai98qfwpYqRYD",
+                    productDescription: "Dracula Dark Mode – Enhanced Accessibility, Dark Mode & Reading Mode for WordPress",
+                };
+
                 handler.open({
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        console.log("Purchase Completed:", response);
+                        setTimeout(function() {
+                            // assign productInfo to response
+                            response.productInfo = productInfo;
+
+                            // data 
+                            const data = window.btoa(JSON.stringify(response));
+
+                            // redirect
+                            window.location.href = "<?php echo site_url('/thank-you'); ?>?data=" + data;
+                        }, 2000);
                     },
                     success: function(response) {
                         console.log("Purchase Successful:", response);

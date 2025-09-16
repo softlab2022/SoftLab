@@ -40,21 +40,21 @@ $features = [
 <section id="feature">
     <div class="container">
 
-        <div class="feature-vector2">
+        <!-- <div class="feature-vector2">
             <img class="img-fluid"
-                 src="<?php echo get_template_directory_uri(); ?>/assets/images/home/features/vector1.png">
+                 src="<?php //echo get_template_directory_uri(); ?>/assets/images/home/features/vector1.png">
         </div>
 
         <div class="feature-vector">
             <img class="img-fluid"
-                 src="<?php echo get_template_directory_uri(); ?>/assets/images/home/features/vector2.png">
-        </div>
+                 src="<?php //echo get_template_directory_uri(); ?>/assets/images/home/features/vector2.png">
+        </div> -->
 
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="feature-head  text-center">
-                    <h2 class="feature-title"><?php _e('What\'s So Special about SofLab?', 'softlab'); ?></h2>
-                    <p class="feature-description"><?php _e('We help growing and solving small businesses around the world with our unique products and solutions', 'softlab'); ?></p>
+                    <h4 class="sub-hedding-title"><?php _e('Why Choose SofLab?', 'softlab'); ?></h4>
+                    <p class="sub-hedding-description"><?php _e('We help growing and solving small businesses around the world with our unique products and solutions', 'softlab'); ?></p>
                 </div>
             </div>
         </div>
@@ -78,8 +78,8 @@ $features = [
 
     </div>
 
-    <div class="feature-vector1">
+    <!-- <div class="feature-vector1">
         <img class="img-fluid"
-             src="<?php echo get_template_directory_uri(); ?>/assets/images/home/features/vector3.png">
-    </div>
+             src="<?php //echo get_template_directory_uri(); ?>/assets/images/home/features/vector3.png">
+    </div> -->
 </section>

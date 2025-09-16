@@ -82,7 +82,7 @@
       color: $h1_color;
       font-weight: 700;
       font-size: 2.5rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
 
       span {
         color: #08CD87;
@@ -104,7 +104,7 @@
       color: $p_color;
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
     }
 
     .product-images {
@@ -135,7 +135,7 @@
       color: $h1_color;
       font-weight: 600;
       font-size: .8rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       padding-top: .7rem;
     }
 

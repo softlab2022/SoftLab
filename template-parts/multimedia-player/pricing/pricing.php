@@ -8,7 +8,7 @@ $free_features = [
     'Advanced Playback Controls',
     'Customize Appearance & Typography',
     'Statistics',
-    
+
 ];
 
 // pro Features
@@ -328,11 +328,12 @@ $pro_fields = [
 <script>
     (function($) {
         $(document).on('ready', function() {
+            const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/logo.png";
             var handler = FS.Checkout.configure({
                 plugin_id: '19544',
                 plan_id: '32371',
                 public_key: 'pk_748528da58fc7c9adc04c7db011a1',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/logo.png",
+                image: productIcon,
             });
 
             // Handle all buy button clicks dynamically
@@ -343,11 +344,29 @@ $pro_fields = [
                 var license = $card.find('[data-license]').attr('data-license');
                 var planName = $card.find('h3').text();
 
+                // assign product info
+                const productInfo = {
+                    productIcon: productIcon,
+                    planName: planName,
+                    productName: "Soft Multimedia Player",
+                    docs: "https://softlabbd.com/docs-category/soft-multimedia-player/",
+                    video: "https://www.youtube.com/watch?v=JKbMmM2-WUU&list=PLaR5hjDXnXZz2XWNB482rgT4RiAaQEkim",
+                    productDescription: "Multimedia Player – Play Audio, Video & Podcasts Easily in WordPress",
+                };
                 handler.open({
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        // console.log("Purchase Completed:", response);
+                        setTimeout(function() {
+                            // assign productInfo to response
+                            response.productInfo = productInfo;
+
+                            // data 
+                            const data = window.btoa(JSON.stringify(response));
+
+                            // redirect
+                            window.location.href = "<?php echo site_url('/thank-you'); ?>?data=" + data;
+                        }, 2000);
                     },
                     success: function(response) {
                         // console.log("Purchase Successful:", response);

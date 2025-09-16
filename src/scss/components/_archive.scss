@@ -20,7 +20,7 @@
           li{
             a{
               font-size: 0.875rem;
-              line-height: 150%;
+              line-height: $line_height_p;
               color: #5C637E;
               background: rgba(142, 170, 249, 0.1);
               border-radius: 8px;
@@ -37,7 +37,7 @@
       }
       .card-title{
         font-size: 1.5rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #151826;
         margin-bottom: 1rem;
         font-weight: 600;
@@ -82,7 +82,7 @@
         //margin-top: 3rem;
     .page-numbers{
           font-size: 14px;
-          line-height: 150%;
+          line-height: $line_height_p;
           color: $p_color;
           font-weight: 400;
           text-decoration: none;

@@ -7,7 +7,7 @@
                     <div class="global-iamages-mbile">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/global-recognition.png" alt="" class="img-fluid">
                 </div>
-                    <p><?php _e('SoftLab’s WordPress solutions power websites across the world! Trusted by businesses and creators, our solutions make WordPress easier to earn us global recognition. Check out the impact we’ve made on the map!', 'softlab'); ?></p>
+                    <p><?php _e('Powering websites from every corner of the globe, our WordPress solutions have earned international recognition for innovation, reliability, and ease-of-use. Wherever you are, we’re here to help you succeed.', 'softlab'); ?></p>
                 </div>
 
             </div>

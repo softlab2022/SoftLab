@@ -13,7 +13,7 @@
             font-weight: 400;
             font-size: 1rem;
             color: $p_color;
-            line-height: 150%;
+            line-height: $line_height_p;
             padding: 1rem 8rem;
             margin-bottom: 60px;
         }
@@ -28,7 +28,7 @@
             color: rgba(21, 24, 38, 0.9);
             font-weight: 400;
             font-size: 1rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             margin-right: 15px;
 
             img {
@@ -122,7 +122,7 @@
     .heading-text {
         font-weight: 700;
         font-size: 3rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         padding-bottom: 30px;
     }
@@ -130,7 +130,7 @@
     .heading-description {
         font-weight: 400;
         font-size: 1rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: rgba(21, 24, 38, 0.6);
         padding-bottom: 70px;
     }
@@ -152,7 +152,7 @@
             .page-builder-text {
                 font-weight: 400;
                 font-size: 1rem;
-                line-height: 150%;
+                line-height: $line_height_p;
                 color: #151826;
             }
         }
@@ -170,7 +170,7 @@
         .feature-title {
             font-weight: 700;
             font-size: 2.5rem;
-            line-height: 120%;
+            line-height: $line_height_h1;
             color: $h1_color;
             text-transform: capitalize;
             padding-top: 40px;
@@ -180,7 +180,7 @@
         .feature-description {
             font-weight: 400;
             font-size: .9rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             color: $p_color;
             margin-bottom: 40px;
         }
@@ -596,7 +596,7 @@
     .heading-text {
         font-weight: 700;
         font-size: 3rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         padding-bottom: 30px;
         text-transform: capitalize;
@@ -605,7 +605,7 @@
     .heading-description {
         font-weight: 400;
         font-size: 1rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: rgba(21, 24, 38, 0.6);
         padding-bottom: 70px;
     }
@@ -627,7 +627,7 @@
             .popular-form-text {
                 font-weight: 400;
                 font-size: 1rem;
-                line-height: 150%;
+                line-height: $line_height_p;
                 color: #151826;
             }
         }
@@ -645,7 +645,7 @@
         .feature-title {
             font-weight: 700;
             font-size: 2.5rem;
-            line-height: 120%;
+            line-height: $line_height_h1;
             color: $h1_color;
             text-transform: capitalize;
             padding-top: 40px;
@@ -655,7 +655,7 @@
         .feature-description {
             font-weight: 400;
             font-size: .9rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             color: $p_color;
             margin-bottom: 40px;
         }
@@ -1143,7 +1143,7 @@
     .heading-text {
         font-weight: 700;
         font-size: 3rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         padding-bottom: 30px;
     }
@@ -1151,7 +1151,7 @@
     .heading-description {
         font-weight: 400;
         font-size: 1rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: rgba(21, 24, 38, 0.6);
         padding-bottom: 70px;
     }
@@ -1171,7 +1171,7 @@
             .ecommerce-plugins-text {
                 font-weight: 400;
                 font-size: 1rem;
-                line-height: 150%;
+                line-height: $line_height_p;
                 color: #151826;
             }
         }
@@ -1198,7 +1198,7 @@
         .wooco-title {
             font-weight: 700;
             font-size: 3rem;
-            line-height: 120%;
+            line-height: $line_height_h1;
             color: $h1_color;
             padding-bottom: 20px;
             padding-top: 10px;
@@ -1207,7 +1207,7 @@
         .wooco-description {
             font-weight: 400;
             font-size: 1rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             color: rgba(21, 24, 38, 0.6);
             padding-bottom: 70px;
             margin: 0 8rem;
@@ -1220,7 +1220,7 @@
         .feature-title {
             font-weight: 600;
             font-size: 2.5rem;
-            line-height: 120%;
+            line-height: $line_height_h1;
             color: $h1_color;
             padding-bottom: 10px;
             padding-top: 20px;
@@ -1229,7 +1229,7 @@
         .feature-description {
             font-weight: 400;
             font-size: 1rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             color: rgba(21, 24, 38, 0.6);
             padding: 0 4rem;
         }

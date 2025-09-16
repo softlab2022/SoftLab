@@ -1,10 +1,10 @@
 <section id="our-blog">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 m-auto">
+            <div class="col-lg-6 m-auto">
                 <div class="our-blog-head  text-center">
-                    <h2><?php _e('Latest Blog & News', 'softlab'); ?></h2>
-                    <p><?php _e('Read the latest updates about us, which new Features coming to help your website.', 'softlab'); ?></p>
+                    <h4 class="sub-hedding-title"><?php _e('Latest Blog & News', 'softlab'); ?></h4>
+                    <p class="sub-hedding-description"><?php _e('Read the latest updates about us, which new Features coming to help your website.', 'softlab'); ?></p>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                                     </div>
                                     <div class="our-blog-content-butt">
                                         <a href="<?php the_permalink(); ?>" class="read-more">
-                                            <span><?php _e('Read More', 'softlab'); ?></span>
+                                            <span><?php _e('View Post', 'softlab'); ?></span>
                                             <i class="fas fa-arrow-right"></i>
                                         </a>
                                     </div>

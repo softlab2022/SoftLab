@@ -15,7 +15,7 @@ get_header();
 			<div class="col-lg-7 m-auto">
 				<div class="header-content text-center">
 					<h2>About Us</h2>
-					<p>We are a small team who are helping businesses grow online with Easy & Affordable solutions</p>
+					<p>Helping businesses succeed online through simple, affordable WordPress solutions that actually work.</p>
 				</div>
 			</div>
 		</div>
