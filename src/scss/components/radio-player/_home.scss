@@ -219,7 +219,7 @@
       font-weight: 400;
       font-size: 1.1rem;
       color: $p_color;
-      line-height: 150%;
+      line-height: $line_height_p;
       padding-right: 20%;
       padding-bottom: 40px;
     }
@@ -230,7 +230,7 @@
       font-size: .9rem;
       padding: 15px 35px;
       font-weight: 600;
-      line-height: 150%;
+      line-height: $line_height_p;
     }
 
     .get {
@@ -433,7 +433,7 @@
       h3 {
         font-weight: 700;
         font-size: 3rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         text-transform: capitalize;
         padding-top: 20px;
@@ -504,7 +504,7 @@
       font-weight: 400;
       font-size: 1.1rem;
       color: $p_color;
-      line-height: 150%;
+      line-height: $line_height_p;
       padding: 0 95px;
       padding-bottom: 60px;
     }
@@ -516,7 +516,7 @@
       h3 {
         font-weight: 700;
         font-size: 2rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         text-transform: capitalize;
         padding-top: 20px;
@@ -742,7 +742,7 @@
   .ex-head {
     h1 {
       font-weight: 700;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #151826;
       font-size: 2.8rem;
       padding-bottom: 20px;
@@ -751,7 +751,7 @@
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #5c637e;
       padding: 0;
       margin-bottom: 60px;
@@ -789,7 +789,7 @@
       h5 {
         font-weight: 700;
         font-size: 1.3rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #151826;
         text-transform: capitalize;
         padding-top: 20px;
@@ -909,7 +909,7 @@
     h1 {
       font-weight: 700;
       font-size: 2.9rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: $h1_color;
     }
 
@@ -917,7 +917,7 @@
       font-weight: 400;
       font-size: 1rem;
       color: $p_color;
-      line-height: 150%;
+      line-height: $line_height_p;
       margin-bottom: 60px;
     }
   }
@@ -966,7 +966,7 @@
     h1 {
       font-weight: 700;
       font-size: 2.8rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #151826;
       margin-bottom: 60px;
     }
@@ -982,7 +982,7 @@
       span {
         font-weight: 700;
         font-size: 2rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #151826;
       }
 
@@ -990,7 +990,7 @@
         font-weight: 400;
         font-size: 1rem;
         color: #5c637e;
-        line-height: 150%;
+        line-height: $line_height_p;
         margin-bottom: 0;
         padding-top: 20px;
       }
@@ -1112,7 +1112,7 @@
       font-weight: 700;
       font-size: 2.9rem;
       color: #151826;
-      line-height: 120%;
+      line-height: $line_height_h1;
 
       span {
         color: $radio_player_color;
@@ -1123,7 +1123,7 @@
       font-weight: 400;
       font-size: 1rem;
       color: #5c637e;
-      line-height: 150%;
+      line-height: $line_height_p;
       padding: 0 90px;
     }
   }
@@ -1141,7 +1141,7 @@
       h6 {
         font-weight: 600;
         font-size: 1.5rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #5c637e;
 
       }
@@ -1177,7 +1177,7 @@
       p {
         font-size: 1.1rem;
         color: #5c637e;
-        line-height: 150%;
+        line-height: $line_height_p;
         margin-bottom: 20px;
         padding-right: 111px;
       }
@@ -1286,7 +1286,7 @@
     h2 {
       font-weight: 700;
       font-size: 2.8rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #151826;
       max-width: 561px;
       margin: auto;
@@ -1314,14 +1314,14 @@
         span {
           font-weight: 700;
           font-size: 1.7rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: #000;
         }
 
         h5 {
           font-weight: 700;
           font-size: 1.7rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: #000;
           margin-bottom: 0;
         }
@@ -1330,7 +1330,7 @@
       h6 {
         font-weight: 400;
         font-size: .9rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #5c637e;
       }
     }
@@ -1420,21 +1420,21 @@
       color: $radio_player_color;
       font-size: 24px;
       font-weight: 700;
-      line-height: 120%;
+      line-height: $line_height_h1;
     }
 
     h2 {
       font-size: 32px;
       color: $h1_color;
       font-weight: 700;
-      line-height: 120%;
+      line-height: $line_height_h1;
 
     }
 
     p {
       font-size: 18px;
       font-weight: 400;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: $p_color;
     }
   }
@@ -1458,7 +1458,7 @@
         font-size: 1.5rem;
         color: $h1_color;
         font-weight: 700;
-        line-height: 120%;
+        line-height: $line_height_h1;
         margin-bottom: 20px;
         display: block;
         transition: all linear .4s;
@@ -1473,14 +1473,14 @@
         font-size: 1rem;
         color: $p_color;
         font-weight: 400;
-        line-height: 150%;
+        line-height: $line_height_p;
       }
 
       a {
         color: $radio_player_color;
         font-size: 18px;
         font-weight: 600;
-        line-height: 150%;
+        line-height: $line_height_p;
         margin-bottom: 0;
         transition: all linear .4s;
 
@@ -1520,7 +1520,7 @@
         color: $radio_player_color;
         font-size: 24px;
         font-weight: 700;
-        line-height: 120%;
+        line-height: $line_height_h1;
       }
 
       h2 {
@@ -1564,14 +1564,14 @@
       font-weight: 700;
       font-size: 2.2rem;
       color: #fff;
-      line-height: 120%;
+      line-height: $line_height_h1;
     }
 
     p {
       margin-bottom: 0;
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #F9FAFF;
     }
   }

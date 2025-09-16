@@ -130,7 +130,15 @@ class SoftLa
 			'multimedia-podcast-player-skins',
 		])) {
 			wp_enqueue_style('multimedia-player-main', get_theme_file_uri('assets/css/multimedia-player-main.css'), array(), $theme_version, 'all');
-		} else {
+		} 
+		
+		else if (in_array($file_name, [
+			'thank-you-page',
+		])) {
+			wp_enqueue_style('thank-you-page', get_theme_file_uri('assets/css/thank-you-page.css'), array(), $theme_version, 'all');
+		}
+		
+		else {
 			wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 		}
 

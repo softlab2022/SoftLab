@@ -34,7 +34,7 @@ body.page-template-about {
     p {
       font-weight: 400;
       font-size: 16px;
-      line-height: 150%;
+      line-height: $line_height_p;
       $p_color: #5C637E;
       margin-right: 38%;
     }
@@ -125,7 +125,7 @@ body.page-template-about {
     h2 {
       font-weight: 700;
       font-size: 3rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: $h1_color;
       // padding-right: 18%;
       text-transform: capitalize;
@@ -138,7 +138,7 @@ body.page-template-about {
     p {
       font-weight: 400;
       font-size: 16px;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: $p_color;
       // margin-right: 4%;
       // padding-top: 5%;

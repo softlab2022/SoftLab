@@ -339,11 +339,12 @@ $pro_fields = [
 <script>
     (function($) {
         $(document).on('ready', function() {
+            const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/radio-player-new.png";
             var handler = FS.Checkout.configure({
                 plugin_id: '8684',
                 plan_id: '14508',
                 public_key: 'pk_6175576896c0d8c125d31e42287ab',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/radio-player-new.png",
+                image: productIcon,
             });
 
             // Handle all buy button clicks dynamically
@@ -354,11 +355,30 @@ $pro_fields = [
                 var license = $card.find('[data-license]').attr('data-license');
                 var planName = $card.find('h3').text();
 
+                // assign product info
+                const productInfo = {
+                    productIcon: productIcon,
+                    planName: planName,
+                    productName: "Radio Player",
+                    docs: "https://softlabbd.com/docs-category/radio-player/",
+                    video: "https://www.youtube.com/watch?v=60puFspgnK8&list=PLaR5hjDXnXZxHDAWtk7syboP6obo1uX3k",
+                    productDescription: "Live Shoutcast, Icecast and Audio Stream Player for WordPress.",
+                };
+
                 handler.open({
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        console.log("Purchase Completed:", response);
+                        setTimeout(function() {
+                            // assign productInfo to response
+                            response.productInfo = productInfo;
+
+                            // data 
+                            const data = window.btoa(JSON.stringify(response));
+
+                            // redirect
+                            window.location.href = "<?php echo site_url('/thank-you'); ?>?data=" + data;
+                        }, 2000);
                     },
                     success: function(response) {
                         console.log("Purchase Successful:", response);

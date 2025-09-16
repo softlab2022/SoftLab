@@ -17,7 +17,7 @@
             font-size: 30px;
             font-style: normal;
             font-weight: 500;
-            line-height: 150%;
+            line-height: $line_height_p;
         }
 
         h1 {
@@ -27,7 +27,7 @@
             font-size: 56px;
             font-style: normal;
             font-weight: 700;
-            line-height: 150%;
+            line-height: $line_height_p;
 
             span {
                 color: #F79A22;
@@ -213,7 +213,7 @@
                 color: #000;
                 font-size: 24px;
                 font-weight: 600;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 margin-bottom: 30px;
                 margin-top: 40px;
             }
@@ -222,7 +222,7 @@
                 color: rgba(0, 0, 0, 0.60);
                 font-size: 18px;
                 font-weight: 400;
-                line-height: 150%;
+                line-height: $line_height_p;
                 font-family: Inter;
                 margin-bottom: 50px;
             }
@@ -233,14 +233,14 @@
                 color: rgba(0, 0, 0, 0.70);
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 150%;
+                line-height: $line_height_p;
             }
 
             h6 {
                 color: #39B54F;
                 font-size: 50px;
                 font-weight: 600;
-                line-height: 120%;
+                line-height: $line_height_h1;
 
                 &:before {
                     content: "$";
@@ -258,7 +258,7 @@
                 color: #FFF;
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 150%;
+                line-height: $line_height_p;
                 border-radius: 10px;
                 background: linear-gradient(147deg, #2FB44B 0%, #39B54F 100%);
                 border: 1px solid #2FB44B;
@@ -436,7 +436,7 @@
             color: #FFF;
             font-size: 1.5rem;
             font-weight: 600;
-            line-height: 150%;
+            line-height: $line_height_p;
             display: block;
         }
 
@@ -626,7 +626,7 @@
             font-family: Inter;
             font-size: 48px;
             font-weight: 700;
-            line-height: 120%;
+            line-height: $line_height_h1;
         }
     }
 
@@ -693,7 +693,7 @@
                 color: #fff;
                 font-size: 24px;
                 font-weight: 600;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 margin-bottom: 30px;
                 margin-top: 40px;
             }
@@ -702,7 +702,7 @@
                 color: #B7B7B7;
                 font-size: 18px;
                 font-weight: 400;
-                line-height: 150%;
+                line-height: $line_height_p;
                 font-family: Inter;
                 margin-bottom: 50px;
             }
@@ -713,14 +713,14 @@
                 color: rgba(0, 0, 0, 0.70);
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 150%;
+                line-height: $line_height_p;
             }
 
             h6 {
                 color: #39B54F;
                 font-size: 50px;
                 font-weight: 600;
-                line-height: 120%;
+                line-height: $line_height_h1;
 
                 &:before {
                     content: "$";
@@ -741,7 +741,7 @@
                 color: #fff;
                 font-size: 1.5rem;
                 font-weight: 600;
-                line-height: 150%;
+                line-height: $line_height_p;
                 display: block;
                 margin-bottom: 12px;
                 font-size: 16px;
@@ -791,7 +791,7 @@
                 color: #FFF;
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 150%;
+                line-height: $line_height_p;
                 border-radius: 10px;
                 background: linear-gradient(147deg, #2FB44B 0%, #39B54F 100%);
                 border: 1px solid #2FB44B;
@@ -1037,7 +1037,7 @@
                     color: #4D4D4D;
                     font-size: 1.5rem;
                     font-weight: 600;
-                    line-height: 150%;
+                    line-height: $line_height_p;
                     display: block;
                     margin-bottom: 12px;
                     font-size: 16px;
@@ -1097,7 +1097,7 @@
             color: #111;
             font-size: 1.5rem;
             font-weight: 600;
-            line-height: 150%;
+            line-height: $line_height_p;
             padding: 10px 20px;
             border-radius: 8px;
             border: 3px solid #fff;
@@ -1466,7 +1466,7 @@
                 color: #fff;
                 font-size: 24px;
                 font-weight: 600;
-                line-height: 120%;
+                line-height: $line_height_h1;
                 margin-bottom: 30px;
                 margin-top: 40px;
             }
@@ -1475,7 +1475,7 @@
                 color: #b7b7b7;
                 font-size: 18px;
                 font-weight: 400;
-                line-height: 150%;
+                line-height: $line_height_p;
                 font-family: Inter;
                 margin-bottom: 50px;
             }
@@ -1486,14 +1486,14 @@
                 color: rgba(0, 0, 0, 0.70);
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 150%;
+                line-height: $line_height_p;
             }
 
             h6 {
                 color: #39B54F;
                 font-size: 50px;
                 font-weight: 600;
-                line-height: 120%;
+                line-height: $line_height_h1;
 
                 &:before {
                     content: "$";
@@ -1514,7 +1514,7 @@
                 color: #fff;
                 font-size: 1.5rem;
                 font-weight: 600;
-                line-height: 150%;
+                line-height: $line_height_p;
                 display: block;
                 margin-bottom: 12px;
                 font-size: 16px;
@@ -1565,7 +1565,7 @@
                 color: #FFF;
                 font-size: 18px;
                 font-weight: 500;
-                line-height: 150%;
+                line-height: $line_height_p;
                 border-radius: 10px;
                 background: linear-gradient(147deg, #2FB44B 0%, #39B54F 100%);
                 border: 1px solid #2FB44B;
@@ -1794,7 +1794,7 @@
                     color: #4D4D4D;
                     font-size: 1.5rem;
                     font-weight: 600;
-                    line-height: 150%;
+                    line-height: $line_height_p;
                     display: block;
                     margin-bottom: 12px;
                     font-size: 16px;

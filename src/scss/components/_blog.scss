@@ -1,5 +1,14 @@
 .blog-header {
   background: url("../images/blog/blog-bg.png") no-repeat center / cover;
+  // background:
+  //   radial-gradient(at 10% 70%,
+  //     rgba(94, 20, 232, 0.20) 0px, transparent 50%) repeat scroll 0% 0%,
+
+  //   radial-gradient(at 79% 20%, rgba(29, 213, 208, 0.22) 0px,
+  //     transparent 50%) repeat scroll 0% 0%,
+
+  //   radial-gradient(at 50% 30%, rgba(255, 119, 0, 0.2) 0px,
+  //     transparent 50%) repeat scroll 0% 0%, ;
   padding: 120px 0px 88px 0;
 
   .news-letter-form {
@@ -71,9 +80,10 @@
 
   }
 
-  @media (min-width: 768px) and (max-width: 991px)  {
+  @media (min-width: 768px) and (max-width: 991px) {
     padding: 120px 0px 40px 0;
   }
+
   @media (max-width: 767.98px) {
     padding: 80px 0px 40px 0;
   }
@@ -96,14 +106,14 @@
       color: $h1_color;
       font-size: 32px;
       font-weight: 600;
-      line-height: 120%;
+      line-height: $line_height_h1;
       /* 38.4px */
     }
 
     .btn {
       font-weight: 400;
       font-size: 14px;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: $p_color;
       border-radius: 8px;
       margin: 0 5px;
@@ -116,7 +126,8 @@
         color: #fff;
         box-shadow: (6px 6px 14px rgba(142, 170, 249, 0.4));
       }
-     &.active {
+
+      &.active {
         background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
         border-color: #6E6DFF;
         color: #fff;
@@ -288,7 +299,7 @@
 
           a {
             font-size: .875rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             color: $p_color;
             background: rgba(142, 170, 249, 0.1);
             border-radius: 8px;
@@ -320,7 +331,7 @@
     &-title {
       a {
         font-size: 1.5rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: $h1_color;
         margin-bottom: 1rem;
         font-weight: 600;
@@ -336,7 +347,7 @@
     &-footer {
       .read-more {
         font-size: 14px;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: $p_color;
         font-weight: 400;
         text-decoration: none;
@@ -366,7 +377,7 @@
 
     .page-numbers {
       font-size: 14px;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: $p_color;
       font-weight: 400;
       text-decoration: none;
@@ -408,7 +419,7 @@
           color: $p_color;
           font-size: .9rem;
           font-weight: 400;
-          line-height: 150%;
+          line-height: $line_height_p;
         }
       }
 
@@ -421,7 +432,7 @@
       h3 {
         font-weight: 600;
         font-size: 2rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: $h1_color;
         text-transform: capitalize;
         padding-bottom: 2%;
@@ -440,7 +451,7 @@
         h6 {
           font-weight: 600;
           font-size: 1.1rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           padding: 0 3%;
           color: $h1_color;
           margin-right: 11%;
@@ -454,7 +465,7 @@
         h2 {
           font-weight: 600;
           font-size: 2rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: $h1_color;
           text-transform: capitalize;
           padding-bottom: 2%;
@@ -473,7 +484,7 @@
           color: $p_color;
           font-size: .9rem;
           font-weight: 400;
-          line-height: 120%;
+          line-height: $line_height_h1;
           border: 1px solid #ECF1FA;
           padding: 12px 19px;
           border-radius: 10px;
@@ -494,7 +505,7 @@
   .wp-block-search__label {
     font-weight: 700;
     font-size: .9rem;
-    line-height: 150%;
+    line-height: $line_height_p;
     color: #5c637e;
     margin-bottom: 20px;
   }
@@ -533,7 +544,7 @@
     h2 {
       font-weight: 600;
       font-size: 2rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: $h1_color;
       margin-bottom: 24px;
       margin-top: 30px;
@@ -543,7 +554,7 @@
       a {
         color: #5c637e;
         font-weight: 500;
-        line-height: 120%;
+        line-height: $line_height_h1;
         font-size: 1rem;
         padding-bottom: 2px;
         display: inline-block;

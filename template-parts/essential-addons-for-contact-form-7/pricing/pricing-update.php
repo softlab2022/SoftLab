@@ -421,11 +421,12 @@ $pro_fields = [
 <script>
     (function($) {
         $(document).on('ready', function() {
+            const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/cf7-logo.png";
             var handler = FS.Checkout.configure({
                 plugin_id: '16650',
                 plan_id: '27778',
                 public_key: 'pk_a223a352b97599f958e06405bad79',
-                image: "<?php echo get_template_directory_uri(); ?>/assets/images/products/cf7-logo.png",
+                image: productIcon,
             });
 
             // Handle all buy button clicks dynamically
@@ -436,11 +437,30 @@ $pro_fields = [
                 var license = $card.find('[data-license]').attr('data-license');
                 var planName = $card.find('h3').text();
 
+                // assign product info
+                const productInfo = {
+                    productIcon: productIcon,
+                    planName: planName,
+                    productName: "Essential Addons for Contact Form 7",
+                    docs: "https://softlabbd.com/docs-category/essential-addons-for-contact-form-7/",
+                    video: "https://www.youtube.com/watch?v=BH1dWEroHFs&list=PLaR5hjDXnXZygCofRqBvMT0n5aVFmwXjM&pp=0gcJCZYEOCosWNin",
+                    productDescription: "Extend Capabilities & Custom Functionalities for Contact Form 7",
+                };
+
                 handler.open({
                     name: planName,
                     licenses: license,
                     purchaseCompleted: function(response) {
-                        console.log("Purchase Completed:", response);
+                        setTimeout(function() {
+                            // assign productInfo to response
+                            response.productInfo = productInfo;
+
+                            // data 
+                            const data = window.btoa(JSON.stringify(response));
+
+                            // redirect
+                            window.location.href = "<?php echo site_url('/thank-you'); ?>?data=" + data;
+                        }, 2000);
                     },
                     success: function(response) {
                         console.log("Purchase Successful:", response);

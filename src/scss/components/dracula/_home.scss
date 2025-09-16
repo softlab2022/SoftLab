@@ -337,7 +337,7 @@
     h3 {
       font-weight: 700;
       font-size: 45px;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
       padding: 20px 0;
 
@@ -373,7 +373,7 @@
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: rgba(255, 255, 255, 0.8);
       padding-bottom: 40px;
     }
@@ -548,7 +548,7 @@
     span {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #fff;
       display: block;
       padding-bottom: 50px;
@@ -560,7 +560,7 @@
       padding: 18px 40px;
       font-weight: 600;
       font-size: 1rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
     }
   }
@@ -579,7 +579,7 @@
     h1 {
       font-weight: 600;
       font-size: 3rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
 
       span {
@@ -593,7 +593,7 @@
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: rgba(255, 255, 255, 0.8);
       padding-top: 15px;
       padding-bottom: 65px;
@@ -611,7 +611,7 @@
     h5 {
       font-weight: 700;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #fff;
       margin-top: 12px;
     }
@@ -679,7 +679,7 @@
     h3 {
       font-weight: 700;
       font-size: 2.1rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
       margin-top: 30px;
     }
@@ -687,7 +687,7 @@
     p {
       font-weight: 400;
       font-size: .9rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: rgba(255, 255, 255, 0.8);
       margin-bottom: 30px;
     }
@@ -697,7 +697,7 @@
     p {
       font-weight: 500;
       font-size: 1.2rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
     }
   }
@@ -709,7 +709,7 @@
       padding: 18px 40px;
       font-weight: 700;
       font-size: 1rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
     }
   }
@@ -777,7 +777,7 @@
     h1 {
       font-weight: 700;
       font-size: 3rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
 
       span {
@@ -791,7 +791,7 @@
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: rgba(255, 255, 255, 0.8);
       margin-bottom: 60px;
     }
@@ -828,7 +828,7 @@
             span {
               font-weight: 400;
               font-size: .8rem;
-              line-height: 150%;
+              line-height: $line_height_p;
               color: #fff;
               margin-left: 10px;
               display: block;
@@ -839,7 +839,7 @@
         h3 {
           font-weight: 500;
           font-size: 1rem;
-          line-height: 150%;
+          line-height: $line_height_p;
           color: #fff;
           margin-top: 10px;
         }
@@ -852,7 +852,7 @@
       h3 {
         font-weight: 500;
         font-size: 1.5rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #fff;
         margin-top: 10px;
       }
@@ -860,7 +860,7 @@
       p {
         font-weight: 400;
         font-size: 1rem;
-        line-height: 150%;
+        line-height: $line_height_p;
         color: #fff;
         margin-top: 0px;
         overflow: hidden;
@@ -1025,14 +1025,14 @@
     h1 {
       font-weight: 800;
       font-size: 3rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
     }
 
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: rgba(255, 255, 255, 0.8);
       margin-bottom: 40px;
     }
@@ -1156,7 +1156,7 @@
     h3 {
       font-weight: 700;
       font-size: 3rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #fff;
 
       span {
@@ -1170,7 +1170,7 @@
     p {
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: rgba(255, 255, 255, 0.8);
       margin-bottom: 60px;
       // span {

@@ -11,7 +11,7 @@
     p {
       font-weight: 400;
       font-size: 1.1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #5c637e;
       padding-top: 5%;
       padding-right: 20%;
@@ -33,7 +33,7 @@
       text-decoration: none;
       font-weight: 400;
       font-size: 1rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #5c637e;
 
       &:hover {
@@ -229,7 +229,7 @@
     p {
       font-weight: 400;
       font-size: .9rem;
-      line-height: 150%;
+      line-height: $line_height_p;
       color: #5c637e;
       margin-top: 20px;
     }
@@ -250,7 +250,7 @@
           a {
             font-weight: 400;
             font-size: .9rem;
-            line-height: 150%;
+            line-height: $line_height_p;
             color: #5c637e;
             text-decoration: none;
 

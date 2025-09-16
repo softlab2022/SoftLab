@@ -7,13 +7,13 @@
       font-weight: 700;
       font-size: 1.5rem;
       color: #01aa47;
-      line-height: 120%;
+      line-height: $line_height_h1;
     }
 
     h2 {
       font-weight: 700;
       font-size: 2rem;
-      line-height: 120%;
+      line-height: $line_height_h1;
       color: #151826;
       padding-top: 15px;
       padding-bottom: 25px;
@@ -24,7 +24,7 @@
       font-weight: 400;
       font-size: 1rem;
       color: #5c637e;
-      line-height: 150%;
+      line-height: $line_height_p;
       margin-bottom: 60px;
     }
   }
@@ -61,7 +61,7 @@
       h3 {
         font-weight: 600;
         font-size: 1.8rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #01aa47;
         margin-bottom: 0;
         padding-bottom: 40px;
@@ -76,7 +76,7 @@
         margin-bottom: 0;
         font-weight: 600;
         font-size: 1rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #01aa47;
         background-color: rgba(#01aa47, .2);
         border-radius: 10px;
@@ -113,7 +113,7 @@
         margin-bottom: 0;
         font-weight: 600;
         font-size: 1rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #5c637e;
       }
 
@@ -146,7 +146,7 @@
         text-decoration: none;
         font-weight: 600;
         font-size: 1rem;
-        line-height: 120%;
+        line-height: $line_height_h1;
         color: #fff;
         padding: 15px 36px;
         background-color: #01aa47;
@@ -282,7 +282,7 @@
         font-weight: 700;
         font-size: 1.5rem;
         color: rgba(22, 173, 225, 1);
-        line-height: 120%;
+        line-height: $line_height_h1;
       }
     }
 
@@ -303,7 +303,7 @@
         h3 {
           font-weight: 600;
           font-size: 1.8rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: rgba(22, 173, 225, 1);
           margin-bottom: 0;
           padding-bottom: 40px;
@@ -318,7 +318,7 @@
           margin-bottom: 0;
           font-weight: 600;
           font-size: 1rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: rgba(22, 173, 225, 1);
           background-color: rgba(22, 173, 225, .2);
           border-radius: 10px;
@@ -355,7 +355,7 @@
           margin-bottom: 0;
           font-weight: 600;
           font-size: 1rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: #5c637e;
         }
   
@@ -388,7 +388,7 @@
           text-decoration: none;
           font-weight: 600;
           font-size: 1rem;
-          line-height: 120%;
+          line-height: $line_height_h1;
           color: #fff;
           padding: 15px 36px;
           background-color:rgba(22, 173, 225, 1);

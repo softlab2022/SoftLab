@@ -4,13 +4,19 @@ body {
   color: #5C637E;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #000;
 }
 
-.btn, a.btn {
+.btn,
+a.btn {
   color: #fff;
   padding: .7rem 1.2rem;
   background: linear-gradient(to right, #7788FF, #6E6DFF);
@@ -20,8 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   border: 1px solid linear-gradient(to right, #7788FF, #6E6DFF);
-  font-weight:500;
-  font-size:13px;
+  font-weight: 500;
+  font-size: 13px;
   border-radius: 100px;
   transition: all linear .4s;
 
@@ -39,4 +45,65 @@ h1, h2, h3, h4, h5, h6 {
 
 .w-80 {
   width: 80%;
+}
+
+// all sub hedding css here
+.sub-hedding-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: $h1_color;
+  line-height: $line_height_h1;
+}
+
+.sub-hedding-description {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  padding: 0 11%;
+  color: $p_color;
+  line-height: $line_height_p;
+}
+
+@media (min-width: 1200px) {
+  //Extra large
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  //Laptop
+  .sub-hedding-title {
+    font-size: 2.6rem;
+  }
+
+  .sub-hedding-description {
+    font-size: .885rem;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  //Tablet
+  .sub-hedding-title {
+    font-size: 2.2rem;
+  }
+
+  .sub-hedding-description {
+    font-size: .885rem;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .sub-hedding-title {
+    font-size: 1.5rem;
+    // padding-top: 2rem;
+    margin-bottom: .8rem;
+  }
+
+  .sub-hedding-description {
+    font-size: .9rem;
+    padding: 0;
+  }
+
 }

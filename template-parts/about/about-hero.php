@@ -10,8 +10,7 @@
                         </div>
                     <?php } ?>
                     <p class="head-descrption">
-                        <?php _e('A team is like a family, you work together day-in and day-out to touch the lives and businesses of others. For this, you need a common understanding and values.
-                        We like to provide Clean, Simple & Affordable Premium WordPress Plugins for You to Become the Next Big Thing in Your Website', 'softlab'); ?>
+                        <?php _e('We\'re more than just a team to fulfill big dreams. With a common vision and a deep understanding of what businesses need, we build clean, simple, and affordable premium WordPress plugins to help you build smarter, grow faster, and become the next big thing online.', 'softlab'); ?>
 
                         <i class="fa-solid fa-feather-pointed"></i>
                     </p>
@@ -42,7 +41,7 @@
                         </div>
                     <?php } ?>
                     <p>
-                        <?php _e('We make WordPress effortless for everyone, especially non-coders! At SoftLab, we build useful & creative WordPress solutions that simplify website management, helping users create, scale, and succeed—without the hassle.', 'softlab'); ?>
+                        <?php _e('Our goal is simple — to take the complexity out of WordPress. SoftLab builds tools that make WordPress easy for everyone — so you can stop worrying about the "how" and start focusing on the "wow."', 'softlab'); ?>
                     </p>
                 </div>
             </div>
