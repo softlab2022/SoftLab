@@ -23,16 +23,19 @@
       margin-bottom: 1.5rem;
       font-weight: 600;
       line-height: $line_height_h1;
+      font-family: "Inter", sans-serif;
 
       span {
-        background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        border: 1px solid double;
-        border-style: double;
-        border-color: #6E6DFF;
-        padding: 0px 10px;
+        // background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        color: #6E6DFF;
+        background: url("../images/home/solutions-border.png") no-repeat left center;
+        padding: 12px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
       }
     }
 
@@ -47,6 +50,7 @@
       font-size: 1.1rem;
       margin-bottom: 30px;
       line-height: $line_height_p;
+      font-family: "Inter", sans-serif;
     }
 
     .view-products-btn {
@@ -243,24 +247,14 @@
   .products-head {
     position: relative;
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: .5rem;
-      font-weight: 700;
-      color: $h1_color;
-      line-height: $line_height_h1;
+    // .sub-hedding-title {
 
+    //   line-height: $line_height_h1;
+    // }
 
-    }
-
-    p {
-      font-size: 1rem;
-      font-weight: 400;
-      margin-bottom: 2.5rem;
-      padding: 0 11%;
-      color: $p_color;
-      line-height: $line_height_p;
-    }
+    // p {
+    //   padding: 0 11%;
+    // }
   }
 
   .products-icon {
@@ -304,7 +298,7 @@
       margin-top: 0.8rem;
       margin-bottom: .5rem;
       color: $p_color;
-      padding: 1rem 0rem;
+      padding: .5rem 0rem 1rem 0rem;
       margin: 0;
     }
 
@@ -409,7 +403,7 @@
       background: linear-gradient(132deg, #EFEEFF 2.04%, #FFF 55.14%, #F7EDFE 97.83%);
       backdrop-filter: blur(30px);
       padding: 30px;
-      height: 358px;
+      height: 350px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -647,11 +641,24 @@
       }
     }
 
+    .products-icon {
+      width: 75px;
+      height: 75px;
+    }
+
     .products-item {
       margin-bottom: 40px;
 
       .product-description {
         font-size: .99rem;
+      }
+
+      .products-butt {
+        padding: 8px;
+      }
+
+      .active-user {
+        padding: 10px 8px;
       }
     }
 
@@ -666,14 +673,14 @@
     padding: 30px 0 30px 0;
 
     .products-head {
-      h1 {
-        font-size: 1.5rem;
-        // padding-top: 2rem;
-      }
+      // h1 {
+      //   font-size: 1.5rem;
+      //   // padding-top: 2rem;
+      // }
 
-      p {
-        font-size: .785rem;
-      }
+      // p {
+      //   font-size: .785rem;
+      // }
     }
 
     .products-item {
@@ -694,6 +701,10 @@
         margin-top: 0;
         margin-bottom: 0;
         padding: .5rem 0rem 1rem 0rem;
+      }
+
+      .products-butt {
+        padding: 8px;
       }
 
     }
@@ -721,6 +732,7 @@
 
     .sub-hedding-description {
       padding: 0;
+      margin-bottom: 2rem;
     }
   }
 
@@ -875,16 +887,16 @@
     .business-head {
       text-align: center;
 
-      h2 {
-        padding-top: 0px;
-        font-size: 1.5rem;
-      }
+      // h2 {
+      //   padding-top: 0px;
+      //   font-size: 1.5rem;
+      // }
 
-      p {
-        font-size: .785rem;
-        padding-bottom: 0;
-        padding-right: 0;
-      }
+      // p {
+      //   font-size: .785rem;
+      //   padding-bottom: 0;
+      //   padding-right: 0;
+      // }
     }
 
   }
@@ -898,7 +910,7 @@
   position: relative;
 
   .feature-head {
-    margin-bottom: 3rem;
+    // margin-bottom: 3rem;
 
     .feature-title {
       color: $h1_color;
@@ -921,7 +933,7 @@
     margin-bottom: 1.4rem;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
-    height: 320px;
+    height: 300px;
 
     .feat-icon {
       transition: all 0.3s ease-in-out;
@@ -947,12 +959,13 @@
         line-height: $line_height_h1;
         color: $h1_color;
         padding-top: 10%;
+        margin-bottom: 15px;
       }
 
       p {
         color: $p_color;
         font-weight: 400;
-        font-size: .9rem;
+        font-size: 1rem;
         line-height: $line_height_p;
         padding: 0 1rem;
       }
@@ -965,28 +978,9 @@
   //   background-position: 0 0;
   //   background-size: cover;
   // }
-  
+
   .feature-head {
     position: relative;
-  }
-
-  .feature-vector {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-  }
-
-  .feature-vector1 {
-    position: absolute;
-    top: 25%;
-    left: 0;
-    z-index: -1;
-  }
-
-  .feature-vector2 {
-    position: absolute;
-    top: 10%;
-    right: 10%;
   }
 
   @media (min-width: 1200px) {
@@ -1033,19 +1027,7 @@
       }
     }
 
-    .feature-vector2 {
-      top: 3%;
-      right: 0%;
 
-      img {
-        width: 60%;
-      }
-    }
-
-    .feature-vector {
-      top: 3%;
-      left: 3%;
-    }
   }
 
   @media (max-width: 767.98px) {
@@ -1069,6 +1051,7 @@
 
     .feature-item {
       height: auto;
+      padding: 1rem;
 
       .feat-icon {
         img {
@@ -1083,19 +1066,7 @@
       }
     }
 
-    .feature-vector2 {
-      top: 3%;
-      right: 0%;
 
-      img {
-        width: 50%;
-      }
-    }
-
-    .feature-vector {
-      top: 3%;
-      left: 3%;
-    }
   }
 
 }
@@ -1144,26 +1115,24 @@
 
     .testimonial-rating {
       i {
-        color: #FF8F1E;
-        font-size: 1.5rem;
-        margin-bottom: 4%;
+        color: #FDD264;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
       }
     }
 
     .testimonial-content {
       h4 {
-        font-style: italic;
         font-weight: 400;
         font-size: 1.5rem;
         color: $h1_color;
       }
 
       p {
-        font-style: italic;
         font-weight: 400;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: $p_color;
-        padding: 1rem 0 0 0;
+        padding: 0rem 0 0 0;
         margin: 0;
       }
     }
@@ -1304,12 +1273,7 @@
 
   .amazing-head {
 
-    h2 {
-      font-weight: 700;
-      font-size: 3rem;
-      line-height: $line_height_h1;
-      color: $h1_color;
-      // text-transform: capitalize;
+    .sub-hedding-title {
       padding-bottom: 2rem;
       font-family: "Inter", sans-serif;
     }
@@ -1415,7 +1379,7 @@
   }
 
   @media(max-width: 767.98px) {
-    padding: 0;
+    padding: 40px 0;
 
     .amazing-head {
       .sub-hedding-title {

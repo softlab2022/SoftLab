@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   color: #000;
 }
@@ -30,6 +30,7 @@ a.btn {
   font-size: 13px;
   border-radius: 100px;
   transition: all linear .4s;
+  font-family: "Inter", sans-serif;
 
   &:focus {
     box-shadow: none;
@@ -50,19 +51,21 @@ a.btn {
 // all sub hedding css here
 .sub-hedding-title {
   font-size: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: 700;
   color: $h1_color;
   line-height: $line_height_h1;
+  font-family: "Inter", sans-serif;
 }
 
 .sub-hedding-description {
   font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4rem;
   padding: 0 11%;
   color: $p_color;
   line-height: $line_height_p;
+  font-family: "Inter", sans-serif;
 }
 
 @media (min-width: 1200px) {
@@ -71,6 +74,7 @@ a.btn {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
   //Laptop
   .sub-hedding-title {
     font-size: 2.6rem;
@@ -83,6 +87,7 @@ a.btn {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
   //Tablet
   .sub-hedding-title {
     font-size: 2.2rem;
@@ -99,11 +104,13 @@ a.btn {
     font-size: 1.5rem;
     // padding-top: 2rem;
     margin-bottom: .8rem;
+
   }
 
   .sub-hedding-description {
     font-size: .9rem;
     padding: 0;
+    margin-bottom: 2rem;
   }
 
 }

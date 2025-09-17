@@ -3,6 +3,20 @@
 @import "components/footer";
 @import "components/pricing";
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
 // Thank you page css area
 
 .thank-you-header {
@@ -82,11 +96,18 @@
   }
 
   .t-products-description {
+    .t-products-title {
+      color: $h1_color;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: $line_height_h1;
+    }
 
     span {
       color: rgba(0, 0, 0, 0.80);
       font-size: 18px;
       font-weight: 400;
+      font-family: "Inter", sans-serif;
     }
   }
 

@@ -8,12 +8,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/vector-star.png" alt="vector-star" class="img-fluid">
                     </div>
                     <h1 class="hedding-title">
-                        <?php
-                        printf(
-                            __('We Build Awesome %s for WordPress', 'softlab'),
-                            '<img src="' . esc_url(get_template_directory_uri() . '/assets/images/home/solutions.png') . '" alt="" class="img-fluid">'
-                        );
-                        ?>
+                        <?php _e('We Build Awesome <span>Solutions</span> for WordPress', 'softlab')?>
                     </h1>
 
 
