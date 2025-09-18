@@ -52,10 +52,17 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                                                                                 if (is_home() || is_front_page()) : echo ' home';
                                                                                 endif; ?>">
                         <div class="navbar-navs">
-                            <a class="navbar-brand brand-demo" href="<?php echo esc_url(home_url('/demo')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-                                <span><?php echo esc_html__('Softlab Demo Portal', 'softlab'); ?></span>
+                            <a class="navbar-brand brand-website" href="<?php echo esc_url(home_url()); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/softlab-logo.png" alt="site-logo">
                             </a>
+
+<!--                            <a class="navbar-brand brand-demo" href="--><?php //echo esc_url(home_url('/demo')); ?><!--" title="--><?php //echo esc_attr(get_bloginfo('name', 'display')); ?><!--" rel="home">-->
+<!--                                <span>--><?php //echo esc_html__('Softlab Demo Portal', 'softlab'); ?><!--</span>-->
+<!--                            </a>-->
                         </div>
+
+
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'softlab'); ?>">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -72,7 +79,10 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             <?php } ?>
 
                             <div class="ms-auto">
-                                <a href="/"><?php echo esc_html__('Back to Product Page', 'softlab'); ?></a>
+                                <a href="/">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                    <?php echo esc_html__('Back to Product Page', 'softlab'); ?>
+                                </a>
                             </div>
                         </div><!-- /.navbar-collapse -->
                     </nav><!-- /#header -->
