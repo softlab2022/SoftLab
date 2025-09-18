@@ -148,6 +148,7 @@ class SoftLa {
 			wp_enqueue_style( 'demo', get_theme_file_uri( 'assets/css/demo.css' ), array(), $theme_version, 'all' );
 			wp_enqueue_style( 'sweetalert2', get_theme_file_uri( 'assets/vendor/sweetalert2/sweetalert2.min.css' ), array(), $theme_version, 'all' );
 
+			wp_enqueue_script( 'wp-util' );
 			wp_enqueue_script( 'sweetalert2', get_theme_file_uri( 'assets/vendor/sweetalert2/sweetalert2.min.js' ), array( 'jquery' ), $theme_version, true );
 		} else if ( in_array( $file_name, [ 'thank-you-page', ] ) ) {
 			wp_enqueue_style( 'thank-you-page', get_theme_file_uri( 'assets/css/thank-you-page.css' ), array(), $theme_version, 'all' );
