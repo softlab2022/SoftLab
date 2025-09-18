@@ -20,6 +20,7 @@
 
                               
                             ?>
+                              <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo reading_time(); ?></span>
                              
                         </div>
                     </div>

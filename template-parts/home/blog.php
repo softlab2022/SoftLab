@@ -37,7 +37,19 @@
                                 </div>
                                 <div class="bolg-item">
                                     <div class="our-blog-content d-flex d-flex justify-content-between align-items-center">
-                                        <span class="blog-item-meta-category"><?php the_category(); ?></span>
+                                        <span class="blog-item-meta-category">
+                                            
+                                            <?php
+                                            
+                                            $categories = get_the_category();
+
+                                            if ($categories) {
+                                                foreach ($categories as $category) {
+                                                    echo '<a href="' . get_category_link($category->term_id) . '"> <i class="fa-solid fa-tag"></i>' . $category->name . '</a>';
+                                                }
+                                            }
+                                            ?>
+                                        </span>
                                         <span class="blog-item-meta-date">
                                             <i class="fas fa-calendar-alt"></i>
                                             <?php echo display_update_date(); ?>
@@ -46,9 +58,10 @@
                                     <div class="our-blog-content-item ">
                                         <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                     </div>
-                                    <div class="our-blog-content-butt">
+                                    <div class="our-blog-content-butt d-flex justify-content-between align-items-center">
+                                        <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo reading_time(); ?></span>
                                         <a href="<?php the_permalink(); ?>" class="read-more">
-                                            <span><?php _e('View Post', 'softlab'); ?></span>
+                                            <?php _e('View Post', 'softlab'); ?>
                                             <i class="fas fa-arrow-right"></i>
                                         </a>
                                     </div>

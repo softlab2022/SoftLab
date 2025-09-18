@@ -6,21 +6,21 @@
     <div class="container">
 
         <div class="row footer-top">
-            
-            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
-                    <div class="footer-main ">
-                        <div class="footer-logo">
-                            <a href="<?php echo home_url() ?>">
-                                <img class="img-fluid"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/softlab-logo.png"
-                                    alt="footer-logo">
-                            </a>
-                        </div>
 
-                        <div class="footer-contant">
-                            <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth</p>
-                        </div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center text-md-start">
+                <div class="footer-main ">
+                    <div class="footer-logo">
+                        <a href="<?php echo home_url() ?>">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/softlab-logo.png"
+                                alt="footer-logo">
+                        </a>
                     </div>
+
+                    <div class="footer-contant">
+                        <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth</p>
+                    </div>
+                </div>
                 <?php
                 $socials = [
                     'facebook'  => [
@@ -160,6 +160,82 @@
                 </div> -->
 
             </div>
+        </div>
+
+        <!-- footer cookie area -->
+        <div class="row">
+            <div class="col-md-10">
+                <div class="footer-cookie-area" id="footer-cookie">
+                    <div class="footer-cookie-area-text d-flex align-items-center justify-content-center">
+                        <span class="cookie-text">
+                            We use cookies to enhance your experience, analyze traffic, and deliver relevant content. By using softlabbd.com, you agree to our cookie policy.  <a href="/privacy-policy" target="_blank" class="cookie-link">Learn more</a>
+                        </span>
+                        <button class="cookie-decline">Decline</button>
+                        <button class="cookie-accept">Accept</button>
+                    </div>
+                </div>
+            </div>
+            <script>
+                // Cookie banner
+                
+                jQuery(document).ready(function($) {
+                    const $cookieBar = $("#footer-cookie");
+                    const $acceptBtn = $(".cookie-accept");
+                    const $declineBtn = $(".cookie-decline");
+
+                    // --- Helper functions ---
+                    function setCookie(name, value, days) {
+                        const d = new Date();
+                        d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+                        const expires = "expires=" + d.toUTCString();
+                        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+                    }
+
+                    function getCookie(name) {
+                        const cname = name + "=";
+                        const decodedCookie = decodeURIComponent(document.cookie);
+                        const ca = decodedCookie.split(';');
+                        for (let i = 0; i < ca.length; i++) {
+                            let c = ca[i];
+                            while (c.charAt(0) === ' ') {
+                                c = c.substring(1);
+                            }
+                            if (c.indexOf(cname) === 0) {
+                                return c.substring(cname.length, c.length);
+                            }
+                        }
+                        return "";
+                    }
+
+                    // --- Check if cookie already set ---
+                    const cookieConsent = getCookie("cookieConsent");
+                    if (cookieConsent === "accepted" || cookieConsent === "declined") {
+                        // Already chosen → hide
+                        $cookieBar.hide();
+                    } else {
+                        // Show after scroll
+                        $(window).on("scroll", function() {
+                            if ($(this).scrollTop() > 200) {
+                                $cookieBar.addClass("show");
+                            } else {
+                                $cookieBar.removeClass("show");
+                            }
+                        });
+                    }
+
+                    // Accept button → set cookie for 30 days
+                    $acceptBtn.on("click", function() {
+                        setCookie("cookieConsent", "accepted", 30);
+                        $cookieBar.hide();
+                    });
+
+                    // Decline button → set cookie for 30 days
+                    $declineBtn.on("click", function() {
+                        setCookie("cookieConsent", "declined", 30);
+                        $cookieBar.hide();
+                    });
+                });
+            </script>
         </div>
 
     </div>

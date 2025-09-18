@@ -39,8 +39,9 @@ body.search {
                     a {
                         font-size: 0.875rem;
                         line-height: $line_height_p;
-                        color: #5C637E;
-                        background: rgba(142, 170, 249, 0.1);
+                        color: #7788FF;
+                        background: transparent;
+                        border: 1px solid #7788FF;
                         border-radius: 8px;
                         padding: 5px 10px;
                         margin-right: 10px;
@@ -57,6 +58,12 @@ body.search {
                     font-weight: 600;
                 }
 
+                .blog-item-meta-time {
+                    margin-left: 15px;
+                    i {
+                        margin-right: 7px;
+                    }
+                }
                 a {
                     color: #000000;
 

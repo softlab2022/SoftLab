@@ -3,8 +3,8 @@
   // background: url("../images/home/hero-bg.png") #EEF2FE no-repeat left center;
   // background-size: contain;
   background:
-    radial-gradient(at 10% 70%,
-      rgba(94, 20, 232, 0.20) 0px, transparent 50%) repeat scroll 0% 0%,
+    radial-gradient(at 10% 60%,
+      rgba(94, 20, 232, 0.15) 0px, transparent 50%) repeat scroll 0% 0%,
 
     radial-gradient(at 79% 20%, rgba(29, 213, 208, 0.22) 0px,
       transparent 50%) repeat scroll 0% 0%,
@@ -59,7 +59,7 @@
       transition: all linear .4s;
       color: #fff;
       font-size: 1rem;
-      font-weight: 500;
+      font-weight: 400;
       display: flex;
       align-items: center;
       max-width: fit-content;
@@ -1182,6 +1182,9 @@
         line-height: $line_height_h1;
       }
     }
+    .testimonial-rating {
+      margin-bottom: 15px;
+    }
 
   }
 
@@ -1214,7 +1217,6 @@
         background: #fff;
         color: #6E6DFF;
         margin-left: 10px;
-        transform: rotate(-36deg);
       }
 
       &:hover {
@@ -1452,7 +1454,7 @@
       font-size: 1.1rem;
       padding: 15px 30px;
       color: #fff;
-      font-weight: 700;
+      font-weight: 400;
       transition: all linear .4s;
       border-radius: 100px;
 
@@ -1548,15 +1550,16 @@
 
   .our-blog-main {
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 16px;
     // height: 400px;
     min-height: 100%;
+    border: 1px solid #DDD;
 
     .our-blog-item {
       .our-blog-img {
         a {
           img {
-            border-radius: 12px;
+            border-radius: 16px 16px 0px 0px;
           }
         }
       }
@@ -1564,28 +1567,42 @@
 
     .bolg-item {
       padding: 20px;
+      border-top: 1px solid #DDD;
 
       .our-blog-content {
 
         .blog-item-meta-category {
-          ul {
-            margin-bottom: 0;
-            padding-left: 0;
-            list-style-type: none;
+          margin-bottom: 0;
+          padding-left: 0;
+          list-style-type: none;
 
-            li {
-              a {
-                font-weight: 500;
-                font-size: .8rem;
-                line-height: $line_height_p;
-                color: $p_color;
-              }
+          a {
+            font-weight: 400;
+            font-size: .8rem;
+            line-height: $line_height_p;
+            padding: 5px 10px;
+            color: #78F;
+            border-radius: 5px;
+            border: 0.5px solid #78F;
+            background: transparent;
+            display: block;
+            margin-bottom: 10px;
+            transition: all linear .4s ease-in-out;
+
+            i {
+              margin-right: 8px;
+              font-size: 16px;
+            }
+
+            &:hover {
+              background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+              color: #fff;
             }
           }
         }
 
         .blog-item-meta-date {
-          font-weight: 500;
+          font-weight: 400;
           font-size: .8rem;
           line-height: $line_height_p;
           color: $p_color;
@@ -1599,7 +1616,7 @@
 
           a {
             color: $h1_color;
-            font-weight: 600;
+            font-weight: 400;
             font-size: 1.1rem;
             line-height: $line_height_p;
 
@@ -1615,18 +1632,32 @@
   }
 
   .our-blog-content-butt {
-    text-align: end;
     margin-bottom: 20px;
+
+    .blog-item-meta-time {
+      color: #5C637E;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+
+      .fa-clock {
+        margin-right: 8px;
+        font-size: 20px;
+      }
+    }
 
     a {
       color: #6E6DFF;
       border: 1px solid #6E6DFF;
       border-radius: 50px;
       padding: 10px 15px;
-      font-weight: 500;
-      font-size: 1.1rem;
+      font-weight: 400;
+      font-size: 1rem;
       line-height: $line_height_p;
       text-decoration: none;
+      transition: all linear .4s ease-in-out;
 
       i {
         text-align: center;
@@ -1639,6 +1670,16 @@
         color: #6E6DFF;
         margin-left: 10px;
         transform: rotate(-36deg);
+      }
+
+      &:hover {
+        background: #6E6DFF;
+        color: #fff;
+
+        i {
+          border: 1px solid #fff;
+          color: #fff;
+        }
       }
     }
   }
