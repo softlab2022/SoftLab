@@ -166,7 +166,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 
 					if ( 'integrate google drive' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png';
-						$description = 'Complete Google Drive Cloud Solution For WordPress.';
+						$description = 'All-in-One Google Drive Integration for WordPress.';
 					} elseif ( 'radio player' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/radio-icon.png';
 						$description = 'Live Shoutcast, Icecast and Audio Stream Player for WordPress.';
@@ -180,7 +180,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					}
 					 elseif ( 'dracula dark mode' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png';
-						$description = 'Dracula Dark Mode – Enhanced Accessibility, Dark Mode & Reading Mode for WordPress';
+						$description = 'Enhanced Accessibility, Dark Mode & Reading Mode for WordPress';
 					}
 					 elseif ( 'connect dropbox' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/home/products/integrate-dropbox.png';
@@ -200,7 +200,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 					}
 					elseif ( 'multimedia player' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/logo.png';
-						$description = 'Multimedia Player – Play Audio, Video & Podcasts Easily in WordPress';
+						$description = 'Audio, Video & Podcasts Player for WordPress.';
 					}
 					elseif ( 'audio player skins' == strtolower( $title ) ) {
 						$image_url   = get_template_directory_uri() . '/assets/images/multimedia-player/audio-player-icon.png';

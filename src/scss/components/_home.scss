@@ -2,15 +2,12 @@
 .hero-area {
   // background: url("../images/home/hero-bg.png") #EEF2FE no-repeat left center;
   // background-size: contain;
-  background:
-    radial-gradient(at 10% 60%,
-      rgba(94, 20, 232, 0.15) 0px, transparent 50%) repeat scroll 0% 0%,
-
-    radial-gradient(at 79% 20%, rgba(29, 213, 208, 0.22) 0px,
-      transparent 50%) repeat scroll 0% 0%,
-
-    radial-gradient(at 50% 30%, rgba(255, 119, 0, 0.2) 0px,
-      transparent 50%) repeat scroll 0% 0%, ;
+  background: radial-gradient(at 10% 60%,
+          rgba(94, 20, 232, 0.15) 0px, transparent 50%) repeat scroll 0% 0%,
+  radial-gradient(at 79% 20%, rgba(29, 213, 208, 0.22) 0px,
+                  transparent 50%) repeat scroll 0% 0%,
+  radial-gradient(at 50% 30%, rgba(255, 119, 0, 0.2) 0px,
+                  transparent 50%) repeat scroll 0% 0%,;
 
 
   padding: 200px 0 100px 0;
@@ -589,7 +586,6 @@
   }
 
 
-
   @media (min-width: 1200px) {
     //Extra large
 
@@ -1084,6 +1080,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    pointer-events: none;
   }
 
   &.no-after {
@@ -1139,8 +1136,17 @@
 
     .testimonial-user-main {
       .rounded-circles {
-        width: 34px;
-        height: 34px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #DDD;
+        transition: all 0.3s ease-in-out;
+        border-radius: 50%;
+
+        &:hover {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transform: translateY(-2px);
+        }
+
       }
     }
 
@@ -1171,6 +1177,13 @@
           font-weight: 400;
           font-size: .98rem;
           display: block;
+
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            color: #0a53be;
+          }
+
         }
       }
 
@@ -1182,6 +1195,7 @@
         line-height: $line_height_h1;
       }
     }
+
     .testimonial-rating {
       margin-bottom: 15px;
     }

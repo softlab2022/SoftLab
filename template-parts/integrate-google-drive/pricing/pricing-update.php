@@ -421,7 +421,7 @@ $pro_fields = [
                     productName: "Integrate Google Drive",
                     docs: "https://softlabbd.com/docs-category/integrate-google-drive-docs/",
                     video: "https://www.youtube.com/watch?v=3RqCA7J9HB4&list=PLaR5hjDXnXZyQI6LU-1Ijz_x9vkXQop7I",
-                    productDescription: "Complete Google Drive Cloud Solution For WordPress.",
+                    productDescription: "All-in-One Google Drive Integration for WordPress",
                 };
 
                 handler.open({

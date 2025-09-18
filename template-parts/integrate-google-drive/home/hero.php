@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-8 m-auto">
                 <div class="hero-content text-center">
-                    <h1>Complete <span>Google Drive</span> Integration for WordPress</h1>
+                    <h1>All-in-One <span>Google Drive</span> Integration for WordPress</h1>
                     <?php if (wp_is_mobile()) { ?>
                         <div class="hero-image text-center">
                             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/google-drive/update-hero-image-v2.png" alt="Integrate Google Drive">
