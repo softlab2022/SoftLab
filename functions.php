@@ -863,3 +863,18 @@ function get_form_content()
 		}
 	}
 	add_action('pre_get_posts', 'restrict_search_to_blog_posts');
+
+
+
+	/**
+	 * Calculate reading time
+	 */
+	function reading_time()
+	{
+		$content = get_post_field('post_content', get_the_ID());
+		$word_count = str_word_count(strip_tags($content));
+		$reading_speed = 200;
+		$time = ceil($word_count / $reading_speed);
+
+		return $time . ' ' . _n('min read', 'min read', $time, 'softlab');
+	}
