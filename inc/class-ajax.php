@@ -96,7 +96,7 @@ class SoftLab_Ajax {
 
         // Send mail
         $to      = $email;
-        $subject = sprintf('SoftLab demo site created for %s', esc_html($data['title']));
+        $subject = sprintf('Demo Site Successfully Created for %s', esc_html($data['title']));
 
 
 		$logo_url = get_template_directory_uri() . '/assets/images/logo-color-full.png';
