@@ -28,7 +28,7 @@
 }
 
 .hero-section {
-  padding: 134px 0 70px 0;
+  padding: 130px 0 40px 0;
   background: url("../images/demo/hero-bg.png") no-repeat center / cover,
   radial-gradient(at 0% 20%, rgba(155, 115, 228, 0.15) 0px, transparent 50%) repeat scroll 0% 0%,
   radial-gradient(at 0% 80%, rgba(155, 115, 228, 0.15) 0px, transparent 50%) repeat scroll 0% 0%,
@@ -37,26 +37,22 @@
   radial-gradient(at 50% 10%, rgba(255, 119, 2, 0.08) 0px, transparent 50%) repeat scroll 0% 0%;
 
   img {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   h1 {
     color: #151826;
     text-align: center;
-    font-family: Inter;
     font-size: 54px;
-    font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
   }
 
   p {
     color: #5c637e;
     text-align: center;
-    font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 160%;
     margin: 0;
@@ -84,7 +80,7 @@
 }
 
 .explore-products {
-  padding: 40px 0 50px;
+  padding: 25px 0 50px;
   background: #f9faff;
 
   .section-title {
@@ -100,9 +96,7 @@
 
     p {
       color: #5c637e;
-      font-family: Inter;
       font-size: 16px;
-      font-style: normal;
       font-weight: 400;
       line-height: 150%;
       max-width: 480px;
@@ -228,9 +222,7 @@
 
     p {
       color: var(--Description-color, #5c637e);
-      font-family: Inter;
       font-size: 16px;
-      font-style: normal;
       font-weight: 400;
       line-height: 150%;
     }
@@ -306,8 +298,6 @@
         gap: 5px;
 
         p {
-          font-family: Inter;
-          font-style: normal;
           margin-bottom: 20px;
           color: rgba(21, 24, 38, 0.8);
           font-size: 16px;
@@ -331,9 +321,7 @@
         &::placeholder {
           color: rgba(92, 99, 126, 0.7);
           text-align: left;
-          font-family: Inter;
           font-size: 20px;
-          font-style: normal;
           font-weight: 400;
           line-height: 160%;
         }
