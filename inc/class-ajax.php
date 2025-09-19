@@ -33,31 +33,31 @@ class SoftLab_Ajax {
         $products = [
             'integrate-google-drive' => [
                 'title'     => 'Integrate Google Drive',
-                'recipe'    => 'https://tastewp.com/recipe/integrate-google-drive',
+                'recipe'    => 'https://tastewp.com/recipe/igd',
                 'docs'      => 'https://softlabbd.com/docs-category/integrate-google-drive-docs/',
                 'playlist'  => 'https://www.youtube.com/playlist?list=PLaR5hjDXnXZyQI6LU-1Ijz_x9vkXQop7I',
             ],
             'radio-player' => [
                 'title'     => 'Radio Player',
-                'recipe'    => 'https://tastewp.com/recipe/radio-player',
+                'recipe'    => 'https://tastewp.com/recipe/radioplayer',
                 'docs'      => 'https://softlabbd.com/docs-category/radio-player-docs/',
                 'playlist'  => 'https://www.youtube.com/playlist?list=PLaR5hjDXnXZxHDAWtk7syboP6obo1uX3k',
             ],
             'dracula-dark-mode' => [
                 'title'     => 'Dracula Dark Mode',
-                'recipe'    => 'https://tastewp.com/recipe/drakula-dark-mode',
+                'recipe'    => 'https://tastewp.com/recipe/ddm',
                 'docs'      => 'https://softlabbd.com/docs-category/dracula-dark-mode-docs/',
                 'playlist'  => 'https://www.youtube.com/playlist?list=PLaR5hjDXnXZzB_t1OoEGai98qfwpYqRYD',
             ],
             'essential-addons-for-contact-form-7' => [
                 'title'     => 'Essential Addons for Contact Form 7',
-                'recipe'    => 'https://tastewp.com/recipe/essential-addons-for-contact-form-7',
+                'recipe'    => 'https://tastewp.com/recipe/eacf7',
                 'docs'      => 'https://softlabbd.com/docs-category/essential-addons-for-contact-form-7-docs/',
                 'playlist'  => 'https://www.youtube.com/playlist?list=PLaR5hjDXnXZygCofRqBvMT0n5aVFmwXjM',
             ],
             'soft-multimedia-player' => [
                 'title'     => 'Multimedia Player',
-                'recipe'    => 'https://tastewp.com/recipe/soft-multimedia-player',
+                'recipe'    => 'https://tastewp.com/recipe/smp',
                 'docs'      => 'https://softlabbd.com/docs-category/soft-multimedia-player-docs/',
                 'playlist'  => 'https://www.youtube.com/playlist?list=PLaR5hjDXnXZz2XWNB482rgT4RiAaQEkim',
             ],
