@@ -146,15 +146,15 @@
 
                 <!-- <div class="footer-menu-bottom">
 					<?php
-                    wp_nav_menu(
-                        array(
-                            'theme_location' => 'footer-menu-bottom',
-                            'container'      => '',
-                            'menu_class'     => 'navbar-nav ms-auto',
-                            'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
-                            'walker'         => new WP_Bootstrap_Navwalker(),
-                        )
-                    );
+                    // wp_nav_menu(
+                    //     array(
+                    //         'theme_location' => 'footer-menu-bottom',
+                    //         'container'      => '',
+                    //         'menu_class'     => 'navbar-nav ms-auto',
+                    //         'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
+                    //         'walker'         => new WP_Bootstrap_Navwalker(),
+                    //     )
+                    // );
                     ?>
 
                 </div> -->
@@ -168,74 +168,13 @@
                 <div class="footer-cookie-area" id="footer-cookie">
                     <div class="footer-cookie-area-text d-flex align-items-center justify-content-center">
                         <span class="cookie-text">
-                            We use cookies to enhance your experience, analyze traffic, and deliver relevant content. By using softlabbd.com, you agree to our cookie policy.  <a href="/privacy-policy" target="_blank" class="cookie-link">Learn more</a>
+                            We use cookies to enhance your experience, analyze traffic, and deliver relevant content. By using softlabbd.com, you agree to our cookie policy. <a href="/privacy-policy" target="_blank" class="cookie-link">Learn more</a>
                         </span>
                         <button class="cookie-decline">Decline</button>
                         <button class="cookie-accept">Accept</button>
                     </div>
                 </div>
             </div>
-            <script>
-                // Cookie banner
-                
-                jQuery(document).ready(function($) {
-                    const $cookieBar = $("#footer-cookie");
-                    const $acceptBtn = $(".cookie-accept");
-                    const $declineBtn = $(".cookie-decline");
-
-                    // --- Helper functions ---
-                    function setCookie(name, value, days) {
-                        const d = new Date();
-                        d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
-                        const expires = "expires=" + d.toUTCString();
-                        document.cookie = name + "=" + value + ";" + expires + ";path=/";
-                    }
-
-                    function getCookie(name) {
-                        const cname = name + "=";
-                        const decodedCookie = decodeURIComponent(document.cookie);
-                        const ca = decodedCookie.split(';');
-                        for (let i = 0; i < ca.length; i++) {
-                            let c = ca[i];
-                            while (c.charAt(0) === ' ') {
-                                c = c.substring(1);
-                            }
-                            if (c.indexOf(cname) === 0) {
-                                return c.substring(cname.length, c.length);
-                            }
-                        }
-                        return "";
-                    }
-
-                    // --- Check if cookie already set ---
-                    const cookieConsent = getCookie("cookieConsent");
-                    if (cookieConsent === "accepted" || cookieConsent === "declined") {
-                        // Already chosen → hide
-                        $cookieBar.hide();
-                    } else {
-                        // Show after scroll
-                        $(window).on("scroll", function() {
-                            if ($(this).scrollTop() > 200) {
-                                $cookieBar.addClass("show");
-                            } else {
-                                $cookieBar.removeClass("show");
-                            }
-                        });
-                    }
-
-                    // Accept button → set cookie for 30 days
-                    $acceptBtn.on("click", function() {
-                        setCookie("cookieConsent", "accepted", 30);
-                        $cookieBar.hide();
-                    });
-
-                    // Decline button → set cookie for 30 days
-                    $declineBtn.on("click", function() {
-                        setCookie("cookieConsent", "declined", 30);
-                        $cookieBar.hide();
-                    });
-                });
-            </script>
         </div>
 
     </div>

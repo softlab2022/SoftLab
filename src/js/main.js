@@ -15,9 +15,6 @@ import "./components/sticky-banner";
 
             //Handle contact form tabs
             $(".contact-form .tab-item").on("click", app.handleContactForm);
-            //Handle modal video
-            // $("#open-modal").on("click", app.handleModalVideo);
-            // $(".modal-btn-close").on("click", app.handleModalVideoClose);
 
             //Handle popup img
             app.handlePopupimg();
@@ -47,6 +44,14 @@ import "./components/sticky-banner";
 
             app.handleChangeDotText();
 
+            // Handle mobile menu close
+            app.handleMobileMenuClose();
+
+            // handle contact form 7 preview
+            app.handleContactForm7Preview();
+
+            // handle cookie consent
+            app.handleCookieConsent();
         },
 
         openSearch: function (e) {
@@ -60,19 +65,6 @@ import "./components/sticky-banner";
         },
 
         initTestimonialSlider: function () {
-            // Home testimonial slider
-            $(".single-testimonial-items").slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                arrows: true,
-                autoplaySpeed: 3000,
-                speed: 2000,
-                contentPadding: "30px",
-                nextArrow: ".right",
-                prevArrow: ".left",
-                // adaptiveHeight: true,
-            });
             //multimedia player hero slider
             $(".hero-image-main").slick({
                 slidesToShow: 1,
@@ -127,6 +119,7 @@ import "./components/sticky-banner";
                     },
                 ],
             });
+
 
             //testimonial-items-cf7
             $(".testimonial-items-cf7").slick({
@@ -345,26 +338,6 @@ import "./components/sticky-banner";
             $('.slick-dots li:nth-child(3) button').text('Podcast Player');
         },
 
-
-        //Handle popup img js
-        // handlePopupimg: function () {
-        //     $('.single article img').click(function () {
-        //         var src = $(this).attr('src');
-
-        //         $.magnificPopup.open({
-        //             items: {
-        //                 src: src
-        //             },
-        //             type: 'image',
-        //             closeOnContentClick: true,
-        //             mainClass: 'mfp-img-mobile',
-        //             image: {
-        //                 verticalFit: true
-        //             }
-        //         });
-        //     });
-        // },
-
         //Handle popup img js
         handlePopupimg: function () {
             $('.single article img').click(function () {
@@ -382,7 +355,6 @@ import "./components/sticky-banner";
             $(`.contact-form-wrap.form-${$(this).data("target")}`).addClass("active");
         },
 
-
         handleToTop: function () {
             $("html, body").animate({ scrollTop: 0 }, "fast");
         },
@@ -393,6 +365,9 @@ import "./components/sticky-banner";
         },
 
         initImageCompare: function () {
+            // Image Compare
+            if (!$(".reader-mode-image-compare").length) return;
+
             $(".reader-mode-image-compare").twentytwenty({
                 //  How much of the before image is visible when the page loads
                 default_offset_pct: 0.5,
@@ -523,198 +498,170 @@ import "./components/sticky-banner";
             }
         },
 
-        // handleModalVideo: function () {
-        //     const modalContent = ``;
-        //     const targetElement = $(".hero-how-butt");
-        //     targetElement.append(modalContent);
-
-
-        // },
-
-        // handleModalVideoClose: function () {
-        //     const targetElement = $(".hero-how-butt").closest('#staticBackdrop');
-        //     console.log(targetElement);
-        //     targetElement.empty();
-
-        // },
-
-    };
-    $(document).on('click', '[data-lightbox]', lity);
-    //mobile menu close js
-    $(document).ready(function () {
-        const $menu = $('.mobile-menu');
-        const $closeBtn = $('#close_btn');
-        const $toggleMenuBtn = $('#menu-toggle');
-        $toggleMenuBtn.click(function () {
-            $menu.addClass('show');
-        });
-        $(document).click(function (e) {
-            if (!$menu.is(e.target) && $menu.has(e.target).length === 0 && !$toggleMenuBtn.is(e.target)) {
+        handleMobileMenuClose: function () {
+            const $menu = $('.mobile-menu');
+            const $closeBtn = $('#close_btn');
+            const $toggleMenuBtn = $('#menu-toggle');
+            $toggleMenuBtn.click(function () {
+                $menu.addClass('show');
+            });
+            $(document).click(function (e) {
+                if (!$menu.is(e.target) && $menu.has(e.target).length === 0 && !$toggleMenuBtn.is(e.target)) {
+                    $menu.removeClass('show');
+                }
+            });
+            $closeBtn.click(function () {
                 $menu.removeClass('show');
-            }
-        });
-        $closeBtn.click(function () {
-            $menu.removeClass('show');
-        });
-    });
+            });
+        },
 
+        handleContactForm7Preview: function () {
+            // Handle Show Code button click
+            const $showButtons = $(".show-buttons");
 
+            if ($showButtons.length) {
+                $(".show-buttons").on("click", function () {
+                    var index = $(this).data("index"); // Get the index from the data attribute
+                    var $formArea = $('.form-area[data-index="' + index + '"]');
+                    var $formCodeContainer = $formArea.find(".form-code");
+                    var $eacf7Form = $formArea.find(".eacf7-form");
+                    var $copyButton = $formArea.find(".copy-buttons");
+                    var $showButton = $(this); // Current Show Code button
 
-    // eacf7 preview js start
-    $(document).ready(function () {
-        // Handle Show Code button click
-        $(".show-buttons").on("click", function () {
-            var index = $(this).data("index"); // Get the index from the data attribute
-            var $formArea = $('.form-area[data-index="' + index + '"]');
-            var $formCodeContainer = $formArea.find(".form-code");
-            var $eacf7Form = $formArea.find(".eacf7-form");
-            var $copyButton = $formArea.find(".copy-buttons");
-            var $showButton = $(this); // Current Show Code button
-
-            // Toggle visibility of the form code and associated elements
-            if ($formCodeContainer.is(":visible")) {
-                $formCodeContainer.hide();
-                $eacf7Form.show();
-                $copyButton.hide();
-                $showButton.html('<i class="fa-solid fa-code"></i> Show Code'); // Change text to Show Code
-            } else {
-                $formCodeContainer.show();
-                $eacf7Form.hide();
-                $copyButton.show();
-                $showButton.html('<i class="fa-solid fa-code"></i> Hide Code'); // Change text to Hide Code
-            }
-        });
-
-        // Handle Copy Code button click
-        $(".copy-buttons").on("click", function () {
-            var index = $(this).data("index"); // Get the index from the data attribute
-            var $formArea = $('.form-area[data-index="' + index + '"]');
-            var codeText = $formArea.find(".form-code").text().trim();
-
-            copyToClipboard(codeText);
-        });
-
-        // Handle code content click to copy and select all
-        $(document).on("click", ".form-code code", function () {
-            var codeText = $(this).text().trim();
-
-            // Select all text in the code block
-            var range = document.createRange();
-            range.selectNodeContents(this);
-            var selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-
-            // Copy the code to the clipboard
-            copyToClipboard(codeText);
-        });
-
-        // Copy to clipboard function
-        function copyToClipboard(text) {
-            if (navigator.clipboard) {
-                navigator.clipboard.writeText(text)
-                    .then(function () {
-                        alert("Form code copied to clipboard!");
-                    })
-                    .catch(function (err) {
-                        console.error("Failed to copy code: ", err);
-                    });
-            } else {
-                // Fallback for unsupported Clipboard API
-                var textArea = document.createElement("textarea");
-                textArea.value = text;
-                document.body.appendChild(textArea);
-                textArea.select();
-                try {
-                    var successful = document.execCommand("copy");
-                    if (successful) {
-                        alert("Form code copied to clipboard!");
+                    // Toggle visibility of the form code and associated elements
+                    if ($formCodeContainer.is(":visible")) {
+                        $formCodeContainer.hide();
+                        $eacf7Form.show();
+                        $copyButton.hide();
+                        $showButton.html('<i class="fa-solid fa-code"></i> Show Code'); // Change text to Show Code
                     } else {
-                        alert("Copy failed.");
+                        $formCodeContainer.show();
+                        $eacf7Form.hide();
+                        $copyButton.show();
+                        $showButton.html('<i class="fa-solid fa-code"></i> Hide Code'); // Change text to Hide Code
                     }
-                } catch (err) {
-                    alert("Unable to copy text.");
-                } finally {
-                    document.body.removeChild(textArea);
+                });
+            }
+
+            // Handle Copy Code button click
+            $(".copy-buttons").on("click", function () {
+                var index = $(this).data("index"); // Get the index from the data attribute
+                var $formArea = $('.form-area[data-index="' + index + '"]');
+                var codeText = $formArea.find(".form-code").text().trim();
+
+                copyToClipboard(codeText);
+            });
+
+            // Handle code content click to copy and select all
+            $(document).on("click", ".form-code code", function () {
+                var codeText = $(this).text().trim();
+
+                // Select all text in the code block
+                var range = document.createRange();
+                range.selectNodeContents(this);
+                var selection = window.getSelection();
+                selection.removeAllRanges();
+                selection.addRange(range);
+
+                // Copy the code to the clipboard
+                copyToClipboard(codeText);
+            });
+
+            // Copy to clipboard function
+            function copyToClipboard(text) {
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(text)
+                        .then(function () {
+                            alert("Form code copied to clipboard!");
+                        })
+                        .catch(function (err) {
+                            console.error("Failed to copy code: ", err);
+                        });
+                } else {
+                    // Fallback for unsupported Clipboard API
+                    var textArea = document.createElement("textarea");
+                    textArea.value = text;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    try {
+                        var successful = document.execCommand("copy");
+                        if (successful) {
+                            alert("Form code copied to clipboard!");
+                        } else {
+                            alert("Copy failed.");
+                        }
+                    } catch (err) {
+                        alert("Unable to copy text.");
+                    } finally {
+                        document.body.removeChild(textArea);
+                    }
                 }
             }
+        },
+
+        handleCookieConsent: function () {
+            const $cookieBar = $(".footer-cookie-area");
+            const $acceptBtn = $(".cookie-accept");
+            const $declineBtn = $(".cookie-decline");
+
+            // --- Helper functions ---
+            function setCookie(name, value, days) {
+                const d = new Date();
+                d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+                const expires = "expires=" + d.toUTCString();
+                document.cookie = name + "=" + value + ";" + expires + ";path=/";
+            }
+
+            function getCookie(name) {
+                const cname = name + "=";
+                const decodedCookie = decodeURIComponent(document.cookie);
+                const ca = decodedCookie.split(';');
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) === ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(cname) === 0) {
+                        return c.substring(cname.length, c.length);
+                    }
+                }
+                return "";
+            }
+
+            // --- Check if cookie already set ---
+            const cookieConsent = getCookie("cookieConsent");
+            if (cookieConsent === "accepted" || cookieConsent === "declined") {
+                // Already chosen → hide
+                $cookieBar.hide();
+            } else {
+                // Show after scroll
+                $(window).on("scroll", function () {
+                    if ($(this).scrollTop() > 200) {
+                        $cookieBar.addClass("show");
+                    } else {
+                        $cookieBar.removeClass("show");
+                    }
+                });
+            }
+
+            // Accept button → set cookie for 30 days
+            $acceptBtn.on("click", function () {
+                setCookie("cookieConsent", "accepted", 30);
+                $cookieBar.hide();
+            });
+
+            // Decline button → set cookie for 30 days
+            $declineBtn.on("click", function () {
+                setCookie("cookieConsent", "declined", 30);
+                $cookieBar.hide();
+            });
         }
-    });
+    };
+
+    if ($('[data-lightbox]').length > 0) {
+        $(document).on('click', '[data-lightbox]', lity);
+    }
+
     // eacf7 preview js end
     $(document).ready(app.init);
 })(jQuery);
-
-
-// let $items = $('.slider-main .slider-item .item');
-// let $next = $('#next');
-// let $prev = $('#prev');
-
-// let active = 3;
-// let autoSlideInterval;
-
-// function loadShow() {
-//     let stt = 0;
-
-//     // Setting style for the active item
-//     $items.eq(active).css({
-//         transform: 'none',
-//         zIndex: 1,
-//         filter: 'none',
-//         opacity: 1
-//     });
-
-//     // For items after the active item
-//     for (let i = active + 1; i < $items.length; i++) {
-//         stt++;
-//         $items.eq(i).css({
-//             transform: `translateX(${120 * stt}px) scale(${1 - 0.2 * stt}) perspective(16px) rotateY(-1deg)`,
-//             zIndex: -stt,
-//             filter: 'blur(5px)',
-//             opacity: stt > 2 ? 0 : 0.6
-//         });
-//     }
-
-//     // Reset `stt` for items before the active item
-//     stt = 0;
-//     for (let i = active - 1; i >= 0; i--) {
-//         stt++;
-//         $items.eq(i).css({
-//             transform: `translateX(${-120 * stt}px) scale(${1 - 0.2 * stt}) perspective(16px) rotateY(1deg)`,
-//             zIndex: -stt,
-//             filter: 'blur(5px)',
-//             opacity: stt > 2 ? 0 : 0.6
-//         });
-//     }
-// }
-// loadShow();
-
-// $next.on('click', function() {
-//     stopAutoSlide();
-//     active = active + 1 < $items.length ? active + 1 : 0;
-//     loadShow();
-//     startAutoSlide();
-// });
-
-// $prev.on('click', function() {
-//     stopAutoSlide();
-//     active = active - 1 >= 0 ? active - 1 : $items.length - 1;
-//     loadShow();
-//     startAutoSlide();
-// });
-
-// // Auto slide function
-// function startAutoSlide() {
-//     autoSlideInterval = setInterval(function() {
-//         active = active + 1 < $items.length ? active + 1 : 0;
-//         loadShow();
-//     }, 3000);
-// }
-
-// // Stop auto slide on user interaction
-// function stopAutoSlide() {
-//     clearInterval(autoSlideInterval);
-// }
-
-// // Start auto-slide when the page loads
-// startAutoSlide();
-
