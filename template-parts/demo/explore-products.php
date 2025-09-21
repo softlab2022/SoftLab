@@ -19,7 +19,7 @@ $items = array(
         array(
                 'key'   => 'essential-addons-for-contact-form-7',
                 'title' => esc_html__( 'Essential Addons for Contact Form 7', 'softlab' ),
-                'desc'  => esc_html__( 'All-in-one enhancement suite for improving Contact Form 7 and WordPress', 'softlab' ),
+                'desc'  => esc_html__( 'All-in-one suite to enhance Contact Form 7 and WordPress', 'softlab' ),
         ),
         array(
                 'key'   => 'multimedia-player',
@@ -83,12 +83,10 @@ $items = array(
                         <p>Something went wrong. Please try again.</p>
                     </div>
                 `,
-
                 showCancelButton: false,
                 showConfirmButton: false,
                 confirmButtonText: 'Try Live Demo',
                 showCloseButton: true,
-                allowOutsideClick: false,
                 width: 480,
                 customClass: {
                     container: 'softlab-swal',
