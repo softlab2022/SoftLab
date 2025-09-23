@@ -637,9 +637,9 @@ import "./components/sticky-banner";
                 // Show after scroll
                 $(window).on("scroll", function () {
                     if ($(this).scrollTop() > 200) {
-                        $cookieBar.addClass("show");
+                        $cookieBar.addClass("sfc-show");
                     } else {
-                        $cookieBar.removeClass("show");
+                        $cookieBar.removeClass("sfc-show");
                     }
                 });
             }
@@ -665,3 +665,4 @@ import "./components/sticky-banner";
     // eacf7 preview js end
     $(document).ready(app.init);
 })(jQuery);
+

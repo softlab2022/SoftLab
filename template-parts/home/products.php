@@ -40,7 +40,7 @@ $products = [
 		'title'       => __('Essential Addons <span class="e-addons-title">for Contact Form 7</span>', 'softlab'),
 		'description' => __('Supercharge Contact Form 7 with advanced features and styling options. Such as, conditional logic, custom layouts, multi-step forms, and more.', 'softlab'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/essential-addons-for-contact-form-7-icon.png',
-		'active_users'        => '900<span class="">+ active users</span>',
+		'active_users'        => '1000<span class="">+ active users</span>',
 		'active_icon'        => '<i class="fa-solid fa-users"></i>',
 	],
 	// 'soft-accordion' => [
