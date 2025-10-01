@@ -86,7 +86,7 @@ class SoftLab_Ajax {
                 'email'         => $email,
                 'status'        => 'subscribed',
                 'phone'         => '',
-                'tags'          => array(3),
+                'tags'          => array(3, 4),
                 'lists'         => array(8),
             )),
         );
