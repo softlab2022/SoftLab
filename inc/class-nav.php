@@ -24,6 +24,7 @@ class SoftLaB_Nav {
 					'essential-addons-for-contact-form-7-menu'  	=> 'Essential Addons for Contact Form 7 Menu',
 					'soft-accordion-menu'  	=> 'Soft Accordion Menu',
 					'multimedia-player-menu'  	=> 'Multimedia Player Menu',
+					'soft-expert-menu'  	=> 'Soft Expert Menu',
 				)
 			);
 		}

@@ -397,6 +397,10 @@ function sl_theme_option_custom_settings_init()
         'sl-theme-option-custom-settings-group',
         'eacf7_shortcode_contact_us_others',
     );
+    register_setting(
+        'sl-theme-option-custom-settings-group',
+        'softexpert_contact_us_shortcode',
+    );
 }
 
 add_action('admin_init', 'sl_theme_option_custom_settings_init');
@@ -1810,6 +1814,12 @@ function theme_option_callback()
                                                                                 <label class="heading_lable" for=""><?php _e('Others', 'softlab') ?></label>
 
                                                                                 <input class="input_field" type="text" name="eacf7_shortcode_contact_us_others" value="<?php echo esc_attr(get_option('eacf7_shortcode_contact_us_others')) ?>" />
+                                                                            </div>
+
+                                                                            <div class="col-lg-12">
+                                                                                <label class="heading_lable" for=""><?php _e('Soft Expert Innovative Solutions', 'softlab') ?></label>
+
+                                                                                <input class="input_field" type="text" name="softexpert_contact_us_shortcode" value="<?php echo esc_attr(get_option('softexpert_contact_us_shortcode')) ?>" />
                                                                             </div>
 
                                                                         </div>
