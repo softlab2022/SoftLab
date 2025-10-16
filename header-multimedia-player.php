@@ -108,7 +108,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             ?>
 
                             <div class="buy-now-btn buy-now-btn-multimedia-player">
-                                <a href="/soft-multimedia-player-pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
+                                <a href="/soft-multimedia-player/pricing/"><i class="fa-solid fa-cart-shopping"></i> Buy Now</a>
                             </div>
 
                         </div><!-- /.navbar-collapse -->
