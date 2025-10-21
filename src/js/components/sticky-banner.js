@@ -66,7 +66,7 @@
     "use strict";
 
     $(document).ready(function () {
-        const banner = $('#header-sticky-banner, #halloween-offers, #black-friday-offers');
+        const banner = $('#header-sticky-banne, #halloween-offers, #black-friday-offers ');
 
         // Close banner
         banner.on('click', '.banner-close', function () {
@@ -91,16 +91,16 @@
                 const minutes = padZero(Math.floor((distance % HOUR) / MINUTE));
                 const seconds = padZero(Math.floor((distance % MINUTE) / SECOND));
 
-                return `<div class="countdown"><span class="days">${days}</span> <p>Day</p></div> 
-                <div class="countdown"><span class="hours">${hours}</span> <p>Hour</p> </div>
-                <div class="countdown"><span class="minutes">${minutes}</span> <p>Min</p></div>
-                <div class="countdown"><span class="seconds">${seconds}</span> <p>Sec</p>
+                return `<div class="countdown"><span class="days">${days} d</span></div> 
+                <div class="countdown"><span class="hours">${hours} h</span> </div>
+                <div class="countdown"><span class="minutes">${minutes} m</span> </div>
+                <div class="countdown"><span class="seconds">${seconds} s</span> 
                 </div>`;
             };
 
             const updateTimer = () => {
                 const now = new Date().getTime();
-                let countDownDate = new Date('2024-12-05T23:59:00').getTime();
+                let countDownDate = new Date('2025-11-04T23:59:00').getTime();
 
                 // Check if there is a time in local storage
                 if (localStorage.getItem('bf_offers_time')) {

@@ -1,4 +1,4 @@
-<section id="header-sticky-banner" class="halloween-sticky-banner">
+<section id="header-sticky-banne" class="halloween-sticky-banne">
     <div class="container">
         <div class="banner-wrap">
             <!-- Banner Vector -->
@@ -9,7 +9,7 @@
             <div class="banner-vector vector-right">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-vectior-right-new.png" />
             </div>
-            <a class="banner-product summer" href="/offers">
+            <a class="banner-product hall-offer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween-new.png" />
             </a>
              <!-- Banner Countdown -->
@@ -30,9 +30,9 @@
             </div> -->
 
             <!-- Banner Product -->
-            <a class="banner-products" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/halloween-new-text.png" />
-            </a>
+            <!-- <a class="banner-products" href="/offers">
+                <img class="img-fluid" src="<?php //echo get_template_directory_uri(); ?>/assets/images/halloween-new-text.png" />
+            </a> -->
             <a class="banner-product offer" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/hall-sticky-new.png" />
             </a>

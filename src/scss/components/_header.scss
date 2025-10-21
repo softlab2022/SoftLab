@@ -1755,14 +1755,14 @@
 /**---------- halloween sticky-banner ----------**/
 
 @media (min-width: 992px) {
-  body:has(.halloween-sticky-banner) {
+  body:has(.halloween-sticky-banne) {
     .site-header {
       padding-top: 80px;
     }
   }
 }
 
-.halloween-sticky-banner {
+.halloween-sticky-banne {
   // background: #633A89;
   background-image: url("../images/halloween-new-bg-shape.png"),
     radial-gradient(156.23% 87.88% at 28.36% 49.34%,
@@ -1778,11 +1778,12 @@
   background-repeat: no-repeat;
   // background: radial-gradient(156.23% 87.88% at 28.36% 49.34%, #5B0636 0%, #5B0636 10.01%, #5B0636 23.81%, #5B0636 38.02%, #410634 52.5%, #2F0732 67.37%, #240731 82.87%, #200731 100%);
   // padding: .3rem 0;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
+  // border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
   width: 100%;
   position: fixed;
-  z-index: 999999;
+  z-index: 999999999;
   margin-bottom: 0px;
+  padding: 9px 0;
 
   &.active {
     display: none;
@@ -1797,7 +1798,7 @@
   .banner-product {
     img {
       height: 70px;
-      top: -4px;
+      top: 0px;
       position: relative;
     }
   }
@@ -1880,20 +1881,20 @@
 
       span {
         font-size: 1.2rem;
-        font-weight: 700;
+        font-weight: 600;
         text-align: center;
         color: #fff;
         border: none;
-        padding: 5px 10px;
+        padding: 8px 10px;
         margin: 0 7px;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 7px;
-        border: 2px solid rgba(207, 207, 250, 0.39);
-        background: #161655;
-        width: 55px;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        background: rgba(255, 255, 255, 0.10);
+        width: 69px;
 
         &:after {
           content: ":";
@@ -1906,12 +1907,14 @@
           // margin-left: 7px;
         }
 
-        &:last-child:after {
-          content: "";
-          display: none;
+        &:last-child::after {
+          content: "" !important;
+          display: none !important;
         }
       }
+
     }
+
 
     .timer-labels {
       span {
@@ -1923,6 +1926,20 @@
         display: inline-block;
         margin: 0 5px;
       }
+    }
+  }
+
+  .hall-offer {
+    img {
+      top: 0px;
+      height: auto;
+      width: 250px;
+    }
+  }
+
+  .countdown {
+    p {
+      display: none;
     }
   }
 
@@ -1983,8 +2000,7 @@
   @media (min-width: 768px) and (max-width: 991px) {
     .banner-vector {
       img {
-        width: 100%;
-        height: 35px;
+        display: none;
       }
     }
 
@@ -2028,6 +2044,11 @@
         padding: 8px 8px;
       }
     }
+     .hall-offer {
+      img {
+        width: 175px;
+      }
+    }
   }
 
   @media (max-width: 767px) {
@@ -2059,6 +2080,12 @@
         i {
           display: none;
         }
+      }
+    }
+
+    .hall-offer {
+      img {
+        width: 165px;
       }
     }
 

@@ -5,7 +5,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C6DRHX4YG7"></script>
     <script>
@@ -38,7 +38,6 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
 
-    <!-- Sticky Notification -->
 
     <?php
     $page_template = get_page_template_slug();
@@ -49,11 +48,12 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 
     ?>
 
+    <!-- Sticky Notification -->
+    <?php get_template_part('template-parts/halloween-offer-sticky-banner'); ?>
 
     <div id="wrapper">
 
-
-        <header  class="site-header navbar-transparent">
+        <header class="site-header navbar-transparent">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-md primary-nav <?php echo esc_attr($navbar_scheme);
@@ -99,7 +99,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                             ?>
 
                             <a class="nav-link btn text-white view-products-btn" target="_blank" href="https://users.freemius.com/store/1760"><i class="fa-sharp fa-solid fa-user"></i> CUSTOMER AREA</a>
-                            
+
 
                         </div><!-- /.navbar-collapse -->
 

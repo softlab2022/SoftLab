@@ -32,7 +32,7 @@ get_header();
                     <div class="promo-code-sec text-center">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text">HALLOWEEN2024</span>
+                            <span class="promo-text">HALLOWEEN2025</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc.png" />
                         </div>
 
@@ -49,7 +49,7 @@ get_header();
         <div class="row">
             <div class="col-lg-12 m-auto">
                 <div class="offers-headers text-center">
-                    <h3>Explore Our Trending Halloween 2024 Deals</h3>
+                    <h3>Explore Our Trending Halloween 2025 Deals</h3>
                 </div>
             </div>
 
@@ -65,8 +65,7 @@ get_header();
                     </div>
                     <div class="offer-content">
                         <h5>Integrate Google Drive</h5>
-                        <p>Browse, Upload, Download, Embed, Play, Share, Gallery, and Manage Your Google Drive Files
-                            Into Your WordPress Site</p>
+                        <p>All-in-one Google Drive integration for WordPress website</p>
                     </div>
                     <!-- <div class="offer-price">
                         <p>Starting Form</p>
@@ -75,7 +74,7 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text">HALLOWEEN2024</span>
+                            <span class="promo-text">HALLOWEEN2025</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-igd.png" />
                         </div>
 
@@ -100,8 +99,7 @@ get_header();
                     </div>
                     <div class="offer-content">
                         <h5>Radio Player</h5>
-                        <p>A simple, easy to use, user-friendly and fully customizable web radio player for
-                            WordPress. </p>
+                        <p>Live Shoutcast, Icecast, and Audio Stream Player for WordPress website </p>
                     </div>
                     <!-- <div class="offer-price">
                         <p>Starting Form</p>
@@ -110,13 +108,13 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text text-rp">HALLOWEEN2024</span>
+                            <span class="promo-text text-rp">HALLOWEEN2025</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-rp.png" />
                         </div>
 
                     </div>
                     <div class="offer-button">
-                        <a href="#" class="offer-buy-now-btn-rp" >
+                        <a href="#" class="offer-buy-now-btn-rp">
                             Buy Now
                         </a>
                     </div>
@@ -135,8 +133,7 @@ get_header();
                     </div>
                     <div class="offer-content">
                         <h5>Dracula Dark Mode</h5>
-                        <p>Dracula Dark Mode helps to create a stunning eye-pleasing dark for your WordPress
-                            website </p>
+                        <p>Enhanced Accessibility, Dark Mode & Reading Mode for WordPress </p>
                     </div>
                     <!-- <div class="offer-price">
                         <p>Starting Form</p>
@@ -145,13 +142,79 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text text-dm">HALLOWEEN2024</span>
+                            <span class="promo-text text-dm">HALLOWEEN2025</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-dm.png" />
                         </div>
 
                     </div>
                     <div class="offer-button">
-                        <a href="#" class="offer-buy-now-btn-dm" >
+                        <a href="#" class="offer-buy-now-btn-dm">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="offer-item offer-item-essential-addons-for-contact-form-7">
+                    <div class="offer-icon">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/essential-addons-for-contact-form-7-icon.png" alt="essential-addons-for-contact-form-7-icon">
+                    </div>
+                    <div class="offer-off">
+                        <!-- <span>Up to</span> -->
+                        <p>30%</p>
+                        <span>OFF</span>
+                    </div>
+                    <div class="offer-content">
+                        <h5>Essential Addons </br> <span>for Contact Form 7</span></h5>
+                        <p>Extend Capabilities & Custom Functionalities for Contact Form 7</p>
+                    </div>
+                    <!-- <div class="offer-price">
+                        <p>Starting Form</p>
+                        <h6>15.00</h6>
+                    </div> -->
+                    <div class="promo-code-sec">
+                        <span class="sub-text">Use the Promo Code</span>
+                        <div class="cupon">
+                            <span class="promo-text text-eacf7">HALLOWEEN2025</span>
+                            <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-eacf7.png" />
+                        </div>
+
+                    </div>
+                    <div class="offer-button">
+                        <a href="#" class="offer-buy-now-btn-eacf7">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="offer-item offer-item-soft-multimedia-player">
+                    <div class="offer-icon">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/soft-multimedia-player1.png" alt="soft-multimedia-player">
+                    </div>
+                    <div class="offer-off">
+                        <!-- <span>Up to</span> -->
+                        <p>30%</p>
+                        <span>OFF</span>
+                    </div>
+                    <div class="offer-content">
+                        <h5>Multimedia Player</h5>
+                        <p>Most useful and productive Audio, Video & Podcasts Player for WordPress website</p>
+                    </div>
+                    <!-- <div class="offer-price">
+                        <p>Starting Form</p>
+                        <h6>15.00</h6>
+                    </div> -->
+                    <div class="promo-code-sec">
+                        <span class="sub-text">Use the Promo Code</span>
+                        <div class="cupon">
+                            <span class="promo-text text-smp">HALLOWEEN2025</span>
+                            <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-smp.png" />
+                        </div>
+
+                    </div>
+                    <div class="offer-button">
+                        <a href="#" class="offer-buy-now-btn-smp">
                             Buy Now
                         </a>
                     </div>
@@ -164,20 +227,20 @@ get_header();
             <div class="col-lg-8">
                 <div class="offers-content">
                     <h4 class="titles">
-                    How to claim the special offer:
+                        How to claim the special offer:
                     </h4>
-                    <span class="descripition" >1. Visit the SoftLab offers page: <a href="/offers/">https://softlabbd.com/offers</a></span>
-                    <span class="descripition" >2. Choose the product you want to buy and click on the "Buy Now" button.</span>
-                    <span class="descripition" >3. Click on the "Have a promotional code?" button and apply the coupon code <b>"HALLOWEEN2024"</b>.</span>
-                    <span class="descripition" >4. Instantly enjoy a 30% discount – it’s that simple!</span>
+                    <span class="descripition">1. Visit the SoftLab offers page: <a href="/offers/">https://softlabbd.com/offers</a></span>
+                    <span class="descripition">2. Choose the product you want to buy and click on the "Buy Now" button.</span>
+                    <span class="descripition">3. Click on the "Have a promotional code?" button and apply the coupon code <b>"HALLOWEEN2025"</b>.</span>
+                    <span class="descripition">4. Instantly enjoy a 30% discount – it’s that simple!</span>
                 </div>
                 <div class="offers-conten">
                     <h4 class="titles">
-                    What are the conditions of the Halloween coupon?
+                        What are the conditions of the Halloween coupon?
                     </h4>
-                    <li class="descripition" >Use coupon: <b>"HALLOWEEN2024"</b></li>
-                    <li class="descripition" >The coupon is available from 20th to 31st October.</li>
-                    <li class="descripition" >Coupon applies to all our plugins membership, renewals, and upgrades.</li>
+                    <li class="descripition">Use coupon: <b>"HALLOWEEN2025"</b></li>
+                    <li class="descripition">The coupon is available from 21st Oct to 4th Nov</li>
+                    <li class="descripition">Coupon applies to all our plugins membership, renewals, and upgrades.</li>
                     <span>Hurry the coupon is just available for few days only!</span>
                 </div>
             </div>
@@ -259,13 +322,54 @@ get_header();
                     licenses: $('.license-dropdown .dropdown-item.active').data('license'),
 
                     // You can consume the response for after purchase logic.
-                    purchaseCompleted: function(response) {
-                        // The logic here will be executed immediately after the purchase confirmation.                                // alert(response.user.email);
-                    },
+                    purchaseCompleted: function(response) {},
 
-                    success: function(response) {
-                        // The logic here will be executed after the customer closes the checkout, after a successful purchase.                                // alert(response.user.email);
-                    }
+                    success: function(response) {}
+                });
+            });
+            //Handle essential addons for contact form 7
+            $('.offer-buy-now-btn-eacf7').on('click', function(e) {
+                e.preventDefault();
+
+                const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/cf7-logo.png";
+                var handler = FS.Checkout.configure({
+                    plugin_id: '16650',
+                    plan_id: '27778',
+                    public_key: 'pk_a223a352b97599f958e06405bad79',
+                    image: productIcon,
+                });
+
+
+                handler.open({
+                    name: 'Dracula Dark Mode',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {},
+
+                    success: function(response) {}
+                });
+            });
+            //Handle soft multimedia player
+            $('.offer-buy-now-btn-smp').on('click', function(e) {
+                e.preventDefault();
+
+                const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/logo.png";
+                var handler = FS.Checkout.configure({
+                    plugin_id: '19544',
+                    plan_id: '32371',
+                    public_key: 'pk_748528da58fc7c9adc04c7db011a1',
+                    image: productIcon,
+                });
+
+                handler.open({
+                    name: 'Dracula Dark Mode',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {},
+
+                    success: function(response) {}
                 });
             });
 
