@@ -55,7 +55,7 @@ class SoftLab_Ajax {
                 'docs'      => 'https://softlabbd.com/docs-category/essential-addons-for-contact-form-7-docs/',
                 'playlist'  => 'https://www.youtube.com/playlist?list=PLaR5hjDXnXZygCofRqBvMT0n5aVFmwXjM',
             ],
-            'soft-multimedia-player' => [
+            'multimedia-player' => [
                 'title'     => 'Multimedia Player',
                 'recipe'    => 'https://tastewp.com/recipe/smp',
                 'docs'      => 'https://softlabbd.com/docs-category/soft-multimedia-player-docs/',
@@ -86,7 +86,7 @@ class SoftLab_Ajax {
                 'email'         => $email,
                 'status'        => 'subscribed',
                 'phone'         => '',
-                'tags'          => array(3),
+                'tags'          => array(3, 4),
                 'lists'         => array(8),
             )),
         );
