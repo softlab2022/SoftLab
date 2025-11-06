@@ -343,7 +343,7 @@ $features = [
 	],
 	[
 		'title'       => 'Webhooks Integrations',
-		'description' => 'he Webhooks integration for the Essential Addons for Contact Form 7 plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services',
+		'description' => 'The Webhooks integration for the Essential Addons for Contact Form 7 plugin allows you to send form submission data to a specified URL via a webhook. This enables real-time data transfer to other applications or services',
 		'video'       => '',
 		'pro'         => true,
 
@@ -351,6 +351,76 @@ $features = [
 	[
 		'title'       => 'Zapier Integrations',
 		'description' => 'The Zapier integration for the Essential Addons for Contact Form 7 plugin transfers form data to an allocated Zapier account upon form submission',
+		'video'       => '',
+		'pro'         => true,
+
+	],
+	[
+		'title'       => 'Active Campaign Integrations',
+		'description' => 'Create or update contacts in ActiveCampaign from Contact Form 7 submissions automatically. Assign them to lists, apply tags, and launch targeted automations.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Brevo Integrations',
+		'description' => 'Send Contact Form 7 submissions to Brevo to instantly add subscribers and trigger email or SMS campaigns. Capture leads automatically and streamline your marketing workflows.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Drip Integrations',
+		'description' => 'Add new leads from Contact Form 7 to Drip with tags and automation triggers. Grow your email list and personalize campaigns effortlessly.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'FluentCRM Integrations',
+		'description' => 'Automatically add or update contacts in FluentCRM, apply tags, and assign them to lists whenever a Contact Form 7 form is submitted. Keep your CRM organized and automation workflows running smoothly.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'HubSpot Integrations',
+		'description' => 'The Google Drive integration for the Contact Form 7 Extended plugin adds an upload field to Contact Form 7. This allows users to upload files directly to a connected Google Drive account.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'MailerLite Integrations',
+		'description' => 'Add new subscribers from Contact Form 7 directly to your MailerLite groups or campaigns. Keep your mailing list growing and engagement consistent.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'PayPal Integrations',
+		'description' => 'Integrate PayPal with Contact Form 7 to securely collect payments, donations, or orders directly from form submissions. Enable seamless checkout experiences with automatic payment processing.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'MailPoet Integrations',
+		'description' => 'Automatically add subscribers from Contact Form 7 to your MailPoet lists. Build and manage your WordPress email audience effortlessly.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Slack Integrations',
+		'description' => 'Send instant Contact Form 7 notifications to your Slack channels. Stay informed and respond to new submissions in real time.',
+		'video'       => '',
+		'pro'         => false,
+
+	],
+	[
+		'title'       => 'Pabbly Integrations',
+		'description' => 'Pabbly integration connects your WordPress forms to 2000+ web apps, streamlining your workflows and enhancing automation with ease.',
 		'video'       => '',
 		'pro'         => true,
 

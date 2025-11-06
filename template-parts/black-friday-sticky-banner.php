@@ -27,20 +27,14 @@
                 <!--                </div>-->
             </div>
 
-
-            <a class="banner-product offer" href="/offers">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky-new1.png" />
-            </a>
             <!-- Banner Product -->
             <a class="banner-products" href="/offers">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-text-new2.png" />
                 <!-- <span>Black Friday & Cyber Monday Blowout Epic WordPress Deals</span> -->
             </a>
-
-
-
-
-
+            <a class="banner-product offer" href="/offers">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-sticky-new1.png" />
+            </a>
 
             <!-- Banner Title -->
             <!-- <div class="banner-title">
@@ -52,7 +46,7 @@
             <!-- Banner Offer -->
             <!-- <div class="banner-offer">
                 <a class="" href="/dracula-dark-mode-pricing/" title="" rel="">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/dracula/clime-early.png">
+                    <img class="img-fluid" src="<?php //echo get_template_directory_uri(); ?>/assets/images/dracula/clime-early.png">
                 </a>
             </div> -->
 

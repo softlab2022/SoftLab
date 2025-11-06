@@ -1136,9 +1136,10 @@
 
         }
 
-        .offer-item-essential-addons-for-contact-form-7{
+        .offer-item-essential-addons-for-contact-form-7 {
             margin-top: 0px;
         }
+
         .offer-item-soft-multimedia-player {
             margin-top: 0px;
         }
@@ -1151,8 +1152,8 @@
 /**---------- black-friday css Area start----------**/
 
 #black-friday-offers {
-    background: url("../images/black-friday-bg-shape.png"), linear-gradient(31deg, #171717 3.6%, #1C1C29 105.42%) no-repeat center top / cover;
-    padding: 0px 0 100px 0;
+    background: url("../images/black-friday-bg-shape-new.png"), linear-gradient(31deg, #171717 3.6%, #1C1C29 105.42%) no-repeat center top / cover;
+    padding: 250px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
     // background-position: bottom;
@@ -1165,6 +1166,8 @@
 
         margin-bottom: 30px;
     }
+
+
 
     .promo-code-sec {
 
@@ -1295,7 +1298,6 @@
             // }
 
             .countdown {
-                padding: 5px 10px;
                 margin: 0 10px;
                 position: relative;
                 // border-radius: 9px;
@@ -1305,27 +1307,29 @@
                 // border-image-slice: 1; 
                 // display: inline-block;
                 // overflow: hidden;
-                background: white;
+                padding: 10px 15px;
                 border-radius: 15px;
                 z-index: 1;
-                background: #17040A;
+                border-radius: 7px;
+                border: 2px solid #FFF;
+                background: #171717;
 
-                &:before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background: linear-gradient(to bottom, #AD043C 0%, #1A050C 100%);
-                    border-radius: 9px;
-                    z-index: -1;
-                    padding: 2px;
-                    -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
-                    mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
-                    -webkit-mask-composite: xor;
-                    mask-composite: exclude;
-                }
+                // &:before {
+                //     content: '';
+                //     position: absolute;
+                //     top: 0;
+                //     left: 0;
+                //     right: 0;
+                //     bottom: 0;
+                //     background: linear-gradient(to bottom, #AD043C 0%, #1A050C 100%);
+                //     border-radius: 9px;
+                //     z-index: -1;
+                //     padding: 2px;
+                //     -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+                //     mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+                //     -webkit-mask-composite: xor;
+                //     mask-composite: exclude;
+                // }
 
                 &:after {
                     content: ":";
@@ -1442,7 +1446,7 @@
     }
 
     @media (max-width: 767.98px) {
-        padding: 40px 0 50px 0;
+        padding: 150px 0 50px 0;
         background-position: center;
 
         .halloween-sec {
@@ -1486,6 +1490,19 @@
     background: linear-gradient(181deg, #10151C 40.2%, #10151C 86.93%);
     position: relative;
     padding: 100px 0;
+
+    .offers-headers {
+        padding-bottom: 80px;
+
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: $line_height_h1;
+        }
+    }
 
     .offer-item {
         background: #43464B;
@@ -1553,6 +1570,13 @@
                 line-height: $line_height_h1;
                 margin-bottom: 30px;
                 margin-top: 40px;
+
+                span {
+                    color: rgba(255, 255, 255, 0.70);
+                    font-size: 22px;
+                    font-style: italic;
+                    font-weight: 400;
+                }
             }
 
             p {
@@ -1629,6 +1653,16 @@
                 .text-rp {
                     color: #2CD28A;
                     border: 1px dashed #2CD28A;
+                }
+
+                .text-eacf7 {
+                    color: #AFD2FF;
+                    border: 1px dashed #AFD2FF;
+                }
+
+                .text-mp {
+                    color: #70A9FE;
+                    border: 1px dashed #70A9FE;
                 }
 
                 .kc {
@@ -1714,6 +1748,66 @@
                 &:hover {
                     background: transparent;
                     color: #675DE1;
+                }
+            }
+        }
+    }
+
+    .offer-item-essential-addons-for-contact-form-7 {
+        margin-top: 85px;
+
+        .offer-price {
+
+            h6 {
+                color: #1e62b9;
+
+                &:before {
+                    content: "$";
+                    font-size: 1.5rem;
+                    vertical-align: top;
+                }
+            }
+        }
+
+        .offer-button {
+            a {
+                background: #1e62b9;
+                border: 1px solid #1e62b9;
+                transition: all linear .4s;
+
+                &:hover {
+                    background: transparent;
+                    color: #1e62b9;
+                }
+            }
+        }
+    }
+
+    .offer-item-soft-multimedia-player {
+        margin-top: 85px;
+
+        .offer-price {
+
+            h6 {
+                color: #0056D7;
+
+                &:before {
+                    content: "$";
+                    font-size: 1.5rem;
+                    vertical-align: top;
+                }
+            }
+        }
+
+        .offer-button {
+            a {
+                background: #0056D7;
+                border: 1px solid #0056D7;
+                transition: all linear .4s;
+
+                &:hover {
+                    background: transparent;
+                    color: #0056D7;
                 }
             }
         }
@@ -1839,12 +1933,30 @@
 
         }
 
+        .offers-headers {
+            padding-bottom: 60px;
+
+            h3 {
+                font-size: 34px;
+            }
+        }
+
         .offer-item-dark-mode {
             margin-left: auto !important;
+        }
+
+        .offer-item-essential-addons-for-contact-form-7 {
+            margin-top: 13px;
+        }
+
+        .offer-item-soft-multimedia-player {
+            margin-top: 13px;
         }
     }
 
     @media (max-width: 767.98px) {
+        padding: 70px 0;
+
         .offer-item {
             margin-bottom: 67px;
 
@@ -1899,6 +2011,22 @@
                 }
             }
 
+        }
+
+        .offers-headers {
+            padding-bottom: 40px;
+
+            h3 {
+                font-size: 28px;
+            }
+        }
+
+        .offer-item-essential-addons-for-contact-form-7 {
+            margin-top: 13px;
+        }
+
+        .offer-item-soft-multimedia-player {
+            margin-top: 13px;
         }
     }
 }

@@ -66,7 +66,7 @@
     "use strict";
 
     $(document).ready(function () {
-        const banner = $('#header-sticky-banne, #halloween-offers, #black-friday-offers ');
+        const banner = $('#header-sticky-banner, #halloween-offers, #black-friday-offers ');
 
         // Close banner
         banner.on('click', '.banner-close', function () {
@@ -100,7 +100,7 @@
 
             const updateTimer = () => {
                 const now = new Date().getTime();
-                let countDownDate = new Date('2025-11-04T23:59:00').getTime();
+                let countDownDate = new Date('2025-12-10T23:59:00').getTime();
 
                 // Check if there is a time in local storage
                 if (localStorage.getItem('bf_offers_time')) {

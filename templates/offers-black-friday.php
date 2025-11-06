@@ -16,12 +16,12 @@ get_header();
         <div class="row">
             <div class="col-lg-8 col-md-7 m-auto">
                 <div class="halloween-sec text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-friday-new-bg.png" />
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/black-friday-30-bg.png" />
                 </div>
-                <div class="col-lg-6 m-auto">
+                <div class="col-lg-8 m-auto">
 
                     <div class="promo-code-sec text-center">
-                        <span class="sub-text">Coupon Code : <b>FSBFCM2024</b></span>
+                        <span class="sub-text">Coupon Code : <b>FSBFCM2025</b></span>
                         <!-- <div class="cupon">
                             <span class="promo-text">HALLOWEEN2023</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc.png" />
@@ -48,7 +48,11 @@ get_header();
 <section id="black-friday-offers-main">
     <div class="container">
         <div class="row">
-
+            <div class="col-lg-12 m-auto">
+                <div class="offers-headers text-center">
+                    <h3>Explore Our Trending Black Friday & Cyber Monday Deals 2025</h3>
+                </div>
+            </div>
             <div class="col-lg-4 col-md-6 m-auto ">
                 <div class="offer-item">
                     <div class="offer-icon">
@@ -71,7 +75,7 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text">FSBFCM2024 </span>
+                            <span class="promo-text">FSBFCM2025 </span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-igd.png" />
                         </div>
 
@@ -106,7 +110,7 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text text-rp">FSBFCM2024</span>
+                            <span class="promo-text text-rp">FSBFCM2025</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-rp.png" />
                         </div>
 
@@ -141,13 +145,79 @@ get_header();
                     <div class="promo-code-sec">
                         <span class="sub-text">Use the Promo Code</span>
                         <div class="cupon">
-                            <span class="promo-text text-dm">FSBFCM2024</span>
+                            <span class="promo-text text-dm">FSBFCM2025</span>
                             <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-dm.png" />
                         </div>
 
                     </div>
                     <div class="offer-button">
                         <a href="#" class="offer-buy-now-btn-dm">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="offer-item offer-item-essential-addons-for-contact-form-7">
+                    <div class="offer-icon">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/essential-addons-for-contact-form-7-icon.png" alt="essential-addons-for-contact-form-7-icon">
+                    </div>
+                    <div class="offer-off">
+                        <!-- <span>Up to</span> -->
+                        <p>30%</p>
+                        <span>OFF</span>
+                    </div>
+                    <div class="offer-content">
+                        <h5>Essential Addons </br> <span>for Contact Form 7</span></h5>
+                        <p>Extend Capabilities & Custom Functionalities for Contact Form 7</p>
+                    </div>
+                    <!-- <div class="offer-price">
+                        <p>Starting Form</p>
+                        <h6>15.00</h6>
+                    </div> -->
+                    <div class="promo-code-sec">
+                        <span class="sub-text">Use the Promo Code</span>
+                        <div class="cupon">
+                            <span class="promo-text text-eacf7">FSBFCM2025</span>
+                            <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-eacf7.png" />
+                        </div>
+
+                    </div>
+                    <div class="offer-button">
+                        <a href="#" class="offer-buy-now-btn-eacf7">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <div class="offer-item offer-item-soft-multimedia-player">
+                    <div class="offer-icon">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/products/soft-multimedia-player1.png" alt="soft-multimedia-player">
+                    </div>
+                    <div class="offer-off">
+                        <!-- <span>Up to</span> -->
+                        <p>30%</p>
+                        <span>OFF</span>
+                    </div>
+                    <div class="offer-content">
+                        <h5>Multimedia Player</h5>
+                        <p>Most useful and productive Audio, Video & Podcasts Player for WordPress website</p>
+                    </div>
+                    <!-- <div class="offer-price">
+                        <p>Starting Form</p>
+                        <h6>15.00</h6>
+                    </div> -->
+                    <div class="promo-code-sec">
+                        <span class="sub-text">Use the Promo Code</span>
+                        <div class="cupon">
+                            <span class="promo-text text-mp">FSBFCM2025</span>
+                            <img class="img-fluid kc" src="<?php echo get_template_directory_uri(); ?>/assets/images/kc-smp.png" />
+                        </div>
+
+                    </div>
+                    <div class="offer-button">
+                        <a href="#" class="offer-buy-now-btn-smp">
                             Buy Now
                         </a>
                     </div>
@@ -164,15 +234,15 @@ get_header();
                     </h4>
                     <span class="descripition">1. Visit the SoftLab offers page: <a href="/offers/">https://softlabbd.com/offers</a></span>
                     <span class="descripition">2. Choose the product you want to buy and click on the "Buy Now" button.</span>
-                    <span class="descripition">3. Click on the "Have a promotional code?" button and apply the coupon code <b>"FSBFCM2024"</b>.</span>
+                    <span class="descripition">3. Click on the "Have a promotional code?" button and apply the coupon code <b>"FSBFCM2025"</b>.</span>
                     <span class="descripition">4. Instantly enjoy a 30% discount – it’s that simple!</span>
                 </div>
                 <div class="offers-conten">
                     <h4 class="titles">
-                    What are the conditions of the Black Friday & Cyber Monday coupon?
+                        What are the conditions of the Black Friday & Cyber Monday coupon?
                     </h4>
-                    <li class="descripition">Use coupon: <b>"FSBFCM2024"</b></li>
-                    <li class="descripition">The coupon is available from November 25th to 05th December.</li>
+                    <li class="descripition">Use coupon: <b>"FSBFCM2025"</b></li>
+                    <li class="descripition">The coupon is available from November 15th to 10th December.</li>
                     <li class="descripition">Coupon applies to all our plugins membership, renewals, and upgrades.</li>
                     <span>Hurry the coupon is just available for few days only!</span>
                 </div>
@@ -264,7 +334,51 @@ get_header();
                     }
                 });
             });
+            //Handle essential addons for contact form 7
+            $('.offer-buy-now-btn-eacf7').on('click', function(e) {
+                e.preventDefault();
 
+                const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/cf7-logo.png";
+                var handler = FS.Checkout.configure({
+                    plugin_id: '16650',
+                    plan_id: '27778',
+                    public_key: 'pk_a223a352b97599f958e06405bad79',
+                    image: productIcon,
+                });
+
+
+                handler.open({
+                    name: 'Dracula Dark Mode',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {},
+
+                    success: function(response) {}
+                });
+            });
+            //Handle soft multimedia player
+            $('.offer-buy-now-btn-smp').on('click', function(e) {
+                e.preventDefault();
+
+                const productIcon = "<?php echo get_template_directory_uri(); ?>/assets/images/products/logo.png";
+                var handler = FS.Checkout.configure({
+                    plugin_id: '19544',
+                    plan_id: '32371',
+                    public_key: 'pk_748528da58fc7c9adc04c7db011a1',
+                    image: productIcon,
+                });
+
+                handler.open({
+                    name: 'Dracula Dark Mode',
+                    licenses: $('.license-dropdown .dropdown-item.active').data('license'),
+
+                    // You can consume the response for after purchase logic.
+                    purchaseCompleted: function(response) {},
+
+                    success: function(response) {}
+                });
+            });
 
         });
     })(jQuery);

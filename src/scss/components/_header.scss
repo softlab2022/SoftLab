@@ -1757,7 +1757,7 @@
 @media (min-width: 992px) {
   body:has(.halloween-sticky-banne) {
     .site-header {
-      padding-top: 80px;
+      padding-top: 70px;
     }
   }
 }
@@ -2044,7 +2044,8 @@
         padding: 8px 8px;
       }
     }
-     .hall-offer {
+
+    .hall-offer {
       img {
         width: 175px;
       }
@@ -2118,7 +2119,7 @@
 @media (min-width: 992px) {
   body:has(.black-friday-sticky-banner) {
     .site-header {
-      padding-top: 100px;
+      padding-top: 86px;
     }
   }
 }
@@ -2140,17 +2141,18 @@
 }
 
 .black-friday-sticky-banner {
-  background: url("../images/black-text-new-vector.png"),
-    linear-gradient(90deg,
-      #4036b4 0%,
-      #17040a 13.76%,
-      #17040a 29.53%,
-      #17040a 34.72%,
-      #17040a 45.43%,
-      #17040a 57.92%,
-      #17040a 73.52%,
-      #17040a 84.65%,
-      #4036b4 100%);
+  // background: url("../images/black-text-new-vector.png"),
+  //   linear-gradient(90deg,
+  //     #4036b4 0%,
+  //     #17040a 13.76%,
+  //     #17040a 29.53%,
+  //     #17040a 34.72%,
+  //     #17040a 45.43%,
+  //     #17040a 57.92%,
+  //     #17040a 73.52%,
+  //     #17040a 84.65%,
+  //     #4036b4 100%);
+  background: url("../images/black-friday-sticky-bg.png");
   // padding: .3rem 0;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.33);
   width: 100%;
@@ -2278,7 +2280,6 @@
       //   }
       // }
       .countdown {
-        padding: 5px 10px;
         margin: 0 10px;
         position: relative;
         // border-radius: 9px;
@@ -2288,29 +2289,31 @@
         // border-image-slice: 1;
         // display: inline-block;
         // overflow: hidden;
-        background: white;
+        padding: 10px 15px;
         border-radius: 15px;
         z-index: 1;
-        background: #17040a;
+        border-radius: 7px;
+        border: 2px solid #FFF;
+        background: #171717;
 
-        &:before {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: linear-gradient(to bottom, #ad043c 0%, #1a050c 100%);
-          border-radius: 9px;
-          z-index: -1;
-          padding: 2px;
-          -webkit-mask: linear-gradient(white, white) content-box,
-            linear-gradient(white, white);
-          mask: linear-gradient(white, white) content-box,
-            linear-gradient(white, white);
-          -webkit-mask-composite: xor;
-          mask-composite: exclude;
-        }
+        // &:before {
+        //   content: "";
+        //   position: absolute;
+        //   top: 0;
+        //   left: 0;
+        //   right: 0;
+        //   bottom: 0;
+        //   background: linear-gradient(to bottom, #ad043c 0%, #1a050c 100%);
+        //   border-radius: 9px;
+        //   z-index: -1;
+        //   padding: 2px;
+        //   -webkit-mask: linear-gradient(white, white) content-box,
+        //     linear-gradient(white, white);
+        //   mask: linear-gradient(white, white) content-box,
+        //     linear-gradient(white, white);
+        //   -webkit-mask-composite: xor;
+        //   mask-composite: exclude;
+        // }
 
         &:after {
           content: ":";
@@ -2387,12 +2390,13 @@
 
   .banner-vector {
     position: absolute;
-    left: 0;
-    top: 40%;
+    left: 45px;
+    top: 51%;
     transform: translateY(-50%);
     z-index: 0;
     pointer-events: none;
-    width: max-content;
+    width: -moz-max-content;
+    width: 73px;
 
     &.vector-right {
       right: 0;
