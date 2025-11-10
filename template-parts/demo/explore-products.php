@@ -60,7 +60,19 @@ $items = array(
 
 <script>
     jQuery(document).ready(function ($) {
+        // direct product link
+        const url = window?.location?.href;
+        const params = new URL(url)?.searchParams;
+        const productName = params?.get('product');
 
+        // auto click on product
+        if( productName?.length > 0 ){
+            setTimeout(()=>{
+                $(`.product-item[data-id="${productName}"]`).trigger('click');
+            }, 50);
+        }
+
+        // manual click on product
         $('.product-item').on('click', function () {
             const product = $(this).data('id');
             const title = $(this).find('h3').text();
