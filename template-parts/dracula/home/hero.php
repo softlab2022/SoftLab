@@ -31,7 +31,7 @@
                     <?php } ?>
 
                     <p>Dracula Dark Mode seamlessly converts your WordPress site to a stunning dark mode them using advanced AI algorithm. Designed to reduce eye strain for visitors, its adaptive interface perfectly complements your website's design, making it the top choice for a dark mode solution.</p>
-                    <a href="https://demo.softlabbd.com/?product=dracula-dark-mode" class="free-btn">Try Live Demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=dracula-dark-mode" class="free-btn">Try Live Demo</a>
                     <a href="/dracula-dark-mode-pricing" class="view-demo">Buy Now</a>
                 </div>
             </div>

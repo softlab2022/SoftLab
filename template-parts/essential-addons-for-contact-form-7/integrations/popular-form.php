@@ -365,7 +365,7 @@ $features_integrations = [
                                 // }
                                 ?> -->
 
-                        <a href="https://softlabbd.com/demo-portal/" target="_blank" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=essential-addons-for-contact-form-7"  class="feature-demo-btn">Try Live demo</a>
 
                     </div>
                 </div>

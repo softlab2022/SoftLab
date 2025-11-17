@@ -112,7 +112,7 @@
 
             <div class=" m-auto">
                 <div class="feature-btn text-center">
-                    <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
                 </div>
             </div>
 
@@ -168,7 +168,7 @@
 
             <div class="m-auto">
                 <div class="feature-btn text-center">
-                    <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
                 </div>
             </div>
 
@@ -203,7 +203,7 @@
                     </div>
 
                     <div class="feature-btn text-center">
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
                     </div>
 
                     <div class="fe-vector-left">
@@ -239,7 +239,7 @@
                     </div>
 
                     <div class="feature-btn text-center">
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
                     </div>
 
                 </div>
@@ -280,7 +280,7 @@
                     </div>
 
                     <div class="feature-btn tutor-lms-feat text-center">
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
                     </div>
 
                     <div class="fe-vector-left">
@@ -323,7 +323,7 @@
                     </div>
 
                     <div class="feature-btn tutor-lms-feat text-center">
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
                     </div>
 
                     <div class="fe-vector-left">

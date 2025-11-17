@@ -147,7 +147,7 @@
                         }
                         ?>
 
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live Demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live Demo</a>
 
                     </div>
                 </div>

@@ -11,7 +11,7 @@
 
             <div class="col-12 col-xl-5 ms-auto mt-md-4">
                 <div class="cta-actions text-center">
-                    <a href="https://demo.softlabbd.com/?product=radio-player" class="btn bt">Try Live Demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=radio-player" class="btn bt">Try Live Demo</a>
                     <a href="/radio-player-pricing" class="btn bt1">Get Started</a>
                 </div>
             </div>

@@ -21,7 +21,7 @@
                         <?php _e('Add advanced features, functionality, and customization options to your Contact Form 7 plugin with Essential Addons for Contact Form 7', 'softlab'); ?>
                     </p>
 
-                    <a href="https://wordpress.org/plugins/essential-addons-for-contact-form-7/" class="get1">Check Demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=essential-addons-for-contact-form-7" class="get1">Check Demo</a>
                     <a href="/essential-addons-for-contact-form-7-pricing/" class="get">Get Started</a>
                 </div>
             </div>

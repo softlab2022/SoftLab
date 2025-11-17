@@ -24,7 +24,7 @@
                         can play any live mp3, Shoutcast, iceCast, and any audio stream in your WordPress website.
                     </p>
 
-                    <a href="https://demo.softlabbd.com/?product=radio-player" class="btn get1">Try Live Demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=radio-player" class="btn get1">Try Live Demo</a>
                     <a href="/radio-player-pricing" class="btn get">Get Started</a>
                 </div>
             </div>

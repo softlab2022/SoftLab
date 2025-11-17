@@ -10,7 +10,7 @@
             
             <div class="col-lg-3 col-md-4 m-auto">
                 <div class="live-demo-button">
-                    <a href="#" class="live-demo-btn">Try live demo</a>
+                    <a href="/demo-portal?product=dracula-dark-mode" class="live-demo-btn">Try live demo</a>
                 </div>
             </div>
         </div>

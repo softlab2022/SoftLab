@@ -11,7 +11,7 @@
 
             <div class="col-lg-5 text-center text-lg-end">
                 <div class="cta-actions mt-5 mt-lg-0">
-                    <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="bt">Try Live Demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="bt">Try Live Demo</a>
                     <a href="/integrate-google-drive-pricing" class="bt1">Buy Now</a>
                 </div>
             </div>

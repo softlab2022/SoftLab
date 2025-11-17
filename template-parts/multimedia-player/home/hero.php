@@ -43,7 +43,7 @@ $multimedia_player_heros = [
                         A Comprehensive and Powerful Platform for All Your Audio, Video, and Podcast Needs — Empowering You to Create, Manage, and Share Content Seamlessly.
                     </p>
 
-                    <a href="https://demo.softlabbd.com/?product=soft-multimedia-player" class="get1">Check Demo</a>
+                    <a href="https://softlabbd.com/demo-portal?product=multimedia-player" class="get1">Check Demo</a>
                     <a href="/soft-multimedia-player/pricing/" class="get">Get Started</a>
                 </div>
             </div>

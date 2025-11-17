@@ -224,7 +224,7 @@ $features = [
                         }
                         ?>
 
-                        <a href="https://demo.softlabbd.com/?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
+                        <a href="https://softlabbd.com/demo-portal?product=integrate-google-drive" class="feature-demo-btn">Try Live demo</a>
 
                     </div>
                 </div>
