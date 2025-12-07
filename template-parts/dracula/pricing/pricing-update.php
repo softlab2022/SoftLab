@@ -113,21 +113,30 @@ $pro_fields = [
 
 <section id="pricing-hero">
     <div class="container">
+        <div class="row">
+            <div class="col-lg-9 m-auto">
+                <div class="hero-content text-center">
+                    <h1>Simple And Flexible Pricing</h1>
+                    <p>The Most Powerful WordPress Dark Mode Plugin, Without the High Costs</p>
+                </div>
+            </div>
+        </div>
 
         <!-- <div class="row">
             <div class="col-lg-4 m-auto">
                 <div class="section-headeing text-center">
                     <p>Sun's Out, Savings In</p>
-                    <!-- <h1>Unbeatable Summer <span>Deals!</span> </h1> 
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/summer-deals.png" alt="summer-deals">
+                    <h1>Unbeatable Summer <span>Deals!</span> </h1>
+                    <img class="img-fluid" src="<?php //echo get_template_directory_uri(); 
+                                                ?>/assets/images/home/offers/summer-deals.png" alt="summer-deals">
                 </div>
                 <div class="offers-img text-center">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/home/offers/offer-img.png" alt="offer-img">
+                    <img class="img-fluid" src="<?php //echo get_template_directory_uri(); 
+                                                ?>/assets/images/home/offers/offer-img.png" alt="offer-img">
                 </div>
             </div>
-        </div> -->
+        </div>
 
-        <!-- 
         <div class="row align-items-center">
             <div class="col-lg-6 m-auto">
                 <div class="hero-content text-center">
@@ -142,14 +151,7 @@ $pro_fields = [
 
 <section id="pricing">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-9 m-auto">
-                <div class="hero-content text-center">
-                    <h1>Simple And Flexible Pricing</h1>
-                    <p>The Most Powerful WordPress Dark Mode Plugin, Without the High Costs</p>
-                </div>
-            </div>
-        </div>
+
         <div class="row">
             <div class="col-md-12">
                 <div class="pricing-switcher">

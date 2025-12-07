@@ -668,7 +668,7 @@
 
 /*==== compare css area ====*/
 #compare {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
 
   .compare {
     border-top: 1px solid #292C63;
@@ -705,12 +705,18 @@
   .compare-btn {
     a {
       background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
+      border: 1px solid #7367FB;
       border-radius: 10px;
       padding: 18px 40px;
       font-weight: 700;
       font-size: 1rem;
       line-height: $line_height_h1;
       color: #fff;
+      transition: all .4s ease-in-out;
+      &:hover{
+        background: transparent;
+        color: #fff;
+      }
     }
   }
 

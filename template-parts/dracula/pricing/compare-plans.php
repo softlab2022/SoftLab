@@ -1,199 +1,199 @@
 <?php
 
-		// $features = [
-		// 	'frontend' => [
-		// 		'title'       => 'Frontend Dark Mode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'backend' => [
-		// 		'title'       => 'Backend Dark Mode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'admin' => [
-		// 		'title'       => 'Admin Dashboard Dark Mode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'os' => [
-		// 		'title'       => 'OS-based color mode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'default' => [
-		// 		'title'       => 'Default Dark Mode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'performance' => [
-		// 		'title'       => 'Performance Mode',
-		// 		'isPro'       => true,
-		// 	],
+// $features = [
+// 	'frontend' => [
+// 		'title'       => 'Frontend Dark Mode',
+// 		'isFree'       => true,
+// 	],
+// 	'backend' => [
+// 		'title'       => 'Backend Dark Mode',
+// 		'isFree'       => true,
+// 	],
+// 	'admin' => [
+// 		'title'       => 'Admin Dashboard Dark Mode',
+// 		'isFree'       => true,
+// 	],
+// 	'os' => [
+// 		'title'       => 'OS-based color mode',
+// 		'isFree'       => true,
+// 	],
+// 	'default' => [
+// 		'title'       => 'Default Dark Mode',
+// 		'isFree'       => true,
+// 	],
+// 	'performance' => [
+// 		'title'       => 'Performance Mode',
+// 		'isPro'       => true,
+// 	],
 
-		// 	'toggle' => [
-		// 		'title'       => 'Custom Toggle Button Builder',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'toggle' => [
-		// 		'title'       => 'Toggle Button Size Customization',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'draggable' => [
-		// 		'title'       => 'Draggable Floating Switch',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'custom-toggle-switch' => [
-		// 		'title'       => 'Custom Toggle Switch Positions',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'switch' => [
-		// 		'title'       => 'Dark mode switch in the menu',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'custom-position' => [
-		// 		'title'       => 'Custom position',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'specific' => [
-		// 		'title'       => 'Dashboard Dark Mode for <br> Specific User Roles',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'darkmode-animation' => [
-		// 		'title'       => 'Dark mode Toggle Animation',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'time-based' => [
-		// 		'title'       => 'Time Based dark mode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'page-wish' => [
-		// 		'title'       => 'Page Wise Dark Mode',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'custom-text-color' => [
-		// 		'title'       => 'Custom Switch Text & Color',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'ready-mode' => [
-		// 		'title'       => 'Ready-made color schema',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'save-user' => [
-		// 		'title'       => 'Save User Choice',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'live-edit' => [
-		// 		'title'       => 'Dark Mode Live Edit Mode',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'color-adjust' => [
-		// 		'title'       => 'Color Adjustment',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'dynamic-colors' => [
-		// 		'title'       => 'Dynamic Color',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'custom-color' => [
-		// 		'title'       => 'Custom Colors',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'presets' => [
-		// 		'title'       => 'Presets',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'typography' => [
-		// 		'title'       => 'Dark Mode Based Typography',
-		// 		'isPro'       => true,
-		// 	],
+// 	'toggle' => [
+// 		'title'       => 'Custom Toggle Button Builder',
+// 		'isPro'       => true,
+// 	],
+// 	'toggle' => [
+// 		'title'       => 'Toggle Button Size Customization',
+// 		'isPro'       => true,
+// 	],
+// 	'draggable' => [
+// 		'title'       => 'Draggable Floating Switch',
+// 		'isPro'       => true,
+// 	],
+// 	'custom-toggle-switch' => [
+// 		'title'       => 'Custom Toggle Switch Positions',
+// 		'isPro'       => true,
+// 	],
+// 	'switch' => [
+// 		'title'       => 'Dark mode switch in the menu',
+// 		'isPro'       => true,
+// 	],
+// 	'custom-position' => [
+// 		'title'       => 'Custom position',
+// 		'isPro'       => true,
+// 	],
+// 	'specific' => [
+// 		'title'       => 'Dashboard Dark Mode for <br> Specific User Roles',
+// 		'isPro'       => true,
+// 	],
+// 	'darkmode-animation' => [
+// 		'title'       => 'Dark mode Toggle Animation',
+// 		'isPro'       => true,
+// 	],
+// 	'time-based' => [
+// 		'title'       => 'Time Based dark mode',
+// 		'isFree'       => true,
+// 	],
+// 	'page-wish' => [
+// 		'title'       => 'Page Wise Dark Mode',
+// 		'isPro'       => true,
+// 	],
+// 	'custom-text-color' => [
+// 		'title'       => 'Custom Switch Text & Color',
+// 		'isPro'       => true,
+// 	],
+// 	'ready-mode' => [
+// 		'title'       => 'Ready-made color schema',
+// 		'isFree'       => true,
+// 	],
+// 	'save-user' => [
+// 		'title'       => 'Save User Choice',
+// 		'isFree'       => true,
+// 	],
+// 	'live-edit' => [
+// 		'title'       => 'Dark Mode Live Edit Mode',
+// 		'isPro'       => true,
+// 	],
+// 	'color-adjust' => [
+// 		'title'       => 'Color Adjustment',
+// 		'isPro'       => true,
+// 	],
+// 	'dynamic-colors' => [
+// 		'title'       => 'Dynamic Color',
+// 		'isPro'       => true,
+// 	],
+// 	'custom-color' => [
+// 		'title'       => 'Custom Colors',
+// 		'isPro'       => true,
+// 	],
+// 	'presets' => [
+// 		'title'       => 'Presets',
+// 		'isPro'       => true,
+// 	],
+// 	'typography' => [
+// 		'title'       => 'Dark Mode Based Typography',
+// 		'isPro'       => true,
+// 	],
 
-		// 	'background-image' => [
-		// 		'title'       => 'Darken Background Images',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'low-brightness' => [
-		// 		'title'       => 'Low Brightness Images',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'multiple' => [
-		// 		'title'       => 'Multiple switches',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'grayscale' => [
-		// 		'title'       => 'Grayscale Images',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'invert' => [
-		// 		'title'       => 'Invert Images',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'replacement' => [
-		// 		'title'       => 'Image Replacement',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'logo-suport' => [
-		// 		'title'       => 'Dark mode logo support',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'image-support' => [
-		// 		'title'       => 'Dark mode based Image Support',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'video-support' => [
-		// 		'title'       => 'Dark mode based Video Support',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'popular-page' => [
-		// 		'title'       => 'Popular page builder support',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'classic-editor' => [
-		// 		'title'       => 'Classic Editor Compatibility',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'gutenberg' => [
-		// 		'title'       => 'Gutenberg Editor Compatibility',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'woocommerce' => [
-		// 		'title'       => 'WooCommerce Compatibility',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'wide-theme' => [
-		// 		'title'       => 'Wide Themes & Plugins Compatibility',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'button-shortcode' => [
-		// 		'title'       => 'Toggle Button Shortcode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'keybord' => [
-		// 		'title'       => 'Keybord Shortcode',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'custom-css' => [
-		// 		'title'       => 'Custom CSS Support',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'include' => [
-		// 		'title'       => 'Include Elements, Pages & Posts',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'exclude' => [
-		// 		'title'       => 'Excludes Elements, Pages & Posts',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'export-import' => [
-		// 		'title'       => 'Export, Import, Reset Settings',
-		// 		'isFree'       => true,
-		// 	],
-		// 	'email-report' => [
-		// 		'title'       => 'Usage Analytics & Email Report',
-		// 		'isPro'       => true,
-		// 	],
-		// 	'works-all-devices' => [
-		// 		'title'       => 'Works on all devices',
-		// 		'isFree'       => true,
-		// 	],
-		// ];
+// 	'background-image' => [
+// 		'title'       => 'Darken Background Images',
+// 		'isFree'       => true,
+// 	],
+// 	'low-brightness' => [
+// 		'title'       => 'Low Brightness Images',
+// 		'isFree'       => true,
+// 	],
+// 	'multiple' => [
+// 		'title'       => 'Multiple switches',
+// 		'isFree'       => true,
+// 	],
+// 	'grayscale' => [
+// 		'title'       => 'Grayscale Images',
+// 		'isFree'       => true,
+// 	],
+// 	'invert' => [
+// 		'title'       => 'Invert Images',
+// 		'isFree'       => true,
+// 	],
+// 	'replacement' => [
+// 		'title'       => 'Image Replacement',
+// 		'isPro'       => true,
+// 	],
+// 	'logo-suport' => [
+// 		'title'       => 'Dark mode logo support',
+// 		'isFree'       => true,
+// 	],
+// 	'image-support' => [
+// 		'title'       => 'Dark mode based Image Support',
+// 		'isPro'       => true,
+// 	],
+// 	'video-support' => [
+// 		'title'       => 'Dark mode based Video Support',
+// 		'isPro'       => true,
+// 	],
+// 	'popular-page' => [
+// 		'title'       => 'Popular page builder support',
+// 		'isFree'       => true,
+// 	],
+// 	'classic-editor' => [
+// 		'title'       => 'Classic Editor Compatibility',
+// 		'isFree'       => true,
+// 	],
+// 	'gutenberg' => [
+// 		'title'       => 'Gutenberg Editor Compatibility',
+// 		'isFree'       => true,
+// 	],
+// 	'woocommerce' => [
+// 		'title'       => 'WooCommerce Compatibility',
+// 		'isFree'       => true,
+// 	],
+// 	'wide-theme' => [
+// 		'title'       => 'Wide Themes & Plugins Compatibility',
+// 		'isFree'       => true,
+// 	],
+// 	'button-shortcode' => [
+// 		'title'       => 'Toggle Button Shortcode',
+// 		'isFree'       => true,
+// 	],
+// 	'keybord' => [
+// 		'title'       => 'Keybord Shortcode',
+// 		'isFree'       => true,
+// 	],
+// 	'custom-css' => [
+// 		'title'       => 'Custom CSS Support',
+// 		'isPro'       => true,
+// 	],
+// 	'include' => [
+// 		'title'       => 'Include Elements, Pages & Posts',
+// 		'isFree'       => true,
+// 	],
+// 	'exclude' => [
+// 		'title'       => 'Excludes Elements, Pages & Posts',
+// 		'isPro'       => true,
+// 	],
+// 	'export-import' => [
+// 		'title'       => 'Export, Import, Reset Settings',
+// 		'isFree'       => true,
+// 	],
+// 	'email-report' => [
+// 		'title'       => 'Usage Analytics & Email Report',
+// 		'isPro'       => true,
+// 	],
+// 	'works-all-devices' => [
+// 		'title'       => 'Works on all devices',
+// 		'isFree'       => true,
+// 	],
+// ];
 
-		?>
+?>
 
 
 
@@ -515,8 +515,15 @@ $features = [
 
 <section id="compare-features">
 	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 m-auto">
+				<div class="features-heading text-center">
+					<h5>Choose The <span>Best Plan</span> That Fits Your Needs</h5>
+					<p>We’ve created several packages with different features in them. These are priced according to the value they deliver.</p>
+				</div>
+			</div>
+		</div>
 
-		
 
 		<div class="row ">
 			<div class="col-lg-8 m-auto">

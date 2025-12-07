@@ -3,13 +3,13 @@
         <div class="row compare">
             <div class="col-lg-2 col-md-2 col-6 m-auto">
                 <div class="content">
-                    <h3>1500+</h3>
+                    <h3><span class="counter">4000</span>+</h3>
                     <p>Active installs from the community</p>
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-6 m-auto">
                 <div class="content">
-                    <h3>800+</h3>
+                    <h3><span class="counter">29</span>+</h3>
                     <p>Five Star Positive <br> Reviews</p>
                 </div>
             </div>
