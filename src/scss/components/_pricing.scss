@@ -5043,8 +5043,8 @@
         .pricing-btn {
           .features-btn {
             color: #2fb44b;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 16px;
+            // font-weight: 600;
             text-transform: capitalize;
             text-align: left;
             /* margin-top: auto; */
@@ -5065,6 +5065,7 @@
 
         .buy-btn-pro {
           color: #fff;
+          border-radius: 8px;
           display: inline-block;
           // margin-top: 30px;
           // margin: auto auto 0 auto;
@@ -5097,6 +5098,11 @@
 
           .btn-green {
             background: #28a745;
+            border: 1px solid #28a745;
+            &:hover {
+              background: transparent;
+              color: #28a745;
+            }
           }
 
           // &:hover {
@@ -5125,6 +5131,11 @@
 
           .btn-orange {
             background: #fd7e14;
+            border: 1px solid #fd7e14;
+            &:hover {
+              background: transparent;
+              color: #fd7e14;
+            }
           }
 
           // &:hover {
@@ -5155,6 +5166,11 @@
           // }
           .btn-blue {
             background: #007bff;
+            border: 1px solid #007bff;
+            &:hover {
+              background: transparent;
+              color: #007bff;
+            }
           }
 
           // &:hover {
@@ -5185,6 +5201,11 @@
 
           .btn-sky-blue {
             background: #02c4f0;
+            border: 1px solid #02c4f0;
+            &:hover {
+              background: transparent;
+              color: #02c4f0;
+            }
           }
 
           // &:hover {
@@ -5213,6 +5234,11 @@
 
           .btn-pink {
             background: #e83e8c;
+            border: 1px solid #e83e8c;
+            &:hover {
+              background: transparent;
+              color: #e83e8c;
+            }
           }
 
           // &:hover {
@@ -5438,7 +5464,7 @@
 
           span {
             color: #5c637e;
-            font-size: 0.8rem;
+            font-size: 0.8rem ! important;
             flex: 1;
             text-align: left;
 
@@ -6701,8 +6727,8 @@
         .pricing-btn {
           .features-btn {
             color: #2fb44b;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 16px;
+            // font-weight: 600;
             text-transform: capitalize;
             text-align: left;
             /* margin-top: auto; */
@@ -6723,6 +6749,7 @@
 
         .buy-btn-pro {
           color: #fff;
+          border-radius: 8px;
           display: inline-block;
           // margin-top: 30px;
           // margin: auto auto 0 auto;
@@ -6755,6 +6782,11 @@
 
           .btn-green {
             background: #28a745;
+            border: 1px solid #28a745;
+            &:hover {
+              background: transparent;
+              color: #28a745;
+            }
           }
 
           // &:hover {
@@ -6783,6 +6815,11 @@
 
           .btn-orange {
             background: #fd7e14;
+            border: 1px solid #fd7e14;
+            &:hover {
+              background: transparent;
+              color: #fd7e14;
+            }
           }
 
           // &:hover {
@@ -6813,6 +6850,11 @@
           // }
           .btn-blue {
             background: #007bff;
+            border: 1px solid #007bff;
+            &:hover {
+              background: transparent;
+              color: #007bff;
+            }
           }
 
           // &:hover {
@@ -6843,6 +6885,11 @@
 
           .btn-sky-blue {
             background: #02c4f0;
+            border: 1px solid #02c4f0;
+            &:hover {
+              background: transparent;
+              color: #02c4f0;
+            }
           }
 
           // &:hover {
@@ -6871,6 +6918,11 @@
 
           .btn-pink {
             background: #e83e8c;
+            border: 1px solid #e83e8c;
+            &:hover {
+              background: transparent;
+              color: #e83e8c;
+            }
           }
 
           // &:hover {
@@ -7230,11 +7282,11 @@
 
       .switch-text {
         &.annual {
-          color: #6e6d7e;
+          color: #fff;
         }
 
         &.lifetime {
-          color: #fff;
+          color: #6e6d7e;
         }
       }
 
@@ -7251,11 +7303,11 @@
       &.active {
         .switch-text {
           &.annual {
-            color: #fff;
+            color: #6e6d7e;
           }
 
           &.lifetime {
-            color: #6e6d7e;
+            color: #fff;
           }
         }
       }
@@ -7337,7 +7389,7 @@
         position: relative;
 
         .card-profe {
-          background: #60627c;
+          background: linear-gradient(180deg, #9088F3 0%, #7367FB 100%);
           padding: 10px 15px;
 
           h3 {
@@ -7379,8 +7431,8 @@
         .pricing-btn {
           .features-btn {
             color: #fff;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 16px;
+            // font-weight: 600;
             text-transform: capitalize;
             text-align: left;
             /* margin-top: auto; */
@@ -7453,7 +7505,7 @@
         }
 
         &.card-orange {
-          border-top: 3px solid #60627c;
+          border-top: 3px solid #FF901B;
           transition: linear 0.4s;
           .price-value {
             color: #ff901b;
@@ -7476,7 +7528,7 @@
         }
 
         &.card-blue {
-          border-top: 3px solid #60627c;
+          border-top: 3px solid #01C034;
           border-right: 1px solid #60627c;
           border-left: 1px solid #60627c;
           transition: linear 0.4s;
@@ -7501,7 +7553,7 @@
         }
 
         &.card-sky-blue {
-          border-top: 3px solid #60627c;
+          border-top: 3px solid #02C4F0;
           border-right: 1px solid #60627c;
           border-left: 1px solid #60627c;
           transition: linear 0.4s;
@@ -7526,7 +7578,7 @@
         }
 
         &.card-pink {
-          border-top: 3px solid #60627c;
+          border-top: 3px solid #F50BB3;
           transition: linear 0.4s;
           .price-value {
             color: #f50bb3;
@@ -8710,8 +8762,8 @@
         .pricing-btn {
           .features-btn {
             color: #1e62b9;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 16px;
+            // font-weight: 600;
             text-transform: capitalize;
             text-align: left;
             /* margin-top: auto; */
@@ -8732,6 +8784,7 @@
 
         .buy-btn-pro {
           color: #fff;
+          border-radius: 8px;
           display: inline-block;
           // margin-top: 30px;
           // margin: auto auto 0 auto;
@@ -8768,6 +8821,11 @@
 
           .btn-green {
             background: #1e62b9;
+            border: 1px solid #1e62b9;
+            &:hover {
+              background: transparent;
+              color: #1e62b9;
+            }
           }
 
           // &:hover {
@@ -8796,6 +8854,11 @@
 
           .btn-orange {
             background: #fd7e14;
+            border: 1px solid #fd7e14;
+            &:hover {
+              background: transparent;
+              color: #fd7e14;
+            }
           }
 
           // &:hover {
@@ -8826,6 +8889,11 @@
           // }
           .btn-blue {
             background: #2fb44b;
+            border: 1px solid #2fb44b;
+            &:hover {
+              background: transparent;
+              color: #2fb44b;
+            }
           }
 
           // &:hover {
@@ -8856,6 +8924,11 @@
 
           .btn-sky-blue {
             background: #02c4f0;
+            border: 1px solid #02c4f0;
+            &:hover {
+              background: transparent;
+              color: #02c4f0;
+            }
           }
 
           // &:hover {
@@ -8884,6 +8957,11 @@
 
           .btn-pink {
             background: #e83e8c;
+            border: 1px solid #e83e8c;
+            &:hover {
+              background: transparent;
+              color: #e83e8c;
+            }
           }
 
           // &:hover {
@@ -9422,8 +9500,8 @@
         .pricing-btn {
           .features-btn {
             color: #1e62b9;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 16px;
+            // font-weight: 600;
             text-transform: capitalize;
             text-align: left;
             /* margin-top: auto; */
@@ -9444,6 +9522,7 @@
 
         .buy-btn-pro {
           color: #fff;
+          border-radius: 8px;
           display: inline-block;
           // margin-top: 30px;
           // margin: auto auto 0 auto;
@@ -9478,6 +9557,11 @@
 
           .btn-green {
             background: #1e62b9;
+            border: 1px solid #1e62b9;
+            &:hover {
+              background: transparent;
+              color: #1e62b9;
+            }
           }
 
           // &:hover {
@@ -9506,6 +9590,11 @@
 
           .btn-orange {
             background: #fd7e14;
+            border: 1px solid #fd7e14;
+            &:hover {
+              background: transparent;
+              color: #fd7e14;
+            }
           }
 
           // &:hover {
@@ -9536,6 +9625,11 @@
           // }
           .btn-blue {
             background: #2f33b4;
+            border: 1px solid #2f33b4;
+            &:hover {
+              background: transparent;
+              color: #2f33b4;
+            }
           }
 
           // &:hover {
@@ -9566,6 +9660,11 @@
 
           .btn-sky-blue {
             background: #02c4f0;
+            border: 1px solid #02c4f0;
+            &:hover {
+              background: transparent;
+              color: #02c4f0;
+            }
           }
 
           // &:hover {
@@ -9594,6 +9693,11 @@
 
           .btn-pink {
             background: #e83e8c;
+            border: 1px solid #e83e8c;
+            &:hover {
+              background: transparent;
+              color: #e83e8c;
+            }
           }
 
           // &:hover {
@@ -10145,6 +10249,7 @@
     .feature-item {
       span {
         font-weight: normal;
+        font-size: 14px !important;
       }
     }
   }
