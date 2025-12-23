@@ -56,71 +56,35 @@ function slfm_metabox()
         'normal',
         'default'
     );
+    add_meta_box(
+        'slfm_fields_features_box_description',
+        'Template Fields Description',
+        'slfm_pages_fields_description_function',
+        'form',
+        'normal',
+        'default'
+    );
+    add_meta_box(
+        'slfm_fields_features_box',
+        'Template Fields Features',
+        'slfm_pages_fields_function',
+        'form',
+        'normal',
+        'default'
+    );
+
+    add_meta_box(
+        'slfm_description_box',
+        'Template Description',
+        'slfm_pages_function',
+        'form',
+        'normal',
+        'default'
+    );
 }
 add_action('add_meta_boxes', 'slfm_metabox');
 
-// /**
-//  * Render the meta box content
-//  * @param mixed $post
-//  * @return void
-//  */
-// function wpl_slfm_pages_function($post)
-// {
-//     // Add a nonce field for security
-//     wp_nonce_field('slfm_meta_box_nonce', 'slfm_meta_box_nonce');
 
-//     // Single URL fields
-//     // echo '<div class="slfm-metabox-field">';
-//     // echo '<label for="slfm_meta_field_url">Demo URL: </label>';
-//     // echo '<input type="url" id="slfm_meta_field_url" name="slfm_meta_field_url" value="' . esc_attr(get_post_meta($post->ID, 'slfm_meta_field_url', true)) . '">';
-//     // echo '</div>';
-//     // Save Job Responsibility fields.
-//     echo '<div class="softlab_custom_post-metabox-fields">';
-//     echo '<h3>Job Responsibility</h3>';
-
-//     $value = get_post_meta($post->ID, 'softlab_custom_job_responsibility_description', true);
-//     echo '<label for="softlab_custom_job_responsibility_description">Job Responsibility Description:</label>';
-//     echo '<textarea rows="4" cols="50" id="softlab_custom_job_responsibility_description" name="softlab_custom_job_responsibility_description">';
-//     echo esc_textarea($value);
-//     echo '</textarea>';
-//     echo '</div>';
-// }
-
-// /**
-//  * Save meta box data
-//  * @param mixed $post_id
-//  * @return void
-//  */
-// function slfm_save_meta_box_data($post_id)
-// {
-//     // Check if nonce is set and valid
-//     if (!isset($_POST['slfm_meta_box_nonce']) || !wp_verify_nonce($_POST['slfm_meta_box_nonce'], 'slfm_meta_box_nonce')) {
-//         return;
-//     }
-
-//     // Check if autosave
-//     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
-//         return;
-//     }
-
-//     // Check user permissions
-//     if (!current_user_can('edit_post', $post_id)) {
-//         return;
-//     }
-
-//     // Save single URL fields
-//     // if (isset($_POST['slfm_meta_field_url'])) {
-//     //     update_post_meta($post_id, 'slfm_meta_field_url', esc_url_raw($_POST['slfm_meta_field_url']));
-//     // }
-//     if (array_key_exists('softlab_custom_job_responsibility_description', $_POST)) {
-//         update_post_meta(
-//             $post_id,
-//             'softlab_custom_job_responsibility_description',
-//             sanitize_textarea_field($_POST['softlab_custom_job_responsibility_description'])
-//         );
-//     }
-// }
-// add_action('save_post', 'slfm_save_meta_box_data');
 
 /**
  * Render the meta box content with a WYSIWYG editor
@@ -183,3 +147,190 @@ function slfm_save_meta_box_data($post_id)
     }
 }
 add_action('save_post', 'slfm_save_meta_box_data');
+
+
+
+/**
+ * Render the meta box content with a WYSIWYG editor
+ * @param mixed $post
+ */
+function slfm_pages_function($post)
+{
+    // Add a nonce field for security
+    wp_nonce_field('slfm_meta_box_nonce', 'slfm_meta_box_nonce');
+
+    // Get saved meta value
+    $content = get_post_meta($post->ID, 'softlab_custom_description', true);
+
+    echo '<div class="softlab_custom_post-metabox-fields">';
+    echo '<label for="softlab_custom_description"></label>';
+
+    // Add WYSIWYG editor
+    wp_editor($content, 'softlab_custom_description', array(
+        'textarea_name' => 'softlab_custom_description',
+        'media_buttons' => true, 
+        // 'textarea_rows' => 6,
+        'teeny' => false, 
+        'quicktags' => true 
+    ));
+
+    echo '</div>';
+}
+add_action('add_meta_boxes', function () {
+    add_meta_box('softlab_meta_boxss', 'Job Responsibilities111', 'slfm_pages_function', 'post', 'normal', 'high');
+});
+
+/**
+ * Save meta box data
+ * @param mixed $post_id
+ */
+function slfm_save_meta_box_data_description($post_id)
+{
+    // Verify nonce
+    if (!isset($_POST['slfm_meta_box_nonce']) || !wp_verify_nonce($_POST['slfm_meta_box_nonce'], 'slfm_meta_box_nonce')) {
+        return;
+    }
+
+    // Prevent autosaving from interfering
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    // Check user permissions
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    // Save rich text content (allowing HTML)
+    if (isset($_POST['softlab_custom_description'])) {
+        update_post_meta(
+            $post_id,
+            'softlab_custom_description',
+            wp_kses_post($_POST['softlab_custom_description']) // Sanitizes rich text
+        );
+    }
+}
+add_action('save_post', 'slfm_save_meta_box_data_description');
+
+/**
+ * Render the meta box content with a WYSIWYG editor
+ * @param mixed $post
+ */
+function slfm_pages_fields_function($post)
+{
+    // Add a nonce field for security
+    wp_nonce_field('slfm_meta_box_nonce', 'slfm_meta_box_nonce');
+
+    // Get saved meta value
+    $content = get_post_meta($post->ID, 'softlab_custom_template_fields_features', true);
+
+    echo '<div class="softlab_custom_post-metabox-fields">';
+    echo '<label for="softlab_custom_template_fields_features"></label>';
+
+    // Add WYSIWYG editor
+    wp_editor($content, 'softlab_custom_template_fields_features', array(
+        'textarea_name' => 'softlab_custom_template_fields_features',
+        'media_buttons' => true, 
+        // 'textarea_rows' => 6,
+        'teeny' => false, 
+        'quicktags' => true 
+    ));
+
+    echo '</div>';
+}
+add_action('add_meta_boxes', function () {
+    add_meta_box('softlab_meta_boxss', 'Job Responsibilities11', 'slfm_pages_fields_function', 'post', 'normal', 'high');
+});
+
+/**
+ * Save meta box data
+ * @param mixed $post_id
+ */
+function slfm_save_meta_box_data_fields_features($post_id)
+{
+    // Verify nonce
+    if (!isset($_POST['slfm_meta_box_nonce']) || !wp_verify_nonce($_POST['slfm_meta_box_nonce'], 'slfm_meta_box_nonce')) {
+        return;
+    }
+
+    // Prevent autosaving from interfering
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    // Check user permissions
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    // Save rich text content (allowing HTML)
+    if (isset($_POST['softlab_custom_template_fields_features'])) {
+        update_post_meta(
+            $post_id,
+            'softlab_custom_template_fields_features',
+            wp_kses_post($_POST['softlab_custom_template_fields_features']) // Sanitizes rich text
+        );
+    }
+}
+add_action('save_post', 'slfm_save_meta_box_data_fields_features');
+/**
+ * Render the meta box content with a WYSIWYG editor
+ * @param mixed $post
+ */
+function slfm_pages_fields_description_function($post)
+{
+    // Add a nonce field for security
+    wp_nonce_field('slfm_meta_box_nonce', 'slfm_meta_box_nonce');
+
+    // Get saved meta value
+    $content = get_post_meta($post->ID, 'softlab_custom_template_fields_features_description', true);
+
+    echo '<div class="softlab_custom_post-metabox-fields">';
+    echo '<label for="softlab_custom_template_fields_features_description"></label>';
+
+    // Add WYSIWYG editor
+    wp_editor($content, 'softlab_custom_template_fields_features_description', array(
+        'textarea_name' => 'softlab_custom_template_fields_features_description',
+        'media_buttons' => true, 
+        // 'textarea_rows' => 6,
+        'teeny' => false, 
+        'quicktags' => true 
+    ));
+
+    echo '</div>';
+}
+add_action('add_meta_boxes', function () {
+    add_meta_box('softlab_meta_boxss', 'Job Responsibilities11', 'slfm_pages_fields_description_function', 'post', 'normal', 'high');
+});
+
+/**
+ * Save meta box data
+ * @param mixed $post_id
+ */
+function slfm_save_meta_box_data_fields_features_description($post_id)
+{
+    // Verify nonce
+    if (!isset($_POST['slfm_meta_box_nonce']) || !wp_verify_nonce($_POST['slfm_meta_box_nonce'], 'slfm_meta_box_nonce')) {
+        return;
+    }
+
+    // Prevent autosaving from interfering
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        return;
+    }
+
+    // Check user permissions
+    if (!current_user_can('edit_post', $post_id)) {
+        return;
+    }
+
+    // Save rich text content (allowing HTML)
+    if (isset($_POST['softlab_custom_template_fields_features_description'])) {
+        update_post_meta(
+            $post_id,
+            'softlab_custom_template_fields_features_description',
+            wp_kses_post($_POST['softlab_custom_template_fields_features_description']) // Sanitizes rich text
+        );
+    }
+}
+add_action('save_post', 'slfm_save_meta_box_data_fields_features_description');

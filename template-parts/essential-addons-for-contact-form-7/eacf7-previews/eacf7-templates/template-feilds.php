@@ -29,7 +29,8 @@ if (!empty($sl_meta_field)) {
             'mask_input' => 'Mask Input Field',
             'digital_signature' => 'Digital Signature Field',
             'file_upload' => 'File Upload Field',
-            'conversational_start' => 'Conversational Field',
+            'conversational_start' => 'Conversational Field Start',
+            'conversational_end' => 'Conversational Field End',
             'recaptcha' => 'Recaptcha Field',
             'hcaptcha' => 'Hcaptcha Field',
             'math_captcha' => 'Math Captcha Field',
@@ -72,16 +73,11 @@ if (!empty($sl_meta_field)) {
         // Regular expression to match CF7 fields
         preg_match_all('/\[(\w+)[^\]]*\]/', $form_raw, $matches);
 
-        // print_r( $sl_meta_field_type_mapping);
-
 
         // Extract field details
         $sl_meta_fields = [];
         foreach ($matches[1] as $type) {
             $clean_type = trim(str_replace('*', '', $type));
-            // var_dump($clean_type);
-
-            // echo $sl_meta_field_type_mapping[$clean_type];
 
             $title = $sl_meta_field_type_mapping[$clean_type] ?? ucfirst($clean_type) . ' field';
 
@@ -115,12 +111,13 @@ if (!empty($sl_meta_field)) {
             <?php
             if (! empty($sl_meta_fields)) {
                 foreach ($sl_meta_fields as $key => $sl_meta_field) {
+                    // echo $key;
                     $title  = !empty($sl_meta_field['title']) ? sanitize_text_field($sl_meta_field['title']) : '';
                     $is_pro = $sl_meta_field['is_pro'] ? 'pro' : '';
                     $icon   = get_template_directory_uri() . '/assets/images/cf7-extended/preview/icons/' . $sl_meta_field['type'] . '.png';
                     $crown   = $is_pro ? '<img class="img-fluid pro-crown" src="' . get_template_directory_uri() . '/assets/images/cf7-extended/preview/pro.png' . '" alt="crown"/>' : '';
             ?>
-                    <div class="span">
+                    <div class="span ">
                         <?php
                         echo sprintf('<div class="feilds-items %1$s text-center"><img class="img-fluid" src="%3$s" alt="image"/> %2$s %4$s</div>', $is_pro, $title, $icon, $crown);
                         ?>
@@ -135,6 +132,56 @@ if (!empty($sl_meta_field)) {
     </div>
 </section>
 
+<section class="template_description-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 m-auto">
+                <div class="template-feilds-hero-content text-center">
+                    <!-- <h3>Feature of this Template</h3> -->
+                    <p>
+                        <?php
+                        $description = get_post_meta(get_the_ID(), 'softlab_custom_template_fields_features_description', true);
+
+                        if (!empty($description)) {
+                            echo $description;
+                        } else {
+                            echo 'no description found';
+                        }
+                        ?>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="template_description_main">
+                    <?php
+                    $our_team_template_fields = get_post_meta(get_the_ID(), 'softlab_custom_template_fields_features', true);
+
+                    if (!empty($our_team_template_fields)) {
+                        $lines = explode("\n", $our_team_template_fields);
+
+                        echo '<ul>';
+                        foreach ($lines as $line) {
+                            $trimmed_line = trim($line);
+                            if (!empty($trimmed_line)) {
+                                echo '<li>' . wp_kses_post($trimmed_line) . '</li>';
+                            }
+                        }
+                        echo '</ul>';
+                    } else {
+                        echo '<p>No features listed.</p>';
+                    }
+                    ?>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 
 <section class="template_description-form">
@@ -240,7 +287,7 @@ if (!empty($sl_meta_field)) {
                                 <img class="img-fluid" src="<?php echo esc_url(get_the_post_thumbnail_url() ?: 'https://via.placeholder.com/150'); ?>" alt="<?php the_title_attribute(); ?>">
                                 <div class="item-button">
                                     <div class="buttons-group">
-                                        <a href="<?php the_permalink(); ?>" class="button1" ><i class="fa-solid fa-eye"></i> View Demo</a>
+                                        <a href="<?php the_permalink(); ?>" class="button1"><i class="fa-solid fa-eye"></i> View Demo</a>
                                     </div>
                                 </div>
                             </div>

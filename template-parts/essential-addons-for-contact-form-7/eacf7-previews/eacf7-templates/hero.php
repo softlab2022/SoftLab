@@ -6,7 +6,7 @@
     </div>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-12 m-auto">
                 <div class="eacf7-extended-hero-content text-center">
                     <h1><?php echo get_the_title(); ?></h1>
                     <p><?php echo get_the_excerpt(); ?></p>
