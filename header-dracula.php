@@ -40,7 +40,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
     <a href="#main" class="visually-hidden-focusable"><?php esc_html_e('Skip to main content', 'softlab'); ?></a>
 
   <!-- Sticky Notification -->
-   <?php get_template_part('template-parts/black-friday-sticky-banner'); ?>
+   <?php //get_template_part('template-parts/black-friday-sticky-banner'); ?>
 
     <div id="wrapper">
 
