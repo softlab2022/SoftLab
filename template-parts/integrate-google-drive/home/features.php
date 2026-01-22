@@ -5,6 +5,11 @@ $features = [
     // 	'title'       => 'Google Photos Integration',
     // 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
     // ],
+    'secured-google-drive-access' => [
+        'title'       => 'Secured Google Drive Access',
+        'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
+        'video' => '',
+    ],
     'review-approve-module' => [
         'title'       => 'Review & Approve Module',
         'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
@@ -102,7 +107,7 @@ $features = [
             $is_odd = $i % 2 == 0;
 
             $is_integration  = in_array($key, ['page-builder', 'form', 'media-library' ,'allow-specific-folders']);
-            $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders', 'list-files', 'review-approve-module']);
+            $is_integrations = in_array($key, ['media-library', 'google-photos', 'allow-specific-folders', 'list-files', 'review-approve-module','secured-google-drive-access']);
 
         ?>
             <div class="row feature-item align-items-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
@@ -177,7 +182,7 @@ $features = [
                         <?php if (! $is_integration && ! in_array($key, [
                             'multiple-accounts',
                             'shortcode-builder',
-                            'google-photos'
+                            'google-photos',
                         ])) { ?>
                             <a href="/integrate-google-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
                             <?php } ?>
